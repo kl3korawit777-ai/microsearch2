@@ -1,0 +1,7 @@
+cache/
+node_modules/
+reports/*.tmp
+__pycache__/
+
+# Project Hub: ค่าลับ (HUB_URL/HUB_KEY/HUB_TOKEN) ห้าม commit
+.hub.env
