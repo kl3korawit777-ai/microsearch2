@@ -1,0 +1,71 @@
+name: Deploy site
+
+# ทุกครั้งที่ push ไป main: validate -> pytest -> build -> ทดสอบหน้าเว็บ -> deploy
+# ถ้า validate (หรือขั้นไหนก่อนหน้า deploy) ล้ม job build จะล้ม และ job deploy ไม่ทำงาน เว็บจริงจึงยังเป็นเวอร์ชันเดิม
+# site/data/*.json ไม่อยู่ใน repo สร้างใหม่ที่นี่ทุกครั้ง
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: validate และ build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: validate (ไม่ผ่านแล้วหยุด ห้าม deploy)
+        run: python scripts/microsearch.py validate
+
+      - name: pytest
+        run: |
+          python -m pip install pytest
+          python -m pytest tests -q
+
+      - name: build (validate อีกครั้งในตัว แล้วสร้าง site/data)
+        run: python scripts/microsearch.py build
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: ติดตั้งแพ็กเกจ Node
+        run: npm ci
+
+      - name: ทดสอบหน้าเว็บ (ทุกหน้า x สองภาษา)
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: npm test
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    name: เผยแพร่
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

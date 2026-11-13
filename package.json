@@ -1,0 +1,14 @@
+{
+  "name": "microsearch2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Microsearch 2.0: ทดสอบหน้าเว็บ (e2e ด้วย puppeteer) ตัวเว็บเองเป็น static site ไม่ใช้ framework",
+  "scripts": {
+    "test": "node tests/e2e/pages.mjs",
+    "screens": "node tests/e2e/screens.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "25.13.0"
+  }
+}

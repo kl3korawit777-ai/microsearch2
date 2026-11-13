@@ -18,29 +18,43 @@
 docs/plan.md              แผนและบันทึกการตัดสินใจ
 design/prototype.html     ต้นแบบที่อนุมัติแล้ว (อ่านอย่างเดียว)
 seed/                     ข้อมูลตั้งต้นจากต้นแบบ (อ่านอย่างเดียว)
-data/                     ข้อมูลจริง JSON แยกไฟล์ (เฟส 1; groups.json ฯลฯ)
-data/generated/           ไฟล์ที่สคริปต์สร้าง (cache/ อยู่ใน .gitignore)
-reports/                  รายงานจากสคริปต์ (เช่น taxonomy-diff.md)
-scripts/microsearch.py    เครื่องมือหลักตัวเดียว (เฟส 1+; ยังไม่มี)
-site/                     หน้าเว็บที่ deploy (เฟส 3+; site/i18n/*.json สำหรับข้อความ)
-.github/workflows/        ตรวจข้อมูลก่อน deploy (เฟส 3)
+schema/*.schema.json      JSON Schema ของ organism, taxon, groups
+data/groups.json          กลุ่ม ลำดับขั้น ลักษณะ แท็ก (นำเข้าจาก seed)
+data/taxa.json            ทุกชื่อในแผนผัง (นำเข้าจาก seed)
+data/organisms/<group>.json  145 ชนิด แยกต่อกลุ่ม
+data/generated/           ไฟล์ที่สคริปต์สร้าง (taxa-fetched.json จาก fetch)
+cache/                    คำตอบดิบจาก GBIF/NCBI (อยู่ใน .gitignore)
+reports/                  รายงานจากสคริปต์ (taxonomy-diff.md, seed-issues.md) screens/ ไม่ commit
+scripts/microsearch.py    เครื่องมือหลักตัวเดียว
+site/                     หน้าเว็บที่ deploy
+  index.html, css/style.css, js/*.js (ES modules ไม่ใช้ framework), js/views/
+  i18n/th.json, en.json   ข้อความ UI ทั้งหมด (ห้ามฝังข้อความไทยใน JS)
+  data/*.json             สร้างจาก build ห้ามแก้เอง ไม่อยู่ใน repo
+tests/                    pytest (validate, fetch, build)
+tests/e2e/                puppeteer: pages.mjs (npm test), screens.mjs (npm run screens)
+.github/workflows/deploy.yml  validate -> pytest -> build -> e2e -> deploy Pages
 ```
 
-ยังไม่มีโค้ดเว็บและสคริปต์ ณ เฟส 0 โฟลเดอร์ข้างบนสร้างเมื่อถึงเฟสของมัน
+## คำสั่งที่ใช้
 
-## คำสั่งที่ใช้ (วางแผนตาม nexus-cells สร้างในเฟสถัดไป)
+บนเครื่อง Windows ของผู้ใช้ `python` ใน Git Bash เป็น stub ให้ใช้ `py` แทน (บน CI ใช้ `python`)
 
 ```bash
-python scripts/microsearch.py validate    # ตรวจข้อมูล (เฟส 1) ต้องผ่านก่อน deploy
-python scripts/microsearch.py fetch       # GBIF + NCBI เทียบลำดับชั้น (เฟส 2)
-python scripts/microsearch.py build       # รวมข้อมูลสำหรับเว็บ (เฟส 3)
-python scripts/microsearch.py images      # ตรวจรูป เครดิต license (เฟส 6)
-python scripts/microsearch.py coverage    # ตรวจช่องว่าง/อังกฤษ (เฟส 5)
-npm test                                  # ทดสอบฝั่งเว็บ i18n (เฟส 3+)
-npm run test:offline                      # ทดสอบ PWA ออฟไลน์ (เฟส 7)
+python scripts/microsearch.py import-seed [--force]   # seed/ -> data/ (ไม่ทับไฟล์ที่แก้แล้ว)
+python scripts/microsearch.py validate                # ตรวจข้อมูล ต้อง 0 error ก่อน deploy
+python scripts/microsearch.py fetch [--only id,..] [--refresh]   # GBIF + NCBI (cache ใน cache/)
+python scripts/microsearch.py taxonomy-diff           # reports/taxonomy-diff.md
+python scripts/microsearch.py build                   # validate แล้วสร้าง site/data/*.json
+python -m pytest tests                                # ทดสอบสคริปต์
+npm test                                              # e2e: ทุกหน้า x ไทย/อังกฤษ (build ให้เองก่อน)
+npm run screens                                       # screenshot เทียบต้นแบบ 1440px/390px
+python scripts/microsearch.py images                  # ตรวจรูป เครดิต license (เฟส 6 ยังไม่มี)
+python scripts/microsearch.py coverage                # ตรวจช่องว่าง/อังกฤษ (เฟส 5 ยังไม่มี)
+npm run test:offline                                  # ทดสอบ PWA ออฟไลน์ (เฟส 7 ยังไม่มี)
 ```
 
-Python 3 stdlib เท่านั้น Node ใช้เฉพาะงานทดสอบ/เครื่องมือ ระบุเวอร์ชันแน่นอนใน package.json
+Python 3 stdlib เท่านั้น (pytest ใช้เฉพาะตอนทดสอบ) Node ใช้เฉพาะงานทดสอบ ระบุเวอร์ชันแน่นอนใน package.json
+ต้องมี Chrome หรือ Edge สำหรับ `npm test` (ตั้ง `CHROME_PATH` ถ้าอยู่ที่อื่น)
 
 ## ทำเสมอ
 

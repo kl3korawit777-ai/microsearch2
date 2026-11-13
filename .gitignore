@@ -5,3 +5,7 @@ __pycache__/
 
 # Project Hub: ค่าลับ (HUB_URL/HUB_KEY/HUB_TOKEN) ห้าม commit
 .hub.env
+
+# สร้างโดย build (GitHub Actions สร้างให้ตอน deploy) ไม่ commit
+site/data/
+reports/screens/

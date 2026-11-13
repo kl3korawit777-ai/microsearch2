@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microsearch 2.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400;1,6..72,500&display=swap">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app" id="app">
+
+<header class="topbar">
+  <button type="button" class="icon-btn" id="menuBtn" aria-controls="side" aria-expanded="false" data-i18n-aria="openMenu">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M4 7h14M4 11h14M4 15h9"/></svg>
+  </button>
+  <a class="brand" href="#home">
+    <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="11" cy="12" r="3" fill="var(--bac-dot)"/><circle cx="20.5" cy="11" r="2.4" fill="var(--arc-dot)"/><circle cx="12.5" cy="21" r="2.6" fill="var(--fun-dot)"/><circle cx="21" cy="20" r="3.2" fill="var(--pro-dot)"/><circle cx="16" cy="6.5" r="1.9" fill="var(--pla-dot)"/><circle cx="16" cy="26" r="1.9" fill="var(--ani-dot)"/></svg>
+    <span class="brand-name"><b>Microsearch 2.0</b></span>
+  </a>
+  <button type="button" class="icon-btn push" id="topSearchBtn" data-i18n-aria="search">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg>
+  </button>
+</header>
+
+<div class="scrim" id="scrim" aria-hidden="true"></div>
+
+<nav class="side" id="side" data-i18n-aria="mainMenu">
+  <div class="side-head">
+    <a class="brand" href="#home" aria-label="Microsearch 2.0">
+      <svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="11" cy="12" r="3" fill="var(--bac-dot)"/><circle cx="20.5" cy="11" r="2.4" fill="var(--arc-dot)"/><circle cx="12.5" cy="21" r="2.6" fill="var(--fun-dot)"/><circle cx="21" cy="20" r="3.2" fill="var(--pro-dot)"/><circle cx="16" cy="6.5" r="1.9" fill="var(--pla-dot)"/><circle cx="16" cy="26" r="1.9" fill="var(--ani-dot)"/></svg>
+      <span class="brand-name lbl"><b>Microsearch 2.0</b><span data-i18n="tagline"></span></span>
+    </a>
+    <button type="button" class="icon-btn collapse-btn" id="collapseBtn" aria-expanded="true">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="14" height="12" rx="2.5"/><path d="M8 4v12"/></svg>
+    </button>
+    <button type="button" class="icon-btn close-btn" id="closeBtn" data-i18n-aria="closeMenu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"/></svg>
+    </button>
+  </div>
+
+  <div class="nav">
+    <a href="#home" data-route="home" data-i18n-aria="explore">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="5" r="2"/><circle cx="15" cy="5" r="2"/><circle cx="15" cy="15" r="2"/><path d="M5 7v4a4 4 0 0 0 4 4h4M7 5h6"/></svg>
+      <span class="lbl" data-i18n="explore"></span>
+    </a>
+  </div>
+
+  <div class="nav" id="groupNav">
+    <p class="nav-label" data-i18n="fourGroups"></p>
+  </div>
+
+  <div class="nav">
+    <a href="#sources" data-route="sources" data-i18n-aria="sources">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="M10 9v5M10 6.5v.01"/></svg>
+      <span class="lbl" data-i18n="sources"></span>
+    </a>
+  </div>
+
+  <div class="side-foot">
+    <div class="seg" role="group" data-i18n-aria="language">
+      <button type="button" data-lang="th" data-native lang="th" aria-pressed="true">ไทย</button>
+      <button type="button" data-lang="en" data-native lang="en" aria-pressed="false">English</button>
+    </div>
+    <div class="seg" role="group" data-i18n-aria="theme">
+      <button type="button" data-theme-set="auto" aria-pressed="true" data-i18n="themeAuto"></button>
+      <button type="button" data-theme-set="light" aria-pressed="false" data-i18n="themeLight"></button>
+      <button type="button" data-theme-set="dark" aria-pressed="false" data-i18n="themeDark"></button>
+    </div>
+  </div>
+</nav>
+
+<main class="main" id="main" tabindex="-1">
+  <div class="wrap" id="view"></div>
+</main>
+</div>
+
+<noscript>Microsearch 2.0 needs JavaScript. / Microsearch 2.0 ต้องเปิด JavaScript</noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
