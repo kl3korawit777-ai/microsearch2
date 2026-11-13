@@ -68,7 +68,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Gemmules_Spongilla_lacustris_2014-11-16_a_3723.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 637,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/spongilla-lacustris/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -146,7 +147,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Aurelia_aurita_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 908,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/aurelia-aurita/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -224,7 +226,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hydra_vulgaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/hydra-vulgaris/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -302,7 +305,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cicle_vital_d%27Opisthorchis_viverrini.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1026,
         "height": 523,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/opisthorchis-viverrini/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -380,7 +384,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Adult_Caenorhabditis_elegans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 395,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/caenorhabditis-elegans/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -459,7 +464,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Hirudinaria_%2810.3897-zookeys.933.49314%29_Figure_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 931,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/hirudinaria-manillensis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -538,7 +544,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pomacea_canaliculata_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 808,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/pomacea-canaliculata/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -616,7 +623,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gotha_Nautilus_pompilius-7434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1253,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/nautilus-pompilius/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -694,7 +702,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Aedes_Aegypti_Mosquitoes_%2826444995041%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/aedes-aegypti/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -773,7 +782,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Penaeus_monodon.IMG_20210504_124630%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/penaeus-monodon/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -851,7 +861,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Spiders_Genova_-_Heterometrus_laoticus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/heterometrus-laoticus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -929,7 +940,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Acanthaster_planci_%2826226795504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/acanthaster-planci/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1007,7 +1019,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sand-dwelling_organisms_%2810.3897-zookeys.705.12888%29_Figure_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 686,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/branchiostoma-belcheri/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1086,7 +1099,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Betta_Splendens_nanCy_1005895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 577,
         "height": 676,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/betta-splendens/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1165,7 +1179,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hoplobatrachus_rugulosus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 801,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/hoplobatrachus-rugulosus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1243,7 +1258,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/elephas-maximus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1321,7 +1337,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Dugesia_japonica_226612305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1200,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/dugesia-japonica/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1399,7 +1416,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Taenia_solium_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 849,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/taenia-solium/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1477,7 +1495,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Ascaris_Lumbricoides_that_had_caused_intestinal_obstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/ascaris-lumbricoides/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1555,7 +1574,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Gnathostoma_spinigerum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1070,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/gnathostoma-spinigerum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1634,7 +1654,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Perinereis_nuntia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/perinereis-nuntia/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1712,7 +1733,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tridacna_squamosa_%28Fluted_Giant_clam%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/tridacna-squamosa/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1790,7 +1812,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/%22Periplaneta_americana%22_connected_to_the_electrophysiology_equipment.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/periplaneta-americana/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1868,7 +1891,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Drosophila_melanogaster_Proboscis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/drosophila-melanogaster/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1947,7 +1971,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bombyx_mori_en_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/bombyx-mori/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2025,7 +2050,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Diadema_setosum_qtl1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 930,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/diadema-setosum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2103,7 +2129,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ciona_intestinalis_%28Linnaeus%2C_1767%29_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1081,
         "height": 986,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/ciona-intestinalis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2181,7 +2208,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Rhincodon_typus_420227783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 652,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/rhincodon-typus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2259,7 +2287,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/chelonia-mydas/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2338,7 +2367,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Gallus_gallus_at_Melaka_Crocodile_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/gallus-gallus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2417,7 +2447,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Homo_sapiens2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1040,
         "height": 780,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/homo-sapiens/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2495,7 +2526,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ornithorhynchus_anatinus_-_feeding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 803,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/ornithorhynchus-anatinus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2574,7 +2606,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Common_Earthworm_%28Lumbricus_terrestris%29_Plug%2C_Chapeltoun%2C_Scotland.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/lumbricus-terrestris/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2652,7 +2685,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Anopheles_minimus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 829,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/anopheles-minimus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2731,7 +2765,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Apis_Cerana_Bees_Honey_Comb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/apis-cerana/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2810,7 +2845,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D1%8B%D1%88%D1%8C_%28Mus_musculus%29%2C_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 721,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/mus-musculus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2888,7 +2924,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Danio_rerio.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/danio-rerio/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -2966,7 +3003,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hippocampus_kuda_%28Yellow_estuary_seahorse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 898,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/hippocampus-kuda/1-600.webp"
       }
     ],
     "review": "ai_draft",

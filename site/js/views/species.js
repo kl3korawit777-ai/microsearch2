@@ -13,7 +13,7 @@ function figure(s) {
   const img = s.d.images?.[0];
   if (!img) return `<figure class="art"><div class="art-box">${art(s.art)}</div><figcaption>${T('artCaption')}</figcaption></figure>`;
   const lic = img.license_url ? `<a href="${esc(img.license_url)}" rel="noopener">${esc(img.license)}</a>` : esc(img.license);
-  return `<figure class="art"><div class="art-box photo"><img src="${esc(img.url)}" fetchpriority="high" alt="${esc(s.sci)}" data-art="${esc(s.art)}" width="${img.width || ''}" height="${img.height || ''}" decoding="async"></div>` +
+  return `<figure class="art"><div class="art-box photo"><img src="${esc(img.url)}" ${img.url_small ? `srcset="${esc(img.url_small)} 600w, ${esc(img.url)} 1200w" sizes="(max-width: 899px) 92vw, 460px"` : ''} fetchpriority="high" alt="${esc(s.sci)}" data-art="${esc(s.art)}" width="${img.width || ''}" height="${img.height || ''}" decoding="async"></div>` +
     `<figcaption>${T('imgBy')} <span data-native>${esc(img.author)}</span> · ${lic} · <a href="${esc(img.source_url)}" rel="noopener">${T('imgOn')}</a></figcaption></figure>`;
 }
 

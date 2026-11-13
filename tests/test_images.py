@@ -322,3 +322,21 @@ def test_check_requires_species_without_images_to_be_in_the_report(checked, caps
     (tmp / "reports" / "images-missing.md").write_text("(empty)", encoding="utf-8")
     rc, out = run_check(ds, tmp, capsys)
     assert rc == 1 and "plasmodium-falciparum" in out and "ไม่อยู่ใน" in out
+
+
+def test_variants_command_adds_small_pictures_and_check_verifies_them(checked, capsys):
+    pytest.importorskip("PIL")
+    from PIL import Image
+    ds, tmp = checked
+    big = tmp / "site" / "images" / "escherichia-coli" / "1.webp"
+    Image.effect_noise((1200, 800), 50).convert("RGB").save(big, "WEBP", quality=60)
+    args = ms.build_parser().parse_args(["images", "--variants", "--data", ds.root, "--images-dir", str(tmp / "site" / "images")])
+    assert ms.cmd_images(args) == 0
+    small = tmp / "site" / "images" / "escherichia-coli" / "1-600.webp"
+    assert small.exists() and Image.open(small).width == ms.SMALL_WIDTH
+    assert orgs(ds)["escherichia-coli"]["images"][0]["url_small"] == "images/escherichia-coli/1-600.webp"
+    rc, out = run_check(ds, tmp, capsys)
+    assert rc == 0, out
+    small.unlink()
+    rc, out = run_check(ds, tmp, capsys)
+    assert rc == 1 and "ไม่พบไฟล์ขนาดเล็ก" in out

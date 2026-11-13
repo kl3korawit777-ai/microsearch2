@@ -1052,7 +1052,7 @@ def build_site_data(data_dir, illustrations_path):
         if synonyms.get(o["id"]):
             index[-1]["sy"] = synonyms[o["id"]]
         if o.get("images"):
-            index[-1]["img"] = o["images"][0]["url"]
+            index[-1]["img"] = o["images"][0].get("url_small") or o["images"][0]["url"]
             for im in o["images"]:
                 credits.append({"id": o["id"], "sci": o["scientific_name"], "file": im["url"], "author": im["author"], "license": im["license"],
                                 "license_url": im.get("license_url", ""), "source_url": im["source_url"], "title": im.get("title", "")})
@@ -1328,10 +1328,33 @@ def to_webp(raw, dest):
     return im.width, im.height, buf.tell()
 
 
+SMALL_WIDTH = 600
+
+
+def make_small(src_path, dest_path):
+    """ทำรูปขนาดเล็ก (กว้าง 600) จากรูปหลักที่ย่อแล้ว ใช้ในรายการย่อและมือถือเพื่อโหลดเร็ว"""
+    try:
+        from PIL import Image
+    except ImportError as e:
+        raise RuntimeError("ต้องติดตั้ง Pillow ก่อน: pip install Pillow") from e
+    img = Image.open(src_path)
+    img.load()
+    if img.mode not in ("RGB", "L"):
+        img = img.convert("RGB")
+    if img.width > SMALL_WIDTH:
+        img = img.resize((SMALL_WIDTH, max(1, round(img.height * SMALL_WIDTH / img.width))), Image.LANCZOS)
+    img.save(dest_path, "WEBP", quality=72, method=6)
+    return os.path.getsize(dest_path)
+
+
+def small_name(url):
+    return url[:-len(".webp")] + "-600.webp" if url.endswith(".webp") else url + "-600.webp"
+
+
 def image_record(org_id, n, c, size):
     lic = normalize_license(c["license_raw"])
     return {
-        "url": "images/%s/%d.webp" % (org_id, n), "author": c["author"], "license": lic,
+        "url": "images/%s/%d.webp" % (org_id, n), "url_small": "images/%s/%d-600.webp" % (org_id, n), "author": c["author"], "license": lic,
         "license_url": c["license_url"], "source_url": c["page"], "title": c["title"], "original_url": c["original"],
         "width": size[0], "height": size[1], "kind": "micrograph" if any(w in (" %s %s " % (c["title"], c["desc"])).lower() for w in MICRO_WORDS[:11]) else "photo",
     }
@@ -1342,9 +1365,33 @@ def save_orgs(path, items):
         f.write(json.dumps(items, ensure_ascii=False, indent=2) + "\n")
 
 
+def cmd_images_variants(args):
+    """เพิ่มรูปขนาดเล็ก (-600.webp) ให้รูปที่ยังไม่มี ไม่ใช้เครือข่าย"""
+    made = 0
+    for path in sorted(glob.glob(os.path.join(args.data, "organisms", "*.json"))):
+        items = load_json(path)
+        changed = False
+        for o in items:
+            for img in o.get("images", []):
+                src = os.path.normpath(os.path.join(args.images_dir, "..", img["url"]))
+                small = small_name(img["url"])
+                dest = os.path.normpath(os.path.join(args.images_dir, "..", small))
+                if os.path.exists(src) and (img.get("url_small") != small or not os.path.exists(dest)):
+                    make_small(src, dest)
+                    img["url_small"] = small
+                    changed = True
+                    made += 1
+        if changed:
+            save_orgs(path, items)
+    print("สร้างรูปขนาดเล็ก %d รูป" % made)
+    return 0
+
+
 def cmd_images(args, fetcher=None):
     if args.check:
         return cmd_images_check(args)
+    if args.variants:
+        return cmd_images_variants(args)
     fx = fetcher or Fetcher(args.cache, args.refresh, retries=6)
     if fetcher is None:
         fx.intervals["commons"] = COMMONS_MIN_INTERVAL
@@ -1389,6 +1436,7 @@ def cmd_images(args, fetcher=None):
                     raw = fx.get_bytes("commons-img", c["title"], c["thumb"])
                     dest = os.path.join(args.images_dir, o["id"], "%d.webp" % (len(saved) + 1))
                     size = to_webp(raw, dest)
+                    make_small(dest, dest[:-len(".webp")] + "-600.webp")
                 except (FetchError, OSError, ValueError) as e:
                     print("  ข้าม %s: %s" % (c["title"], e))
                     continue
@@ -1455,6 +1503,14 @@ def cmd_images_check(args):
                 problems.append("%s: license %r ไม่อยู่ในที่อนุญาต" % (tag, img["license"]))
             if img.get("source_url") and not str(img["source_url"]).startswith("https://commons.wikimedia.org/"):
                 problems.append("%s: source_url ไม่ใช่หน้าไฟล์ของ Commons" % tag)
+            small = img.get("url_small")
+            if small:
+                sp = os.path.normpath(os.path.join(base, small))
+                referenced.add(sp)
+                if not os.path.exists(sp):
+                    problems.append("%s: ไม่พบไฟล์ขนาดเล็ก %s" % (tag, small))
+                elif os.path.getsize(sp) > MAX_IMAGE_BYTES:
+                    problems.append("%s: ไฟล์ขนาดเล็กใหญ่เกิน" % tag)
             url = img.get("url", "")
             if url:
                 path = os.path.normpath(os.path.join(base, url))
@@ -1510,6 +1566,7 @@ def build_parser():
     s = sub.add_parser("images", help="หารูปจาก Wikimedia Commons ต่อชนิด (CC0, CC BY, CC BY-SA, Public domain) หรือตรวจด้วย --check")
     s.add_argument("--check", action="store_true", help="ตรวจเครดิต license ขนาด และไฟล์ ไม่ดึงอะไร")
     s.add_argument("--only", help="เฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
+    s.add_argument("--variants", action="store_true", help="สร้างรูปขนาดเล็ก (-600.webp) ให้รูปที่ยังไม่มี")
     s.add_argument("--redo", action="store_true", help="เลือกรูปใหม่แม้ชนิดนั้นมีรูปแล้ว")
     s.add_argument("--refresh", action="store_true", help="ไม่ใช้ cache ยิง API ใหม่")
     s.add_argument("--per-species", type=int, default=1, help="จำนวนรูปต่อชนิด (ค่าเริ่มต้น 1)")

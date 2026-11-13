@@ -59,7 +59,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/FieldofEuglena.gracilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/euglena-gracilis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -128,7 +129,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Exosome_Secretion_Affects_Social_Motility_in_Trypanosoma_brucei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 656,
         "height": 656,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/trypanosoma-brucei/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -197,7 +199,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Giardia_intestinalis_-_trophozoite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 853,
         "height": 849,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/giardia-intestinalis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -266,7 +269,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Paramecium_caudatum_Ehrenberg%2C_1833.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 959,
         "height": 728,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/paramecium-caudatum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -335,7 +339,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Plasmodium_falciparum_%28malaria%29_parasite_in_blood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1024,
         "height": 1024,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/plasmodium-falciparum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -404,7 +409,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Diatom_sperm_cells_--_2_%2835617965905%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1202,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/thalassiosira-pseudonana/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -473,7 +479,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chlamydomonas2-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1215,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/chlamydomonas-reinhardtii/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -542,7 +549,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Neopyropia_yezoensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/pyropia-yezoensis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -611,7 +619,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ameboid_Protozoa_Amoeba_proteus_%2837175354480%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 677,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/amoeba-proteus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -680,7 +689,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Blob_%28Physarum_polycephalum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 675,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/physarum-polycephalum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -749,7 +759,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Noctiluque_%28Noctiluca_scintillans%29_%28Ifremer_00689-80077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/noctiluca-scintillans/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -818,7 +829,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Naturalis_Biodiversity_Center_-_L.4025326_-_Sargassum_polycystum_C.Agardh_-_Sargassaceae_-_Plant_type_specimen.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1097,
         "height": 1920,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/sargassum-polycystum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -943,7 +955,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Niveles_de_gonidias_en_el_embri%C3%B3n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 644,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/volvox-carteri/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1012,7 +1025,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Micrograph_of_Entamoeba_histolytica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 700,
         "height": 461,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/entamoeba-histolytica/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1081,7 +1095,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Trichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1066,
         "height": 688,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/trichomonas-vaginalis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1150,7 +1165,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Amastogotes_of_Leishmania_donovani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 675,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/leishmania-donovani/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1219,7 +1235,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TOXOPLASMA_GONDII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 806,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/toxoplasma-gondii/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1288,7 +1305,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Dictyostelium_Fruiting_Bodies.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 698,
         "height": 1024,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/dictyostelium-discoideum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1357,7 +1375,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Phytophthora_infestans_Sporangium_zoospores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 451,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/phytophthora-infestans/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1427,7 +1446,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%D0%98%D0%BD%D1%84%D1%83%D0%B7%D0%BE%D1%80%D0%B8%D0%B8_Ophridium_versatile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/chlorella-vulgaris/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1496,7 +1516,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sea_grapes_%28Caulerpa_lentillifera%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1200,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/caulerpa-lentillifera/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1622,7 +1643,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Plasmodium_vivax_x100mag_%281%29UK_NEQAS_%287687060186%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/plasmodium-vivax/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1691,7 +1713,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Vorticella_campanula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 655,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/vorticella-campanula/1-600.webp"
       }
     ],
     "review": "ai_draft",

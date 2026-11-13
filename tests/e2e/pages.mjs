@@ -125,7 +125,7 @@ async function checkAllPages(lang, index, meta, credits) {
       if (s.img) {
         await page.waitForFunction(() => { const i = document.querySelector('.art-box.photo img'); return !i || (i.complete && i.naturalWidth > 0); }, { timeout: 8000 }).catch(() => {});
         const pic = await page.$eval('.art-box.photo img', (i) => ({ ok: i.complete && i.naturalWidth > 0, src: i.getAttribute('src') })).catch(() => null);
-        ok(pic && pic.ok && pic.src === s.img, `${tag}: photo missing or not loaded`);
+        ok(pic && pic.ok && pic.src.startsWith(`images/${s.id}/`), `${tag}: photo missing or not loaded`);
         const cap = await page.$eval('figure.art figcaption', (e) => e.textContent).catch(() => '');
         ok(/\S/.test(cap) && (await count(page, 'figure.art figcaption a')) >= 1, `${tag}: photo credit missing`);
       } else {

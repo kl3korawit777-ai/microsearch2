@@ -64,7 +64,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/UPEC_adhered_to_BEC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 600,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/escherichia-coli/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -138,7 +139,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Root_nodules_of_Fabaceae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 589,
         "height": 597,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/rhizobium-leguminosarum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -211,7 +213,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vibrio_cholerae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 979,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/vibrio-cholerae/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -285,7 +288,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bacillus_subtilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/bacillus-subtilis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -358,7 +362,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/20101212_205549_LactobacillusAcidophilus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/lactobacillus-acidophilus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -431,7 +436,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Staphylococcus_aureus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 932,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/staphylococcus-aureus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -505,7 +511,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Arthrospira_platensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 675,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/arthrospira-platensis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -579,7 +586,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nostoc_Commune_flyleaf_-_Thomas_Bolton_%2B_H._E._Forrest_-_1879.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 675,
         "height": 1082,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/nostoc-commune/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -653,7 +661,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Streptomyces_griseus_color_enhanced_scanning_electron_micrograph..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 601,
         "height": 412,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/streptomyces-griseus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -726,7 +735,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mycobacterium_Tuberculosis_with_sample_contamination_under_the_microscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 960,
         "height": 1280,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/mycobacterium-tuberculosis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -799,7 +809,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Treponema_pallidum_Bacteria_%28Syphilis%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1234,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/treponema-pallidum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -872,7 +883,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Oscillatoria_princeps.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/oscillatoria-princeps/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -946,7 +958,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pneumococcus_in_Gram-Stained_BAL_Sample.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/streptococcus-pneumoniae/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1020,7 +1033,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Agrobacterium_tumefaciens_a1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/agrobacterium-tumefaciens/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1094,7 +1108,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Clostridium_botulinum_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 645,
         "height": 610,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/clostridium-botulinum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1168,7 +1183,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Salmonella_enteritidis_in_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1364,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/salmonella-enterica/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1241,7 +1257,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Immunohistochemical_detection_of_Helicobacter_pylori_histopathology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 500,
         "height": 376,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/helicobacter-pylori/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1314,7 +1331,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Burkholderia_pseudomallei_gram_stain_safety_pin_apperance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 894,
         "height": 734,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/burkholderia-pseudomallei/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1387,7 +1405,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Leptospira_interrogans_strain_RGA_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1013,
         "height": 671,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/leptospira-interrogans/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1461,7 +1480,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/12915_2020_800_Fig1_HTML_%281%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 962,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/thermus-aquaticus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1535,7 +1555,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bacillus_thuringiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 886,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/bacillus-thuringiensis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1608,7 +1629,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/PDB_1iqc_EBI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/nitrosomonas-europaea/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1742,7 +1764,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/C0015116-Acetobacter_Aceti_Bacteria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 599,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/acetobacter-aceti/1-600.webp"
       }
     ],
     "review": "ai_draft",

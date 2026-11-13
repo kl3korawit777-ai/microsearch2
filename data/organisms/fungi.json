@@ -67,7 +67,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Batrachochytrium_species%2C_morphology_in_culture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 898,
         "height": 1191,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/batrachochytrium-dendrobatidis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -144,7 +145,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rhizopus_stolonifer_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 935,
         "height": 981,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/rhizopus-stolonifer/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -222,7 +224,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mycorhize_dans_racine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1023,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/rhizophagus-irregularis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -300,7 +303,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Saccharomyces_cerevisiae_100x_phase-contrast_microscopy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1199,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/saccharomyces-cerevisiae/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -378,7 +382,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Penicillium_notatum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1689,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/penicillium-chrysogenum/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -456,7 +461,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Aspergillus_oryzae_%28%E9%BA%B9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/aspergillus-oryzae/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -534,7 +540,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Volvariella_volvacea_mushroom_spawn_on_straw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/volvariella-volvacea/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -611,7 +618,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cryptococcus_in_India_Ink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 675,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/cryptococcus-neoformans/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -688,7 +696,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Neurospora_crassahyphae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 894,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/neurospora-crassa/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -766,7 +775,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Microscope_view_of_Aspergillus_flavus_fungus_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1065,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/aspergillus-flavus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -844,7 +854,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/20191213_GT_Pleurotus_ostreatus_var_columbinus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/pleurotus-ostreatus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -922,7 +933,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Het_pluak_gai_noi_%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%A7%E0%B8%81%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_termitomyces_fuliginosus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/termitomyces-fuliginosus/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -999,7 +1011,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Candida_albicans_-_Gram_stain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 675,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/candida-albicans/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1077,7 +1090,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cordyceps_Militaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/cordyceps-militaris/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1154,7 +1168,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/EB1911_Fungi_-_Puccinia_graminis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 675,
         "height": 870,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/puccinia-graminis/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1231,7 +1246,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pneumocystis_jiroveci-Plasma_cell_interstitial_pneumonia_Case_158_%285438412121%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/pneumocystis-jirovecii/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1308,7 +1324,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Aspergillus_niger_in_LPCB_Tease_Mount_at_1600X.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph"
+        "kind": "micrograph",
+        "url_small": "images/aspergillus-niger/1-600.webp"
       }
     ],
     "review": "ai_draft",
@@ -1386,7 +1403,8 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2015-08-17_Ganoderma_lucidum_%28Curtis%29_P._Karst_713895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 675,
-        "kind": "photo"
+        "kind": "photo",
+        "url_small": "images/ganoderma-lucidum/1-600.webp"
       }
     ],
     "review": "ai_draft",
