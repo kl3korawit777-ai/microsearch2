@@ -49,8 +49,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 7465722,
+      "ncbi": 3039
     }
   },
   {
@@ -103,8 +103,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 7822322,
+      "ncbi": 5691
     }
   },
   {
@@ -157,8 +157,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 8635830,
+      "ncbi": 5741
     }
   },
   {
@@ -211,8 +211,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 8122199,
+      "ncbi": 5885
     }
   },
   {
@@ -265,8 +265,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 10540993,
+      "ncbi": 5833
     }
   },
   {
@@ -319,8 +319,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3193414,
+      "ncbi": 35128
     }
   },
   {
@@ -373,8 +373,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5271221,
+      "ncbi": 3055
     }
   },
   {
@@ -427,8 +427,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 7713874,
+      "ncbi": 2788
     }
   },
   {
@@ -481,8 +481,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5425264,
+      "ncbi": 5775
     }
   },
   {
@@ -535,8 +535,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3214606,
+      "ncbi": 5791
     }
   },
   {
@@ -589,8 +589,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 8063862,
+      "ncbi": 2966
     }
   },
   {
@@ -643,8 +643,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3196717,
+      "ncbi": 127578
     }
   },
   {
@@ -697,8 +697,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2646966,
+      "ncbi": 332125
     }
   },
   {
@@ -751,8 +751,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2639377,
+      "ncbi": 3067
     }
   },
   {
@@ -805,8 +805,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3210505,
+      "ncbi": 5759
     }
   },
   {
@@ -860,7 +860,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 5722
     }
   },
   {
@@ -914,7 +914,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 5661
     }
   },
   {
@@ -967,8 +967,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 8014281,
+      "ncbi": 5811
     }
   },
   {
@@ -1021,8 +1021,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3212434,
+      "ncbi": 44689
     }
   },
   {
@@ -1075,8 +1075,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3203716,
+      "ncbi": 4787
     }
   },
   {
@@ -1130,8 +1130,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5270961,
+      "ncbi": 3077
     }
   },
   {
@@ -1184,8 +1184,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2642878,
+      "ncbi": 148947
     }
   },
   {
@@ -1240,7 +1240,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 1232878
     }
   },
   {
@@ -1294,7 +1294,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 5855
     }
   },
   {
@@ -1348,7 +1348,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 155140
     }
   }
 ]

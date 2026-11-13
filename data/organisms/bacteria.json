@@ -53,8 +53,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 6110934,
+      "ncbi": 562
     }
   },
   {
@@ -111,8 +111,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 9037540,
+      "ncbi": 384
     }
   },
   {
@@ -168,8 +168,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3222442,
+      "ncbi": 666
     }
   },
   {
@@ -226,8 +226,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 10826006,
+      "ncbi": 1423
     }
   },
   {
@@ -283,8 +283,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 7485397,
+      "ncbi": 1579
     }
   },
   {
@@ -340,8 +340,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3227657,
+      "ncbi": 1280
     }
   },
   {
@@ -398,8 +398,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3218108,
+      "ncbi": 118562
     }
   },
   {
@@ -456,8 +456,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 8225325,
+      "ncbi": 1178
     }
   },
   {
@@ -514,8 +514,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 8778525,
+      "ncbi": 1911
     }
   },
   {
@@ -571,8 +571,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3225140,
+      "ncbi": 1773
     }
   },
   {
@@ -597,7 +597,7 @@
       },
       {
         "rank": "order",
-        "name": "Spirochaetales"
+        "name": "Treponematales"
       },
       {
         "rank": "family",
@@ -628,8 +628,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3228214,
+      "ncbi": 160
     }
   },
   {
@@ -685,8 +685,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3218836,
+      "ncbi": 132603
     }
   },
   {
@@ -744,7 +744,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 1313
     }
   },
   {
@@ -801,8 +801,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 9333004,
+      "ncbi": 358
     }
   },
   {
@@ -860,7 +860,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 1491
     }
   },
   {
@@ -917,8 +917,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 9701185,
+      "ncbi": 28901
     }
   },
   {
@@ -975,7 +975,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 210
     }
   },
   {
@@ -1031,8 +1031,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3219968,
+      "ncbi": 28450
     }
   },
   {
@@ -1088,8 +1088,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 8796208,
+      "ncbi": 173
     }
   },
   {
@@ -1146,8 +1146,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5426400,
+      "ncbi": 271
     }
   },
   {
@@ -1204,8 +1204,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5428045,
+      "ncbi": 1428
     }
   },
   {
@@ -1261,8 +1261,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3220369,
+      "ncbi": 915
     }
   },
   {
@@ -1319,7 +1319,7 @@
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
-      "ncbi": null
+      "ncbi": 913
     }
   },
   {
@@ -1344,7 +1344,7 @@
       },
       {
         "rank": "order",
-        "name": "Rhodospirillales"
+        "name": "Acetobacterales"
       },
       {
         "rank": "family",
@@ -1376,8 +1376,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3221529,
+      "ncbi": 435
     }
   }
 ]

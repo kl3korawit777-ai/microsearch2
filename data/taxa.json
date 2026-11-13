@@ -31,6 +31,14 @@
     "about_en": "Acid-tolerant acetic acid bacteria that oxidize ethanol to acetic acid.",
     "review": "ai_draft"
   },
+  "Acetobacterales": {
+    "rank": "order",
+    "reading_th": "อะซิโตแบคเทอราเลส",
+    "common_th": "",
+    "about_th": "แอลฟาโพรทีโอแบคทีเรียที่รวมแบคทีเรียกรดแอซิติก แยกจาก Rhodospirillales เดิม",
+    "about_en": "Alphaproteobacteria that include the acetic acid bacteria, split from the former Rhodospirillales.",
+    "review": "ai_draft"
+  },
   "Actinobacteria": {
     "rank": "phylum",
     "reading_th": "แอกทิโนแบคทีเรีย",
@@ -2135,6 +2143,14 @@
     "about_en": "Rod-shaped methane makers with pseudopeptidoglycan walls.",
     "review": "ai_draft"
   },
+  "Methanobacteriota": {
+    "rank": "phylum",
+    "reading_th": "เมทาโนแบคทีริโอตา",
+    "common_th": "",
+    "about_th": "ไฟลัมอาร์เคียที่แยกจาก Euryarchaeota เดิม รวมพวกสร้างมีเทนและพวกชอบร้อนจัดบางกลุ่ม",
+    "about_en": "An archaeal phylum split from the former Euryarchaeota, including methane makers and some extreme heat lovers.",
+    "review": "ai_draft"
+  },
   "Methanobrevibacter": {
     "rank": "genus",
     "reading_th": "เมทาโนเบรวิแบคเตอร์",
@@ -2799,6 +2815,22 @@
     "about_en": "Gilled mushrooms whose gills are free of the stem and whose spores are pink; some genera have a cup at the base (volva).",
     "review": "ai_draft"
   },
+  "Pneumocystaceae": {
+    "rank": "family",
+    "reading_th": "นิวโมซิสตาซีอี",
+    "common_th": "",
+    "about_th": "ฟังไจที่ยาต้านเชื้อรากลุ่มที่ออกฤทธิ์ต่อเออร์โกสเตอรอลใช้ไม่ได้ผล ชื่อวงศ์ที่ฐานข้อมูลปัจจุบันใช้แทน Pneumocystidaceae",
+    "about_en": "Fungi unaffected by the antifungals that target ergosterol. The family name current databases use instead of Pneumocystidaceae.",
+    "review": "ai_draft"
+  },
+  "Pneumocystales": {
+    "rank": "order",
+    "reading_th": "นิวโมซิสทาเลส",
+    "common_th": "",
+    "about_th": "ฟังไจในปอดที่เพาะเลี้ยงนอกร่างกายไม่ได้ ชื่ออันดับที่ฐานข้อมูลปัจจุบันใช้แทน Pneumocystidales",
+    "about_en": "Lung fungi that cannot be grown outside the body. The order name current databases use instead of Pneumocystidales.",
+    "review": "ai_draft"
+  },
   "Pneumocystidaceae": {
     "rank": "family",
     "reading_th": "นิวโมซิสติดาซีอี",
@@ -2829,6 +2861,14 @@
     "common_th": "",
     "about_th": "",
     "about_en": "",
+    "review": "ai_draft"
+  },
+  "Pneumocystomycetes": {
+    "rank": "class",
+    "reading_th": "นิวโมซิสโตไมซีทีส",
+    "common_th": "",
+    "about_th": "ฟังไจที่อาศัยในปอดของสัตว์เลี้ยงลูกด้วยน้ำนม และเยื่อหุ้มเซลล์แทบไม่มีเออร์โกสเตอรอล ชื่อคลาสที่ฐานข้อมูลปัจจุบันใช้แทน Pneumocystidomycetes",
+    "about_en": "Fungi that live in mammal lungs and have almost no ergosterol in their membranes. The class name current databases use instead of Pneumocystidomycetes.",
     "review": "ai_draft"
   },
   "Poaceae": {
@@ -3141,6 +3181,14 @@
     "common_th": "",
     "about_th": "ไคทริดที่หลายชนิดเป็นปรสิตในสาหร่าย ละอองเรณู หรือสัตว์สะเทินน้ำสะเทินบก",
     "about_en": "Chytrids, many of them parasites of algae, pollen or amphibians.",
+    "review": "ai_draft"
+  },
+  "Rhizopodaceae": {
+    "rank": "family",
+    "reading_th": "ไรโซโพดาซีอี",
+    "common_th": "",
+    "about_th": "ราที่อับสปอร์กลมอยู่บนก้านชูตั้งตรง และมีไรซอยด์ยึดอาหาร ชื่อวงศ์ที่ฐานข้อมูลปัจจุบันใช้แทน Mucoraceae สำหรับสกุล Rhizopus",
+    "about_en": "Molds with round sporangia on upright stalks and rhizoids anchoring them to food. The family name current databases use instead of Mucoraceae for Rhizopus.",
     "review": "ai_draft"
   },
   "Rhizopus": {
@@ -3655,6 +3703,14 @@
     "about_en": "Wall-less archaea that hold their shape with special membrane lipids.",
     "review": "ai_draft"
   },
+  "Thermoplasmatota": {
+    "rank": "phylum",
+    "reading_th": "เทอร์โมพลาสมาโตตา",
+    "common_th": "",
+    "about_th": "ไฟลัมอาร์เคียที่แยกจาก Euryarchaeota เดิม มีพวกชอบร้อนและกรด เช่น Thermoplasma",
+    "about_en": "An archaeal phylum split from the former Euryarchaeota, including heat- and acid-loving groups such as Thermoplasma.",
+    "review": "ai_draft"
+  },
   "Thermoprotei": {
     "rank": "class",
     "reading_th": "เทอร์โมโปรตีไอ",
@@ -3733,6 +3789,14 @@
     "common_th": "",
     "about_th": "สไปโรคีตที่หลายชนิดอาศัยในคนและสัตว์ และเพาะเลี้ยงในห้องปฏิบัติการได้ยาก",
     "about_en": "Spirochetes that often live in people and animals and are hard to culture in the lab.",
+    "review": "ai_draft"
+  },
+  "Treponematales": {
+    "rank": "order",
+    "reading_th": "เทรโพเนมาทาเลส",
+    "common_th": "",
+    "about_th": "สไปโรคีตที่เกลียวบางมาก ต้องการออกซิเจนน้อยหรือไม่ใช้เลย ชื่ออันดับที่ฐานข้อมูลปัจจุบันใช้แทน Spirochaetales สำหรับสกุล Treponema",
+    "about_en": "Very thin spirochetes that need little or no oxygen. The order name current databases use instead of Spirochaetales for Treponema.",
     "review": "ai_draft"
   },
   "Trichomonas": {

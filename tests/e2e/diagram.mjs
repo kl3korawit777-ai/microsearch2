@@ -26,9 +26,11 @@ function expectedNodes(gid) {
   return { counts, taxa };
 }
 
-async function open(page, hash) {
+// Open the home page showing group `gid`; wait until the diagram of that group is rendered
+// (a hash-only navigation keeps the old document, so data-ready alone would match the previous group).
+async function open(page, hash, gid) {
   await page.goto(`${base}/#${hash}`, { waitUntil: 'load' });
-  await page.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home', { timeout: 15000 });
+  await page.waitForFunction((g) => document.documentElement.getAttribute('data-ready') === 'home' && document.querySelector('.dg-chip[aria-pressed="true"]')?.dataset.v === g, { timeout: 15000 }, gid);
 }
 
 const panelScan = (page) => page.evaluate(() => {
@@ -61,7 +63,7 @@ for (const lang of ['th', 'en']) {
   for (const g of meta.groups) {
     const tag = `[${lang}] ${g.id}`;
     const { counts, taxa } = expectedNodes(g.id);
-    await open(page, `home?dg=${g.id}`);
+    await open(page, `home?dg=${g.id}`, g.id);
     const nodes = await page.$$eval('.dg-node', (els) => els.map((e) => ({ key: e.dataset.v, k: e.dataset.k, level: +e.dataset.level, parent: e.dataset.parent, label: e.querySelector('.dg-l').textContent })));
     ok(nodes.length === counts.size && nodes.every((n) => counts.has(n.key)), `${tag}: diagram nodes ${nodes.length} != ${counts.size} in data`);
     ok((await page.$$eval('.dg-rank', (e) => e.length)) === g.ranks.length, `${tag}: rank headings`);
@@ -124,7 +126,7 @@ for (const lang of ['th', 'en']) {
   }
 
   // keyboard: arrows move between nodes, Enter selects, Escape clears; hover highlights the path
-  await open(page, 'home?dg=bacteria');
+  await open(page, 'home?dg=bacteria', 'bacteria');
   const rootBtn = await page.$('.dg-node.root');
   await rootBtn.focus();
   await page.keyboard.press('ArrowRight');

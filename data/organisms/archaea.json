@@ -53,8 +53,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 7357253,
+      "ncbi": 2242
     },
     "extra_th": {
       "lede": "อาร์เคียที่อยู่ได้ในน้ำเกลือเข้มข้นจนสิ่งมีชีวิตส่วนใหญ่ตาย พบในบ่อตากเกลือและทะเลสาบน้ำเค็มจัด เซลล์มีรงควัตถุสีแดงและโปรตีนที่ใช้พลังงานแสงได้ จึงเป็นทั้งตัวทำให้นาเกลือเป็นสีชมพูและเป็นสิ่งมีชีวิตต้นแบบในงานวิจัย",
@@ -175,7 +175,7 @@
       },
       {
         "rank": "phylum",
-        "name": "Euryarchaeota"
+        "name": "Methanobacteriota"
       },
       {
         "rank": "class",
@@ -215,8 +215,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 1000108,
+      "ncbi": 2173
     }
   },
   {
@@ -233,7 +233,7 @@
       },
       {
         "rank": "phylum",
-        "name": "Euryarchaeota"
+        "name": "Methanobacteriota"
       },
       {
         "rank": "class",
@@ -273,8 +273,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 1000309,
+      "ncbi": 2261
     }
   },
   {
@@ -331,8 +331,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 1000053,
+      "ncbi": 2285
     }
   },
   {
@@ -388,8 +388,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 6453388,
+      "ncbi": 338192
     }
   },
   {
@@ -446,8 +446,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 1000340,
+      "ncbi": 2208
     }
   },
   {
@@ -464,7 +464,7 @@
       },
       {
         "rank": "phylum",
-        "name": "Euryarchaeota"
+        "name": "Methanobacteriota"
       },
       {
         "rank": "class",
@@ -503,8 +503,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 1000159,
+      "ncbi": 2190
     }
   },
   {
@@ -529,7 +529,7 @@
       },
       {
         "rank": "order",
-        "name": "Haloferacales"
+        "name": "Halobacteriales"
       },
       {
         "rank": "family",
@@ -560,8 +560,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 1000201,
+      "ncbi": 2246
     }
   },
   {
@@ -578,7 +578,7 @@
       },
       {
         "rank": "phylum",
-        "name": "Euryarchaeota"
+        "name": "Thermoplasmatota"
       },
       {
         "rank": "class",
@@ -617,8 +617,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 1000089,
+      "ncbi": 2303
     }
   }
 ]

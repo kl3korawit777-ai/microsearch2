@@ -7,10 +7,10 @@
 
 | หมวด | จำนวนชนิด |
 | --- | --- |
-| ต่างกันจริง | 70 |
-| ชื่อใหม่ของชื่อเดียวกัน | 7 |
+| ต่างกันจริง | 62 |
+| ชื่อใหม่ของชื่อเดียวกัน | 10 |
 | หาไม่เจอ | 0 |
-| ตรงกันหมด | 68 |
+| ตรงกันหมด | 73 |
 | รวม | 145 จาก 145 |
 
 วิธีเทียบ:
@@ -21,7 +21,7 @@
 - ชนิดที่ GBIF/NCBI ไม่พบ (หรือเป็น FUZZY/HIGHERRANK) ใช้ id เป็น null ไม่เดา
 - ชนิดที่พบแหล่งเดียว (10 ชนิด) เทียบกับแหล่งที่พบ: clostridium-botulinum, helicobacter-pylori, nitrobacter-winogradskyi, equisetum-debile, streptococcus-pneumoniae, trichomonas-vaginalis, leishmania-donovani, gracilaria-fisheri, plasmodium-vivax, vorticella-campanula
 
-## ต่างกันจริง (70 ชนิด)
+## ต่างกันจริง (62 ชนิด)
 
 | ชนิด | ลำดับขั้น | ของเรา | GBIF | NCBI | ข้อเสนอ |
 | --- | --- | --- | --- | --- | --- |
@@ -35,18 +35,13 @@
 | *Danio rerio* (animals) | family | Danionidae | Cyprinidae | Danionidae | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
 | *Hippocampus kuda* (animals) | class | Actinopterygii | — | Actinopteri | ตรวจเอง (มีแหล่งเดียว: NCBI) |
 | *Halobacterium salinarum* (archaea) | phylum | Euryarchaeota | Halobacteriota | Methanobacteriota | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
-| *Methanobrevibacter smithii* (archaea) | phylum | Euryarchaeota | Methanobacteriota | Methanobacteriota | เสนอเปลี่ยนเป็น Methanobacteriota (GBIF และ NCBI ตรงกัน) |
-| *Pyrococcus furiosus* (archaea) | phylum | Euryarchaeota | Methanobacteriota | Methanobacteriota | เสนอเปลี่ยนเป็น Methanobacteriota (GBIF และ NCBI ตรงกัน) |
 | *Sulfolobus acidocaldarius* (archaea) | phylum | Crenarchaeota | Thermoproteota | Thermoproteota | คงชื่อตำรา Crenarchaeota แสดงชื่อใหม่ Thermoproteota คู่กัน (ตามที่ตั้งใจ) |
 | *Sulfolobus acidocaldarius* (archaea) | class | Thermoprotei | Thermoproteia | Thermoprotei | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
 | *Nitrosopumilus maritimus* (archaea) | phylum | Thaumarchaeota | Thermoproteota | Nitrososphaerota | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
 | *Nitrosopumilus maritimus* (archaea) | order | Nitrosopumilales | Nitrososphaerales | Nitrosopumilales | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
 | *Methanosarcina barkeri* (archaea) | phylum | Euryarchaeota | Halobacteriota | Methanobacteriota | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
 | *Methanosarcina barkeri* (archaea) | class | Methanomicrobia | Methanosarcinia | Methanomicrobia | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
-| *Methanocaldococcus jannaschii* (archaea) | phylum | Euryarchaeota | Methanobacteriota | Methanobacteriota | เสนอเปลี่ยนเป็น Methanobacteriota (GBIF และ NCBI ตรงกัน) |
 | *Haloferax volcanii* (archaea) | phylum | Euryarchaeota | Halobacteriota | Methanobacteriota | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
-| *Haloferax volcanii* (archaea) | order | Haloferacales | Halobacteriales | Halobacteriales | เสนอเปลี่ยนเป็น Halobacteriales (GBIF และ NCBI ตรงกัน) |
-| *Thermoplasma acidophilum* (archaea) | phylum | Euryarchaeota | Thermoplasmatota | Thermoplasmatota | เสนอเปลี่ยนเป็น Thermoplasmatota (GBIF และ NCBI ตรงกัน) |
 | *Rhizobium leguminosarum* (bacteria) | phylum | Proteobacteria | Proteobacteria | Pseudomonadota | คงชื่อตำรา Proteobacteria แสดงชื่อใหม่ Pseudomonadota คู่กัน (ตามที่ตั้งใจ) |
 | *Rhizobium leguminosarum* (bacteria) | order | Rhizobiales | Rhizobiales | Hyphomicrobiales | ตรวจเอง (NCBI ต่าง อีกแหล่งตรงกับเรา) |
 | *Vibrio cholerae* (bacteria) | phylum | Proteobacteria | Proteobacteria | Pseudomonadota | คงชื่อตำรา Proteobacteria แสดงชื่อใหม่ Pseudomonadota คู่กัน (ตามที่ตั้งใจ) |
@@ -69,8 +64,6 @@
 | *Streptomyces griseus* (bacteria) | order | Streptomycetales | Streptomycetales | Kitasatosporales | ตรวจเอง (NCBI ต่าง อีกแหล่งตรงกับเรา) |
 | *Mycobacterium tuberculosis* (bacteria) | phylum | Actinobacteria | Actinobacteriota | Actinomycetota | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
 | *Mycobacterium tuberculosis* (bacteria) | class | Actinomycetes | Actinomycetia | Actinomycetes | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
-| *Treponema pallidum* (bacteria) | phylum | Spirochaetes | Spirochaetota | Spirochaetota | คงชื่อตำรา Spirochaetes แสดงชื่อใหม่ Spirochaetota คู่กัน (ตามที่ตั้งใจ) |
-| *Treponema pallidum* (bacteria) | order | Spirochaetales | Treponematales | Treponematales | เสนอเปลี่ยนเป็น Treponematales (GBIF และ NCBI ตรงกัน) |
 | *Oscillatoria princeps* (bacteria) | phylum | Cyanobacteria | Cyanobacteria | Cyanobacteriota | คงชื่อตำรา Cyanobacteria แสดงชื่อใหม่ Cyanobacteriota คู่กัน (ตามที่ตั้งใจ) |
 | *Oscillatoria princeps* (bacteria) | class | Cyanophyceae | Cyanobacteriia | Cyanophyceae | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
 | *Oscillatoria princeps* (bacteria) | order | Oscillatoriales | Cyanobacteriales | Oscillatoriales | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
@@ -93,23 +86,15 @@
 | *Nitrosomonas europaea* (bacteria) | order | Nitrosomonadales | Burkholderiales | Nitrosomonadales | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
 | *Nitrobacter winogradskyi* (bacteria) | phylum | Proteobacteria | — | Pseudomonadota | คงชื่อตำรา Proteobacteria แสดงชื่อใหม่ Pseudomonadota คู่กัน (ตามที่ตั้งใจ) |
 | *Nitrobacter winogradskyi* (bacteria) | order | Rhizobiales | — | Hyphomicrobiales | ตรวจเอง (มีแหล่งเดียว: NCBI) |
-| *Acetobacter aceti* (bacteria) | phylum | Proteobacteria | Proteobacteria | Pseudomonadota | คงชื่อตำรา Proteobacteria แสดงชื่อใหม่ Pseudomonadota คู่กัน (ตามที่ตั้งใจ) |
-| *Acetobacter aceti* (bacteria) | order | Rhodospirillales | Acetobacterales | Acetobacterales | เสนอเปลี่ยนเป็น Acetobacterales (GBIF และ NCBI ตรงกัน) |
 | *Batrachochytrium dendrobatidis* (fungi) | class | Chytridiomycetes | Rhizophydiomycetes | Chytridiomycetes | ตรวจเอง (GBIF ต่าง อีกแหล่งตรงกับเรา) |
-| *Rhizopus stolonifer* (fungi) | phylum | Zygomycota | Mucoromycota | Mucoromycota | คงชื่อตำรา Zygomycota แสดงชื่อใหม่ Mucoromycota คู่กัน (ตามที่ตั้งใจ) |
-| *Rhizopus stolonifer* (fungi) | family | Mucoraceae | Rhizopodaceae | Rhizopodaceae | เสนอเปลี่ยนเป็น Rhizopodaceae (GBIF และ NCBI ตรงกัน) |
 | *Candida albicans* (fungi) | class | Saccharomycetes | Saccharomycetes | Pichiomycetes | ตรวจเอง (NCBI ต่าง อีกแหล่งตรงกับเรา) |
 | *Candida albicans* (fungi) | order | Saccharomycetales | Saccharomycetales | Serinales | ตรวจเอง (NCBI ต่าง อีกแหล่งตรงกับเรา) |
-| *Pneumocystis jirovecii* (fungi) | class | Pneumocystidomycetes | Pneumocystomycetes | Pneumocystomycetes | เสนอเปลี่ยนเป็น Pneumocystomycetes (GBIF และ NCBI ตรงกัน) |
-| *Pneumocystis jirovecii* (fungi) | order | Pneumocystidales | Pneumocystales | Pneumocystales | เสนอเปลี่ยนเป็น Pneumocystales (GBIF และ NCBI ตรงกัน) |
-| *Pneumocystis jirovecii* (fungi) | family | Pneumocystidaceae | Pneumocystaceae | Pneumocystaceae | เสนอเปลี่ยนเป็น Pneumocystaceae (GBIF และ NCBI ตรงกัน) |
 | *Sphagnum palustre* (plants) | phylum | Bryophyta | Bryophyta | Streptophyta | ตรวจเอง (NCBI ต่าง อีกแหล่งตรงกับเรา) |
 | *Marchantia polymorpha* (plants) | phylum | Hepatophyta | Marchantiophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
 | *Lycopodiella cernua* (plants) | phylum | Lycophyta | Tracheophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
 | *Lycopodiella cernua* (plants) | genus | Lycopodiella | Palhinhaea | Palhinhaea | ชื่อเปลี่ยนเป็น Palhinhaea (เสนอ: ตัดสินในเฟส 5) |
 | *Lycopodiella cernua* (plants) | species | Lycopodiella cernua | Palhinhaea cernua | Palhinhaea cernua | ชื่อที่ยอมรับตอนนี้คือ Palhinhaea cernua (เสนอ: ตัดสินในเฟส 5) |
 | *Psilotum nudum* (plants) | phylum | Pterophyta | Tracheophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
-| *Psilotum nudum* (plants) | class | Psilotopsida | Polypodiopsida | Polypodiopsida | เสนอเปลี่ยนเป็น Polypodiopsida (GBIF และ NCBI ตรงกัน) |
 | *Azolla pinnata* (plants) | phylum | Pterophyta | Tracheophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
 | *Cycas siamensis* (plants) | phylum | Cycadophyta | Tracheophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
 | *Ginkgo biloba* (plants) | phylum | Ginkgophyta | Tracheophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
@@ -146,14 +131,17 @@
 | *Nepenthes mirabilis* (plants) | phylum | Anthophyta | Tracheophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
 | *Rhizophora apiculata* (plants) | phylum | Anthophyta | Tracheophyta | Streptophyta | ตรวจเอง (GBIF กับ NCBI ไม่ตรงกัน) |
 
-## ชื่อใหม่ของชื่อเดียวกัน (7 ชนิด)
+## ชื่อใหม่ของชื่อเดียวกัน (10 ชนิด)
 
 | ชนิด | ลำดับขั้น | ของเรา | GBIF | NCBI | ข้อเสนอ |
 | --- | --- | --- | --- | --- | --- |
 | *Escherichia coli* (bacteria) | phylum | Proteobacteria | Proteobacteria | Pseudomonadota | คงชื่อตำรา Proteobacteria แสดงชื่อใหม่ Pseudomonadota คู่กัน (ตามที่ตั้งใจ) |
 | *Lactobacillus acidophilus* (bacteria) | phylum | Firmicutes | Firmicutes | Bacillota | คงชื่อตำรา Firmicutes แสดงชื่อใหม่ Bacillota คู่กัน (ตามที่ตั้งใจ) |
+| *Treponema pallidum* (bacteria) | phylum | Spirochaetes | Spirochaetota | Spirochaetota | คงชื่อตำรา Spirochaetes แสดงชื่อใหม่ Spirochaetota คู่กัน (ตามที่ตั้งใจ) |
 | *Streptococcus pneumoniae* (bacteria) | phylum | Firmicutes | — | Bacillota | คงชื่อตำรา Firmicutes แสดงชื่อใหม่ Bacillota คู่กัน (ตามที่ตั้งใจ) |
 | *Salmonella enterica* (bacteria) | phylum | Proteobacteria | Proteobacteria | Pseudomonadota | คงชื่อตำรา Proteobacteria แสดงชื่อใหม่ Pseudomonadota คู่กัน (ตามที่ตั้งใจ) |
+| *Acetobacter aceti* (bacteria) | phylum | Proteobacteria | Proteobacteria | Pseudomonadota | คงชื่อตำรา Proteobacteria แสดงชื่อใหม่ Pseudomonadota คู่กัน (ตามที่ตั้งใจ) |
+| *Rhizopus stolonifer* (fungi) | phylum | Zygomycota | Mucoromycota | Mucoromycota | คงชื่อตำรา Zygomycota แสดงชื่อใหม่ Mucoromycota คู่กัน (ตามที่ตั้งใจ) |
 | *Aspergillus oryzae* (fungi) | species | Aspergillus oryzae | Aspergillus flavus | Aspergillus oryzae | ชื่อที่ยอมรับตอนนี้คือ Aspergillus flavus (เสนอ: ตัดสินในเฟส 5) |
 | *Giardia intestinalis* (protists) | species | Giardia intestinalis | Giardia duodenalis | Giardia duodenalis | ชื่อที่ยอมรับตอนนี้คือ Giardia duodenalis (เสนอ: ตัดสินในเฟส 5) |
 | *Physarum polycephalum* (protists) | genus | Physarum | Physarum | Badhamia | ชื่อเปลี่ยนเป็น Badhamia (เสนอ: ตัดสินในเฟส 5) |
@@ -162,7 +150,7 @@
 ## หาไม่เจอ (0 ชนิด)
 
 
-## ตรงกันหมด (68 ชนิด)
+## ตรงกันหมด (73 ชนิด)
 
 | ชนิด | หมายเหตุ |
 | --- | --- |
@@ -197,6 +185,10 @@
 | *Anopheles minimus* (animals) | — |
 | *Apis cerana* (animals) | — |
 | *Mus musculus* (animals) | — |
+| *Methanobrevibacter smithii* (archaea) | — |
+| *Pyrococcus furiosus* (archaea) | — |
+| *Methanocaldococcus jannaschii* (archaea) | — |
+| *Thermoplasma acidophilum* (archaea) | — |
 | *Rhizophagus irregularis* (fungi) | — |
 | *Saccharomyces cerevisiae* (fungi) | — |
 | *Penicillium chrysogenum* (fungi) | — |
@@ -208,6 +200,7 @@
 | *Termitomyces fuliginosus* (fungi) | — |
 | *Cordyceps militaris* (fungi) | — |
 | *Puccinia graminis* (fungi) | — |
+| *Pneumocystis jirovecii* (fungi) | — |
 | *Aspergillus niger* (fungi) | — |
 | *Ganoderma lucidum* (fungi) | — |
 | *Amanita exitialis* (fungi) | — |

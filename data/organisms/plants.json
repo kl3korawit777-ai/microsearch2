@@ -57,8 +57,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2669006,
+      "ncbi": 13805
     }
   },
   {
@@ -118,8 +118,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2688570,
+      "ncbi": 3197
     }
   },
   {
@@ -179,8 +179,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2688348,
+      "ncbi": 73621
     }
   },
   {
@@ -205,7 +205,7 @@
       },
       {
         "rank": "class",
-        "name": "Psilotopsida"
+        "name": "Polypodiopsida"
       },
       {
         "rank": "order",
@@ -240,8 +240,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2688176,
+      "ncbi": 3240
     }
   },
   {
@@ -302,8 +302,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2650106,
+      "ncbi": 99433
     }
   },
   {
@@ -363,8 +363,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2683286,
+      "ncbi": 171014
     }
   },
   {
@@ -425,8 +425,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2687885,
+      "ncbi": 3311
     }
   },
   {
@@ -487,8 +487,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5285824,
+      "ncbi": 71636
     }
   },
   {
@@ -548,8 +548,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2653133,
+      "ncbi": 3382
     }
   },
   {
@@ -610,8 +610,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2703459,
+      "ncbi": 4530
     }
   },
   {
@@ -671,8 +671,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2882449,
+      "ncbi": 4432
     }
   },
   {
@@ -733,8 +733,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3152230,
+      "ncbi": 66656
     }
   },
   {
@@ -795,8 +795,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3071171,
+      "ncbi": 3981
     }
   },
   {
@@ -856,8 +856,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2689594,
+      "ncbi": 3234
     }
   },
   {
@@ -917,8 +917,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 4940372,
+      "ncbi": 872858
     }
   },
   {
@@ -978,7 +978,7 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
+      "gbif": 10769463,
       "ncbi": null
     }
   },
@@ -1039,8 +1039,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2650858,
+      "ncbi": 29615
     }
   },
   {
@@ -1101,8 +1101,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5290052,
+      "ncbi": 4577
     }
   },
   {
@@ -1162,8 +1162,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2969284,
+      "ncbi": 76306
     }
   },
   {
@@ -1223,8 +1223,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3052436,
+      "ncbi": 3702
     }
   },
   {
@@ -1284,8 +1284,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3941194,
+      "ncbi": 577520
     }
   },
   {
@@ -1345,8 +1345,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5275521,
+      "ncbi": 3377
     }
   },
   {
@@ -1407,8 +1407,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2857697,
+      "ncbi": 4679
     }
   },
   {
@@ -1469,8 +1469,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5347845,
+      "ncbi": 3888
     }
   },
   {
@@ -1530,8 +1530,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5329570,
+      "ncbi": 51024
     }
   },
   {
@@ -1592,8 +1592,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5288819,
+      "ncbi": 4615
     }
   },
   {
@@ -1654,8 +1654,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 2703912,
+      "ncbi": 4547
     }
   },
   {
@@ -1715,8 +1715,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 5330098,
+      "ncbi": 161118
     }
   },
   {
@@ -1776,8 +1776,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3190712,
+      "ncbi": 150983
     }
   },
   {
@@ -1837,8 +1837,8 @@
     "images": [],
     "review": "ai_draft",
     "taxon_ids": {
-      "gbif": null,
-      "ncbi": null
+      "gbif": 3086526,
+      "ncbi": 106626
     }
   }
 ]
