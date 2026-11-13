@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "groups.schema.json",
+  "title": "groups: data/groups.json",
+  "description": "ตรวจเฉพาะส่วนที่ organism และ validate อ้างอิง (ranks, traits, trait_values, tags, levels) ฟิลด์อื่นของต้นแบบ (filters, phyla, intro ฯลฯ) ไม่ตรวจในเฟสนี้",
+  "type": "object",
+  "required": ["groups", "trait_values", "tags", "levels"],
+  "properties": {
+    "groups": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "th", "en", "ranks", "traits"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "th": { "type": "string" },
+          "en": { "type": "string" },
+          "ranks": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["th", "en"],
+              "properties": { "th": { "type": "string" }, "en": { "type": "string", "minLength": 1 } }
+            }
+          },
+          "traits": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "th", "en"],
+              "properties": { "key": { "type": "string", "minLength": 1 }, "th": { "type": "string" }, "en": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "trait_values": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "required": ["th", "en"],
+          "properties": { "th": { "type": "string" }, "en": { "type": "string" } }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "th", "en"],
+        "properties": { "key": { "type": "string", "minLength": 1 }, "th": { "type": "string" }, "en": { "type": "string" } }
+      }
+    },
+    "levels": { "type": "object" }
+  }
+}

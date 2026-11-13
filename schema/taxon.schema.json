@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "taxon.schema.json",
+  "title": "taxon: หนึ่งชื่อในแผนผัง (ค่าของแต่ละคีย์ใน data/taxa.json)",
+  "description": "คีย์ของ taxa.json คือชื่อหน่วยอนุกรมวิธาน rank เป็น null ได้ (ชื่อใหม่ของไฟลัมที่ยังไม่ได้จัดขั้น) ส่วนกฎ about_th/about_en ของชื่อที่ไม่ใช่ genus ตรวจใน scripts/microsearch.py",
+  "type": "object",
+  "required": ["rank", "reading_th", "common_th", "about_th", "about_en", "review"],
+  "additionalProperties": false,
+  "properties": {
+    "rank": { "type": ["string", "null"] },
+    "reading_th": { "type": "string" },
+    "common_th": { "type": "string" },
+    "about_th": { "type": "string" },
+    "about_en": { "type": "string" },
+    "review": { "type": "string", "enum": ["ai_draft", "ai_reviewed", "human_reviewed"] }
+  }
+}

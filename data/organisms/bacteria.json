@@ -1,0 +1,1383 @@
+[
+  {
+    "id": "escherichia-coli",
+    "group": "bacteria",
+    "scientific_name": "Escherichia coli",
+    "name_th": "เอสเชอริเชีย โคไล",
+    "name_en": "",
+    "reading_th": "เอสเชอริเชีย โคไล",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Gammaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Enterobacterales"
+      },
+      {
+        "rank": "family",
+        "name": "Enterobacteriaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Escherichia"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science",
+      "medicine"
+    ],
+    "summary_th": "อาศัยในลำไส้ใหญ่ของคนและสัตว์ สายพันธุ์ส่วนใหญ่ไม่ก่อโรค และเป็นสิ่งมีชีวิตต้นแบบที่ใช้มากที่สุดในห้องปฏิบัติการ",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "fac"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์ (เฮเทอโรโทรฟ)",
+      "home": "ลำไส้ใหญ่ของคนและสัตว์เลือดอุ่น"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "rhizobium-leguminosarum",
+    "group": "bacteria",
+    "scientific_name": "Rhizobium leguminosarum",
+    "name_th": "ไรโซเบียม",
+    "name_en": "",
+    "reading_th": "ไรโซเบียม เลกูมิโนซารุม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Alphaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Rhizobiales"
+      },
+      {
+        "rank": "family",
+        "name": "Rhizobiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Rhizobium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology",
+      "agriculture"
+    ],
+    "summary_th": "อยู่ในปมรากพืชตระกูลถั่ว ตรึงไนโตรเจนจากอากาศเป็นแอมโมเนียให้พืชใช้",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ได้สารอาหารจากพืช แลกกับไนโตรเจนที่ตรึงได้",
+      "home": "ดิน และปมรากพืชตระกูลถั่ว"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "vibrio-cholerae",
+    "group": "bacteria",
+    "scientific_name": "Vibrio cholerae",
+    "name_th": "วิบริโอ คอเลอรี",
+    "name_en": "",
+    "reading_th": "วิบริโอ คอเลอรี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Gammaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Vibrionales"
+      },
+      {
+        "rank": "family",
+        "name": "Vibrionaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Vibrio"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "แบคทีเรียรูปท่อนโค้ง ก่ออหิวาตกโรค ติดต่อผ่านน้ำและอาหารที่ปนเปื้อน",
+    "summary_en": "",
+    "traits": {
+      "shape": "curved",
+      "gram": "neg",
+      "oxy": "fac"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "น้ำกร่อยและน้ำทะเลชายฝั่ง"
+    },
+    "traits_text_en": {},
+    "illustration": "curved",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "bacillus-subtilis",
+    "group": "bacteria",
+    "scientific_name": "Bacillus subtilis",
+    "name_th": "บาซิลลัส ซับทิลิส",
+    "name_en": "",
+    "reading_th": "บาซิลลัส ซับทิลิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Firmicutes"
+      },
+      {
+        "rank": "class",
+        "name": "Bacilli"
+      },
+      {
+        "rank": "order",
+        "name": "Bacillales"
+      },
+      {
+        "rank": "family",
+        "name": "Bacillaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Bacillus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "food",
+      "industry"
+    ],
+    "summary_th": "สร้างเอนโดสปอร์ที่ทนความร้อน ใช้หมักถั่วเหลืองและผลิตเอนไซม์ในอุตสาหกรรม",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "pos",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์ในดิน",
+      "home": "ดิน และบริเวณรากพืช"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "lactobacillus-acidophilus",
+    "group": "bacteria",
+    "scientific_name": "Lactobacillus acidophilus",
+    "name_th": "แล็กโทบาซิลลัส แอซิโดฟิลัส",
+    "name_en": "",
+    "reading_th": "แล็กโทบาซิลลัส แอซิโดฟิลัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Firmicutes"
+      },
+      {
+        "rank": "class",
+        "name": "Bacilli"
+      },
+      {
+        "rank": "order",
+        "name": "Lactobacillales"
+      },
+      {
+        "rank": "family",
+        "name": "Lactobacillaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Lactobacillus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "หมักน้ำตาลได้กรดแล็กติก ใช้ในนมเปรี้ยวและผลิตภัณฑ์โพรไบโอติก",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "pos",
+      "oxy": "low"
+    },
+    "traits_text_th": {
+      "food": "หมักน้ำตาลได้กรดแล็กติก",
+      "home": "ทางเดินอาหารของคน และนมหมัก"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "staphylococcus-aureus",
+    "group": "bacteria",
+    "scientific_name": "Staphylococcus aureus",
+    "name_th": "สแตฟิโลค็อกคัส ออเรียส",
+    "name_en": "",
+    "reading_th": "สแตฟิโลค็อกคัส ออเรียส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Firmicutes"
+      },
+      {
+        "rank": "class",
+        "name": "Bacilli"
+      },
+      {
+        "rank": "order",
+        "name": "Bacillales"
+      },
+      {
+        "rank": "family",
+        "name": "Staphylococcaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Staphylococcus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ทรงกลมเรียงเป็นกลุ่มคล้ายพวงองุ่น พบบนผิวหนัง ก่อฝีและอาหารเป็นพิษได้",
+    "summary_en": "",
+    "traits": {
+      "shape": "coccus",
+      "gram": "pos",
+      "oxy": "fac"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ผิวหนังและโพรงจมูกของคน"
+    },
+    "traits_text_en": {},
+    "illustration": "coccus",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "arthrospira-platensis",
+    "group": "bacteria",
+    "scientific_name": "Arthrospira platensis",
+    "name_th": "สไปรูลินา",
+    "name_en": "",
+    "reading_th": "อาร์โทรสไปรา พลาเทนซิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Cyanobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Cyanophyceae"
+      },
+      {
+        "rank": "order",
+        "name": "Oscillatoriales"
+      },
+      {
+        "rank": "family",
+        "name": "Microcoleaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Arthrospira"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "ecology"
+    ],
+    "summary_th": "เป็นเส้นสายขดเกลียว สังเคราะห์ด้วยแสงและปล่อยออกซิเจน ใช้เป็นอาหารเสริม",
+    "summary_en": "",
+    "traits": {
+      "shape": "filament",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "สังเคราะห์ด้วยแสงและปล่อยออกซิเจน",
+      "home": "ทะเลสาบน้ำด่างในเขตร้อน"
+    },
+    "traits_text_en": {},
+    "illustration": "helix",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "nostoc-commune",
+    "group": "bacteria",
+    "scientific_name": "Nostoc commune",
+    "name_th": "นอสต็อก",
+    "name_en": "",
+    "reading_th": "นอสต็อก คอมมูเน",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Cyanobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Cyanophyceae"
+      },
+      {
+        "rank": "order",
+        "name": "Nostocales"
+      },
+      {
+        "rank": "family",
+        "name": "Nostocaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Nostoc"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology",
+      "agriculture"
+    ],
+    "summary_th": "ตรึงไนโตรเจนในเซลล์พิเศษที่เรียกว่าเฮเทอโรซิสต์ พบในดินชื้นและนาข้าว",
+    "summary_en": "",
+    "traits": {
+      "shape": "filament",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "สังเคราะห์ด้วยแสง และตรึงไนโตรเจน",
+      "home": "ดินชื้น นาข้าว และผิวหิน"
+    },
+    "traits_text_en": {},
+    "illustration": "beads",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "streptomyces-griseus",
+    "group": "bacteria",
+    "scientific_name": "Streptomyces griseus",
+    "name_th": "สเตรปโทมัยซีส กริเซียส",
+    "name_en": "",
+    "reading_th": "สเตรปโทมัยซีส กริเซียส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Actinobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Actinomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Streptomycetales"
+      },
+      {
+        "rank": "family",
+        "name": "Streptomycetaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Streptomyces"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine",
+      "industry"
+    ],
+    "summary_th": "เจริญเป็นเส้นสายในดิน เป็นแหล่งของยาปฏิชีวนะสเตรปโตมัยซิน",
+    "summary_en": "",
+    "traits": {
+      "shape": "filament",
+      "gram": "pos",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายอินทรียวัตถุในดิน",
+      "home": "ดิน กลิ่นดินหลังฝนตกส่วนหนึ่งมาจากสารจีออสมินที่แบคทีเรียสกุลนี้สร้าง"
+    },
+    "traits_text_en": {},
+    "illustration": "branch",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "mycobacterium-tuberculosis",
+    "group": "bacteria",
+    "scientific_name": "Mycobacterium tuberculosis",
+    "name_th": "ไมโคแบคทีเรียม ทูเบอร์คูโลซิส",
+    "name_en": "",
+    "reading_th": "ไมโคแบคทีเรียม ทูเบอร์คูโลซิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Actinobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Actinomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Mycobacteriales"
+      },
+      {
+        "rank": "family",
+        "name": "Mycobacteriaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Mycobacterium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ผนังเซลล์มีกรดไมโคลิกจึงย้อมแกรมติดไม่ดี ต้องใช้การย้อมสีทนกรด ก่อวัณโรค",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "none",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ เติบโตช้ามาก",
+      "home": "ปอดของคน อาศัยอยู่ในเซลล์แมโครฟาจ"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "treponema-pallidum",
+    "group": "bacteria",
+    "scientific_name": "Treponema pallidum",
+    "name_th": "ทรีโพนีมา พัลลิดัม",
+    "name_en": "",
+    "reading_th": "ทรีโพนีมา พัลลิดัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Spirochaetes"
+      },
+      {
+        "rank": "class",
+        "name": "Spirochaetia"
+      },
+      {
+        "rank": "order",
+        "name": "Spirochaetales"
+      },
+      {
+        "rank": "family",
+        "name": "Treponemataceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Treponema"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "รูปเกลียวยาวและบางมาก เคลื่อนที่ด้วยการบิดตัว ก่อโรคซิฟิลิส",
+    "summary_en": "",
+    "traits": {
+      "shape": "spiral",
+      "gram": "none",
+      "oxy": "low"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ร่างกายคน เพาะเลี้ยงในห้องปฏิบัติการได้ยากมาก"
+    },
+    "traits_text_en": {},
+    "illustration": "spiral",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "oscillatoria-princeps",
+    "group": "bacteria",
+    "scientific_name": "Oscillatoria princeps",
+    "name_th": "ออสซิลลาทอเรีย",
+    "name_en": "",
+    "reading_th": "ออสซิลลาทอเรีย พรินเซปส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Cyanobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Cyanophyceae"
+      },
+      {
+        "rank": "order",
+        "name": "Oscillatoriales"
+      },
+      {
+        "rank": "family",
+        "name": "Oscillatoriaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Oscillatoria"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ไซยาโนแบคทีเรียเส้นสายที่โบกไปมาได้ จึงได้ชื่อว่าออสซิลลาทอเรีย พบเป็นแผ่นสีเขียวเข้มในน้ำนิ่ง",
+    "summary_en": "",
+    "traits": {
+      "shape": "filament",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "สังเคราะห์ด้วยแสงและปล่อยออกซิเจน",
+      "home": "แหล่งน้ำจืดนิ่งและพื้นดินชื้น"
+    },
+    "traits_text_en": {},
+    "illustration": "beads",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "streptococcus-pneumoniae",
+    "group": "bacteria",
+    "scientific_name": "Streptococcus pneumoniae",
+    "name_th": "สเตรปโทค็อกคัส นิวโมเนียอี",
+    "name_en": "",
+    "reading_th": "สเตรปโทค็อกคัส นิวโมเนียอี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Firmicutes"
+      },
+      {
+        "rank": "class",
+        "name": "Bacilli"
+      },
+      {
+        "rank": "order",
+        "name": "Lactobacillales"
+      },
+      {
+        "rank": "family",
+        "name": "Streptococcaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Streptococcus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "medicine",
+      "science"
+    ],
+    "summary_th": "ทรงกลมอยู่เป็นคู่ ก่อปอดอักเสบ และเป็นแบคทีเรียในการทดลองของกริฟฟิทที่ค้นพบการแปลงพันธุ์ (transformation)",
+    "summary_en": "",
+    "traits": {
+      "shape": "coccus",
+      "gram": "pos",
+      "oxy": "fac"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "โพรงจมูกและลำคอของคน"
+    },
+    "traits_text_en": {},
+    "illustration": "coccus",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "agrobacterium-tumefaciens",
+    "group": "bacteria",
+    "scientific_name": "Agrobacterium tumefaciens",
+    "name_th": "อะโกรแบคทีเรียม",
+    "name_en": "",
+    "reading_th": "อะโกรแบคทีเรียม ทูเมฟาเซียนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Alphaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Rhizobiales"
+      },
+      {
+        "rank": "family",
+        "name": "Rhizobiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Agrobacterium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "agriculture",
+      "science"
+    ],
+    "summary_th": "ส่งดีเอ็นเอบางส่วนจากพลาสมิด Ti เข้าไปในจีโนมพืชได้ จึงใช้เป็นพาหะในการสร้างพืชดัดแปรพันธุกรรม",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ดินและรากพืช ก่อโรคปุ่มปมที่โคนต้น"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "clostridium-botulinum",
+    "group": "bacteria",
+    "scientific_name": "Clostridium botulinum",
+    "name_th": "คลอสทริเดียม โบทูลินัม",
+    "name_en": "",
+    "reading_th": "คลอสทริเดียม โบทูลินัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Firmicutes"
+      },
+      {
+        "rank": "class",
+        "name": "Clostridia"
+      },
+      {
+        "rank": "order",
+        "name": "Clostridiales"
+      },
+      {
+        "rank": "family",
+        "name": "Clostridiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Clostridium"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine",
+      "food"
+    ],
+    "summary_th": "สร้างเอนโดสปอร์และสารพิษโบทูลินัมที่ทำให้กล้ามเนื้ออ่อนแรง พบในอาหารบรรจุปิดสนิทที่ฆ่าเชื้อไม่ดี เช่น หน่อไม้ปี๊บ",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "pos",
+      "oxy": "ana"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ดินและตะกอน"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "salmonella-enterica",
+    "group": "bacteria",
+    "scientific_name": "Salmonella enterica",
+    "name_th": "ซัลโมเนลลา เอนเทอริกา",
+    "name_en": "",
+    "reading_th": "ซัลโมเนลลา เอนเทอริกา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Gammaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Enterobacterales"
+      },
+      {
+        "rank": "family",
+        "name": "Enterobacteriaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Salmonella"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine",
+      "food"
+    ],
+    "summary_th": "ก่ออาหารเป็นพิษจากไข่และเนื้อสัตว์ที่ปรุงไม่สุก บางซีโรวาร์ เช่น Typhi ก่อไข้ไทฟอยด์",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "fac"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ลำไส้ของคนและสัตว์"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "helicobacter-pylori",
+    "group": "bacteria",
+    "scientific_name": "Helicobacter pylori",
+    "name_th": "เฮลิโคแบคเตอร์ ไพโลไร",
+    "name_en": "",
+    "reading_th": "เฮลิโคแบคเตอร์ ไพโลไร",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Epsilonproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Campylobacterales"
+      },
+      {
+        "rank": "family",
+        "name": "Helicobacteraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Helicobacter"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "รูปเกลียวสั้น อยู่ในกระเพาะอาหารได้เพราะสร้างเอนไซม์ยูรีเอสลดความเป็นกรดรอบตัว เป็นสาเหตุหลักของแผลในกระเพาะอาหาร",
+    "summary_en": "",
+    "traits": {
+      "shape": "curved",
+      "gram": "neg",
+      "oxy": "low"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "เยื่อบุกระเพาะอาหารของคน"
+    },
+    "traits_text_en": {},
+    "illustration": "curved",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "burkholderia-pseudomallei",
+    "group": "bacteria",
+    "scientific_name": "Burkholderia pseudomallei",
+    "name_th": "เบอร์โคลเดอเรีย ซูโดมัลเลอี",
+    "name_en": "",
+    "reading_th": "เบอร์โคลเดอเรีย ซูโดมัลเลอี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Betaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Burkholderiales"
+      },
+      {
+        "rank": "family",
+        "name": "Burkholderiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Burkholderia"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "อยู่ในดินและน้ำ ก่อโรคเมลิออยโดสิส ซึ่งพบมากในภาคอีสาน โดยเฉพาะในผู้ที่ทำงานสัมผัสดินโคลน",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ดินและน้ำในเขตร้อน"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "leptospira-interrogans",
+    "group": "bacteria",
+    "scientific_name": "Leptospira interrogans",
+    "name_th": "เลปโตสไปรา",
+    "name_en": "",
+    "reading_th": "เลปโตสไปรา อินเทอร์โรแกนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Spirochaetes"
+      },
+      {
+        "rank": "class",
+        "name": "Spirochaetia"
+      },
+      {
+        "rank": "order",
+        "name": "Leptospirales"
+      },
+      {
+        "rank": "family",
+        "name": "Leptospiraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Leptospira"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "รูปเกลียวที่ปลายงอเป็นตะขอ ก่อโรคฉี่หนู ติดต่อผ่านน้ำหรือดินที่ปนเปื้อนปัสสาวะของสัตว์",
+    "summary_en": "",
+    "traits": {
+      "shape": "spiral",
+      "gram": "none",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ไตของสัตว์ฟันแทะ น้ำ และดินชื้น"
+    },
+    "traits_text_en": {},
+    "illustration": "spiral",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "thermus-aquaticus",
+    "group": "bacteria",
+    "scientific_name": "Thermus aquaticus",
+    "name_th": "เทอร์มัส อะควาติคัส",
+    "name_en": "",
+    "reading_th": "เทอร์มัส อะควาติคัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Deinococcus-Thermus"
+      },
+      {
+        "rank": "class",
+        "name": "Deinococci"
+      },
+      {
+        "rank": "order",
+        "name": "Thermales"
+      },
+      {
+        "rank": "family",
+        "name": "Thermaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Thermus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science",
+      "industry"
+    ],
+    "summary_th": "แบคทีเรียจากบ่อน้ำพุร้อนที่เจริญได้ดีราว 70 °C เอนไซม์ Taq DNA polymerase ของมันทนความร้อน จึงใช้ในเทคนิค PCR",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "บ่อน้ำพุร้อน เช่น ในอุทยานเยลโลว์สโตน"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "bacillus-thuringiensis",
+    "group": "bacteria",
+    "scientific_name": "Bacillus thuringiensis",
+    "name_th": "บาซิลลัส ทูรินเจียนซิส",
+    "name_en": "",
+    "reading_th": "บาซิลลัส ทูรินเจียนซิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Firmicutes"
+      },
+      {
+        "rank": "class",
+        "name": "Bacilli"
+      },
+      {
+        "rank": "order",
+        "name": "Bacillales"
+      },
+      {
+        "rank": "family",
+        "name": "Bacillaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Bacillus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "agriculture",
+      "science"
+    ],
+    "summary_th": "สร้างผลึกโปรตีนที่เป็นพิษต่อหนอนแมลงแต่ไม่เป็นพิษต่อคน ใช้เป็นสารชีวภาพกำจัดแมลง และเป็นแหล่งยีนของพืช Bt",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "pos",
+      "oxy": "fac"
+    },
+    "traits_text_th": {
+      "food": "เฮเทอโรโทรฟ",
+      "home": "ดินและผิวใบพืช"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "nitrosomonas-europaea",
+    "group": "bacteria",
+    "scientific_name": "Nitrosomonas europaea",
+    "name_th": "ไนโตรโซโมแนส",
+    "name_en": "",
+    "reading_th": "ไนโตรโซโมแนส ยูโรเปีย",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Betaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Nitrosomonadales"
+      },
+      {
+        "rank": "family",
+        "name": "Nitrosomonadaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Nitrosomonas"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ออกซิไดซ์แอมโมเนียเป็นไนไตรต์เพื่อได้พลังงาน เป็นขั้นแรกของไนตริฟิเคชันในวัฏจักรไนโตรเจน",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ออกซิไดซ์แอมโมเนียเพื่อได้พลังงาน และตรึงคาร์บอนไดออกไซด์ (เคโมออโตโทรฟ)",
+      "home": "ดิน น้ำ และระบบบำบัดน้ำเสีย"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "nitrobacter-winogradskyi",
+    "group": "bacteria",
+    "scientific_name": "Nitrobacter winogradskyi",
+    "name_th": "ไนโตรแบคเตอร์",
+    "name_en": "",
+    "reading_th": "ไนโตรแบคเตอร์ วิโนกราดสกิไอ",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Alphaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Rhizobiales"
+      },
+      {
+        "rank": "family",
+        "name": "Nitrobacteraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Nitrobacter"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ออกซิไดซ์ไนไตรต์เป็นไนเตรต ซึ่งเป็นขั้นที่สองของไนตริฟิเคชัน ต่อจากไนโตรโซโมแนส",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ออกซิไดซ์ไนไตรต์เพื่อได้พลังงาน (เคโมออโตโทรฟ)",
+      "home": "ดินและน้ำ"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "acetobacter-aceti",
+    "group": "bacteria",
+    "scientific_name": "Acetobacter aceti",
+    "name_th": "อะซิโตแบคเตอร์",
+    "name_en": "",
+    "reading_th": "อะซิโตแบคเตอร์ อะซีไท",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Bacteria"
+      },
+      {
+        "rank": "phylum",
+        "name": "Proteobacteria"
+      },
+      {
+        "rank": "class",
+        "name": "Alphaproteobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Rhodospirillales"
+      },
+      {
+        "rank": "family",
+        "name": "Acetobacteraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Acetobacter"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "industry"
+    ],
+    "summary_th": "ออกซิไดซ์เอทานอลเป็นกรดแอซิติก จึงใช้หมักน้ำส้มสายชู",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "gram": "neg",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ออกซิไดซ์แอลกอฮอล์เป็นกรดแอซิติก",
+      "home": "ผลไม้ ดอกไม้ และเครื่องดื่มหมัก"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  }
+]
