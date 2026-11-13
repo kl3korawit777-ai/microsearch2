@@ -184,7 +184,7 @@ async function interactions(index, meta) {
   await page.waitForSelector('#heroQ-res a');
   ok((await page.$$eval('#heroQ-res a', (a) => a.map((x) => x.textContent))).some((t) => /Bacillus/.test(t)), 'search "bacillus" lists Bacillus');
   await page.keyboard.press('Enter');
-  await page.waitForFunction(() => /^#bacillus-/.test(location.hash));
+  await page.waitForFunction(() => /^#bacillus-/.test(location.hash) && document.documentElement.getAttribute('data-ready') === location.hash.slice(1));
   ok((await text('h1')).startsWith('Bacillus'), 'Enter opens the first result');
   await visit(page, 'home');
   await page.type('#heroQ', 'ยีสต์');
