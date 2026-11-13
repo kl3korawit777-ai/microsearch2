@@ -1,0 +1,1217 @@
+{
+  "groups": [
+    {
+      "id": "bacteria",
+      "th": "แบคทีเรีย",
+      "en": "Bacteria",
+      "domain": "Bacteria",
+      "domainTh": "โดเมนแบคทีเรีย",
+      "domainEn": "Domain Bacteria",
+      "rankTh": "ไฟลัม",
+      "rankEn": "Phylum",
+      "introTh": "โพรแคริโอตที่พบได้แทบทุกที่บนโลก ตั้งแต่ดิน น้ำ ไปจนถึงลำไส้ของเรา ส่วนใหญ่ไม่ก่อโรค และหลายชนิดจำเป็นต่อวัฏจักรธาตุอาหาร ผนังเซลล์มีเพปทิโดไกลแคน ซึ่งเป็นจุดที่ยาปฏิชีวนะหลายชนิดออกฤทธิ์",
+      "introEn": "Prokaryotes found almost everywhere, from soil and water to our own gut. Most are harmless and many drive nutrient cycles. Their cell walls contain peptidoglycan, the target of many antibiotics.",
+      "phyla": [
+        {
+          "name": "Proteobacteria",
+          "new_name": "Pseudomonadota"
+        },
+        {
+          "name": "Firmicutes",
+          "new_name": "Bacillota"
+        },
+        {
+          "name": "Cyanobacteria",
+          "new_name": "Cyanobacteriota"
+        },
+        {
+          "name": "Actinobacteria",
+          "new_name": "Actinomycetota"
+        },
+        {
+          "name": "Spirochaetes",
+          "new_name": "Spirochaetota"
+        },
+        {
+          "name": "Deinococcus-Thermus",
+          "new_name": "Deinococcota"
+        }
+      ],
+      "kingdom": null,
+      "short": {
+        "th": "โพรแคริโอตที่พบได้แทบทุกที่ ผนังเซลล์มีเพปทิโดไกลแคน",
+        "en": "Prokaryotes found almost everywhere, with peptidoglycan walls"
+      },
+      "ranks": [
+        {
+          "th": "โดเมน",
+          "en": "Domain"
+        },
+        {
+          "th": "ไฟลัม",
+          "en": "Phylum"
+        },
+        {
+          "th": "คลาส",
+          "en": "Class"
+        },
+        {
+          "th": "อันดับ",
+          "en": "Order"
+        },
+        {
+          "th": "วงศ์",
+          "en": "Family"
+        },
+        {
+          "th": "สกุล",
+          "en": "Genus"
+        }
+      ],
+      "traits": [
+        {
+          "key": "shape",
+          "th": "รูปร่าง",
+          "en": "Shape"
+        },
+        {
+          "key": "gram",
+          "th": "การย้อมแกรม",
+          "en": "Gram stain"
+        },
+        {
+          "key": "oxy",
+          "th": "ความต้องการออกซิเจน",
+          "en": "Oxygen"
+        },
+        {
+          "key": "food",
+          "th": "การได้อาหาร",
+          "en": "Nutrition"
+        },
+        {
+          "key": "home",
+          "th": "แหล่งที่อยู่",
+          "en": "Habitat"
+        }
+      ],
+      "filters": [
+        [
+          "shapeF",
+          "รูปร่าง",
+          [
+            [
+              "coccus",
+              "ทรงกลม"
+            ],
+            [
+              "rod",
+              "ท่อน"
+            ],
+            [
+              "curvedspiral",
+              "โค้งหรือเกลียว"
+            ],
+            [
+              "filament",
+              "เส้นสาย"
+            ]
+          ]
+        ],
+        [
+          "gram",
+          "การย้อมแกรม",
+          [
+            [
+              "pos",
+              "บวก"
+            ],
+            [
+              "neg",
+              "ลบ"
+            ],
+            [
+              "none",
+              "ย้อมติดไม่ดี"
+            ]
+          ]
+        ],
+        [
+          "oxy",
+          "ออกซิเจน",
+          [
+            [
+              "aer",
+              "ต้องใช้"
+            ],
+            [
+              "fac",
+              "ใช้หรือไม่ใช้ก็ได้"
+            ],
+            [
+              "low",
+              "ต้องการน้อย"
+            ],
+            [
+              "ana",
+              "ไม่ใช้"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "archaea",
+      "th": "อาร์เคีย",
+      "en": "Archaea",
+      "domain": "Archaea",
+      "domainTh": "โดเมนอาร์เคีย",
+      "domainEn": "Domain Archaea",
+      "rankTh": "ไฟลัม",
+      "rankEn": "Phylum",
+      "introTh": "โพรแคริโอตที่หน้าตาคล้ายแบคทีเรีย แต่พันธุกรรมและเคมีของเซลล์ใกล้ยูแคริโอตมากกว่า หลายชนิดอยู่ในที่ร้อนจัด เค็มจัด หรือไม่มีออกซิเจน และอีกมากอยู่ในทะเลและดินทั่วไป",
+      "introEn": "Prokaryotes that look like bacteria but whose genetics and cell chemistry sit closer to eukaryotes. Many live in hot, salty or oxygen-free places, and many more in ordinary seas and soils.",
+      "phyla": [
+        {
+          "name": "Euryarchaeota",
+          "new_name": ""
+        },
+        {
+          "name": "Crenarchaeota",
+          "new_name": "Thermoproteota"
+        },
+        {
+          "name": "Thaumarchaeota",
+          "new_name": "Nitrososphaerota"
+        }
+      ],
+      "kingdom": null,
+      "short": {
+        "th": "โพรแคริโอตที่เคมีของเซลล์ใกล้ยูแคริโอต หลายชนิดอยู่ในที่สุดขั้ว",
+        "en": "Prokaryotes chemically closer to eukaryotes, many in extreme places"
+      },
+      "ranks": [
+        {
+          "th": "โดเมน",
+          "en": "Domain"
+        },
+        {
+          "th": "ไฟลัม",
+          "en": "Phylum"
+        },
+        {
+          "th": "คลาส",
+          "en": "Class"
+        },
+        {
+          "th": "อันดับ",
+          "en": "Order"
+        },
+        {
+          "th": "วงศ์",
+          "en": "Family"
+        },
+        {
+          "th": "สกุล",
+          "en": "Genus"
+        }
+      ],
+      "traits": [
+        {
+          "key": "shape",
+          "th": "รูปร่าง",
+          "en": "Shape"
+        },
+        {
+          "key": "env",
+          "th": "สภาพที่อยู่",
+          "en": "Conditions"
+        },
+        {
+          "key": "oxy",
+          "th": "ความต้องการออกซิเจน",
+          "en": "Oxygen"
+        },
+        {
+          "key": "food",
+          "th": "การได้พลังงาน",
+          "en": "Energy"
+        },
+        {
+          "key": "home",
+          "th": "แหล่งที่อยู่",
+          "en": "Habitat"
+        }
+      ],
+      "filters": [
+        [
+          "envF",
+          "สภาพที่อยู่",
+          [
+            [
+              "salt",
+              "เค็มจัด"
+            ],
+            [
+              "hot",
+              "ร้อนจัด"
+            ],
+            [
+              "normal",
+              "สภาพทั่วไป"
+            ]
+          ]
+        ],
+        [
+          "oxy",
+          "ออกซิเจน",
+          [
+            [
+              "aer",
+              "ต้องใช้"
+            ],
+            [
+              "fac",
+              "ใช้หรือไม่ใช้ก็ได้"
+            ],
+            [
+              "ana",
+              "ไม่ใช้"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "fungi",
+      "th": "ฟังไจ",
+      "en": "Fungi",
+      "domain": "Eukarya",
+      "domainTh": "โดเมนยูคาเรีย",
+      "domainEn": "Domain Eukarya",
+      "rankTh": "ไฟลัม",
+      "rankEn": "Phylum",
+      "introTh": "ยูแคริโอตที่ผนังเซลล์มีไคทิน ได้อาหารโดยปล่อยเอนไซม์ย่อยภายนอกแล้วดูดซึม มีทั้งยีสต์เซลล์เดียว ราเส้นใย และเห็ด เป็นผู้ย่อยสลายหลักของระบบนิเวศ",
+      "introEn": "Eukaryotes with chitin cell walls that digest food outside the cell and absorb it. They include single-celled yeasts, filamentous molds and mushrooms, and are major decomposers.",
+      "phyla": [
+        {
+          "name": "Chytridiomycota",
+          "new_name": ""
+        },
+        {
+          "name": "Zygomycota",
+          "new_name": "Mucoromycota"
+        },
+        {
+          "name": "Glomeromycota",
+          "new_name": ""
+        },
+        {
+          "name": "Ascomycota",
+          "new_name": ""
+        },
+        {
+          "name": "Basidiomycota",
+          "new_name": ""
+        }
+      ],
+      "kingdom": "Fungi",
+      "short": {
+        "th": "ยูแคริโอตผนังไคทิน ย่อยอาหารภายนอกแล้วดูดซึม",
+        "en": "Eukaryotes with chitin walls that absorb digested food"
+      },
+      "ranks": [
+        {
+          "th": "โดเมน",
+          "en": "Domain"
+        },
+        {
+          "th": "อาณาจักร",
+          "en": "Kingdom"
+        },
+        {
+          "th": "ไฟลัม",
+          "en": "Phylum"
+        },
+        {
+          "th": "คลาส",
+          "en": "Class"
+        },
+        {
+          "th": "อันดับ",
+          "en": "Order"
+        },
+        {
+          "th": "วงศ์",
+          "en": "Family"
+        },
+        {
+          "th": "สกุล",
+          "en": "Genus"
+        }
+      ],
+      "traits": [
+        {
+          "key": "form",
+          "th": "รูปแบบ",
+          "en": "Form"
+        },
+        {
+          "key": "food",
+          "th": "การได้อาหาร",
+          "en": "Nutrition"
+        },
+        {
+          "key": "spore",
+          "th": "การสืบพันธุ์และสปอร์",
+          "en": "Reproduction"
+        },
+        {
+          "key": "home",
+          "th": "แหล่งที่อยู่",
+          "en": "Habitat"
+        }
+      ],
+      "filters": [
+        [
+          "form",
+          "รูปแบบ",
+          [
+            [
+              "yeast",
+              "ยีสต์"
+            ],
+            [
+              "mold",
+              "รา"
+            ],
+            [
+              "mushroom",
+              "เห็ด"
+            ],
+            [
+              "chytrid",
+              "ไคทริด"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "protists",
+      "th": "โพรทิสต์",
+      "en": "Protists",
+      "domain": "Eukarya",
+      "domainTh": "",
+      "domainEn": "",
+      "rankTh": "ซูเปอร์กรุ๊ป",
+      "rankEn": "Supergroup",
+      "introTh": "ยูแคริโอตที่ไม่ใช่พืช สัตว์ หรือฟังไจ จึงไม่ได้เป็นกลุ่มทางวิวัฒนาการเดียวกัน เว็บนี้จัดตาม 4 ซูเปอร์กรุ๊ป มีทั้งสาหร่ายที่สังเคราะห์ด้วยแสง ผู้ล่าเซลล์เดียว และปรสิตสำคัญทางการแพทย์",
+      "introEn": "Eukaryotes that are not plants, animals or fungi, so they do not form one evolutionary group. This site sorts them into four supergroups: photosynthetic algae, single-celled predators and major parasites.",
+      "phyla": [
+        {
+          "name": "Excavata",
+          "new_name": ""
+        },
+        {
+          "name": "SAR",
+          "new_name": ""
+        },
+        {
+          "name": "Archaeplastida",
+          "new_name": ""
+        },
+        {
+          "name": "Unikonta",
+          "new_name": ""
+        }
+      ],
+      "kingdom": null,
+      "short": {
+        "th": "ยูแคริโอตที่ไม่ใช่พืช สัตว์ หรือฟังไจ จัดเป็น 4 ซูเปอร์กรุ๊ป",
+        "en": "Eukaryotes that are not plants, animals or fungi, in four supergroups"
+      },
+      "ranks": [
+        {
+          "th": "โดเมน",
+          "en": "Domain"
+        },
+        {
+          "th": "ซูเปอร์กรุ๊ป",
+          "en": "Supergroup"
+        },
+        {
+          "th": "กลุ่มหลัก",
+          "en": "Major clade"
+        },
+        {
+          "th": "กลุ่มย่อย",
+          "en": "Subgroup"
+        },
+        {
+          "th": "สกุล",
+          "en": "Genus"
+        }
+      ],
+      "traits": [
+        {
+          "key": "diet",
+          "th": "การได้อาหาร",
+          "en": "Nutrition"
+        },
+        {
+          "key": "move",
+          "th": "การเคลื่อนที่",
+          "en": "Movement"
+        },
+        {
+          "key": "food",
+          "th": "รายละเอียด",
+          "en": "Details"
+        },
+        {
+          "key": "home",
+          "th": "แหล่งที่อยู่",
+          "en": "Habitat"
+        }
+      ],
+      "filters": [
+        [
+          "diet",
+          "การได้อาหาร",
+          [
+            [
+              "photo",
+              "สังเคราะห์ด้วยแสง"
+            ],
+            [
+              "both",
+              "ได้ทั้งสองแบบ"
+            ],
+            [
+              "feed",
+              "กินสิ่งมีชีวิตอื่น"
+            ],
+            [
+              "parasite",
+              "ปรสิต"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "plants",
+      "th": "พืช",
+      "en": "Plants",
+      "domain": "Eukarya",
+      "domainTh": "",
+      "domainEn": "",
+      "rankTh": "ไฟลัม",
+      "rankEn": "Phylum",
+      "introTh": "ยูแคริโอตหลายเซลล์ที่สังเคราะห์ด้วยแสง ผนังเซลล์มีเซลลูโลส และมีวงชีวิตแบบสลับรุ่นระหว่างแกมีโทไฟต์กับสปอโรไฟต์ พืชบกวิวัฒนาการมาจากสาหร่ายสีเขียวในกลุ่ม Archaeplastida",
+      "introEn": "Multicellular photosynthetic eukaryotes with cellulose walls and an alternation of generations between gametophyte and sporophyte. Land plants evolved from green algae within Archaeplastida.",
+      "phyla": [
+        {
+          "name": "Bryophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Hepatophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Lycophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Pterophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Cycadophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Ginkgophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Coniferophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Gnetophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Anthophyta",
+          "new_name": ""
+        },
+        {
+          "name": "Anthocerophyta",
+          "new_name": ""
+        }
+      ],
+      "kingdom": "Plantae",
+      "short": {
+        "th": "ยูแคริโอตหลายเซลล์ที่สังเคราะห์ด้วยแสง ผนังเซลล์มีเซลลูโลส",
+        "en": "Multicellular photosynthetic eukaryotes with cellulose walls"
+      },
+      "ranks": [
+        {
+          "th": "โดเมน",
+          "en": "Domain"
+        },
+        {
+          "th": "อาณาจักร",
+          "en": "Kingdom"
+        },
+        {
+          "th": "ไฟลัม",
+          "en": "Phylum"
+        },
+        {
+          "th": "คลาส",
+          "en": "Class"
+        },
+        {
+          "th": "อันดับ",
+          "en": "Order"
+        },
+        {
+          "th": "วงศ์",
+          "en": "Family"
+        },
+        {
+          "th": "สกุล",
+          "en": "Genus"
+        }
+      ],
+      "traits": [
+        {
+          "key": "vasc",
+          "th": "ท่อลำเลียง",
+          "en": "Vascular tissue"
+        },
+        {
+          "key": "seed",
+          "th": "เมล็ด",
+          "en": "Seeds"
+        },
+        {
+          "key": "stage",
+          "th": "ระยะเด่นในวงชีวิต",
+          "en": "Dominant generation"
+        },
+        {
+          "key": "food",
+          "th": "การใช้ประโยชน์",
+          "en": "Uses"
+        },
+        {
+          "key": "home",
+          "th": "แหล่งที่อยู่",
+          "en": "Habitat"
+        }
+      ],
+      "filters": [
+        [
+          "vasc",
+          "ท่อลำเลียง",
+          [
+            [
+              "yes",
+              "มี"
+            ],
+            [
+              "no",
+              "ไม่มี"
+            ]
+          ]
+        ],
+        [
+          "seed",
+          "เมล็ด",
+          [
+            [
+              "none",
+              "ไม่มีเมล็ด"
+            ],
+            [
+              "naked",
+              "เมล็ดเปลือย"
+            ],
+            [
+              "covered",
+              "เมล็ดมีผนังหุ้ม"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "animals",
+      "th": "สัตว์",
+      "en": "Animals",
+      "domain": "Eukarya",
+      "domainTh": "",
+      "domainEn": "",
+      "rankTh": "ไฟลัม",
+      "rankEn": "Phylum",
+      "introTh": "ยูแคริโอตหลายเซลล์ที่ไม่มีผนังเซลล์ กินสิ่งมีชีวิตอื่นแล้วย่อยภายในร่างกาย หนังสือเรียนจัดกลุ่มตามสมมาตร จำนวนชั้นเนื้อเยื่อ และช่องตัว",
+      "introEn": "Multicellular eukaryotes without cell walls that eat other organisms and digest them inside the body. Textbooks sort them by symmetry, germ layers and body cavity.",
+      "phyla": [
+        {
+          "name": "Porifera",
+          "new_name": ""
+        },
+        {
+          "name": "Cnidaria",
+          "new_name": ""
+        },
+        {
+          "name": "Platyhelminthes",
+          "new_name": ""
+        },
+        {
+          "name": "Nematoda",
+          "new_name": ""
+        },
+        {
+          "name": "Annelida",
+          "new_name": ""
+        },
+        {
+          "name": "Mollusca",
+          "new_name": ""
+        },
+        {
+          "name": "Arthropoda",
+          "new_name": ""
+        },
+        {
+          "name": "Echinodermata",
+          "new_name": ""
+        },
+        {
+          "name": "Chordata",
+          "new_name": ""
+        }
+      ],
+      "kingdom": "Animalia",
+      "short": {
+        "th": "ยูแคริโอตหลายเซลล์ไม่มีผนังเซลล์ กินแล้วย่อยภายในร่างกาย",
+        "en": "Multicellular eukaryotes without cell walls that digest food inside"
+      },
+      "ranks": [
+        {
+          "th": "โดเมน",
+          "en": "Domain"
+        },
+        {
+          "th": "อาณาจักร",
+          "en": "Kingdom"
+        },
+        {
+          "th": "ไฟลัม",
+          "en": "Phylum"
+        },
+        {
+          "th": "คลาส",
+          "en": "Class"
+        },
+        {
+          "th": "อันดับ",
+          "en": "Order"
+        },
+        {
+          "th": "วงศ์",
+          "en": "Family"
+        },
+        {
+          "th": "สกุล",
+          "en": "Genus"
+        }
+      ],
+      "traits": [
+        {
+          "key": "sym",
+          "th": "สมมาตร",
+          "en": "Symmetry"
+        },
+        {
+          "key": "layers",
+          "th": "ชั้นเนื้อเยื่อ",
+          "en": "Germ layers"
+        },
+        {
+          "key": "coel",
+          "th": "ช่องตัว",
+          "en": "Body cavity"
+        },
+        {
+          "key": "spine",
+          "th": "กระดูกสันหลัง",
+          "en": "Backbone"
+        },
+        {
+          "key": "food",
+          "th": "การกินอาหาร",
+          "en": "Feeding"
+        },
+        {
+          "key": "home",
+          "th": "แหล่งที่อยู่",
+          "en": "Habitat"
+        }
+      ],
+      "filters": [
+        [
+          "sym",
+          "สมมาตร",
+          [
+            [
+              "none",
+              "ไม่มี"
+            ],
+            [
+              "radial",
+              "รัศมี"
+            ],
+            [
+              "bilateral",
+              "ด้านข้าง"
+            ]
+          ]
+        ],
+        [
+          "coel",
+          "ช่องตัว",
+          [
+            [
+              "none",
+              "ไม่มี"
+            ],
+            [
+              "pseudo",
+              "ช่องตัวเทียม"
+            ],
+            [
+              "true",
+              "ช่องตัวแท้"
+            ]
+          ]
+        ],
+        [
+          "spine",
+          "กระดูกสันหลัง",
+          [
+            [
+              "yes",
+              "มี"
+            ],
+            [
+              "no",
+              "ไม่มี"
+            ]
+          ]
+        ]
+      ]
+    }
+  ],
+  "trait_values": {
+    "shape": {
+      "irregular": {
+        "th": "รูปร่างไม่แน่นอน",
+        "en": "Irregular"
+      },
+      "coccus": {
+        "th": "ทรงกลม",
+        "en": "Coccus (sphere)"
+      },
+      "rod": {
+        "th": "ท่อน",
+        "en": "Rod (bacillus)"
+      },
+      "curved": {
+        "th": "ท่อนโค้ง",
+        "en": "Curved rod"
+      },
+      "spiral": {
+        "th": "เกลียว",
+        "en": "Spiral"
+      },
+      "filament": {
+        "th": "เส้นสาย",
+        "en": "Filament"
+      },
+      "lobed": {
+        "th": "ทรงกลมมีพู",
+        "en": "Lobed sphere"
+      }
+    },
+    "gram": {
+      "pos": {
+        "th": "แกรมบวก",
+        "en": "Gram-positive"
+      },
+      "neg": {
+        "th": "แกรมลบ",
+        "en": "Gram-negative"
+      },
+      "none": {
+        "th": "ย้อมแกรมติดไม่ดี",
+        "en": "Stains poorly"
+      }
+    },
+    "oxy": {
+      "aer": {
+        "th": "ต้องใช้",
+        "en": "Requires oxygen"
+      },
+      "fac": {
+        "th": "ใช้หรือไม่ใช้ก็ได้",
+        "en": "With or without oxygen"
+      },
+      "low": {
+        "th": "ต้องการน้อย",
+        "en": "Needs little oxygen"
+      },
+      "ana": {
+        "th": "ไม่ใช้ ออกซิเจนเป็นพิษ",
+        "en": "No oxygen (oxygen is toxic)"
+      }
+    },
+    "env": {
+      "salt": {
+        "th": "เค็มจัด",
+        "en": "Extremely salty"
+      },
+      "hot": {
+        "th": "ร้อนจัด",
+        "en": "Extremely hot"
+      },
+      "hotacid": {
+        "th": "ร้อนและเป็นกรดจัด",
+        "en": "Hot and very acidic"
+      },
+      "normal": {
+        "th": "สภาพทั่วไป",
+        "en": "Ordinary conditions"
+      }
+    },
+    "form": {
+      "yeast": {
+        "th": "ยีสต์ (เซลล์เดียว)",
+        "en": "Yeast (single cell)"
+      },
+      "mold": {
+        "th": "รา (เส้นใย)",
+        "en": "Mold (hyphae)"
+      },
+      "mushroom": {
+        "th": "เห็ด (สร้างดอกเห็ด)",
+        "en": "Mushroom (fruiting body)"
+      },
+      "chytrid": {
+        "th": "ไคทริด (สปอร์มีแฟลเจลลัม)",
+        "en": "Chytrid (flagellated spores)"
+      }
+    },
+    "diet": {
+      "photo": {
+        "th": "สังเคราะห์ด้วยแสง",
+        "en": "Photosynthetic"
+      },
+      "both": {
+        "th": "ได้ทั้งสองแบบ",
+        "en": "Both"
+      },
+      "feed": {
+        "th": "กินสิ่งมีชีวิตอื่น",
+        "en": "Eats other organisms"
+      },
+      "parasite": {
+        "th": "ปรสิต",
+        "en": "Parasite"
+      }
+    },
+    "vasc": {
+      "yes": {
+        "th": "มี",
+        "en": "Present"
+      },
+      "no": {
+        "th": "ไม่มี",
+        "en": "Absent"
+      }
+    },
+    "seed": {
+      "none": {
+        "th": "ไม่มีเมล็ด",
+        "en": "No seeds"
+      },
+      "naked": {
+        "th": "เมล็ดเปลือย",
+        "en": "Naked seeds"
+      },
+      "covered": {
+        "th": "เมล็ดมีผนังหุ้ม (พืชดอก)",
+        "en": "Enclosed seeds (flowering plant)"
+      }
+    },
+    "stage": {
+      "gameto": {
+        "th": "แกมีโทไฟต์",
+        "en": "Gametophyte"
+      },
+      "sporo": {
+        "th": "สปอโรไฟต์",
+        "en": "Sporophyte"
+      }
+    },
+    "sym": {
+      "none": {
+        "th": "ไม่มีสมมาตร",
+        "en": "None"
+      },
+      "radial": {
+        "th": "สมมาตรรัศมี",
+        "en": "Radial"
+      },
+      "bilateral": {
+        "th": "สมมาตรด้านข้าง",
+        "en": "Bilateral"
+      }
+    },
+    "layers": {
+      "none": {
+        "th": "ไม่มีเนื้อเยื่อแท้",
+        "en": "No true tissues"
+      },
+      "two": {
+        "th": "สองชั้น",
+        "en": "Two"
+      },
+      "three": {
+        "th": "สามชั้น",
+        "en": "Three"
+      }
+    },
+    "coel": {
+      "none": {
+        "th": "ไม่มีช่องตัว",
+        "en": "None (acoelomate)"
+      },
+      "pseudo": {
+        "th": "ช่องตัวเทียม",
+        "en": "Pseudocoelom"
+      },
+      "true": {
+        "th": "ช่องตัวแท้",
+        "en": "True coelom"
+      }
+    },
+    "spine": {
+      "yes": {
+        "th": "มี",
+        "en": "Yes"
+      },
+      "no": {
+        "th": "ไม่มี",
+        "en": "No"
+      }
+    }
+  },
+  "filter_en": {
+    "shapeF": [
+      "Shape",
+      {
+        "coccus": "Sphere",
+        "rod": "Rod",
+        "curvedspiral": "Curved or spiral",
+        "filament": "Filament"
+      }
+    ],
+    "gram": [
+      "Gram stain",
+      {
+        "pos": "Positive",
+        "neg": "Negative",
+        "none": "Stains poorly"
+      }
+    ],
+    "oxy": [
+      "Oxygen",
+      {
+        "aer": "Requires",
+        "fac": "Either",
+        "low": "Needs little",
+        "ana": "None"
+      }
+    ],
+    "envF": [
+      "Conditions",
+      {
+        "salt": "Extremely salty",
+        "hot": "Extremely hot",
+        "normal": "Ordinary"
+      }
+    ],
+    "form": [
+      "Form",
+      {
+        "yeast": "Yeast",
+        "mold": "Mold",
+        "mushroom": "Mushroom",
+        "chytrid": "Chytrid"
+      }
+    ],
+    "diet": [
+      "Nutrition",
+      {
+        "photo": "Photosynthetic",
+        "both": "Both",
+        "feed": "Eats others",
+        "parasite": "Parasite"
+      }
+    ],
+    "vasc": [
+      "Vascular tissue",
+      {
+        "yes": "Present",
+        "no": "Absent"
+      }
+    ],
+    "seed": [
+      "Seeds",
+      {
+        "none": "No seeds",
+        "naked": "Naked seeds",
+        "covered": "Enclosed seeds"
+      }
+    ],
+    "sym": [
+      "Symmetry",
+      {
+        "none": "None",
+        "radial": "Radial",
+        "bilateral": "Bilateral"
+      }
+    ],
+    "coel": [
+      "Body cavity",
+      {
+        "none": "None",
+        "pseudo": "Pseudocoelom",
+        "true": "True coelom"
+      }
+    ],
+    "spine": [
+      "Backbone",
+      {
+        "yes": "Yes",
+        "no": "No"
+      }
+    ]
+  },
+  "tags": [
+    {
+      "key": "medicine",
+      "th": "การแพทย์",
+      "en": "Medicine"
+    },
+    {
+      "key": "food",
+      "th": "อาหาร",
+      "en": "Food"
+    },
+    {
+      "key": "ecology",
+      "th": "นิเวศ",
+      "en": "Ecology"
+    },
+    {
+      "key": "agriculture",
+      "th": "เกษตร",
+      "en": "Agriculture"
+    },
+    {
+      "key": "industry",
+      "th": "อุตสาหกรรม",
+      "en": "Industry"
+    },
+    {
+      "key": "science",
+      "th": "วิทยาศาสตร์",
+      "en": "Research"
+    }
+  ],
+  "levels": {
+    "hs": {
+      "th": "ม.ปลาย",
+      "en": "High school"
+    },
+    "uni": {
+      "th": "มหาวิทยาลัย",
+      "en": "University"
+    }
+  },
+  "compare_table_en": [
+    [
+      "Cell type",
+      "Prokaryote",
+      "Prokaryote",
+      "Eukaryote",
+      "Eukaryote",
+      "Eukaryote",
+      "Eukaryote"
+    ],
+    [
+      "Number of cells",
+      "Single cell",
+      "Single cell",
+      "Single cell or many",
+      "Mostly single cell",
+      "Many cells",
+      "Many cells"
+    ],
+    [
+      "Cell wall",
+      "Peptidoglycan, except a few groups such as Mycoplasma",
+      "No peptidoglycan; many have an S-layer",
+      "Chitin",
+      "Varied: cellulose or silica in some, none in others",
+      "Cellulose",
+      "No cell wall"
+    ],
+    [
+      "Membrane lipids",
+      "Fatty acids joined by ester bonds",
+      "Isoprene chains joined by ether bonds",
+      "Ester bonds",
+      "Ester bonds",
+      "Ester bonds",
+      "Ester bonds"
+    ],
+    [
+      "Nutrition",
+      "Photosynthesis, chemosynthesis and decomposition",
+      "Mostly chemosynthesis or decomposition; none use chlorophyll-based photosynthesis",
+      "Digest food outside the cell, then absorb it",
+      "Both photosynthesis and eating",
+      "Photosynthesis",
+      "Eat other organisms and digest inside the body"
+    ],
+    [
+      "Everyday example",
+      "Bacteria in yogurt",
+      "Pink color in salt ponds",
+      "Straw mushroom, baker's yeast",
+      "Nori seaweed, amoeba",
+      "Rice, durian",
+      "Betta fish, Aedes mosquito"
+    ]
+  ]
+}

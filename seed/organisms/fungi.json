@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "batrachochytrium-dendrobatidis",
+    "group": "fungi",
+    "scientific_name": "Batrachochytrium dendrobatidis",
+    "name_th": "ไคทริดในกบ",
+    "name_en": "",
+    "reading_th": "บาทราโคไคเทรียม เดนโดรบาทิดิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chytridiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Chytridiomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Rhizophydiales"
+      },
+      {
+        "rank": "family",
+        "name": "?"
+      },
+      {
+        "rank": "genus",
+        "name": "Batrachochytrium"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "สร้างสปอร์ที่มีแฟลเจลลัม ก่อโรคไคทริดิโอไมโคซิสในสัตว์สะเทินน้ำสะเทินบก",
+    "summary_en": "",
+    "traits": {
+      "form": "chytrid"
+    },
+    "traits_text_th": {
+      "food": "ปรสิตบนผิวหนังของสัตว์สะเทินน้ำสะเทินบก",
+      "spore": "ซูสปอร์ที่มีแฟลเจลลัมหนึ่งเส้น",
+      "home": "แหล่งน้ำจืด และผิวหนังของกบ"
+    },
+    "traits_text_en": {},
+    "illustration": "chytrid",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "rhizopus-stolonifer",
+    "group": "fungi",
+    "scientific_name": "Rhizopus stolonifer",
+    "name_th": "ราขนมปัง",
+    "name_en": "",
+    "reading_th": "ไรโซปัส สโตโลนิเฟอร์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Zygomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Mucoromycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Mucorales"
+      },
+      {
+        "rank": "family",
+        "name": "Mucoraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Rhizopus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "ขึ้นบนขนมปังเป็นเส้นใยสีขาว มีอับสปอร์สีดำอยู่บนก้านชูอับสปอร์",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์",
+      "spore": "สปอร์ในอับสปอร์ และสร้างไซโกสปอร์เมื่อสืบพันธุ์แบบอาศัยเพศ",
+      "home": "ขนมปัง ผลไม้ และดิน"
+    },
+    "traits_text_en": {},
+    "illustration": "mold",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "rhizophagus-irregularis",
+    "group": "fungi",
+    "scientific_name": "Rhizophagus irregularis",
+    "name_th": "ราไมคอร์ไรซา",
+    "name_en": "",
+    "reading_th": "ไรโซฟากัส อิร์เรกูลาริส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Glomeromycota"
+      },
+      {
+        "rank": "class",
+        "name": "Glomeromycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Glomerales"
+      },
+      {
+        "rank": "family",
+        "name": "Glomeraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Rhizophagus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "ecology",
+      "agriculture"
+    ],
+    "summary_th": "อยู่ร่วมกับรากพืชแบบอาร์บัสคูลาร์ ช่วยพืชดูดฟอสฟอรัสจากดิน",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "อยู่ร่วมกับรากพืชแบบพึ่งพากัน ได้น้ำตาลจากพืช",
+      "spore": "สปอร์ขนาดใหญ่ในดิน",
+      "home": "ภายในรากพืชและดินรอบราก"
+    },
+    "traits_text_en": {},
+    "illustration": "myco",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "saccharomyces-cerevisiae",
+    "group": "fungi",
+    "scientific_name": "Saccharomyces cerevisiae",
+    "name_th": "ยีสต์ขนมปัง",
+    "name_en": "",
+    "reading_th": "แซ็กคาโรไมซีส เซเรวิซิอี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Saccharomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Saccharomycetales"
+      },
+      {
+        "rank": "family",
+        "name": "Saccharomycetaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Saccharomyces"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "science"
+    ],
+    "summary_th": "ยีสต์เซลล์เดียว หมักน้ำตาลได้แอลกอฮอล์และคาร์บอนไดออกไซด์ ใช้ทำขนมปังและเครื่องดื่ม",
+    "summary_en": "",
+    "traits": {
+      "form": "yeast"
+    },
+    "traits_text_th": {
+      "food": "หมักน้ำตาล",
+      "spore": "แตกหน่อ และสร้างแอสโคสปอร์",
+      "home": "ผิวผลไม้ และน้ำหวาน"
+    },
+    "traits_text_en": {},
+    "illustration": "yeast",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "penicillium-chrysogenum",
+    "group": "fungi",
+    "scientific_name": "Penicillium chrysogenum",
+    "name_th": "เพนิซิลเลียม",
+    "name_en": "",
+    "reading_th": "เพนิซิลเลียม ไครโซจีนัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Eurotiomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Eurotiales"
+      },
+      {
+        "rank": "family",
+        "name": "Aspergillaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Penicillium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "medicine",
+      "industry"
+    ],
+    "summary_th": "ราสีเขียวอมฟ้า ใช้ผลิตยาเพนิซิลลินในระดับอุตสาหกรรม",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์",
+      "spore": "โคนิเดียเรียงเป็นสายคล้ายแปรงบนก้าน",
+      "home": "ดิน และอาหารที่ขึ้นรา"
+    },
+    "traits_text_en": {},
+    "illustration": "brush",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "aspergillus-oryzae",
+    "group": "fungi",
+    "scientific_name": "Aspergillus oryzae",
+    "name_th": "แอสเปอร์จิลลัส ออไรซี",
+    "name_en": "",
+    "reading_th": "แอสเปอร์จิลลัส ออไรซี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Eurotiomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Eurotiales"
+      },
+      {
+        "rank": "family",
+        "name": "Aspergillaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Aspergillus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "food",
+      "industry"
+    ],
+    "summary_th": "ใช้หมักซีอิ๊ว เต้าเจี้ยว และมิโซะ เพราะสร้างเอนไซม์ย่อยแป้งและโปรตีน",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายแป้งและโปรตีน",
+      "spore": "โคนิเดียบนหัวกลมปลายก้าน",
+      "home": "ข้าวนึ่งที่ใช้ทำหัวเชื้อหมัก (โคจิ)"
+    },
+    "traits_text_en": {},
+    "illustration": "asper",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "volvariella-volvacea",
+    "group": "fungi",
+    "scientific_name": "Volvariella volvacea",
+    "name_th": "เห็ดฟาง",
+    "name_en": "",
+    "reading_th": "วอลวาริเอลลา วอลวาเซีย",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Agaricales"
+      },
+      {
+        "rank": "family",
+        "name": "Pluteaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Volvariella"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "agriculture"
+    ],
+    "summary_th": "เพาะได้จากฟางข้าว ดอกเห็ดคือส่วนที่สร้างเบสิดิโอสปอร์",
+    "summary_en": "",
+    "traits": {
+      "form": "mushroom"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายฟางและเศษพืช",
+      "spore": "เบสิดิโอสปอร์ที่ครีบใต้หมวกเห็ด",
+      "home": "กองฟางในเขตร้อน"
+    },
+    "traits_text_en": {},
+    "illustration": "mushroom",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "cryptococcus-neoformans",
+    "group": "fungi",
+    "scientific_name": "Cryptococcus neoformans",
+    "name_th": "คริปโตค็อกคัส",
+    "name_en": "",
+    "reading_th": "คริปโตค็อกคัส นีโอฟอร์แมนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Tremellomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Tremellales"
+      },
+      {
+        "rank": "family",
+        "name": "Cryptococcaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Cryptococcus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ยีสต์ที่มีแคปซูลหนา ก่อเยื่อหุ้มสมองอักเสบในผู้ที่ภูมิคุ้มกันต่ำ",
+    "summary_en": "",
+    "traits": {
+      "form": "yeast"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์ และก่อโรคแบบฉวยโอกาส",
+      "spore": "แตกหน่อ",
+      "home": "ดิน และมูลนกพิราบ"
+    },
+    "traits_text_en": {},
+    "illustration": "capsule",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "neurospora-crassa",
+    "group": "fungi",
+    "scientific_name": "Neurospora crassa",
+    "name_th": "นิวโรสปอรา",
+    "name_en": "",
+    "reading_th": "นิวโรสปอรา แครสซา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Sordariomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Sordariales"
+      },
+      {
+        "rank": "family",
+        "name": "Sordariaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Neurospora"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "ราขนมปังสีส้มที่บีเดิลและเททัมใช้ทดลองจนได้แนวคิดหนึ่งยีนหนึ่งเอนไซม์",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์",
+      "spore": "โคนิเดีย และแอสโคสปอร์ 8 อันเรียงในแอสคัส",
+      "home": "ซากพืชหลังไฟป่าและขนมปัง"
+    },
+    "traits_text_en": {},
+    "illustration": "mold",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "aspergillus-flavus",
+    "group": "fungi",
+    "scientific_name": "Aspergillus flavus",
+    "name_th": "แอสเปอร์จิลลัส ฟลาวัส",
+    "name_en": "",
+    "reading_th": "แอสเปอร์จิลลัส ฟลาวัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Eurotiomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Eurotiales"
+      },
+      {
+        "rank": "family",
+        "name": "Aspergillaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Aspergillus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "medicine"
+    ],
+    "summary_th": "ราที่ขึ้นบนถั่วลิสงและข้าวโพดที่เก็บไว้ชื้น สร้างอะฟลาทอกซินซึ่งเป็นสารก่อมะเร็งตับ",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์",
+      "spore": "โคนิเดียบนหัวกลมปลายก้าน",
+      "home": "ดิน และเมล็ดพืชที่เก็บไว้ชื้น"
+    },
+    "traits_text_en": {},
+    "illustration": "asper",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "pleurotus-ostreatus",
+    "group": "fungi",
+    "scientific_name": "Pleurotus ostreatus",
+    "name_th": "เห็ดนางรม",
+    "name_en": "",
+    "reading_th": "พลูโรตัส ออสเทรียตัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Agaricales"
+      },
+      {
+        "rank": "family",
+        "name": "Pleurotaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pleurotus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "agriculture"
+    ],
+    "summary_th": "เห็ดที่เพาะจากขี้เลื่อยและฟาง ครีบอยู่ใต้หมวกและลาดลงมาถึงก้าน",
+    "summary_en": "",
+    "traits": {
+      "form": "mushroom"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายเนื้อไม้",
+      "spore": "เบสิดิโอสปอร์ที่ครีบ",
+      "home": "ขอนไม้และวัสดุเพาะ"
+    },
+    "traits_text_en": {},
+    "illustration": "mushroom",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "termitomyces-fuliginosus",
+    "group": "fungi",
+    "scientific_name": "Termitomyces fuliginosus",
+    "name_th": "เห็ดโคน",
+    "name_en": "",
+    "reading_th": "เทอร์มิโทไมซีส ฟูลิจิโนซัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Agaricales"
+      },
+      {
+        "rank": "family",
+        "name": "Lyophyllaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Termitomyces"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "ecology"
+    ],
+    "summary_th": "เห็ดที่ปลวกเพาะไว้ในรังใต้ดิน ปลวกได้อาหารจากเส้นใยเห็ด ส่วนเห็ดได้ที่อยู่และเศษพืช",
+    "summary_en": "",
+    "traits": {
+      "form": "mushroom"
+    },
+    "traits_text_th": {
+      "food": "อยู่ร่วมกับปลวกแบบพึ่งพากัน",
+      "spore": "เบสิดิโอสปอร์ที่ครีบ",
+      "home": "จอมปลวกในป่าเขตร้อน"
+    },
+    "traits_text_en": {},
+    "illustration": "mushroom",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "candida-albicans",
+    "group": "fungi",
+    "scientific_name": "Candida albicans",
+    "name_th": "แคนดิดา",
+    "name_en": "",
+    "reading_th": "แคนดิดา อัลบิแคนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Saccharomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Saccharomycetales"
+      },
+      {
+        "rank": "family",
+        "name": "Debaryomycetaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Candida"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ยีสต์ที่อยู่ในปากและลำไส้ตามปกติ แต่เปลี่ยนเป็นเส้นใยและก่อโรคเชื้อราในช่องปากหรือช่องคลอดเมื่อภูมิคุ้มกันต่ำ",
+    "summary_en": "",
+    "traits": {
+      "form": "yeast"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์ และก่อโรคแบบฉวยโอกาส",
+      "spore": "แตกหน่อ",
+      "home": "ปาก ลำไส้ และผิวหนังของคน"
+    },
+    "traits_text_en": {},
+    "illustration": "yeast",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "cordyceps-militaris",
+    "group": "fungi",
+    "scientific_name": "Cordyceps militaris",
+    "name_th": "ถั่งเช่าสีทอง",
+    "name_en": "",
+    "reading_th": "คอร์ดิเซปส์ มิลิทาริส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Sordariomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Hypocreales"
+      },
+      {
+        "rank": "family",
+        "name": "Cordycipitaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Cordyceps"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine",
+      "industry"
+    ],
+    "summary_th": "ราที่เป็นปรสิตในดักแด้แมลง สร้างดอกสีส้ม นำมาเพาะเลี้ยงเป็นอาหารเสริม",
+    "summary_en": "",
+    "traits": {
+      "form": "mushroom"
+    },
+    "traits_text_th": {
+      "food": "ปรสิตในตัวอ่อนและดักแด้ของแมลง",
+      "spore": "แอสโคสปอร์ในดอกรูปกระบอง",
+      "home": "ดักแด้แมลงในดิน และฟาร์มเพาะเลี้ยง"
+    },
+    "traits_text_en": {},
+    "illustration": "mushroom",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "puccinia-graminis",
+    "group": "fungi",
+    "scientific_name": "Puccinia graminis",
+    "name_th": "ราสนิมข้าวสาลี",
+    "name_en": "",
+    "reading_th": "พุกซิเนีย กรามินิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Pucciniomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Pucciniales"
+      },
+      {
+        "rank": "family",
+        "name": "Pucciniaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Puccinia"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "agriculture"
+    ],
+    "summary_th": "ราสนิมที่ทำให้ข้าวสาลีเสียหาย วงชีวิตต้องอาศัยพืชสองชนิดและสร้างสปอร์ได้ถึงห้าแบบ",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "ปรสิตในพืช",
+      "spore": "สปอร์หลายแบบในวงชีวิตเดียว รวมถึงสปอร์สีสนิมบนใบข้าวสาลี",
+      "home": "ข้าวสาลีและพืชบาร์เบอร์รี"
+    },
+    "traits_text_en": {},
+    "illustration": "mold",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "pneumocystis-jirovecii",
+    "group": "fungi",
+    "scientific_name": "Pneumocystis jirovecii",
+    "name_th": "นิวโมซิสติส",
+    "name_en": "",
+    "reading_th": "นิวโมซิสติส จิโรเวซิไอ",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Pneumocystidomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Pneumocystidales"
+      },
+      {
+        "rank": "family",
+        "name": "Pneumocystidaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pneumocystis"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ฟังไจที่ก่อปอดอักเสบรุนแรงในผู้ติดเชื้อเอชไอวี เดิมเคยถูกจัดเป็นโปรโตซัว",
+    "summary_en": "",
+    "traits": {
+      "form": "yeast"
+    },
+    "traits_text_th": {
+      "food": "ปรสิตในถุงลมปอด",
+      "spore": "สร้างแอสคัสภายในซีสต์",
+      "home": "ปอดของคน"
+    },
+    "traits_text_en": {},
+    "illustration": "yeast",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "aspergillus-niger",
+    "group": "fungi",
+    "scientific_name": "Aspergillus niger",
+    "name_th": "แอสเปอร์จิลลัส ไนเจอร์",
+    "name_en": "",
+    "reading_th": "แอสเปอร์จิลลัส ไนเจอร์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ascomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Eurotiomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Eurotiales"
+      },
+      {
+        "rank": "family",
+        "name": "Aspergillaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Aspergillus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "industry"
+    ],
+    "summary_th": "ราดำที่ใช้ผลิตกรดซิตริกและเอนไซม์ในอุตสาหกรรม พบเป็นราสีดำบนหัวหอมและผลไม้",
+    "summary_en": "",
+    "traits": {
+      "form": "mold"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์",
+      "spore": "โคนิเดียสีดำบนหัวกลมปลายก้าน",
+      "home": "ดิน และผักผลไม้ที่ขึ้นรา"
+    },
+    "traits_text_en": {},
+    "illustration": "asper",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "ganoderma-lucidum",
+    "group": "fungi",
+    "scientific_name": "Ganoderma lucidum",
+    "name_th": "เห็ดหลินจือ",
+    "name_en": "",
+    "reading_th": "แกโนเดอร์มา ลูซิดัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Polyporales"
+      },
+      {
+        "rank": "family",
+        "name": "Polyporaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Ganoderma"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "medicine",
+      "agriculture"
+    ],
+    "summary_th": "เห็ดหิ้งเนื้อแข็งผิวมันวาว ใต้หมวกไม่มีครีบแต่มีรูเล็กที่สร้างสปอร์ และย่อยสลายเนื้อไม้",
+    "summary_en": "",
+    "traits": {
+      "form": "mushroom"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายลิกนินในเนื้อไม้",
+      "spore": "เบสิดิโอสปอร์ในรูใต้หมวก",
+      "home": "ตอไม้และวัสดุเพาะ"
+    },
+    "traits_text_en": {},
+    "illustration": "mushroom",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "amanita-exitialis",
+    "group": "fungi",
+    "scientific_name": "Amanita exitialis",
+    "name_th": "เห็ดระโงกหิน",
+    "name_en": "",
+    "reading_th": "อะมานิตา เอ็กซิทิอาลิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Agaricales"
+      },
+      {
+        "rank": "family",
+        "name": "Amanitaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Amanita"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "เห็ดพิษสีขาวที่มีวงแหวนที่ก้านและถ้วยหุ้มโคน มีสารอะมาท็อกซินทำลายตับ และหน้าตาคล้ายเห็ดระโงกขาวที่กินได้",
+    "summary_en": "",
+    "traits": {
+      "form": "mushroom"
+    },
+    "traits_text_th": {
+      "food": "อยู่ร่วมกับรากต้นไม้แบบเอกโทไมคอร์ไรซา",
+      "spore": "เบสิดิโอสปอร์ที่ครีบ",
+      "home": "ป่าเต็งรังและป่าเบญจพรรณ"
+    },
+    "traits_text_en": {},
+    "illustration": "mushroom",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  }
+]

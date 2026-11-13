@@ -1,0 +1,3922 @@
+{
+  "Acanthaster": {
+    "rank": "genus",
+    "reading_th": "อะแคนทาสเทอร์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Acanthasteridae": {
+    "rank": "family",
+    "reading_th": "อะแคนทาสเทอริดี",
+    "common_th": "",
+    "about_th": "ดาวทะเลแขนจำนวนมากและมีหนามพิษ",
+    "about_en": "Many-armed sea stars with venomous spines.",
+    "review": "ai_draft"
+  },
+  "Acetobacter": {
+    "rank": "genus",
+    "reading_th": "อะซิโตแบคเตอร์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Acetobacteraceae": {
+    "rank": "family",
+    "reading_th": "อะซิโตแบคเทอราซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียกรดแอซิติกที่ออกซิไดซ์เอทานอลเป็นกรดแอซิติกและทนกรด",
+    "about_en": "Acid-tolerant acetic acid bacteria that oxidize ethanol to acetic acid.",
+    "review": "ai_draft"
+  },
+  "Actinobacteria": {
+    "rank": "phylum",
+    "reading_th": "แอกทิโนแบคทีเรีย",
+    "common_th": "",
+    "about_th": "แบคทีเรียแกรมบวกที่ดีเอ็นเอมีสัดส่วน G+C สูง หลายชนิดเจริญเป็นเส้นสายแตกแขนง และเป็นแหล่งของยาปฏิชีวนะจำนวนมาก",
+    "about_en": "Gram-positive bacteria with high G+C DNA. Many grow as branching filaments, and they are the source of many antibiotics.",
+    "review": "ai_draft"
+  },
+  "Actinomycetes": {
+    "rank": "class",
+    "reading_th": "แอกทิโนไมซีทีส",
+    "common_th": "",
+    "about_th": "คลาสหลักของแอกทิโนแบคทีเรีย รวมทั้งชนิดที่เป็นเส้นสายในดินและชนิดก่อโรค",
+    "about_en": "The main class of Actinobacteria, including filamentous soil species and pathogens.",
+    "review": "ai_draft"
+  },
+  "Actinomycetota": {
+    "rank": null,
+    "reading_th": "แอกทิโนไมซีโตตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Actinopterygii": {
+    "rank": "class",
+    "reading_th": "แอกทิโนพเทอริจิไอ",
+    "common_th": "",
+    "about_th": "ปลากระดูกแข็งที่ครีบค้ำด้วยก้านกระดูกบางๆ และมักมีถุงลม",
+    "about_en": "Ray-finned bony fish whose fins are held up by thin bony rays; most have a swim bladder.",
+    "review": "ai_draft"
+  },
+  "Aedes": {
+    "rank": "genus",
+    "reading_th": "เอดีส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Agaricales": {
+    "rank": "order",
+    "reading_th": "อะการิคาลีส",
+    "common_th": "",
+    "about_th": "เห็ดที่มีครีบใต้หมวก เป็นอันดับเห็ดที่ใหญ่ที่สุด",
+    "about_en": "Mushrooms with gills under the cap; the largest mushroom order.",
+    "review": "ai_draft"
+  },
+  "Agaricomycetes": {
+    "rank": "class",
+    "reading_th": "อะการิโคไมซีทีส",
+    "common_th": "",
+    "about_th": "เบสิดิโอไมซีตที่สร้างดอกเห็ดขนาดใหญ่ เช่น เห็ดครีบ เห็ดหิ้ง และเห็ดรู",
+    "about_en": "Basidiomycetes that form large mushrooms, such as gilled mushrooms, bracket fungi and boletes.",
+    "review": "ai_draft"
+  },
+  "Agrobacterium": {
+    "rank": "genus",
+    "reading_th": "อะโกรแบคทีเรียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Alismatales": {
+    "rank": "order",
+    "reading_th": "อะลิสมาทาลีส",
+    "common_th": "",
+    "about_th": "ใบเลี้ยงเดี่ยวที่หลายชนิดอยู่ในน้ำ เช่น สาหร่ายหางกระรอก ผำ และบอน",
+    "about_en": "Monocots, many of them aquatic, such as hydrilla, duckweeds and aroids.",
+    "review": "ai_draft"
+  },
+  "Allium": {
+    "rank": "genus",
+    "reading_th": "อัลเลียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Alphaproteobacteria": {
+    "rank": "class",
+    "reading_th": "แอลฟาโพรทีโอแบคทีเรีย",
+    "common_th": "",
+    "about_th": "โพรทีโอแบคทีเรียที่หลายชนิดอยู่ร่วมกับพืชหรือสัตว์อย่างใกล้ชิด และเป็นกลุ่มที่ให้กำเนิดไมโทคอนเดรีย",
+    "about_en": "Proteobacteria, many of which live in close partnership with plants or animals. This group gave rise to mitochondria.",
+    "review": "ai_draft"
+  },
+  "Alveolata": {
+    "rank": "major_clade",
+    "reading_th": "แอลวีโอลาตา",
+    "common_th": "แอลวีโอเลต",
+    "about_th": "มีถุงแบนเรียงอยู่ใต้เยื่อหุ้มเซลล์ (แอลวีโอไล) ช่วยค้ำรูปร่างเซลล์",
+    "about_en": "Protists with flattened sacs (alveoli) under the cell membrane that support the cell.",
+    "review": "ai_draft"
+  },
+  "Amanita": {
+    "rank": "genus",
+    "reading_th": "อะมานิตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Amanitaceae": {
+    "rank": "family",
+    "reading_th": "อะมานิตาซีอี",
+    "common_th": "",
+    "about_th": "เห็ดครีบที่ดอกอ่อนถูกห่อด้วยเปลือกทั้งดอก จึงมีถ้วยหุ้มโคน (วอลวา) และมักมีวงแหวนที่ก้าน หลายชนิดมีพิษถึงตาย",
+    "about_en": "Gilled mushrooms whose young fruiting body is wrapped in a veil, leaving a cup at the base (volva) and often a ring on the stem. Many are deadly.",
+    "review": "ai_draft"
+  },
+  "Amaryllidaceae": {
+    "rank": "family",
+    "reading_th": "แอมาริลลิดาซีอี",
+    "common_th": "",
+    "about_th": "พืชหัวที่หลายชนิดมีกลิ่นฉุนจากสารประกอบกำมะถัน เช่น หอมและกระเทียม",
+    "about_en": "Bulb plants, many with a pungent smell from sulfur compounds, such as onion and garlic.",
+    "review": "ai_draft"
+  },
+  "Amoeba": {
+    "rank": "genus",
+    "reading_th": "อะมีบา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Amoebozoa": {
+    "rank": "major_clade",
+    "reading_th": "อะมีโบซัว",
+    "common_th": "อะมีโบซัว",
+    "about_th": "โพรทิสต์ที่เคลื่อนที่ด้วยเท้าเทียมรูปพู รวมทั้งอะมีบาและราเมือก",
+    "about_en": "Protists that move with lobe-shaped pseudopodia, including amoebae and slime molds.",
+    "review": "ai_draft"
+  },
+  "Amphibia": {
+    "rank": "class",
+    "reading_th": "แอมฟิเบีย",
+    "common_th": "",
+    "about_th": "สะเทินน้ำสะเทินบก ผิวเปียกไม่มีเกล็ด หายใจทางผิวได้ และไข่ไม่มีเปลือกต้องวางในที่ชื้น",
+    "about_en": "Amphibians: moist skin without scales, breathing through the skin, and shell-less eggs laid in damp places.",
+    "review": "ai_draft"
+  },
+  "Amphioxiformes": {
+    "rank": "order",
+    "reading_th": "แอมฟิออกซิฟอร์มีส",
+    "common_th": "",
+    "about_th": "อันดับเดียวของแอมฟิออกซัส",
+    "about_en": "The single order of lancelets.",
+    "review": "ai_draft"
+  },
+  "Ampullariidae": {
+    "rank": "family",
+    "reading_th": "แอมพูลลาริอิดี",
+    "common_th": "",
+    "about_th": "หอยโข่งน้ำจืดที่มีทั้งเหงือกและปอด จึงหายใจในอากาศได้",
+    "about_en": "Freshwater apple snails with both a gill and a lung, so they can breathe air.",
+    "review": "ai_draft"
+  },
+  "Anabantiformes": {
+    "rank": "order",
+    "reading_th": "อะนาแบนทิฟอร์มีส",
+    "common_th": "",
+    "about_th": "ปลาที่มีอวัยวะลาบิรินท์ใต้กระพุ้งแก้มไว้หายใจจากอากาศ",
+    "about_en": "Fish with a labyrinth organ above the gills for breathing air.",
+    "review": "ai_draft"
+  },
+  "Ananas": {
+    "rank": "genus",
+    "reading_th": "อะนานัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Animalia": {
+    "rank": "kingdom",
+    "reading_th": "แอนิมาเลีย",
+    "common_th": "",
+    "about_th": "ยูแคริโอตหลายเซลล์ที่ไม่มีผนังเซลล์ กินสิ่งมีชีวิตอื่นแล้วย่อยภายในร่างกาย มีระยะบลาสทูลาระหว่างการเจริญ และส่วนใหญ่มีเนื้อเยื่อประสาทและกล้ามเนื้อ",
+    "about_en": "Multicellular eukaryotes without cell walls that eat other organisms and digest them inside the body, pass through a blastula stage, and mostly have nerve and muscle tissue.",
+    "review": "ai_draft"
+  },
+  "Annelida": {
+    "rank": "phylum",
+    "reading_th": "แอนเนลิดา",
+    "common_th": "",
+    "about_th": "หนอนปล้อง ลำตัวแบ่งเป็นปล้องซ้ำกัน มีช่องตัวแท้ และระบบหมุนเวียนเลือดแบบปิด",
+    "about_en": "Segmented worms with repeated segments, a true coelom and a closed circulatory system.",
+    "review": "ai_draft"
+  },
+  "Anopheles": {
+    "rank": "genus",
+    "reading_th": "แอโนฟีลีส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Anthoathecata": {
+    "rank": "order",
+    "reading_th": "แอนโทอะทีคาตา",
+    "common_th": "",
+    "about_th": "ไฮดรอยด์ที่โพลิปไม่มีเปลือกหุ้ม",
+    "about_en": "Hydroids whose polyps have no protective covering.",
+    "review": "ai_draft"
+  },
+  "Anthocerophyta": {
+    "rank": "phylum",
+    "reading_th": "แอนโทเซอโรไฟตา",
+    "common_th": "",
+    "about_th": "ฮอร์นเวิร์ต สปอโรไฟต์รูปเขาเติบโตจากฐานไปเรื่อยๆ และมีปากใบ ซึ่งลิเวอร์เวิร์ตไม่มี",
+    "about_en": "Hornworts: horn-shaped sporophytes that keep growing from the base and have stomata, which liverworts lack.",
+    "review": "ai_draft"
+  },
+  "Anthoceros": {
+    "rank": "genus",
+    "reading_th": "แอนโทเซรอส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Anthocerotaceae": {
+    "rank": "family",
+    "reading_th": "แอนโทเซอโรทาซีอี",
+    "common_th": "",
+    "about_th": "ฮอร์นเวิร์ตที่สปอร์มีสีเข้ม",
+    "about_en": "Hornworts with dark spores.",
+    "review": "ai_draft"
+  },
+  "Anthocerotales": {
+    "rank": "order",
+    "reading_th": "แอนโทเซอโรทาลีส",
+    "common_th": "",
+    "about_th": "ฮอร์นเวิร์ตที่มีไซยาโนแบคทีเรียอาศัยอยู่ในช่องของแทลลัส",
+    "about_en": "Hornworts with cyanobacteria living in cavities in the thallus.",
+    "review": "ai_draft"
+  },
+  "Anthocerotopsida": {
+    "rank": "class",
+    "reading_th": "แอนโทเซอโรทอปซิดา",
+    "common_th": "",
+    "about_th": "คลาสของฮอร์นเวิร์ต คลอโรพลาสต์ในเซลล์มีเพียงหนึ่งหรือสองอันและมีไพรีนอยด์",
+    "about_en": "The hornwort class: one or two chloroplasts per cell, each with a pyrenoid.",
+    "review": "ai_draft"
+  },
+  "Anthophyta": {
+    "rank": "phylum",
+    "reading_th": "แอนโทไฟตา",
+    "common_th": "",
+    "about_th": "พืชดอก เมล็ดอยู่ในรังไข่ซึ่งเจริญเป็นผล และมีการปฏิสนธิซ้อน",
+    "about_en": "Flowering plants: seeds inside an ovary that becomes the fruit, and double fertilization.",
+    "review": "ai_draft"
+  },
+  "Anura": {
+    "rank": "order",
+    "reading_th": "อนูรา",
+    "common_th": "",
+    "about_th": "กบและคางคก ตัวเต็มวัยไม่มีหาง และขาหลังยาวสำหรับกระโดด",
+    "about_en": "Frogs and toads: no tail as adults and long hind legs for jumping.",
+    "review": "ai_draft"
+  },
+  "Apicomplexa": {
+    "rank": "subgroup",
+    "reading_th": "เอพิคอมเพลซา",
+    "common_th": "",
+    "about_th": "ปรสิตที่มีชุดโครงสร้างปลายเซลล์ (apical complex) ใช้เจาะเข้าเซลล์โฮสต์ และไม่มีอวัยวะเคลื่อนที่ในระยะส่วนใหญ่",
+    "about_en": "Parasites with an apical complex used to enter host cells and no locomotor organelles for most of the life cycle.",
+    "review": "ai_draft"
+  },
+  "Apidae": {
+    "rank": "family",
+    "reading_th": "เอพิดี",
+    "common_th": "",
+    "about_th": "ผึ้งที่หลายชนิดมีตะกร้าเก็บเกสรที่ขาหลัง และสร้างรังด้วยขี้ผึ้ง",
+    "about_en": "Bees, many with pollen baskets on the hind legs and nests built of wax.",
+    "review": "ai_draft"
+  },
+  "Apis": {
+    "rank": "genus",
+    "reading_th": "เอพิส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Arabidopsis": {
+    "rank": "genus",
+    "reading_th": "อะราบิดอปซิส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Araceae": {
+    "rank": "family",
+    "reading_th": "อาราซีอี",
+    "common_th": "",
+    "about_th": "บอน เผือก และผำ ช่อดอกเป็นแท่ง (สปาดิกซ์) มีกาบหุ้ม ยกเว้นพวกผำที่ลดรูปมาก",
+    "about_en": "Aroids such as taro and duckweeds; flowers on a spike (spadix) wrapped by a spathe, except the highly reduced duckweeds.",
+    "review": "ai_draft"
+  },
+  "Arachnida": {
+    "rank": "class",
+    "reading_th": "อะแรคนิดา",
+    "common_th": "",
+    "about_th": "แมง ลำตัวสองส่วน ขาเดินสี่คู่ ไม่มีหนวด และมีรยางค์คู่หน้าที่เรียกว่าคีลิเซอรา ต่างจากแมลงที่มีขาสามคู่",
+    "about_en": "Arachnids: two body parts, four pairs of walking legs, no antennae, and front appendages called chelicerae. Insects have three pairs of legs.",
+    "review": "ai_draft"
+  },
+  "Archaea": {
+    "rank": "domain",
+    "reading_th": "อาร์เคีย",
+    "common_th": "",
+    "about_th": "โพรแคริโอตที่ไม่มีเพปทิโดไกลแคน ลิพิดของเยื่อหุ้มเซลล์ต่อด้วยพันธะอีเทอร์ และกลไกถอดรหัสยีนคล้ายของยูแคริโอต จึงแยกเป็นโดเมนต่างหากจากแบคทีเรีย",
+    "about_en": "Prokaryotes with no peptidoglycan, membrane lipids joined by ether bonds, and gene transcription machinery like that of eukaryotes, so they form a domain separate from bacteria.",
+    "review": "ai_draft"
+  },
+  "Archaeplastida": {
+    "rank": "supergroup",
+    "reading_th": "อาร์เคพลาสติดา",
+    "common_th": "",
+    "about_th": "กลุ่มที่มีคลอโรพลาสต์จากเอนโดซิมไบโอซิสปฐมภูมิ (เยื่อหุ้มสองชั้น) รวมสาหร่ายแดง สาหร่ายเขียว และพืชบก",
+    "about_en": "Groups whose chloroplasts came from primary endosymbiosis (two membranes): red algae, green algae and land plants.",
+    "review": "ai_draft"
+  },
+  "Archamoebae": {
+    "rank": "subgroup",
+    "reading_th": "อาร์คามีบี",
+    "common_th": "",
+    "about_th": "อะมีบาที่ไม่มีไมโทคอนเดรียแบบปกติ อยู่ในที่ไม่มีออกซิเจน รวมทั้งปรสิตในลำไส้",
+    "about_en": "Amoebae without normal mitochondria living in oxygen-free places, including gut parasites.",
+    "review": "ai_draft"
+  },
+  "Architaenioglossa": {
+    "rank": "order",
+    "reading_th": "อาร์คิทีนิโอกลอสซา",
+    "common_th": "",
+    "about_th": "หอยฝาเดียวน้ำจืดที่มีฝาปิดเปลือก (โอเพอร์คิวลัม)",
+    "about_en": "Freshwater snails with a lid (operculum) that closes the shell.",
+    "review": "ai_draft"
+  },
+  "Arhynchobdellida": {
+    "rank": "order",
+    "reading_th": "อะริงโคบเดลลิดา",
+    "common_th": "",
+    "about_th": "ปลิงที่ไม่มีงวง ใช้ขากรรไกรหรือกล้ามเนื้อคอหอยกินอาหาร",
+    "about_en": "Leeches without a proboscis that feed with jaws or a muscular pharynx.",
+    "review": "ai_draft"
+  },
+  "Arthropoda": {
+    "rank": "phylum",
+    "reading_th": "อาร์โทรโพดา",
+    "common_th": "",
+    "about_th": "มีโครงร่างภายนอกเป็นไคทิน รยางค์เป็นข้อ ลำตัวเป็นปล้อง และต้องลอกคราบเพื่อเติบโต",
+    "about_en": "A chitin exoskeleton, jointed appendages, a segmented body, and molting to grow.",
+    "review": "ai_draft"
+  },
+  "Arthrospira": {
+    "rank": "genus",
+    "reading_th": "อาร์โทรสไปรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Ascarididae": {
+    "rank": "family",
+    "reading_th": "แอสคาริดิดี",
+    "common_th": "",
+    "about_th": "พยาธิตัวกลมขนาดใหญ่ที่ปากมีริมฝีปากสามอัน และอาศัยในลำไส้",
+    "about_en": "Large roundworms with three lips around the mouth that live in the intestine.",
+    "review": "ai_draft"
+  },
+  "Ascaris": {
+    "rank": "genus",
+    "reading_th": "แอสคาริส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Ascidiacea": {
+    "rank": "class",
+    "reading_th": "แอสซิดิเอเซีย",
+    "common_th": "",
+    "about_th": "เพรียงหัวหอม ตัวเต็มวัยเกาะอยู่กับที่และหุ้มด้วยทูนิกที่มีเซลลูโลส ลักษณะคอร์เดตเห็นชัดเฉพาะในตัวอ่อน",
+    "about_en": "Sea squirts: adults are fixed in place inside a cellulose-containing tunic, and chordate features show clearly only in the larva.",
+    "review": "ai_draft"
+  },
+  "Ascomycota": {
+    "rank": "phylum",
+    "reading_th": "แอสโคไมคอตา",
+    "common_th": "",
+    "about_th": "ฟังไจที่สร้างแอสโคสปอร์ในถุงแอสคัส (มักมี 8 สปอร์) เป็นไฟลัมที่ใหญ่ที่สุด รวมทั้งยีสต์ รา และเห็ดถ้วย",
+    "about_en": "Fungi that form ascospores inside a sac called an ascus (usually 8). The largest phylum, including yeasts, molds and cup fungi.",
+    "review": "ai_draft"
+  },
+  "Asparagales": {
+    "rank": "order",
+    "reading_th": "แอสพารากาลีส",
+    "common_th": "",
+    "about_th": "ใบเลี้ยงเดี่ยวที่รวมกล้วยไม้ หน่อไม้ฝรั่ง และหอมกระเทียม",
+    "about_en": "Monocots including orchids, asparagus, onions and garlic.",
+    "review": "ai_draft"
+  },
+  "Aspergillaceae": {
+    "rank": "family",
+    "reading_th": "แอสเปอร์จิลลาซีอี",
+    "common_th": "",
+    "about_th": "วงศ์ของ Aspergillus และ Penicillium ที่สร้างโคนิเดียเป็นสายบนก้านชู",
+    "about_en": "The family of Aspergillus and Penicillium, forming chains of conidia on stalks.",
+    "review": "ai_draft"
+  },
+  "Aspergillus": {
+    "rank": "genus",
+    "reading_th": "แอสเปอร์จิลลัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Asteroidea": {
+    "rank": "class",
+    "reading_th": "แอสเทอรอยเดีย",
+    "common_th": "",
+    "about_th": "ดาวทะเล แขนแผ่ออกจากจานกลางและเชื่อมกันที่ฐาน มีทิวบ์ฟีตในร่องใต้แขน",
+    "about_en": "Sea stars, with arms spreading from a central disc and joined at the base, and tube feet in grooves under each arm.",
+    "review": "ai_draft"
+  },
+  "Athyriaceae": {
+    "rank": "family",
+    "reading_th": "อะไทริเอซีอี",
+    "common_th": "",
+    "about_th": "เฟิร์นดินที่ซอรัสมักยาวเรียงตามเส้นใบ",
+    "about_en": "Ground ferns whose sori are usually long and lie along the veins.",
+    "review": "ai_draft"
+  },
+  "Aurelia": {
+    "rank": "genus",
+    "reading_th": "ออเรเลีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Aves": {
+    "rank": "class",
+    "reading_th": "เอวีส",
+    "common_th": "",
+    "about_th": "นก มีขนนก จะงอยปากไม่มีฟัน กระดูกกลวง ไข่มีเปลือกแข็ง และเลือดอุ่น",
+    "about_en": "Birds: feathers, a toothless beak, hollow bones, hard-shelled eggs and warm blood.",
+    "review": "ai_draft"
+  },
+  "Azolla": {
+    "rank": "genus",
+    "reading_th": "อะซอลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Bacillaceae": {
+    "rank": "family",
+    "reading_th": "บาซิลลาซีอี",
+    "common_th": "",
+    "about_th": "แท่งแกรมบวกที่สร้างเอนโดสปอร์ได้ในที่มีออกซิเจน ทนความร้อนและความแห้งแล้ง",
+    "about_en": "Gram-positive rods that form endospores in the presence of oxygen and withstand heat and drying.",
+    "review": "ai_draft"
+  },
+  "Bacillales": {
+    "rank": "order",
+    "reading_th": "บาซิลลาลีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียแกรมบวกที่สร้างเอนไซม์คาตาเลส และหลายชนิดสร้างเอนโดสปอร์ ต่างจาก Lactobacillales ที่คาตาเลสลบ",
+    "about_en": "Gram-positive bacteria that make catalase, and many form endospores. Lactobacillales are catalase-negative.",
+    "review": "ai_draft"
+  },
+  "Bacillariophyta": {
+    "rank": "subgroup",
+    "reading_th": "บาซิลลาริโอไฟตา",
+    "common_th": "ไดอะตอม",
+    "about_th": "ไดอะตอม ผนังเซลล์เป็นซิลิกาสองฝาประกบกันคล้ายกล่องกับฝา",
+    "about_en": "Diatoms, whose silica cell wall is two halves fitting together like a box and lid.",
+    "review": "ai_draft"
+  },
+  "Bacilli": {
+    "rank": "class",
+    "reading_th": "บาซิลไล",
+    "common_th": "",
+    "about_th": "คลาสของเฟอร์มิคิวทีที่ใช้ออกซิเจนได้ (ต้องใช้หรือใช้ก็ได้) มีทั้งรูปแท่งและทรงกลม ต่างจาก Clostridia ที่ส่วนใหญ่ไม่ใช้ออกซิเจน",
+    "about_en": "Firmicutes that can use oxygen (required or optional), as rods or spheres. Clostridia, by contrast, mostly cannot use oxygen.",
+    "review": "ai_draft"
+  },
+  "Bacillota": {
+    "rank": null,
+    "reading_th": "บาซิลโลตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Bacillus": {
+    "rank": "genus",
+    "reading_th": "บาซิลลัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Bacteria": {
+    "rank": "domain",
+    "reading_th": "แบคทีเรีย",
+    "common_th": "",
+    "about_th": "โพรแคริโอตที่ผนังเซลล์มีเพปทิโดไกลแคน และลิพิดของเยื่อหุ้มเซลล์เป็นกรดไขมันต่อด้วยพันธะเอสเทอร์ ต่างจากอาร์เคียที่ใช้พันธะอีเทอร์และไม่มีเพปทิโดไกลแคน",
+    "about_en": "Prokaryotes whose cell walls contain peptidoglycan and whose membrane lipids are fatty acids joined by ester bonds. Archaea use ether bonds and lack peptidoglycan.",
+    "review": "ai_draft"
+  },
+  "Bangiophyceae": {
+    "rank": "subgroup",
+    "reading_th": "แบงจิโอฟิซีอี",
+    "common_th": "",
+    "about_th": "สาหร่ายแดงที่แต่ละเซลล์มีคลอโรพลาสต์รูปดาวอันเดียว บางชนิดเป็นแผ่นบาง เช่น โนริ",
+    "about_en": "Red algae with one star-shaped chloroplast per cell; some form thin sheets, such as nori.",
+    "review": "ai_draft"
+  },
+  "Basidiomycota": {
+    "rank": "phylum",
+    "reading_th": "เบสิดิโอไมคอตา",
+    "common_th": "",
+    "about_th": "ฟังไจที่สร้างเบสิดิโอสปอร์บนเบสิเดียม (มักมี 4 สปอร์) รวมทั้งเห็ดส่วนใหญ่ ราสนิม และราเขม่า",
+    "about_en": "Fungi that form basidiospores on a basidium (usually 4), including most mushrooms, rusts and smuts.",
+    "review": "ai_draft"
+  },
+  "Batrachochytrium": {
+    "rank": "genus",
+    "reading_th": "บาทราโคไคเทรียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Betaproteobacteria": {
+    "rank": "class",
+    "reading_th": "บีตาโพรทีโอแบคทีเรีย",
+    "common_th": "",
+    "about_th": "โพรทีโอแบคทีเรียที่ส่วนใหญ่อยู่ในดินและน้ำ ใช้สารอินทรีย์ได้หลากหลาย และบางชนิดก่อโรคในคน",
+    "about_en": "Proteobacteria that mostly live in soil and water, use a wide range of organic compounds, and in a few cases cause human disease.",
+    "review": "ai_draft"
+  },
+  "Betta": {
+    "rank": "genus",
+    "reading_th": "เบตตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Bivalvia": {
+    "rank": "class",
+    "reading_th": "ไบวาลเวีย",
+    "common_th": "",
+    "about_th": "หอยสองฝา ไม่มีหัวและแรดูลา และกรองอาหารด้วยเหงือก",
+    "about_en": "Two-shelled molluscs with no head or radula that filter food with their gills.",
+    "review": "ai_draft"
+  },
+  "Blattidae": {
+    "rank": "family",
+    "reading_th": "แบลตทิดี",
+    "common_th": "",
+    "about_th": "แมลงสาบขนาดใหญ่ที่อาศัยใกล้คน",
+    "about_en": "Large cockroaches that live around people.",
+    "review": "ai_draft"
+  },
+  "Blattodea": {
+    "rank": "order",
+    "reading_th": "แบลตโทเดีย",
+    "common_th": "",
+    "about_th": "แมลงสาบและปลวก ปีกคู่หน้าเหนียวคล้ายหนัง ปากแบบกัดกิน และเจริญเติบโตแบบไม่สมบูรณ์",
+    "about_en": "Cockroaches and termites, with leathery forewings, chewing mouthparts and incomplete metamorphosis.",
+    "review": "ai_draft"
+  },
+  "Bombycidae": {
+    "rank": "family",
+    "reading_th": "บอมบิซิดี",
+    "common_th": "",
+    "about_th": "ผีเสื้อกลางคืนที่หนอนพ่นใยทำรังไหม",
+    "about_en": "Moths whose caterpillars spin silk cocoons.",
+    "review": "ai_draft"
+  },
+  "Bombyx": {
+    "rank": "genus",
+    "reading_th": "บอมบิกซ์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Branchiostoma": {
+    "rank": "genus",
+    "reading_th": "แบรงคิโอสโตมา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Branchiostomatidae": {
+    "rank": "family",
+    "reading_th": "แบรงคิโอสโตมาทิดี",
+    "common_th": "",
+    "about_th": "แอมฟิออกซัสที่มีอวัยวะสืบพันธุ์ทั้งสองข้างของลำตัว",
+    "about_en": "Lancelets with gonads on both sides of the body.",
+    "review": "ai_draft"
+  },
+  "Brassicaceae": {
+    "rank": "family",
+    "reading_th": "แบรสซิคาซีอี",
+    "common_th": "",
+    "about_th": "วงศ์ผักกาด ดอกมีกลีบสี่กลีบเรียงเป็นรูปกากบาท",
+    "about_en": "The cabbage family, with four petals arranged in a cross.",
+    "review": "ai_draft"
+  },
+  "Brassicales": {
+    "rank": "order",
+    "reading_th": "แบรสซิคาลีส",
+    "common_th": "",
+    "about_th": "พืชที่สร้างสารกลูโคซิโนเลต ซึ่งให้รสเผ็ดฉุนเมื่อเนื้อเยื่อถูกทำลาย",
+    "about_en": "Plants that make glucosinolates, which taste sharp and pungent when the tissue is damaged.",
+    "review": "ai_draft"
+  },
+  "Bromeliaceae": {
+    "rank": "family",
+    "reading_th": "โบรมีเลียซีอี",
+    "common_th": "",
+    "about_th": "สับปะรดและสับปะรดสี หลายชนิดสังเคราะห์ด้วยแสงแบบ CAM และเก็บน้ำไว้ที่โคนใบ",
+    "about_en": "Pineapples and bromeliads; many use CAM photosynthesis and store water at the leaf bases.",
+    "review": "ai_draft"
+  },
+  "Bryophyta": {
+    "rank": "phylum",
+    "reading_th": "ไบรโอไฟตา",
+    "common_th": "",
+    "about_th": "มอส ไม่มีท่อลำเลียง ระยะแกมีโทไฟต์เด่น มีไรซอยด์หลายเซลล์และใบเล็กเรียงรอบลำต้น",
+    "about_en": "Mosses: no vascular tissue, a dominant gametophyte, multicellular rhizoids and small leaves around the stem.",
+    "review": "ai_draft"
+  },
+  "Burkholderia": {
+    "rank": "genus",
+    "reading_th": "เบอร์โคลเดอเรีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Burkholderiaceae": {
+    "rank": "family",
+    "reading_th": "เบอร์โคลเดอเรียซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียในดินและน้ำที่ทนยาปฏิชีวนะหลายชนิด บางชนิดก่อโรคในคนและสัตว์",
+    "about_en": "Soil and water bacteria resistant to many antibiotics; some cause disease in people and animals.",
+    "review": "ai_draft"
+  },
+  "Burkholderiales": {
+    "rank": "order",
+    "reading_th": "เบอร์โคลเดอเรียลีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียแท่งแกรมลบในดินและน้ำที่ใช้สารอินทรีย์ได้หลากหลาย",
+    "about_en": "Gram-negative rods in soil and water that use many kinds of organic compounds.",
+    "review": "ai_draft"
+  },
+  "Caenorhabditis": {
+    "rank": "genus",
+    "reading_th": "ซีนอแรบดิทิส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Campylobacterales": {
+    "rank": "order",
+    "reading_th": "แคมไพโลแบคเทอราลีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียเกลียวสั้นที่ต้องการออกซิเจนน้อย อาศัยในเยื่อเมือกของทางเดินอาหาร",
+    "about_en": "Short spiral bacteria that need little oxygen and live in the mucus lining of the gut.",
+    "review": "ai_draft"
+  },
+  "Candida": {
+    "rank": "genus",
+    "reading_th": "แคนดิดา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cardiida": {
+    "rank": "order",
+    "reading_th": "คาร์ดิอิดา",
+    "common_th": "",
+    "about_th": "หอยสองฝาที่เปลือกมักมีสันหรือร่องเป็นรัศมี",
+    "about_en": "Bivalves whose shells often have radiating ribs or grooves.",
+    "review": "ai_draft"
+  },
+  "Cardiidae": {
+    "rank": "family",
+    "reading_th": "คาร์ดิอิดี",
+    "common_th": "",
+    "about_th": "หอยคอกเคิลและหอยมือเสือ เปลือกมักมีสันเป็นรัศมี",
+    "about_en": "Cockles and giant clams, with shells that often have radiating ribs.",
+    "review": "ai_draft"
+  },
+  "Caryophyllales": {
+    "rank": "order",
+    "reading_th": "แคริโอฟิลลาลีส",
+    "common_th": "",
+    "about_th": "อันดับที่รวมพืชกินแมลงหลายกลุ่ม กระบองเพชร และผักโขม",
+    "about_en": "An order that includes several groups of carnivorous plants, cacti and amaranths.",
+    "review": "ai_draft"
+  },
+  "Caulerpa": {
+    "rank": "genus",
+    "reading_th": "คอเลอร์พา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cephalopoda": {
+    "rank": "class",
+    "reading_th": "เซฟาโลโพดา",
+    "common_th": "",
+    "about_th": "หมึก มีหนวดรอบปาก ระบบประสาทซับซ้อน และระบบหมุนเวียนเลือดแบบปิด",
+    "about_en": "Squid and relatives: arms around the mouth, a complex nervous system and a closed circulatory system.",
+    "review": "ai_draft"
+  },
+  "Cestoda": {
+    "rank": "class",
+    "reading_th": "เซสโทดา",
+    "common_th": "",
+    "about_th": "พยาธิตัวตืด ไม่มีทางเดินอาหาร ดูดซึมอาหารผ่านผิว ลำตัวเป็นปล้องแบนต่อกันยาว ต่างจากพยาธิใบไม้ที่มีทางเดินอาหาร",
+    "about_en": "Tapeworms: no gut, food absorbed through the skin, and a long chain of flat segments. Flukes, by contrast, have a gut.",
+    "review": "ai_draft"
+  },
+  "Charophyta": {
+    "rank": "major_clade",
+    "reading_th": "คาโรไฟตา",
+    "common_th": "",
+    "about_th": "สาหร่ายเขียวที่ใกล้ชิดกับพืชบกที่สุด เช่น การแบ่งไซโทพลาซึมคล้ายพืช",
+    "about_en": "Green algae closest to land plants, for example in how they divide the cytoplasm.",
+    "review": "ai_draft"
+  },
+  "Chelonia": {
+    "rank": "genus",
+    "reading_th": "คีโลเนีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cheloniidae": {
+    "rank": "family",
+    "reading_th": "คีโลนิอิดี",
+    "common_th": "",
+    "about_th": "เต่าทะเลกระดองแข็ง ขาเป็นใบพาย",
+    "about_en": "Hard-shelled sea turtles with paddle-shaped flippers.",
+    "review": "ai_draft"
+  },
+  "Chlamydomonas": {
+    "rank": "genus",
+    "reading_th": "คลาไมโดโมแนส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Chlorella": {
+    "rank": "genus",
+    "reading_th": "คลอเรลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Chlorophyceae": {
+    "rank": "subgroup",
+    "reading_th": "คลอโรฟิซีอี",
+    "common_th": "",
+    "about_th": "สาหร่ายเขียวที่ส่วนใหญ่อยู่ในน้ำจืด มีทั้งเซลล์เดียว โคโลนี และเส้นสาย",
+    "about_en": "Mostly freshwater green algae as single cells, colonies or filaments.",
+    "review": "ai_draft"
+  },
+  "Chlorophyta": {
+    "rank": "major_clade",
+    "reading_th": "คลอโรไฟตา",
+    "common_th": "สาหร่ายสีเขียว",
+    "about_th": "สาหร่ายสีเขียวที่มีคลอโรฟิลล์ เอ และ บี และเก็บอาหารเป็นแป้งเหมือนพืช",
+    "about_en": "Green algae with chlorophyll a and b that store food as starch, like plants.",
+    "review": "ai_draft"
+  },
+  "Chondrichthyes": {
+    "rank": "class",
+    "reading_th": "คอนดริกไทอีส",
+    "common_th": "",
+    "about_th": "ปลากระดูกอ่อน ไม่มีกระดูกแข็ง ผิวเป็นเกล็ดแบบฟัน และไม่มีถุงลม ต่างจากปลากระดูกแข็ง",
+    "about_en": "Cartilaginous fish: no bone, tooth-like scales, and no swim bladder, unlike bony fish.",
+    "review": "ai_draft"
+  },
+  "Chordata": {
+    "rank": "phylum",
+    "reading_th": "คอร์ดาตา",
+    "common_th": "",
+    "about_th": "อย่างน้อยระยะหนึ่งของชีวิตมีโนโทคอร์ด เส้นประสาทกลวงด้านหลัง ช่องเหงือก และหางที่ยื่นเลยทวารหนัก",
+    "about_en": "At some stage of life: a notochord, a hollow dorsal nerve cord, gill slits and a tail past the anus.",
+    "review": "ai_draft"
+  },
+  "Chromadorea": {
+    "rank": "class",
+    "reading_th": "โครมาโดเรีย",
+    "common_th": "",
+    "about_th": "คลาสใหญ่ของหนอนตัวกลม รวมทั้งชนิดอิสระและปรสิตหลายชนิด",
+    "about_en": "A large class of roundworms, including free-living species and many parasites.",
+    "review": "ai_draft"
+  },
+  "Chytridiomycetes": {
+    "rank": "class",
+    "reading_th": "ไคทริดิโอไมซีทีส",
+    "common_th": "",
+    "about_th": "ไคทริดที่มีแทลลัสเล็กพร้อมไรซอยด์ หลายชนิดเป็นผู้ย่อยสลายหรือปรสิตในน้ำ",
+    "about_en": "Chytrids with a small thallus and rhizoids; many are aquatic decomposers or parasites.",
+    "review": "ai_draft"
+  },
+  "Chytridiomycota": {
+    "rank": "phylum",
+    "reading_th": "ไคทริดิโอไมคอตา",
+    "common_th": "",
+    "about_th": "ฟังไจกลุ่มเดียวที่มีซูสปอร์ว่ายน้ำได้ด้วยแฟลเจลลัมเส้นเดียว ส่วนใหญ่อยู่ในน้ำ",
+    "about_en": "The only fungi with swimming zoospores, each with a single flagellum; mostly aquatic.",
+    "review": "ai_draft"
+  },
+  "Ciliophora": {
+    "rank": "subgroup",
+    "reading_th": "ซิลิโอฟอรา",
+    "common_th": "ซิลิเอต",
+    "about_th": "มีซิเลียจำนวนมาก และนิวเคลียสสองแบบ คือแมโครนิวเคลียสควบคุมการทำงาน กับไมโครนิวเคลียสใช้สืบพันธุ์",
+    "about_en": "Ciliates with many cilia and two kinds of nucleus: a macronucleus that runs the cell and a micronucleus for reproduction.",
+    "review": "ai_draft"
+  },
+  "Ciona": {
+    "rank": "genus",
+    "reading_th": "ไซโอนา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cionidae": {
+    "rank": "family",
+    "reading_th": "ไซโอนิดี",
+    "common_th": "",
+    "about_th": "เพรียงหัวหอมลำตัวทรงกระบอกโปร่งใส",
+    "about_en": "Sea squirts with a transparent, cylindrical body.",
+    "review": "ai_draft"
+  },
+  "Clitellata": {
+    "rank": "class",
+    "reading_th": "ไคลเทลลาตา",
+    "common_th": "",
+    "about_th": "หนอนปล้องที่มีไคลเทลลัมไว้สร้างถุงไข่ และมีเดือยน้อยหรือไม่มีเลย เช่น ไส้เดือนดินและปลิง",
+    "about_en": "Segmented worms with a clitellum for making egg cocoons and few or no bristles, such as earthworms and leeches.",
+    "review": "ai_draft"
+  },
+  "Clostridia": {
+    "rank": "class",
+    "reading_th": "คลอสทริเดีย",
+    "common_th": "",
+    "about_th": "คลาสของเฟอร์มิคิวทีที่ส่วนใหญ่ไม่ใช้ออกซิเจน และหลายชนิดสร้างเอนโดสปอร์",
+    "about_en": "Firmicutes that mostly cannot use oxygen; many form endospores.",
+    "review": "ai_draft"
+  },
+  "Clostridiaceae": {
+    "rank": "family",
+    "reading_th": "คลอสทริเดียซีอี",
+    "common_th": "",
+    "about_th": "แท่งแกรมบวกไม่ใช้ออกซิเจนที่สร้างเอนโดสปอร์ พบในดิน ตะกอน และลำไส้",
+    "about_en": "Endospore-forming Gram-positive rods that cannot use oxygen, found in soil, sediment and the gut.",
+    "review": "ai_draft"
+  },
+  "Clostridiales": {
+    "rank": "order",
+    "reading_th": "คลอสทริเดียลีส",
+    "common_th": "",
+    "about_th": "แท่งแกรมบวกที่ไม่ใช้ออกซิเจน สร้างเอนโดสปอร์ และหลายชนิดสร้างสารพิษรุนแรง",
+    "about_en": "Gram-positive rods that cannot use oxygen, form endospores, and often make potent toxins.",
+    "review": "ai_draft"
+  },
+  "Clostridium": {
+    "rank": "genus",
+    "reading_th": "คลอสทริเดียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cnidaria": {
+    "rank": "phylum",
+    "reading_th": "ไนดาเรีย",
+    "common_th": "",
+    "about_th": "สมมาตรรัศมี เนื้อเยื่อสองชั้น ช่องทางเดินอาหารมีช่องเปิดเดียว และมีเซลล์เข็มพิษ",
+    "about_en": "Radial symmetry, two tissue layers, a gut with a single opening, and stinging cells.",
+    "review": "ai_draft"
+  },
+  "Coniferophyta": {
+    "rank": "phylum",
+    "reading_th": "โคนิเฟอโรไฟตา",
+    "common_th": "",
+    "about_th": "สน ใบรูปเข็มหรือเกล็ด สร้างเมล็ดบนเกล็ดของโคน และละอองเรณูปลิวตามลม",
+    "about_en": "Conifers: needle or scale leaves, seeds on cone scales, and wind-blown pollen.",
+    "review": "ai_draft"
+  },
+  "Cordyceps": {
+    "rank": "genus",
+    "reading_th": "คอร์ดิเซปส์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cordycipitaceae": {
+    "rank": "family",
+    "reading_th": "คอร์ดิซิพิทาซีอี",
+    "common_th": "",
+    "about_th": "ราที่เป็นปรสิตในแมลง และสร้างดอกเนื้อนุ่มสีสดงอกออกจากตัวแมลง",
+    "about_en": "Insect-parasitic fungi that grow soft, brightly colored fruiting bodies out of the insect.",
+    "review": "ai_draft"
+  },
+  "Crassiclitellata": {
+    "rank": "order",
+    "reading_th": "แครสซิไคลเทลลาตา",
+    "common_th": "",
+    "about_th": "ไส้เดือนดิน ไคลเทลลัมหนาหลายชั้นเซลล์ และอาศัยในดิน ต่างจากปลิงที่ส่วนใหญ่อยู่ในน้ำ",
+    "about_en": "Earthworms, with a thick multi-layered clitellum and a life in soil; leeches, by contrast, mostly live in water.",
+    "review": "ai_draft"
+  },
+  "Crenarchaeota": {
+    "rank": "phylum",
+    "reading_th": "เครนอาร์คีโอตา",
+    "common_th": "",
+    "about_th": "อาร์เคียที่ส่วนใหญ่ชอบร้อนจัด และหลายชนิดใช้หรือสร้างสารประกอบกำมะถัน",
+    "about_en": "Archaea that are mostly extreme heat lovers; many use or produce sulfur compounds.",
+    "review": "ai_draft"
+  },
+  "Cryptococcaceae": {
+    "rank": "family",
+    "reading_th": "คริปโตค็อกคาซีอี",
+    "common_th": "",
+    "about_th": "ยีสต์ที่มีแคปซูลพอลิแซ็กคาไรด์หนาห่อหุ้มเซลล์",
+    "about_en": "Yeasts wrapped in a thick polysaccharide capsule.",
+    "review": "ai_draft"
+  },
+  "Cryptococcus": {
+    "rank": "genus",
+    "reading_th": "คริปโตค็อกคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Culicidae": {
+    "rank": "family",
+    "reading_th": "คูลิซิดี",
+    "common_th": "",
+    "about_th": "ยุง ปากเป็นงวงเจาะดูด ปีกมีเกล็ด และตัวอ่อนอยู่ในน้ำ",
+    "about_en": "Mosquitoes, with piercing-sucking mouthparts, scaled wings and aquatic larvae.",
+    "review": "ai_draft"
+  },
+  "Cyanobacteria": {
+    "rank": "phylum",
+    "reading_th": "ไซยาโนแบคทีเรีย",
+    "common_th": "",
+    "about_th": "แบคทีเรียกลุ่มเดียวที่สังเคราะห์ด้วยแสงแบบปล่อยออกซิเจนเหมือนพืช มีคลอโรฟิลล์ เอ และไทลาคอยด์ และเป็นต้นกำเนิดของคลอโรพลาสต์",
+    "about_en": "The only bacteria that carry out oxygen-releasing photosynthesis like plants, with chlorophyll a and thylakoids. They gave rise to chloroplasts.",
+    "review": "ai_draft"
+  },
+  "Cyanobacteriota": {
+    "rank": null,
+    "reading_th": "ไซยาโนแบคทีริโอตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cyanophyceae": {
+    "rank": "class",
+    "reading_th": "ไซยาโนฟิซีอี",
+    "common_th": "ไซยาโนแบคทีเรีย",
+    "about_th": "คลาสของไซยาโนแบคทีเรียในระบบแบบดั้งเดิม รวมทั้งชนิดเซลล์เดียว โคโลนี และเส้นสาย",
+    "about_en": "The traditional single class of cyanobacteria, covering single cells, colonies and filaments.",
+    "review": "ai_draft"
+  },
+  "Cycadaceae": {
+    "rank": "family",
+    "reading_th": "ไซคาดาซีอี",
+    "common_th": "",
+    "about_th": "ปรงที่ต้นเพศเมียสร้างเมล็ดบนใบสร้างเมล็ดที่เรียงหลวมๆ ไม่รวมเป็นโคนแน่น",
+    "about_en": "Cycads whose female plants carry seeds on loosely arranged seed leaves rather than a tight cone.",
+    "review": "ai_draft"
+  },
+  "Cycadales": {
+    "rank": "order",
+    "reading_th": "ไซคาดาลีส",
+    "common_th": "",
+    "about_th": "ปรงที่มีรากปะการังซึ่งมีไซยาโนแบคทีเรียอาศัยอยู่",
+    "about_en": "Cycads with coralloid roots that host cyanobacteria.",
+    "review": "ai_draft"
+  },
+  "Cycadophyta": {
+    "rank": "phylum",
+    "reading_th": "ไซคาโดไฟตา",
+    "common_th": "",
+    "about_th": "ปรง พืชเมล็ดเปลือยที่หน้าตาคล้ายปาล์ม ต้นเพศผู้กับเพศเมียแยกกัน และสเปิร์มว่ายน้ำได้",
+    "about_en": "Cycads: palm-like naked-seed plants with separate male and female plants and swimming sperm.",
+    "review": "ai_draft"
+  },
+  "Cycadopsida": {
+    "rank": "class",
+    "reading_th": "ไซคาดอปซิดา",
+    "common_th": "",
+    "about_th": "คลาสของปรง",
+    "about_en": "The cycad class.",
+    "review": "ai_draft"
+  },
+  "Cycas": {
+    "rank": "genus",
+    "reading_th": "ไซคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Cyclophyllidea": {
+    "rank": "order",
+    "reading_th": "ไซโคลฟิลลิเดีย",
+    "common_th": "",
+    "about_th": "ตืดที่หัวมีปุ่มดูดสี่ปุ่ม",
+    "about_en": "Tapeworms with four suckers on the head.",
+    "review": "ai_draft"
+  },
+  "Cypriniformes": {
+    "rank": "order",
+    "reading_th": "ไซพรินิฟอร์มีส",
+    "common_th": "",
+    "about_th": "ปลาน้ำจืดที่ไม่มีฟันในขากรรไกร แต่มีฟันที่คอหอย เช่น ปลาตะเพียนและปลาคาร์ป",
+    "about_en": "Freshwater fish with no teeth in the jaws but teeth in the throat, such as barbs and carp.",
+    "review": "ai_draft"
+  },
+  "Danio": {
+    "rank": "genus",
+    "reading_th": "ดานิโอ",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Danionidae": {
+    "rank": "family",
+    "reading_th": "ดานิโอนิดี",
+    "common_th": "",
+    "about_th": "ปลาซิวและปลาขนาดเล็กที่แยกออกจากวงศ์ปลาตะเพียน",
+    "about_en": "Danios, rasboras and other small fish split off from the carp family.",
+    "review": "ai_draft"
+  },
+  "Debaryomycetaceae": {
+    "rank": "family",
+    "reading_th": "เดบาริโอไมซีทาซีอี",
+    "common_th": "",
+    "about_th": "ยีสต์ที่หลายชนิดสร้างเส้นใยเทียมได้ และบางชนิดอาศัยบนร่างกายคน",
+    "about_en": "Yeasts, many of which can form pseudohyphae; some live on the human body.",
+    "review": "ai_draft"
+  },
+  "Decapoda": {
+    "rank": "order",
+    "reading_th": "เดคาโพดา",
+    "common_th": "",
+    "about_th": "ครัสเตเชียนที่มีขาเดินห้าคู่ และเปลือกแข็งหุ้มส่วนหัวอก (คาราพาซ)",
+    "about_en": "Crustaceans with five pairs of walking legs and a hard shell over the cephalothorax (carapace).",
+    "review": "ai_draft"
+  },
+  "Deinococci": {
+    "rank": "class",
+    "reading_th": "ไดโนค็อกไค",
+    "common_th": "",
+    "about_th": "คลาสเดียวของไฟลัมนี้",
+    "about_en": "The single class of this phylum.",
+    "review": "ai_draft"
+  },
+  "Deinococcota": {
+    "rank": null,
+    "reading_th": "ไดโนค็อกโคตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Deinococcus-Thermus": {
+    "rank": "phylum",
+    "reading_th": "ไดโนค็อกคัส-เทอร์มัส",
+    "common_th": "",
+    "about_th": "แบคทีเรียที่ทนสภาวะรุนแรงเป็นพิเศษ เช่น ความร้อนจัด (Thermus) หรือรังสี (Deinococcus)",
+    "about_en": "Bacteria unusually tolerant of harsh conditions, such as extreme heat (Thermus) or radiation (Deinococcus).",
+    "review": "ai_draft"
+  },
+  "Demospongiae": {
+    "rank": "class",
+    "reading_th": "ดีโมสปอนจิอี",
+    "common_th": "",
+    "about_th": "ฟองน้ำที่โครงค้ำเป็นเส้นใยโปรตีนสปองจินกับแท่งซิลิกา เป็นคลาสที่ใหญ่ที่สุดของฟองน้ำ",
+    "about_en": "Sponges supported by spongin protein fibers and silica spicules; the largest sponge class.",
+    "review": "ai_draft"
+  },
+  "Diadema": {
+    "rank": "genus",
+    "reading_th": "ไดอะดีมา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Diadematidae": {
+    "rank": "family",
+    "reading_th": "ไดอะดีมาทิดี",
+    "common_th": "",
+    "about_th": "เม่นทะเลที่หนามยาว กลวง และเปราะ",
+    "about_en": "Sea urchins with long, hollow, brittle spines.",
+    "review": "ai_draft"
+  },
+  "Diadematoida": {
+    "rank": "order",
+    "reading_th": "ไดอะดีมาตอยดา",
+    "common_th": "",
+    "about_th": "เม่นทะเลหนามยาว",
+    "about_en": "Long-spined sea urchins.",
+    "review": "ai_draft"
+  },
+  "Dicroglossidae": {
+    "rank": "family",
+    "reading_th": "ไดโครกลอสซิดี",
+    "common_th": "",
+    "about_th": "กบในเอเชียที่หลายชนิดอยู่ในนาและเป็นอาหาร",
+    "about_en": "Asian frogs, many living in rice fields and eaten as food.",
+    "review": "ai_draft"
+  },
+  "Dictyostelia": {
+    "rank": "subgroup",
+    "reading_th": "ดิกทีโอสทีเลีย",
+    "common_th": "",
+    "about_th": "ราเมือกเซลล์เดียว ปกติอยู่แยกเป็นอะมีบา แล้วรวมกลุ่มกันเมื่อขาดอาหาร ต่างจากราเมือกพลาสโมเดียม",
+    "about_en": "Cellular slime molds that live as separate amoebae and gather when food runs out, unlike plasmodial slime molds.",
+    "review": "ai_draft"
+  },
+  "Dictyostelium": {
+    "rank": "genus",
+    "reading_th": "ดิกทีโอสทีเลียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Dinoflagellata": {
+    "rank": "subgroup",
+    "reading_th": "ไดโนแฟลเจลลาตา",
+    "common_th": "",
+    "about_th": "มีแฟลเจลลัมสองเส้นวางในร่องตามขวางและตามยาว จึงหมุนตัวขณะว่าย หลายชนิดทำให้น้ำทะเลเปลี่ยนสี",
+    "about_en": "Two flagella lie in a transverse and a longitudinal groove, so the cell spins as it swims; many cause discolored seawater.",
+    "review": "ai_draft"
+  },
+  "Diplazium": {
+    "rank": "genus",
+    "reading_th": "ดิพลาเซียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Diplomonadida": {
+    "rank": "subgroup",
+    "reading_th": "ดิโพลโมนาดิดา",
+    "common_th": "",
+    "about_th": "มีนิวเคลียสสองอันและแฟลเจลลัมหลายเส้น เซลล์สมมาตรซ้ายขวา",
+    "about_en": "Cells with two nuclei, several flagella and left–right symmetry.",
+    "review": "ai_draft"
+  },
+  "Diptera": {
+    "rank": "order",
+    "reading_th": "ดิพเทอรา",
+    "common_th": "",
+    "about_th": "แมลงที่มีปีกคู่เดียว ปีกคู่หลังลดรูปเป็นแท่งทรงตัว (ฮอลเทียร์)",
+    "about_en": "Insects with one pair of wings; the hind pair is reduced to balancing knobs (halteres).",
+    "review": "ai_draft"
+  },
+  "Drosophila": {
+    "rank": "genus",
+    "reading_th": "ดรอโซฟิลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Drosophilidae": {
+    "rank": "family",
+    "reading_th": "ดรอโซฟิลิดี",
+    "common_th": "",
+    "about_th": "แมลงวันผลไม้ขนาดเล็ก ตัวอ่อนกินยีสต์บนผลไม้หมัก",
+    "about_en": "Small fruit flies whose larvae eat yeast on fermenting fruit.",
+    "review": "ai_draft"
+  },
+  "Dugesia": {
+    "rank": "genus",
+    "reading_th": "ดูเจเซีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Dugesiidae": {
+    "rank": "family",
+    "reading_th": "ดูเจซิอิดี",
+    "common_th": "",
+    "about_th": "พลานาเรียน้ำจืดที่หัวเป็นรูปสามเหลี่ยมและมีจุดตาสองจุด",
+    "about_en": "Freshwater planarians with a triangular head and two eyespots.",
+    "review": "ai_draft"
+  },
+  "Durio": {
+    "rank": "genus",
+    "reading_th": "ดูริโอ",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Echinodermata": {
+    "rank": "phylum",
+    "reading_th": "เอไคโนเดอร์มาตา",
+    "common_th": "",
+    "about_th": "ตัวเต็มวัยสมมาตรรัศมีห้าแฉก มีระบบท่อน้ำและทิวบ์ฟีต และเป็นดิวเทอโรสโตมเหมือนคอร์เดต",
+    "about_en": "Adults have fivefold radial symmetry, a water vascular system with tube feet, and are deuterostomes like chordates.",
+    "review": "ai_draft"
+  },
+  "Echinoidea": {
+    "rank": "class",
+    "reading_th": "เอไคนอยเดีย",
+    "common_th": "",
+    "about_th": "เม่นทะเลและเหรียญทะเล ไม่มีแขน มีเปลือกแข็งเป็นแผ่นต่อกันและหนาม ต่างจากดาวทะเลที่มีแขน",
+    "about_en": "Sea urchins and sand dollars: no arms, a rigid shell of joined plates, and spines. Sea stars have arms.",
+    "review": "ai_draft"
+  },
+  "Elephantidae": {
+    "rank": "family",
+    "reading_th": "เอลิแฟนทิดี",
+    "common_th": "",
+    "about_th": "วงศ์เดียวของช้างที่ยังเหลืออยู่ คือช้างเอเชียและช้างแอฟริกา",
+    "about_en": "The only surviving elephant family: Asian and African elephants.",
+    "review": "ai_draft"
+  },
+  "Elephas": {
+    "rank": "genus",
+    "reading_th": "เอลิฟาส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Entamoeba": {
+    "rank": "genus",
+    "reading_th": "เอนตามีบา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Enterobacterales": {
+    "rank": "order",
+    "reading_th": "เอนเทอโรแบคทีเรลีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียแท่งแกรมลบที่ใช้หรือไม่ใช้ออกซิเจนก็ได้ หมักกลูโคสได้ และส่วนใหญ่ไม่สร้างเอนไซม์ออกซิเดส",
+    "about_en": "Gram-negative rods that can live with or without oxygen, ferment glucose, and mostly lack the enzyme oxidase.",
+    "review": "ai_draft"
+  },
+  "Enterobacteriaceae": {
+    "rank": "family",
+    "reading_th": "เอนเทอโรแบคทีเรียซีอี",
+    "common_th": "",
+    "about_th": "วงศ์ของแบคทีเรียลำไส้ รูปแท่งแกรมลบ ออกซิเดสลบ และรีดิวซ์ไนเตรตได้ พบในลำไส้ของคนและสัตว์",
+    "about_en": "The gut bacteria family: Gram-negative, oxidase-negative rods that reduce nitrate and live in the intestines of people and animals.",
+    "review": "ai_draft"
+  },
+  "Epsilonproteobacteria": {
+    "rank": "class",
+    "reading_th": "เอปไซลอนโพรทีโอแบคทีเรีย",
+    "common_th": "",
+    "about_th": "โพรทีโอแบคทีเรียรูปโค้งหรือเกลียวที่ต้องการออกซิเจนน้อย มักอยู่ในทางเดินอาหารของสัตว์ ปัจจุบันถูกยกขึ้นเป็นไฟลัม Campylobacterota",
+    "about_en": "Curved or spiral Proteobacteria that need little oxygen and often live in animal guts. They have since been raised to the phylum Campylobacterota.",
+    "review": "ai_draft"
+  },
+  "Equisetaceae": {
+    "rank": "family",
+    "reading_th": "อิควิซีทาซีอี",
+    "common_th": "",
+    "about_th": "มีสกุลเดียวคือ Equisetum สร้างสปอร์ในสตรอบิลัสที่ปลายลำต้น",
+    "about_en": "A single genus, Equisetum, with spores in a strobilus at the stem tip.",
+    "review": "ai_draft"
+  },
+  "Equisetales": {
+    "rank": "order",
+    "reading_th": "อิควิซีทาลีส",
+    "common_th": "",
+    "about_th": "หญ้าถอดปล้อง ลำต้นเป็นข้อปล้องกลวง ใบลดรูปเป็นวงรอบข้อ และผิวมีซิลิกา",
+    "about_en": "Horsetails: hollow jointed stems, leaves reduced to whorls at the joints, and silica in the skin.",
+    "review": "ai_draft"
+  },
+  "Equisetum": {
+    "rank": "genus",
+    "reading_th": "อิควิซีตัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Escherichia": {
+    "rank": "genus",
+    "reading_th": "เอสเชอริเชีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Euglena": {
+    "rank": "genus",
+    "reading_th": "ยูกลีนา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Euglenida": {
+    "rank": "subgroup",
+    "reading_th": "ยูกลีนิดา",
+    "common_th": "",
+    "about_th": "ยูกลีนอยด์ที่มีแถบโปรตีน (เพลลิเคิล) ใต้เยื่อหุ้มเซลล์ บางชนิดมีคลอโรพลาสต์และจุดตา",
+    "about_en": "Euglenoids with protein strips (a pellicle) under the cell membrane; some have chloroplasts and an eyespot.",
+    "review": "ai_draft"
+  },
+  "Euglenozoa": {
+    "rank": "major_clade",
+    "reading_th": "ยูกลีโนซัว",
+    "common_th": "",
+    "about_th": "แฟลเจลเลตที่มีแท่งโปรตีนพิเศษอยู่ในแฟลเจลลัม",
+    "about_en": "Flagellates with a special protein rod inside the flagellum.",
+    "review": "ai_draft"
+  },
+  "Eukarya": {
+    "rank": "domain",
+    "reading_th": "ยูแคเรีย",
+    "common_th": "",
+    "about_th": "สิ่งมีชีวิตที่เซลล์มีนิวเคลียสและออร์แกเนลล์ที่มีเยื่อหุ้ม เช่น ไมโทคอนเดรีย ต่างจากโพรแคริโอตทั้งสองโดเมนที่ไม่มีเยื่อหุ้มนิวเคลียส",
+    "about_en": "Organisms whose cells have a nucleus and membrane-bound organelles such as mitochondria. Neither prokaryote domain has a nuclear membrane.",
+    "review": "ai_draft"
+  },
+  "Euphorbiaceae": {
+    "rank": "family",
+    "reading_th": "ยูฟอร์เบียซีอี",
+    "common_th": "",
+    "about_th": "ยางพาราและมันสำปะหลัง หลายชนิดมีน้ำยางขาว และผลมักแตกเป็นสามพู",
+    "about_en": "Rubber and cassava; many have white latex and fruits that split into three lobes.",
+    "review": "ai_draft"
+  },
+  "Eurotiales": {
+    "rank": "order",
+    "reading_th": "ยูโรทิอาลีส",
+    "common_th": "",
+    "about_th": "ราสีเขียวหรือเหลืองที่สร้างโคนิเดียเป็นสาย หลายชนิดผลิตยาหรือสารพิษ",
+    "about_en": "Green or yellow molds that form chains of conidia; many make drugs or toxins.",
+    "review": "ai_draft"
+  },
+  "Eurotiomycetes": {
+    "rank": "class",
+    "reading_th": "ยูโรทิโอไมซีทีส",
+    "common_th": "",
+    "about_th": "แอสโคไมซีตที่ส่วนใหญ่เห็นเป็นราสร้างโคนิเดียจำนวนมาก",
+    "about_en": "Ascomycetes that mostly appear as molds making huge numbers of conidia.",
+    "review": "ai_draft"
+  },
+  "Euryarchaeota": {
+    "rank": "phylum",
+    "reading_th": "ยูริอาร์คีโอตา",
+    "common_th": "",
+    "about_th": "ไฟลัมที่หลากหลายที่สุดของอาร์เคีย รวมทั้งพวกสร้างมีเทน พวกชอบเค็มจัด และพวกชอบร้อนบางกลุ่ม",
+    "about_en": "The most varied archaeal phylum, including methane makers, extreme salt lovers and some heat lovers.",
+    "review": "ai_draft"
+  },
+  "Excavata": {
+    "rank": "supergroup",
+    "reading_th": "เอกซ์คาวาตา",
+    "common_th": "",
+    "about_th": "โพรทิสต์เซลล์เดียวที่หลายชนิดมีร่องดูดอาหารด้านข้างเซลล์ และไมโทคอนเดรียดัดแปลงหรือลดรูป",
+    "about_en": "Single-celled protists, many with a feeding groove along one side and modified or reduced mitochondria.",
+    "review": "ai_draft"
+  },
+  "Fabaceae": {
+    "rank": "family",
+    "reading_th": "ฟาบาซีอี",
+    "common_th": "",
+    "about_th": "พืชตระกูลถั่ว ผลเป็นฝัก และหลายชนิดมีปมรากที่ไรโซเบียมตรึงไนโตรเจน",
+    "about_en": "Legumes: fruit is a pod, and many have root nodules where rhizobia fix nitrogen.",
+    "review": "ai_draft"
+  },
+  "Fabales": {
+    "rank": "order",
+    "reading_th": "ฟาบาลีส",
+    "common_th": "",
+    "about_th": "อันดับของพืชตระกูลถั่วและพืชใกล้ชิด",
+    "about_en": "The order of legumes and their relatives.",
+    "review": "ai_draft"
+  },
+  "Firmicutes": {
+    "rank": "phylum",
+    "reading_th": "เฟอร์มิคิวทีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียแกรมบวกที่ผนังเพปทิโดไกลแคนหนาและไม่มีเยื่อหุ้มชั้นนอก ดีเอ็นเอมีสัดส่วน G+C ต่ำ และหลายชนิดสร้างเอนโดสปอร์",
+    "about_en": "Gram-positive bacteria with a thick peptidoglycan wall and no outer membrane, low G+C DNA, and many endospore formers.",
+    "review": "ai_draft"
+  },
+  "Florideophyceae": {
+    "rank": "subgroup",
+    "reading_th": "ฟลอริดีโอฟิซีอี",
+    "common_th": "",
+    "about_th": "สาหร่ายแดงที่โครงสร้างซับซ้อน เซลล์เชื่อมกันด้วยพิตคอนเนกชัน และเป็นแหล่งวุ้นกับคาร์ราจีแนน",
+    "about_en": "Structurally complex red algae whose cells are linked by pit connections; sources of agar and carrageenan.",
+    "review": "ai_draft"
+  },
+  "Fungi": {
+    "rank": "kingdom",
+    "reading_th": "ฟังไจ",
+    "common_th": "ฟังไจ",
+    "about_th": "ยูแคริโอตที่ผนังเซลล์มีไคทิน ได้อาหารโดยปล่อยเอนไซม์ย่อยภายนอกแล้วดูดซึม และเก็บอาหารเป็นไกลโคเจน จึงใกล้ชิดกับสัตว์มากกว่าพืช",
+    "about_en": "Eukaryotes with chitin cell walls that digest food outside the body and absorb it, and store food as glycogen. They are closer to animals than to plants.",
+    "review": "ai_draft"
+  },
+  "Galliformes": {
+    "rank": "order",
+    "reading_th": "แกลลิฟอร์มีส",
+    "common_th": "",
+    "about_th": "ไก่และนกใกล้ชิด หากินบนพื้น ขาแข็งแรง และบินได้ระยะสั้น",
+    "about_en": "Chickens and relatives that feed on the ground, have strong legs and fly short distances.",
+    "review": "ai_draft"
+  },
+  "Gallus": {
+    "rank": "genus",
+    "reading_th": "แกลลัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Gammaproteobacteria": {
+    "rank": "class",
+    "reading_th": "แกมมาโพรทีโอแบคทีเรีย",
+    "common_th": "",
+    "about_th": "คลาสของโพรทีโอแบคทีเรียที่มีชนิดสำคัญทางการแพทย์มากที่สุด เช่น แบคทีเรียในลำไส้และวิบริโอ ส่วนใหญ่เป็นรูปแท่ง",
+    "about_en": "The class of Proteobacteria with the most medically important species, such as gut bacteria and Vibrio. Most are rods.",
+    "review": "ai_draft"
+  },
+  "Ganoderma": {
+    "rank": "genus",
+    "reading_th": "แกโนเดอร์มา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Gastropoda": {
+    "rank": "class",
+    "reading_th": "แกสโทรโพดา",
+    "common_th": "",
+    "about_th": "หอยฝาเดียวและทาก ลำตัวบิด (ทอร์ชัน) ระหว่างการเจริญ ทำให้ช่องแมนเทิลมาอยู่ด้านหน้า",
+    "about_en": "Snails and slugs whose bodies twist (torsion) during development, bringing the mantle cavity to the front.",
+    "review": "ai_draft"
+  },
+  "Giardia": {
+    "rank": "genus",
+    "reading_th": "ไจอาร์เดีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Ginkgo": {
+    "rank": "genus",
+    "reading_th": "กิงโก",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Ginkgoaceae": {
+    "rank": "family",
+    "reading_th": "กิงโกเอซีอี",
+    "common_th": "",
+    "about_th": "ใบรูปพัดเส้นใบแยกเป็นสองแฉกซ้ำๆ และเปลือกเมล็ดชั้นนอกมีกลิ่นเหม็น",
+    "about_en": "Fan-shaped leaves with veins forking repeatedly, and a foul-smelling outer seed coat.",
+    "review": "ai_draft"
+  },
+  "Ginkgoales": {
+    "rank": "order",
+    "reading_th": "กิงโกอาลีส",
+    "common_th": "",
+    "about_th": "อันดับของแปะก๊วย เหลืออยู่ชนิดเดียว",
+    "about_en": "The ginkgo order, with a single surviving species.",
+    "review": "ai_draft"
+  },
+  "Ginkgoopsida": {
+    "rank": "class",
+    "reading_th": "กิงโกออปซิดา",
+    "common_th": "",
+    "about_th": "คลาสของแปะก๊วย",
+    "about_en": "The ginkgo class.",
+    "review": "ai_draft"
+  },
+  "Ginkgophyta": {
+    "rank": "phylum",
+    "reading_th": "กิงโกไฟตา",
+    "common_th": "",
+    "about_th": "มีชนิดเดียวที่ยังเหลืออยู่ ใบรูปพัด ผลัดใบ และสเปิร์มว่ายน้ำได้",
+    "about_en": "One living species, with fan-shaped deciduous leaves and swimming sperm.",
+    "review": "ai_draft"
+  },
+  "Glomeraceae": {
+    "rank": "family",
+    "reading_th": "กลอเมอราซีอี",
+    "common_th": "",
+    "about_th": "วงศ์ที่ใหญ่ที่สุดของราไมคอร์ไรซาอาร์บัสคูลาร์ พบกับพืชเกษตรส่วนใหญ่",
+    "about_en": "The largest family of arbuscular mycorrhizal fungi, found with most crops.",
+    "review": "ai_draft"
+  },
+  "Glomerales": {
+    "rank": "order",
+    "reading_th": "กลอเมอราลีส",
+    "common_th": "",
+    "about_th": "ราไมคอร์ไรซาที่สร้างสปอร์ขนาดใหญ่หลายนิวเคลียสในดิน",
+    "about_en": "Mycorrhizal fungi that make large spores with many nuclei in the soil.",
+    "review": "ai_draft"
+  },
+  "Glomeromycetes": {
+    "rank": "class",
+    "reading_th": "กลอเมอโรไมซีทีส",
+    "common_th": "",
+    "about_th": "ราไมคอร์ไรซาที่สร้างอาร์บัสคูลแตกแขนงภายในเซลล์รากพืช",
+    "about_en": "Mycorrhizal fungi that build branched arbuscules inside root cells.",
+    "review": "ai_draft"
+  },
+  "Glomeromycota": {
+    "rank": "phylum",
+    "reading_th": "กลอเมอโรไมคอตา",
+    "common_th": "",
+    "about_th": "ฟังไจที่สร้างไมคอร์ไรซาแบบอาร์บัสคูลาร์ในรากพืชบกส่วนใหญ่ และยังไม่พบการสืบพันธุ์แบบอาศัยเพศ",
+    "about_en": "Fungi that form arbuscular mycorrhizae with the roots of most land plants; no sexual stage has been found.",
+    "review": "ai_draft"
+  },
+  "Gnathostoma": {
+    "rank": "genus",
+    "reading_th": "แนโทสโตมา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Gnathostomatidae": {
+    "rank": "family",
+    "reading_th": "แนโทสโตมาทิดี",
+    "common_th": "",
+    "about_th": "พยาธิตัวกลมที่หัวพองและมีหนามเรียงเป็นวง",
+    "about_en": "Roundworms with a swollen head ringed with spines.",
+    "review": "ai_draft"
+  },
+  "Gnetaceae": {
+    "rank": "family",
+    "reading_th": "นีทาซีอี",
+    "common_th": "",
+    "about_th": "มีสกุลเดียวคือ Gnetum เมล็ดมีเปลือกเนื้อนุ่มสีส้มแดง",
+    "about_en": "A single genus, Gnetum, whose seeds have a soft orange-red coat.",
+    "review": "ai_draft"
+  },
+  "Gnetales": {
+    "rank": "order",
+    "reading_th": "นีทาลีส",
+    "common_th": "",
+    "about_th": "ไม้เลื้อยหรือต้นไม้ในป่าเขตร้อน ใบกว้างเส้นใบร่างแห คล้ายพืชดอก",
+    "about_en": "Climbers or trees of tropical forest with broad, net-veined leaves like flowering plants.",
+    "review": "ai_draft"
+  },
+  "Gnetophyta": {
+    "rank": "phylum",
+    "reading_th": "นีโทไฟตา",
+    "common_th": "",
+    "about_th": "พืชเมล็ดเปลือยที่มีเวสเซลในไซเลมเหมือนพืชดอก มีเพียงสามสกุลที่หน้าตาต่างกันมาก",
+    "about_en": "Naked-seed plants with vessels in the xylem like flowering plants; only three very different genera.",
+    "review": "ai_draft"
+  },
+  "Gnetopsida": {
+    "rank": "class",
+    "reading_th": "นีทอปซิดา",
+    "common_th": "",
+    "about_th": "คลาสของนีโทไฟต์",
+    "about_en": "The gnetophyte class.",
+    "review": "ai_draft"
+  },
+  "Gnetum": {
+    "rank": "genus",
+    "reading_th": "นีตัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Gracilaria": {
+    "rank": "genus",
+    "reading_th": "กราซิลาเรีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Halobacteria": {
+    "rank": "class",
+    "reading_th": "ฮาโลแบคทีเรีย",
+    "common_th": "",
+    "about_th": "อาร์เคียชอบเค็มจัดที่ต้องการเกลือเข้มข้นมาก สะสมโพแทสเซียมในเซลล์เพื่อรักษาสมดุลน้ำ และมักเป็นสีแดงจากแคโรทีนอยด์",
+    "about_en": "Extreme salt-loving archaea that need very concentrated salt, pack potassium into the cell to balance water, and are often red from carotenoids.",
+    "review": "ai_draft"
+  },
+  "Halobacteriaceae": {
+    "rank": "family",
+    "reading_th": "ฮาโลแบคทีเรียซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียชอบเค็มที่ส่วนใหญ่เป็นรูปแท่ง และใช้แสงเสริมพลังงานผ่านแบคทีริโอโรดอปซินได้",
+    "about_en": "Mostly rod-shaped salt lovers that can use light for extra energy through bacteriorhodopsin.",
+    "review": "ai_draft"
+  },
+  "Halobacteriales": {
+    "rank": "order",
+    "reading_th": "ฮาโลแบคทีเรียลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียชอบเค็มกลุ่มดั้งเดิม หลายชนิดมีแบคทีริโอโรดอปซินในเยื่อหุ้มเซลล์",
+    "about_en": "The original order of salt-loving archaea; many carry bacteriorhodopsin in the membrane.",
+    "review": "ai_draft"
+  },
+  "Halobacterium": {
+    "rank": "genus",
+    "reading_th": "ฮาโลแบคทีเรียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Haloferacaceae": {
+    "rank": "family",
+    "reading_th": "ฮาโลเฟอราคาซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียชอบเค็มที่เซลล์มักแบนและรูปร่างไม่แน่นอน",
+    "about_en": "Salt-loving archaea whose cells are often flat and irregular.",
+    "review": "ai_draft"
+  },
+  "Haloferacales": {
+    "rank": "order",
+    "reading_th": "ฮาโลเฟอราคาลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียชอบเค็มที่ถูกแยกออกจาก Halobacteriales ตามข้อมูลจีโนม",
+    "about_en": "Salt-loving archaea split off from Halobacteriales on the basis of genome data.",
+    "review": "ai_draft"
+  },
+  "Haloferax": {
+    "rank": "genus",
+    "reading_th": "ฮาโลเฟแรกซ์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Helicobacter": {
+    "rank": "genus",
+    "reading_th": "เฮลิโคแบคเตอร์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Helicobacteraceae": {
+    "rank": "family",
+    "reading_th": "เฮลิโคแบคเทอราซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียรูปเกลียวที่มีแฟลเจลลัมหลายเส้นที่ขั้วเซลล์ อาศัยในกระเพาะหรือลำไส้ของสัตว์",
+    "about_en": "Spiral bacteria with several flagella at the poles that live in the stomach or intestine of animals.",
+    "review": "ai_draft"
+  },
+  "Hepatophyta": {
+    "rank": "phylum",
+    "reading_th": "เฮพาโทไฟตา",
+    "common_th": "",
+    "about_th": "ลิเวอร์เวิร์ต ไม่มีท่อลำเลียงและไม่มีปากใบ ไรซอยด์เป็นเซลล์เดียว และแทลลัสมักแบนแนบพื้น",
+    "about_en": "Liverworts: no vascular tissue and no stomata, single-celled rhizoids, and usually a flat thallus.",
+    "review": "ai_draft"
+  },
+  "Heterometrus": {
+    "rank": "genus",
+    "reading_th": "เฮเทอโรเมทรัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hevea": {
+    "rank": "genus",
+    "reading_th": "ฮีเวีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hippocampus": {
+    "rank": "genus",
+    "reading_th": "ฮิปโปแคมปัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hirudinaria": {
+    "rank": "genus",
+    "reading_th": "ฮิรูดินาเรีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hirudinidae": {
+    "rank": "family",
+    "reading_th": "ฮิรูดินิดี",
+    "common_th": "",
+    "about_th": "ปลิงดูดเลือดที่มีขากรรไกรสามอัน",
+    "about_en": "Blood-sucking leeches with three jaws.",
+    "review": "ai_draft"
+  },
+  "Hominidae": {
+    "rank": "family",
+    "reading_th": "โฮมินิดี",
+    "common_th": "",
+    "about_th": "ลิงใหญ่และคน ไม่มีหาง",
+    "about_en": "Great apes and humans, with no tail.",
+    "review": "ai_draft"
+  },
+  "Homo": {
+    "rank": "genus",
+    "reading_th": "โฮโม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hoplobatrachus": {
+    "rank": "genus",
+    "reading_th": "ฮอปโลบาทราคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hydra": {
+    "rank": "genus",
+    "reading_th": "ไฮดรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hydridae": {
+    "rank": "family",
+    "reading_th": "ไฮดริดี",
+    "common_th": "",
+    "about_th": "ไฮดราน้ำจืดที่อยู่ตัวเดียว และไม่มีระยะเมดูซา",
+    "about_en": "Solitary freshwater hydras with no medusa stage.",
+    "review": "ai_draft"
+  },
+  "Hydrilla": {
+    "rank": "genus",
+    "reading_th": "ไฮดริลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Hydrocharitaceae": {
+    "rank": "family",
+    "reading_th": "ไฮโดรคาริทาซีอี",
+    "common_th": "",
+    "about_th": "พืชดอกในน้ำที่หลายชนิดจมอยู่ใต้น้ำทั้งต้น",
+    "about_en": "Aquatic flowering plants, many fully submerged.",
+    "review": "ai_draft"
+  },
+  "Hydrozoa": {
+    "rank": "class",
+    "reading_th": "ไฮโดรซัว",
+    "common_th": "",
+    "about_th": "ไนดาเรียที่ระยะโพลิปมักเด่น หลายชนิดอยู่เป็นโคโลนี ต่างจาก Scyphozoa ที่ระยะเมดูซาเด่น",
+    "about_en": "Cnidarians in which the polyp stage usually dominates and many form colonies, unlike Scyphozoa where the medusa dominates.",
+    "review": "ai_draft"
+  },
+  "Hymenoptera": {
+    "rank": "order",
+    "reading_th": "ไฮเมนอปเทอรา",
+    "common_th": "",
+    "about_th": "ผึ้ง ต่อ แตน และมด ปีกบางสองคู่เกี่ยวกันด้วยตะขอ และหลายชนิดเป็นแมลงสังคม",
+    "about_en": "Bees, wasps and ants: two pairs of thin wings hooked together, and many social species.",
+    "review": "ai_draft"
+  },
+  "Hypocreales": {
+    "rank": "order",
+    "reading_th": "ไฮโปครีอาลีส",
+    "common_th": "",
+    "about_th": "แอสโคไมซีตที่มักมีสีสด หลายชนิดเป็นปรสิตแมลงหรือฟังไจอื่น",
+    "about_en": "Ascomycetes, often brightly colored, many of them parasites of insects or other fungi.",
+    "review": "ai_draft"
+  },
+  "Insecta": {
+    "rank": "class",
+    "reading_th": "อินเซกตา",
+    "common_th": "",
+    "about_th": "แมลง ลำตัวสามส่วน ขาสามคู่ หนวดหนึ่งคู่ และส่วนใหญ่มีปีก",
+    "about_en": "Insects: three body parts, three pairs of legs, one pair of antennae, and usually wings.",
+    "review": "ai_draft"
+  },
+  "Kinetoplastea": {
+    "rank": "subgroup",
+    "reading_th": "ไคนีโตพลาสเตีย",
+    "common_th": "",
+    "about_th": "แฟลเจลเลตที่มีไคนีโทพลาสต์ คือดีเอ็นเอจำนวนมากในไมโทคอนเดรียขนาดใหญ่ หลายชนิดเป็นปรสิต",
+    "about_en": "Flagellates with a kinetoplast, a large mass of DNA in a big mitochondrion; many are parasites.",
+    "review": "ai_draft"
+  },
+  "Lactobacillaceae": {
+    "rank": "family",
+    "reading_th": "แล็กโทบาซิลลาซีอี",
+    "common_th": "",
+    "about_th": "แท่งแกรมบวกที่หมักน้ำตาลเป็นกรดแล็กติก ใช้ในอาหารหมักและพบในทางเดินอาหาร",
+    "about_en": "Gram-positive rods that ferment sugar to lactic acid, used in fermented foods and found in the gut.",
+    "review": "ai_draft"
+  },
+  "Lactobacillales": {
+    "rank": "order",
+    "reading_th": "แล็กโทบาซิลลาลีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียกรดแล็กติก แกรมบวก คาตาเลสลบ ทนกรด และหมักน้ำตาลได้กรดแล็กติก",
+    "about_en": "The lactic acid bacteria: Gram-positive, catalase-negative, acid-tolerant, and fermenting sugar to lactic acid.",
+    "review": "ai_draft"
+  },
+  "Lactobacillus": {
+    "rank": "genus",
+    "reading_th": "แล็กโทบาซิลลัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Leishmania": {
+    "rank": "genus",
+    "reading_th": "ลิชมาเนีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Lepidoptera": {
+    "rank": "order",
+    "reading_th": "เลพิดอปเทอรา",
+    "common_th": "",
+    "about_th": "ผีเสื้อ ปีกปกคลุมด้วยเกล็ด ตัวเต็มวัยมีงวงดูดม้วนได้ และเจริญเติบโตแบบสมบูรณ์",
+    "about_en": "Butterflies and moths, with scaled wings, a coiled sucking proboscis in adults, and complete metamorphosis.",
+    "review": "ai_draft"
+  },
+  "Leptocardii": {
+    "rank": "class",
+    "reading_th": "เลปโทคาร์ดิไอ",
+    "common_th": "",
+    "about_th": "แอมฟิออกซัส คอร์เดตไม่มีกะโหลกที่มีโนโทคอร์ดตลอดชีวิตและยาวไปถึงปลายหัว",
+    "about_en": "Lancelets: skull-less chordates whose notochord lasts for life and reaches the tip of the head.",
+    "review": "ai_draft"
+  },
+  "Leptospira": {
+    "rank": "genus",
+    "reading_th": "เลปโตสไปรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Leptospiraceae": {
+    "rank": "family",
+    "reading_th": "เลปโตสไปราซีอี",
+    "common_th": "",
+    "about_th": "สไปโรคีตที่ใช้กรดไขมันสายยาวเป็นแหล่งคาร์บอน พบในน้ำ ดิน และไตของสัตว์",
+    "about_en": "Spirochetes that use long-chain fatty acids as a carbon source, found in water, soil and animal kidneys.",
+    "review": "ai_draft"
+  },
+  "Leptospirales": {
+    "rank": "order",
+    "reading_th": "เลปโตสไปราลีส",
+    "common_th": "",
+    "about_th": "สไปโรคีตที่เกลียวถี่และปลายงอเป็นตะขอ ต้องใช้ออกซิเจน ต่างจาก Spirochaetales",
+    "about_en": "Tightly coiled spirochetes with hooked ends that need oxygen, unlike Spirochaetales.",
+    "review": "ai_draft"
+  },
+  "Liliopsida": {
+    "rank": "class",
+    "reading_th": "ลิลิออปซิดา",
+    "common_th": "",
+    "about_th": "พืชใบเลี้ยงเดี่ยว ใบเลี้ยงหนึ่งใบ เส้นใบขนาน มัดท่อลำเลียงกระจาย ส่วนของดอกเป็นชุดละ 3 และรากฝอย",
+    "about_en": "Monocots: one seed leaf, parallel veins, scattered vascular bundles, flower parts in threes, and fibrous roots.",
+    "review": "ai_draft"
+  },
+  "Lumbricidae": {
+    "rank": "family",
+    "reading_th": "ลัมบริซิดี",
+    "common_th": "",
+    "about_th": "ไส้เดือนดินในเขตอบอุ่น ถิ่นเดิมอยู่ในยุโรปและเอเชีย",
+    "about_en": "Temperate earthworms native to Europe and Asia.",
+    "review": "ai_draft"
+  },
+  "Lumbricus": {
+    "rank": "genus",
+    "reading_th": "ลัมบริคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Lycophyta": {
+    "rank": "phylum",
+    "reading_th": "ไลโคไฟตา",
+    "common_th": "",
+    "about_th": "พืชมีท่อลำเลียงที่ใบเป็นไมโครฟิลล์ มีเส้นใบเส้นเดียว และสร้างสปอร์ในสตรอบิลัส",
+    "about_en": "Vascular plants whose leaves are microphylls with a single vein and whose spores form in strobili.",
+    "review": "ai_draft"
+  },
+  "Lycopodiaceae": {
+    "rank": "family",
+    "reading_th": "ไลโคโพดิเอซีอี",
+    "common_th": "",
+    "about_th": "ไลโคไฟต์ที่ลำต้นเลื้อยหรือห้อย และสตรอบิลัสอยู่ที่ปลายกิ่ง",
+    "about_en": "Lycophytes with creeping or hanging stems and strobili at the branch tips.",
+    "review": "ai_draft"
+  },
+  "Lycopodiales": {
+    "rank": "order",
+    "reading_th": "ไลโคโพดิอาลีส",
+    "common_th": "",
+    "about_th": "ไลโคไฟต์ที่สร้างสปอร์ขนาดเดียว (โฮโมสปอร์) ต่างจาก Selaginellales ที่สร้างสองขนาด",
+    "about_en": "Lycophytes with spores of one size (homospory), unlike Selaginellales with two sizes.",
+    "review": "ai_draft"
+  },
+  "Lycopodiella": {
+    "rank": "genus",
+    "reading_th": "ไลโคโพดิเอลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Lycopodiopsida": {
+    "rank": "class",
+    "reading_th": "ไลโคโพดิออปซิดา",
+    "common_th": "",
+    "about_th": "คลาสของไลโคไฟต์ในปัจจุบัน",
+    "about_en": "The class of living lycophytes.",
+    "review": "ai_draft"
+  },
+  "Lyophyllaceae": {
+    "rank": "family",
+    "reading_th": "ไลโอฟิลลาซีอี",
+    "common_th": "",
+    "about_th": "เห็ดครีบที่สปอร์สีขาว บางสกุลอยู่ร่วมกับปลวก",
+    "about_en": "Gilled mushrooms with white spores; some genera live with termites.",
+    "review": "ai_draft"
+  },
+  "Magnoliopsida": {
+    "rank": "class",
+    "reading_th": "แมกโนลิออปซิดา",
+    "common_th": "",
+    "about_th": "พืชใบเลี้ยงคู่ ใบเลี้ยงสองใบ เส้นใบร่างแห มัดท่อลำเลียงเรียงเป็นวง ส่วนของดอกเป็นชุดละ 4 หรือ 5 และมีรากแก้ว",
+    "about_en": "Dicots: two seed leaves, net veins, vascular bundles in a ring, flower parts in fours or fives, and a taproot.",
+    "review": "ai_draft"
+  },
+  "Malacostraca": {
+    "rank": "class",
+    "reading_th": "มาลาคอสตราคา",
+    "common_th": "",
+    "about_th": "ครัสเตเชียนขนาดใหญ่ เช่น กุ้งและปู ลำตัวแบ่งเป็นหัวอกกับท้อง และมีหนวดสองคู่",
+    "about_en": "Large crustaceans such as shrimp and crabs, with a cephalothorax and abdomen and two pairs of antennae.",
+    "review": "ai_draft"
+  },
+  "Malpighiales": {
+    "rank": "order",
+    "reading_th": "มัลพิเกียลีส",
+    "common_th": "",
+    "about_th": "อันดับใหญ่ของพืชดอกที่หน้าตาหลากหลายมาก จัดรวมกันตามข้อมูลดีเอ็นเอ",
+    "about_en": "A large, very varied order of flowering plants grouped by DNA evidence.",
+    "review": "ai_draft"
+  },
+  "Malvaceae": {
+    "rank": "family",
+    "reading_th": "มัลวาซีอี",
+    "common_th": "",
+    "about_th": "เกสรเพศผู้มักเชื่อมกันเป็นหลอด และมีขนรูปดาวตามลำต้นและใบ",
+    "about_en": "Stamens often fused into a tube, and star-shaped hairs on stems and leaves.",
+    "review": "ai_draft"
+  },
+  "Malvales": {
+    "rank": "order",
+    "reading_th": "มัลวาลีส",
+    "common_th": "",
+    "about_th": "อันดับของชบา ฝ้าย และทุเรียน หลายชนิดมีเมือกในเนื้อเยื่อ",
+    "about_en": "The order of hibiscus, cotton and durian; many have mucilage in their tissues.",
+    "review": "ai_draft"
+  },
+  "Mammalia": {
+    "rank": "class",
+    "reading_th": "แมมมาเลีย",
+    "common_th": "",
+    "about_th": "สัตว์เลี้ยงลูกด้วยน้ำนม มีขน ต่อมน้ำนม กระดูกหูชั้นกลางสามชิ้น และเลือดอุ่น",
+    "about_en": "Mammals: hair, mammary glands, three middle-ear bones and warm blood.",
+    "review": "ai_draft"
+  },
+  "Marchantia": {
+    "rank": "genus",
+    "reading_th": "มาร์แคนเทีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Marchantiaceae": {
+    "rank": "family",
+    "reading_th": "มาร์แคนทิเอซีอี",
+    "common_th": "",
+    "about_th": "ลิเวอร์เวิร์ตที่สร้างถ้วยเจมมาบนแทลลัสไว้สืบพันธุ์แบบไม่อาศัยเพศ",
+    "about_en": "Liverworts with gemma cups on the thallus for asexual reproduction.",
+    "review": "ai_draft"
+  },
+  "Marchantiales": {
+    "rank": "order",
+    "reading_th": "มาร์แคนทิอาลีส",
+    "common_th": "",
+    "about_th": "ลิเวอร์เวิร์ตแทลลัสที่มีโครงสร้างคล้ายร่มชูอวัยวะสืบพันธุ์",
+    "about_en": "Thalloid liverworts with umbrella-like stalks that carry the sex organs.",
+    "review": "ai_draft"
+  },
+  "Marchantiopsida": {
+    "rank": "class",
+    "reading_th": "มาร์แคนทิออปซิดา",
+    "common_th": "",
+    "about_th": "ลิเวอร์เวิร์ตแบบแทลลัสที่ผิวมีช่องอากาศ",
+    "about_en": "Thalloid liverworts with air pores on the surface.",
+    "review": "ai_draft"
+  },
+  "Metamonada": {
+    "rank": "major_clade",
+    "reading_th": "เมทาโมนาดา",
+    "common_th": "",
+    "about_th": "โพรทิสต์ที่อยู่ในที่ไม่มีออกซิเจน ไม่มีไมโทคอนเดรียแบบปกติ มีแต่ไมโทโซมหรือไฮโดรจีโนโซม",
+    "about_en": "Protists of oxygen-free places with no normal mitochondria, only mitosomes or hydrogenosomes.",
+    "review": "ai_draft"
+  },
+  "Methanobacteria": {
+    "rank": "class",
+    "reading_th": "เมทาโนแบคทีเรีย",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนที่ผนังเซลล์มีซูโดเพปทิโดไกลแคน และใช้ไฮโดรเจนกับคาร์บอนไดออกไซด์เป็นหลัก",
+    "about_en": "Methane-making archaea with pseudopeptidoglycan walls that mainly use hydrogen and carbon dioxide.",
+    "review": "ai_draft"
+  },
+  "Methanobacteriaceae": {
+    "rank": "family",
+    "reading_th": "เมทาโนแบคทีเรียซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนที่พบในลำไส้สัตว์ ตะกอน และบ่อบำบัดน้ำเสีย",
+    "about_en": "Methane makers found in animal guts, sediments and sewage treatment.",
+    "review": "ai_draft"
+  },
+  "Methanobacteriales": {
+    "rank": "order",
+    "reading_th": "เมทาโนแบคทีเรียลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนรูปแท่ง ผนังเซลล์เป็นซูโดเพปทิโดไกลแคน",
+    "about_en": "Rod-shaped methane makers with pseudopeptidoglycan walls.",
+    "review": "ai_draft"
+  },
+  "Methanobrevibacter": {
+    "rank": "genus",
+    "reading_th": "เมทาโนเบรวิแบคเตอร์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Methanocaldococcaceae": {
+    "rank": "family",
+    "reading_th": "เมทาโนคาลโดค็อกคาซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนที่ชอบร้อนจัด อาศัยที่ปล่องน้ำร้อนใต้ทะเลลึก",
+    "about_en": "Methane makers that thrive in extreme heat at deep-sea hydrothermal vents.",
+    "review": "ai_draft"
+  },
+  "Methanocaldococcus": {
+    "rank": "genus",
+    "reading_th": "เมทาโนคาลโดค็อกคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Methanococcales": {
+    "rank": "order",
+    "reading_th": "เมทาโนค็อกคาลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนทรงกลมที่อยู่ในทะเล หลายชนิดชอบร้อน",
+    "about_en": "Spherical marine methane makers, many of them heat lovers.",
+    "review": "ai_draft"
+  },
+  "Methanococci": {
+    "rank": "class",
+    "reading_th": "เมทาโนค็อกไค",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนทรงกลมที่มีเพียงชั้น S-layer ห่อหุ้มเซลล์ ต่างจาก Methanobacteria ที่มีผนังซูโดเพปทิโดไกลแคน",
+    "about_en": "Spherical methane makers wrapped only in an S-layer, unlike Methanobacteria with pseudopeptidoglycan walls.",
+    "review": "ai_draft"
+  },
+  "Methanomicrobia": {
+    "rank": "class",
+    "reading_th": "เมทาโนไมโครเบีย",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนที่ใช้สารตั้งต้นได้หลายชนิด เช่น อะซิเตตและเมทานอล ไม่ได้ใช้แค่ไฮโดรเจน",
+    "about_en": "Methane makers that can use several starting materials such as acetate and methanol, not just hydrogen.",
+    "review": "ai_draft"
+  },
+  "Methanosarcina": {
+    "rank": "genus",
+    "reading_th": "เมทาโนซาร์ซินา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Methanosarcinaceae": {
+    "rank": "family",
+    "reading_th": "เมทาโนซาร์ซินาซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนที่เซลล์มักรวมเป็นกลุ่ม และเป็นผู้ผลิตมีเทนหลักในบ่อหมัก",
+    "about_en": "Methane makers whose cells often clump together; the main methane producers in digesters.",
+    "review": "ai_draft"
+  },
+  "Methanosarcinales": {
+    "rank": "order",
+    "reading_th": "เมทาโนซาร์ซินาลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียสร้างมีเทนที่ใช้อะซิเตต เมทานอล และเมทิลามีนได้",
+    "about_en": "Methane makers that can use acetate, methanol and methylamines.",
+    "review": "ai_draft"
+  },
+  "Microcoleaceae": {
+    "rank": "family",
+    "reading_th": "ไมโครโคลีเอซีอี",
+    "common_th": "",
+    "about_th": "ไซยาโนแบคทีเรียเส้นสายที่ไม่มีเฮเทอโรซิสต์ บางสกุลขดเป็นเกลียว เช่น สไปรูลินา",
+    "about_en": "Filamentous cyanobacteria without heterocysts; some genera coil into a helix, such as spirulina.",
+    "review": "ai_draft"
+  },
+  "Mimosa": {
+    "rank": "genus",
+    "reading_th": "มิโมซา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Mollusca": {
+    "rank": "phylum",
+    "reading_th": "มอลลัสกา",
+    "common_th": "",
+    "about_th": "ลำตัวนิ่ม มีแมนเทิลซึ่งมักสร้างเปลือก มีกล้ามเนื้อเท้า และหลายชนิดมีแรดูลาขูดอาหาร",
+    "about_en": "Soft-bodied animals with a mantle that often makes a shell, a muscular foot, and in many a radula for scraping food.",
+    "review": "ai_draft"
+  },
+  "Monotremata": {
+    "rank": "order",
+    "reading_th": "โมโนทรีมาตา",
+    "common_th": "",
+    "about_th": "สัตว์เลี้ยงลูกด้วยน้ำนมที่วางไข่ และมีช่องเปิดร่วมของทางเดินอาหารกับระบบขับถ่าย (โคลเอกา)",
+    "about_en": "Egg-laying mammals with a single shared opening for the gut and excretory system (cloaca).",
+    "review": "ai_draft"
+  },
+  "Mucoraceae": {
+    "rank": "family",
+    "reading_th": "มิวคอราซีอี",
+    "common_th": "",
+    "about_th": "ราที่อับสปอร์กลมอยู่บนก้านชูตั้งตรง และมีไรซอยด์ยึดอาหาร",
+    "about_en": "Molds with round sporangia on upright stalks and rhizoids anchoring them to food.",
+    "review": "ai_draft"
+  },
+  "Mucorales": {
+    "rank": "order",
+    "reading_th": "มิวคอราลีส",
+    "common_th": "",
+    "about_th": "ราที่ขึ้นบนอาหารและซากพืชอย่างรวดเร็ว บางชนิดก่อโรคในผู้ภูมิคุ้มกันต่ำ",
+    "about_en": "Molds that spread quickly on food and plant debris; some infect people with weak immunity.",
+    "review": "ai_draft"
+  },
+  "Mucoromycetes": {
+    "rank": "class",
+    "reading_th": "มิวโคโรไมซีทีส",
+    "common_th": "",
+    "about_th": "ราเติบโตเร็วที่เส้นใยไม่มีผนังกั้น สร้างสปอร์ในอับสปอร์บนก้านชู",
+    "about_en": "Fast-growing molds with hyphae lacking cross walls that make spores in sporangia on stalks.",
+    "review": "ai_draft"
+  },
+  "Mucoromycota": {
+    "rank": null,
+    "reading_th": "มิวโคโรไมคอตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Muridae": {
+    "rank": "family",
+    "reading_th": "มูริดี",
+    "common_th": "",
+    "about_th": "หนูในโลกเก่า เป็นวงศ์ที่ใหญ่ที่สุดของสัตว์เลี้ยงลูกด้วยน้ำนม",
+    "about_en": "Old World mice and rats, the largest mammal family.",
+    "review": "ai_draft"
+  },
+  "Mus": {
+    "rank": "genus",
+    "reading_th": "มัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Mycobacteriaceae": {
+    "rank": "family",
+    "reading_th": "ไมโคแบคทีเรียซีอี",
+    "common_th": "",
+    "about_th": "แท่งที่ผนังเซลล์มีไขมันสูงจากกรดไมโคลิก เติบโตช้า และทนสารเคมีกับความแห้งได้ดี",
+    "about_en": "Rods with waxy, mycolic acid-rich walls that grow slowly and resist chemicals and drying.",
+    "review": "ai_draft"
+  },
+  "Mycobacteriales": {
+    "rank": "order",
+    "reading_th": "ไมโคแบคทีเรียลีส",
+    "common_th": "",
+    "about_th": "แอกทิโนแบคทีเรียที่ผนังเซลล์มีกรดไมโคลิก ทำให้ย้อมติดสีทนกรด",
+    "about_en": "Actinobacteria whose cell walls contain mycolic acids, which make them acid-fast.",
+    "review": "ai_draft"
+  },
+  "Mycobacterium": {
+    "rank": "genus",
+    "reading_th": "ไมโคแบคทีเรียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Myxogastria": {
+    "rank": "subgroup",
+    "reading_th": "มิกโซแกสเทรีย",
+    "common_th": "ราเมือกพลาสโมเดียม",
+    "about_th": "ราเมือกพลาสโมเดียม เป็นก้อนไซโทพลาซึมก้อนเดียวที่มีนิวเคลียสจำนวนมหาศาล",
+    "about_en": "Plasmodial slime molds: one mass of cytoplasm with an enormous number of nuclei.",
+    "review": "ai_draft"
+  },
+  "Nautilida": {
+    "rank": "order",
+    "reading_th": "นอทิลิดา",
+    "common_th": "",
+    "about_th": "หมึกที่ยังมีเปลือกนอกแบ่งเป็นห้อง ต่างจากหมึกทั่วไปที่เปลือกลดรูปหรือหายไป",
+    "about_en": "Cephalopods that still have an outer chambered shell, unlike most squid where the shell is reduced or gone.",
+    "review": "ai_draft"
+  },
+  "Nautilidae": {
+    "rank": "family",
+    "reading_th": "นอทิลิดี",
+    "common_th": "",
+    "about_th": "หอยงวงช้าง หนวดจำนวนมากที่ไม่มีปุ่มดูด",
+    "about_en": "Nautiluses, with many arms that have no suckers.",
+    "review": "ai_draft"
+  },
+  "Nautilus": {
+    "rank": "genus",
+    "reading_th": "นอทิลัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nelumbo": {
+    "rank": "genus",
+    "reading_th": "นีลัมโบ",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nelumbonaceae": {
+    "rank": "family",
+    "reading_th": "นีลัมโบนาซีอี",
+    "common_th": "",
+    "about_th": "บัวหลวง ใบกลมชูพ้นน้ำ ฐานรองดอกพองเป็นฝักบัวที่มีผลฝังอยู่ ต่างจากบัวสายซึ่งอยู่อีกวงศ์",
+    "about_en": "Sacred lotus: round leaves held above water and a swollen receptacle (the seed pod) with fruits sunk in it. Water lilies belong to a different family.",
+    "review": "ai_draft"
+  },
+  "Nematoda": {
+    "rank": "phylum",
+    "reading_th": "นีมาโทดา",
+    "common_th": "",
+    "about_th": "หนอนตัวกลมไม่มีปล้อง มีช่องตัวเทียม ทางเดินอาหารสมบูรณ์ และลอกคราบผิวคิวทิเคิล",
+    "about_en": "Roundworms: unsegmented, a pseudocoelom, a complete gut, and a molted cuticle.",
+    "review": "ai_draft"
+  },
+  "Nepenthaceae": {
+    "rank": "family",
+    "reading_th": "นีเพนทาซีอี",
+    "common_th": "",
+    "about_th": "หม้อข้าวหม้อแกงลิง ปลายใบเปลี่ยนเป็นหม้อดักแมลง",
+    "about_en": "Tropical pitcher plants whose leaf tips become pitchers that trap insects.",
+    "review": "ai_draft"
+  },
+  "Nepenthes": {
+    "rank": "genus",
+    "reading_th": "นีเพนธีส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nereididae": {
+    "rank": "family",
+    "reading_th": "เนรีอิดิดี",
+    "common_th": "",
+    "about_th": "หนอนทะเลที่มีหนวดและตาที่หัว และขากรรไกรคู่หนึ่ง",
+    "about_en": "Marine worms with tentacles and eyes on the head and a pair of jaws.",
+    "review": "ai_draft"
+  },
+  "Neurospora": {
+    "rank": "genus",
+    "reading_th": "นิวโรสปอรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nitrobacter": {
+    "rank": "genus",
+    "reading_th": "ไนโตรแบคเตอร์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nitrobacteraceae": {
+    "rank": "family",
+    "reading_th": "ไนโตรแบคเทอราซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียในดินที่หลายชนิดออกซิไดซ์ไนไตรต์เป็นไนเตรต หรือตรึงไนโตรเจนในปมรากถั่ว",
+    "about_en": "Soil bacteria, many of which oxidize nitrite to nitrate or fix nitrogen in legume root nodules.",
+    "review": "ai_draft"
+  },
+  "Nitrosomonadaceae": {
+    "rank": "family",
+    "reading_th": "ไนโตรโซโมนาดาซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียที่ออกซิไดซ์แอมโมเนียเป็นไนไตรต์",
+    "about_en": "Bacteria that oxidize ammonia to nitrite.",
+    "review": "ai_draft"
+  },
+  "Nitrosomonadales": {
+    "rank": "order",
+    "reading_th": "ไนโตรโซโมนาดาลีส",
+    "common_th": "",
+    "about_th": "โพรทีโอแบคทีเรียที่หลายชนิดใช้สารประกอบไนโตรเจนหรือกำมะถันอนินทรีย์เป็นแหล่งพลังงาน",
+    "about_en": "Proteobacteria, many of which get energy from inorganic nitrogen or sulfur compounds.",
+    "review": "ai_draft"
+  },
+  "Nitrosomonas": {
+    "rank": "genus",
+    "reading_th": "ไนโตรโซโมแนส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nitrosopumilaceae": {
+    "rank": "family",
+    "reading_th": "ไนโตรโซพิวมิลาซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียแท่งเล็กมากที่ใช้แอมโมเนียความเข้มข้นต่ำได้ดี และตรึงคาร์บอนไดออกไซด์",
+    "about_en": "Tiny rods that do well on very low ammonia and fix carbon dioxide.",
+    "review": "ai_draft"
+  },
+  "Nitrosopumilales": {
+    "rank": "order",
+    "reading_th": "ไนโตรโซพิวมิลาลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียออกซิไดซ์แอมโมเนียที่พบมากที่สุดในมหาสมุทร",
+    "about_en": "The most abundant ammonia-oxidizing archaea in the ocean.",
+    "review": "ai_draft"
+  },
+  "Nitrosopumilus": {
+    "rank": "genus",
+    "reading_th": "ไนโตรโซพิวมิลัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nitrososphaeria": {
+    "rank": "class",
+    "reading_th": "ไนโตรโซสฟีเรีย",
+    "common_th": "",
+    "about_th": "อาร์เคียที่ออกซิไดซ์แอมโมเนียเป็นไนไตรต์ด้วยเอนไซม์แอมโมเนียโมโนออกซิเจเนส",
+    "about_en": "Archaea that oxidize ammonia to nitrite with the enzyme ammonia monooxygenase.",
+    "review": "ai_draft"
+  },
+  "Nitrososphaerota": {
+    "rank": null,
+    "reading_th": "ไนโตรโซสฟีโรตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Noctiluca": {
+    "rank": "genus",
+    "reading_th": "น็อกติลูกา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nostoc": {
+    "rank": "genus",
+    "reading_th": "นอสต็อก",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Nostocaceae": {
+    "rank": "family",
+    "reading_th": "นอสโตคาซีอี",
+    "common_th": "",
+    "about_th": "เส้นสายไม่แตกแขนง เซลล์กลมเรียงคล้ายลูกปัด และมีเฮเทอโรซิสต์แทรกเป็นระยะ",
+    "about_en": "Unbranched filaments of round cells like a string of beads, with heterocysts at intervals.",
+    "review": "ai_draft"
+  },
+  "Nostocales": {
+    "rank": "order",
+    "reading_th": "นอสโตคาลีส",
+    "common_th": "",
+    "about_th": "ไซยาโนแบคทีเรียเส้นสายที่สร้างเฮเทอโรซิสต์สำหรับตรึงไนโตรเจน และเอไคนีตสำหรับพักตัว",
+    "about_en": "Filamentous cyanobacteria that make heterocysts to fix nitrogen and akinetes to rest.",
+    "review": "ai_draft"
+  },
+  "Oomycota": {
+    "rank": "subgroup",
+    "reading_th": "โอโอไมคอตา",
+    "common_th": "",
+    "about_th": "ราน้ำที่หน้าตาคล้ายรา แต่ผนังเซลล์เป็นเซลลูโลสและเส้นใยมีโครโมโซมสองชุด",
+    "about_en": "Water molds that look like fungi but have cellulose walls and hyphae with two sets of chromosomes.",
+    "review": "ai_draft"
+  },
+  "Opisthorchiida": {
+    "rank": "order",
+    "reading_th": "ออพิสทอร์คิอิดา",
+    "common_th": "",
+    "about_th": "พยาธิใบไม้ที่ติดต่อจากการกินปลาดิบ",
+    "about_en": "Flukes passed on by eating raw fish.",
+    "review": "ai_draft"
+  },
+  "Opisthorchiidae": {
+    "rank": "family",
+    "reading_th": "ออพิสทอร์คิอิดี",
+    "common_th": "",
+    "about_th": "พยาธิใบไม้ที่อาศัยในท่อน้ำดีของคนและสัตว์กินปลา",
+    "about_en": "Flukes living in the bile ducts of people and fish-eating animals.",
+    "review": "ai_draft"
+  },
+  "Opisthorchis": {
+    "rank": "genus",
+    "reading_th": "ออพิสทอร์คิส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Orectolobiformes": {
+    "rank": "order",
+    "reading_th": "โอเรกโทโลบิฟอร์มีส",
+    "common_th": "",
+    "about_th": "ฉลามที่ปากอยู่หน้าตา และส่วนใหญ่มีหนวดสั้นที่จมูก",
+    "about_en": "Sharks with the mouth in front of the eyes, most with short barbels at the nostrils.",
+    "review": "ai_draft"
+  },
+  "Ornithorhynchidae": {
+    "rank": "family",
+    "reading_th": "ออร์นิโทริงคิดี",
+    "common_th": "",
+    "about_th": "ตุ่นปากเป็ด ปากแบนคล้ายเป็ดที่รับสัญญาณไฟฟ้าจากเหยื่อได้",
+    "about_en": "The platypus, with a flat duck-like bill that senses the electric signals of prey.",
+    "review": "ai_draft"
+  },
+  "Ornithorhynchus": {
+    "rank": "genus",
+    "reading_th": "ออร์นิโทริงคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Oryza": {
+    "rank": "genus",
+    "reading_th": "โอไรซา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Oscillatoria": {
+    "rank": "genus",
+    "reading_th": "ออสซิลลาทอเรีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Oscillatoriaceae": {
+    "rank": "family",
+    "reading_th": "ออสซิลลาโทริเอซีอี",
+    "common_th": "",
+    "about_th": "เส้นสายตรงที่เคลื่อนที่แบบไถลและโบกไปมาได้ เซลล์สั้นเรียงซ้อนกันเป็นแผ่น",
+    "about_en": "Straight filaments that glide and sway, made of short disc-like cells stacked together.",
+    "review": "ai_draft"
+  },
+  "Oscillatoriales": {
+    "rank": "order",
+    "reading_th": "ออสซิลลาโทริอาลีส",
+    "common_th": "",
+    "about_th": "ไซยาโนแบคทีเรียเส้นสายที่ไม่มีเฮเทอโรซิสต์ ต่างจาก Nostocales ที่มีเฮเทอโรซิสต์ไว้ตรึงไนโตรเจน",
+    "about_en": "Filamentous cyanobacteria without heterocysts, unlike Nostocales, which make heterocysts to fix nitrogen.",
+    "review": "ai_draft"
+  },
+  "Osphronemidae": {
+    "rank": "family",
+    "reading_th": "ออสโฟรนีมิดี",
+    "common_th": "",
+    "about_th": "ปลากัด ปลากระดี่ และปลาแรด ตัวผู้มักก่อหวอดไว้ดูแลไข่",
+    "about_en": "Bettas, gouramis and giant gouramis; males often build bubble nests to guard the eggs.",
+    "review": "ai_draft"
+  },
+  "Parabasalia": {
+    "rank": "subgroup",
+    "reading_th": "พาราเบซาเลีย",
+    "common_th": "",
+    "about_th": "มีไฮโดรจีโนโซมแทนไมโทคอนเดรีย และมีแฟลเจลลัมกับเยื่อลูกคลื่น ต่างจาก Diplomonadida ที่มีสองนิวเคลียส",
+    "about_en": "Protists with hydrogenosomes instead of mitochondria and a flagellum with an undulating membrane, unlike two-nucleus diplomonads.",
+    "review": "ai_draft"
+  },
+  "Paramecium": {
+    "rank": "genus",
+    "reading_th": "พารามีเซียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Penaeidae": {
+    "rank": "family",
+    "reading_th": "พีนีอิดี",
+    "common_th": "",
+    "about_th": "กุ้งทะเลที่ปล่อยไข่ลงน้ำโดยไม่อุ้มไข่ไว้ ต่างจากกุ้งก้ามกรามที่อุ้มไข่",
+    "about_en": "Marine shrimp that release eggs into the water rather than carrying them, unlike giant river prawns.",
+    "review": "ai_draft"
+  },
+  "Penaeus": {
+    "rank": "genus",
+    "reading_th": "พีเนียส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Penicillium": {
+    "rank": "genus",
+    "reading_th": "เพนิซิลเลียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Perinereis": {
+    "rank": "genus",
+    "reading_th": "เพอรีเนรีส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Periplaneta": {
+    "rank": "genus",
+    "reading_th": "เพอริพลาเนตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Phaeophyceae": {
+    "rank": "subgroup",
+    "reading_th": "ฟีโอฟิซีอี",
+    "common_th": "",
+    "about_th": "สาหร่ายสีน้ำตาลหลายเซลล์ที่มีฟิวโคแซนทิน และเป็นสาหร่ายที่ใหญ่ที่สุด เช่น เคลป์",
+    "about_en": "Multicellular brown algae colored by fucoxanthin, including the largest algae such as kelp.",
+    "review": "ai_draft"
+  },
+  "Phasianidae": {
+    "rank": "family",
+    "reading_th": "เฟเซียนิดี",
+    "common_th": "",
+    "about_th": "ไก่ ไก่ฟ้า และนกยูง ตัวผู้มักมีสีสันสดและหงอนหรือเหนียง",
+    "about_en": "Chickens, pheasants and peafowl; males are often brightly colored with combs or wattles.",
+    "review": "ai_draft"
+  },
+  "Phlebobranchia": {
+    "rank": "order",
+    "reading_th": "เฟลโบแบรงเคีย",
+    "common_th": "",
+    "about_th": "เพรียงหัวหอมตัวเดี่ยวที่เหงือกมีหลอดเลือดตามยาว",
+    "about_en": "Solitary sea squirts whose gills have lengthwise blood vessels.",
+    "review": "ai_draft"
+  },
+  "Phyllodocida": {
+    "rank": "order",
+    "reading_th": "ฟิลโลโดซิดา",
+    "common_th": "",
+    "about_th": "หนอนทะเลที่ส่วนใหญ่ล่าเหยื่อ มีขากรรไกรที่ยื่นออกได้",
+    "about_en": "Marine worms, mostly predators, with jaws that can be pushed out.",
+    "review": "ai_draft"
+  },
+  "Physarum": {
+    "rank": "genus",
+    "reading_th": "ไฟซารัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Phytophthora": {
+    "rank": "genus",
+    "reading_th": "ไฟทอฟธอรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Pinaceae": {
+    "rank": "family",
+    "reading_th": "ไพนาซีอี",
+    "common_th": "",
+    "about_th": "สนที่ใบเป็นเข็มออกเป็นกลุ่ม โคนเพศเมียแข็งเป็นเนื้อไม้ และเมล็ดมีปีก",
+    "about_en": "Conifers with needles in bundles, woody female cones and winged seeds.",
+    "review": "ai_draft"
+  },
+  "Pinales": {
+    "rank": "order",
+    "reading_th": "ไพนาลีส",
+    "common_th": "",
+    "about_th": "สนส่วนใหญ่ เช่น สนเขา สนฉัตร และสนแผง",
+    "about_en": "Most conifers, such as pines and araucarias.",
+    "review": "ai_draft"
+  },
+  "Pinopsida": {
+    "rank": "class",
+    "reading_th": "ไพนอปซิดา",
+    "common_th": "",
+    "about_th": "คลาสของสน ใบเข็มหรือเกล็ด และเมล็ดอยู่บนเกล็ดของโคน",
+    "about_en": "The conifer class, with needle or scale leaves and seeds on cone scales.",
+    "review": "ai_draft"
+  },
+  "Pinus": {
+    "rank": "genus",
+    "reading_th": "ไพนัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Pisum": {
+    "rank": "genus",
+    "reading_th": "ไพซัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Plantae": {
+    "rank": "kingdom",
+    "reading_th": "แพลนที",
+    "common_th": "",
+    "about_th": "ยูแคริโอตหลายเซลล์ที่สังเคราะห์ด้วยแสง มีคลอโรฟิลล์ เอ และ บี ผนังเซลล์มีเซลลูโลส และเอ็มบริโอเจริญอยู่ในเนื้อเยื่อของต้นแม่ ซึ่งสาหร่ายสีเขียวไม่มี",
+    "about_en": "Multicellular photosynthetic eukaryotes with chlorophyll a and b and cellulose walls, whose embryos develop inside the parent plant, which green algae do not do.",
+    "review": "ai_draft"
+  },
+  "Plasmodium": {
+    "rank": "genus",
+    "reading_th": "พลาสโมเดียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Platyhelminthes": {
+    "rank": "phylum",
+    "reading_th": "แพลทิเฮลมินทีส",
+    "common_th": "",
+    "about_th": "หนอนตัวแบน สมมาตรด้านข้าง เนื้อเยื่อสามชั้น ไม่มีช่องตัว และทางเดินอาหารมีช่องเปิดเดียวหรือไม่มีเลย",
+    "about_en": "Flatworms: bilateral symmetry, three tissue layers, no body cavity, and a gut with one opening or none.",
+    "review": "ai_draft"
+  },
+  "Pleurotaceae": {
+    "rank": "family",
+    "reading_th": "พลูโรทาซีอี",
+    "common_th": "",
+    "about_th": "เห็ดที่ก้านเยื้องหรือติดด้านข้างหมวก ครีบลาดลงมาถึงก้าน และขึ้นบนไม้",
+    "about_en": "Mushrooms with an off-center or side stem and gills that run down the stem, growing on wood.",
+    "review": "ai_draft"
+  },
+  "Pleurotus": {
+    "rank": "genus",
+    "reading_th": "พลูโรตัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Pluteaceae": {
+    "rank": "family",
+    "reading_th": "พลูเทียซีอี",
+    "common_th": "",
+    "about_th": "เห็ดครีบที่ครีบไม่ติดก้านและสปอร์สีชมพู บางสกุลมีเปลือกหุ้มโคน (วอลวา)",
+    "about_en": "Gilled mushrooms whose gills are free of the stem and whose spores are pink; some genera have a cup at the base (volva).",
+    "review": "ai_draft"
+  },
+  "Pneumocystidaceae": {
+    "rank": "family",
+    "reading_th": "นิวโมซิสติดาซีอี",
+    "common_th": "",
+    "about_th": "ฟังไจที่ยาต้านเชื้อรากลุ่มที่ออกฤทธิ์ต่อเออร์โกสเตอรอลใช้ไม่ได้ผล",
+    "about_en": "Fungi unaffected by the antifungals that target ergosterol.",
+    "review": "ai_draft"
+  },
+  "Pneumocystidales": {
+    "rank": "order",
+    "reading_th": "นิวโมซิสติดาลีส",
+    "common_th": "",
+    "about_th": "ฟังไจในปอดที่เพาะเลี้ยงนอกร่างกายไม่ได้",
+    "about_en": "Lung fungi that cannot be grown outside the body.",
+    "review": "ai_draft"
+  },
+  "Pneumocystidomycetes": {
+    "rank": "class",
+    "reading_th": "นิวโมซิสติโดไมซีทีส",
+    "common_th": "",
+    "about_th": "ฟังไจที่อาศัยในปอดของสัตว์เลี้ยงลูกด้วยน้ำนม และเยื่อหุ้มเซลล์แทบไม่มีเออร์โกสเตอรอล",
+    "about_en": "Fungi that live in mammal lungs and have almost no ergosterol in their membranes.",
+    "review": "ai_draft"
+  },
+  "Pneumocystis": {
+    "rank": "genus",
+    "reading_th": "นิวโมซิสติส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Poaceae": {
+    "rank": "family",
+    "reading_th": "โพเอซีอี",
+    "common_th": "",
+    "about_th": "หญ้า ลำต้นกลวงมีข้อ ดอกอยู่ในช่อย่อย ผลเป็นผลธัญพืชที่เปลือกเมล็ดติดกับผนังผล",
+    "about_en": "Grasses: hollow jointed stems, flowers in spikelets, and a grain whose seed coat is fused to the fruit wall.",
+    "review": "ai_draft"
+  },
+  "Poales": {
+    "rank": "order",
+    "reading_th": "โพอาลีส",
+    "common_th": "",
+    "about_th": "หญ้าและพืชใกล้ชิด ดอกเล็ก ลดรูป และผสมเกสรด้วยลม",
+    "about_en": "Grasses and relatives with small, reduced, wind-pollinated flowers.",
+    "review": "ai_draft"
+  },
+  "Polychaeta": {
+    "rank": "class",
+    "reading_th": "พอลิคีตา",
+    "common_th": "",
+    "about_th": "หนอนปล้องทะเลที่แต่ละปล้องมีพาราโพเดียและเดือยจำนวนมาก ต่างจาก Clitellata ที่มีเดือยน้อย",
+    "about_en": "Marine segmented worms with parapodia and many bristles on each segment, unlike Clitellata with few bristles.",
+    "review": "ai_draft"
+  },
+  "Polypodiales": {
+    "rank": "order",
+    "reading_th": "โพลิโพดิอาลีส",
+    "common_th": "",
+    "about_th": "อันดับใหญ่ที่สุดของเฟิร์น อับสปอร์รวมเป็นกลุ่ม (ซอรัส) ใต้ใบ",
+    "about_en": "The largest fern order, with sporangia grouped into sori under the leaf.",
+    "review": "ai_draft"
+  },
+  "Polypodiopsida": {
+    "rank": "class",
+    "reading_th": "โพลิโพดิออปซิดา",
+    "common_th": "",
+    "about_th": "คลาสของเฟิร์น รวมทั้งหญ้าถอดปล้อง เฟิร์นน้ำ และเฟิร์นทั่วไป",
+    "about_en": "The fern class, including horsetails, water ferns and ordinary ferns.",
+    "review": "ai_draft"
+  },
+  "Polyporaceae": {
+    "rank": "family",
+    "reading_th": "พอลิพอราซีอี",
+    "common_th": "",
+    "about_th": "เห็ดหิ้งเนื้อเหนียวหรือแข็งที่ขึ้นบนไม้",
+    "about_en": "Tough or woody bracket fungi growing on wood.",
+    "review": "ai_draft"
+  },
+  "Polyporales": {
+    "rank": "order",
+    "reading_th": "พอลิพอราลีส",
+    "common_th": "",
+    "about_th": "เห็ดหิ้งและเห็ดรู ใต้หมวกเป็นรูเล็กแทนครีบ และส่วนใหญ่ย่อยสลายเนื้อไม้",
+    "about_en": "Bracket and pore fungi with tiny pores under the cap instead of gills; most decompose wood.",
+    "review": "ai_draft"
+  },
+  "Pomacea": {
+    "rank": "genus",
+    "reading_th": "โพมาเซีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Porifera": {
+    "rank": "phylum",
+    "reading_th": "พอริเฟอรา",
+    "common_th": "",
+    "about_th": "ไม่มีเนื้อเยื่อแท้ ลำตัวมีรูพรุน และใช้เซลล์ปลอกคอกรองอาหาร",
+    "about_en": "No true tissues, a body full of pores, and collar cells that filter food.",
+    "review": "ai_draft"
+  },
+  "Primates": {
+    "rank": "order",
+    "reading_th": "ไพรเมตีส",
+    "common_th": "",
+    "about_th": "ลิงและคน นิ้วหัวแม่มือหยิบจับได้ ตาอยู่ด้านหน้า และสมองใหญ่",
+    "about_en": "Monkeys, apes and humans: grasping thumbs, forward-facing eyes and large brains.",
+    "review": "ai_draft"
+  },
+  "Proboscidea": {
+    "rank": "order",
+    "reading_th": "โพรบอสซิเดีย",
+    "common_th": "",
+    "about_th": "ช้าง มีงวงที่เกิดจากจมูกรวมกับริมฝีปากบน และงาที่เป็นฟันตัดที่งอกยาว",
+    "about_en": "Elephants, with a trunk formed from the nose and upper lip and tusks that are overgrown incisors.",
+    "review": "ai_draft"
+  },
+  "Proteales": {
+    "rank": "order",
+    "reading_th": "โพรทีอาลีส",
+    "common_th": "",
+    "about_th": "อันดับที่จัดจากข้อมูลดีเอ็นเอ รวมบัวหลวงกับพืชบกบางชนิดที่หน้าตาต่างกันมาก",
+    "about_en": "An order defined by DNA evidence that joins the sacred lotus with very different land plants.",
+    "review": "ai_draft"
+  },
+  "Proteobacteria": {
+    "rank": "phylum",
+    "reading_th": "โพรทีโอแบคทีเรีย",
+    "common_th": "",
+    "about_th": "ไฟลัมแบคทีเรียแกรมลบที่ใหญ่และหลากหลายที่สุด มีเยื่อหุ้มชั้นนอกที่มีลิโพพอลิแซ็กคาไรด์ และแบ่งคลาสตามอักษรกรีก เช่น แอลฟา บีตา แกมมา",
+    "about_en": "The largest and most varied phylum of Gram-negative bacteria, with an outer membrane containing lipopolysaccharide. Its classes are named by Greek letters such as alpha, beta and gamma.",
+    "review": "ai_draft"
+  },
+  "Pseudomonadota": {
+    "rank": null,
+    "reading_th": "ซูโดโมนาโดตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Psilotaceae": {
+    "rank": "family",
+    "reading_th": "ไซโลทาซีอี",
+    "common_th": "",
+    "about_th": "มีอับสปอร์สามพูเชื่อมกันติดอยู่ตามกิ่ง",
+    "about_en": "Three-lobed fused sporangia along the branches.",
+    "review": "ai_draft"
+  },
+  "Psilotales": {
+    "rank": "order",
+    "reading_th": "ไซโลทาลีส",
+    "common_th": "",
+    "about_th": "พืชที่ไม่มีทั้งรากและใบแท้ ลำต้นแตกกิ่งเป็นคู่",
+    "about_en": "Plants with neither true roots nor true leaves; the stems fork in pairs.",
+    "review": "ai_draft"
+  },
+  "Psilotopsida": {
+    "rank": "class",
+    "reading_th": "ไซโลทอปซิดา",
+    "common_th": "",
+    "about_th": "หวายทะนอยและพืชใกล้ชิด ไม่มีรากแท้ จัดเป็นญาติของเฟิร์นตามข้อมูลดีเอ็นเอ",
+    "about_en": "Whisk ferns and relatives with no true roots, placed with ferns by DNA evidence.",
+    "review": "ai_draft"
+  },
+  "Psilotum": {
+    "rank": "genus",
+    "reading_th": "ไซโลตัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Pterophyta": {
+    "rank": "phylum",
+    "reading_th": "เทอโรไฟตา",
+    "common_th": "",
+    "about_th": "เฟิร์นและพืชใกล้ชิด มีท่อลำเลียงแต่ไม่มีเมล็ด ใบเป็นเมกะฟิลล์ และต้องใช้น้ำช่วยในการปฏิสนธิ",
+    "about_en": "Ferns and relatives: vascular tissue but no seeds, megaphyll leaves, and water needed for fertilization.",
+    "review": "ai_draft"
+  },
+  "Puccinia": {
+    "rank": "genus",
+    "reading_th": "พุกซิเนีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Pucciniaceae": {
+    "rank": "family",
+    "reading_th": "พุกซิเนียซีอี",
+    "common_th": "",
+    "about_th": "ราสนิมที่สร้างสปอร์ได้หลายแบบในวงชีวิตเดียว",
+    "about_en": "Rusts that make several kinds of spores within one life cycle.",
+    "review": "ai_draft"
+  },
+  "Pucciniales": {
+    "rank": "order",
+    "reading_th": "พุกซิเนียลีส",
+    "common_th": "",
+    "about_th": "ราสนิมที่หลายชนิดต้องอาศัยพืชสองชนิดให้ครบวงชีวิต",
+    "about_en": "Rusts, many of which need two host plants to finish the life cycle.",
+    "review": "ai_draft"
+  },
+  "Pucciniomycetes": {
+    "rank": "class",
+    "reading_th": "พุกซิเนียไมซีทีส",
+    "common_th": "",
+    "about_th": "ราสนิมที่เป็นปรสิตจำเพาะในพืช และมีวงชีวิตซับซ้อน",
+    "about_en": "Rust fungi: specialized plant parasites with complex life cycles.",
+    "review": "ai_draft"
+  },
+  "Pyrococcus": {
+    "rank": "genus",
+    "reading_th": "ไพโรค็อกคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Pyropia": {
+    "rank": "genus",
+    "reading_th": "ไพโรเปีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Rafflesia": {
+    "rank": "genus",
+    "reading_th": "แรฟเฟิลเซีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Rafflesiaceae": {
+    "rank": "family",
+    "reading_th": "แรฟเฟิลเซียซีอี",
+    "common_th": "",
+    "about_th": "พืชเบียนที่ไม่มีใบ ลำต้น และรากที่มองเห็น มีแต่ดอกขนาดใหญ่โผล่ออกจากเถาของโฮสต์",
+    "about_en": "Parasitic plants with no visible leaves, stems or roots, only huge flowers that emerge from the host vine.",
+    "review": "ai_draft"
+  },
+  "Reptilia": {
+    "rank": "class",
+    "reading_th": "เรปทิเลีย",
+    "common_th": "",
+    "about_th": "สัตว์เลื้อยคลาน ผิวมีเกล็ดเคราติน และวางไข่ที่มีเปลือกและถุงน้ำคร่ำ",
+    "about_en": "Reptiles: keratin scales and shelled eggs with an amnion.",
+    "review": "ai_draft"
+  },
+  "Rhabditida": {
+    "rank": "order",
+    "reading_th": "แรบดิทิดา",
+    "common_th": "",
+    "about_th": "อันดับใหญ่ของหนอนตัวกลม รวมทั้ง C. elegans และพยาธิในคนหลายชนิด",
+    "about_en": "A large order of roundworms, including C. elegans and many human parasites.",
+    "review": "ai_draft"
+  },
+  "Rhabditidae": {
+    "rank": "family",
+    "reading_th": "แรบดิทิดี",
+    "common_th": "",
+    "about_th": "หนอนตัวกลมขนาดเล็กที่อยู่อิสระในดินและกินแบคทีเรีย",
+    "about_en": "Small free-living soil roundworms that eat bacteria.",
+    "review": "ai_draft"
+  },
+  "Rhincodon": {
+    "rank": "genus",
+    "reading_th": "ริงโคดอน",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Rhincodontidae": {
+    "rank": "family",
+    "reading_th": "ริงโคดอนทิดี",
+    "common_th": "",
+    "about_th": "มีชนิดเดียวคือฉลามวาฬ ปากกว้างอยู่ที่ปลายหัว",
+    "about_en": "A single species, the whale shark, with a wide mouth at the tip of the head.",
+    "review": "ai_draft"
+  },
+  "Rhizobiaceae": {
+    "rank": "family",
+    "reading_th": "ไรโซเบียซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียแท่งในดินที่อยู่ร่วมกับรากพืช บางชนิดสร้างปมตรึงไนโตรเจนในพืชตระกูลถั่ว บางชนิดก่อปุ่มปมในพืช",
+    "about_en": "Soil rods that live with plant roots. Some form nitrogen-fixing nodules on legumes; others cause galls.",
+    "review": "ai_draft"
+  },
+  "Rhizobiales": {
+    "rank": "order",
+    "reading_th": "ไรโซเบียลีส",
+    "common_th": "",
+    "about_th": "อันดับที่หลายชนิดเกี่ยวข้องกับรากพืช ทั้งตรึงไนโตรเจนในปมรากและก่อเนื้องอกในพืช",
+    "about_en": "An order in which many species are tied to plant roots, either fixing nitrogen in root nodules or causing plant tumors.",
+    "review": "ai_draft"
+  },
+  "Rhizobium": {
+    "rank": "genus",
+    "reading_th": "ไรโซเบียม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Rhizophagus": {
+    "rank": "genus",
+    "reading_th": "ไรโซฟากัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Rhizophora": {
+    "rank": "genus",
+    "reading_th": "ไรโซฟอรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Rhizophoraceae": {
+    "rank": "family",
+    "reading_th": "ไรโซฟอราซีอี",
+    "common_th": "",
+    "about_th": "ไม้ป่าชายเลนที่มีรากค้ำจุนและเมล็ดงอกตั้งแต่อยู่บนต้น",
+    "about_en": "Mangrove trees with stilt roots and seeds that germinate while still on the tree.",
+    "review": "ai_draft"
+  },
+  "Rhizophydiales": {
+    "rank": "order",
+    "reading_th": "ไรโซฟิดิอาลีส",
+    "common_th": "",
+    "about_th": "ไคทริดที่หลายชนิดเป็นปรสิตในสาหร่าย ละอองเรณู หรือสัตว์สะเทินน้ำสะเทินบก",
+    "about_en": "Chytrids, many of them parasites of algae, pollen or amphibians.",
+    "review": "ai_draft"
+  },
+  "Rhizopus": {
+    "rank": "genus",
+    "reading_th": "ไรโซปัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Rhodophyta": {
+    "rank": "major_clade",
+    "reading_th": "โรโดไฟตา",
+    "common_th": "สาหร่ายสีแดง",
+    "about_th": "สาหร่ายสีแดงที่มีไฟโคเอริทริน และไม่มีแฟลเจลลัมในทุกระยะ",
+    "about_en": "Red algae with phycoerythrin and no flagella at any stage.",
+    "review": "ai_draft"
+  },
+  "Rhodospirillales": {
+    "rank": "order",
+    "reading_th": "โรโดสไปริลลาลีส",
+    "common_th": "",
+    "about_th": "แอลฟาโพรทีโอแบคทีเรียที่มีทั้งแบคทีเรียสังเคราะห์ด้วยแสงสีม่วงและแบคทีเรียกรดแอซิติก",
+    "about_en": "Alphaproteobacteria including both purple photosynthetic bacteria and acetic acid bacteria.",
+    "review": "ai_draft"
+  },
+  "Rodentia": {
+    "rank": "order",
+    "reading_th": "โรเดนเทีย",
+    "common_th": "",
+    "about_th": "สัตว์ฟันแทะ ฟันตัดหน้าคู่บนและล่างงอกยาวตลอดชีวิต",
+    "about_en": "Rodents, whose upper and lower front incisors grow throughout life.",
+    "review": "ai_draft"
+  },
+  "SAR": {
+    "rank": "supergroup",
+    "reading_th": "ซาร์",
+    "common_th": "",
+    "about_th": "ซูเปอร์กรุ๊ปที่จัดจากข้อมูลดีเอ็นเอ รวมสามกลุ่มคือ สตราเมโนไพล์ แอลวีโอเลต และไรซาเรีย",
+    "about_en": "A supergroup defined by DNA evidence that combines three groups: stramenopiles, alveolates and rhizarians.",
+    "review": "ai_draft"
+  },
+  "Saccharomyces": {
+    "rank": "genus",
+    "reading_th": "แซ็กคาโรไมซีส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Saccharomycetaceae": {
+    "rank": "family",
+    "reading_th": "แซ็กคาโรไมซีทาซีอี",
+    "common_th": "",
+    "about_th": "ยีสต์ที่หมักน้ำตาลได้แอลกอฮอล์ดี ใช้ทำขนมปังและเครื่องดื่ม",
+    "about_en": "Yeasts that ferment sugar to alcohol well, used for bread and drinks.",
+    "review": "ai_draft"
+  },
+  "Saccharomycetales": {
+    "rank": "order",
+    "reading_th": "แซ็กคาโรไมซีทาลีส",
+    "common_th": "",
+    "about_th": "ยีสต์ที่แตกหน่อและหลายชนิดหมักน้ำตาลได้",
+    "about_en": "Budding yeasts, many of which ferment sugar.",
+    "review": "ai_draft"
+  },
+  "Saccharomycetes": {
+    "rank": "class",
+    "reading_th": "แซ็กคาโรไมซีทีส",
+    "common_th": "",
+    "about_th": "ยีสต์แท้ที่ส่วนใหญ่เป็นเซลล์เดียว แตกหน่อ และไม่สร้างดอกเห็ด",
+    "about_en": "True yeasts: mostly single cells that bud and never form mushrooms.",
+    "review": "ai_draft"
+  },
+  "Saccharum": {
+    "rank": "genus",
+    "reading_th": "แซ็กคารัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Salmonella": {
+    "rank": "genus",
+    "reading_th": "ซัลโมเนลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Salviniaceae": {
+    "rank": "family",
+    "reading_th": "ซัลวิเนียซีอี",
+    "common_th": "",
+    "about_th": "เฟิร์นลอยน้ำขนาดเล็กที่ใบมีขนกันน้ำ",
+    "about_en": "Small floating ferns with water-repellent hairs on the leaves.",
+    "review": "ai_draft"
+  },
+  "Salviniales": {
+    "rank": "order",
+    "reading_th": "ซัลวิเนียลีส",
+    "common_th": "",
+    "about_th": "เฟิร์นน้ำที่สร้างสปอร์สองขนาดในสปอโรคาร์ป ต่างจากเฟิร์นบกส่วนใหญ่ที่สร้างขนาดเดียว",
+    "about_en": "Water ferns that make spores of two sizes in sporocarps, unlike most land ferns with one size.",
+    "review": "ai_draft"
+  },
+  "Sargassum": {
+    "rank": "genus",
+    "reading_th": "ซาร์กัสซัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Scorpiones": {
+    "rank": "order",
+    "reading_th": "สกอร์ปิโอนีส",
+    "common_th": "",
+    "about_th": "แมงป่อง มีก้ามใหญ่และหางเป็นปล้องที่ปลายมีเหล็กไน",
+    "about_en": "Scorpions, with large pincers and a segmented tail tipped with a stinger.",
+    "review": "ai_draft"
+  },
+  "Scorpionidae": {
+    "rank": "family",
+    "reading_th": "สกอร์ปิโอนิดี",
+    "common_th": "",
+    "about_th": "แมงป่องตัวใหญ่ก้ามหนา เช่น แมงป่องช้าง",
+    "about_en": "Large, thick-clawed scorpions such as the giant forest scorpion.",
+    "review": "ai_draft"
+  },
+  "Scyphozoa": {
+    "rank": "class",
+    "reading_th": "ไซโฟซัว",
+    "common_th": "",
+    "about_th": "แมงกะพรุนแท้ ระยะเมดูซาเด่นและใหญ่ ส่วนระยะโพลิปเล็ก",
+    "about_en": "True jellyfish: a large, dominant medusa and a small polyp stage.",
+    "review": "ai_draft"
+  },
+  "Selaginella": {
+    "rank": "genus",
+    "reading_th": "ซีลาจิเนลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Selaginellaceae": {
+    "rank": "family",
+    "reading_th": "ซีลาจิเนลลาซีอี",
+    "common_th": "",
+    "about_th": "มีสกุลเดียวคือ Selaginella ใบเล็กเรียงสี่แถว",
+    "about_en": "A single genus, Selaginella, with small leaves in four rows.",
+    "review": "ai_draft"
+  },
+  "Selaginellales": {
+    "rank": "order",
+    "reading_th": "ซีลาจิเนลลาลีส",
+    "common_th": "",
+    "about_th": "ไลโคไฟต์ที่สร้างสปอร์สองขนาด และใบมีลิกูลซึ่งเป็นเกล็ดเล็กที่โคนใบ",
+    "about_en": "Lycophytes with spores of two sizes and a ligule, a small scale at the leaf base.",
+    "review": "ai_draft"
+  },
+  "Semaeostomeae": {
+    "rank": "order",
+    "reading_th": "เซมีออสโตมีอี",
+    "common_th": "",
+    "about_th": "แมงกะพรุนที่แขนรอบปากยาวเป็นแผ่น และมีหนวดที่ขอบร่ม",
+    "about_en": "Jellyfish with long, frilly oral arms and tentacles at the bell margin.",
+    "review": "ai_draft"
+  },
+  "Sordariaceae": {
+    "rank": "family",
+    "reading_th": "ซอร์ดาริเอซีอี",
+    "common_th": "",
+    "about_th": "ราที่แอสโคสปอร์เรียงในแอสคัสตามลำดับการแบ่งเซลล์ จึงใช้ศึกษาพันธุศาสตร์",
+    "about_en": "Molds whose ascospores line up in the ascus in the order of cell division, which makes them useful in genetics.",
+    "review": "ai_draft"
+  },
+  "Sordariales": {
+    "rank": "order",
+    "reading_th": "ซอร์ดาริอาลีส",
+    "common_th": "",
+    "about_th": "แอสโคไมซีตที่ย่อยสลายซากพืชและมูลสัตว์ แอสโคสปอร์มักมีสีเข้ม",
+    "about_en": "Ascomycetes that decompose plant matter and dung; ascospores are often dark.",
+    "review": "ai_draft"
+  },
+  "Sordariomycetes": {
+    "rank": "class",
+    "reading_th": "ซอร์ดาริโอไมซีทีส",
+    "common_th": "",
+    "about_th": "แอสโคไมซีตที่สร้างแอสคัสในโครงสร้างรูปขวด (เพริทีเซียม)",
+    "about_en": "Ascomycetes that form asci inside flask-shaped structures (perithecia).",
+    "review": "ai_draft"
+  },
+  "Sphagnaceae": {
+    "rank": "family",
+    "reading_th": "สแฟกนาซีอี",
+    "common_th": "",
+    "about_th": "มอสที่กิ่งเรียงเป็นกลุ่มรอบลำต้น และอับสปอร์ดีดเปิดด้วยแรงดันอากาศ",
+    "about_en": "Mosses with branches in clusters around the stem and capsules that burst open with air pressure.",
+    "review": "ai_draft"
+  },
+  "Sphagnales": {
+    "rank": "order",
+    "reading_th": "สแฟกนาลีส",
+    "common_th": "",
+    "about_th": "มอสที่เก็บน้ำได้มากและทำให้น้ำรอบตัวเป็นกรด จนเกิดเป็นพรุ",
+    "about_en": "Mosses that hold large amounts of water and acidify their surroundings, forming peat bogs.",
+    "review": "ai_draft"
+  },
+  "Sphagnopsida": {
+    "rank": "class",
+    "reading_th": "สแฟกนอปซิดา",
+    "common_th": "",
+    "about_th": "มอสข้าวตอกฤๅษี ใบมีเซลล์ใสขนาดใหญ่ที่ตายแล้วไว้เก็บน้ำ",
+    "about_en": "Peat mosses, whose leaves have large dead clear cells that hold water.",
+    "review": "ai_draft"
+  },
+  "Sphagnum": {
+    "rank": "genus",
+    "reading_th": "สแฟกนัม",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Spirochaetales": {
+    "rank": "order",
+    "reading_th": "สไปโรคีทาลีส",
+    "common_th": "",
+    "about_th": "สไปโรคีตที่เกลียวบางมาก ต้องการออกซิเจนน้อยหรือไม่ใช้เลย",
+    "about_en": "Very thin spirochetes that need little or no oxygen.",
+    "review": "ai_draft"
+  },
+  "Spirochaetes": {
+    "rank": "phylum",
+    "reading_th": "สไปโรคีต",
+    "common_th": "",
+    "about_th": "แบคทีเรียรูปเกลียวยาวที่มีแฟลเจลลัมอยู่ระหว่างเยื่อหุ้มชั้นนอกกับผนังเซลล์ (เอนโดแฟลเจลลัม) จึงเคลื่อนที่ด้วยการบิดตัวทั้งเซลล์",
+    "about_en": "Long spiral bacteria with flagella between the outer membrane and the cell wall (endoflagella), so the whole cell twists to move.",
+    "review": "ai_draft"
+  },
+  "Spirochaetia": {
+    "rank": "class",
+    "reading_th": "สไปโรคีเทีย",
+    "common_th": "",
+    "about_th": "คลาสของสไปโรคีต ทุกชนิดมีเอนโดแฟลเจลลัม",
+    "about_en": "The class of spirochetes; all have endoflagella.",
+    "review": "ai_draft"
+  },
+  "Spirochaetota": {
+    "rank": null,
+    "reading_th": "สไปโรคีโตตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Spirogyra": {
+    "rank": "genus",
+    "reading_th": "สไปโรไจรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Spongilla": {
+    "rank": "genus",
+    "reading_th": "สปอนจิลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Spongillida": {
+    "rank": "order",
+    "reading_th": "สปอนจิลลิดา",
+    "common_th": "",
+    "about_th": "ฟองน้ำน้ำจืด",
+    "about_en": "Freshwater sponges.",
+    "review": "ai_draft"
+  },
+  "Spongillidae": {
+    "rank": "family",
+    "reading_th": "สปอนจิลลิดี",
+    "common_th": "",
+    "about_th": "ฟองน้ำน้ำจืดที่สร้างเจมมิวล์ไว้รอดช่วงแล้งหรือหนาว",
+    "about_en": "Freshwater sponges that make gemmules to survive drought or cold.",
+    "review": "ai_draft"
+  },
+  "Staphylococcaceae": {
+    "rank": "family",
+    "reading_th": "สแตฟิโลค็อกคาซีอี",
+    "common_th": "",
+    "about_th": "ทรงกลมแกรมบวกที่เรียงเป็นกลุ่มคล้ายพวงองุ่น คาตาเลสบวก และทนเกลือได้ดี",
+    "about_en": "Gram-positive spheres in grape-like clusters, catalase-positive and salt-tolerant.",
+    "review": "ai_draft"
+  },
+  "Staphylococcus": {
+    "rank": "genus",
+    "reading_th": "สแตฟิโลค็อกคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Stramenopila": {
+    "rank": "major_clade",
+    "reading_th": "สตราเมโนพิลา",
+    "common_th": "สตราเมโนไพล์",
+    "about_th": "เซลล์ระยะเคลื่อนที่มีแฟลเจลลัมสองเส้น และเส้นหนึ่งมีขนเล็กคล้ายหลอดเรียงอยู่",
+    "about_en": "Their swimming cells have two flagella, one covered in fine tube-shaped hairs.",
+    "review": "ai_draft"
+  },
+  "Streptococcaceae": {
+    "rank": "family",
+    "reading_th": "สเตรปโทค็อกคาซีอี",
+    "common_th": "",
+    "about_th": "ทรงกลมแกรมบวกที่เรียงเป็นคู่หรือสายโซ่ คาตาเลสลบ ต่างจากสแตฟิโลค็อกคัสที่เรียงเป็นพวงและคาตาเลสบวก",
+    "about_en": "Gram-positive spheres in pairs or chains and catalase-negative, unlike staphylococci, which form clusters and are catalase-positive.",
+    "review": "ai_draft"
+  },
+  "Streptococcus": {
+    "rank": "genus",
+    "reading_th": "สเตรปโทค็อกคัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Streptomyces": {
+    "rank": "genus",
+    "reading_th": "สเตรปโทมัยซีส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Streptomycetaceae": {
+    "rank": "family",
+    "reading_th": "สเตรปโทไมซีทาซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียเส้นใยในดินที่สร้างยาปฏิชีวนะจำนวนมาก และสารจีออสมินที่ให้กลิ่นดิน",
+    "about_en": "Filamentous soil bacteria that make many antibiotics and the geosmin behind the smell of soil.",
+    "review": "ai_draft"
+  },
+  "Streptomycetales": {
+    "rank": "order",
+    "reading_th": "สเตรปโทไมซีทาลีส",
+    "common_th": "",
+    "about_th": "แอกทิโนแบคทีเรียที่เจริญเป็นเส้นใยแตกแขนงคล้ายรา และสร้างสปอร์เป็นสายที่ปลายเส้นใย",
+    "about_en": "Actinobacteria that grow as branching mold-like hyphae and form chains of spores at the tips.",
+    "review": "ai_draft"
+  },
+  "Sulfolobaceae": {
+    "rank": "family",
+    "reading_th": "ซัลโฟโลบาซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียที่อยู่ในบ่อน้ำพุร้อนกรด เป็นต้นแบบในการศึกษาการแบ่งเซลล์ของอาร์เคีย",
+    "about_en": "Archaea from acidic hot springs; a model for studying archaeal cell division.",
+    "review": "ai_draft"
+  },
+  "Sulfolobales": {
+    "rank": "order",
+    "reading_th": "ซัลโฟโลบาลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียทรงกลมมีพูที่ชอบร้อนและเป็นกรดจัด ใช้ออกซิเจน และออกซิไดซ์กำมะถันได้",
+    "about_en": "Lobed spherical archaea that like heat and strong acid, use oxygen and can oxidize sulfur.",
+    "review": "ai_draft"
+  },
+  "Sulfolobus": {
+    "rank": "genus",
+    "reading_th": "ซัลโฟโลบัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Syngnathidae": {
+    "rank": "family",
+    "reading_th": "ซินแนทิดี",
+    "common_th": "",
+    "about_th": "ม้าน้ำและปลาจิ้มฟันจระเข้ ลำตัวหุ้มด้วยแผ่นกระดูก และตัวผู้เป็นฝ่ายดูแลไข่",
+    "about_en": "Seahorses and pipefish, armored with bony plates; the males care for the eggs.",
+    "review": "ai_draft"
+  },
+  "Syngnathiformes": {
+    "rank": "order",
+    "reading_th": "ซินแนทิฟอร์มีส",
+    "common_th": "",
+    "about_th": "ปลาที่ปากเป็นท่อยาวไว้ดูดกินอาหาร เช่น ม้าน้ำและปลาจิ้มฟันจระเข้",
+    "about_en": "Fish with a long tubular snout for sucking in food, such as seahorses and pipefish.",
+    "review": "ai_draft"
+  },
+  "Taenia": {
+    "rank": "genus",
+    "reading_th": "ทีเนีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Taeniidae": {
+    "rank": "family",
+    "reading_th": "ทีนิอิดี",
+    "common_th": "",
+    "about_th": "ตืดที่ระยะตัวอ่อนเป็นถุงซีสต์ในกล้ามเนื้อหรืออวัยวะของโฮสต์กึ่งกลาง",
+    "about_en": "Tapeworms whose larvae form cysts in the muscles or organs of the intermediate host.",
+    "review": "ai_draft"
+  },
+  "Termitomyces": {
+    "rank": "genus",
+    "reading_th": "เทอร์มิโทไมซีส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Testudines": {
+    "rank": "order",
+    "reading_th": "เทสทูดิเนส",
+    "common_th": "",
+    "about_th": "เต่า กระดองเชื่อมกับกระดูกสันหลังและซี่โครง",
+    "about_en": "Turtles, with a shell fused to the backbone and ribs.",
+    "review": "ai_draft"
+  },
+  "Thalassiosira": {
+    "rank": "genus",
+    "reading_th": "ทาลัสซิโอไซรา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Thaumarchaeota": {
+    "rank": "phylum",
+    "reading_th": "ทอมอาร์คีโอตา",
+    "common_th": "",
+    "about_th": "อาร์เคียที่ออกซิไดซ์แอมโมเนีย พบมากในทะเลและดินทั่วไป ไม่ได้อยู่เฉพาะที่สุดขั้ว",
+    "about_en": "Ammonia-oxidizing archaea that are common in ordinary seas and soils, not only extreme places.",
+    "review": "ai_draft"
+  },
+  "Thermaceae": {
+    "rank": "family",
+    "reading_th": "เทอร์มาซีอี",
+    "common_th": "",
+    "about_th": "แท่งแกรมลบชอบร้อนที่มีเอนไซม์ทนความร้อน",
+    "about_en": "Heat-loving Gram-negative rods with heat-stable enzymes.",
+    "review": "ai_draft"
+  },
+  "Thermales": {
+    "rank": "order",
+    "reading_th": "เทอร์มาลีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียชอบร้อนที่เจริญได้ดีราว 65–75 °C",
+    "about_en": "Heat-loving bacteria that grow best at about 65–75 °C.",
+    "review": "ai_draft"
+  },
+  "Thermococcaceae": {
+    "rank": "family",
+    "reading_th": "เทอร์โมค็อกคาซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียทรงกลมที่เติบโตได้ดีใกล้ 100 °C เป็นแหล่งเอนไซม์ทนร้อนสำหรับ PCR",
+    "about_en": "Spherical archaea that grow best near 100 °C; a source of heat-stable enzymes for PCR.",
+    "review": "ai_draft"
+  },
+  "Thermococcales": {
+    "rank": "order",
+    "reading_th": "เทอร์โมค็อกคาลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียชอบร้อนจัดที่ว่ายน้ำได้ด้วยแฟลเจลลัมหลายเส้น พบตามปล่องน้ำร้อนใต้ทะเล",
+    "about_en": "Extreme heat lovers that swim with many flagella, found at deep-sea hydrothermal vents.",
+    "review": "ai_draft"
+  },
+  "Thermococci": {
+    "rank": "class",
+    "reading_th": "เทอร์โมค็อกไค",
+    "common_th": "",
+    "about_th": "อาร์เคียทรงกลมชอบร้อนจัดที่ไม่ใช้ออกซิเจน หมักเปปไทด์ และรีดิวซ์กำมะถันเป็นไฮโดรเจนซัลไฟด์",
+    "about_en": "Spherical extreme heat lovers that do not use oxygen, ferment peptides and reduce sulfur to hydrogen sulfide.",
+    "review": "ai_draft"
+  },
+  "Thermoplasma": {
+    "rank": "genus",
+    "reading_th": "เทอร์โมพลาสมา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Thermoplasmata": {
+    "rank": "class",
+    "reading_th": "เทอร์โมพลาสมาตา",
+    "common_th": "",
+    "about_th": "อาร์เคียที่ไม่มีผนังเซลล์ และชอบที่ร้อนและเป็นกรดจัด",
+    "about_en": "Archaea without cell walls that like heat and strong acid.",
+    "review": "ai_draft"
+  },
+  "Thermoplasmataceae": {
+    "rank": "family",
+    "reading_th": "เทอร์โมพลาสมาทาซีอี",
+    "common_th": "",
+    "about_th": "อาร์เคียรูปร่างไม่แน่นอนที่อยู่ในที่ร้อนราว 60 °C และเป็นกรดจัด",
+    "about_en": "Irregular archaea living at about 60 °C in strong acid.",
+    "review": "ai_draft"
+  },
+  "Thermoplasmatales": {
+    "rank": "order",
+    "reading_th": "เทอร์โมพลาสมาทาลีส",
+    "common_th": "",
+    "about_th": "อาร์เคียไม่มีผนังเซลล์ที่รักษารูปร่างเซลล์ด้วยลิพิดพิเศษในเยื่อหุ้ม",
+    "about_en": "Wall-less archaea that hold their shape with special membrane lipids.",
+    "review": "ai_draft"
+  },
+  "Thermoprotei": {
+    "rank": "class",
+    "reading_th": "เทอร์โมโปรตีไอ",
+    "common_th": "",
+    "about_th": "คลาสหลักของเครนอาร์เคียที่ชอบร้อนจัด หลายชนิดชอบกรดหรือใช้กำมะถัน",
+    "about_en": "The main class of Crenarchaeota: extreme heat lovers, many of them acid lovers or sulfur users.",
+    "review": "ai_draft"
+  },
+  "Thermoproteota": {
+    "rank": null,
+    "reading_th": "เทอร์โมโปรตีโอตา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Thermus": {
+    "rank": "genus",
+    "reading_th": "เทอร์มัส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Toxoplasma": {
+    "rank": "genus",
+    "reading_th": "ท็อกโซพลาสมา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Trebouxiophyceae": {
+    "rank": "subgroup",
+    "reading_th": "เทรบูซิโอฟิซีอี",
+    "common_th": "",
+    "about_th": "สาหร่ายเขียวเซลล์เดียวหรือโคโลนีที่หลายชนิดอยู่บนบก หรือเป็นสาหร่ายในไลเคน",
+    "about_en": "Single-celled or colonial green algae, many living on land or as the algal partner in lichens.",
+    "review": "ai_draft"
+  },
+  "Trematoda": {
+    "rank": "class",
+    "reading_th": "เทรมาโทดา",
+    "common_th": "",
+    "about_th": "พยาธิใบไม้ ปรสิตที่มีปุ่มดูด และวงชีวิตต้องผ่านหอยเป็นโฮสต์กึ่งกลาง",
+    "about_en": "Flukes: parasites with suckers whose life cycle passes through a snail as intermediate host.",
+    "review": "ai_draft"
+  },
+  "Tremellales": {
+    "rank": "order",
+    "reading_th": "เทรเมลลาลีส",
+    "common_th": "",
+    "about_th": "เบสิดิโอไมซีตที่มีทั้งระยะยีสต์และระยะเส้นใย",
+    "about_en": "Basidiomycetes with both yeast and hyphal stages.",
+    "review": "ai_draft"
+  },
+  "Tremellomycetes": {
+    "rank": "class",
+    "reading_th": "เทรเมลโลไมซีทีส",
+    "common_th": "",
+    "about_th": "เบสิดิโอไมซีตที่หลายชนิดมีระยะยีสต์ บางชนิดสร้างดอกคล้ายวุ้น",
+    "about_en": "Basidiomycetes, many with a yeast stage; some form jelly-like fruiting bodies.",
+    "review": "ai_draft"
+  },
+  "Treponema": {
+    "rank": "genus",
+    "reading_th": "ทรีโพนีมา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Treponemataceae": {
+    "rank": "family",
+    "reading_th": "ทรีโพนีมาทาซีอี",
+    "common_th": "",
+    "about_th": "สไปโรคีตที่หลายชนิดอาศัยในคนและสัตว์ และเพาะเลี้ยงในห้องปฏิบัติการได้ยาก",
+    "about_en": "Spirochetes that often live in people and animals and are hard to culture in the lab.",
+    "review": "ai_draft"
+  },
+  "Trichomonas": {
+    "rank": "genus",
+    "reading_th": "ทริโคโมแนส",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Tricladida": {
+    "rank": "order",
+    "reading_th": "ไทรแคลดิดา",
+    "common_th": "",
+    "about_th": "พลานาเรียที่ลำไส้แตกเป็นสามแขนง",
+    "about_en": "Planarians, whose gut branches into three.",
+    "review": "ai_draft"
+  },
+  "Tridacna": {
+    "rank": "genus",
+    "reading_th": "ไตรแด็กนา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Trypanosoma": {
+    "rank": "genus",
+    "reading_th": "ทริพาโนโซมา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Tubulinea": {
+    "rank": "subgroup",
+    "reading_th": "ทูบูลิเนีย",
+    "common_th": "",
+    "about_th": "อะมีบาที่เท้าเทียมเป็นหลอดหรือแท่ง และไหลไปในทิศเดียว",
+    "about_en": "Amoebae with tube- or rod-shaped pseudopodia that flow in one direction.",
+    "review": "ai_draft"
+  },
+  "Turbellaria": {
+    "rank": "class",
+    "reading_th": "เทอร์เบลลาเรีย",
+    "common_th": "",
+    "about_th": "หนอนตัวแบนที่ใช้ชีวิตอิสระ ผิวมีซิเลียช่วยเคลื่อนที่ (ชื่อตามหนังสือเรียน ระบบปัจจุบันไม่ใช้เป็นคลาส)",
+    "about_en": "Free-living flatworms with cilia on the skin for movement (a textbook name; current systems no longer use it as a class).",
+    "review": "ai_draft"
+  },
+  "Ulmaridae": {
+    "rank": "family",
+    "reading_th": "อัลมาริดี",
+    "common_th": "",
+    "about_th": "แมงกะพรุนร่มกว้างที่มีช่องทางเดินอาหารแตกแขนงในร่ม",
+    "about_en": "Wide-belled jellyfish with branching gut canals in the bell.",
+    "review": "ai_draft"
+  },
+  "Ulvophyceae": {
+    "rank": "subgroup",
+    "reading_th": "อัลโวฟิซีอี",
+    "common_th": "",
+    "about_th": "สาหร่ายเขียวที่ส่วนใหญ่อยู่ในทะเล เช่น สาหร่ายผักกาดทะเล และพวกที่ทั้งต้นเป็นเซลล์เดียวหลายนิวเคลียส",
+    "about_en": "Mostly marine green algae such as sea lettuce, and species whose whole body is one giant multinucleate cell.",
+    "review": "ai_draft"
+  },
+  "Unikonta": {
+    "rank": "supergroup",
+    "reading_th": "ยูนิคอนตา",
+    "common_th": "",
+    "about_th": "ซูเปอร์กรุ๊ปที่เซลล์มีแฟลเจลลัมเส้นเดียวถ้ามี รวมอะมีโบซัวกับโอพิสโทคอนต์ ซึ่งมีฟังไจและสัตว์อยู่ด้วย",
+    "about_en": "A supergroup whose cells have a single flagellum, if any. It joins Amoebozoa with the opisthokonts, which include fungi and animals.",
+    "review": "ai_draft"
+  },
+  "Valvatida": {
+    "rank": "order",
+    "reading_th": "วาลวาทิดา",
+    "common_th": "",
+    "about_th": "ดาวทะเลที่ขอบแขนมีแผ่นใหญ่เรียงเป็นแถว",
+    "about_en": "Sea stars with large plates in rows along the arm edges.",
+    "review": "ai_draft"
+  },
+  "Vibrio": {
+    "rank": "genus",
+    "reading_th": "วิบริโอ",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Vibrionaceae": {
+    "rank": "family",
+    "reading_th": "วิบริโอนาซีอี",
+    "common_th": "",
+    "about_th": "แบคทีเรียแท่งโค้งที่มีแฟลเจลลัมที่ขั้วเซลล์ อยู่ในน้ำกร่อยและน้ำทะเล",
+    "about_en": "Curved rods with a flagellum at one pole, living in brackish water and seawater.",
+    "review": "ai_draft"
+  },
+  "Vibrionales": {
+    "rank": "order",
+    "reading_th": "วิบริโอนาลีส",
+    "common_th": "",
+    "about_th": "แบคทีเรียแท่งโค้งแกรมลบที่อยู่ในน้ำและทนเกลือ ส่วนใหญ่ออกซิเดสบวก ต่างจาก Enterobacterales ที่ออกซิเดสลบ",
+    "about_en": "Curved Gram-negative rods that live in water and tolerate salt. Most are oxidase-positive, unlike the oxidase-negative Enterobacterales.",
+    "review": "ai_draft"
+  },
+  "Volvariella": {
+    "rank": "genus",
+    "reading_th": "วอลวาริเอลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Volvox": {
+    "rank": "genus",
+    "reading_th": "วอลวอกซ์",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Vorticella": {
+    "rank": "genus",
+    "reading_th": "วอร์ติเซลลา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Welwitschia": {
+    "rank": "genus",
+    "reading_th": "เวลวิตเชีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Welwitschiaceae": {
+    "rank": "family",
+    "reading_th": "เวลวิตเชียซีอี",
+    "common_th": "",
+    "about_th": "วงศ์ที่มีชนิดเดียวคือเวลวิตเชีย",
+    "about_en": "A family with one species, Welwitschia.",
+    "review": "ai_draft"
+  },
+  "Welwitschiales": {
+    "rank": "order",
+    "reading_th": "เวลวิตเชียลีส",
+    "common_th": "",
+    "about_th": "มีชนิดเดียวในทะเลทราย ใบสองใบงอกจากฐานตลอดชีวิต ต่างจาก Gnetales ที่เป็นไม้เลื้อยในป่าชื้น",
+    "about_en": "One desert species whose two leaves grow from the base for life, unlike the forest climbers of Gnetales.",
+    "review": "ai_draft"
+  },
+  "Wolffia": {
+    "rank": "genus",
+    "reading_th": "วูลฟ์เฟีย",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Zea": {
+    "rank": "genus",
+    "reading_th": "ซีอา",
+    "common_th": "",
+    "about_th": "",
+    "about_en": "",
+    "review": "ai_draft"
+  },
+  "Zygnematophyceae": {
+    "rank": "subgroup",
+    "reading_th": "ไซก์นีมาโทฟิซีอี",
+    "common_th": "",
+    "about_th": "สาหร่ายเขียวที่ไม่มีแฟลเจลลัมเลย สืบพันธุ์แบบคอนจูเกชัน และเป็นญาติใกล้ที่สุดของพืชบก",
+    "about_en": "Green algae with no flagella at any stage that reproduce by conjugation; the closest relatives of land plants.",
+    "review": "ai_draft"
+  },
+  "Zygomycota": {
+    "rank": "phylum",
+    "reading_th": "ไซโกไมคอตา",
+    "common_th": "",
+    "about_th": "ราที่เส้นใยไม่มีผนังกั้น สืบพันธุ์แบบอาศัยเพศด้วยไซโกสปอร์ผนังหนา ต่างจากแอสโคไมซีตและเบสิดิโอไมซีตที่เส้นใยมีผนังกั้น",
+    "about_en": "Molds whose hyphae have no cross walls and that reproduce sexually through thick-walled zygospores. Ascomycetes and basidiomycetes have cross walls.",
+    "review": "ai_draft"
+  }
+}

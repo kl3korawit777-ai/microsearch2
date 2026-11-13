@@ -1,0 +1,624 @@
+[
+  {
+    "id": "halobacterium-salinarum",
+    "group": "archaea",
+    "scientific_name": "Halobacterium salinarum",
+    "name_th": "ฮาโลแบคทีเรียม ซาลินารุม",
+    "name_en": "",
+    "reading_th": "ฮาโลแบคทีเรียม ซาลินารุม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Euryarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Halobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Halobacteriales"
+      },
+      {
+        "rank": "family",
+        "name": "Halobacteriaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Halobacterium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology",
+      "science"
+    ],
+    "summary_th": "อยู่ได้ในน้ำเกลือเข้มข้นจัด รงควัตถุในเซลล์ทำให้นาเกลือมีสีชมพูอมแดง",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "env": "salt",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์ และใช้แสงผ่านโปรตีนแบคทีริโอโรดอปซินเสริม",
+      "home": "บ่อตากเกลือ ทะเลสาบน้ำเค็มจัด และอาหารที่หมักเกลือ"
+    },
+    "traits_text_en": {},
+    "illustration": "halo",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    },
+    "extra_th": {
+      "lede": "อาร์เคียที่อยู่ได้ในน้ำเกลือเข้มข้นจนสิ่งมีชีวิตส่วนใหญ่ตาย พบในบ่อตากเกลือและทะเลสาบน้ำเค็มจัด เซลล์มีรงควัตถุสีแดงและโปรตีนที่ใช้พลังงานแสงได้ จึงเป็นทั้งตัวทำให้นาเกลือเป็นสีชมพูและเป็นสิ่งมีชีวิตต้นแบบในงานวิจัย",
+      "traitsExtra": [
+        [
+          "ผนังเซลล์",
+          "ไม่มีเพปทิโดไกลแคน มีชั้นไกลโคโปรตีนที่เรียกว่า S-layer ย้อมแกรมติดสีแบบแกรมลบ"
+        ],
+        [
+          "ความเค็มที่เหมาะ",
+          "NaCl ราว 4 โมลาร์ เข้มข้นกว่าน้ำทะเลประมาณ 7 เท่า"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "เป็นสาเหตุหนึ่งที่ทำให้บ่อตากเกลือมีสีชมพูถึงแดง จากรงควัตถุแคโรทีนอยด์ชื่อแบคทีริโอรูเบอริน"
+        ],
+        [
+          "วิทยาศาสตร์",
+          "แบคทีริโอโรดอปซินเป็นปั๊มโปรตอนที่ขับเคลื่อนด้วยแสง และเป็นโปรตีนเยื่อหุ้มเซลล์ที่ถูกศึกษาโครงสร้างมากที่สุดชนิดหนึ่ง"
+        ],
+        [
+          "อาหาร",
+          "ทำให้ปลาเค็มและหนังสัตว์ที่หมักเกลือเสียและเป็นสีชมพูได้"
+        ],
+        [
+          "สุขภาพ",
+          "ไม่ใช่เชื้อก่อโรคในคน"
+        ]
+      ],
+      "name": [
+        [
+          "Halobacterium",
+          "มาจากภาษากรีก hals แปลว่าเกลือ รวมกับ bacterium"
+        ],
+        [
+          "salinarum",
+          "ภาษาละติน แปลว่า ของนาเกลือ"
+        ],
+        [
+          "ชื่อพ้อง",
+          "Halobacterium halobium, Halobacterium cutirubrum"
+        ]
+      ],
+      "asideTitle": "ชื่อมีคำว่า bacterium แต่ไม่ใช่แบคทีเรีย",
+      "aside": [
+        "ผนังเซลล์ไม่มีเพปทิโดไกลแคน ใช้ชั้นไกลโคโปรตีน S-layer แทน",
+        "ลิพิดของเยื่อหุ้มเซลล์ต่อกันด้วยพันธะอีเทอร์ ส่วนแบคทีเรียใช้พันธะเอสเทอร์",
+        "RNA polymerase และกลไกการถอดรหัสคล้ายของยูแคริโอตมากกว่าของแบคทีเรีย",
+        "ชื่อสกุลตั้งไว้ก่อนที่นักวิทยาศาสตร์จะแยกอาร์เคียออกเป็นอีกโดเมน"
+      ]
+    },
+    "extra_en": {
+      "lede": "An archaeon that survives in brine strong enough to kill most life. It lives in salt evaporation ponds and very salty lakes. Its red pigments and light-driven proteins make salt ponds pink and make it a model organism in research.",
+      "traitsExtra": [
+        [
+          "Cell wall",
+          "No peptidoglycan; a glycoprotein S-layer instead. Stains Gram-negative."
+        ],
+        [
+          "Preferred salinity",
+          "About 4 molar NaCl, roughly 7 times saltier than seawater"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "One reason salt ponds turn pink to red, from the carotenoid bacterioruberin"
+        ],
+        [
+          "Research",
+          "Bacteriorhodopsin is a light-driven proton pump and one of the most studied membrane proteins"
+        ],
+        [
+          "Food",
+          "Can spoil salted fish and hides, turning them pink"
+        ],
+        [
+          "Health",
+          "Not a human pathogen"
+        ]
+      ],
+      "name": [
+        [
+          "Halobacterium",
+          "From Greek hals, salt, plus bacterium"
+        ],
+        [
+          "salinarum",
+          "Latin for \"of the salt works\""
+        ],
+        [
+          "Synonyms",
+          "Halobacterium halobium, Halobacterium cutirubrum"
+        ]
+      ],
+      "asideTitle": "Called a bacterium, but not a bacterium",
+      "aside": [
+        "No peptidoglycan in the cell wall; an S-layer of glycoprotein instead",
+        "Membrane lipids are joined by ether bonds, while bacteria use ester bonds",
+        "RNA polymerase and transcription look more like those of eukaryotes than of bacteria",
+        "The genus was named before scientists split archaea off as a separate domain"
+      ]
+    }
+  },
+  {
+    "id": "methanobrevibacter-smithii",
+    "group": "archaea",
+    "scientific_name": "Methanobrevibacter smithii",
+    "name_th": "เมทาโนเบรวิแบคเตอร์ สมิทไทอี",
+    "name_en": "",
+    "reading_th": "เมทาโนเบรวิแบคเตอร์ สมิทไทอี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Euryarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Methanobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Methanobacteriales"
+      },
+      {
+        "rank": "family",
+        "name": "Methanobacteriaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Methanobrevibacter"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine",
+      "science"
+    ],
+    "summary_th": "สร้างแก๊สมีเทน เป็นอาร์เคียที่พบมากที่สุดในลำไส้คน",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "env": "normal",
+      "oxy": "ana"
+    },
+    "traits_text_th": {
+      "food": "ใช้ไฮโดรเจนกับคาร์บอนไดออกไซด์สร้างแก๊สมีเทน",
+      "home": "ลำไส้ใหญ่ของคน"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "pyrococcus-furiosus",
+    "group": "archaea",
+    "scientific_name": "Pyrococcus furiosus",
+    "name_th": "ไพโรค็อกคัส ฟิวริโอซัส",
+    "name_en": "",
+    "reading_th": "ไพโรค็อกคัส ฟิวริโอซัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Euryarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Thermococci"
+      },
+      {
+        "rank": "order",
+        "name": "Thermococcales"
+      },
+      {
+        "rank": "family",
+        "name": "Thermococcaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pyrococcus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "science",
+      "industry"
+    ],
+    "summary_th": "เจริญได้ดีที่สุดราว 100 °C เอนไซม์ Pfu DNA polymerase ของมันใช้ในเทคนิค PCR",
+    "summary_en": "",
+    "traits": {
+      "shape": "coccus",
+      "env": "hot",
+      "oxy": "ana"
+    },
+    "traits_text_th": {
+      "food": "หมักเปปไทด์และน้ำตาล",
+      "home": "ตะกอนทะเลร้อนใกล้ภูเขาไฟใต้น้ำ"
+    },
+    "traits_text_en": {},
+    "illustration": "coccus1",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "sulfolobus-acidocaldarius",
+    "group": "archaea",
+    "scientific_name": "Sulfolobus acidocaldarius",
+    "name_th": "ซัลโฟโลบัส",
+    "name_en": "",
+    "reading_th": "ซัลโฟโลบัส แอซิโดคาลดาริอุส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Crenarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Thermoprotei"
+      },
+      {
+        "rank": "order",
+        "name": "Sulfolobales"
+      },
+      {
+        "rank": "family",
+        "name": "Sulfolobaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Sulfolobus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology",
+      "science"
+    ],
+    "summary_th": "อยู่ในบ่อน้ำพุร้อนที่เป็นกรด อุณหภูมิราว 75–80 °C และ pH ประมาณ 2–3",
+    "summary_en": "",
+    "traits": {
+      "shape": "lobed",
+      "env": "hotacid",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ใช้สารอินทรีย์เป็นแหล่งพลังงานหลัก",
+      "home": "บ่อน้ำพุร้อนที่เป็นกรด"
+    },
+    "traits_text_en": {},
+    "illustration": "lobed",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "nitrosopumilus-maritimus",
+    "group": "archaea",
+    "scientific_name": "Nitrosopumilus maritimus",
+    "name_th": "ไนโตรโซพิวมิลัส",
+    "name_en": "",
+    "reading_th": "ไนโตรโซพิวมิลัส มาริทิมุส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Thaumarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Nitrososphaeria"
+      },
+      {
+        "rank": "order",
+        "name": "Nitrosopumilales"
+      },
+      {
+        "rank": "family",
+        "name": "Nitrosopumilaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Nitrosopumilus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ออกซิไดซ์แอมโมเนียเป็นไนไตรต์ พบจำนวนมากในมหาสมุทร มีบทบาทในวัฏจักรไนโตรเจน",
+    "summary_en": "",
+    "traits": {
+      "shape": "rod",
+      "env": "normal",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ออกซิไดซ์แอมโมเนียเพื่อได้พลังงาน และตรึงคาร์บอนไดออกไซด์",
+      "home": "น้ำทะเลทั่วโลก"
+    },
+    "traits_text_en": {},
+    "illustration": "rod",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "methanosarcina-barkeri",
+    "group": "archaea",
+    "scientific_name": "Methanosarcina barkeri",
+    "name_th": "เมทาโนซาร์ซินา",
+    "name_en": "",
+    "reading_th": "เมทาโนซาร์ซินา บาร์เคอรี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Euryarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Methanomicrobia"
+      },
+      {
+        "rank": "order",
+        "name": "Methanosarcinales"
+      },
+      {
+        "rank": "family",
+        "name": "Methanosarcinaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Methanosarcina"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "ecology",
+      "industry"
+    ],
+    "summary_th": "สร้างแก๊สมีเทนได้จากหลายแหล่ง ทั้งอะซิเตต เมทานอล และไฮโดรเจน พบในบ่อหมักแก๊สชีวภาพ",
+    "summary_en": "",
+    "traits": {
+      "shape": "coccus",
+      "env": "normal",
+      "oxy": "ana"
+    },
+    "traits_text_th": {
+      "food": "สร้างแก๊สมีเทนจากอะซิเตต เมทานอล หรือไฮโดรเจน",
+      "home": "ตะกอนก้นบ่อ บ่อหมักแก๊สชีวภาพ และกระเพาะสัตว์เคี้ยวเอื้อง"
+    },
+    "traits_text_en": {},
+    "illustration": "coccus",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "methanocaldococcus-jannaschii",
+    "group": "archaea",
+    "scientific_name": "Methanocaldococcus jannaschii",
+    "name_th": "เมทาโนคาลโดค็อกคัส",
+    "name_en": "",
+    "reading_th": "เมทาโนคาลโดค็อกคัส แยนนาสกิไอ",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Euryarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Methanococci"
+      },
+      {
+        "rank": "order",
+        "name": "Methanococcales"
+      },
+      {
+        "rank": "family",
+        "name": "Methanocaldococcaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Methanocaldococcus"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "อาร์เคียชนิดแรกที่ถอดรหัสจีโนมได้ทั้งหมด (ปี 1996) อยู่ที่ปล่องน้ำร้อนใต้ทะเลลึกและสร้างแก๊สมีเทน",
+    "summary_en": "",
+    "traits": {
+      "shape": "coccus",
+      "env": "hot",
+      "oxy": "ana"
+    },
+    "traits_text_th": {
+      "food": "ใช้ไฮโดรเจนกับคาร์บอนไดออกไซด์สร้างแก๊สมีเทน",
+      "home": "ปล่องน้ำร้อนใต้ทะเลลึก"
+    },
+    "traits_text_en": {},
+    "illustration": "coccus1",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "haloferax-volcanii",
+    "group": "archaea",
+    "scientific_name": "Haloferax volcanii",
+    "name_th": "ฮาโลเฟแรกซ์",
+    "name_en": "",
+    "reading_th": "ฮาโลเฟแรกซ์ วอลคานิไอ",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Euryarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Halobacteria"
+      },
+      {
+        "rank": "order",
+        "name": "Haloferacales"
+      },
+      {
+        "rank": "family",
+        "name": "Haloferacaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Haloferax"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "อาร์เคียชอบเค็มรูปแผ่นแบน เลี้ยงง่ายและแก้ไขยีนได้ จึงเป็นสิ่งมีชีวิตต้นแบบของอาร์เคีย",
+    "summary_en": "",
+    "traits": {
+      "shape": "irregular",
+      "env": "salt",
+      "oxy": "aer"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์",
+      "home": "ทะเลเดดซี"
+    },
+    "traits_text_en": {},
+    "illustration": "lobed",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "thermoplasma-acidophilum",
+    "group": "archaea",
+    "scientific_name": "Thermoplasma acidophilum",
+    "name_th": "เทอร์โมพลาสมา",
+    "name_en": "",
+    "reading_th": "เทอร์โมพลาสมา แอซิโดฟิลัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Archaea"
+      },
+      {
+        "rank": "phylum",
+        "name": "Euryarchaeota"
+      },
+      {
+        "rank": "class",
+        "name": "Thermoplasmata"
+      },
+      {
+        "rank": "order",
+        "name": "Thermoplasmatales"
+      },
+      {
+        "rank": "family",
+        "name": "Thermoplasmataceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Thermoplasma"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "ไม่มีผนังเซลล์ อยู่ในที่ร้อนราว 55–60 °C และเป็นกรดจัดราว pH 1–2",
+    "summary_en": "",
+    "traits": {
+      "shape": "irregular",
+      "env": "hotacid",
+      "oxy": "fac"
+    },
+    "traits_text_th": {
+      "food": "ย่อยสลายสารอินทรีย์",
+      "home": "กองถ่านหินที่ร้อนขึ้นเอง และบ่อน้ำพุร้อนที่เป็นกรด"
+    },
+    "traits_text_en": {},
+    "illustration": "lobed",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  }
+]

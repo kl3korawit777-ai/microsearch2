@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "euglena-gracilis",
+    "group": "protists",
+    "scientific_name": "Euglena gracilis",
+    "name_th": "ยูกลีนา",
+    "name_en": "",
+    "reading_th": "ยูกลีนา กราซิลิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Excavata"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Euglenozoa"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Euglenida"
+      },
+      {
+        "rank": "genus",
+        "name": "Euglena"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "มีคลอโรพลาสต์และจุดตา เคลื่อนที่ด้วยแฟลเจลลัม กินอาหารได้เมื่อไม่มีแสง",
+    "summary_en": "",
+    "traits": {
+      "diet": "both"
+    },
+    "traits_text_th": {
+      "move": "แฟลเจลลัม",
+      "food": "สังเคราะห์ด้วยแสง และดูดซึมสารอินทรีย์เมื่ออยู่ในที่มืด",
+      "home": "น้ำจืด"
+    },
+    "traits_text_en": {
+      "move": "Flagellum"
+    },
+    "illustration": "euglena",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "trypanosoma-brucei",
+    "group": "protists",
+    "scientific_name": "Trypanosoma brucei",
+    "name_th": "ทริพาโนโซมา",
+    "name_en": "",
+    "reading_th": "ทริพาโนโซมา บรูเซอี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Excavata"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Euglenozoa"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Kinetoplastea"
+      },
+      {
+        "rank": "genus",
+        "name": "Trypanosoma"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ก่อโรคเหงาหลับในแอฟริกา มีแมลงวันเซตซีเป็นพาหะ",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "แฟลเจลลัมกับเยื่อลูกคลื่น",
+      "food": "ดูดซึมอาหารจากเลือดของโฮสต์",
+      "home": "กระแสเลือดของคน และแมลงวันเซตซี"
+    },
+    "traits_text_en": {
+      "move": "Flagellum with undulating membrane"
+    },
+    "illustration": "trypano",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "giardia-intestinalis",
+    "group": "protists",
+    "scientific_name": "Giardia intestinalis",
+    "name_th": "ไจอาร์เดีย",
+    "name_en": "",
+    "reading_th": "ไจอาร์เดีย อินเทสทินาลิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Excavata"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Metamonada"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Diplomonadida"
+      },
+      {
+        "rank": "genus",
+        "name": "Giardia"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "มีนิวเคลียสสองอัน ไมโทคอนเดรียลดรูปเหลือเป็นไมโทโซม ก่อท้องร่วง",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "แฟลเจลลัม 4 คู่",
+      "food": "เกาะผนังลำไส้แล้วดูดซึมอาหาร",
+      "home": "ลำไส้เล็กของคนและสัตว์ ติดต่อผ่านน้ำดื่ม"
+    },
+    "traits_text_en": {
+      "move": "4 pairs of flagella"
+    },
+    "illustration": "giardia",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "paramecium-caudatum",
+    "group": "protists",
+    "scientific_name": "Paramecium caudatum",
+    "name_th": "พารามีเซียม",
+    "name_en": "",
+    "reading_th": "พารามีเซียม คอดาทุม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Alveolata"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Ciliophora"
+      },
+      {
+        "rank": "genus",
+        "name": "Paramecium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "เคลื่อนที่ด้วยซิเลีย มีทั้งแมโครนิวเคลียสและไมโครนิวเคลียส",
+    "summary_en": "",
+    "traits": {
+      "diet": "feed"
+    },
+    "traits_text_th": {
+      "move": "ซิเลีย",
+      "food": "กินแบคทีเรียผ่านร่องปาก แล้วย่อยในฟูดแวคิวโอล",
+      "home": "น้ำจืดนิ่ง"
+    },
+    "traits_text_en": {
+      "move": "Cilia"
+    },
+    "illustration": "ciliate",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "plasmodium-falciparum",
+    "group": "protists",
+    "scientific_name": "Plasmodium falciparum",
+    "name_th": "พลาสโมเดียม ฟัลซิปารัม",
+    "name_en": "",
+    "reading_th": "พลาสโมเดียม ฟัลซิปารัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Alveolata"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Apicomplexa"
+      },
+      {
+        "rank": "genus",
+        "name": "Plasmodium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ก่อมาลาเรียชนิดรุนแรงที่สุด มียุงก้นปล่องเป็นพาหะ",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "เคลื่อนที่แบบไถลในบางระยะ",
+      "food": "อาศัยในเซลล์ตับและเม็ดเลือดแดง ย่อยฮีโมโกลบิน",
+      "home": "คน และยุงก้นปล่อง"
+    },
+    "traits_text_en": {
+      "move": "Gliding in some stages"
+    },
+    "illustration": "plasmo",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "thalassiosira-pseudonana",
+    "group": "protists",
+    "scientific_name": "Thalassiosira pseudonana",
+    "name_th": "ไดอะตอม",
+    "name_en": "",
+    "reading_th": "ทาลัสซิโอไซรา ซูโดนานา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Stramenopila"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Bacillariophyta"
+      },
+      {
+        "rank": "genus",
+        "name": "Thalassiosira"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "มีผนังซิลิกาสองฝาประกบกัน เป็นแพลงก์ตอนพืชที่ผลิตออกซิเจนจำนวนมาก",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "ไม่มีอวัยวะเคลื่อนที่ ลอยตามน้ำ",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "ทะเล"
+    },
+    "traits_text_en": {
+      "move": "No locomotor organelles; drifts with water"
+    },
+    "illustration": "diatom",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "chlamydomonas-reinhardtii",
+    "group": "protists",
+    "scientific_name": "Chlamydomonas reinhardtii",
+    "name_th": "คลาไมโดโมแนส",
+    "name_en": "",
+    "reading_th": "คลาไมโดโมแนส ไรน์ฮาร์ดไท",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Archaeplastida"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Chlorophyta"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Chlorophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Chlamydomonas"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "สาหร่ายสีเขียวเซลล์เดียว มีแฟลเจลลัมสองเส้นและคลอโรพลาสต์รูปถ้วย",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "แฟลเจลลัม 2 เส้น",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "น้ำจืดและดินชื้น"
+    },
+    "traits_text_en": {
+      "move": "2 flagella"
+    },
+    "illustration": "chlamy",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "pyropia-yezoensis",
+    "group": "protists",
+    "scientific_name": "Pyropia yezoensis",
+    "name_th": "สาหร่ายโนริ",
+    "name_en": "",
+    "reading_th": "ไพโรเปีย เยโซเอนซิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Archaeplastida"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Rhodophyta"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Bangiophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pyropia"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "สาหร่ายสีแดงที่นำมาทำแผ่นสาหร่ายห่อข้าว",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "ไม่เคลื่อนที่ เกาะอยู่กับหิน",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "ชายฝั่งทะเลเขตน้ำขึ้นน้ำลง"
+    },
+    "traits_text_en": {
+      "move": "Does not move; attached to rock"
+    },
+    "illustration": "seaweed",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "amoeba-proteus",
+    "group": "protists",
+    "scientific_name": "Amoeba proteus",
+    "name_th": "อะมีบา",
+    "name_en": "",
+    "reading_th": "อะมีบา โพรเทียส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Unikonta"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Amoebozoa"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Tubulinea"
+      },
+      {
+        "rank": "genus",
+        "name": "Amoeba"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "เปลี่ยนรูปร่างได้ เคลื่อนที่และกินอาหารด้วยเท้าเทียม",
+    "summary_en": "",
+    "traits": {
+      "diet": "feed"
+    },
+    "traits_text_th": {
+      "move": "เท้าเทียม",
+      "food": "โอบล้อมเหยื่อเข้าเซลล์ (ฟาโกไซโทซิส)",
+      "home": "น้ำจืด"
+    },
+    "traits_text_en": {
+      "move": "Pseudopodia"
+    },
+    "illustration": "amoeba",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "physarum-polycephalum",
+    "group": "protists",
+    "scientific_name": "Physarum polycephalum",
+    "name_th": "ราเมือก",
+    "name_en": "",
+    "reading_th": "ไฟซารัม พอลิเซฟาลัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Unikonta"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Amoebozoa"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Myxogastria"
+      },
+      {
+        "rank": "genus",
+        "name": "Physarum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "เป็นพลาสโมเดียมสีเหลืองที่มีหลายนิวเคลียสอยู่ในเซลล์เดียว คืบคลานหาอาหาร",
+    "summary_en": "",
+    "traits": {
+      "diet": "feed"
+    },
+    "traits_text_th": {
+      "move": "ไซโทพลาซึมไหลไปมา",
+      "food": "กินแบคทีเรียและสปอร์ของรา",
+      "home": "ขอนไม้ผุและใบไม้ชื้น"
+    },
+    "traits_text_en": {
+      "move": "Shuttle streaming of cytoplasm"
+    },
+    "illustration": "slime",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "noctiluca-scintillans",
+    "group": "protists",
+    "scientific_name": "Noctiluca scintillans",
+    "name_th": "ขี้ปลาวาฬ",
+    "name_en": "",
+    "reading_th": "น็อกติลูกา ซินทิลแลนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Alveolata"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Dinoflagellata"
+      },
+      {
+        "rank": "genus",
+        "name": "Noctiluca"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ไดโนแฟลเจลเลตที่เรืองแสงได้เมื่อถูกกระแทก และเมื่อเพิ่มจำนวนมากทำให้น้ำทะเลเป็นสีเขียวหรือแดง",
+    "summary_en": "",
+    "traits": {
+      "diet": "both"
+    },
+    "traits_text_th": {
+      "move": "แฟลเจลลัม",
+      "food": "กินแพลงก์ตอน และบางสายพันธุ์มีสาหร่ายอาศัยอยู่ภายในเซลล์",
+      "home": "ทะเลชายฝั่ง รวมถึงอ่าวไทย"
+    },
+    "traits_text_en": {
+      "move": "Flagellum"
+    },
+    "illustration": "dino",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "sargassum-polycystum",
+    "group": "protists",
+    "scientific_name": "Sargassum polycystum",
+    "name_th": "สาหร่ายทุ่น",
+    "name_en": "",
+    "reading_th": "ซาร์กัสซัม พอลิซิสตัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Stramenopila"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Phaeophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Sargassum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "สาหร่ายสีน้ำตาลที่มีถุงลมช่วยพยุงให้ลอยตั้งขึ้น เป็นแหล่งอนุบาลสัตว์น้ำวัยอ่อน",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "ไม่เคลื่อนที่ เกาะอยู่กับหิน",
+      "food": "สังเคราะห์ด้วยแสง มีรงควัตถุฟิวโคแซนทินทำให้เป็นสีน้ำตาล",
+      "home": "แนวหินและปะการังชายฝั่ง"
+    },
+    "traits_text_en": {
+      "move": "Does not move; attached to rock"
+    },
+    "illustration": "kelp",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "spirogyra-varians",
+    "group": "protists",
+    "scientific_name": "Spirogyra varians",
+    "name_th": "สไปโรไจรา",
+    "name_en": "",
+    "reading_th": "สไปโรไจรา แวเรียนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Archaeplastida"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Charophyta"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Zygnematophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Spirogyra"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "สาหร่ายสีเขียวเส้นสาย คลอโรพลาสต์ขดเป็นเกลียว สืบพันธุ์แบบคอนจูเกชันระหว่างสองสาย",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "ไม่มีอวัยวะเคลื่อนที่",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "น้ำจืดนิ่ง"
+    },
+    "traits_text_en": {
+      "move": "No locomotor organelles"
+    },
+    "illustration": "spiro",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "volvox-carteri",
+    "group": "protists",
+    "scientific_name": "Volvox carteri",
+    "name_th": "วอลวอกซ์",
+    "name_en": "",
+    "reading_th": "วอลวอกซ์ คาร์เทอรี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Archaeplastida"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Chlorophyta"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Chlorophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Volvox"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "สาหร่ายสีเขียวที่อยู่รวมเป็นโคโลนีทรงกลมหลายพันเซลล์ มีเซลล์สืบพันธุ์และเซลล์ร่างกายแยกกัน",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "แต่ละเซลล์มีแฟลเจลลัม 2 เส้น ทั้งโคโลนีหมุนไปข้างหน้า",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "บ่อและแหล่งน้ำจืด"
+    },
+    "traits_text_en": {
+      "move": "2 flagella per cell; the whole colony rolls forward"
+    },
+    "illustration": "volvox",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "entamoeba-histolytica",
+    "group": "protists",
+    "scientific_name": "Entamoeba histolytica",
+    "name_th": "เอนตามีบา",
+    "name_en": "",
+    "reading_th": "เอนตามีบา ฮิสโทลิติกา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Unikonta"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Amoebozoa"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Archamoebae"
+      },
+      {
+        "rank": "genus",
+        "name": "Entamoeba"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "อะมีบาที่ก่อโรคบิดมีตัว ติดต่อจากซีสต์ในน้ำและอาหาร และลุกลามเป็นฝีในตับได้",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "เท้าเทียม",
+      "food": "กินเม็ดเลือดแดงและเนื้อเยื่อลำไส้",
+      "home": "ลำไส้ใหญ่ของคน"
+    },
+    "traits_text_en": {
+      "move": "Pseudopodia"
+    },
+    "illustration": "amoeba",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "trichomonas-vaginalis",
+    "group": "protists",
+    "scientific_name": "Trichomonas vaginalis",
+    "name_th": "ทริโคโมแนส",
+    "name_en": "",
+    "reading_th": "ทริโคโมแนส วาจินาลิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Excavata"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Metamonada"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Parabasalia"
+      },
+      {
+        "rank": "genus",
+        "name": "Trichomonas"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ปรสิตที่ติดต่อทางเพศสัมพันธ์ มีแฟลเจลลัมและเยื่อลูกคลื่น และไม่มีระยะซีสต์",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "แฟลเจลลัมกับเยื่อลูกคลื่น",
+      "food": "ดูดซึมอาหารจากเยื่อบุ",
+      "home": "ทางเดินปัสสาวะและอวัยวะสืบพันธุ์ของคน"
+    },
+    "traits_text_en": {
+      "move": "Flagellum with undulating membrane"
+    },
+    "illustration": "giardia",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "leishmania-donovani",
+    "group": "protists",
+    "scientific_name": "Leishmania donovani",
+    "name_th": "ลิชมาเนีย",
+    "name_en": "",
+    "reading_th": "ลิชมาเนีย โดโนวานี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Excavata"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Euglenozoa"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Kinetoplastea"
+      },
+      {
+        "rank": "genus",
+        "name": "Leishmania"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ปรสิตที่มีริ้นฝอยทรายเป็นพาหะ ก่อโรคลิชมาเนียชนิดอวัยวะภายใน (กาลาอาซาร์)",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "แฟลเจลลัม (ระยะที่อยู่ในริ้น)",
+      "food": "อาศัยอยู่ในเซลล์แมโครฟาจ",
+      "home": "คน สุนัข และริ้นฝอยทราย"
+    },
+    "traits_text_en": {
+      "move": "Flagellum (in the sand fly stage)"
+    },
+    "illustration": "trypano",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "toxoplasma-gondii",
+    "group": "protists",
+    "scientific_name": "Toxoplasma gondii",
+    "name_th": "ท็อกโซพลาสมา",
+    "name_en": "",
+    "reading_th": "ท็อกโซพลาสมา กอนดิไอ",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Alveolata"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Apicomplexa"
+      },
+      {
+        "rank": "genus",
+        "name": "Toxoplasma"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "ปรสิตที่มีแมวเป็นโฮสต์จำเพาะ ติดต่อจากเนื้อดิบหรืออุจจาระแมว และเป็นอันตรายต่อทารกในครรภ์",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "เคลื่อนที่แบบไถล",
+      "food": "อาศัยอยู่ภายในเซลล์ของโฮสต์",
+      "home": "แมว และสัตว์เลือดอุ่นแทบทุกชนิด"
+    },
+    "traits_text_en": {
+      "move": "Gliding"
+    },
+    "illustration": "plasmo",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "dictyostelium-discoideum",
+    "group": "protists",
+    "scientific_name": "Dictyostelium discoideum",
+    "name_th": "ราเมือกเซลล์เดียว",
+    "name_en": "",
+    "reading_th": "ดิกทีโอสทีเลียม ดิสคอยเดียม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Unikonta"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Amoebozoa"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Dictyostelia"
+      },
+      {
+        "rank": "genus",
+        "name": "Dictyostelium"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "อะมีบาเซลล์เดียวที่รวมตัวกันเมื่อขาดอาหาร แล้วสร้างก้านชูสปอร์ ใช้ศึกษาการสื่อสารระหว่างเซลล์",
+    "summary_en": "",
+    "traits": {
+      "diet": "feed"
+    },
+    "traits_text_th": {
+      "move": "เท้าเทียม",
+      "food": "กินแบคทีเรีย",
+      "home": "ดินชื้นในป่า"
+    },
+    "traits_text_en": {
+      "move": "Pseudopodia"
+    },
+    "illustration": "slime",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "phytophthora-infestans",
+    "group": "protists",
+    "scientific_name": "Phytophthora infestans",
+    "name_th": "เชื้อโรคใบไหม้มันฝรั่ง",
+    "name_en": "",
+    "reading_th": "ไฟทอฟธอรา อินเฟสแทนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Stramenopila"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Oomycota"
+      },
+      {
+        "rank": "genus",
+        "name": "Phytophthora"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "agriculture"
+    ],
+    "summary_th": "โอโอไมซีตที่หน้าตาคล้ายรา แต่ผนังเซลล์เป็นเซลลูโลส ก่อโรคใบไหม้ในมันฝรั่งจนเกิดทุพภิกขภัยในไอร์แลนด์",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "ซูสปอร์มีแฟลเจลลัม 2 เส้น",
+      "food": "ดูดอาหารจากเนื้อเยื่อพืช",
+      "home": "มันฝรั่งและมะเขือเทศ"
+    },
+    "traits_text_en": {
+      "move": "Zoospores with 2 flagella"
+    },
+    "illustration": "mold",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "chlorella-vulgaris",
+    "group": "protists",
+    "scientific_name": "Chlorella vulgaris",
+    "name_th": "คลอเรลลา",
+    "name_en": "",
+    "reading_th": "คลอเรลลา วัลการิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Archaeplastida"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Chlorophyta"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Trebouxiophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Chlorella"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "science"
+    ],
+    "summary_th": "สาหร่ายสีเขียวเซลล์เดียวทรงกลมไม่มีแฟลเจลลัม คาลวินใช้สาหร่ายสกุลนี้ศึกษาวัฏจักรคาลวิน และใช้เป็นอาหารเสริม",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "ไม่มีอวัยวะเคลื่อนที่",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "น้ำจืด"
+    },
+    "traits_text_en": {
+      "move": "No locomotor organelles"
+    },
+    "illustration": "chlorella",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "caulerpa-lentillifera",
+    "group": "protists",
+    "scientific_name": "Caulerpa lentillifera",
+    "name_th": "สาหร่ายพวงองุ่น",
+    "name_en": "",
+    "reading_th": "คอเลอร์พา เลนทิลลิเฟอรา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Archaeplastida"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Chlorophyta"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Ulvophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Caulerpa"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "สาหร่ายสีเขียวที่ทั้งต้นเป็นเซลล์เดียวขนาดใหญ่ มีหลายนิวเคลียสโดยไม่มีผนังกั้น และมีเม็ดกลมคล้ายพวงองุ่นที่กินได้",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "ไม่เคลื่อนที่ ยึดพื้นทรายด้วยไรซอยด์",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "ทะเลน้ำตื้นและบ่อเพาะเลี้ยง"
+    },
+    "traits_text_en": {
+      "move": "Does not move; anchored in sand by rhizoids"
+    },
+    "illustration": "grape",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "gracilaria-fisheri",
+    "group": "protists",
+    "scientific_name": "Gracilaria fisheri",
+    "name_th": "สาหร่ายผมนาง",
+    "name_en": "",
+    "reading_th": "กราซิลาเรีย ฟิชเชอรี",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "Archaeplastida"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Rhodophyta"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Florideophyceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Gracilaria"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "industry"
+    ],
+    "summary_th": "สาหร่ายสีแดงเป็นเส้นกลม ผนังเซลล์มีสารที่ใช้ทำวุ้น (agar) ทั้งในอาหารและในอาหารเลี้ยงเชื้อ",
+    "summary_en": "",
+    "traits": {
+      "diet": "photo"
+    },
+    "traits_text_th": {
+      "move": "ไม่เคลื่อนที่",
+      "food": "สังเคราะห์ด้วยแสง",
+      "home": "ชายฝั่งและบ่อน้ำกร่อย"
+    },
+    "traits_text_en": {
+      "move": "Does not move"
+    },
+    "illustration": "seaweed",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "plasmodium-vivax",
+    "group": "protists",
+    "scientific_name": "Plasmodium vivax",
+    "name_th": "พลาสโมเดียม ไวแวกซ์",
+    "name_en": "",
+    "reading_th": "พลาสโมเดียม ไวแวกซ์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Alveolata"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Apicomplexa"
+      },
+      {
+        "rank": "genus",
+        "name": "Plasmodium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "medicine"
+    ],
+    "summary_th": "เชื้อมาลาเรียที่พบบ่อยในไทย มีระยะพักตัวในตับ (ฮิปโนซอยต์) จึงกลับเป็นซ้ำได้ ต่างจาก P. falciparum",
+    "summary_en": "",
+    "traits": {
+      "diet": "parasite"
+    },
+    "traits_text_th": {
+      "move": "เคลื่อนที่แบบไถลในบางระยะ",
+      "food": "อาศัยในเซลล์ตับและเม็ดเลือดแดง",
+      "home": "คน และยุงก้นปล่อง"
+    },
+    "traits_text_en": {
+      "move": "Gliding in some stages"
+    },
+    "illustration": "plasmo",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "vorticella-campanula",
+    "group": "protists",
+    "scientific_name": "Vorticella campanula",
+    "name_th": "วอร์ติเซลลา",
+    "name_en": "",
+    "reading_th": "วอร์ติเซลลา แคมพานูลา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "supergroup",
+        "name": "SAR"
+      },
+      {
+        "rank": "major_clade",
+        "name": "Alveolata"
+      },
+      {
+        "rank": "subgroup",
+        "name": "Ciliophora"
+      },
+      {
+        "rank": "genus",
+        "name": "Vorticella"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "ซิลิเอตรูประฆังคว่ำบนก้านที่หดเป็นขดสปริงได้ ใช้ซิเลียรอบปากโบกอาหารเข้าเซลล์",
+    "summary_en": "",
+    "traits": {
+      "diet": "feed"
+    },
+    "traits_text_th": {
+      "move": "ซิเลียรอบปาก และก้านที่หดตัวได้",
+      "food": "กินแบคทีเรีย",
+      "home": "น้ำจืดนิ่ง เกาะอยู่บนพืชน้ำ"
+    },
+    "traits_text_en": {
+      "move": "Cilia around the mouth and a contractile stalk"
+    },
+    "illustration": "vorti",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  }
+]

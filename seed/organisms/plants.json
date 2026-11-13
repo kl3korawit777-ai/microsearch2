@@ -1,0 +1,1844 @@
+[
+  {
+    "id": "sphagnum-palustre",
+    "group": "plants",
+    "scientific_name": "Sphagnum palustre",
+    "name_th": "ข้าวตอกฤๅษี",
+    "name_en": "",
+    "reading_th": "สแฟกนัม พาลัสเตร",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Bryophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Sphagnopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Sphagnales"
+      },
+      {
+        "rank": "family",
+        "name": "Sphagnaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Sphagnum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology",
+      "agriculture"
+    ],
+    "summary_th": "มอสที่ดูดซับน้ำได้หลายเท่าของน้ำหนักตัว เป็นองค์ประกอบหลักของพรุ และใช้เป็นวัสดุปลูกกล้วยไม้",
+    "summary_en": "",
+    "traits": {
+      "vasc": "no",
+      "seed": "none",
+      "stage": "gameto"
+    },
+    "traits_text_th": {
+      "food": "วัสดุเพาะปลูก และเป็นแหล่งกักเก็บคาร์บอนในพื้นที่พรุ",
+      "home": "พื้นที่ชุ่มน้ำและพรุบนที่สูง"
+    },
+    "traits_text_en": {},
+    "illustration": "moss",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "marchantia-polymorpha",
+    "group": "plants",
+    "scientific_name": "Marchantia polymorpha",
+    "name_th": "ลิเวอร์เวิร์ต",
+    "name_en": "",
+    "reading_th": "มาร์แคนเทีย พอลิมอร์ฟา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Hepatophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Marchantiopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Marchantiales"
+      },
+      {
+        "rank": "family",
+        "name": "Marchantiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Marchantia"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "ตัวเป็นแผ่นแทลลัสแบนแนบพื้น สร้างถ้วยเจมมาไว้สืบพันธุ์แบบไม่อาศัยเพศ",
+    "summary_en": "",
+    "traits": {
+      "vasc": "no",
+      "seed": "none",
+      "stage": "gameto"
+    },
+    "traits_text_th": {
+      "food": "สิ่งมีชีวิตต้นแบบในงานวิจัยวิวัฒนาการของพืชบก",
+      "home": "ดินชื้นและริมลำธาร"
+    },
+    "traits_text_en": {},
+    "illustration": "liver",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "lycopodiella-cernua",
+    "group": "plants",
+    "scientific_name": "Lycopodiella cernua",
+    "name_th": "สามร้อยยอด",
+    "name_en": "",
+    "reading_th": "ไลโคโพดิเอลลา เซอร์นัว",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Lycophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Lycopodiopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Lycopodiales"
+      },
+      {
+        "rank": "family",
+        "name": "Lycopodiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Lycopodiella"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "มีท่อลำเลียงแต่ไม่มีเมล็ด ใบเล็กแบบไมโครฟิลล์ สร้างสปอร์ในสตรอบิลัสที่ปลายกิ่ง",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "none",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ใช้ประดับ",
+      "home": "ที่โล่งดินเปรี้ยวและไหล่เขา"
+    },
+    "traits_text_en": {},
+    "illustration": "club",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "psilotum-nudum",
+    "group": "plants",
+    "scientific_name": "Psilotum nudum",
+    "name_th": "หวายทะนอย",
+    "name_en": "",
+    "reading_th": "ไซโลตัม นูดัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Pterophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Psilotopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Psilotales"
+      },
+      {
+        "rank": "family",
+        "name": "Psilotaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Psilotum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "ไม่มีใบและรากที่แท้จริง ลำต้นแตกกิ่งเป็นคู่ มีอับสปอร์ติดอยู่ตามกิ่ง",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "none",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ตัวอย่างพืชมีท่อลำเลียงที่โครงสร้างเรียบง่าย",
+      "home": "ลำต้นของต้นไม้ใหญ่ ซอกหิน และกำแพงเก่า"
+    },
+    "traits_text_en": {},
+    "illustration": "whisk",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "azolla-pinnata",
+    "group": "plants",
+    "scientific_name": "Azolla pinnata",
+    "name_th": "แหนแดง",
+    "name_en": "",
+    "reading_th": "อะซอลลา พินนาตา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Pterophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Polypodiopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Salviniales"
+      },
+      {
+        "rank": "family",
+        "name": "Salviniaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Azolla"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "agriculture",
+      "ecology"
+    ],
+    "summary_th": "เฟิร์นลอยน้ำขนาดเล็ก มีไซยาโนแบคทีเรียอาศัยอยู่ในใบและตรึงไนโตรเจน จึงใช้เป็นปุ๋ยพืชสดในนาข้าว",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "none",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ปุ๋ยพืชสดในนาข้าว และอาหารสัตว์",
+      "home": "ผิวน้ำนิ่งและนาข้าว"
+    },
+    "traits_text_en": {},
+    "illustration": "azolla",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "cycas-siamensis",
+    "group": "plants",
+    "scientific_name": "Cycas siamensis",
+    "name_th": "ปรงป่า",
+    "name_en": "",
+    "reading_th": "ไซคัส ไซอะเมนซิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Cycadophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Cycadopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Cycadales"
+      },
+      {
+        "rank": "family",
+        "name": "Cycadaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Cycas"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "พืชเมล็ดเปลือยหน้าตาคล้ายปาล์ม ต้นเพศผู้และต้นเพศเมียแยกกัน",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "naked",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ไม้ประดับ",
+      "home": "ป่าเต็งรังและป่าเบญจพรรณ"
+    },
+    "traits_text_en": {},
+    "illustration": "cycad",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "ginkgo-biloba",
+    "group": "plants",
+    "scientific_name": "Ginkgo biloba",
+    "name_th": "แปะก๊วย",
+    "name_en": "",
+    "reading_th": "กิงโก ไบโลบา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Ginkgophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Ginkgoopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Ginkgoales"
+      },
+      {
+        "rank": "family",
+        "name": "Ginkgoaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Ginkgo"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "science"
+    ],
+    "summary_th": "ชนิดเดียวที่ยังเหลืออยู่ของไฟลัมนี้ ใบรูปพัด และสเปิร์มมีแฟลเจลลัมว่ายไปผสมกับไข่",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "naked",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "เมล็ดใช้เป็นอาหาร และปลูกเป็นไม้ประดับ",
+      "home": "ถิ่นเดิมในจีน ปลูกทั่วโลก"
+    },
+    "traits_text_en": {},
+    "illustration": "ginkgo",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "pinus-kesiya",
+    "group": "plants",
+    "scientific_name": "Pinus kesiya",
+    "name_th": "สนสามใบ",
+    "name_en": "",
+    "reading_th": "ไพนัส เคซิยา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Coniferophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Pinopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Pinales"
+      },
+      {
+        "rank": "family",
+        "name": "Pinaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pinus"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "industry",
+      "ecology"
+    ],
+    "summary_th": "ใบรูปเข็มออกเป็นกลุ่มละ 3 ใบ สร้างเมล็ดบนเกล็ดของโคนเพศเมีย",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "naked",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "เนื้อไม้และยางสน",
+      "home": "ป่าสนเขาในภาคเหนือ"
+    },
+    "traits_text_en": {},
+    "illustration": "pine",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "gnetum-gnemon",
+    "group": "plants",
+    "scientific_name": "Gnetum gnemon",
+    "name_th": "ผักเหมียง",
+    "name_en": "",
+    "reading_th": "นีตัม นีมอน",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Gnetophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Gnetopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Gnetales"
+      },
+      {
+        "rank": "family",
+        "name": "Gnetaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Gnetum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "พืชเมล็ดเปลือยที่มีเวสเซลในท่อลำเลียงน้ำ ใบกว้างคล้ายพืชดอก ยอดอ่อนเป็นผักพื้นบ้านภาคใต้",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "naked",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ยอดอ่อนใช้เป็นผัก เมล็ดใช้ทำข้าวเกรียบ",
+      "home": "ป่าดิบชื้นภาคใต้"
+    },
+    "traits_text_en": {},
+    "illustration": "gnetum",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "oryza-sativa",
+    "group": "plants",
+    "scientific_name": "Oryza sativa",
+    "name_th": "ข้าว",
+    "name_en": "",
+    "reading_th": "โอไรซา ซาทิวา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Poales"
+      },
+      {
+        "rank": "family",
+        "name": "Poaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Oryza"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "agriculture"
+    ],
+    "summary_th": "พืชดอกใบเลี้ยงเดี่ยว เส้นใบขนาน เป็นอาหารหลักของประชากรโลกมากกว่าครึ่ง",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "อาหารหลัก",
+      "home": "นาน้ำขังและไร่"
+    },
+    "traits_text_en": {},
+    "illustration": "rice",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "nelumbo-nucifera",
+    "group": "plants",
+    "scientific_name": "Nelumbo nucifera",
+    "name_th": "บัวหลวง",
+    "name_en": "",
+    "reading_th": "นีลัมโบ นูซิเฟอรา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Proteales"
+      },
+      {
+        "rank": "family",
+        "name": "Nelumbonaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Nelumbo"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "พืชดอกในน้ำ ใบไม่เปียกน้ำเพราะผิวใบมีปุ่มเล็กเคลือบไข เมล็ดมีชีวิตอยู่ได้หลายร้อยปี",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "กินได้ทั้งเมล็ด เหง้า และดอก",
+      "home": "บึงและสระน้ำจืด"
+    },
+    "traits_text_en": {},
+    "illustration": "lotus",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "durio-zibethinus",
+    "group": "plants",
+    "scientific_name": "Durio zibethinus",
+    "name_th": "ทุเรียน",
+    "name_en": "",
+    "reading_th": "ดูริโอ ซิเบทินัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malvales"
+      },
+      {
+        "rank": "family",
+        "name": "Malvaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Durio"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "food",
+      "agriculture"
+    ],
+    "summary_th": "ไม้ผลเขตร้อน ดอกบานกลางคืนและมีค้างคาวเป็นผู้ผสมเกสรหลัก ผลมีหนามแข็ง",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ผลไม้เศรษฐกิจ",
+      "home": "สวนผลไม้ภาคใต้และภาคตะวันออก"
+    },
+    "traits_text_en": {},
+    "illustration": "durian",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "hevea-brasiliensis",
+    "group": "plants",
+    "scientific_name": "Hevea brasiliensis",
+    "name_th": "ยางพารา",
+    "name_en": "",
+    "reading_th": "ฮีเวีย บราซิลิเอนซิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malpighiales"
+      },
+      {
+        "rank": "family",
+        "name": "Euphorbiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Hevea"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "industry",
+      "agriculture"
+    ],
+    "summary_th": "ต้นไม้ที่มีท่อน้ำยางในเปลือก กรีดแล้วได้น้ำยางสำหรับทำยางธรรมชาติ",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "น้ำยางธรรมชาติและเนื้อไม้",
+      "home": "สวนยางภาคใต้และภาคตะวันออก ถิ่นเดิมอยู่ในลุ่มน้ำแอมะซอน"
+    },
+    "traits_text_en": {},
+    "illustration": "rubber",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "anthoceros-punctatus",
+    "group": "plants",
+    "scientific_name": "Anthoceros punctatus",
+    "name_th": "ฮอร์นเวิร์ต",
+    "name_en": "",
+    "reading_th": "แอนโทเซรอส พังก์ทาตัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthocerophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Anthocerotopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Anthocerotales"
+      },
+      {
+        "rank": "family",
+        "name": "Anthocerotaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Anthoceros"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "สปอโรไฟต์รูปเขาตั้งขึ้นจากแผ่นแกมีโทไฟต์ มีปากใบ และมีไซยาโนแบคทีเรียอาศัยอยู่ในแทลลัส",
+    "summary_en": "",
+    "traits": {
+      "vasc": "no",
+      "seed": "none",
+      "stage": "gameto"
+    },
+    "traits_text_th": {
+      "food": "ใช้ศึกษาวิวัฒนาการของพืชบก",
+      "home": "ดินชื้นริมทางและริมลำธาร"
+    },
+    "traits_text_en": {},
+    "illustration": "horn",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "selaginella-involvens",
+    "group": "plants",
+    "scientific_name": "Selaginella involvens",
+    "name_th": "ตีนตุ๊กแก",
+    "name_en": "",
+    "reading_th": "ซีลาจิเนลลา อินวอลเวนส์",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Lycophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Lycopodiopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Selaginellales"
+      },
+      {
+        "rank": "family",
+        "name": "Selaginellaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Selaginella"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ไลโคไฟต์ที่สร้างสปอร์สองขนาด คือเมกะสปอร์และไมโครสปอร์ (เฮเทอโรสปอร์)",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "none",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ไม้ประดับและสมุนไพรพื้นบ้าน",
+      "home": "ผิวหินและเปลือกไม้ในป่าชื้น"
+    },
+    "traits_text_en": {},
+    "illustration": "club",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "equisetum-debile",
+    "group": "plants",
+    "scientific_name": "Equisetum debile",
+    "name_th": "หญ้าถอดปล้อง",
+    "name_en": "",
+    "reading_th": "อิควิซีตัม เดบิเล",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Pterophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Polypodiopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Equisetales"
+      },
+      {
+        "rank": "family",
+        "name": "Equisetaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Equisetum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ลำต้นเป็นข้อปล้องที่ดึงแยกออกได้ ใบลดรูปเป็นเกล็ดรอบข้อ และผิวมีซิลิกาจึงสาก",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "none",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "สมุนไพรพื้นบ้าน",
+      "home": "ริมน้ำและที่ชื้น"
+    },
+    "traits_text_en": {},
+    "illustration": "horsetail",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "diplazium-esculentum",
+    "group": "plants",
+    "scientific_name": "Diplazium esculentum",
+    "name_th": "ผักกูด",
+    "name_en": "",
+    "reading_th": "ดิพลาเซียม เอสคิวเลนทัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Pterophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Polypodiopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Polypodiales"
+      },
+      {
+        "rank": "family",
+        "name": "Athyriaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Diplazium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "เฟิร์นที่ยอดอ่อนม้วนงอ ใต้ใบมีกลุ่มอับสปอร์ (ซอรัส) และกินเป็นผักพื้นบ้าน",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "none",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ยอดอ่อนใช้เป็นผัก",
+      "home": "ริมลำธารและที่ชื้นแฉะ"
+    },
+    "traits_text_en": {},
+    "illustration": "frond",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "zea-mays",
+    "group": "plants",
+    "scientific_name": "Zea mays",
+    "name_th": "ข้าวโพด",
+    "name_en": "",
+    "reading_th": "ซีอา เมย์ส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Poales"
+      },
+      {
+        "rank": "family",
+        "name": "Poaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Zea"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "agriculture"
+    ],
+    "summary_th": "พืชใบเลี้ยงเดี่ยวที่ตรึงคาร์บอนแบบ C4 ช่อดอกเพศผู้อยู่ปลายยอด ส่วนดอกเพศเมียอยู่ในฝักบนต้นเดียวกัน",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "อาหารคนและอาหารสัตว์",
+      "home": "ไร่และพื้นที่เกษตร"
+    },
+    "traits_text_en": {},
+    "illustration": "rice",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "mimosa-pudica",
+    "group": "plants",
+    "scientific_name": "Mimosa pudica",
+    "name_th": "ไมยราบ",
+    "name_en": "",
+    "reading_th": "มิโมซา พูดิกา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Fabales"
+      },
+      {
+        "rank": "family",
+        "name": "Fabaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Mimosa"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "ใบหุบเมื่อถูกสัมผัส (ทิกโมนาสตี) เพราะเซลล์ในพัลไวนัสที่โคนก้านใบเสียน้ำอย่างรวดเร็ว",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ตัวอย่างการตอบสนองของพืชต่อสิ่งเร้า",
+      "home": "ที่โล่งและริมทาง"
+    },
+    "traits_text_en": {},
+    "illustration": "mimosa",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "arabidopsis-thaliana",
+    "group": "plants",
+    "scientific_name": "Arabidopsis thaliana",
+    "name_th": "อะราบิดอปซิส",
+    "name_en": "",
+    "reading_th": "อะราบิดอปซิส ทาเลียนา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Brassicales"
+      },
+      {
+        "rank": "family",
+        "name": "Brassicaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Arabidopsis"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "พืชดอกขนาดเล็กวงศ์ผักกาดที่มีวงชีวิตสั้นราว 6 สัปดาห์ เป็นพืชชนิดแรกที่ถอดรหัสจีโนมได้",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "พืชต้นแบบในงานวิจัย",
+      "home": "ถิ่นเดิมในยุโรปและเอเชีย"
+    },
+    "traits_text_en": {},
+    "illustration": "rosette",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "rafflesia-kerrii",
+    "group": "plants",
+    "scientific_name": "Rafflesia kerrii",
+    "name_th": "บัวผุด",
+    "name_en": "",
+    "reading_th": "แรฟเฟิลเซีย เคอร์ริไอ",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malpighiales"
+      },
+      {
+        "rank": "family",
+        "name": "Rafflesiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Rafflesia"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "พืชเบียนที่ไม่มีใบ ลำต้น และราก อาศัยอยู่ในเถาย่านไก่ต้ม ดอกกว้างราว 50–90 เซนติเมตรและมีกลิ่นเหม็นล่อแมลงวัน",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "สัญลักษณ์ของการอนุรักษ์ป่าภาคใต้",
+      "home": "ป่าดิบชื้นภาคใต้ เช่น เขาสก"
+    },
+    "traits_text_en": {},
+    "illustration": "rafflesia",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "welwitschia-mirabilis",
+    "group": "plants",
+    "scientific_name": "Welwitschia mirabilis",
+    "name_th": "เวลวิตเชีย",
+    "name_en": "",
+    "reading_th": "เวลวิตเชีย มิราบิลิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Gnetophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Gnetopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Welwitschiales"
+      },
+      {
+        "rank": "family",
+        "name": "Welwitschiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Welwitschia"
+      }
+    ],
+    "level": "uni",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "พืชเมล็ดเปลือยในทะเลทรายนามิบที่มีใบเพียงสองใบงอกยาวไปตลอดชีวิต บางต้นอายุเกินพันปี",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "naked",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ใช้ศึกษาการปรับตัวของพืชทะเลทราย",
+      "home": "ทะเลทรายนามิบ ทางตะวันตกเฉียงใต้ของแอฟริกา"
+    },
+    "traits_text_en": {},
+    "illustration": "welw",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "allium-cepa",
+    "group": "plants",
+    "scientific_name": "Allium cepa",
+    "name_th": "หอมหัวใหญ่",
+    "name_en": "",
+    "reading_th": "อัลเลียม ซีปา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Asparagales"
+      },
+      {
+        "rank": "family",
+        "name": "Amaryllidaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Allium"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "science"
+    ],
+    "summary_th": "ปลายรากมีเซลล์แบ่งตัวมาก จึงใช้ดูการแบ่งเซลล์แบบไมโทซิส ส่วนหัวคือลำต้นใต้ดินที่มีใบเกล็ดหนาซ้อนกัน",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "อาหาร และใช้ในการทดลอง",
+      "home": "แปลงปลูก"
+    },
+    "traits_text_en": {},
+    "illustration": "onion",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "pisum-sativum",
+    "group": "plants",
+    "scientific_name": "Pisum sativum",
+    "name_th": "ถั่วลันเตา",
+    "name_en": "",
+    "reading_th": "ไพซัม ซาทิวัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Fabales"
+      },
+      {
+        "rank": "family",
+        "name": "Fabaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pisum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "science"
+    ],
+    "summary_th": "พืชที่เมนเดลใช้ศึกษาการถ่ายทอดลักษณะ เพราะผสมตัวเองได้ ปลูกง่าย และมีลักษณะต่างกันชัด เช่น เมล็ดกลมกับเมล็ดย่น",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "อาหาร",
+      "home": "แปลงปลูกในที่อากาศเย็น"
+    },
+    "traits_text_en": {},
+    "illustration": "pea",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "hydrilla-verticillata",
+    "group": "plants",
+    "scientific_name": "Hydrilla verticillata",
+    "name_th": "สาหร่ายหางกระรอก",
+    "name_en": "",
+    "reading_th": "ไฮดริลลา เวอร์ทิซิลลาตา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Alismatales"
+      },
+      {
+        "rank": "family",
+        "name": "Hydrocharitaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Hydrilla"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "science"
+    ],
+    "summary_th": "พืชดอกใต้น้ำที่ใบเรียงเป็นวงรอบข้อ ใช้ทดลองการสังเคราะห์ด้วยแสงโดยนับฟองแก๊สออกซิเจน",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ใช้ในการทดลอง และตกแต่งตู้ปลา",
+      "home": "แหล่งน้ำจืดนิ่ง"
+    },
+    "traits_text_en": {},
+    "illustration": "hydrilla",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "ananas-comosus",
+    "group": "plants",
+    "scientific_name": "Ananas comosus",
+    "name_th": "สับปะรด",
+    "name_en": "",
+    "reading_th": "อะนานัส โคโมซัส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Poales"
+      },
+      {
+        "rank": "family",
+        "name": "Bromeliaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Ananas"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food",
+      "agriculture"
+    ],
+    "summary_th": "พืช CAM ที่เปิดปากใบตอนกลางคืนเพื่อตรึงคาร์บอนไดออกไซด์ จึงเสียน้ำน้อย ผลเป็นผลรวมจากดอกจำนวนมาก",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ผลไม้เศรษฐกิจ",
+      "home": "ไร่ในเขตร้อน"
+    },
+    "traits_text_en": {},
+    "illustration": "pineapple",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "saccharum-officinarum",
+    "group": "plants",
+    "scientific_name": "Saccharum officinarum",
+    "name_th": "อ้อย",
+    "name_en": "",
+    "reading_th": "แซ็กคารัม ออฟฟิซินารัม",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Poales"
+      },
+      {
+        "rank": "family",
+        "name": "Poaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Saccharum"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "industry",
+      "agriculture"
+    ],
+    "summary_th": "พืช C4 ที่ตรึงคาร์บอนได้ดีในที่ร้อนและแดดจัด สะสมซูโครสในลำต้น ใช้ผลิตน้ำตาลและเอทานอล",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "น้ำตาลและเอทานอล",
+      "home": "ไร่ในเขตร้อน"
+    },
+    "traits_text_en": {},
+    "illustration": "cane",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "wolffia-globosa",
+    "group": "plants",
+    "scientific_name": "Wolffia globosa",
+    "name_th": "ผำ",
+    "name_en": "",
+    "reading_th": "วูลฟ์เฟีย โกลโบซา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Alismatales"
+      },
+      {
+        "rank": "family",
+        "name": "Araceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Wolffia"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "food"
+    ],
+    "summary_th": "พืชดอกที่เล็กที่สุดในโลก ตัวเป็นเม็ดกลมลอยน้ำไม่มีราก และนำมาเป็นอาหารในภาคเหนือและภาคอีสาน",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "อาหารโปรตีนสูง",
+      "home": "ผิวน้ำนิ่ง"
+    },
+    "traits_text_en": {},
+    "illustration": "azolla",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "nepenthes-mirabilis",
+    "group": "plants",
+    "scientific_name": "Nepenthes mirabilis",
+    "name_th": "หม้อข้าวหม้อแกงลิง",
+    "name_en": "",
+    "reading_th": "นีเพนธีส มิราบิลิส",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Caryophyllales"
+      },
+      {
+        "rank": "family",
+        "name": "Nepenthaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Nepenthes"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "พืชกินแมลงที่ปลายใบเปลี่ยนเป็นหม้อมีน้ำย่อย ได้ไนโตรเจนจากแมลงเพราะขึ้นในดินที่ขาดธาตุอาหาร",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ไม้ประดับ",
+      "home": "ดินทรายและที่ชื้นแฉะ"
+    },
+    "traits_text_en": {},
+    "illustration": "pitcher",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  },
+  {
+    "id": "rhizophora-apiculata",
+    "group": "plants",
+    "scientific_name": "Rhizophora apiculata",
+    "name_th": "โกงกางใบเล็ก",
+    "name_en": "",
+    "reading_th": "ไรโซฟอรา เอพิคูลาตา",
+    "lineage": [
+      {
+        "rank": "domain",
+        "name": "Eukarya"
+      },
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Anthophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malpighiales"
+      },
+      {
+        "rank": "family",
+        "name": "Rhizophoraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Rhizophora"
+      }
+    ],
+    "level": "hs",
+    "tags": [
+      "ecology"
+    ],
+    "summary_th": "ไม้ป่าชายเลนที่มีรากค้ำจุน และเมล็ดงอกตั้งแต่อยู่บนต้น ช่วยกันคลื่นและเป็นแหล่งอนุบาลสัตว์น้ำ",
+    "summary_en": "",
+    "traits": {
+      "vasc": "yes",
+      "seed": "covered",
+      "stage": "sporo"
+    },
+    "traits_text_th": {
+      "food": "ถ่านไม้ และป้องกันชายฝั่ง",
+      "home": "ป่าชายเลน"
+    },
+    "traits_text_en": {},
+    "illustration": "mangrove",
+    "images": [],
+    "review": "ai_draft",
+    "taxon_ids": {
+      "gbif": null,
+      "ncbi": null
+    }
+  }
+]
