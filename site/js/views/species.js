@@ -39,6 +39,54 @@ function figure(s) {
     `<figcaption aria-live="polite">${credit(img)}</figcaption></figure>`;
 }
 
+// Scientific name with the authority after it (upright, muted). Without an authority the plain heading is kept as it was.
+function nameRow(s, d) {
+  const h1 = `<h1 class="sci" tabindex="-1">${esc(s.sci)}</h1>`;
+  return d.authority ? `<div class="sp-namerow">${h1}<span class="authority" data-native>${esc(d.authority)}</span></div>` : h1;
+}
+
+// "Synonyms" and "Currently accepted name" lines under the name (names are Latin, so they are the same in both languages).
+function namesLine(d) {
+  const rows = [];
+  if (d.synonyms?.length) rows.push(`<p><span class="sp-rd-l">${T('synonyms')}</span> <span class="sci" data-native>${d.synonyms.map(esc).join(', ')}</span></p>`);
+  if (d.accepted_name) rows.push(`<p><span class="sp-rd-l">${T('acceptedName')}</span> <span class="sci" data-native>${esc(d.accepted_name)}</span></p>`);
+  return rows.length ? `<div class="sp-names">${rows.join('')}</div>` : '';
+}
+
+const IUCN = ['EX', 'EW', 'CR', 'EN', 'VU', 'NT', 'LC', 'DD', 'NE'];
+function iucnBadge(iucn) {
+  if (!iucn || !IUCN.includes(iucn.category)) return '';
+  const c = iucn.category;
+  return `<a class="badge iucn" data-cat="${c}" href="${esc(iucn.url)}" rel="noopener" title="${esc(T('iucnTip', { y: iucn.assessed }))}"><span class="dot" aria-hidden="true"></span>${T('iucn', { c, n: T(`iucn${c}`) })}</a>`;
+}
+
+const pairRows = (rows, fb) => rows.map((r) => [extraText(r[0], fb), extraText(r[1], fb)]);
+const factsList = (rows) => `<dl class="facts">${rows.map((f) => `<div><dt>${f[0]}</dt><dd>${f[1]}</dd></div>`).join('')}</dl>`;
+
+// Disease box (pathogens and parasites): name, symptoms, transmission, prevention, broad drug class. Never doses.
+function diseaseBox(ex, fb) {
+  const dz = ex.disease;
+  if (!dz) return '';
+  const rows = [['dzSymptoms', dz.symptoms], ['dzTransmission', dz.transmission], ['dzPrevention', dz.prevention], ['dzDrugs', dz.drugs]].filter((r) => r[1]);
+  return `<section class="callout disease" aria-labelledby="dzH"><h2 id="dzH">${T('dzTitle')}${dz.name ? `: ${extraText(dz.name, fb)}` : ''}</h2>` +
+    (rows.length ? factsList(rows.map((r) => [T(r[0]), extraText(r[1], fb)])) : '') + `<p class="callout-note">${T('dzNote')}</p></section>`;
+}
+
+// Warning box (poisonous mushrooms and animals): what is dangerous and what people often get wrong.
+function warningBox(ex, fb) {
+  const w = ex.warning;
+  if (!w) return '';
+  return `<aside class="callout warning" aria-labelledby="warnH"><h2 id="warnH">${T('warnTitle')}</h2>` +
+    (w.text ? `<p>${extraText(w.text, fb)}</p>` : '') +
+    (w.myths?.length ? `<h3>${T('warnMyths')}</h3><ul>${w.myths.map((m) => `<li>${extraText(m, fb)}</li>`).join('')}</ul>` : '') + '</aside>';
+}
+
+function refsList(d) {
+  if (!d.refs?.length) return '';
+  return `<section class="section refs" aria-labelledby="refsH"><h2 class="h2" id="refsH">${T('refs')}</h2><ol>` +
+    d.refs.map((r) => `<li><a href="${esc(r.url)}" rel="noopener" data-native>${esc(r.title)}</a> <span class="ref-date">${T('accessed', { d: esc(r.accessed) })}</span></li>`).join('') + '</ol></section>';
+}
+
 export function viewSpecies(s) {
   const g = G(s.g);
   const d = s.d;
@@ -61,11 +109,11 @@ export function viewSpecies(s) {
       const node = `<a class="step" href="#home?${new URLSearchParams({ dg: s.g, sel: key })}" title="${esc(T('openInDiagram'))}">${inner}</a>`;
       return `<li>${i ? arrowR : ''}${node}</li>`;
     }).join('') + '</ol></nav>' +
-    `<div class="sp-title"><h1 class="sci" tabindex="-1">${esc(s.sci)}</h1><div class="sp-sub">` +
+    `<div class="sp-title">${nameRow(s, d)}${namesLine(d)}<div class="sp-sub">` +
     (isEn()
       ? (s.en ? `<p class="sp-common">${esc(s.en)}</p>` : '')
       : `<p class="th"><span class="sp-rd-l">${T('reading')}</span> ${esc(spRd(s))}</p>${spCommon(s) ? `<p class="sp-common"><span class="sp-rd-l">${T('commonName')}</span> ${esc(spCommon(s))}</p>` : ''}`) +
-    lvBadge(s).replace('class="lv ', 'class="lv big ') +
+    lvBadge(s).replace('class="lv ', 'class="lv big ') + iucnBadge(d.iucn) +
     `<a class="badge grp" href="#${g.id}"><span class="dot" style="width:10px;height:10px"></span>${esc(gName(g))}</a>` +
     (d.review === 'ai_draft' ? `<span class="badge draft" title="${esc(T('draftTip'))}">${T('draft')}</span>` : '') +
     '</div></div></header>';
@@ -74,21 +122,30 @@ export function viewSpecies(s) {
   // Traits tab: one row per trait of the group; extra rows (traitsExtra) go after the first trait.
   let traits = g.traits.map((tk) => [esc(isEn() ? tk.en : tk.th), traitValue(s, tk.key)]).filter((r) => r[1]);
   if (ex.traitsExtra) traits = traits.slice(0, 1).concat(ex.traitsExtra.map((r) => [extraText(r[0], fb), extraText(r[1], fb)]), traits.slice(1));
-  const why = ex.why ? ex.why.map((r) => [extraText(r[0], fb), extraText(r[1], fb)]) : [[s.tags.map((t) => esc(tagName(t))).join(', '), loc(s.sm[0], s.sm[1])]];
-  const tabs = [['traits', T('traits'), traits], ['why', T('why'), why]];
-  if (ex.name) tabs.push(['name', T('name'), ex.name.map((r) => [extraText(r[0], fb), extraText(r[1], fb)])]);
+  const why = ex.why ? pairRows(ex.why, fb) : [[s.tags.map((t) => esc(tagName(t))).join(', '), loc(s.sm[0], s.sm[1])]];
+  const tabs = [['traits', T('traits'), traits]];
+  // "Way of life" tab (habitat, nutrition, relationships + reproduction and life cycle): only when there is data
+  if (ex.life || ex.lifecycle) {
+    const html = (ex.life ? factsList(pairRows(ex.life, fb)) : '') +
+      (ex.lifecycle ? `${ex.life ? `<h3 class="facts-h">${T('lifecycle')}</h3>` : ''}${factsList(pairRows(ex.lifecycle, fb))}` : '');
+    tabs.push(['life', T('life'), null, html]);
+  }
+  tabs.push(['why', T('why'), why]);
+  if (ex.name) tabs.push(['name', T('name'), pairRows(ex.name, fb)]);
   const tab = tabs.some((t) => t[0] === S.tab) ? S.tab : 'traits';
   const cur = tabs.find((t) => t[0] === tab);
 
   h += `<div class="sp-body">${figure(s)}` +
-    `<div class="sp-text"><p class="sp-lede">${ex.lede ? extraText(ex.lede, fb) : loc(s.sm[0], s.sm[1])}</p>` +
+    `<div class="sp-text"><p class="sp-lede">${ex.lede ? extraText(ex.lede, fb) : loc(s.sm[0], s.sm[1])}</p>${warningBox(ex, fb)}${diseaseBox(ex, fb)}` +
     `<div class="tabs" role="tablist" aria-label="${esc(T('traits'))}">` + tabs.map((t) =>
       `<button type="button" role="tab" class="tab" id="tab-${t[0]}" data-act="tab" data-v="${t[0]}" aria-selected="${t[0] === tab}" aria-controls="tabpanel" tabindex="${t[0] === tab ? 0 : -1}">${t[1]}</button>`).join('') + '</div>' +
-    `<div role="tabpanel" id="tabpanel" aria-labelledby="tab-${tab}"><dl class="facts">${cur[2].map((f) => `<div><dt>${f[0]}</dt><dd>${f[1]}</dd></div>`).join('')}</dl></div></div></div>`;
+    `<div role="tabpanel" id="tabpanel" aria-labelledby="tab-${tab}">${cur[3] || factsList(cur[2])}</div></div></div>`;
 
   if (ex.aside) {
     h += `<aside class="aside" aria-labelledby="asideH"><h2 id="asideH">${extraText(ex.asideTitle, fb)}</h2><ul>${ex.aside.map((x) => `<li>${extraText(x, fb)}</li>`).join('')}</ul></aside>`;
   }
+
+  h += refsList(d);
 
   const mates = inGroup(s.g);
   const idx = mates.indexOf(s);

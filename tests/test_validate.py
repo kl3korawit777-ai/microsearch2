@@ -6,6 +6,7 @@
 import copy
 import json
 import os
+import shutil
 import sys
 
 import pytest
@@ -443,3 +444,149 @@ def test_import_seed_never_changes_seed(seed_and_data):
 
 def test_import_seed_missing_seed_dir(tmp_path):
     assert run_import(str(tmp_path / "nope"), str(tmp_path / "data")) == 1
+
+
+# ---------------------------------------------------------------- ช่องใหม่ของแผนค้นคว้า v1.1
+
+def with_range(ds):
+    ds.groups["groups"][0]["traits"].append({"key": "temp", "th": "อุณหภูมิ", "en": "Temperature", "type": "range", "unit": "°C"})
+    return ds.files["bacteria"][0]
+
+
+def test_new_optional_fields_are_accepted(ds):
+    o = ds.files["bacteria"][0]
+    o.update({"authority": "(Migula 1895) Castellani & Chalmers 1919", "synonyms": ["Bacterium coli"], "accepted_name": "Escherichia vulgaris",
+              "refs": [{"title": "NCBI", "url": "https://www.ncbi.nlm.nih.gov/taxonomy", "accessed": "2026-11-14"}],
+              "iucn": {"category": "LC", "url": "https://www.iucnredlist.org/species/1", "assessed": "2020"},
+              "extra_th": {"lede": "x", "life": [["แหล่งที่อยู่", "ลำไส้"]], "lifecycle": [["ขั้น 1", "แบ่งตัว"]],
+                           "disease": {"name": "ท้องร่วง", "symptoms": "ถ่ายเหลว", "transmission": "อาหารปนเปื้อน", "prevention": "ล้างมือ", "drugs": "ยาปฏิชีวนะบางกลุ่ม"},
+                           "warning": {"text": "ระวัง", "myths": ["ไม่จริง"]}},
+              "extra_en": {"lede": "x"}})
+    o["tags"] = ["science", "medicine"]
+    rep = ds.check()
+    assert rep.errors == [], rep.errors
+    o["iucn"] = None
+    assert ds.check().errors == []
+
+
+@pytest.mark.parametrize("field,value", [
+    ("synonyms", "Bacterium coli"), ("refs", [{"title": "a", "url": "https://x.org"}]),
+    ("refs", [{"title": "a", "url": "https://x.org", "accessed": "14/11/2026"}]),
+    ("iucn", {"category": "XX", "url": "https://x.org", "assessed": "2020"}), ("authority", 5),
+    ("extra_th", {"life": "ไม่ใช่ตาราง"}), ("extra_th", {"unknown_key": "x"}), ("extra_th", {"disease": {"cure": "x"}}),
+])
+def test_new_fields_with_bad_shape_are_schema_errors(ds, field, value):
+    ds.files["bacteria"][0][field] = value
+    assert "SCHEMA" in error_codes(ds.check())
+
+
+@pytest.mark.parametrize("url", ["http://example.org/a", "ftp://example.org/a", "example.org/a"])
+def test_ref_url_must_be_https(ds, url):
+    ds.files["bacteria"][0]["refs"] = [{"title": "a", "url": url, "accessed": "2026-11-14"}]
+    assert "REF_URL" in error_codes(ds.check())
+
+
+def test_iucn_url_must_be_https(ds):
+    ds.files["bacteria"][0]["iucn"] = {"category": "LC", "url": "http://www.iucnredlist.org/x", "assessed": "2020"}
+    assert "REF_URL" in error_codes(ds.check())
+
+
+def test_disease_requires_medicine_tag(ds):
+    o = ds.files["bacteria"][0]
+    o["extra_th"] = {"disease": {"name": "โรค"}}
+    assert "DISEASE_NO_MEDICINE_TAG" in error_codes(ds.check())
+    o["tags"] = ["science", "medicine"]
+    assert ds.check().errors == []
+    o["extra_en"] = {"disease": {"name": "Disease"}}
+    o["tags"] = ["science"]
+    assert "DISEASE_NO_MEDICINE_TAG" in error_codes(ds.check())
+
+
+@pytest.mark.parametrize("text", [
+    "กินวันละ 500 mg", "ขนาด 500mg", "50 g/kg", "ฉีด 2.5 ml", "วันละ 3 ครั้งต่อวัน", "3 times a day", "2 x per day", "1,000 MG",
+])
+def test_disease_text_with_dose_is_error(ds, text):
+    o = ds.files["bacteria"][0]
+    o["tags"] = ["medicine"]
+    o["extra_th"] = {"disease": {"drugs": text}}
+    assert "DISEASE_DOSE" in error_codes(ds.check())
+
+
+def test_disease_dose_is_checked_in_english_too(ds):
+    o = ds.files["bacteria"][0]
+    o["tags"] = ["medicine"]
+    o["extra_en"] = {"disease": {"drugs": "Take 250 mg"}}
+    assert "DISEASE_DOSE" in error_codes(ds.check())
+
+
+def test_disease_text_without_dose_is_fine(ds):
+    o = ds.files["bacteria"][0]
+    o["tags"] = ["medicine"]
+    o["extra_th"] = {"disease": {"symptoms": "ไข้สูง 3 วัน ปวดศีรษะ", "drugs": "ยาปฏิชีวนะกลุ่มกว้าง", "prevention": "ล้างมือ 20 วินาที"}}
+    assert ds.check().errors == []
+
+
+def test_accepted_name_must_differ_from_the_textbook_name(ds):
+    o = ds.files["bacteria"][0]
+    o["accepted_name"] = o["scientific_name"]
+    assert "ACCEPTED_NAME_SAME" in error_codes(ds.check())
+    o["accepted_name"] = "Escherichia vulgaris"
+    assert ds.check().errors == []
+
+
+def test_range_trait_accepts_min_max_unit(ds):
+    o = with_range(ds)
+    o["traits"]["temp"] = {"min": 30, "max": 45.5, "unit": "°C"}
+    assert ds.check().errors == []
+
+
+@pytest.mark.parametrize("value", [
+    {"min": 50, "max": 20, "unit": "°C"}, {"min": 20, "max": 50, "unit": "K"}, {"min": 20, "max": 50}, {"min": "20", "max": 50, "unit": "°C"},
+    {"min": 20, "max": 50, "unit": "°C", "extra": 1}, {"min": True, "max": 50, "unit": "°C"}, "warm",
+])
+def test_range_trait_with_bad_value_is_error(ds, value):
+    o = with_range(ds)
+    o["traits"]["temp"] = value
+    codes = error_codes(ds.check())
+    assert "TRAIT_RANGE" in codes or "TRAIT_VALUE" in codes or "TRAIT_KEY" in codes
+
+
+def test_object_value_for_a_non_range_trait_is_error(ds):
+    ds.files["bacteria"][0]["traits"]["shape"] = {"min": 1, "max": 2, "unit": "x"}
+    assert "TRAIT_RANGE" in error_codes(ds.check())
+
+
+OLD_FILTERS = {"shapeF", "gram", "oxy", "envF", "form", "diet", "vasc", "seed", "sym", "coel", "spine"}
+
+
+def test_real_groups_define_the_new_traits_and_their_filters():
+    root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+    doc = json.load(open(os.path.join(root, "groups.json"), encoding="utf-8"))
+    ranges = [(g["id"], t["key"]) for g in doc["groups"] for t in g["traits"] if t.get("type") == "range"]
+    assert ranges == [("archaea", "temp"), ("archaea", "ph"), ("archaea", "salinity")]
+    for g in doc["groups"]:
+        for fd in g["filters"]:
+            key = fd[0]
+            if key in doc["trait_values"] and key not in OLD_FILTERS:
+                assert key in doc["filter_en"] and set(doc["filter_en"][key][1]) == {o[0] for o in fd[2]}
+                assert {o[0] for o in fd[2]} == set(doc["trait_values"][key])
+    for vals in doc["trait_values"].values():
+        for v in vals.values():
+            assert v["th"].strip() and v["en"].strip()
+
+
+def test_sample_species_fixture_is_valid_against_the_real_groups_and_taxa(tmp_path):
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data = tmp_path / "data"
+    shutil.copytree(os.path.join(root, "data"), str(data))
+    sample = json.load(open(os.path.join(root, "tests", "fixtures", "sample-species.json"), encoding="utf-8"))
+    sample.pop("_comment")
+    f = data / "organisms" / "archaea.json"
+    items = json.load(open(f, encoding="utf-8"))
+    items.append(sample)
+    json.dump(items, open(f, "w", encoding="utf-8"), ensure_ascii=False)
+    rep = ms.validate_data(str(data))
+    assert rep.errors == [] and rep.warnings == []
+    rows, _ = ms.content_coverage_data(str(data))
+    archaea = next(r for r in rows if r["id"] == "archaea")
+    assert all(archaea[lang][k] >= 1 for lang in ("th", "en") for k, _ in ms.CONTENT_SECTIONS)

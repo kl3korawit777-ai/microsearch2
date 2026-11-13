@@ -93,6 +93,31 @@
           "key": "home",
           "th": "แหล่งที่อยู่",
           "en": "Habitat"
+        },
+        {
+          "key": "arrange",
+          "th": "การเรียงตัวของเซลล์",
+          "en": "Cell arrangement"
+        },
+        {
+          "key": "endospore",
+          "th": "เอนโดสปอร์",
+          "en": "Endospore"
+        },
+        {
+          "key": "motility",
+          "th": "การเคลื่อนที่",
+          "en": "Motility"
+        },
+        {
+          "key": "energy",
+          "th": "แหล่งพลังงานและคาร์บอน",
+          "en": "Energy and carbon source"
+        },
+        {
+          "key": "topt",
+          "th": "อุณหภูมิที่เหมาะ",
+          "en": "Optimum temperature"
         }
       ],
       "filters": [
@@ -155,6 +180,112 @@
             [
               "ana",
               "ไม่ใช้"
+            ]
+          ]
+        ],
+        [
+          "arrange",
+          "การเรียงตัวของเซลล์",
+          [
+            [
+              "single",
+              "เซลล์เดี่ยว"
+            ],
+            [
+              "pair",
+              "เรียงเป็นคู่"
+            ],
+            [
+              "chain",
+              "เรียงเป็นสาย"
+            ],
+            [
+              "cluster",
+              "เป็นกลุ่มก้อน"
+            ],
+            [
+              "packet",
+              "เป็นกลุ่มสี่หรือลูกบาศก์"
+            ]
+          ]
+        ],
+        [
+          "endospore",
+          "เอนโดสปอร์",
+          [
+            [
+              "yes",
+              "สร้างเอนโดสปอร์"
+            ],
+            [
+              "no",
+              "ไม่สร้าง"
+            ]
+          ]
+        ],
+        [
+          "motility",
+          "การเคลื่อนที่",
+          [
+            [
+              "none",
+              "ไม่เคลื่อนที่"
+            ],
+            [
+              "flagella",
+              "แฟลเจลลัม"
+            ],
+            [
+              "gliding",
+              "เลื้อยไถล"
+            ],
+            [
+              "axial",
+              "เส้นใยแกนในช่องเพอริพลาสม"
+            ]
+          ]
+        ],
+        [
+          "energy",
+          "แหล่งพลังงานและคาร์บอน",
+          [
+            [
+              "photoauto",
+              "แสงและ CO₂"
+            ],
+            [
+              "photohetero",
+              "แสงและสารอินทรีย์"
+            ],
+            [
+              "chemoauto",
+              "สารอนินทรีย์และ CO₂"
+            ],
+            [
+              "chemohetero",
+              "สารอินทรีย์"
+            ]
+          ]
+        ],
+        [
+          "topt",
+          "อุณหภูมิที่เหมาะ",
+          [
+            [
+              "psychro",
+              "ต่ำกว่า 20 °C"
+            ],
+            [
+              "meso",
+              "20 ถึง 45 °C"
+            ],
+            [
+              "thermo",
+              "45 ถึง 80 °C"
+            ],
+            [
+              "hyper",
+              "สูงกว่า 80 °C"
             ]
           ]
         ]
@@ -249,6 +380,37 @@
           "key": "home",
           "th": "แหล่งที่อยู่",
           "en": "Habitat"
+        },
+        {
+          "key": "metab",
+          "th": "กลุ่มเมแทบอลิซึม",
+          "en": "Metabolic group"
+        },
+        {
+          "key": "wall",
+          "th": "ผนังเซลล์",
+          "en": "Cell wall"
+        },
+        {
+          "key": "temp",
+          "th": "อุณหภูมิที่เติบโตได้",
+          "en": "Growth temperature",
+          "type": "range",
+          "unit": "°C"
+        },
+        {
+          "key": "ph",
+          "th": "ช่วง pH",
+          "en": "pH range",
+          "type": "range",
+          "unit": "pH"
+        },
+        {
+          "key": "salinity",
+          "th": "ความเค็ม (NaCl)",
+          "en": "Salinity (NaCl)",
+          "type": "range",
+          "unit": "% NaCl"
         }
       ],
       "filters": [
@@ -285,6 +447,54 @@
             [
               "ana",
               "ไม่ใช้"
+            ]
+          ]
+        ],
+        [
+          "metab",
+          "กลุ่มเมแทบอลิซึม",
+          [
+            [
+              "methano",
+              "สร้างมีเทน"
+            ],
+            [
+              "halo",
+              "ย่อยสารอินทรีย์ในน้ำเค็มจัด"
+            ],
+            [
+              "sulfur",
+              "ใช้กำมะถัน"
+            ],
+            [
+              "ammonia",
+              "ออกซิไดส์แอมโมเนีย"
+            ],
+            [
+              "hetero",
+              "ย่อยสารอินทรีย์"
+            ]
+          ]
+        ],
+        [
+          "wall",
+          "ผนังเซลล์",
+          [
+            [
+              "slayer",
+              "ชั้นโปรตีนหรือไกลโคโปรตีน S-layer"
+            ],
+            [
+              "pseudomurein",
+              "ซูโดมูเรอีน"
+            ],
+            [
+              "none",
+              "ไม่มีผนังเซลล์"
+            ],
+            [
+              "other",
+              "แบบอื่น"
             ]
           ]
         ]
@@ -378,6 +588,31 @@
           "key": "home",
           "th": "แหล่งที่อยู่",
           "en": "Habitat"
+        },
+        {
+          "key": "hyphae",
+          "th": "เส้นใย",
+          "en": "Hyphae"
+        },
+        {
+          "key": "fmode",
+          "th": "การได้อาหาร",
+          "en": "Mode of feeding"
+        },
+        {
+          "key": "sexspore",
+          "th": "สปอร์อาศัยเพศ",
+          "en": "Sexual spores"
+        },
+        {
+          "key": "asexspore",
+          "th": "สปอร์ไม่อาศัยเพศ",
+          "en": "Asexual spores"
+        },
+        {
+          "key": "safety",
+          "th": "กินได้หรือมีพิษ",
+          "en": "Edible or poisonous"
         }
       ],
       "filters": [
@@ -400,6 +635,108 @@
             [
               "chytrid",
               "ไคทริด"
+            ]
+          ]
+        ],
+        [
+          "hyphae",
+          "เส้นใย",
+          [
+            [
+              "septate",
+              "มีผนังกั้น"
+            ],
+            [
+              "coenocytic",
+              "ไม่มีผนังกั้น"
+            ],
+            [
+              "nohyphae",
+              "ไม่สร้างเส้นใยเป็นหลัก"
+            ]
+          ]
+        ],
+        [
+          "fmode",
+          "การได้อาหาร",
+          [
+            [
+              "saprotroph",
+              "ย่อยสลาย"
+            ],
+            [
+              "parasite",
+              "ปรสิต"
+            ],
+            [
+              "symbiont",
+              "อยู่ร่วมกับสิ่งมีชีวิตอื่น"
+            ]
+          ]
+        ],
+        [
+          "sexspore",
+          "สปอร์อาศัยเพศ",
+          [
+            [
+              "zygospore",
+              "ไซโกสปอร์"
+            ],
+            [
+              "ascospore",
+              "แอสโคสปอร์"
+            ],
+            [
+              "basidiospore",
+              "เบสิดิโอสปอร์"
+            ],
+            [
+              "none",
+              "ไม่พบระยะอาศัยเพศ"
+            ]
+          ]
+        ],
+        [
+          "asexspore",
+          "สปอร์ไม่อาศัยเพศ",
+          [
+            [
+              "sporangio",
+              "สปอร์ในสปอรังเจียม"
+            ],
+            [
+              "conidia",
+              "โคนิเดีย"
+            ],
+            [
+              "budding",
+              "แตกหน่อ"
+            ],
+            [
+              "zoospore",
+              "ซูสปอร์ที่มีแฟลเจลลัม"
+            ],
+            [
+              "none",
+              "ไม่มี"
+            ]
+          ]
+        ],
+        [
+          "safety",
+          "กินได้หรือมีพิษ",
+          [
+            [
+              "edible",
+              "กินได้"
+            ],
+            [
+              "toxic",
+              "มีพิษ"
+            ],
+            [
+              "na",
+              "ไม่เกี่ยวข้อง (ไม่ใช่เห็ด)"
             ]
           ]
         ]
@@ -481,6 +818,31 @@
           "key": "home",
           "th": "แหล่งที่อยู่",
           "en": "Habitat"
+        },
+        {
+          "key": "cells",
+          "th": "จำนวนเซลล์",
+          "en": "Number of cells"
+        },
+        {
+          "key": "pigment",
+          "th": "รงควัตถุ",
+          "en": "Pigments"
+        },
+        {
+          "key": "storage",
+          "th": "อาหารสะสม",
+          "en": "Storage product"
+        },
+        {
+          "key": "phost",
+          "th": "โฮสต์",
+          "en": "Host"
+        },
+        {
+          "key": "vector",
+          "th": "พาหะ",
+          "en": "Vector"
         }
       ],
       "filters": [
@@ -503,6 +865,120 @@
             [
               "parasite",
               "ปรสิต"
+            ]
+          ]
+        ],
+        [
+          "cells",
+          "จำนวนเซลล์",
+          [
+            [
+              "uni",
+              "เซลล์เดียว"
+            ],
+            [
+              "colony",
+              "โคโลนี"
+            ],
+            [
+              "multi",
+              "หลายเซลล์"
+            ]
+          ]
+        ],
+        [
+          "pigment",
+          "รงควัตถุ",
+          [
+            [
+              "chlab",
+              "คลอโรฟิลล์ a และ b"
+            ],
+            [
+              "chlac",
+              "คลอโรฟิลล์ a และ c"
+            ],
+            [
+              "phyco",
+              "ไฟโคบิลิน"
+            ],
+            [
+              "none",
+              "ไม่มีรงควัตถุสังเคราะห์แสง"
+            ]
+          ]
+        ],
+        [
+          "storage",
+          "อาหารสะสม",
+          [
+            [
+              "starch",
+              "แป้ง"
+            ],
+            [
+              "floridean",
+              "แป้งฟลอริเดียน"
+            ],
+            [
+              "laminarin",
+              "ลามินาริน"
+            ],
+            [
+              "paramylon",
+              "พาราไมลอน"
+            ],
+            [
+              "oil",
+              "น้ำมันหรือไขมัน"
+            ]
+          ]
+        ],
+        [
+          "phost",
+          "โฮสต์",
+          [
+            [
+              "human",
+              "คน"
+            ],
+            [
+              "animal",
+              "สัตว์อื่น"
+            ],
+            [
+              "plant",
+              "พืช"
+            ],
+            [
+              "free",
+              "อยู่อิสระ"
+            ]
+          ]
+        ],
+        [
+          "vector",
+          "พาหะ",
+          [
+            [
+              "mosquito",
+              "ยุง"
+            ],
+            [
+              "fly",
+              "แมลงวันหรือริ้น"
+            ],
+            [
+              "bug",
+              "แมลงดูดเลือดชนิดอื่น"
+            ],
+            [
+              "direct",
+              "ติดต่อโดยตรง (น้ำ อาหาร สัมผัส)"
+            ],
+            [
+              "none",
+              "ไม่มีพาหะ"
             ]
           ]
         ]
@@ -621,6 +1097,26 @@
           "key": "home",
           "th": "แหล่งที่อยู่",
           "en": "Habitat"
+        },
+        {
+          "key": "cotyledon",
+          "th": "ใบเลี้ยง",
+          "en": "Cotyledons"
+        },
+        {
+          "key": "carbon",
+          "th": "การตรึง CO₂",
+          "en": "Carbon fixation"
+        },
+        {
+          "key": "habit",
+          "th": "วิสัย",
+          "en": "Growth habit"
+        },
+        {
+          "key": "origin",
+          "th": "ถิ่นกำเนิด",
+          "en": "Native region"
         }
       ],
       "filters": [
@@ -653,6 +1149,102 @@
             [
               "covered",
               "เมล็ดมีผนังหุ้ม"
+            ]
+          ]
+        ],
+        [
+          "cotyledon",
+          "ใบเลี้ยง",
+          [
+            [
+              "mono",
+              "ใบเลี้ยงเดี่ยว"
+            ],
+            [
+              "dicot",
+              "ใบเลี้ยงคู่"
+            ],
+            [
+              "na",
+              "ไม่ใช่พืชดอก"
+            ]
+          ]
+        ],
+        [
+          "carbon",
+          "การตรึง CO₂",
+          [
+            [
+              "c3",
+              "C3"
+            ],
+            [
+              "c4",
+              "C4"
+            ],
+            [
+              "cam",
+              "CAM"
+            ]
+          ]
+        ],
+        [
+          "habit",
+          "วิสัย",
+          [
+            [
+              "tree",
+              "ไม้ต้น"
+            ],
+            [
+              "shrub",
+              "ไม้พุ่ม"
+            ],
+            [
+              "herb",
+              "ไม้ล้มลุก"
+            ],
+            [
+              "vine",
+              "ไม้เลื้อย"
+            ],
+            [
+              "aquatic",
+              "พืชน้ำ"
+            ]
+          ]
+        ],
+        [
+          "origin",
+          "ถิ่นกำเนิด",
+          [
+            [
+              "asia",
+              "เอเชีย"
+            ],
+            [
+              "africa",
+              "แอฟริกา"
+            ],
+            [
+              "europe",
+              "ยุโรป"
+            ],
+            [
+              "namerica",
+              "อเมริกาเหนือ"
+            ],
+            [
+              "samerica",
+              "อเมริกาใต้"
+            ],
+            [
+              "oceania",
+              "ออสเตรเลียและโอเชียเนีย"
+            ],
+            [
+              "worldwide",
+              "ทั่วโลก"
             ]
           ]
         ]
@@ -772,6 +1364,26 @@
           "key": "home",
           "th": "แหล่งที่อยู่",
           "en": "Habitat"
+        },
+        {
+          "key": "devline",
+          "th": "สายการเจริญของตัวอ่อน",
+          "en": "Developmental lineage"
+        },
+        {
+          "key": "segment",
+          "th": "การแบ่งปล้อง",
+          "en": "Segmentation"
+        },
+        {
+          "key": "development",
+          "th": "การเจริญ",
+          "en": "Development"
+        },
+        {
+          "key": "realm",
+          "th": "แหล่งที่อยู่หลัก",
+          "en": "Main habitat"
         }
       ],
       "filters": [
@@ -822,6 +1434,82 @@
             [
               "no",
               "ไม่มี"
+            ]
+          ]
+        ],
+        [
+          "devline",
+          "สายการเจริญของตัวอ่อน",
+          [
+            [
+              "proto",
+              "โพรโทสโตม"
+            ],
+            [
+              "deutero",
+              "ดิวเทอโรสโตม"
+            ],
+            [
+              "na",
+              "ไม่จัดเข้าสายใด"
+            ]
+          ]
+        ],
+        [
+          "segment",
+          "การแบ่งปล้อง",
+          [
+            [
+              "yes",
+              "แบ่งเป็นปล้อง"
+            ],
+            [
+              "no",
+              "ไม่แบ่งปล้อง"
+            ]
+          ]
+        ],
+        [
+          "development",
+          "การเจริญ",
+          [
+            [
+              "direct",
+              "ไม่มีเมทามอร์โฟซิส"
+            ],
+            [
+              "incomplete",
+              "เมทามอร์โฟซิสแบบไม่สมบูรณ์"
+            ],
+            [
+              "complete",
+              "เมทามอร์โฟซิสแบบสมบูรณ์"
+            ],
+            [
+              "larval",
+              "มีระยะตัวอ่อนต่างจากตัวเต็มวัย"
+            ]
+          ]
+        ],
+        [
+          "realm",
+          "แหล่งที่อยู่หลัก",
+          [
+            [
+              "fresh",
+              "น้ำจืด"
+            ],
+            [
+              "marine",
+              "ทะเล"
+            ],
+            [
+              "land",
+              "บก"
+            ],
+            [
+              "mixed",
+              "หลายแหล่ง"
             ]
           ]
         ]
@@ -1030,6 +1718,448 @@
         "th": "ไม่มี",
         "en": "No"
       }
+    },
+    "arrange": {
+      "single": {
+        "th": "เซลล์เดี่ยว",
+        "en": "Single cells"
+      },
+      "pair": {
+        "th": "เรียงเป็นคู่",
+        "en": "Pairs"
+      },
+      "chain": {
+        "th": "เรียงเป็นสาย",
+        "en": "Chains"
+      },
+      "cluster": {
+        "th": "เป็นกลุ่มก้อน",
+        "en": "Clusters"
+      },
+      "packet": {
+        "th": "เป็นกลุ่มสี่หรือลูกบาศก์",
+        "en": "Tetrads or packets"
+      }
+    },
+    "endospore": {
+      "yes": {
+        "th": "สร้างเอนโดสปอร์",
+        "en": "Forms endospores"
+      },
+      "no": {
+        "th": "ไม่สร้าง",
+        "en": "Does not form"
+      }
+    },
+    "motility": {
+      "none": {
+        "th": "ไม่เคลื่อนที่",
+        "en": "Non-motile"
+      },
+      "flagella": {
+        "th": "แฟลเจลลัม",
+        "en": "Flagella"
+      },
+      "gliding": {
+        "th": "เลื้อยไถล",
+        "en": "Gliding"
+      },
+      "axial": {
+        "th": "เส้นใยแกนในช่องเพอริพลาสม",
+        "en": "Axial filaments"
+      }
+    },
+    "energy": {
+      "photoauto": {
+        "th": "แสงและ CO₂",
+        "en": "Light and CO₂ (photoautotroph)"
+      },
+      "photohetero": {
+        "th": "แสงและสารอินทรีย์",
+        "en": "Light and organic carbon (photoheterotroph)"
+      },
+      "chemoauto": {
+        "th": "สารอนินทรีย์และ CO₂",
+        "en": "Inorganic chemicals and CO₂ (chemoautotroph)"
+      },
+      "chemohetero": {
+        "th": "สารอินทรีย์",
+        "en": "Organic chemicals (chemoheterotroph)"
+      }
+    },
+    "topt": {
+      "psychro": {
+        "th": "ต่ำกว่า 20 °C",
+        "en": "Below 20 °C (psychrophile)"
+      },
+      "meso": {
+        "th": "20 ถึง 45 °C",
+        "en": "20 to 45 °C (mesophile)"
+      },
+      "thermo": {
+        "th": "45 ถึง 80 °C",
+        "en": "45 to 80 °C (thermophile)"
+      },
+      "hyper": {
+        "th": "สูงกว่า 80 °C",
+        "en": "Above 80 °C (hyperthermophile)"
+      }
+    },
+    "metab": {
+      "methano": {
+        "th": "สร้างมีเทน",
+        "en": "Methane producer (methanogen)"
+      },
+      "halo": {
+        "th": "ย่อยสารอินทรีย์ในน้ำเค็มจัด",
+        "en": "Organic matter in brine (haloarchaeon)"
+      },
+      "sulfur": {
+        "th": "ใช้กำมะถัน",
+        "en": "Sulfur metabolism"
+      },
+      "ammonia": {
+        "th": "ออกซิไดส์แอมโมเนีย",
+        "en": "Ammonia oxidiser"
+      },
+      "hetero": {
+        "th": "ย่อยสารอินทรีย์",
+        "en": "Organic matter (heterotroph)"
+      }
+    },
+    "wall": {
+      "slayer": {
+        "th": "ชั้นโปรตีนหรือไกลโคโปรตีน S-layer",
+        "en": "S-layer (protein or glycoprotein)"
+      },
+      "pseudomurein": {
+        "th": "ซูโดมูเรอีน",
+        "en": "Pseudomurein"
+      },
+      "none": {
+        "th": "ไม่มีผนังเซลล์",
+        "en": "No cell wall"
+      },
+      "other": {
+        "th": "แบบอื่น",
+        "en": "Other"
+      }
+    },
+    "hyphae": {
+      "septate": {
+        "th": "มีผนังกั้น",
+        "en": "Septate (with cross-walls)"
+      },
+      "coenocytic": {
+        "th": "ไม่มีผนังกั้น",
+        "en": "Coenocytic (no cross-walls)"
+      },
+      "nohyphae": {
+        "th": "ไม่สร้างเส้นใยเป็นหลัก",
+        "en": "Mostly no hyphae (yeast)"
+      }
+    },
+    "fmode": {
+      "saprotroph": {
+        "th": "ย่อยสลาย",
+        "en": "Decomposer"
+      },
+      "parasite": {
+        "th": "ปรสิต",
+        "en": "Parasite"
+      },
+      "symbiont": {
+        "th": "อยู่ร่วมกับสิ่งมีชีวิตอื่น",
+        "en": "Symbiont"
+      }
+    },
+    "sexspore": {
+      "zygospore": {
+        "th": "ไซโกสปอร์",
+        "en": "Zygospores"
+      },
+      "ascospore": {
+        "th": "แอสโคสปอร์",
+        "en": "Ascospores"
+      },
+      "basidiospore": {
+        "th": "เบสิดิโอสปอร์",
+        "en": "Basidiospores"
+      },
+      "none": {
+        "th": "ไม่พบระยะอาศัยเพศ",
+        "en": "No sexual stage known"
+      }
+    },
+    "asexspore": {
+      "sporangio": {
+        "th": "สปอร์ในสปอรังเจียม",
+        "en": "Sporangiospores"
+      },
+      "conidia": {
+        "th": "โคนิเดีย",
+        "en": "Conidia"
+      },
+      "budding": {
+        "th": "แตกหน่อ",
+        "en": "Budding"
+      },
+      "zoospore": {
+        "th": "ซูสปอร์ที่มีแฟลเจลลัม",
+        "en": "Flagellated zoospores"
+      },
+      "none": {
+        "th": "ไม่มี",
+        "en": "None"
+      }
+    },
+    "safety": {
+      "edible": {
+        "th": "กินได้",
+        "en": "Edible"
+      },
+      "toxic": {
+        "th": "มีพิษ",
+        "en": "Poisonous"
+      },
+      "na": {
+        "th": "ไม่เกี่ยวข้อง (ไม่ใช่เห็ด)",
+        "en": "Not applicable (not a mushroom)"
+      }
+    },
+    "cells": {
+      "uni": {
+        "th": "เซลล์เดียว",
+        "en": "Single cell"
+      },
+      "colony": {
+        "th": "โคโลนี",
+        "en": "Colony"
+      },
+      "multi": {
+        "th": "หลายเซลล์",
+        "en": "Multicellular"
+      }
+    },
+    "pigment": {
+      "chlab": {
+        "th": "คลอโรฟิลล์ a และ b",
+        "en": "Chlorophyll a and b"
+      },
+      "chlac": {
+        "th": "คลอโรฟิลล์ a และ c",
+        "en": "Chlorophyll a and c"
+      },
+      "phyco": {
+        "th": "ไฟโคบิลิน",
+        "en": "Phycobilins"
+      },
+      "none": {
+        "th": "ไม่มีรงควัตถุสังเคราะห์แสง",
+        "en": "No photosynthetic pigment"
+      }
+    },
+    "storage": {
+      "starch": {
+        "th": "แป้ง",
+        "en": "Starch"
+      },
+      "floridean": {
+        "th": "แป้งฟลอริเดียน",
+        "en": "Floridean starch"
+      },
+      "laminarin": {
+        "th": "ลามินาริน",
+        "en": "Laminarin"
+      },
+      "paramylon": {
+        "th": "พาราไมลอน",
+        "en": "Paramylon"
+      },
+      "oil": {
+        "th": "น้ำมันหรือไขมัน",
+        "en": "Oil or lipid"
+      }
+    },
+    "phost": {
+      "human": {
+        "th": "คน",
+        "en": "Humans"
+      },
+      "animal": {
+        "th": "สัตว์อื่น",
+        "en": "Other animals"
+      },
+      "plant": {
+        "th": "พืช",
+        "en": "Plants"
+      },
+      "free": {
+        "th": "อยู่อิสระ",
+        "en": "Free-living"
+      }
+    },
+    "vector": {
+      "mosquito": {
+        "th": "ยุง",
+        "en": "Mosquito"
+      },
+      "fly": {
+        "th": "แมลงวันหรือริ้น",
+        "en": "Flies or sandflies"
+      },
+      "bug": {
+        "th": "แมลงดูดเลือดชนิดอื่น",
+        "en": "Other blood-sucking bugs"
+      },
+      "direct": {
+        "th": "ติดต่อโดยตรง (น้ำ อาหาร สัมผัส)",
+        "en": "Direct (water, food, contact)"
+      },
+      "none": {
+        "th": "ไม่มีพาหะ",
+        "en": "No vector"
+      }
+    },
+    "cotyledon": {
+      "mono": {
+        "th": "ใบเลี้ยงเดี่ยว",
+        "en": "Monocot"
+      },
+      "dicot": {
+        "th": "ใบเลี้ยงคู่",
+        "en": "Dicot"
+      },
+      "na": {
+        "th": "ไม่ใช่พืชดอก",
+        "en": "Not a flowering plant"
+      }
+    },
+    "carbon": {
+      "c3": {
+        "th": "C3",
+        "en": "C3"
+      },
+      "c4": {
+        "th": "C4",
+        "en": "C4"
+      },
+      "cam": {
+        "th": "CAM",
+        "en": "CAM"
+      }
+    },
+    "habit": {
+      "tree": {
+        "th": "ไม้ต้น",
+        "en": "Tree"
+      },
+      "shrub": {
+        "th": "ไม้พุ่ม",
+        "en": "Shrub"
+      },
+      "herb": {
+        "th": "ไม้ล้มลุก",
+        "en": "Herb"
+      },
+      "vine": {
+        "th": "ไม้เลื้อย",
+        "en": "Vine or climber"
+      },
+      "aquatic": {
+        "th": "พืชน้ำ",
+        "en": "Aquatic plant"
+      }
+    },
+    "origin": {
+      "asia": {
+        "th": "เอเชีย",
+        "en": "Asia"
+      },
+      "africa": {
+        "th": "แอฟริกา",
+        "en": "Africa"
+      },
+      "europe": {
+        "th": "ยุโรป",
+        "en": "Europe"
+      },
+      "namerica": {
+        "th": "อเมริกาเหนือ",
+        "en": "North America"
+      },
+      "samerica": {
+        "th": "อเมริกาใต้",
+        "en": "South America"
+      },
+      "oceania": {
+        "th": "ออสเตรเลียและโอเชียเนีย",
+        "en": "Oceania"
+      },
+      "worldwide": {
+        "th": "ทั่วโลก",
+        "en": "Worldwide"
+      }
+    },
+    "devline": {
+      "proto": {
+        "th": "โพรโทสโตม",
+        "en": "Protostome"
+      },
+      "deutero": {
+        "th": "ดิวเทอโรสโตม",
+        "en": "Deuterostome"
+      },
+      "na": {
+        "th": "ไม่จัดเข้าสายใด",
+        "en": "Neither (basal groups)"
+      }
+    },
+    "segment": {
+      "yes": {
+        "th": "แบ่งเป็นปล้อง",
+        "en": "Segmented"
+      },
+      "no": {
+        "th": "ไม่แบ่งปล้อง",
+        "en": "Not segmented"
+      }
+    },
+    "development": {
+      "direct": {
+        "th": "ไม่มีเมทามอร์โฟซิส",
+        "en": "Direct (no metamorphosis)"
+      },
+      "incomplete": {
+        "th": "เมทามอร์โฟซิสแบบไม่สมบูรณ์",
+        "en": "Incomplete metamorphosis"
+      },
+      "complete": {
+        "th": "เมทามอร์โฟซิสแบบสมบูรณ์",
+        "en": "Complete metamorphosis"
+      },
+      "larval": {
+        "th": "มีระยะตัวอ่อนต่างจากตัวเต็มวัย",
+        "en": "Larval stage unlike the adult"
+      }
+    },
+    "realm": {
+      "fresh": {
+        "th": "น้ำจืด",
+        "en": "Freshwater"
+      },
+      "marine": {
+        "th": "ทะเล",
+        "en": "Marine"
+      },
+      "land": {
+        "th": "บก",
+        "en": "Land"
+      },
+      "mixed": {
+        "th": "หลายแหล่ง",
+        "en": "More than one"
+      }
     }
   },
   "filter_en": {
@@ -1121,6 +2251,229 @@
       {
         "yes": "Yes",
         "no": "No"
+      }
+    ],
+    "arrange": [
+      "Cell arrangement",
+      {
+        "single": "Single cells",
+        "pair": "Pairs",
+        "chain": "Chains",
+        "cluster": "Clusters",
+        "packet": "Tetrads or packets"
+      }
+    ],
+    "endospore": [
+      "Endospore",
+      {
+        "yes": "Forms endospores",
+        "no": "Does not form"
+      }
+    ],
+    "motility": [
+      "Motility",
+      {
+        "none": "Non-motile",
+        "flagella": "Flagella",
+        "gliding": "Gliding",
+        "axial": "Axial filaments"
+      }
+    ],
+    "energy": [
+      "Energy and carbon source",
+      {
+        "photoauto": "Light and CO₂ (photoautotroph)",
+        "photohetero": "Light and organic carbon (photoheterotroph)",
+        "chemoauto": "Inorganic chemicals and CO₂ (chemoautotroph)",
+        "chemohetero": "Organic chemicals (chemoheterotroph)"
+      }
+    ],
+    "topt": [
+      "Optimum temperature",
+      {
+        "psychro": "Below 20 °C (psychrophile)",
+        "meso": "20 to 45 °C (mesophile)",
+        "thermo": "45 to 80 °C (thermophile)",
+        "hyper": "Above 80 °C (hyperthermophile)"
+      }
+    ],
+    "metab": [
+      "Metabolic group",
+      {
+        "methano": "Methane producer (methanogen)",
+        "halo": "Organic matter in brine (haloarchaeon)",
+        "sulfur": "Sulfur metabolism",
+        "ammonia": "Ammonia oxidiser",
+        "hetero": "Organic matter (heterotroph)"
+      }
+    ],
+    "wall": [
+      "Cell wall",
+      {
+        "slayer": "S-layer (protein or glycoprotein)",
+        "pseudomurein": "Pseudomurein",
+        "none": "No cell wall",
+        "other": "Other"
+      }
+    ],
+    "hyphae": [
+      "Hyphae",
+      {
+        "septate": "Septate (with cross-walls)",
+        "coenocytic": "Coenocytic (no cross-walls)",
+        "nohyphae": "Mostly no hyphae (yeast)"
+      }
+    ],
+    "fmode": [
+      "Mode of feeding",
+      {
+        "saprotroph": "Decomposer",
+        "parasite": "Parasite",
+        "symbiont": "Symbiont"
+      }
+    ],
+    "sexspore": [
+      "Sexual spores",
+      {
+        "zygospore": "Zygospores",
+        "ascospore": "Ascospores",
+        "basidiospore": "Basidiospores",
+        "none": "No sexual stage known"
+      }
+    ],
+    "asexspore": [
+      "Asexual spores",
+      {
+        "sporangio": "Sporangiospores",
+        "conidia": "Conidia",
+        "budding": "Budding",
+        "zoospore": "Flagellated zoospores",
+        "none": "None"
+      }
+    ],
+    "safety": [
+      "Edible or poisonous",
+      {
+        "edible": "Edible",
+        "toxic": "Poisonous",
+        "na": "Not applicable (not a mushroom)"
+      }
+    ],
+    "cells": [
+      "Number of cells",
+      {
+        "uni": "Single cell",
+        "colony": "Colony",
+        "multi": "Multicellular"
+      }
+    ],
+    "pigment": [
+      "Pigments",
+      {
+        "chlab": "Chlorophyll a and b",
+        "chlac": "Chlorophyll a and c",
+        "phyco": "Phycobilins",
+        "none": "No photosynthetic pigment"
+      }
+    ],
+    "storage": [
+      "Storage product",
+      {
+        "starch": "Starch",
+        "floridean": "Floridean starch",
+        "laminarin": "Laminarin",
+        "paramylon": "Paramylon",
+        "oil": "Oil or lipid"
+      }
+    ],
+    "phost": [
+      "Host",
+      {
+        "human": "Humans",
+        "animal": "Other animals",
+        "plant": "Plants",
+        "free": "Free-living"
+      }
+    ],
+    "vector": [
+      "Vector",
+      {
+        "mosquito": "Mosquito",
+        "fly": "Flies or sandflies",
+        "bug": "Other blood-sucking bugs",
+        "direct": "Direct (water, food, contact)",
+        "none": "No vector"
+      }
+    ],
+    "cotyledon": [
+      "Cotyledons",
+      {
+        "mono": "Monocot",
+        "dicot": "Dicot",
+        "na": "Not a flowering plant"
+      }
+    ],
+    "carbon": [
+      "Carbon fixation",
+      {
+        "c3": "C3",
+        "c4": "C4",
+        "cam": "CAM"
+      }
+    ],
+    "habit": [
+      "Growth habit",
+      {
+        "tree": "Tree",
+        "shrub": "Shrub",
+        "herb": "Herb",
+        "vine": "Vine or climber",
+        "aquatic": "Aquatic plant"
+      }
+    ],
+    "origin": [
+      "Native region",
+      {
+        "asia": "Asia",
+        "africa": "Africa",
+        "europe": "Europe",
+        "namerica": "North America",
+        "samerica": "South America",
+        "oceania": "Oceania",
+        "worldwide": "Worldwide"
+      }
+    ],
+    "devline": [
+      "Developmental lineage",
+      {
+        "proto": "Protostome",
+        "deutero": "Deuterostome",
+        "na": "Neither (basal groups)"
+      }
+    ],
+    "segment": [
+      "Segmentation",
+      {
+        "yes": "Segmented",
+        "no": "Not segmented"
+      }
+    ],
+    "development": [
+      "Development",
+      {
+        "direct": "Direct (no metamorphosis)",
+        "incomplete": "Incomplete metamorphosis",
+        "complete": "Complete metamorphosis",
+        "larval": "Larval stage unlike the adult"
+      }
+    ],
+    "realm": [
+      "Main habitat",
+      {
+        "fresh": "Freshwater",
+        "marine": "Marine",
+        "land": "Land",
+        "mixed": "More than one"
       }
     ]
   },

@@ -189,6 +189,7 @@ def validate_data(data_dir=DATA, schema_dir=SCHEMA):
                 group_info[g["id"]] = {
                     "ranks": [rank_key(r["en"]) for r in g["ranks"]],
                     "traits": {t["key"] for t in g["traits"]},
+                    "ranges": {t["key"]: t.get("unit", "") for t in g["traits"] if t.get("type") == "range"},
                 }
 
     taxa_names = set()
@@ -288,8 +289,11 @@ def _check_organism(rep, o, rel, label, stem, group_info, trait_values, tag_keys
     traits = o.get("traits")
     if isinstance(traits, dict):
         for k, v in traits.items():
+            ranges = info["ranges"] if info is not None else {}
             if info is not None and k not in info["traits"]:
                 rep.error("TRAIT_KEY", rel, label, "traits.%s ไม่ใช่ลักษณะของกลุ่ม %s" % (k, gid))
+            elif k in ranges or isinstance(v, dict):
+                _check_range(rep, rel, label, k, v, ranges)
             elif k not in trait_values:
                 rep.error("TRAIT_KEY", rel, label, "traits.%s ไม่มีใน groups.json > trait_values" % k)
             elif isinstance(v, str) and v not in trait_values[k]:
@@ -318,6 +322,58 @@ def _check_organism(rep, o, rel, label, stem, group_info, trait_values, tag_keys
             rep.warn("EN_EMPTY_TRAITS_TEXT_EN", rel, label, "traits_text_en ยังว่าง: %s" % ", ".join(miss))
     if "extra_th" in o and "extra_en" not in o:
         rep.warn("EN_EMPTY_EXTRA_EN", rel, label, "มี extra_th แต่ไม่มี extra_en")
+    _check_research_fields(rep, o, rel, label, tag_keys)
+
+
+DOSE_RE = re.compile(r"\d[\d.,]*\s*(?:mg|g/kg|ml|ครั้ง\s*(?:ต่อ|/)\s*วัน|(?:times|x)\s*(?:a|per)\s*day)", re.I)
+
+
+def _strings(node):
+    if isinstance(node, str):
+        yield node
+    elif isinstance(node, dict):
+        for v in node.values():
+            yield from _strings(v)
+    elif isinstance(node, list):
+        for v in node:
+            yield from _strings(v)
+
+
+def _check_range(rep, rel, label, key, v, ranges):
+    """ลักษณะที่เป็นช่วงตัวเลข: {min, max, unit} min <= max และหน่วยตรงกับที่กำหนดใน groups.json"""
+    if key not in ranges:
+        rep.error("TRAIT_RANGE", rel, label, "traits.%s เป็นช่วงตัวเลข แต่ groups.json ไม่ได้กำหนดเป็น type range" % key)
+        return
+    ok = (isinstance(v, dict) and set(v) == {"min", "max", "unit"}
+          and all(_TYPE_CHECK["number"](v[x]) for x in ("min", "max")) and isinstance(v["unit"], str))
+    if not ok:
+        rep.error("TRAIT_RANGE", rel, label, "traits.%s ต้องเป็น {min, max, unit} ที่ min และ max เป็นตัวเลข" % key)
+    elif v["min"] > v["max"]:
+        rep.error("TRAIT_RANGE", rel, label, "traits.%s: min (%s) มากกว่า max (%s)" % (key, v["min"], v["max"]))
+    elif v["unit"] != ranges[key]:
+        rep.error("TRAIT_RANGE", rel, label, "traits.%s: หน่วย %r ไม่ตรงกับที่กำหนด %r" % (key, v["unit"], ranges[key]))
+
+
+def _check_research_fields(rep, o, rel, label, tag_keys):
+    """ช่องที่เพิ่มในแผนค้นคว้า v1.1: อ้างอิง https, โรคต้องมีแท็กการแพทย์, ไม่มีขนาดยา, ชื่อที่ยอมรับต้องต่างจากชื่อตำรา"""
+    for i, ref in enumerate(o.get("refs") or []):
+        if isinstance(ref, dict) and isinstance(ref.get("url"), str) and not ref["url"].startswith("https://"):
+            rep.error("REF_URL", rel, label, "refs[%d].url ต้องขึ้นต้นด้วย https:// (พบ %r)" % (i, ref["url"][:60]))
+    iucn = o.get("iucn")
+    if isinstance(iucn, dict) and isinstance(iucn.get("url"), str) and not iucn["url"].startswith("https://"):
+        rep.error("REF_URL", rel, label, "iucn.url ต้องขึ้นต้นด้วย https:// (พบ %r)" % iucn["url"][:60])
+    if o.get("accepted_name") and o["accepted_name"] == o.get("scientific_name"):
+        rep.error("ACCEPTED_NAME_SAME", rel, label, "accepted_name เหมือน scientific_name ให้ใส่เมื่อต่างกันเท่านั้น")
+    for lang in ("extra_th", "extra_en"):
+        ex = o.get(lang)
+        if not isinstance(ex, dict) or not ex.get("disease"):
+            continue
+        if "medicine" not in (o.get("tags") or []):
+            rep.error("DISEASE_NO_MEDICINE_TAG", rel, label, "%s.disease ต้องมีแท็ก medicine" % lang)
+        for text in _strings(ex["disease"]):
+            m = DOSE_RE.search(text)
+            if m:
+                rep.error("DISEASE_DOSE", rel, label, "%s.disease มีขนาดยาหรือความถี่การใช้ยา (%r) ห้ามใส่" % (lang, m.group(0)))
 
 
 WARN_TITLES = {
@@ -941,7 +997,82 @@ def build_coverage_report(data_dir=DATA):
     return "\n".join(L), tot
 
 
+
+# ความครบของเนื้อหา 8 ส่วนของหน้าชนิด (docs/content-spec.md) แยกไทย/อังกฤษ
+CONTENT_SECTIONS = [
+    ("title", "1 หัวเรื่อง"), ("lede", "2 รู้จักใน 30 วินาที"), ("traits", "3 ลักษณะเด่น"), ("life", "4 การดำรงชีวิต"),
+    ("lifecycle", "5 วงชีวิต"), ("why", "6 ความสำคัญ"), ("name", "7 ชื่อและเกร็ด"), ("refs", "8 อ้างอิง")]
+MIN_TRAIT_ROWS, MIN_REFS = 6, 2
+
+
+def organism_sections(o, lang):
+    """ส่วนที่ชนิดนี้มีแล้วในภาษา lang ('th' หรือ 'en') คืน {คีย์ส่วน: True/False}
+    หัวเรื่องและอ้างอิงไม่ขึ้นกับภาษา: หัวเรื่องมีเมื่อมี authority, อ้างอิงมีเมื่อมี >= MIN_REFS รายการ"""
+    ex = o.get("extra_" + lang) or {}
+    text = o.get("traits_text_" + lang) or {}
+    rows = len(o.get("traits") or {}) + sum(1 for v in text.values() if v) + len(ex.get("traitsExtra") or [])
+    return {
+        "title": bool((o.get("authority") or "").strip()),
+        "lede": bool((ex.get("lede") or "").strip()),
+        "traits": rows >= MIN_TRAIT_ROWS,
+        "life": bool(ex.get("life")),
+        "lifecycle": bool(ex.get("lifecycle")),
+        "why": bool(ex.get("why")),
+        "name": bool(ex.get("name")) and bool(ex.get("aside")),
+        "refs": len(o.get("refs") or []) >= MIN_REFS,
+    }
+
+
+def content_coverage_data(data_dir=DATA):
+    """คืน (แถวต่อกลุ่ม, แถวต่อชนิด) แถวต่อกลุ่ม: {id, species, th: {ส่วน: จำนวนชนิดที่มี}, en: {...}}"""
+    groups_doc = load_json(os.path.join(data_dir, "groups.json"))
+    orgs = load_organisms(data_dir)
+    per_org = [{"id": o["id"], "group": o["group"], "th": organism_sections(o, "th"), "en": organism_sections(o, "en")} for o in orgs]
+    rows = []
+    for g in groups_doc["groups"]:
+        mine = [x for x in per_org if x["group"] == g["id"]]
+        r = {"id": g["id"], "species": len(mine)}
+        for lang in ("th", "en"):
+            r[lang] = {k: sum(1 for x in mine if x[lang][k]) for k, _ in CONTENT_SECTIONS}
+        rows.append(r)
+    return rows, per_org
+
+
+def build_content_report(data_dir=DATA):
+    rows, per_org = content_coverage_data(data_dir)
+    names = dict(CONTENT_SECTIONS)
+    L = ["# ความครบของเนื้อหา 8 ส่วนของหน้าชนิด", "",
+         "สร้างจาก `python scripts/microsearch.py coverage` ตัวเลขคือ **จำนวนชนิดที่มีส่วนนั้นแล้ว** (เต็ม = จำนวนชนิดของกลุ่ม)", "",
+         "เกณฑ์ว่า \"มี\": ส่วน 1 มี `authority`; ส่วน 3 มีแถวลักษณะรวม >= %d (ลักษณะเลือก + ข้อความลักษณะ + `traitsExtra`); "
+         "ส่วน 7 ต้องมีทั้ง `name` และ `aside`; ส่วน 8 มี `refs` >= %d รายการ; ส่วนอื่นมีข้อมูลไม่ว่าง ส่วน 1 และ 8 ใช้ร่วมกันทั้งสองภาษา" % (MIN_TRAIT_ROWS, MIN_REFS), ""]
+    tot = {"species": 0, "th": Counter(), "en": Counter()}
+    for lang, title in (("th", "ภาษาไทย"), ("en", "ภาษาอังกฤษ")):
+        L += ["## ต่อกลุ่ม: %s" % title, "",
+              "| กลุ่ม | ชนิด | " + " | ".join(names[k] for k, _ in CONTENT_SECTIONS) + " |",
+              "| --- | --- | " + " | ".join("---" for _ in CONTENT_SECTIONS) + " |"]
+        for r in rows:
+            L.append("| %s | %d | " % (r["id"], r["species"]) + " | ".join(str(r[lang][k]) for k, _ in CONTENT_SECTIONS) + " |")
+            for k, _ in CONTENT_SECTIONS:
+                tot[lang][k] += r[lang][k]
+        n = sum(r["species"] for r in rows)
+        tot["species"] = n
+        L.append("| **รวม** | %d | " % n + " | ".join(str(tot[lang][k]) for k, _ in CONTENT_SECTIONS) + " |")
+        L.append("")
+    for lang, title in (("th", "ภาษาไทย"), ("en", "ภาษาอังกฤษ")):
+        L += ["## ต่อชนิด: %s" % title, "", "ตาราง: ✓ มีแล้ว, – ยังไม่มี", "",
+              "| ชนิด | " + " | ".join(k for k, _ in CONTENT_SECTIONS) + " |", "| --- | " + " | ".join("---" for _ in CONTENT_SECTIONS) + " |"]
+        for x in per_org:
+            L.append("| `%s` | " % x["id"] + " | ".join("✓" if x[lang][k] else "–" for k, _ in CONTENT_SECTIONS) + " |")
+        L.append("")
+    return "\n".join(L), tot
+
+
 def cmd_coverage(args):
+    content_text, content_tot = build_content_report(args.data)
+    content_out = args.content_out or os.path.join(os.path.dirname(args.out), "content-coverage.md")
+    os.makedirs(os.path.dirname(content_out), exist_ok=True)
+    with open(content_out, "w", encoding="utf-8", newline="\n") as f:
+        f.write(content_text)
     text, tot = build_coverage_report(args.data)
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8", newline="\n") as f:
@@ -952,6 +1083,9 @@ def cmd_coverage(args):
         print("  %-9s ชนิด %3d  ช่องว่าง %3d (summary_en %d, traits_text_en %d, extra_en %d)  name_en ว่าง %d" % (
             r["id"], r["species"], r["gaps"], r["summary_en"], r["traits_text_en"], r["extra_en"], r["name_en_empty"]))
     print("รวมช่องอังกฤษที่ยังว่าง: %d" % tot["gaps"])
+    print("เขียน %s" % content_out)
+    for lang in ("th", "en"):
+        print("  เนื้อหา 8 ส่วน (%s): %s" % (lang, ", ".join("%s %d/%d" % (k, content_tot[lang][k], content_tot["species"]) for k, _ in CONTENT_SECTIONS)))
     return 0
 
 
@@ -1756,9 +1890,10 @@ def build_parser():
     s.add_argument("--cache", default=CACHE, help=argparse.SUPPRESS)
     s.add_argument("--images-dir", default=IMAGES_DIR, help=argparse.SUPPRESS)
     s.add_argument("--missing-report", default=os.path.join(REPORTS, "images-missing.md"), help=argparse.SUPPRESS)
-    s = sub.add_parser("coverage", help="นับช่องภาษาอังกฤษที่ยังว่างต่อกลุ่ม เขียน reports/coverage.md")
+    s = sub.add_parser("coverage", help="นับช่องภาษาอังกฤษที่ยังว่างและความครบของเนื้อหา 8 ส่วน เขียน reports/coverage.md และ reports/content-coverage.md")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--out", default=os.path.join(REPORTS, "coverage.md"), help=argparse.SUPPRESS)
+    s.add_argument("--content-out", default=None, help=argparse.SUPPRESS)
     s = sub.add_parser("build", help="validate แล้วสร้าง site/data/*.json (หยุดถ้ามี error)")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--out", default=SITE_DATA, help=argparse.SUPPRESS)

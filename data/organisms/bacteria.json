@@ -677,7 +677,8 @@
     "taxon_ids": {
       "gbif": 3218108,
       "ncbi": 118562
-    }
+    },
+    "accepted_name": "Limnospira platensis"
   },
   {
     "id": "nostoc-commune",

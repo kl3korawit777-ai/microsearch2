@@ -553,7 +553,8 @@
     "taxon_ids": {
       "gbif": 5259827,
       "ncbi": 5062
-    }
+    },
+    "accepted_name": "Aspergillus flavus"
   },
   {
     "id": "volvariella-volvacea",

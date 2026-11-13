@@ -1,0 +1,122 @@
+{
+  "_comment": "ชนิดสมมติสำหรับทดสอบหน้าชนิดที่ใส่ข้อมูลครบ 8 ส่วน ไม่อยู่ใน data/ และไม่ถูกเว็บจริงใช้ ข้อมูลทดสอบ e2e และ pytest นำไปเพิ่มในกลุ่มอาร์เคียของสำเนา data/ ชั่วคราว (tests/e2e/fixture.mjs)",
+  "id": "testium-exemplaris",
+  "group": "archaea",
+  "scientific_name": "Testium exemplaris",
+  "name_th": "เทสเทียม เอกเซมพลาริส",
+  "name_en": "Example test archaeon",
+  "reading_th": "เทสเทียม เอกเซมพลาริส",
+  "authority": "(Exemplar, 2000) Sample & Demo, 2010",
+  "synonyms": ["Fictum vetus", "Fictum antiquum"],
+  "accepted_name": "Testium novum",
+  "lineage": [
+    { "rank": "domain", "name": "Archaea" },
+    { "rank": "phylum", "name": "Euryarchaeota" },
+    { "rank": "class", "name": "Halobacteria" },
+    { "rank": "order", "name": "Halobacteriales" },
+    { "rank": "family", "name": "Halobacteriaceae" },
+    { "rank": "genus", "name": "Halobacterium" }
+  ],
+  "level": "uni",
+  "tags": ["ecology", "medicine", "science"],
+  "summary_th": "ชนิดสมมติสำหรับทดสอบหน้าที่ใส่ข้อมูลครบทุกส่วน",
+  "summary_en": "A made-up species used to test a page with every section filled in.",
+  "traits": {
+    "shape": "rod",
+    "env": "salt",
+    "oxy": "aer",
+    "metab": "halo",
+    "wall": "slayer",
+    "temp": { "min": 40, "max": 55, "unit": "°C" },
+    "ph": { "min": 6.5, "max": 7.5, "unit": "pH" },
+    "salinity": { "min": 15, "max": 30, "unit": "% NaCl" }
+  },
+  "traits_text_th": { "food": "ข้อมูลทดสอบ ใช้สารอินทรีย์", "home": "บ่อน้ำเค็มสมมติ" },
+  "traits_text_en": { "food": "Test data. Uses organic matter", "home": "An imaginary salt pond" },
+  "illustration": "halo",
+  "images": [],
+  "review": "ai_draft",
+  "taxon_ids": { "gbif": null, "ncbi": null },
+  "iucn": { "category": "LC", "url": "https://www.iucnredlist.org/", "assessed": "2020" },
+  "refs": [
+    { "title": "Test reference one", "url": "https://example.org/ref-1", "accessed": "2026-11-14" },
+    { "title": "Test reference two", "url": "https://example.org/ref-2", "accessed": "2026-11-14" },
+    { "title": "Test reference three", "url": "https://example.org/ref-3", "accessed": "2026-11-14" }
+  ],
+  "extra_th": {
+    "lede": "ชนิดสมมติที่ใช้ทดสอบหน้าชนิด มีข้อมูลครบทั้งแปดส่วน เพื่อดูว่าทุกส่วนแสดงถูกต้อง ไม่ใช่สิ่งมีชีวิตจริง",
+    "traitsExtra": [
+      ["แถวลักษณะเพิ่ม", "ข้อมูลทดสอบแถวที่หนึ่ง"],
+      ["แถวลักษณะเพิ่มอีกแถว", "ข้อมูลทดสอบแถวที่สอง"]
+    ],
+    "life": [
+      ["แหล่งที่อยู่", "บ่อน้ำเค็มสมมติที่ใช้ในการทดสอบ"],
+      ["การได้อาหาร", "ย่อยสารอินทรีย์สมมติ"],
+      ["ความสัมพันธ์", "อยู่ร่วมกับสิ่งมีชีวิตสมมติอื่น"]
+    ],
+    "lifecycle": [
+      ["ขั้นที่ 1", "เซลล์เจริญเติบโตในบ่อสมมติ"],
+      ["ขั้นที่ 2", "เซลล์แบ่งตัวเป็นสองเซลล์"]
+    ],
+    "why": [
+      ["นิเวศ", "ข้อมูลทดสอบเรื่องนิเวศ"],
+      ["การแพทย์", "ข้อมูลทดสอบเรื่องการแพทย์"],
+      ["วิทยาศาสตร์", "ข้อมูลทดสอบเรื่องงานวิจัย"]
+    ],
+    "name": [
+      ["Testium", "ชื่อสกุลสมมติ มาจากคำว่า test"],
+      ["exemplaris", "ชื่อชนิดสมมติ แปลว่า เป็นตัวอย่าง"]
+    ],
+    "asideTitle": "เกร็ดสมมติสำหรับทดสอบกล่อง",
+    "aside": ["เกร็ดทดสอบข้อที่หนึ่ง", "เกร็ดทดสอบข้อที่สอง", "เกร็ดทดสอบข้อที่สาม"],
+    "disease": {
+      "name": "โรคสมมติ",
+      "symptoms": "ไข้ ปวดศีรษะ อ่อนเพลีย",
+      "transmission": "ผ่านน้ำที่ปนเปื้อนสมมติ",
+      "prevention": "ล้างมือและดื่มน้ำสะอาด",
+      "drugs": "ยาต้านจุลชีพกลุ่มกว้าง"
+    },
+    "warning": {
+      "text": "ชนิดสมมตินี้ใช้ทดสอบกล่องคำเตือนเท่านั้น",
+      "myths": ["เข้าใจผิดว่าต้มแล้วปลอดภัยเสมอ", "เข้าใจผิดว่าสีสวยแปลว่ากินได้"]
+    }
+  },
+  "extra_en": {
+    "lede": "A made-up species used to test the species page. It has all eight sections filled in so every part can be checked. It is not a real organism.",
+    "traitsExtra": [
+      ["Extra trait row", "Test data, first row"],
+      ["Another extra trait row", "Test data, second row"]
+    ],
+    "life": [
+      ["Habitat", "The imaginary salt pond used for testing"],
+      ["Nutrition", "Breaks down imaginary organic matter"],
+      ["Relationships", "Lives alongside other imaginary organisms"]
+    ],
+    "lifecycle": [
+      ["Step 1", "The cell grows in the imaginary pond"],
+      ["Step 2", "The cell divides into two cells"]
+    ],
+    "why": [
+      ["Ecology", "Test data about ecology"],
+      ["Medicine", "Test data about medicine"],
+      ["Research", "Test data about research"]
+    ],
+    "name": [
+      ["Testium", "An imaginary genus name, from the word test"],
+      ["exemplaris", "An imaginary species name meaning serving as an example"]
+    ],
+    "asideTitle": "An imaginary fact for testing the box",
+    "aside": ["Test fact one", "Test fact two", "Test fact three"],
+    "disease": {
+      "name": "An imaginary disease",
+      "symptoms": "Fever, headache and tiredness",
+      "transmission": "Through imaginary contaminated water",
+      "prevention": "Wash hands and drink clean water",
+      "drugs": "Broad-spectrum antimicrobial drugs"
+    },
+    "warning": {
+      "text": "This imaginary species is only used to test the warning box",
+      "myths": ["Wrongly believing that boiling always makes it safe", "Wrongly believing that bright colours mean it can be eaten"]
+    }
+  }
+}

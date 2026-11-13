@@ -5,9 +5,10 @@
   "type": "module",
   "description": "Microsearch 2.0: ทดสอบหน้าเว็บ (e2e ด้วย puppeteer) ตัวเว็บเองเป็น static site ไม่ใช้ framework",
   "scripts": {
-    "test": "npm run test:pages && npm run test:diagram && npm run test:search && npm run test:offline",
+    "test": "npm run test:pages && npm run test:diagram && npm run test:search && npm run test:offline && npm run test:sample",
     "test:pages": "node tests/e2e/pages.mjs",
     "test:diagram": "node tests/e2e/diagram.mjs",
+    "test:sample": "node tests/e2e/sample.mjs",
     "test:search": "node tests/e2e/search.mjs",
     "screens": "node tests/e2e/screens.mjs",
     "test:offline": "node tests/e2e/offline.mjs",

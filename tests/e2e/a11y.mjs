@@ -3,6 +3,7 @@
 import puppeteer from 'puppeteer-core';
 import { join } from 'node:path';
 import { ROOT, buildSite, findChrome, serveSite, readJson } from './lib.mjs';
+import { FIXTURE_ID, withFixture } from './fixture.mjs';
 
 const failures = [];
 const notes = new Set();
@@ -10,7 +11,8 @@ let checks = 0;
 const ok = (cond, msg) => { checks++; if (!cond) failures.push(msg); };
 
 buildSite();
-const { server, base } = await serveSite();
+const fixtureSite = await withFixture(); // site copy that also has the made-up species with every content section
+const { server, base } = fixtureSite;
 const browser = await puppeteer.launch({ executablePath: findChrome(), headless: true, args: ['--no-sandbox', '--disable-gpu'] });
 const index = readJson('data/index.json');
 const withImg = index.find((s) => s.np) || index[0];
@@ -39,6 +41,9 @@ const PAGES = [
   ['species', withImg.id, null],
   ['species (halobacterium)', 'halobacterium-salinarum', async (p) => { await p.click('#tab-name'); }],
   ['species gallery', multiPhoto.id, async (p) => { await p.click('#galNext'); }],
+  ['species with all 8 sections', FIXTURE_ID, null],
+  ['species life tab', FIXTURE_ID, async (p) => { await p.click('#tab-life'); }],
+  ['group with new filters', 'archaea', async (p) => { await p.click('.opt[data-k="metab"]'); }],
   ['sources', 'sources', null],
 ];
 let axeRuns = 0;
@@ -174,7 +179,8 @@ async function focusIndicator(page) {
 
 await browser.close();
 server.close();
-console.log(`axe runs: ${axeRuns} (8 pages x light/dark x Thai/English), checks: ${checks}, failures: ${failures.length}`);
+fixtureSite.cleanup();
+console.log(`axe runs: ${axeRuns} (11 pages x light/dark x Thai/English), checks: ${checks}, failures: ${failures.length}`);
 if (notes.size) console.log(`axe notes (moderate/minor, not failing): ${notes.size}`);
 for (const n of [...notes].slice(0, 12)) console.log(`  note ${n}`);
 for (const f of failures.slice(0, 40)) console.log(`FAIL ${f}`);

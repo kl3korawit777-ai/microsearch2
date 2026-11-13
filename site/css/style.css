@@ -395,3 +395,30 @@ table.credits th[scope="row"]{width:auto;color:var(--ink)}
 .gal-thumb[aria-current="true"]{border-color:var(--g-dot);opacity:1}
 .gal-thumb img{width:100%;height:100%;object-fit:cover;display:block}
 .art-box.photo img{-webkit-user-drag:none;user-select:none}
+
+/* Species page: authority, synonyms, IUCN badge, disease and warning boxes, references */
+.sp-namerow{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px}
+.authority{font-family:var(--font-ui);font-style:normal;font-size:clamp(16px,2vw,24px);font-weight:400;color:var(--faint)}
+.sp-names{display:flex;flex-direction:column;gap:2px}
+.sp-names p{margin:0;font-size:16px;color:var(--muted)}
+.badge.iucn{border:1px solid var(--line);color:var(--ink);text-decoration:none}
+.badge.iucn .dot{width:10px;height:10px;border-radius:50%;background:var(--muted)}
+.badge.iucn[data-cat="LC"] .dot{background:#2E8B57}
+.badge.iucn[data-cat="NT"] .dot{background:#8DA93A}
+.badge.iucn[data-cat="VU"] .dot{background:#E0B020}
+.badge.iucn[data-cat="EN"] .dot{background:#E57A20}
+.badge.iucn[data-cat="CR"] .dot,.badge.iucn[data-cat="EW"] .dot,.badge.iucn[data-cat="EX"] .dot{background:#C0392B}
+.callout{margin:6px 0;padding:18px 22px;border-radius:14px;background:var(--surface);border:1px solid var(--line);border-left-width:5px}
+.callout h2{margin:0 0 6px;font-size:18px;line-height:1.4;font-weight:600;color:var(--ink)}
+.callout h3{margin:12px 0 4px;font-size:15px;font-weight:600;color:var(--muted)}
+.callout p{margin:6px 0;font-size:16px;line-height:1.7}
+.callout ul{margin:4px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:16px;line-height:1.7}
+.callout dl.facts>div{padding:8px 0}
+.callout dl.facts dt{flex-basis:150px}
+.callout.disease{border-left-color:#3B7DD8}
+.callout.warning{border-left-color:#D9822B}
+.callout-note{font-size:14px!important;color:var(--muted)}
+h3.facts-h{margin:22px 0 0;font-size:16px;font-weight:600;color:var(--ink)}
+.refs ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.6}
+.refs a{overflow-wrap:anywhere}
+.ref-date{color:var(--muted);white-space:nowrap}

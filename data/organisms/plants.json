@@ -288,7 +288,8 @@
     "taxon_ids": {
       "gbif": 2688348,
       "ncbi": 73621
-    }
+    },
+    "accepted_name": "Palhinhaea cernua"
   },
   {
     "id": "psilotum-nudum",
@@ -2496,7 +2497,8 @@
     "taxon_ids": {
       "gbif": 5347845,
       "ncbi": 3888
-    }
+    },
+    "accepted_name": "Lathyrus oleraceus"
   },
   {
     "id": "hydrilla-verticillata",

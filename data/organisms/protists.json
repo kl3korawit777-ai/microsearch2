@@ -207,7 +207,8 @@
     "taxon_ids": {
       "gbif": 8635830,
       "ncbi": 5741
-    }
+    },
+    "accepted_name": "Giardia duodenalis"
   },
   {
     "id": "paramecium-caudatum",
@@ -753,7 +754,8 @@
     "taxon_ids": {
       "gbif": 3214606,
       "ncbi": 5791
-    }
+    },
+    "accepted_name": "Badhamia polycephala"
   },
   {
     "id": "noctiluca-scintillans",

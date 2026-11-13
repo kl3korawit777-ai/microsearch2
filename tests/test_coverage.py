@@ -54,3 +54,62 @@ def test_coverage_command_writes_report(tmp_path, capsys):
     text = open(out, encoding="utf-8").read()
     assert "| bacteria | 1 | 1 |" in text and "| protists | 1 | 0 |" in text and "escherichia-coli" in text
     assert "รวมช่องอังกฤษที่ยังว่าง: 1" in capsys.readouterr().out
+
+
+# ---------------------------------------------------------------- เนื้อหา 8 ส่วน
+
+def full_org(o):
+    o["authority"] = "Escherich, 1885"
+    o["traits"] = {"shape": "rod"}
+    o["traits_text_th"] = {"food": "a", "home": "b", "x": "c"}
+    o["traits_text_en"] = {"food": "a", "home": "b"}
+    o["refs"] = [{"title": "a", "url": "https://x.org/1", "accessed": "2026-11-14"}, {"title": "b", "url": "https://x.org/2", "accessed": "2026-11-14"}]
+    o["extra_th"] = {"lede": "x", "traitsExtra": [["a", "b"], ["c", "d"], ["e", "f"]], "life": [["a", "b"]], "lifecycle": [["a", "b"]],
+                     "why": [["a", "b"]], "name": [["a", "b"]], "aside": ["x"]}
+    return o
+
+
+def test_empty_organism_has_none_of_the_sections():
+    o = {"traits": {}, "traits_text_th": {}, "traits_text_en": {}}
+    assert not any(ms.organism_sections(o, "th").values()) and not any(ms.organism_sections(o, "en").values())
+
+
+def test_full_organism_has_all_sections_in_thai_and_title_refs_are_shared():
+    o = full_org({})
+    assert all(ms.organism_sections(o, "th").values())
+    en = ms.organism_sections(o, "en")   # ยังไม่มี extra_en: ส่วนข้อความว่าง ส่วนที่ไม่ขึ้นกับภาษาครบ
+    assert en["title"] and en["refs"] and not en["lede"] and not en["life"] and not en["name"]
+
+
+def test_sections_have_thresholds():
+    o = full_org({})
+    o["refs"] = o["refs"][:1]
+    o["extra_th"]["aside"] = []
+    o["extra_th"]["traitsExtra"] = [["a", "b"]]
+    got = ms.organism_sections(o, "th")
+    assert not got["refs"] and not got["name"] and not got["traits"]   # 1 อ้างอิง, ไม่มีเกร็ด, แถวลักษณะ 1+2+1 = 4 < 6
+    o["extra_th"]["lede"] = "  "
+    assert not ms.organism_sections(o, "th")["lede"]
+
+
+def test_content_coverage_counts_per_group_and_language(tmp_path):
+    ds = Dataset(str(tmp_path / "data"))
+    full_org(ds.files["bacteria"][0])
+    ds.write()
+    rows, per_org = ms.content_coverage_data(ds.root)
+    r = {x["id"]: x for x in rows}
+    assert r["bacteria"]["th"]["life"] == 1 and r["bacteria"]["en"]["life"] == 0 and r["bacteria"]["en"]["refs"] == 1
+    assert r["protists"]["th"]["life"] == 0 and r["protists"]["species"] == 1
+    assert [x["id"] for x in per_org] == ["escherichia-coli", "plasmodium-falciparum"]
+
+
+def test_coverage_command_also_writes_content_report_next_to_it(tmp_path, capsys):
+    ds = Dataset(str(tmp_path / "data"))
+    full_org(ds.files["bacteria"][0])
+    ds.write()
+    out = str(tmp_path / "reports" / "coverage.md")
+    args = ms.build_parser().parse_args(["coverage", "--data", ds.root, "--out", out])
+    assert ms.cmd_coverage(args) == 0
+    text = open(str(tmp_path / "reports" / "content-coverage.md"), encoding="utf-8").read()
+    assert "ภาษาไทย" in text and "ภาษาอังกฤษ" in text and "| `escherichia-coli` | ✓ |" in text and "| `plasmodium-falciparum` | – |" in text
+    assert "เนื้อหา 8 ส่วน (th)" in capsys.readouterr().out

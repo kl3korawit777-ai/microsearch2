@@ -16,6 +16,7 @@
 
 ```
 docs/plan.md              แผนและบันทึกการตัดสินใจ
+docs/content-research-plan.md  แผนค้นคว้าเนื้อหารายชนิด v1.1; content-spec.md สเปก 8 ส่วน; sources.md แหล่งข้อมูล
 design/prototype.html     ต้นแบบที่อนุมัติแล้ว (อ่านอย่างเดียว)
 seed/                     ข้อมูลตั้งต้นจากต้นแบบ (อ่านอย่างเดียว)
 schema/*.schema.json      JSON Schema ของ organism, taxon, groups
@@ -55,7 +56,8 @@ npm run test:search                                   # ชุดคำค้น
 npm run screens                                       # screenshot เทียบต้นแบบ 1440px/390px
 python scripts/microsearch.py images [--only id,..] [--redo]   # หารูปจาก Wikimedia Commons (ต้องมี Pillow) -> site/images + data/organisms
 python scripts/microsearch.py images --check         # ทุกรูปมีเครดิตครบ license เปิด ไฟล์ WebP <=500 KB และชนิดที่ไม่มีรูปอยู่ใน reports/images-missing.md
-python scripts/microsearch.py coverage                # ช่องอังกฤษที่ยังว่างต่อกลุ่ม -> reports/coverage.md
+python scripts/microsearch.py coverage                # ช่องอังกฤษที่ยังว่างต่อกลุ่ม -> reports/coverage.md และความครบ 8 ส่วนของหน้าชนิด (ไทย/อังกฤษ) -> reports/content-coverage.md
+npm run test:sample                                   # ชนิดทดสอบที่ใส่ครบ 8 ส่วน (tests/fixtures/sample-species.json) ทั้งสองภาษา ใช้สำเนาชั่วคราว ไม่แตะ data/
 npm run test:offline                                  # service worker: ตัดเน็ตแล้วเปิดทุกกลุ่ม/ชนิดได้ + อัปเดตเวอร์ชัน
 npm run test:a11y                                     # axe-core ทุกหน้า x สว่าง/มืด x ไทย/อังกฤษ + คีย์บอร์ด/focus/reduced-motion
 npm run test:lighthouse                               # Lighthouse มือถือ ทุกหมวด >=90 (LH_URL=... เพื่อวัดเว็บจริง)

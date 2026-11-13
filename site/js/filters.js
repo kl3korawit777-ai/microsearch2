@@ -5,6 +5,12 @@ import { G, getMeta } from './data.js';
 const FILTER_TRAIT = { shapeF: 'shape', envF: 'env' };
 const FILTER_MERGE = { shapeF: { curvedspiral: ['curved', 'spiral'] }, envF: { hot: ['hot', 'hotacid'] } };
 
+// Trait key behind a filter key
+export const filterTrait = (k) => FILTER_TRAIT[k] || k;
+
+// A filter is offered only when at least one species of the group has a value for its trait
+export const filterInUse = (fd, list) => list.some((s) => s.d?.traits?.[filterTrait(fd[0])] !== undefined);
+
 export const emptyFilters = (g) => {
   const f = { ph: -1, lv: '', tag: '', q: '' };
   for (const fd of g.filters || []) f[fd[0]] = '';

@@ -31,9 +31,16 @@ export const spCommon = (s) => (isEn() || !s.th || s.th === s.rd ? '' : s.th);
 // Name line under the scientific name: Thai reading in Thai mode, English name (if any) in English mode
 export const nameLine = (s) => (isEn() ? esc(s.en || '') : esc(spRd(s)));
 
+// Numeric range trait {min, max, unit}: "40–55 °C", "pH" values have no unit suffix (the row label already says pH)
+export const rangeText = (v) => {
+  const span = v.min === v.max ? `${v.min}` : `${v.min}–${v.max}`;
+  return v.unit && v.unit !== 'pH' ? `${span} ${v.unit}` : span;
+};
+
 // Value of one trait of a species: enumerated label from groups meta, otherwise free text from the detail file
 export function traitValue(s, key) {
   const v = s.d?.traits?.[key];
+  if (v !== undefined && typeof v === 'object') return esc(rangeText(v));
   if (v !== undefined) {
     const lab = getMeta().trait_values[key]?.[v];
     return lab ? esc(isEn() ? lab.en : lab.th) : esc(v);
@@ -46,6 +53,7 @@ export function traitValue(s, key) {
 // Plain-text version of a trait value, for filters and the compact row summary
 export function traitText(s, key) {
   const v = s.d?.traits?.[key];
+  if (v !== undefined && typeof v === 'object') return rangeText(v);
   if (v !== undefined) {
     const lab = getMeta().trait_values[key]?.[v];
     return lab ? (isEn() ? lab.en : lab.th) : v;

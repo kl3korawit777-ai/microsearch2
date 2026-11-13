@@ -1,5 +1,5 @@
 import { S } from '../state.js';
-import { readFilters, matchesFilter, anyFilter } from '../filters.js';
+import { readFilters, matchesFilter, anyFilter, filterInUse } from '../filters.js';
 import { T, loc } from '../i18n.js';
 import { esc } from '../util.js';
 import { G, inGroup, getMeta } from '../data.js';
@@ -27,7 +27,7 @@ export function viewGroup(gid, params) {
     `<div class="search"><label for="gQ" class="sr">${placeholder}</label>${searchIcon(18)}` +
     `<input id="gQ" type="search" autocomplete="off" data-act="fq" value="${esc(f.q)}" placeholder="${placeholder}"></div>`;
 
-  const sets = [['lv', T('level'), [['hs', T('lvHs')], ['uni', T('lvUni')]]]].concat(g.filters || [])
+  const sets = [['lv', T('level'), [['hs', T('lvHs')], ['uni', T('lvUni')]]]].concat((g.filters || []).filter((fd) => filterInUse(fd, all) || f[fd[0]]))
     .concat([['tag', T('importance'), getMeta().tags.map((t) => [t.key, isEn() ? t.en : t.th])]]);
   for (const fs of sets) {
     const fe = isEn() ? getMeta().filter_en[fs[0]] : null;
