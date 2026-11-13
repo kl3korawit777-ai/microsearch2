@@ -127,12 +127,13 @@ view.addEventListener('click', (e) => {
   else if (act === 'fclear') updateFilters((f) => { Object.assign(f, { ph: -1, lv: '', tag: '', q: '' }); for (const k of Object.keys(f)) if (!['ph', 'lv', 'tag', 'q'].includes(k)) f[k] = ''; });
   else if (act === 'row') S.open[path] = S.open[path] === v ? '' : v;
   else if (act === 'tab') S.tab = v;
+  else if (act === 'slide') S.slide[path] = +v;
   else if (act === 'dg') updateDiagram((st) => { st.dg = v; st.sel = ''; });
   else if (act === 'dgsel') { updateDiagram((st) => { st.sel = st.sel === v ? '' : v; }); scrollToPanel = true; }
   else return;
   const sel = `[data-act="${act}"]` + (v !== null ? `[data-v="${v.replace(/"/g, '\\"')}"]` : '') + (b.getAttribute('data-k') ? `[data-k="${b.getAttribute('data-k')}"]` : '');
   render(true).then(() => {
-    const again = (act === 'dgsel' && !parseHash().params.get('sel') ? null : view.querySelector(sel)) || view.querySelector(`[data-act="${act}"]`);
+    const again = (b.id && document.getElementById(b.id)) || (act === 'dgsel' && !parseHash().params.get('sel') ? null : view.querySelector(sel)) || view.querySelector(`[data-act="${act}"]`);
     if (again) again.focus({ preventScroll: true });
     if (scrollToPanel && parseHash().params.get('sel')) {
       const pnl = document.getElementById('dgPanel');
@@ -167,6 +168,12 @@ view.addEventListener('keydown', (e) => {
     }
     return;
   }
+  const gal = t.closest?.('[data-gallery]');
+  if (gal && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+    const btn = gal.querySelector(e.key === 'ArrowLeft' ? '#galPrev' : '#galNext');
+    if (btn) { e.preventDefault(); btn.click(); }
+    return;
+  }
   if (t.closest?.('.dg')) {
     if (e.key === 'Escape' && parseHash().params.get('sel')) {
       updateDiagram((st) => { st.sel = ''; });
@@ -177,6 +184,22 @@ view.addEventListener('keydown', (e) => {
     diagramKey(e);
   }
 });
+
+// swipe on the picture: a horizontal drag of at least 40 px moves to the next or previous picture
+let swipe = null;
+view.addEventListener('pointerdown', (e) => {
+  const box = e.target.closest?.('[data-gallery] .art-box');
+  swipe = box && !e.target.closest('button') ? { x: e.clientX, y: e.clientY } : null;
+});
+view.addEventListener('pointerup', (e) => {
+  if (!swipe) return;
+  const dx = e.clientX - swipe.x;
+  const dy = e.clientY - swipe.y;
+  swipe = null;
+  if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+  view.querySelector(dx < 0 ? '#galNext' : '#galPrev')?.click();
+});
+view.addEventListener('pointercancel', () => { swipe = null; });
 
 view.addEventListener('mouseover', (e) => trailHighlight(e, true));
 view.addEventListener('mouseout', (e) => trailHighlight(e, false));

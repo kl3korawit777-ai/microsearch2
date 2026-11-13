@@ -17,7 +17,7 @@ if (!external) {
   base = s.base;
 }
 const index = external ? await (await fetch(`${base}/data/index.json`)).json() : readJson('data/index.json');
-const withImg = index.find((s) => s.img) || index[0];
+const withImg = index.find((s) => s.np) || index[0];
 
 const PAGES = [
   ['home', '#home'],

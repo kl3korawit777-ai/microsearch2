@@ -56,6 +56,7 @@
     "images": [
       {
         "url": "images/halobacterium-salinarum/1.webp",
+        "url_small": "images/halobacterium-salinarum/1-600.webp",
         "author": "Helga Stan-Lotter and Sergiu Fendrihan. Photograph taken by Chris Frethem, University of Minnesota.",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -64,8 +65,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Halobacterium_salinarum_NRC-1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 600,
         "height": 740,
-        "kind": "micrograph",
-        "url_small": "images/halobacterium-salinarum/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/halobacterium-salinarum/2.webp",
+        "url_small": "images/halobacterium-salinarum/2-600.webp",
+        "author": "Helga Stan-Lotter and Sergiu Fendrihan. Photographs taken by Chris Frethem, University of Minnesota.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rod_and_sphere_forms_of_Halobacterium_salinarum_NRC-1.webp",
+        "title": "File:Rod and sphere forms of Halobacterium salinarum NRC-1.webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Rod_and_sphere_forms_of_Halobacterium_salinarum_NRC-1.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1120,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/halobacterium-salinarum/3.webp",
+        "url_small": "images/halobacterium-salinarum/3-600.webp",
+        "author": "Helga Stan-Lotter, Sergiu Fendrihan",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rod_and_sphere_forms_of_Halobacterium_salinarum_NRC-1_right.png",
+        "title": "File:Rod and sphere forms of Halobacterium salinarum NRC-1 right.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Rod_and_sphere_forms_of_Halobacterium_salinarum_NRC-1_right.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 573,
+        "height": 1178,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -235,6 +261,7 @@
     "images": [
       {
         "url": "images/methanobrevibacter-smithii/1.webp",
+        "url_small": "images/methanobrevibacter-smithii/1-600.webp",
         "author": "Viktoria Weinberger, Rokhsareh Mohammadzadeh, Marcus Blohs, Kerstin Kalt, Alexander Mahnert, Sarah Moser, Marina Cecovini, Polona Mertelj, Tamara Zurabishvili, Bhawna Arora, Jacqueline Wolf, Tejus Shinde, Tobias Madl, Hansjörg Habisch, Dagmar Kolb, Dominique Pernitsch, Kerstin Hingerl, William Metcalf and Christine Moissl-Eichinger",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -243,8 +270,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Methanobrevibacter_smithii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 500,
         "height": 380,
-        "kind": "micrograph",
-        "url_small": "images/methanobrevibacter-smithii/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/methanobrevibacter-smithii/2.webp",
+        "url_small": "images/methanobrevibacter-smithii/2-600.webp",
+        "author": "Viktoria Weinberger​, Rokhsareh Mohammadzadeh, Marcus Blohs​, Kerstin Kalt​, Alexander Mahnert​, Sarah Moser, Marina Cecovini​, Polona Mertelj​, Tamara Zurabishvili​, Bhawna Arora​, Jacqueline Wolf​, Tejus Shinde​, Tobias Madl, Hansjörg Habisch, Dagmar Kolb​, Dominique Pernitsch, Kerstin Hingerl​, William Metcalf​ and Christine Moissl-Eichinger",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:M._smithii.png",
+        "title": "File:M. smithii.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/M._smithii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 726,
+        "height": 543,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/methanobrevibacter-smithii/3.webp",
+        "url_small": "images/methanobrevibacter-smithii/3-600.webp",
+        "author": "Microvenator",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:M._smithii.jpg",
+        "title": "File:M. smithii.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/M._smithii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -310,6 +362,7 @@
     "images": [
       {
         "url": "images/pyrococcus-furiosus/1.webp",
+        "url_small": "images/pyrococcus-furiosus/1-600.webp",
         "author": "Servé Kengen",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -318,8 +371,20 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Coloured-scanning-electron-micrograph-of-Pyrococcus-furiosus-cells-Photograph-ANP.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 511,
         "height": 671,
-        "kind": "micrograph",
-        "url_small": "images/pyrococcus-furiosus/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/pyrococcus-furiosus/2.webp",
+        "url_small": "images/pyrococcus-furiosus/2-600.webp",
+        "author": "Shahid Khan and Jonathan M. Scholey",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D1%84%D1%96%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%96%D0%B2_%D0%B0%D1%80%D1%85%D0%B5%D0%BB%D1%83%D0%BC%D0%B0,_%D0%B4%D0%B6%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%B0_%D1%96_%D0%B2%D1%96%D0%B9%D0%BA%D0%B8.jpg",
+        "title": "File:Структура філаментів архелума, джгутика і війки.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D1%84%D1%96%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%96%D0%B2_%D0%B0%D1%80%D1%85%D0%B5%D0%BB%D1%83%D0%BC%D0%B0%2C_%D0%B4%D0%B6%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%B0_%D1%96_%D0%B2%D1%96%D0%B9%D0%BA%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -385,6 +450,7 @@
     "images": [
       {
         "url": "images/sulfolobus-acidocaldarius/1.webp",
+        "url_small": "images/sulfolobus-acidocaldarius/1-600.webp",
         "author": "Ag.archaea",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -393,8 +459,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/MW001-good_022-new.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1249,
-        "kind": "photo",
-        "url_small": "images/sulfolobus-acidocaldarius/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -459,6 +524,7 @@
     "images": [
       {
         "url": "images/nitrosopumilus-maritimus/1.webp",
+        "url_small": "images/nitrosopumilus-maritimus/1-600.webp",
         "author": "Yangkai Zhou, An Yan, Jiawen Yang, Wei He, Shuai Guo, Yifan Li, Jing Wu, Yanchao Dai, Xijiang Pan, Dongyu Cui, Olivier Pereira, Wenkai Teng, Ran Bi, Songze Chen, Lu Fan, Peiyi Wang, Yan Liao, Wei Qin, Sen-Fang Sui, Yuanqing Zhu, Chuanlun Zhang, Zheng Liu",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -467,8 +533,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Fmicb-15-1367658-g001E.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 705,
         "height": 485,
-        "kind": "photo",
-        "url_small": "images/nitrosopumilus-maritimus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/nitrosopumilus-maritimus/2.webp",
+        "url_small": "images/nitrosopumilus-maritimus/2-600.webp",
+        "author": "Yangkai Zhou, An Yan, Jiawen Yang, Wei He, Shuai Guo, Yifan Li, Jing Wu, Yanchao Dai, Xijiang Pan, Dongyu Cui, Olivier Pereira, Wenkai Teng, Ran Bi, Songze Chen, Lu Fan, Peiyi Wang, Yan Liao, Wei Qin, Sen-Fang Sui, Yuanqing Zhu, Chuanlun Zhang, Zheng Liu",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fmicb-15-1367658-g001.webp",
+        "title": "File:Fmicb-15-1367658-g001.webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fmicb-15-1367658-g001.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 796,
+        "kind": "photo"
+      },
+      {
+        "url": "images/nitrosopumilus-maritimus/3.webp",
+        "url_small": "images/nitrosopumilus-maritimus/3-600.webp",
+        "author": "Yangkai Zhou, An Yan, Jiawen Yang, Wei He, Shuai Guo, Yifan Li, Jing Wu, Yanchao Dai, Xijiang Pan, Dongyu Cui, Olivier Pereira, Wenkai Teng, Ran Bi, Songze Chen, Lu Fan, Peiyi Wang, Yan Liao, Wei Qin, Sen-Fang Sui, Yuanqing Zhu, Chuanlun Zhang, Zheng Liu",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fmicb-15-1367658-g002.webp",
+        "title": "File:Fmicb-15-1367658-g002.webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Fmicb-15-1367658-g002.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1167,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -534,6 +625,7 @@
     "images": [
       {
         "url": "images/methanosarcina-barkeri/1.webp",
+        "url_small": "images/methanosarcina-barkeri/1-600.webp",
         "author": "Microvenator",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -542,8 +634,20 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Methanosarcina_barkeri_MS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1006,
         "height": 755,
-        "kind": "photo",
-        "url_small": "images/methanosarcina-barkeri/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/methanosarcina-barkeri/2.webp",
+        "url_small": "images/methanosarcina-barkeri/2-600.webp",
+        "author": "Nanako Kanno, Shingo Kato, Takashi Itoh, Moriya Ohkuma, Shinsuke Shigeto",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ansa.202100042-Fig2-PDF-big_(Methanosarcina_barkeri).png",
+        "title": "File:Ansa.202100042-Fig2-PDF-big (Methanosarcina barkeri).png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ansa.202100042-Fig2-PDF-big_%28Methanosarcina_barkeri%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 709,
+        "height": 578,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -608,6 +712,7 @@
     "images": [
       {
         "url": "images/methanocaldococcus-jannaschii/1.webp",
+        "url_small": "images/methanocaldococcus-jannaschii/1-600.webp",
         "author": "Nanako Kanno, Shingo Kato, Takashi Itoh, Moriya Ohkuma, Shinsuke Shigeto",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -616,8 +721,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ansa.202100042-Fig2-PDF-big_%28Methanocaldococcus_jannaschii%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 711,
         "height": 576,
-        "kind": "micrograph",
-        "url_small": "images/methanocaldococcus-jannaschii/1-600.webp"
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -682,6 +786,7 @@
     "images": [
       {
         "url": "images/haloferax-volcanii/1.webp",
+        "url_small": "images/haloferax-volcanii/1-600.webp",
         "author": "Yejineun",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -690,8 +795,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Haloferax_volcanii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 695,
         "height": 518,
-        "kind": "micrograph",
-        "url_small": "images/haloferax-volcanii/1-600.webp"
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -756,6 +860,7 @@
     "images": [
       {
         "url": "images/thermoplasma-acidophilum/1.webp",
+        "url_small": "images/thermoplasma-acidophilum/1-600.webp",
         "author": "eLife - the journal",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
@@ -764,8 +869,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/2.8_%C3%85_resolution_reconstruction_of_the_Thermoplasma_acidophilum_20_S_proteasome_using_cryo-electron_microscopy_%2817975953294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 758,
-        "kind": "micrograph",
-        "url_small": "images/thermoplasma-acidophilum/1-600.webp"
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",

@@ -92,7 +92,7 @@
   "srcH3": "Content status",
   "srcP3": "Every Thai description was drafted by Claude and carries an “AI draft” label until a person has checked it.",
   "srcH4": "Images",
-  "srcP4": "Pictures come from Wikimedia Commons under open licences (CC0, CC BY, CC BY-SA or public domain), each credited with author, licence and source link under the picture. Species without a suitable picture use a simple drawing.",
+  "srcP4": "Pictures come from Wikimedia Commons, iNaturalist and GBIF under open licences (CC0, CC BY, CC BY-SA or public domain), each credited with author, licence and source link under the picture. Species without a suitable picture use a simple drawing.",
   "compareRows": [
     [
       "Cell type",
@@ -153,9 +153,15 @@
   "imgBy": "Photo:",
   "imgOn": "View the original on Wikimedia Commons",
   "imgCreditsH": "Image credits",
-  "imgCreditsP": "All {n} pictures come from Wikimedia Commons under open licences and have been resized. Species without a picture use a drawing.",
+  "imgCreditsP": "All {n} pictures come from Wikimedia Commons, iNaturalist and GBIF under open licences and have been resized. Species without a picture use a drawing.",
   "imgAuthor": "Author",
   "imgLicense": "Licence",
   "imgSource": "Original",
-  "skip": "Skip to content"
+  "skip": "Skip to content",
+  "imgPrev": "Previous picture",
+  "imgNext": "Next picture",
+  "imgPhotoN": "Picture {i} of {n}",
+  "imgGallery": "Pictures of this species",
+  "imgOnInat": "View the original on iNaturalist",
+  "imgOnGbif": "View the original on GBIF"
 }

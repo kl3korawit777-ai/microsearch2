@@ -62,6 +62,7 @@ async function open(page, hash) {
 }
 
 async function visit(page, hash) {
+  if (await page.evaluate((h) => location.hash === `#${h}`, hash)) return; // already there: no hashchange would fire
   await page.evaluate((h) => { document.documentElement.removeAttribute('data-ready'); location.hash = h; }, hash);
   await ready(page, hash);
 }
@@ -122,7 +123,7 @@ async function checkAllPages(lang, index, meta, credits) {
       ok((await count(page, '.ladder .step')) === g.ranks.length, `${tag}: ladder steps != ${g.ranks.length}`);
       ok((await count(page, '.badge.draft')) === 1, `${tag}: draft badge missing (review=ai_draft)`);
       ok((await count(page, '.sp-title .lv')) === 1, `${tag}: level badge missing`);
-      if (s.img) {
+      if (s.np) {
         await page.waitForFunction(() => { const i = document.querySelector('.art-box.photo img'); return !i || (i.complete && i.naturalWidth > 0); }, { timeout: 8000 }).catch(() => {});
         const pic = await page.$eval('.art-box.photo img', (i) => ({ ok: i.complete && i.naturalWidth > 0, src: i.getAttribute('src') })).catch(() => null);
         ok(pic && pic.ok && pic.src.startsWith(`images/${s.id}/`), `${tag}: photo missing or not loaded`);
@@ -189,6 +190,62 @@ async function interactions(index, meta) {
   await page.click('.ladder a.step:nth-child(1)');
   await ready(page, 'home');
   ok(/dg=archaea/.test(page.url()) && (await count(page, '.dg-node.sel')) === 1, 'ladder step opens the diagram with that name selected');
+
+  // photo gallery: switch with buttons, thumbnails, arrow keys and swipe; lists and previews keep the drawings
+  const multi = index.find((x) => x.np > 1);
+  const single = index.find((x) => x.np === 1);
+  const none = index.find((x) => !x.np);
+  if (multi) {
+    await visit(page, multi.id);
+    const state = () => page.evaluate(() => ({
+      count: document.querySelector('.gal-count')?.textContent.trim(),
+      src: document.querySelector('.art-box.photo img')?.getAttribute('src'),
+      credit: document.querySelector('figure.art figcaption a:last-child')?.getAttribute('href'),
+      current: [...document.querySelectorAll('.gal-thumb')].findIndex((b) => b.getAttribute('aria-current') === 'true'),
+      thumbs: document.querySelectorAll('.gal-thumb').length,
+    }));
+    const a = await state();
+    ok(a.count === `1 / ${multi.np}` && a.thumbs === multi.np && a.current === 0, `gallery starts at picture 1 of ${multi.np} (${JSON.stringify(a)})`);
+    await page.click('#galNext');
+    const b = await state();
+    ok(b.count === `2 / ${multi.np}` && b.src !== a.src && b.credit !== a.credit && b.current === 1, 'next button shows the next picture and its own credit');
+    ok(await page.evaluate(() => document.activeElement.id === 'galNext'), 'focus stays on the next button');
+    await page.keyboard.press('ArrowRight');
+    ok((await state()).current === 2 % multi.np, 'ArrowRight moves to the next picture');
+    await page.keyboard.press('ArrowLeft');
+    ok((await state()).current === 1, 'ArrowLeft moves back');
+    await page.click(`#galT${multi.np - 1}`);
+    ok((await state()).current === multi.np - 1, 'thumbnail jumps to that picture');
+    await page.click('#galNext');
+    ok((await state()).current === 0, 'next wraps from the last picture to the first');
+    await page.click('#galPrev');
+    ok((await state()).current === multi.np - 1, 'previous wraps from the first picture to the last');
+    const box = await page.$eval('.art-box.photo img', (e) => { const r = e.getBoundingClientRect(); return { x: r.x + r.width / 2, y: r.y + r.height / 2 }; });
+    const before = (await state()).current;
+    await page.mouse.move(box.x + 80, box.y);
+    await page.mouse.down();
+    await page.mouse.move(box.x - 80, box.y, { steps: 5 });
+    await page.mouse.up();
+    ok((await state()).current === (before + 1) % multi.np, 'swiping left shows the next picture');
+    await page.mouse.move(box.x - 80, box.y);
+    await page.mouse.down();
+    await page.mouse.move(box.x + 80, box.y, { steps: 5 });
+    await page.mouse.up();
+    ok((await state()).current === before, 'swiping right shows the previous picture');
+    ok((await count(page, '.thumb img')) === 0, 'species page lists use drawings, not photos');
+  }
+  if (single) {
+    await visit(page, single.id);
+    ok((await count(page, '.art-box.photo img')) === 1 && (await count(page, '.gal-btn')) === 0 && (await count(page, '.gal-thumbs')) === 0, 'one picture: no switcher');
+  }
+  if (none) {
+    await visit(page, none.id);
+    ok((await count(page, '.art-box.photo')) === 0 && (await count(page, '.art-box svg')) === 1, 'no picture: the drawing is shown');
+  }
+  await visit(page, 'bacteria');
+  ok((await count(page, '.rows .thumb svg')) === index.filter((x) => x.g === 'bacteria').length && (await count(page, '.rows .thumb img')) === 0, 'group list shows the drawings before opening a species');
+  await visit(page, 'home');
+  ok((await count(page, '.pv-art svg')) === 1 && (await count(page, '.pv-art img')) === 0, 'home preview shows a drawing');
 
   // site-wide search with Latin and Thai queries, keyboard selection
   await visit(page, 'home');

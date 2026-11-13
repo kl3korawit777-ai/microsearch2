@@ -70,6 +70,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/sphagnum-palustre/1-600.webp"
+      },
+      {
+        "url": "images/sphagnum-palustre/2.webp",
+        "url_small": "images/sphagnum-palustre/2-600.webp",
+        "author": "Helen Waterman",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/289771431",
+        "title": "iNaturalist photo 521217654",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/521217654/original.jpg",
+        "width": 1024,
+        "height": 945,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/sphagnum-palustre/3.webp",
+        "url_small": "images/sphagnum-palustre/3-600.webp",
+        "author": "Helen Waterman",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/289771431",
+        "title": "iNaturalist photo 521217500",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/521217500/original.jpg",
+        "width": 1014,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -148,6 +176,34 @@
         "height": 800,
         "kind": "photo",
         "url_small": "images/marchantia-polymorpha/1-600.webp"
+      },
+      {
+        "url": "images/marchantia-polymorpha/2.webp",
+        "url_small": "images/marchantia-polymorpha/2-600.webp",
+        "author": "Alex Abair",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/34275883",
+        "title": "iNaturalist photo 53920757",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53920757/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/marchantia-polymorpha/3.webp",
+        "url_small": "images/marchantia-polymorpha/3-600.webp",
+        "author": "Павлик Лисицын",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/64662480",
+        "title": "iNaturalist photo 103989793",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103989793/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -304,6 +360,34 @@
         "height": 1600,
         "kind": "photo",
         "url_small": "images/psilotum-nudum/1-600.webp"
+      },
+      {
+        "url": "images/psilotum-nudum/2.webp",
+        "url_small": "images/psilotum-nudum/2-600.webp",
+        "author": "Douglas Goldman",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/173746879",
+        "title": "iNaturalist photo 301768701",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301768701/original.jpg",
+        "width": 1024,
+        "height": 686,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/psilotum-nudum/3.webp",
+        "url_small": "images/psilotum-nudum/3-600.webp",
+        "author": "Linda Jo Conn",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/265909355",
+        "title": "iNaturalist photo 477709645",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477709645/original.jpeg",
+        "width": 1024,
+        "height": 899,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -383,6 +467,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/azolla-pinnata/1-600.webp"
+      },
+      {
+        "url": "images/azolla-pinnata/2.webp",
+        "url_small": "images/azolla-pinnata/2-600.webp",
+        "author": "Jared Shorma",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/379372060",
+        "title": "iNaturalist photo 693943890",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693943890/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/azolla-pinnata/3.webp",
+        "url_small": "images/azolla-pinnata/3-600.webp",
+        "author": "Jared Shorma",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/379372060",
+        "title": "iNaturalist photo 693943929",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693943929/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -461,6 +573,34 @@
         "height": 1920,
         "kind": "photo",
         "url_small": "images/cycas-siamensis/1-600.webp"
+      },
+      {
+        "url": "images/cycas-siamensis/2.webp",
+        "url_small": "images/cycas-siamensis/2-600.webp",
+        "author": "Forest Botial-Jarvis",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/164023092",
+        "title": "iNaturalist photo 283753545",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283753545/original.jpeg",
+        "width": 1024,
+        "height": 738,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/cycas-siamensis/3.webp",
+        "url_small": "images/cycas-siamensis/3-600.webp",
+        "author": "Oleg Kosterin",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/37782732",
+        "title": "iNaturalist photo 59967230",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59967230/original.jpg",
+        "width": 1024,
+        "height": 738,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -540,6 +680,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/ginkgo-biloba/1-600.webp"
+      },
+      {
+        "url": "images/ginkgo-biloba/2.webp",
+        "url_small": "images/ginkgo-biloba/2-600.webp",
+        "author": "Douglas Goldman",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/195302048",
+        "title": "iNaturalist photo 343545534",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343545534/original.jpg",
+        "width": 1024,
+        "height": 686,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/ginkgo-biloba/3.webp",
+        "url_small": "images/ginkgo-biloba/3-600.webp",
+        "author": "Douglas Goldman",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/195302048",
+        "title": "iNaturalist photo 343546021",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343546021/original.jpg",
+        "width": 686,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -619,6 +787,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/pinus-kesiya/1-600.webp"
+      },
+      {
+        "url": "images/pinus-kesiya/2.webp",
+        "url_small": "images/pinus-kesiya/2-600.webp",
+        "author": "Forest Botial-Jarvis",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/146260860",
+        "title": "iNaturalist photo 251409090",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251409090/original.jpg",
+        "width": 1024,
+        "height": 613,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/pinus-kesiya/3.webp",
+        "url_small": "images/pinus-kesiya/3-600.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/327672270",
+        "title": "iNaturalist photo 593672197",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593672197/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -697,6 +893,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/gnetum-gnemon/1-600.webp"
+      },
+      {
+        "url": "images/gnetum-gnemon/2.webp",
+        "url_small": "images/gnetum-gnemon/2-600.webp",
+        "author": "Cheongweei Gan",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/117821386",
+        "title": "iNaturalist photo 199017206",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199017206/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/gnetum-gnemon/3.webp",
+        "url_small": "images/gnetum-gnemon/3-600.webp",
+        "author": "Rejoice Gassah",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/29906350",
+        "title": "iNaturalist photo 46699799",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46699799/original.jpg",
+        "width": 1024,
+        "height": 816,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -776,6 +1000,34 @@
         "height": 811,
         "kind": "photo",
         "url_small": "images/oryza-sativa/1-600.webp"
+      },
+      {
+        "url": "images/oryza-sativa/2.webp",
+        "url_small": "images/oryza-sativa/2-600.webp",
+        "author": "Вячеслав Юсупов",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/190555486",
+        "title": "iNaturalist photo 334082084",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334082084/original.jpg",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/oryza-sativa/3.webp",
+        "url_small": "images/oryza-sativa/3-600.webp",
+        "author": "renjus box",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/151696732",
+        "title": "iNaturalist photo 261780709",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261780709/original.jpeg",
+        "width": 1024,
+        "height": 646,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -854,6 +1106,34 @@
         "height": 879,
         "kind": "photo",
         "url_small": "images/nelumbo-nucifera/1-600.webp"
+      },
+      {
+        "url": "images/nelumbo-nucifera/2.webp",
+        "url_small": "images/nelumbo-nucifera/2-600.webp",
+        "author": "Adrien Jailloux",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/336151407",
+        "title": "iNaturalist photo 610788907",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610788907/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/nelumbo-nucifera/3.webp",
+        "url_small": "images/nelumbo-nucifera/3-600.webp",
+        "author": "Oleg Kosterin",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/39273317",
+        "title": "iNaturalist photo 62287556",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62287556/original.jpeg",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -933,6 +1213,34 @@
         "height": 801,
         "kind": "photo",
         "url_small": "images/durio-zibethinus/1-600.webp"
+      },
+      {
+        "url": "images/durio-zibethinus/2.webp",
+        "url_small": "images/durio-zibethinus/2-600.webp",
+        "author": "Samuel Lee",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/110247889",
+        "title": "iNaturalist photo 185948218",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185948218/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/durio-zibethinus/3.webp",
+        "url_small": "images/durio-zibethinus/3-600.webp",
+        "author": "Abdul Hanif Arromy",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/375155569",
+        "title": "iNaturalist photo 685791056",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685791056/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1012,6 +1320,34 @@
         "height": 1600,
         "kind": "photo",
         "url_small": "images/hevea-brasiliensis/1-600.webp"
+      },
+      {
+        "url": "images/hevea-brasiliensis/2.webp",
+        "url_small": "images/hevea-brasiliensis/2-600.webp",
+        "author": "Ong Jyh Seng",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/19820325",
+        "title": "iNaturalist photo 30552279",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30552279/original.jpeg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/hevea-brasiliensis/3.webp",
+        "url_small": "images/hevea-brasiliensis/3-600.webp",
+        "author": "Ong Jyh Seng",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/19820325",
+        "title": "iNaturalist photo 30552373",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30552373/original.jpeg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1077,7 +1413,50 @@
       "home": "Damp soil along roads and streams"
     },
     "illustration": "horn",
-    "images": [],
+    "images": [
+      {
+        "url": "images/anthoceros-punctatus/1.webp",
+        "url_small": "images/anthoceros-punctatus/1-600.webp",
+        "author": "Em Lamond",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/182798373",
+        "title": "iNaturalist photo 318788147",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318788147/original.jpeg",
+        "width": 1024,
+        "height": 664,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/anthoceros-punctatus/2.webp",
+        "url_small": "images/anthoceros-punctatus/2-600.webp",
+        "author": "Em Lamond",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/182798373",
+        "title": "iNaturalist photo 318790246",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318790246/original.jpeg",
+        "width": 1024,
+        "height": 682,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/anthoceros-punctatus/3.webp",
+        "url_small": "images/anthoceros-punctatus/3-600.webp",
+        "author": "Jonathan Hughes",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/129398942",
+        "title": "iNaturalist photo 219896813",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219896813/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2689594,
@@ -1154,6 +1533,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/selaginella-involvens/1-600.webp"
+      },
+      {
+        "url": "images/selaginella-involvens/2.webp",
+        "url_small": "images/selaginella-involvens/2-600.webp",
+        "author": "Jacy Chen",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/130109553",
+        "title": "iNaturalist photo 221188244",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221188244/original.jpeg",
+        "width": 1024,
+        "height": 769,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/selaginella-involvens/3.webp",
+        "url_small": "images/selaginella-involvens/3-600.webp",
+        "author": "Jacy Chen",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/130109553",
+        "title": "iNaturalist photo 221188263",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221188263/original.jpeg",
+        "width": 1024,
+        "height": 769,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1310,6 +1717,34 @@
         "height": 801,
         "kind": "photo",
         "url_small": "images/diplazium-esculentum/1-600.webp"
+      },
+      {
+        "url": "images/diplazium-esculentum/2.webp",
+        "url_small": "images/diplazium-esculentum/2-600.webp",
+        "author": "葉子",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/29699144",
+        "title": "iNaturalist photo 46363584",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46363584/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/diplazium-esculentum/3.webp",
+        "url_small": "images/diplazium-esculentum/3-600.webp",
+        "author": "葉子",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/29699144",
+        "title": "iNaturalist photo 46363593",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46363593/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1389,6 +1824,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/zea-mays/1-600.webp"
+      },
+      {
+        "url": "images/zea-mays/2.webp",
+        "url_small": "images/zea-mays/2-600.webp",
+        "author": "Douglas Goldman",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/135832901",
+        "title": "iNaturalist photo 231734941",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231734941/original.jpg",
+        "width": 1024,
+        "height": 686,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/zea-mays/3.webp",
+        "url_small": "images/zea-mays/3-600.webp",
+        "author": "Oscar Alejandro Morales Juárez",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/256029677",
+        "title": "iNaturalist photo 458944004",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458944004/original.jpg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1467,6 +1930,34 @@
         "height": 862,
         "kind": "photo",
         "url_small": "images/mimosa-pudica/1-600.webp"
+      },
+      {
+        "url": "images/mimosa-pudica/2.webp",
+        "url_small": "images/mimosa-pudica/2-600.webp",
+        "author": "葉子",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/37063233",
+        "title": "iNaturalist photo 58693877",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58693877/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/mimosa-pudica/3.webp",
+        "url_small": "images/mimosa-pudica/3-600.webp",
+        "author": "葉子",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/37063233",
+        "title": "iNaturalist photo 58693879",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58693879/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1545,6 +2036,34 @@
         "height": 800,
         "kind": "photo",
         "url_small": "images/arabidopsis-thaliana/1-600.webp"
+      },
+      {
+        "url": "images/arabidopsis-thaliana/2.webp",
+        "url_small": "images/arabidopsis-thaliana/2-600.webp",
+        "author": "Saryu Mae 前 朝琉",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/252260772",
+        "title": "iNaturalist photo 451541530",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451541530/original.jpeg",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/arabidopsis-thaliana/3.webp",
+        "url_small": "images/arabidopsis-thaliana/3-600.webp",
+        "author": "Saryu Mae 前 朝琉",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/252260772",
+        "title": "iNaturalist photo 451541559",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451541559/original.jpeg",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1623,6 +2142,34 @@
         "height": 800,
         "kind": "photo",
         "url_small": "images/rafflesia-kerrii/1-600.webp"
+      },
+      {
+        "url": "images/rafflesia-kerrii/2.webp",
+        "url_small": "images/rafflesia-kerrii/2-600.webp",
+        "author": "Chris Oldnall",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/146746568",
+        "title": "iNaturalist photo 252366979",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252366979/original.jpeg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/rafflesia-kerrii/3.webp",
+        "url_small": "images/rafflesia-kerrii/3-600.webp",
+        "author": "Chris Oldnall",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/146746568",
+        "title": "iNaturalist photo 252367014",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252367014/original.jpeg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1701,6 +2248,34 @@
         "height": 801,
         "kind": "photo",
         "url_small": "images/welwitschia-mirabilis/1-600.webp"
+      },
+      {
+        "url": "images/welwitschia-mirabilis/2.webp",
+        "url_small": "images/welwitschia-mirabilis/2-600.webp",
+        "author": "dune_ninja",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/143059927",
+        "title": "iNaturalist photo 245331450",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245331450/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/welwitschia-mirabilis/3.webp",
+        "url_small": "images/welwitschia-mirabilis/3-600.webp",
+        "author": "dune_ninja",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/143059927",
+        "title": "iNaturalist photo 245331515",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245331515/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1780,6 +2355,34 @@
         "height": 798,
         "kind": "photo",
         "url_small": "images/allium-cepa/1-600.webp"
+      },
+      {
+        "url": "images/allium-cepa/2.webp",
+        "url_small": "images/allium-cepa/2-600.webp",
+        "author": "petitcrabe",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/198413599",
+        "title": "iNaturalist photo 349705823",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349705823/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/allium-cepa/3.webp",
+        "url_small": "images/allium-cepa/3-600.webp",
+        "author": "Nico Hernandez",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/218653067",
+        "title": "iNaturalist photo 386935031",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386935031/original.jpeg",
+        "width": 1024,
+        "height": 678,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1859,6 +2462,34 @@
         "height": 785,
         "kind": "photo",
         "url_small": "images/pisum-sativum/1-600.webp"
+      },
+      {
+        "url": "images/pisum-sativum/2.webp",
+        "url_small": "images/pisum-sativum/2-600.webp",
+        "author": "Andre Hosper",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/111025023",
+        "title": "iNaturalist photo 187398623",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187398623/original.jpg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/pisum-sativum/3.webp",
+        "url_small": "images/pisum-sativum/3-600.webp",
+        "author": "Силаева Татьяна Борисовна",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/308802494",
+        "title": "iNaturalist photo 557147621",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557147621/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1937,6 +2568,34 @@
         "height": 1800,
         "kind": "photo",
         "url_small": "images/hydrilla-verticillata/1-600.webp"
+      },
+      {
+        "url": "images/hydrilla-verticillata/2.webp",
+        "url_small": "images/hydrilla-verticillata/2-600.webp",
+        "author": "Cheng-Te Hsu",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/205835897",
+        "title": "iNaturalist photo 364001704",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364001704/original.jpeg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/hydrilla-verticillata/3.webp",
+        "url_small": "images/hydrilla-verticillata/3-600.webp",
+        "author": "Cheng-Te Hsu",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/205835897",
+        "title": "iNaturalist photo 364001727",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364001727/original.jpeg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -2016,6 +2675,34 @@
         "height": 1600,
         "kind": "photo",
         "url_small": "images/ananas-comosus/1-600.webp"
+      },
+      {
+        "url": "images/ananas-comosus/2.webp",
+        "url_small": "images/ananas-comosus/2-600.webp",
+        "author": "vitordematos12",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/143663967",
+        "title": "iNaturalist photo 246422077",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246422077/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/ananas-comosus/3.webp",
+        "url_small": "images/ananas-comosus/3-600.webp",
+        "author": "vitordematos12",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/143663967",
+        "title": "iNaturalist photo 246422090",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246422090/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -2095,6 +2782,34 @@
         "height": 1280,
         "kind": "photo",
         "url_small": "images/saccharum-officinarum/1-600.webp"
+      },
+      {
+        "url": "images/saccharum-officinarum/2.webp",
+        "url_small": "images/saccharum-officinarum/2-600.webp",
+        "author": "Tony Rebelo",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/29941959",
+        "title": "iNaturalist photo 46755500",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46755500/original.jpeg",
+        "width": 1024,
+        "height": 459,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/saccharum-officinarum/3.webp",
+        "url_small": "images/saccharum-officinarum/3-600.webp",
+        "author": "Tony Rebelo",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/29941959",
+        "title": "iNaturalist photo 46755510",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46755510/original.jpeg",
+        "width": 1024,
+        "height": 386,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -2173,6 +2888,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/wolffia-globosa/1-600.webp"
+      },
+      {
+        "url": "images/wolffia-globosa/2.webp",
+        "url_small": "images/wolffia-globosa/2-600.webp",
+        "author": "chiuluan",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/171905967",
+        "title": "iNaturalist photo 298352782",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/298352782/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/wolffia-globosa/3.webp",
+        "url_small": "images/wolffia-globosa/3-600.webp",
+        "author": "chiuluan",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/171905967",
+        "title": "iNaturalist photo 298352810",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/298352810/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -2251,6 +2994,34 @@
         "height": 800,
         "kind": "photo",
         "url_small": "images/nepenthes-mirabilis/1-600.webp"
+      },
+      {
+        "url": "images/nepenthes-mirabilis/2.webp",
+        "url_small": "images/nepenthes-mirabilis/2-600.webp",
+        "author": "Gerard Chartier",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/253267911",
+        "title": "iNaturalist photo 453452700",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453452700/original.jpg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/nepenthes-mirabilis/3.webp",
+        "url_small": "images/nepenthes-mirabilis/3-600.webp",
+        "author": "Oleg Kosterin",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/37451415",
+        "title": "iNaturalist photo 59374060",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59374060/original.jpg",
+        "width": 1024,
+        "height": 654,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -2329,6 +3100,34 @@
         "height": 1280,
         "kind": "photo",
         "url_small": "images/rhizophora-apiculata/1-600.webp"
+      },
+      {
+        "url": "images/rhizophora-apiculata/2.webp",
+        "url_small": "images/rhizophora-apiculata/2-600.webp",
+        "author": "Philipp",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/87447173",
+        "title": "iNaturalist photo 144169520",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144169520/original.jpeg",
+        "width": 1024,
+        "height": 680,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/rhizophora-apiculata/3.webp",
+        "url_small": "images/rhizophora-apiculata/3-600.webp",
+        "author": "Philipp",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/87447173",
+        "title": "iNaturalist photo 144169601",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144169601/original.jpeg",
+        "width": 1024,
+        "height": 680,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",

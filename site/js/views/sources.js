@@ -1,6 +1,7 @@
 import { T } from '../i18n.js';
 import { all } from '../data.js';
 import { esc } from '../util.js';
+import { sourceLabel } from '../ui.js';
 
 export function viewSources(credits) {
   const li = (k) => `<li>${T(k)}</li>`;
@@ -15,7 +16,7 @@ function creditsTable(credits) {
   if (!credits.length) return '';
   const rows = credits.map((c) => {
     const lic = c.license_url ? `<a href="${esc(c.license_url)}" rel="noopener">${esc(c.license)}</a>` : esc(c.license);
-    return `<tr><th scope="row"><a href="#${c.id}" class="sci">${esc(c.sci)}</a></th><td data-native>${esc(c.author)}</td><td>${lic}</td><td><a href="${esc(c.source_url)}" rel="noopener">${T('imgOn')}</a></td></tr>`;
+    return `<tr><th scope="row"><a href="#${c.id}" class="sci">${esc(c.sci)}</a></th><td data-native>${esc(c.author)}</td><td>${lic}</td><td><a href="${esc(c.source_url)}" rel="noopener">${sourceLabel(c)}</a></td></tr>`;
   }).join('');
   return `<section class="section"><h2 class="h2" id="credits">${T('imgCreditsH')}</h2><p class="lede" style="font-size:16px">${T('imgCreditsP', { n: credits.length })}</p>` +
     `<div class="tablebox" tabindex="0" role="region" aria-label="${esc(T('imgCreditsH'))}"><table class="credits"><thead><tr><th scope="col">${T('colSpecies')}</th><th scope="col">${T('imgAuthor')}</th><th scope="col">${T('imgLicense')}</th><th scope="col">${T('imgSource')}</th></tr></thead><tbody>${rows}</tbody></table></div></section>`;

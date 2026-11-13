@@ -3,18 +3,40 @@ import { T, loc, thFallback } from '../i18n.js';
 import { esc } from '../util.js';
 import { G, inGroup } from '../data.js';
 import { art } from '../art.js';
-import { gName, tagName, lvBadge, rd, spRd, spCommon, isEn, arrowR, traitValue, thumb } from '../ui.js';
+import { gName, tagName, lvBadge, rd, spRd, spCommon, isEn, arrowR, traitValue, thumb, sourceLabel } from '../ui.js';
 
 // Text from the extra_th / extra_en blocks: English when available, otherwise flagged Thai.
 const extraText = (text, fallback) => (fallback ? thFallback(text) : esc(text));
 
-// Main picture with its credit under it; falls back to the temporary drawing and its caption.
-function figure(s) {
-  const img = s.d.images?.[0];
-  if (!img) return `<figure class="art"><div class="art-box">${art(s.art)}</div><figcaption>${T('artCaption')}</figcaption></figure>`;
+const chevron = (dir) => `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${dir < 0 ? 'm13.5 5-6 6 6 6' : 'm8.5 5 6 6-6 6'}"/></svg>`;
+
+function credit(img) {
   const lic = img.license_url ? `<a href="${esc(img.license_url)}" rel="noopener">${esc(img.license)}</a>` : esc(img.license);
-  return `<figure class="art"><div class="art-box photo"><img src="${esc(img.url)}" ${img.url_small ? `srcset="${esc(img.url_small)} 600w, ${esc(img.url)} 1200w" sizes="(max-width: 899px) 92vw, 460px"` : ''} fetchpriority="high" alt="${esc(s.sci)}" data-art="${esc(s.art)}" width="${img.width || ''}" height="${img.height || ''}" decoding="async"></div>` +
-    `<figcaption>${T('imgBy')} <span data-native>${esc(img.author)}</span> · ${lic} · <a href="${esc(img.source_url)}" rel="noopener">${T('imgOn')}</a></figcaption></figure>`;
+  return `${T('imgBy')} <span data-native>${esc(img.author)}</span> · ${lic} · <a href="${esc(img.source_url)}" rel="noopener">${sourceLabel(img)}</a>`;
+}
+
+// Real photos (Wikimedia Commons) with a switcher: previous/next buttons, thumbnails, arrow keys and swipe.
+// With no photo the temporary drawing and its caption are shown instead.
+function figure(s) {
+  const imgs = s.d.images || [];
+  if (!imgs.length) return `<figure class="art"><div class="art-box">${art(s.art)}</div><figcaption>${T('artCaption')}</figcaption></figure>`;
+  const n = imgs.length;
+  const i = Math.min(Math.max(S.slide[s.id] || 0, 0), n - 1);
+  const img = imgs[i];
+  const label = (k) => esc(T('imgPhotoN', { i: k + 1, n }));
+  const main = `<img src="${esc(img.url)}" draggable="false" ${img.url_small ? `srcset="${esc(img.url_small)} 600w, ${esc(img.url)} 1200w" sizes="(max-width: 899px) 92vw, 460px"` : ''} ${i === 0 ? 'fetchpriority="high"' : ''} alt="${esc(s.sci)}${n > 1 ? ` (${label(i)})` : ''}" data-art="${esc(s.art)}" width="${img.width || ''}" height="${img.height || ''}" decoding="async">`;
+  let controls = '';
+  let strip = '';
+  if (n > 1) {
+    controls = `<button type="button" class="gal-btn prev" id="galPrev" data-act="slide" data-v="${(i - 1 + n) % n}" aria-label="${esc(T('imgPrev'))}">${chevron(-1)}</button>` +
+      `<button type="button" class="gal-btn next" id="galNext" data-act="slide" data-v="${(i + 1) % n}" aria-label="${esc(T('imgNext'))}">${chevron(1)}</button>` +
+      `<span class="gal-count" aria-hidden="true">${i + 1} / ${n}</span>`;
+    strip = `<div class="gal-thumbs" role="group" aria-label="${esc(T('imgGallery'))}">${imgs.map((im, k) =>
+      `<button type="button" class="gal-thumb" id="galT${k}" data-act="slide" data-v="${k}" aria-label="${label(k)}"${k === i ? ' aria-current="true"' : ''}><img src="${esc(im.url_small || im.url)}" alt="" loading="lazy" decoding="async" data-art="${esc(s.art)}"></button>`).join('')}</div>`;
+  }
+  return `<figure class="art gallery" data-gallery="${s.id}"${n > 1 ? ` role="group" aria-roledescription="carousel" aria-label="${esc(T('imgGallery'))}"` : ''}>` +
+    `<div class="art-box photo">${main}${controls}</div>${strip}` +
+    `<figcaption aria-live="polite">${credit(img)}</figcaption></figure>`;
 }
 
 export function viewSpecies(s) {

@@ -69,6 +69,34 @@
         "height": 1191,
         "kind": "photo",
         "url_small": "images/batrachochytrium-dendrobatidis/1-600.webp"
+      },
+      {
+        "url": "images/batrachochytrium-dendrobatidis/2.webp",
+        "url_small": "images/batrachochytrium-dendrobatidis/2-600.webp",
+        "author": "Hubert",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/267501389",
+        "title": "iNaturalist photo 480732469",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480732469/original.jpg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/batrachochytrium-dendrobatidis/3.webp",
+        "url_small": "images/batrachochytrium-dendrobatidis/3-600.webp",
+        "author": "Hubert",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/267501389",
+        "title": "iNaturalist photo 480732434",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480732434/original.jpg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -147,6 +175,34 @@
         "height": 981,
         "kind": "photo",
         "url_small": "images/rhizopus-stolonifer/1-600.webp"
+      },
+      {
+        "url": "images/rhizopus-stolonifer/2.webp",
+        "url_small": "images/rhizopus-stolonifer/2-600.webp",
+        "author": "Christine Young",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/62832041",
+        "title": "iNaturalist photo 100738047",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100738047/original.jpg",
+        "width": 1024,
+        "height": 753,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/rhizopus-stolonifer/3.webp",
+        "url_small": "images/rhizopus-stolonifer/3-600.webp",
+        "author": "Christine Young",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/62832041",
+        "title": "iNaturalist photo 100738056",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100738056/original.jpg",
+        "width": 982,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -305,6 +361,34 @@
         "height": 1199,
         "kind": "micrograph",
         "url_small": "images/saccharomyces-cerevisiae/1-600.webp"
+      },
+      {
+        "url": "images/saccharomyces-cerevisiae/2.webp",
+        "url_small": "images/saccharomyces-cerevisiae/2-600.webp",
+        "author": "Rob Norris",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/38781004",
+        "title": "iNaturalist photo 61689327",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61689327/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/saccharomyces-cerevisiae/3.webp",
+        "url_small": "images/saccharomyces-cerevisiae/3-600.webp",
+        "author": "Rob Norris",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/38781004",
+        "title": "iNaturalist photo 61689338",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61689338/original.jpeg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -542,6 +626,34 @@
         "height": 1600,
         "kind": "photo",
         "url_small": "images/volvariella-volvacea/1-600.webp"
+      },
+      {
+        "url": "images/volvariella-volvacea/2.webp",
+        "url_small": "images/volvariella-volvacea/2-600.webp",
+        "author": "Kurt Miller",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/150255654",
+        "title": "iNaturalist photo 259047619",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259047619/original.jpeg",
+        "width": 1024,
+        "height": 781,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/volvariella-volvacea/3.webp",
+        "url_small": "images/volvariella-volvacea/3-600.webp",
+        "author": "Kurt Miller",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/150255654",
+        "title": "iNaturalist photo 259047632",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259047632/original.jpeg",
+        "width": 1024,
+        "height": 794,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -777,6 +889,34 @@
         "height": 1065,
         "kind": "micrograph",
         "url_small": "images/aspergillus-flavus/1-600.webp"
+      },
+      {
+        "url": "images/aspergillus-flavus/2.webp",
+        "url_small": "images/aspergillus-flavus/2-600.webp",
+        "author": "Annie Weissman",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/140582527",
+        "title": "iNaturalist photo 240664777",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240664777/original.jpg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/aspergillus-flavus/3.webp",
+        "url_small": "images/aspergillus-flavus/3-600.webp",
+        "author": "Annie Weissman",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/140582527",
+        "title": "iNaturalist photo 240664954",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240664954/original.jpg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -856,6 +996,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/pleurotus-ostreatus/1-600.webp"
+      },
+      {
+        "url": "images/pleurotus-ostreatus/2.webp",
+        "url_small": "images/pleurotus-ostreatus/2-600.webp",
+        "author": "Mike Mulqueen",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/6044371",
+        "title": "iNaturalist photo 7573196",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7573196/original.jpeg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/pleurotus-ostreatus/3.webp",
+        "url_small": "images/pleurotus-ostreatus/3-600.webp",
+        "author": "Mike Mulqueen",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/6044371",
+        "title": "iNaturalist photo 7573197",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7573197/original.jpeg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -935,6 +1103,20 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/termitomyces-fuliginosus/1-600.webp"
+      },
+      {
+        "url": "images/termitomyces-fuliginosus/2.webp",
+        "url_small": "images/termitomyces-fuliginosus/2-600.webp",
+        "author": "Utain Pummarin",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/188499645",
+        "title": "iNaturalist photo 329938496",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329938496/original.jpeg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1013,6 +1195,34 @@
         "height": 675,
         "kind": "micrograph",
         "url_small": "images/candida-albicans/1-600.webp"
+      },
+      {
+        "url": "images/candida-albicans/2.webp",
+        "url_small": "images/candida-albicans/2-600.webp",
+        "author": "Ashwin A",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/260860807",
+        "title": "iNaturalist photo 468556857",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468556857/original.jpeg",
+        "width": 769,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/candida-albicans/3.webp",
+        "url_small": "images/candida-albicans/3-600.webp",
+        "author": "Ashwin A",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/260860807",
+        "title": "iNaturalist photo 468556875",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468556875/original.jpeg",
+        "width": 769,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1092,6 +1302,34 @@
         "height": 900,
         "kind": "photo",
         "url_small": "images/cordyceps-militaris/1-600.webp"
+      },
+      {
+        "url": "images/cordyceps-militaris/2.webp",
+        "url_small": "images/cordyceps-militaris/2-600.webp",
+        "author": "Enrico Tomschke",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/35697710",
+        "title": "iNaturalist photo 56322174",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56322174/original.jpg",
+        "width": 1024,
+        "height": 682,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/cordyceps-militaris/3.webp",
+        "url_small": "images/cordyceps-militaris/3-600.webp",
+        "author": "Mandy Hackney",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/65378639",
+        "title": "iNaturalist photo 105217331",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105217331/original.jpeg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1170,6 +1408,34 @@
         "height": 870,
         "kind": "photo",
         "url_small": "images/puccinia-graminis/1-600.webp"
+      },
+      {
+        "url": "images/puccinia-graminis/2.webp",
+        "url_small": "images/puccinia-graminis/2-600.webp",
+        "author": "Gilles San Martin",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/284127509",
+        "title": "iNaturalist photo 510592599",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/510592599/original.jpg",
+        "width": 1024,
+        "height": 816,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/puccinia-graminis/3.webp",
+        "url_small": "images/puccinia-graminis/3-600.webp",
+        "author": "Gilles San Martin",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/284127509",
+        "title": "iNaturalist photo 510592876",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/510592876/original.jpg",
+        "width": 1024,
+        "height": 749,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1326,6 +1592,34 @@
         "height": 900,
         "kind": "micrograph",
         "url_small": "images/aspergillus-niger/1-600.webp"
+      },
+      {
+        "url": "images/aspergillus-niger/2.webp",
+        "url_small": "images/aspergillus-niger/2-600.webp",
+        "author": "Kurt Miller",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/200183648",
+        "title": "iNaturalist photo 353137700",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353137700/original.jpeg",
+        "width": 1024,
+        "height": 825,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/aspergillus-niger/3.webp",
+        "url_small": "images/aspergillus-niger/3-600.webp",
+        "author": "Kurt Miller",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/200183648",
+        "title": "iNaturalist photo 353137696",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353137696/original.jpeg",
+        "width": 1023,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1405,6 +1699,34 @@
         "height": 675,
         "kind": "photo",
         "url_small": "images/ganoderma-lucidum/1-600.webp"
+      },
+      {
+        "url": "images/ganoderma-lucidum/2.webp",
+        "url_small": "images/ganoderma-lucidum/2-600.webp",
+        "author": "Tatiana Strus",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/86690130",
+        "title": "iNaturalist photo 142856739",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142856739/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/ganoderma-lucidum/3.webp",
+        "url_small": "images/ganoderma-lucidum/3-600.webp",
+        "author": "Elena_Sherehora",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/99978060",
+        "title": "iNaturalist photo 166792593",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166792593/original.jpeg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",

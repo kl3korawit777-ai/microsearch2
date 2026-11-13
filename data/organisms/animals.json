@@ -60,6 +60,7 @@
     "images": [
       {
         "url": "images/spongilla-lacustris/1.webp",
+        "url_small": "images/spongilla-lacustris/1-600.webp",
         "author": "Lamiot",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -68,8 +69,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Gemmules_Spongilla_lacustris_2014-11-16_a_3723.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 637,
-        "kind": "photo",
-        "url_small": "images/spongilla-lacustris/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/spongilla-lacustris/2.webp",
+        "url_small": "images/spongilla-lacustris/2-600.webp",
+        "author": "Lamiot",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gemmules_Spongilla_lacustris_2014-11-16_a_3732.JPG",
+        "title": "File:Gemmules Spongilla lacustris 2014-11-16 a 3732.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gemmules_Spongilla_lacustris_2014-11-16_a_3732.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 741,
+        "kind": "photo"
+      },
+      {
+        "url": "images/spongilla-lacustris/3.webp",
+        "url_small": "images/spongilla-lacustris/3-600.webp",
+        "author": "Lamiot",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gemmules_Spongilla_lacustris_2014-11-16_a_3742.JPG",
+        "title": "File:Gemmules Spongilla lacustris 2014-11-16 a 3742.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Gemmules_Spongilla_lacustris_2014-11-16_a_3742.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 795,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -139,6 +165,7 @@
     "images": [
       {
         "url": "images/aurelia-aurita/1.webp",
+        "url_small": "images/aurelia-aurita/1-600.webp",
         "author": "André Karwath aka Aka",
         "license": "CC BY-SA 2.5",
         "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
@@ -147,8 +174,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Aurelia_aurita_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 908,
-        "kind": "photo",
-        "url_small": "images/aurelia-aurita/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/aurelia-aurita/2.webp",
+        "url_small": "images/aurelia-aurita/2-600.webp",
+        "author": "Alexander Vasenin",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moon_jellyfish_at_Gota_Sagher.JPG",
+        "title": "File:Moon jellyfish at Gota Sagher.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Moon_jellyfish_at_Gota_Sagher.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/aurelia-aurita/3.webp",
+        "url_small": "images/aurelia-aurita/3-600.webp",
+        "author": "Versions111",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aurelia_Aurita_02.jpg",
+        "title": "File:Aurelia Aurita 02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Aurelia_Aurita_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -218,6 +270,7 @@
     "images": [
       {
         "url": "images/hydra-vulgaris/1.webp",
+        "url_small": "images/hydra-vulgaris/1-600.webp",
         "author": "Samantha Makrocka",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -226,8 +279,34 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hydra_vulgaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "micrograph",
-        "url_small": "images/hydra-vulgaris/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/hydra-vulgaris/2.webp",
+        "url_small": "images/hydra-vulgaris/2-600.webp",
+        "author": "Corvana",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hydravulgaris.jpg",
+        "title": "File:Hydravulgaris.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Hydravulgaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1152,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/hydra-vulgaris/3.webp",
+        "url_small": "images/hydra-vulgaris/3-600.webp",
+        "author": "Thomas Gyselinck",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/365030653",
+        "title": "iNaturalist photo 666426823",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666426823/original.jpg",
+        "width": 1024,
+        "height": 629,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -297,6 +376,7 @@
     "images": [
       {
         "url": "images/opisthorchis-viverrini/1.webp",
+        "url_small": "images/opisthorchis-viverrini/1-600.webp",
         "author": "Juliaturnermda",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -305,8 +385,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cicle_vital_d%27Opisthorchis_viverrini.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1026,
         "height": 523,
-        "kind": "photo",
-        "url_small": "images/opisthorchis-viverrini/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -376,6 +455,7 @@
     "images": [
       {
         "url": "images/caenorhabditis-elegans/1.webp",
+        "url_small": "images/caenorhabditis-elegans/1-600.webp",
         "author": "The original uploader was Kbradnam at English Wikipedia. (Original text: Zeynep F. Altun, Editor of www.wormatlas.org)",
         "license": "CC BY-SA 2.5",
         "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
@@ -384,8 +464,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Adult_Caenorhabditis_elegans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 395,
-        "kind": "photo",
-        "url_small": "images/caenorhabditis-elegans/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/caenorhabditis-elegans/2.webp",
+        "url_small": "images/caenorhabditis-elegans/2-600.webp",
+        "author": "Joe Lange, Schulenburg Lab",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%27%27Caenorhabditis_elegans%27%27_intestine_infected_with_%27%27Bacillus_thuringiensis%27%27.jpg",
+        "title": "File:''Caenorhabditis elegans'' intestine infected with ''Bacillus thuringiensis''.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%27%27Caenorhabditis_elegans%27%27_intestine_infected_with_%27%27Bacillus_thuringiensis%27%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 872,
+        "kind": "photo"
+      },
+      {
+        "url": "images/caenorhabditis-elegans/3.webp",
+        "url_small": "images/caenorhabditis-elegans/3-600.webp",
+        "author": "Cannedfoods",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:C._elegans_we_looked_in_class.jpg",
+        "title": "File:C. elegans we looked in class.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/C._elegans_we_looked_in_class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -456,6 +561,7 @@
     "images": [
       {
         "url": "images/hirudinaria-manillensis/1.webp",
+        "url_small": "images/hirudinaria-manillensis/1-600.webp",
         "author": "Jeratthitikul E, Jiranuntskul P, Nakano T, Sutcharit C, Panha S (2020) A new species of buffalo leech in the genus Hirudinaria Whitman, 1886 (Arhynchobdellida, Hirudinidae) from Thailand. ZooKeys 933: 1-14. https://doi.org/10.3897/zookeys.933.49314",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -464,8 +570,35 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Hirudinaria_%2810.3897-zookeys.933.49314%29_Figure_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 931,
+        "kind": "photo"
+      },
+      {
+        "url": "images/hirudinaria-manillensis/2.webp",
+        "url_small": "images/hirudinaria-manillensis/2-600.webp",
+        "author": "Vsevolod Rudyi",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/260257088",
+        "title": "iNaturalist photo 467343239",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/467343239/original.jpeg",
+        "width": 1024,
+        "height": 683,
         "kind": "photo",
-        "url_small": "images/hirudinaria-manillensis/1-600.webp"
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/hirudinaria-manillensis/3.webp",
+        "url_small": "images/hirudinaria-manillensis/3-600.webp",
+        "author": "Doreen",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/161358274",
+        "title": "iNaturalist photo 278904093",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278904093/original.jpeg",
+        "width": 1024,
+        "height": 781,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -536,6 +669,7 @@
     "images": [
       {
         "url": "images/pomacea-canaliculata/1.webp",
+        "url_small": "images/pomacea-canaliculata/1-600.webp",
         "author": "H. Zell",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -544,8 +678,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pomacea_canaliculata_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 808,
-        "kind": "photo",
-        "url_small": "images/pomacea-canaliculata/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/pomacea-canaliculata/2.webp",
+        "url_small": "images/pomacea-canaliculata/2-600.webp",
+        "author": "Juan Emilio Prades Bel",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Caracol_dulceacu%C3%ADcola_Pomacea_canaliculata,_Camarles,_Delta_del_Ebro.jpg",
+        "title": "File:Caracol dulceacuícola Pomacea canaliculata, Camarles, Delta del Ebro.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Caracol_dulceacu%C3%ADcola_Pomacea_canaliculata%2C_Camarles%2C_Delta_del_Ebro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/pomacea-canaliculata/3.webp",
+        "url_small": "images/pomacea-canaliculata/3-600.webp",
+        "author": "SilBurela",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:C%C3%B3pula_subacu%C3%A1tica_de_Pomacea_canaliculata.jpg",
+        "title": "File:Cópula subacuática de Pomacea canaliculata.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/C%C3%B3pula_subacu%C3%A1tica_de_Pomacea_canaliculata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 852,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -615,6 +774,7 @@
     "images": [
       {
         "url": "images/nautilus-pompilius/1.webp",
+        "url_small": "images/nautilus-pompilius/1-600.webp",
         "author": "GodeNehler",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -623,8 +783,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gotha_Nautilus_pompilius-7434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1253,
-        "kind": "photo",
-        "url_small": "images/nautilus-pompilius/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/nautilus-pompilius/2.webp",
+        "url_small": "images/nautilus-pompilius/2-600.webp",
+        "author": "Bill Abbott",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_at_Monterey_Bay_Aquarium_2014-1.jpg",
+        "title": "File:Nautilus pompilius at Monterey Bay Aquarium 2014-1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Nautilus_pompilius_at_Monterey_Bay_Aquarium_2014-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/nautilus-pompilius/3.webp",
+        "url_small": "images/nautilus-pompilius/3-600.webp",
+        "author": "Bill Abbott",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_at_Monterey_Bay_Aquarium_2014-2.jpg",
+        "title": "File:Nautilus pompilius at Monterey Bay Aquarium 2014-2.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Nautilus_pompilius_at_Monterey_Bay_Aquarium_2014-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -694,6 +879,7 @@
     "images": [
       {
         "url": "images/aedes-aegypti/1.webp",
+        "url_small": "images/aedes-aegypti/1-600.webp",
         "author": "NIAID",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
@@ -702,8 +888,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Aedes_Aegypti_Mosquitoes_%2826444995041%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/aedes-aegypti/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/aedes-aegypti/2.webp",
+        "url_small": "images/aedes-aegypti/2-600.webp",
+        "author": "Fedaro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aedes_aegypti_macro.jpg",
+        "title": "File:Aedes aegypti macro.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Aedes_aegypti_macro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1342,
+        "kind": "photo"
+      },
+      {
+        "url": "images/aedes-aegypti/3.webp",
+        "url_small": "images/aedes-aegypti/3-600.webp",
+        "author": "Pedro Chagas",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dead_Aedes_aegypti_near_a_droplet_of_blood.jpg",
+        "title": "File:Dead Aedes aegypti near a droplet of blood.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Dead_Aedes_aegypti_near_a_droplet_of_blood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -774,6 +985,7 @@
     "images": [
       {
         "url": "images/penaeus-monodon/1.webp",
+        "url_small": "images/penaeus-monodon/1-600.webp",
         "author": "Ave Maria Mõistlik",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -782,8 +994,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Penaeus_monodon.IMG_20210504_124630%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo",
-        "url_small": "images/penaeus-monodon/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/penaeus-monodon/2.webp",
+        "url_small": "images/penaeus-monodon/2-600.webp",
+        "author": "self",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Penaeus_monodon.jpg",
+        "title": "File:Penaeus monodon.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Penaeus_monodon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/penaeus-monodon/3.webp",
+        "url_small": "images/penaeus-monodon/3-600.webp",
+        "author": "Pelagic",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Black_tiger_and_white_banana_prawns.jpg",
+        "title": "File:Black tiger and white banana prawns.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Black_tiger_and_white_banana_prawns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 664,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -853,6 +1090,7 @@
     "images": [
       {
         "url": "images/heterometrus-laoticus/1.webp",
+        "url_small": "images/heterometrus-laoticus/1-600.webp",
         "author": "Syrio",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -861,8 +1099,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Spiders_Genova_-_Heterometrus_laoticus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo",
-        "url_small": "images/heterometrus-laoticus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/heterometrus-laoticus/2.webp",
+        "url_small": "images/heterometrus-laoticus/2-600.webp",
+        "author": "Nathan Laurenz",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Heterometrus_laoticus_262029801.jpg",
+        "title": "File:Heterometrus laoticus 262029801.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Heterometrus_laoticus_262029801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/heterometrus-laoticus/3.webp",
+        "url_small": "images/heterometrus-laoticus/3-600.webp",
+        "author": "Jay Paroline",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Heterometrus_laoticus_448087544.jpg",
+        "title": "File:Heterometrus laoticus 448087544.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Heterometrus_laoticus_448087544.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 904,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -932,6 +1195,7 @@
     "images": [
       {
         "url": "images/acanthaster-planci/1.webp",
+        "url_small": "images/acanthaster-planci/1-600.webp",
         "author": "Ryan McMinds",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
@@ -940,8 +1204,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Acanthaster_planci_%2826226795504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/acanthaster-planci/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/acanthaster-planci/2.webp",
+        "url_small": "images/acanthaster-planci/2-600.webp",
+        "author": "Ryan McMinds",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Acanthaster_planci_(26226798354).jpg",
+        "title": "File:Acanthaster planci (26226798354).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Acanthaster_planci_%2826226798354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      },
+      {
+        "url": "images/acanthaster-planci/3.webp",
+        "url_small": "images/acanthaster-planci/3-600.webp",
+        "author": "desertnaturalist",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Acanthaster_planci_102850500.jpg",
+        "title": "File:Acanthaster planci 102850500.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Acanthaster_planci_102850500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1011,6 +1300,7 @@
     "images": [
       {
         "url": "images/branchiostoma-belcheri/1.webp",
+        "url_small": "images/branchiostoma-belcheri/1-600.webp",
         "author": "Kato M, Yamamori L, Goto R, Tsubaki R, Ohsuga K (2017) A new large tellinid species of the genus Pharaonella from the Ryukyu Archipelago, Japan (Mollusca, Bivalvia). ZooKeys 705: 1-13. https://doi.org/10.3897/zookeys.705.12888",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -1019,8 +1309,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sand-dwelling_organisms_%2810.3897-zookeys.705.12888%29_Figure_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 686,
-        "kind": "photo",
-        "url_small": "images/branchiostoma-belcheri/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1091,6 +1380,7 @@
     "images": [
       {
         "url": "images/betta-splendens/1.webp",
+        "url_small": "images/betta-splendens/1-600.webp",
         "author": "G.Garitan",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1099,8 +1389,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Betta_Splendens_nanCy_1005895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 577,
         "height": 676,
-        "kind": "photo",
-        "url_small": "images/betta-splendens/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/betta-splendens/2.webp",
+        "url_small": "images/betta-splendens/2-600.webp",
+        "author": "Sundar Karthikeyan",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Betta_Dad.jpg",
+        "title": "File:A Betta Dad.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/A_Betta_Dad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      },
+      {
+        "url": "images/betta-splendens/3.webp",
+        "url_small": "images/betta-splendens/3-600.webp",
+        "author": "Saptak Mandal",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_pruple_veiltail_Betta.jpg",
+        "title": "File:A pruple veiltail Betta.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/A_pruple_veiltail_Betta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1171,6 +1486,7 @@
     "images": [
       {
         "url": "images/hoplobatrachus-rugulosus/1.webp",
+        "url_small": "images/hoplobatrachus-rugulosus/1-600.webp",
         "author": "Arvin Diesmos, National Museum of the Philippines, nationalmuseum.gov.ph",
         "license": "Public domain",
         "license_url": "",
@@ -1179,8 +1495,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hoplobatrachus_rugulosus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 801,
-        "kind": "photo",
-        "url_small": "images/hoplobatrachus-rugulosus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/hoplobatrachus-rugulosus/2.webp",
+        "url_small": "images/hoplobatrachus-rugulosus/2-600.webp",
+        "author": "Thomas Brown",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Bullfrog_(Hoplobatrachus_rugulosus)_%E8%99%8E%E7%B4%8B%E8%9B%99(%E7%94%B0%E9%9B%9E)5.jpg",
+        "title": "File:Chinese Bullfrog (Hoplobatrachus rugulosus) 虎紋蛙(田雞)5.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinese_Bullfrog_%28Hoplobatrachus_rugulosus%29_%E8%99%8E%E7%B4%8B%E8%9B%99%28%E7%94%B0%E9%9B%9E%295.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1024,
+        "height": 682,
+        "kind": "photo"
+      },
+      {
+        "url": "images/hoplobatrachus-rugulosus/3.webp",
+        "url_small": "images/hoplobatrachus-rugulosus/3-600.webp",
+        "author": "Thomas Brown",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Bullfrog_(Hoplobatrachus_rugulosus)_%E8%99%8E%E7%B4%8B%E8%9B%99(%E7%94%B0%E9%9B%9E)6.jpg",
+        "title": "File:Chinese Bullfrog (Hoplobatrachus rugulosus) 虎紋蛙(田雞)6.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Chinese_Bullfrog_%28Hoplobatrachus_rugulosus%29_%E8%99%8E%E7%B4%8B%E8%9B%99%28%E7%94%B0%E9%9B%9E%296.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1250,6 +1591,7 @@
     "images": [
       {
         "url": "images/elephas-maximus/1.webp",
+        "url_small": "images/elephas-maximus/1-600.webp",
         "author": "Yathin S Krishnappa",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -1258,8 +1600,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "photo",
-        "url_small": "images/elephas-maximus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/elephas-maximus/2.webp",
+        "url_small": "images/elephas-maximus/2-600.webp",
+        "author": "Honza Groh (Jagro)",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ZOO_Praha,_Elephas_maximus,_08.jpg",
+        "title": "File:ZOO Praha, Elephas maximus, 08.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/ZOO_Praha%2C_Elephas_maximus%2C_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/elephas-maximus/3.webp",
+        "url_small": "images/elephas-maximus/3-600.webp",
+        "author": "LadyofHats",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Female_elephas_maximus_at_hamburg.JPG",
+        "title": "File:Female elephas maximus at hamburg.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Female_elephas_maximus_at_hamburg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1329,6 +1696,7 @@
     "images": [
       {
         "url": "images/dugesia-japonica/1.webp",
+        "url_small": "images/dugesia-japonica/1-600.webp",
         "author": "Timur Kalininsky",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -1337,8 +1705,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Dugesia_japonica_226612305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1200,
-        "kind": "photo",
-        "url_small": "images/dugesia-japonica/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/dugesia-japonica/2.webp",
+        "url_small": "images/dugesia-japonica/2-600.webp",
+        "author": "Timur Kalininsky",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dugesia_japonica_226612281.jpg",
+        "title": "File:Dugesia japonica 226612281.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Dugesia_japonica_226612281.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1200,
+        "kind": "photo"
+      },
+      {
+        "url": "images/dugesia-japonica/3.webp",
+        "url_small": "images/dugesia-japonica/3-600.webp",
+        "author": "Taisaku Nogi, Dan Zhang, John D. Chan, Jonathan S. Marchant",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Two_headed_Dugesia_japonica.jpg",
+        "title": "File:Two headed Dugesia japonica.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Two_headed_Dugesia_japonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 826,
+        "height": 678,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1408,6 +1801,7 @@
     "images": [
       {
         "url": "images/taenia-solium/1.webp",
+        "url_small": "images/taenia-solium/1-600.webp",
         "author": "Danvasilis",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1416,8 +1810,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Taenia_solium_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 849,
-        "kind": "photo",
-        "url_small": "images/taenia-solium/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/taenia-solium/2.webp",
+        "url_small": "images/taenia-solium/2-600.webp",
+        "author": "Roberto J. Galindo",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taenia_solium_scolex.JPG",
+        "title": "File:Taenia solium scolex.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Taenia_solium_scolex.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/taenia-solium/3.webp",
+        "url_small": "images/taenia-solium/3-600.webp",
+        "author": "Delorieux for Johann Gottfried Bremser",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taenia_solium1.jpg",
+        "title": "File:Taenia solium1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Taenia_solium1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 748,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1487,6 +1906,7 @@
     "images": [
       {
         "url": "images/ascaris-lumbricoides/1.webp",
+        "url_small": "images/ascaris-lumbricoides/1-600.webp",
         "author": "Nmitei",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1495,8 +1915,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Ascaris_Lumbricoides_that_had_caused_intestinal_obstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo",
-        "url_small": "images/ascaris-lumbricoides/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/ascaris-lumbricoides/2.webp",
+        "url_small": "images/ascaris-lumbricoides/2-600.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Egg_of_Ascaris_lumbricoides.jpg",
+        "title": "File:Egg of Ascaris lumbricoides.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Egg_of_Ascaris_lumbricoides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/ascaris-lumbricoides/3.webp",
+        "url_small": "images/ascaris-lumbricoides/3-600.webp",
+        "author": "Vivien Rolfe",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ascaris_lumbricoides_x10mag_(1)UK_NEQAS_(7686810160).jpg",
+        "title": "File:Ascaris lumbricoides x10mag (1)UK NEQAS (7686810160).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Ascaris_lumbricoides_x10mag_%281%29UK_NEQAS_%287686810160%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -1566,6 +2011,7 @@
     "images": [
       {
         "url": "images/gnathostoma-spinigerum/1.webp",
+        "url_small": "images/gnathostoma-spinigerum/1-600.webp",
         "author": "Ubs6u!d-onstory",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1574,8 +2020,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Gnathostoma_spinigerum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1070,
-        "kind": "micrograph",
-        "url_small": "images/gnathostoma-spinigerum/1-600.webp"
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -1646,6 +2091,7 @@
     "images": [
       {
         "url": "images/perinereis-nuntia/1.webp",
+        "url_small": "images/perinereis-nuntia/1-600.webp",
         "author": "Spyrow45",
         "license": "CC0",
         "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -1654,8 +2100,35 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Perinereis_nuntia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
+        "kind": "photo"
+      },
+      {
+        "url": "images/perinereis-nuntia/2.webp",
+        "url_small": "images/perinereis-nuntia/2-600.webp",
+        "author": "James H",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/193975716",
+        "title": "iNaturalist photo 340847180",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340847180/original.jpeg",
+        "width": 1024,
+        "height": 768,
         "kind": "photo",
-        "url_small": "images/perinereis-nuntia/1-600.webp"
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/perinereis-nuntia/3.webp",
+        "url_small": "images/perinereis-nuntia/3-600.webp",
+        "author": "James H",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/193975716",
+        "title": "iNaturalist photo 340847181",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340847181/original.jpeg",
+        "width": 1024,
+        "height": 768,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1725,6 +2198,7 @@
     "images": [
       {
         "url": "images/tridacna-squamosa/1.webp",
+        "url_small": "images/tridacna-squamosa/1-600.webp",
         "author": "Nhobgood Nick Hobgood",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -1733,8 +2207,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tridacna_squamosa_%28Fluted_Giant_clam%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/tridacna-squamosa/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/tridacna-squamosa/2.webp",
+        "url_small": "images/tridacna-squamosa/2-600.webp",
+        "author": "Marie HENNION",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tridacna_squamosa_(MNHN-IM-2012-24840)_001.jpeg",
+        "title": "File:Tridacna squamosa (MNHN-IM-2012-24840) 001.jpeg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tridacna_squamosa_%28MNHN-IM-2012-24840%29_001.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 833,
+        "kind": "photo"
+      },
+      {
+        "url": "images/tridacna-squamosa/3.webp",
+        "url_small": "images/tridacna-squamosa/3-600.webp",
+        "author": "Marie HENNION",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tridacna_squamosa_(MNHN-IM-2012-24840)_002.jpeg",
+        "title": "File:Tridacna squamosa (MNHN-IM-2012-24840) 002.jpeg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Tridacna_squamosa_%28MNHN-IM-2012-24840%29_002.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 833,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1804,6 +2303,7 @@
     "images": [
       {
         "url": "images/periplaneta-americana/1.webp",
+        "url_small": "images/periplaneta-americana/1-600.webp",
         "author": "MatasNavickas",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1812,8 +2312,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/%22Periplaneta_americana%22_connected_to_the_electrophysiology_equipment.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "photo",
-        "url_small": "images/periplaneta-americana/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/periplaneta-americana/2.webp",
+        "url_small": "images/periplaneta-americana/2-600.webp",
+        "author": "MatasNavickas",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cockroach_%22Periplaneta_americana%22_before_neurobiology_experiments.JPG",
+        "title": "File:Cockroach \"Periplaneta americana\" before neurobiology experiments.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Cockroach_%22Periplaneta_americana%22_before_neurobiology_experiments.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      },
+      {
+        "url": "images/periplaneta-americana/3.webp",
+        "url_small": "images/periplaneta-americana/3-600.webp",
+        "author": "RodRabelo7",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hemidactylus_mabouia_eating_Periplaneta_americana.jpg",
+        "title": "File:Hemidactylus mabouia eating Periplaneta americana.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hemidactylus_mabouia_eating_Periplaneta_americana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1883,6 +2408,7 @@
     "images": [
       {
         "url": "images/drosophila-melanogaster/1.webp",
+        "url_small": "images/drosophila-melanogaster/1-600.webp",
         "author": "Sanjay Acharya",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1891,8 +2417,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Drosophila_melanogaster_Proboscis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 800,
-        "kind": "photo",
-        "url_small": "images/drosophila-melanogaster/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/drosophila-melanogaster/2.webp",
+        "url_small": "images/drosophila-melanogaster/2-600.webp",
+        "author": "Lgcerda",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_isometric_view.jpg",
+        "title": "File:Drosophila melanogaster isometric view.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Drosophila_melanogaster_isometric_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1500,
+        "kind": "photo"
+      },
+      {
+        "url": "images/drosophila-melanogaster/3.webp",
+        "url_small": "images/drosophila-melanogaster/3-600.webp",
+        "author": "Talita Oliveira",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_under_microscope.jpg",
+        "title": "File:Drosophila melanogaster under microscope.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Drosophila_melanogaster_under_microscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1060,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -1963,6 +2514,7 @@
     "images": [
       {
         "url": "images/bombyx-mori/1.webp",
+        "url_small": "images/bombyx-mori/1-600.webp",
         "author": "Marinna",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1971,8 +2523,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bombyx_mori_en_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo",
-        "url_small": "images/bombyx-mori/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/bombyx-mori/2.webp",
+        "url_small": "images/bombyx-mori/2-600.webp",
+        "author": "Bondarev.gal",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Roasted_Bombyx_mori_silkworm_pupae.jpg",
+        "title": "File:Roasted Bombyx mori silkworm pupae.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Roasted_Bombyx_mori_silkworm_pupae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      },
+      {
+        "url": "images/bombyx-mori/3.webp",
+        "url_small": "images/bombyx-mori/3-600.webp",
+        "author": "Zivya",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bombyx_mori1.jpg",
+        "title": "File:Bombyx mori1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bombyx_mori1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 717,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2042,6 +2619,7 @@
     "images": [
       {
         "url": "images/diadema-setosum/1.webp",
+        "url_small": "images/diadema-setosum/1-600.webp",
         "author": "Quartl",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -2050,8 +2628,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Diadema_setosum_qtl1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 930,
-        "kind": "photo",
-        "url_small": "images/diadema-setosum/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/diadema-setosum/2.webp",
+        "url_small": "images/diadema-setosum/2-600.webp",
+        "author": "FredD",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Diadema_setosum_(Kenya).JPG",
+        "title": "File:Diadema setosum (Kenya).JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Diadema_setosum_%28Kenya%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/diadema-setosum/3.webp",
+        "url_small": "images/diadema-setosum/3-600.webp",
+        "author": "Rpillon",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Diadema_setosum_Mani2024_20110.jpg",
+        "title": "File:Diadema setosum Mani2024 20110.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Diadema_setosum_Mani2024_20110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2121,6 +2724,7 @@
     "images": [
       {
         "url": "images/ciona-intestinalis/1.webp",
+        "url_small": "images/ciona-intestinalis/1-600.webp",
         "author": "Parent Géry",
         "license": "Public domain",
         "license_url": "",
@@ -2129,8 +2733,34 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ciona_intestinalis_%28Linnaeus%2C_1767%29_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1081,
         "height": 986,
+        "kind": "photo"
+      },
+      {
+        "url": "images/ciona-intestinalis/2.webp",
+        "url_small": "images/ciona-intestinalis/2-600.webp",
+        "author": "perezoso",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cionaintestinalis.jpg",
+        "title": "File:Cionaintestinalis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Cionaintestinalis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1172,
+        "kind": "photo"
+      },
+      {
+        "url": "images/ciona-intestinalis/3.webp",
+        "url_small": "images/ciona-intestinalis/3-600.webp",
+        "author": "Micha Baum",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/91648775",
+        "title": "iNaturalist photo 151631202",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151631202/original.jpeg",
+        "width": 1012,
+        "height": 1024,
         "kind": "photo",
-        "url_small": "images/ciona-intestinalis/1-600.webp"
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -2200,6 +2830,7 @@
     "images": [
       {
         "url": "images/rhincodon-typus/1.webp",
+        "url_small": "images/rhincodon-typus/1-600.webp",
         "author": "Jean-Paul Boerekamps",
         "license": "CC0",
         "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -2208,8 +2839,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Rhincodon_typus_420227783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 652,
-        "kind": "photo",
-        "url_small": "images/rhincodon-typus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/rhincodon-typus/2.webp",
+        "url_small": "images/rhincodon-typus/2-600.webp",
+        "author": "Sula Vanderplank",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rhincodon_typus_469368152.jpg",
+        "title": "File:Rhincodon typus 469368152.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Rhincodon_typus_469368152.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/rhincodon-typus/3.webp",
+        "url_small": "images/rhincodon-typus/3-600.webp",
+        "author": "FGBNMS/Eckert",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rhincodon_typus_fgbnms_(cropped).jpg",
+        "title": "File:Rhincodon typus fgbnms (cropped).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rhincodon_typus_fgbnms_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 517,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2279,6 +2935,7 @@
     "images": [
       {
         "url": "images/chelonia-mydas/1.webp",
+        "url_small": "images/chelonia-mydas/1-600.webp",
         "author": "Brocken Inaglory",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -2287,8 +2944,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/chelonia-mydas/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/chelonia-mydas/2.webp",
+        "url_small": "images/chelonia-mydas/2-600.webp",
+        "author": "Ben Shoshana",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:0934-Green_Sea_Turtle,_Chelonia_mydas.jpg",
+        "title": "File:0934-Green Sea Turtle, Chelonia mydas.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/0934-Green_Sea_Turtle%2C_Chelonia_mydas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 845,
+        "kind": "photo"
+      },
+      {
+        "url": "images/chelonia-mydas/3.webp",
+        "url_small": "images/chelonia-mydas/3-600.webp",
+        "author": "Bthv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chelonia_Mydas.JPG",
+        "title": "File:Chelonia Mydas.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Chelonia_Mydas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2359,6 +3041,7 @@
     "images": [
       {
         "url": "images/gallus-gallus/1.webp",
+        "url_small": "images/gallus-gallus/1-600.webp",
         "author": "Wee Hong",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -2367,8 +3050,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Gallus_gallus_at_Melaka_Crocodile_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/gallus-gallus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/gallus-gallus/2.webp",
+        "url_small": "images/gallus-gallus/2-600.webp",
+        "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gallus_gallus_female_-_Kaeng_Krachan.jpg",
+        "title": "File:Gallus gallus female - Kaeng Krachan.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Gallus_gallus_female_-_Kaeng_Krachan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 851,
+        "kind": "photo"
+      },
+      {
+        "url": "images/gallus-gallus/3.webp",
+        "url_small": "images/gallus-gallus/3-600.webp",
+        "author": "Chris Oldnall",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gallus_gallus_474907478.jpg",
+        "title": "File:Gallus gallus 474907478.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Gallus_gallus_474907478.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 801,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2439,6 +3147,7 @@
     "images": [
       {
         "url": "images/homo-sapiens/1.webp",
+        "url_small": "images/homo-sapiens/1-600.webp",
         "author": "Pinal0408",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -2447,8 +3156,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Homo_sapiens2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1040,
         "height": 780,
-        "kind": "photo",
-        "url_small": "images/homo-sapiens/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/homo-sapiens/2.webp",
+        "url_small": "images/homo-sapiens/2-600.webp",
+        "author": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:At_Wollaton_Hall_2023_047.jpg",
+        "title": "File:At Wollaton Hall 2023 047.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/At_Wollaton_Hall_2023_047.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      },
+      {
+        "url": "images/homo-sapiens/3.webp",
+        "url_small": "images/homo-sapiens/3-600.webp",
+        "author": "MATTEO ZANELLA, ALESSANDRO VITRIOLO, ALEJANDRO ANDIRKO, PEDRO TIAGO MARTINS, THOMAS O'ROURKE, MAGDALENA LAUGSCH, NATASCIA MALERBA, ADRIANOS SKAROS, SEBASTIÁN TRATTARO, PIERRE-LUC GERMAIN, MARIJA MIHAILOVIC, GIUSEPPE MERLA, ÁLVARO RADA-IGLESIAS, CEDRIC BÖCKX AND GIUSEPPE TESTA.",
+        "license": "CC BY-SA 2.5",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Human_self-domestication_and_DNA.jpg",
+        "title": "File:Human self-domestication and DNA.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Human_self-domestication_and_DNA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1369,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2518,6 +3252,7 @@
     "images": [
       {
         "url": "images/ornithorhynchus-anatinus/1.webp",
+        "url_small": "images/ornithorhynchus-anatinus/1-600.webp",
         "author": "robertpaulyoung",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
@@ -2526,8 +3261,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ornithorhynchus_anatinus_-_feeding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 803,
-        "kind": "photo",
-        "url_small": "images/ornithorhynchus-anatinus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/ornithorhynchus-anatinus/2.webp",
+        "url_small": "images/ornithorhynchus-anatinus/2-600.webp",
+        "author": "Issac I Navarro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eve_(platypus)_-_San_Diego_Zoo_Safari_Park.jpg",
+        "title": "File:Eve (platypus) - San Diego Zoo Safari Park.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Eve_%28platypus%29_-_San_Diego_Zoo_Safari_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/ornithorhynchus-anatinus/3.webp",
+        "url_small": "images/ornithorhynchus-anatinus/3-600.webp",
+        "author": "冠を頂いた龍",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E3%82%AB%E3%83%A2%E3%83%8E%E3%83%8F%E3%82%B7(Ornithorhynchus_anatinus)%E3%81%AE%E5%89%A5%E8%A3%BD.jpg",
+        "title": "File:カモノハシ(Ornithorhynchus anatinus)の剥製.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E3%82%AB%E3%83%A2%E3%83%8E%E3%83%8F%E3%82%B7%28Ornithorhynchus_anatinus%29%E3%81%AE%E5%89%A5%E8%A3%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 793,
+        "height": 595,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2598,6 +3358,7 @@
     "images": [
       {
         "url": "images/lumbricus-terrestris/1.webp",
+        "url_small": "images/lumbricus-terrestris/1-600.webp",
         "author": "Rosser1954",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -2606,8 +3367,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Common_Earthworm_%28Lumbricus_terrestris%29_Plug%2C_Chapeltoun%2C_Scotland.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/lumbricus-terrestris/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/lumbricus-terrestris/2.webp",
+        "url_small": "images/lumbricus-terrestris/2-600.webp",
+        "author": "Rosser1954",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Earthworm_(Lumbricus_terrestris)_Plug_(side_view),_Chapeltoun,_Scotland.JPG",
+        "title": "File:Earthworm (Lumbricus terrestris) Plug (side view), Chapeltoun, Scotland.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Earthworm_%28Lumbricus_terrestris%29_Plug_%28side_view%29%2C_Chapeltoun%2C_Scotland.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 731,
+        "kind": "photo"
+      },
+      {
+        "url": "images/lumbricus-terrestris/3.webp",
+        "url_small": "images/lumbricus-terrestris/3-600.webp",
+        "author": "Rosser1954",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Earthworm_(Lumbricus_terrestris)_Plug,_Chapeltoun,_Scotland.JPG",
+        "title": "File:Earthworm (Lumbricus terrestris) Plug, Chapeltoun, Scotland.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Earthworm_%28Lumbricus_terrestris%29_Plug%2C_Chapeltoun%2C_Scotland.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 881,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2677,6 +3463,7 @@
     "images": [
       {
         "url": "images/anopheles-minimus/1.webp",
+        "url_small": "images/anopheles-minimus/1-600.webp",
         "author": "James Gathany, USCDCP",
         "license": "Public domain",
         "license_url": "",
@@ -2685,8 +3472,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Anopheles_minimus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 829,
-        "kind": "photo",
-        "url_small": "images/anopheles-minimus/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2757,6 +3543,7 @@
     "images": [
       {
         "url": "images/apis-cerana/1.webp",
+        "url_small": "images/apis-cerana/1-600.webp",
         "author": "Dennisknr",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -2765,8 +3552,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Apis_Cerana_Bees_Honey_Comb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1600,
-        "kind": "photo",
-        "url_small": "images/apis-cerana/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/apis-cerana/2.webp",
+        "url_small": "images/apis-cerana/2-600.webp",
+        "author": "FlyingBatt",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Apis_cerana_(Asian_honeybee)_%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82_(6).jpg",
+        "title": "File:Apis cerana (Asian honeybee) 中华蜜蜂 (6).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Apis_cerana_%28Asian_honeybee%29_%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/apis-cerana/3.webp",
+        "url_small": "images/apis-cerana/3-600.webp",
+        "author": "FlyingBatt",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Apis_cerana_(Asian_honeybee)_%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82.jpg",
+        "title": "File:Apis cerana (Asian honeybee) 中华蜜蜂.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Apis_cerana_%28Asian_honeybee%29_%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2837,6 +3649,7 @@
     "images": [
       {
         "url": "images/mus-musculus/1.webp",
+        "url_small": "images/mus-musculus/1-600.webp",
         "author": "Dion Art",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -2845,8 +3658,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D1%8B%D1%88%D1%8C_%28Mus_musculus%29%2C_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 721,
-        "kind": "photo",
-        "url_small": "images/mus-musculus/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/mus-musculus/2.webp",
+        "url_small": "images/mus-musculus/2-600.webp",
+        "author": "Ahunt",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:House_mouse_(Mus_musculus)_2808.jpg",
+        "title": "File:House mouse (Mus musculus) 2808.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/House_mouse_%28Mus_musculus%29_2808.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 810,
+        "kind": "photo"
+      },
+      {
+        "url": "images/mus-musculus/3.webp",
+        "url_small": "images/mus-musculus/3-600.webp",
+        "author": "Daniel Montesinos",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mus_musculus_139684873.jpg",
+        "title": "File:Mus musculus 139684873.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mus_musculus_139684873.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2916,6 +3754,7 @@
     "images": [
       {
         "url": "images/danio-rerio/1.webp",
+        "url_small": "images/danio-rerio/1-600.webp",
         "author": "Pogrebnoj-Alexandroff",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -2924,8 +3763,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Danio_rerio.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/danio-rerio/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/danio-rerio/2.webp",
+        "url_small": "images/danio-rerio/2-600.webp",
+        "author": "Pogrebnoj-Alexandroff",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Danio_rerio_lab_left.JPG",
+        "title": "File:Danio rerio lab left.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Danio_rerio_lab_left.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 676,
+        "kind": "photo"
+      },
+      {
+        "url": "images/danio-rerio/3.webp",
+        "url_small": "images/danio-rerio/3-600.webp",
+        "author": "Pleple2000",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Danio_rerio_aquarium_for_science.jpg",
+        "title": "File:Danio rerio aquarium for science.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Danio_rerio_aquarium_for_science.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1800,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -2995,6 +3859,7 @@
     "images": [
       {
         "url": "images/hippocampus-kuda/1.webp",
+        "url_small": "images/hippocampus-kuda/1-600.webp",
         "author": "Nhobgood Nick Hobgood",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -3003,8 +3868,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hippocampus_kuda_%28Yellow_estuary_seahorse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 898,
-        "kind": "photo",
-        "url_small": "images/hippocampus-kuda/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/hippocampus-kuda/2.webp",
+        "url_small": "images/hippocampus-kuda/2-600.webp",
+        "author": "Nhobgood Nick Hobgood",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hippocampus_kuda_(Estuary_seahorse).jpg",
+        "title": "File:Hippocampus kuda (Estuary seahorse).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Hippocampus_kuda_%28Estuary_seahorse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1599,
+        "kind": "photo"
+      },
+      {
+        "url": "images/hippocampus-kuda/3.webp",
+        "url_small": "images/hippocampus-kuda/3-600.webp",
+        "author": "Nhobgood Nick Hobgood",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hippocampus_kuda_(Estuary_seahorse)_-_yellow.jpg",
+        "title": "File:Hippocampus kuda (Estuary seahorse) - yellow.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hippocampus_kuda_%28Estuary_seahorse%29_-_yellow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",

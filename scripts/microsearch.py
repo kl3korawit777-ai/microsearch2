@@ -1052,10 +1052,11 @@ def build_site_data(data_dir, illustrations_path):
         if synonyms.get(o["id"]):
             index[-1]["sy"] = synonyms[o["id"]]
         if o.get("images"):
-            index[-1]["img"] = o["images"][0].get("url_small") or o["images"][0]["url"]
+            index[-1]["np"] = len(o["images"])
             for im in o["images"]:
                 credits.append({"id": o["id"], "sci": o["scientific_name"], "file": im["url"], "author": im["author"], "license": im["license"],
-                                "license_url": im.get("license_url", ""), "source_url": im["source_url"], "title": im.get("title", "")})
+                                "license_url": im.get("license_url", ""), "source_url": im["source_url"], "title": im.get("title", ""),
+                                "source": im.get("source", "commons")})
         detail = {k: v for k, v in o.items() if k not in ("taxon_ids", "id", "group", "scientific_name")}
         detail["id"] = o["id"]
         per_group[o["group"]].append(detail)
@@ -1298,7 +1299,7 @@ def find_candidates(fx, sci):
     return good, rejected, len(seen)
 
 
-def to_webp(raw, dest):
+def to_webp(raw, dest, min_source_width=0):
     """แปลงเป็น WebP ย่อให้กว้างไม่เกิน MAX_IMAGE_WIDTH และไม่เกิน TARGET_IMAGE_BYTES คืน (กว้าง, สูง, ไบต์)"""
     try:
         from PIL import Image
@@ -1307,6 +1308,8 @@ def to_webp(raw, dest):
     import io
     img = Image.open(io.BytesIO(raw))
     img.load()
+    if img.width < min_source_width:
+        raise ValueError("รูปเล็กเกินไป (%d px)" % img.width)
     if img.mode not in ("RGB", "L"):
         img = img.convert("RGB")
     width = MAX_IMAGE_WIDTH
@@ -1329,6 +1332,7 @@ def to_webp(raw, dest):
 
 
 SMALL_WIDTH = 600
+MIN_EXTRA_SCORE = 1.0   # คะแนนขั้นต่ำของรูปที่สองขึ้นไป (รูปแรกเลือกที่ดีที่สุดเสมอ)
 
 
 def make_small(src_path, dest_path):
@@ -1392,6 +1396,8 @@ def cmd_images(args, fetcher=None):
         return cmd_images_check(args)
     if args.variants:
         return cmd_images_variants(args)
+    if args.supplement:
+        return cmd_images_supplement(args, fetcher)
     fx = fetcher or Fetcher(args.cache, args.refresh, retries=6)
     if fetcher is None:
         fx.intervals["commons"] = COMMONS_MIN_INTERVAL
@@ -1432,6 +1438,8 @@ def cmd_images(args, fetcher=None):
             for c in picks:
                 if len(saved) >= args.per_species:
                     break
+                if saved and score_candidate(c, is_microbe(o), sci) <= MIN_EXTRA_SCORE:
+                    continue  # รูปที่สองเป็นต้นไปต้องดีพอ (ไม่ใช่แผนภาพ รูปจานเพาะเชื้อ หรือภาพประกอบบทความ)
                 try:
                     raw = fx.get_bytes("commons-img", c["title"], c["thumb"])
                     dest = os.path.join(args.images_dir, o["id"], "%d.webp" % (len(saved) + 1))
@@ -1501,8 +1509,8 @@ def cmd_images_check(args):
                     problems.append("%s: ขาด %s" % (tag, k))
             if img.get("license") and not ALLOWED_LICENSE_RE.match(img["license"]):
                 problems.append("%s: license %r ไม่อยู่ในที่อนุญาต" % (tag, img["license"]))
-            if img.get("source_url") and not str(img["source_url"]).startswith("https://commons.wikimedia.org/"):
-                problems.append("%s: source_url ไม่ใช่หน้าไฟล์ของ Commons" % tag)
+            if img.get("source_url") and not str(img["source_url"]).startswith(IMAGE_SOURCE_HOSTS):
+                problems.append("%s: source_url ต้องเป็นหน้าต้นทางของ Commons, iNaturalist หรือ GBIF" % tag)
             small = img.get("url_small")
             if small:
                 sp = os.path.normpath(os.path.join(base, small))
@@ -1546,6 +1554,179 @@ def cmd_images_check(args):
     return 1 if problems else 0
 
 
+# ---------------------------------------------------------------- images: iNaturalist and GBIF (เสริมจาก Commons)
+
+INAT_API = "https://api.inaturalist.org/v1/observations"
+GBIF_OCCURRENCE = GBIF_API + "/occurrence/search"
+INAT_MIN_INTERVAL = 1.0
+GBIF_MEDIA_MIN_INTERVAL = 0.5
+SUPPLEMENT_SOURCES = ("inaturalist", "gbif")
+# iNaturalist ระบุ license เป็นรหัสไม่มีรุ่น รุ่นที่ใช้คือ 4.0 (GBIF แสดงรุ่น 4.0 ให้รูป iNaturalist ทุกรูป)
+INAT_LICENSES = {"cc0": ("CC0", "https://creativecommons.org/publicdomain/zero/1.0/"),
+                 "cc-by": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+                 "cc-by-sa": ("CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/")}
+IMAGE_SOURCE_HOSTS = ("https://commons.wikimedia.org/", "https://www.inaturalist.org/", "https://www.gbif.org/")
+
+
+def gbif_license(url):
+    """URL license ของ GBIF/Dublin Core -> ชื่อมาตรฐานที่ยอมรับ หรือ None (CC BY-NC, ND, ไม่ระบุ ฯลฯ ไม่รับ)"""
+    u = (url or "").lower().rstrip("/")
+    if "creativecommons.org/publicdomain/zero/1.0" in u:
+        return "CC0"
+    m = re.search(r"creativecommons\.org/licenses/(by|by-sa)/(\d\.\d)$", u)
+    if m:
+        return ("CC BY-SA %s" if m.group(1) == "by-sa" else "CC BY %s") % m.group(2)
+    if "publicdomain/mark" in u:
+        return "Public domain"
+    return None
+
+
+def inat_author(photo, user):
+    """ชื่อผู้ถ่ายจาก attribution เช่น '(c) Jane Doe, some rights reserved (CC BY)' หรือชื่อผู้ใช้"""
+    m = re.match(r"\(c\)\s*(.+?),\s*some rights reserved", photo.get("attribution") or "")
+    if m:
+        return m.group(1).strip()
+    return (user.get("name") or user.get("login") or "").strip()
+
+
+def inat_candidates(fx, sci):
+    url = INAT_API + "?" + urllib.parse.urlencode({"taxon_name": sci, "photo_license": "cc0,cc-by,cc-by-sa", "photos": "true",
+                                                    "per_page": 30, "order_by": "votes", "quality_grade": "research"})
+    out = []
+    for rank, r in enumerate(json.loads(fx.get("inaturalist", "obs-" + sci, url)).get("results", [])):
+        taxon = (r.get("taxon") or {}).get("name", "")
+        if taxon != sci:   # ไม่รับรูปของชนิดย่อยหรือชนิดอื่นที่ API ปนมา
+            continue
+        for photo in r.get("photos", []):
+            lic = INAT_LICENSES.get((photo.get("license_code") or "").lower())
+            if not lic or photo.get("hidden"):
+                continue
+            dims = photo.get("original_dimensions") or {}
+            out.append({
+                "title": "iNaturalist photo %s" % photo["id"], "thumb": photo["url"].replace("/square.", "/large."),
+                "original": photo["url"].replace("/square.", "/original."), "page": (r.get("uri") or "https://www.inaturalist.org/photos/%s" % photo["id"]).replace("http://", "https://", 1),
+                "width": dims.get("width") or 0, "height": dims.get("height") or 0, "mime": "image/jpeg",
+                "license_raw": lic[0], "license_url": lic[1], "author": inat_author(photo, r.get("user") or {}),
+                "desc": r.get("description") or "", "cats": "research grade", "name": "", "source": "inaturalist",
+                "bonus": 3 - min(rank, 6) * 0.4, "photo_id": str(photo["id"]),
+            })
+    return out
+
+
+def gbif_candidates(fx, sci):
+    params = [("scientificName", sci), ("mediaType", "StillImage"), ("basisOfRecord", "HUMAN_OBSERVATION"), ("limit", 40),
+              ("license", "CC0_1_0"), ("license", "CC_BY_4_0"), ("license", "CC_BY_SA_4_0")]
+    data = json.loads(fx.get("gbif", "media-" + sci, GBIF_OCCURRENCE + "?" + urllib.parse.urlencode(params)))
+    out = []
+    for rank, occ in enumerate(data.get("results", [])):
+        if occ.get("scientificName", "").split(" ")[:2] != sci.split(" ")[:2] or occ.get("taxonRank") not in (None, "SPECIES", "SUBSPECIES", "VARIETY"):
+            continue
+        for m in occ.get("media", []):
+            ident = m.get("identifier") or ""
+            lic_raw = gbif_license(m.get("license") or occ.get("license"))
+            author = (m.get("creator") or m.get("rightsHolder") or "").strip()
+            if m.get("type") != "StillImage" or not ident.startswith("http") or not lic_raw or not author:
+                continue
+            pid = re.search(r"/photos/(\d+)/", ident)
+            out.append({
+                "title": "GBIF occurrence %s media %d" % (occ["key"], len(out)), "thumb": ident, "original": ident,
+                "page": "https://www.gbif.org/occurrence/%s" % occ["key"], "width": 0, "height": 0, "mime": "image/jpeg",
+                "license_raw": lic_raw, "license_url": m.get("license") or occ.get("license") or "", "author": author,
+                "desc": "", "cats": "", "name": "", "source": "gbif", "bonus": 0 - min(rank, 10) * 0.2,
+                "photo_id": pid.group(1) if pid else "",
+            })
+    return out
+
+
+def supplement_images(fx, org, existing_ids, sources, limit):
+    """ผู้สมัครจาก iNaturalist และ GBIF ที่ผ่านเกณฑ์ (license เปิด มีผู้ถ่าย ไม่ซ้ำกับที่มี) เรียงดีที่สุดก่อน"""
+    sci = org["scientific_name"]
+    cands = []
+    for src in sources:
+        try:
+            cands += inat_candidates(fx, sci) if src == "inaturalist" else gbif_candidates(fx, sci)
+        except (FetchError, ValueError) as e:
+            print("  %s: %s ดึงไม่สำเร็จ (%s)" % (org["id"], src, str(e)[:80]))
+    seen = set(existing_ids)
+    good = []
+    for c in cands:
+        key = c["photo_id"] or c["title"]
+        if key in seen or not normalize_license(c["license_raw"]) or not c["author"]:
+            continue
+        if c["width"] and c["width"] < MIN_SOURCE_WIDTH:
+            continue
+        seen.add(key)
+        good.append(c)
+    microbe = is_microbe(org)
+    ranked = sorted(good, key=lambda c: (-(score_candidate(c, microbe, sci) + c.get("bonus", 0)), c["title"]))
+    return ranked[:limit]
+
+
+def cmd_images_supplement(args, fetcher=None):
+    """เติมรูปจาก iNaturalist/GBIF ให้ชนิดที่มีรูปไม่ถึง --per-species (รวมชนิดที่ Commons ไม่มีรูปเลย) ไม่แตะรูปที่มีอยู่"""
+    sources = [x.strip() for x in args.supplement.split(",") if x.strip()]
+    bad = [x for x in sources if x not in SUPPLEMENT_SOURCES]
+    if bad:
+        print("แหล่งที่ไม่รู้จัก: %s (ใช้ %s)" % (", ".join(bad), ", ".join(SUPPLEMENT_SOURCES)))
+        return 1
+    fx = fetcher or Fetcher(args.cache, args.refresh, retries=6)
+    if fetcher is None:
+        fx.intervals.update({"inaturalist": INAT_MIN_INTERVAL, "inaturalist-img": INAT_MIN_INTERVAL, "gbif": GBIF_MIN_INTERVAL, "gbif-img": GBIF_MEDIA_MIN_INTERVAL})
+    wanted = set(x.strip() for x in args.only.split(",") if x.strip()) if args.only else None
+    added = 0
+    touched = 0
+    for path in sorted(glob.glob(os.path.join(args.data, "organisms", "*.json"))):
+        items = load_json(path)
+        changed = False
+        for o in items:
+            if wanted is not None and o["id"] not in wanted:
+                continue
+            have = list(o.get("images") or [])
+            base = len(have)   # จำนวนรูปเดิม (o["images"] จะโตขึ้นระหว่างวนจึงไม่ใช้ len ของมันนับ)
+            if base >= args.per_species:
+                continue
+            ids = [i.get("title", "") for i in have] + [re.sub(r"\D", "", i.get("original_url", "")) for i in have]
+            picks = supplement_images(fx, o, ids, sources, args.per_species + 3)
+            saved = 0
+            for c in picks:
+                if base + saved >= args.per_species:
+                    break
+                if (base or saved) and score_candidate(c, is_microbe(o), o["scientific_name"]) + c.get("bonus", 0) <= MIN_EXTRA_SCORE:
+                    continue
+                try:
+                    raw = fx.get_bytes(c["source"] + "-img", c["title"], c["thumb"])
+                    n = base + saved + 1
+                    dest = os.path.join(args.images_dir, o["id"], "%d.webp" % n)
+                    size = to_webp(raw, dest, min_source_width=MIN_SOURCE_WIDTH)
+                    make_small(dest, dest[:-len(".webp")] + "-600.webp")
+                except (FetchError, OSError, ValueError) as e:
+                    print("  ข้าม %s: %s" % (c["title"], str(e)[:80]))
+                    continue
+                rec = image_record(o["id"], n, c, size)
+                rec["source"] = c["source"]
+                rec["kind"] = "photo"
+                o.setdefault("images", []).append(rec)
+                saved += 1
+            if saved:
+                added += saved
+                touched += 1
+                changed = True
+                print("[%s] เพิ่ม %d รูป (%s)" % (o["id"], saved, ", ".join(i["source"] if "source" in i else "commons" for i in o["images"])))
+        if changed:
+            save_orgs(path, items)
+    notes_path = os.path.join(args.data, IMAGE_NOTES)
+    notes = load_json(notes_path) if os.path.exists(notes_path) else {}
+    for o in load_organisms(args.data):
+        if o.get("images"):
+            notes.pop(o["id"], None)
+    os.makedirs(os.path.dirname(notes_path), exist_ok=True)
+    with open(notes_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps(dict(sorted(notes.items())), ensure_ascii=False, indent=2) + "\n")
+    write_images_missing(args.data, args.missing_report)
+    print("สรุป: เพิ่ม %d รูปให้ %d ชนิด; เรียก API/ดาวน์โหลด %d ครั้ง ใช้ cache %d ครั้ง" % (added, touched, fx.stats["api"], fx.stats["cache"]))
+    return 0
+
+
 # ---------------------------------------------------------------- main
 
 def build_parser():
@@ -1566,6 +1747,7 @@ def build_parser():
     s = sub.add_parser("images", help="หารูปจาก Wikimedia Commons ต่อชนิด (CC0, CC BY, CC BY-SA, Public domain) หรือตรวจด้วย --check")
     s.add_argument("--check", action="store_true", help="ตรวจเครดิต license ขนาด และไฟล์ ไม่ดึงอะไร")
     s.add_argument("--only", help="เฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
+    s.add_argument("--supplement", metavar="SOURCES", help="เติมรูปจาก inaturalist,gbif ให้ชนิดที่มีรูปไม่ถึง --per-species")
     s.add_argument("--variants", action="store_true", help="สร้างรูปขนาดเล็ก (-600.webp) ให้รูปที่ยังไม่มี")
     s.add_argument("--redo", action="store_true", help="เลือกรูปใหม่แม้ชนิดนั้นมีรูปแล้ว")
     s.add_argument("--refresh", action="store_true", help="ไม่ใช้ cache ยิง API ใหม่")

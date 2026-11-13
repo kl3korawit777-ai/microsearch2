@@ -77,8 +77,8 @@ try {
   ok(await page.evaluate(() => !!navigator.serviceWorker.controller) || true, 'page is controlled (after reload below)');
 
   // pictures are cached only when opened: view one species with a picture (if any) and one without
-  const withImg = index.find((s) => s.img);
-  const without = index.find((s) => !s.img);
+  const withImg = index.find((s) => s.np);
+  const without = index.find((s) => !s.np);
   const viewed = [withImg, without].filter(Boolean);
   await page.reload({ waitUntil: 'load' });
   await ready('home');

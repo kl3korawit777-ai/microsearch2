@@ -13,7 +13,8 @@ buildSite();
 const { server, base } = await serveSite();
 const browser = await puppeteer.launch({ executablePath: findChrome(), headless: true, args: ['--no-sandbox', '--disable-gpu'] });
 const index = readJson('data/index.json');
-const withImg = index.find((s) => s.img) || index[0];
+const withImg = index.find((s) => s.np) || index[0];
+const multiPhoto = index.find((s) => s.np > 1) || withImg;
 const AXE = join(ROOT, 'node_modules', 'axe-core', 'axe.min.js');
 
 async function newPage(lang, theme, width = 1280, height = 900, extra = {}) {
@@ -37,6 +38,7 @@ const PAGES = [
   ['group with filters', 'bacteria?lv=hs&gram=pos', async (p) => { await p.click('.rowbtn'); }],
   ['species', withImg.id, null],
   ['species (halobacterium)', 'halobacterium-salinarum', async (p) => { await p.click('#tab-name'); }],
+  ['species gallery', multiPhoto.id, async (p) => { await p.click('#galNext'); }],
   ['sources', 'sources', null],
 ];
 let axeRuns = 0;
@@ -172,7 +174,7 @@ async function focusIndicator(page) {
 
 await browser.close();
 server.close();
-console.log(`axe runs: ${axeRuns} (7 pages x light/dark x Thai/English), checks: ${checks}, failures: ${failures.length}`);
+console.log(`axe runs: ${axeRuns} (8 pages x light/dark x Thai/English), checks: ${checks}, failures: ${failures.length}`);
 if (notes.size) console.log(`axe notes (moderate/minor, not failing): ${notes.size}`);
 for (const n of [...notes].slice(0, 12)) console.log(`  note ${n}`);
 for (const f of failures.slice(0, 40)) console.log(`FAIL ${f}`);

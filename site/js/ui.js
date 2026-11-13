@@ -77,10 +77,13 @@ export function rowSummary(s) {
   }
 }
 
-// Small picture of a species: the photo when we have one, otherwise the temporary drawing.
+// Small picture of a species in lists and previews: always the drawing. Real photos appear on the species page.
 export function thumb(s) {
-  return s.img ? `<img src="${esc(s.img)}" alt="" loading="lazy" decoding="async" data-art="${esc(s.art)}">` : art(s.art);
+  return art(s.art);
 }
+
+// Link text for the original page of a picture, by where it came from.
+export const sourceLabel = (img) => T(img.source === 'inaturalist' ? 'imgOnInat' : img.source === 'gbif' ? 'imgOnGbif' : 'imgOn');
 
 export const footer = () => `<footer class="foot" id="foot"><p>${T('taxSource')}</p></footer>`;
 

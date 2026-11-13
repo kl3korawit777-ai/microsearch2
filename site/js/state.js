@@ -12,5 +12,6 @@ export const S = {
   gf: {},   // filters per group id
   open: {}, // expanded row per group id
   tab: 'traits',
+  slide: {}, // current picture per species id
   focusSearch: false,
 };

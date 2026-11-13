@@ -271,6 +271,34 @@
         "height": 728,
         "kind": "photo",
         "url_small": "images/paramecium-caudatum/1-600.webp"
+      },
+      {
+        "url": "images/paramecium-caudatum/2.webp",
+        "url_small": "images/paramecium-caudatum/2-600.webp",
+        "author": "Luka S. (someplant)",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/364732846",
+        "title": "iNaturalist photo 665845532",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665845532/original.jpg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/paramecium-caudatum/3.webp",
+        "url_small": "images/paramecium-caudatum/3-600.webp",
+        "author": "Luka S. (someplant)",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/364732846",
+        "title": "iNaturalist photo 665845903",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665845903/original.jpg",
+        "width": 1024,
+        "height": 769,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -621,6 +649,34 @@
         "height": 677,
         "kind": "photo",
         "url_small": "images/amoeba-proteus/1-600.webp"
+      },
+      {
+        "url": "images/amoeba-proteus/2.webp",
+        "url_small": "images/amoeba-proteus/2-600.webp",
+        "author": "Dominic",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/1382849",
+        "title": "iNaturalist photo 1708723",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1708723/original.jpg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/amoeba-proteus/3.webp",
+        "url_small": "images/amoeba-proteus/3-600.webp",
+        "author": "onotole",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/199174194",
+        "title": "iNaturalist photo 351204164",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351204164/original.jpeg",
+        "width": 746,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -761,6 +817,34 @@
         "height": 900,
         "kind": "micrograph",
         "url_small": "images/noctiluca-scintillans/1-600.webp"
+      },
+      {
+        "url": "images/noctiluca-scintillans/2.webp",
+        "url_small": "images/noctiluca-scintillans/2-600.webp",
+        "author": "Cheng-Tao Lin",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/38179220",
+        "title": "iNaturalist photo 60640558",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60640558/original.jpg",
+        "width": 1024,
+        "height": 681,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/noctiluca-scintillans/3.webp",
+        "url_small": "images/noctiluca-scintillans/3-600.webp",
+        "author": "Cheng-Tao Lin",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/38179220",
+        "title": "iNaturalist photo 60640568",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60640568/original.jpg",
+        "width": 1024,
+        "height": 681,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1097,6 +1181,20 @@
         "height": 688,
         "kind": "micrograph",
         "url_small": "images/trichomonas-vaginalis/1-600.webp"
+      },
+      {
+        "url": "images/trichomonas-vaginalis/2.webp",
+        "url_small": "images/trichomonas-vaginalis/2-600.webp",
+        "author": "Nikita Gerasin",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/348128534",
+        "title": "iNaturalist photo 634857578",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634857578/original.jpg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1377,6 +1475,34 @@
         "height": 451,
         "kind": "photo",
         "url_small": "images/phytophthora-infestans/1-600.webp"
+      },
+      {
+        "url": "images/phytophthora-infestans/2.webp",
+        "url_small": "images/phytophthora-infestans/2-600.webp",
+        "author": "Igor Shelpiakov",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/185255576",
+        "title": "iNaturalist photo 323517050",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323517050/original.jpg",
+        "width": 980,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/phytophthora-infestans/3.webp",
+        "url_small": "images/phytophthora-infestans/3-600.webp",
+        "author": "Igor Shelpiakov",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/185255576",
+        "title": "iNaturalist photo 323517051",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323517051/original.jpg",
+        "width": 980,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -1715,6 +1841,34 @@
         "height": 655,
         "kind": "photo",
         "url_small": "images/vorticella-campanula/1-600.webp"
+      },
+      {
+        "url": "images/vorticella-campanula/2.webp",
+        "url_small": "images/vorticella-campanula/2-600.webp",
+        "author": "David Bird",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/196045570",
+        "title": "iNaturalist photo 345049113",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345049113/original.jpg",
+        "width": 1024,
+        "height": 723,
+        "kind": "photo",
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/vorticella-campanula/3.webp",
+        "url_small": "images/vorticella-campanula/3-600.webp",
+        "author": "David Bird",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/196045570",
+        "title": "iNaturalist photo 345050449",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345050449/original.jpg",
+        "width": 1024,
+        "height": 692,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",

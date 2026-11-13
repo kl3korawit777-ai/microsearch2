@@ -56,6 +56,7 @@
     "images": [
       {
         "url": "images/escherichia-coli/1.webp",
+        "url_small": "images/escherichia-coli/1-600.webp",
         "author": "Stefan Walkowski",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -64,8 +65,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/UPEC_adhered_to_BEC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 600,
-        "kind": "micrograph",
-        "url_small": "images/escherichia-coli/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/escherichia-coli/2.webp",
+        "url_small": "images/escherichia-coli/2-600.webp",
+        "author": "Photo by Eric Erbe, digital colorization by Christopher Pooley, both of USDA, ARS, EMU.",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg",
+        "title": "File:E coli at 10000x, original.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/E_coli_at_10000x%2C_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 873,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/escherichia-coli/3.webp",
+        "url_small": "images/escherichia-coli/3-600.webp",
+        "author": "Volunteer7",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:102125192_ecoli.jpg",
+        "title": "File:102125192 ecoli.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/102125192_ecoli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 976,
+        "height": 549,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -131,6 +157,7 @@
     "images": [
       {
         "url": "images/rhizobium-leguminosarum/1.webp",
+        "url_small": "images/rhizobium-leguminosarum/1-600.webp",
         "author": "Qaswarah 21",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -139,8 +166,35 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Root_nodules_of_Fabaceae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 589,
         "height": 597,
+        "kind": "photo"
+      },
+      {
+        "url": "images/rhizobium-leguminosarum/2.webp",
+        "url_small": "images/rhizobium-leguminosarum/2-600.webp",
+        "author": "Therese Phillips",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/373678417",
+        "title": "iNaturalist photo 682929096",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682929096/original.jpg",
+        "width": 768,
+        "height": 1024,
         "kind": "photo",
-        "url_small": "images/rhizobium-leguminosarum/1-600.webp"
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/rhizobium-leguminosarum/3.webp",
+        "url_small": "images/rhizobium-leguminosarum/3-600.webp",
+        "author": "Therese Phillips",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "source_url": "https://www.inaturalist.org/observations/373678417",
+        "title": "iNaturalist photo 682929099",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682929099/original.jpg",
+        "width": 768,
+        "height": 1024,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -205,6 +259,7 @@
     "images": [
       {
         "url": "images/vibrio-cholerae/1.webp",
+        "url_small": "images/vibrio-cholerae/1-600.webp",
         "author": "Tom Kirn, Ron Taylor, Louisa Howard - Dartmouth Electron Microscope Facility",
         "license": "Public domain",
         "license_url": "",
@@ -213,8 +268,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vibrio_cholerae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 979,
-        "kind": "micrograph",
-        "url_small": "images/vibrio-cholerae/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/vibrio-cholerae/2.webp",
+        "url_small": "images/vibrio-cholerae/2-600.webp",
+        "author": "CDC",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vibrio_cholerae_gram_stain_CDC.jpg",
+        "title": "File:Vibrio cholerae gram stain CDC.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Vibrio_cholerae_gram_stain_CDC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 700,
+        "height": 723,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/vibrio-cholerae/3.webp",
+        "url_small": "images/vibrio-cholerae/3-600.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nitroso_indole_reaction_of_Vibrio_cholerae.jpg",
+        "title": "File:Nitroso indole reaction of Vibrio cholerae.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nitroso_indole_reaction_of_Vibrio_cholerae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -280,6 +360,7 @@
     "images": [
       {
         "url": "images/bacillus-subtilis/1.webp",
+        "url_small": "images/bacillus-subtilis/1-600.webp",
         "author": "Allonweiner at English Wikipedia",
         "license": "Public domain",
         "license_url": "",
@@ -288,8 +369,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bacillus_subtilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/bacillus-subtilis/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/bacillus-subtilis/2.webp",
+        "url_small": "images/bacillus-subtilis/2-600.webp",
+        "author": "EditorInTheRye",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacillus_subtilis_stained_with_Nile_Red.jpg",
+        "title": "File:Bacillus subtilis stained with Nile Red.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bacillus_subtilis_stained_with_Nile_Red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 797,
+        "height": 797,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/bacillus-subtilis/3.webp",
+        "url_small": "images/bacillus-subtilis/3-600.webp",
+        "author": "Y tambe (original uploader)",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacillus_subtilis_Spore.jpg",
+        "title": "File:Bacillus subtilis Spore.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bacillus_subtilis_Spore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 500,
+        "height": 375,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -354,6 +460,7 @@
     "images": [
       {
         "url": "images/lactobacillus-acidophilus/1.webp",
+        "url_small": "images/lactobacillus-acidophilus/1-600.webp",
         "author": "Bob Blaylock",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -362,8 +469,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/20101212_205549_LactobacillusAcidophilus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph",
-        "url_small": "images/lactobacillus-acidophilus/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/lactobacillus-acidophilus/2.webp",
+        "url_small": "images/lactobacillus-acidophilus/2-600.webp",
+        "author": "Doc. RNDr. Josef Reischig, CSc.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lactobacillus_acidophilus_(251_33)_Lactobacillus_acidophilus_(D%C3%B6derlein_bacillus).jpg",
+        "title": "File:Lactobacillus acidophilus (251 33) Lactobacillus acidophilus (Döderlein bacillus).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lactobacillus_acidophilus_%28251_33%29_Lactobacillus_acidophilus_%28D%C3%B6derlein_bacillus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 768,
+        "kind": "photo"
+      },
+      {
+        "url": "images/lactobacillus-acidophilus/3.webp",
+        "url_small": "images/lactobacillus-acidophilus/3-600.webp",
+        "author": "Doc. RNDr. Josef Reischig, CSc.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lactobacillus_acidophilus_(259_08)_Lactobacillus_acidophilus_(D%C3%B6derlein_bacillus).jpg",
+        "title": "File:Lactobacillus acidophilus (259 08) Lactobacillus acidophilus (Döderlein bacillus).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Lactobacillus_acidophilus_%28259_08%29_Lactobacillus_acidophilus_%28D%C3%B6derlein_bacillus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 768,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -428,6 +560,7 @@
     "images": [
       {
         "url": "images/staphylococcus-aureus/1.webp",
+        "url_small": "images/staphylococcus-aureus/1-600.webp",
         "author": "Photo Credit: Janice Carr Content Providers(s): CDC/ Matthew J. Arduino, DRPH; Janice Carr",
         "license": "Public domain",
         "license_url": "",
@@ -436,8 +569,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Staphylococcus_aureus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 932,
-        "kind": "micrograph",
-        "url_small": "images/staphylococcus-aureus/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/staphylococcus-aureus/2.webp",
+        "url_small": "images/staphylococcus-aureus/2-600.webp",
+        "author": "Eric Erbe, Christopher Pooley",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus,_50,000x,_USDA,_ARS,_EMU.jpg",
+        "title": "File:Staphylococcus aureus, 50,000x, USDA, ARS, EMU.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Staphylococcus_aureus%2C_50%2C000x%2C_USDA%2C_ARS%2C_EMU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1184,
+        "height": 1500,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/staphylococcus-aureus/3.webp",
+        "url_small": "images/staphylococcus-aureus/3-600.webp",
+        "author": "Dr Graham Beards",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_Gram_stain.jpg",
+        "title": "File:Staphylococcus aureus Gram stain.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Staphylococcus_aureus_Gram_stain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -503,6 +661,7 @@
     "images": [
       {
         "url": "images/arthrospira-platensis/1.webp",
+        "url_small": "images/arthrospira-platensis/1-600.webp",
         "author": "MaCameron",
         "license": "CC0",
         "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -511,8 +670,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Arthrospira_platensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 675,
-        "kind": "micrograph",
-        "url_small": "images/arthrospira-platensis/1-600.webp"
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -578,6 +736,7 @@
     "images": [
       {
         "url": "images/nostoc-commune/1.webp",
+        "url_small": "images/nostoc-commune/1-600.webp",
         "author": "Thomas Bolton (1831-1887) - text Herbert Edward Forrest - illustration",
         "license": "Public domain",
         "license_url": "",
@@ -586,8 +745,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nostoc_Commune_flyleaf_-_Thomas_Bolton_%2B_H._E._Forrest_-_1879.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 675,
         "height": 1082,
-        "kind": "photo",
-        "url_small": "images/nostoc-commune/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/nostoc-commune/2.webp",
+        "url_small": "images/nostoc-commune/2-600.webp",
+        "author": "Scontardi",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nostoc_Commune_-_San_Giuliano_Terme.jpg",
+        "title": "File:Nostoc Commune - San Giuliano Terme.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Nostoc_Commune_-_San_Giuliano_Terme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      },
+      {
+        "url": "images/nostoc-commune/3.webp",
+        "url_small": "images/nostoc-commune/3-600.webp",
+        "author": "DidierFy",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nostoc_commune_02.2026_(1).jpg",
+        "title": "File:Nostoc commune 02.2026 (1).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Nostoc_commune_02.2026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -653,6 +837,7 @@
     "images": [
       {
         "url": "images/streptomyces-griseus/1.webp",
+        "url_small": "images/streptomyces-griseus/1-600.webp",
         "author": "Docwarhol",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -661,8 +846,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Streptomyces_griseus_color_enhanced_scanning_electron_micrograph..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 601,
         "height": 412,
-        "kind": "micrograph",
-        "url_small": "images/streptomyces-griseus/1-600.webp"
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -727,6 +911,7 @@
     "images": [
       {
         "url": "images/mycobacterium-tuberculosis/1.webp",
+        "url_small": "images/mycobacterium-tuberculosis/1-600.webp",
         "author": "Siduduziwe Nxumalo",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -735,8 +920,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mycobacterium_Tuberculosis_with_sample_contamination_under_the_microscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 960,
         "height": 1280,
-        "kind": "micrograph",
-        "url_small": "images/mycobacterium-tuberculosis/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/mycobacterium-tuberculosis/2.webp",
+        "url_small": "images/mycobacterium-tuberculosis/2-600.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Acid_fast_bacilli_of_Mycobacterium_tuberculosis.jpg",
+        "title": "File:Acid fast bacilli of Mycobacterium tuberculosis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Acid_fast_bacilli_of_Mycobacterium_tuberculosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/mycobacterium-tuberculosis/3.webp",
+        "url_small": "images/mycobacterium-tuberculosis/3-600.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mycobacterium_tuberculosis_in_Ziehl-Neelsen_stained_smear_of_sputum.jpg",
+        "title": "File:Mycobacterium tuberculosis in Ziehl-Neelsen stained smear of sputum.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mycobacterium_tuberculosis_in_Ziehl-Neelsen_stained_smear_of_sputum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -801,6 +1011,7 @@
     "images": [
       {
         "url": "images/treponema-pallidum/1.webp",
+        "url_small": "images/treponema-pallidum/1-600.webp",
         "author": "NIAID",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
@@ -809,8 +1020,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Treponema_pallidum_Bacteria_%28Syphilis%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1234,
-        "kind": "micrograph",
-        "url_small": "images/treponema-pallidum/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/treponema-pallidum/2.webp",
+        "url_small": "images/treponema-pallidum/2-600.webp",
+        "author": "Photo credit: Content providers(s): CDC / Dr. David Cox",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Treponema_pallidum.jpg",
+        "title": "File:Treponema pallidum.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Treponema_pallidum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 531,
+        "height": 500,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/treponema-pallidum/3.webp",
+        "url_small": "images/treponema-pallidum/3-600.webp",
+        "author": "Photo Credit: Content Providers: CDC/C.W. Hubbard",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Treponema_pallidum_cropped.png",
+        "title": "File:Treponema pallidum cropped.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Treponema_pallidum_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1000,
+        "height": 750,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -875,6 +1111,7 @@
     "images": [
       {
         "url": "images/oscillatoria-princeps/1.webp",
+        "url_small": "images/oscillatoria-princeps/1-600.webp",
         "author": "Kristian Peters http://www.korseby.net/outer/flora/algae/index.html",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -883,8 +1120,35 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Oscillatoria_princeps.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 600,
+        "kind": "photo"
+      },
+      {
+        "url": "images/oscillatoria-princeps/2.webp",
+        "url_small": "images/oscillatoria-princeps/2-600.webp",
+        "author": "Luka S. (someplant)",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/238100875",
+        "title": "iNaturalist photo 423841022",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423841022/original.jpeg",
+        "width": 1024,
+        "height": 683,
         "kind": "photo",
-        "url_small": "images/oscillatoria-princeps/1-600.webp"
+        "source": "inaturalist"
+      },
+      {
+        "url": "images/oscillatoria-princeps/3.webp",
+        "url_small": "images/oscillatoria-princeps/3-600.webp",
+        "author": "Luka S. (someplant)",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_url": "https://www.inaturalist.org/observations/238100875",
+        "title": "iNaturalist photo 423841023",
+        "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423841023/original.jpeg",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo",
+        "source": "inaturalist"
       }
     ],
     "review": "ai_draft",
@@ -950,6 +1214,7 @@
     "images": [
       {
         "url": "images/streptococcus-pneumoniae/1.webp",
+        "url_small": "images/streptococcus-pneumoniae/1-600.webp",
         "author": "Ajay Kumar Chaurasiya",
         "license": "CC0",
         "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -958,8 +1223,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pneumococcus_in_Gram-Stained_BAL_Sample.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "micrograph",
-        "url_small": "images/streptococcus-pneumoniae/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/streptococcus-pneumoniae/2.webp",
+        "url_small": "images/streptococcus-pneumoniae/2-600.webp",
+        "author": "Dr. Richard Facklam E-Mail: rrf2@cdc.gov",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pneumokokken.jpg",
+        "title": "File:Pneumokokken.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Pneumokokken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 700,
+        "height": 488,
+        "kind": "photo"
+      },
+      {
+        "url": "images/streptococcus-pneumoniae/3.webp",
+        "url_small": "images/streptococcus-pneumoniae/3-600.webp",
+        "author": "Photo Credit: Content Providers(s): CDC/Dr. M.S. Mitchell",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pneumococcus_CDC_PHIL_ID1003.jpg",
+        "title": "File:Pneumococcus CDC PHIL ID1003.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Pneumococcus_CDC_PHIL_ID1003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 602,
+        "height": 464,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1025,6 +1315,7 @@
     "images": [
       {
         "url": "images/agrobacterium-tumefaciens/1.webp",
+        "url_small": "images/agrobacterium-tumefaciens/1-600.webp",
         "author": "Jerzy Opioła",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1033,8 +1324,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Agrobacterium_tumefaciens_a1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 900,
-        "kind": "photo",
-        "url_small": "images/agrobacterium-tumefaciens/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/agrobacterium-tumefaciens/2.webp",
+        "url_small": "images/agrobacterium-tumefaciens/2-600.webp",
+        "author": "Cherubino",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Agrobacterium_tumefaciens_galls_on_Rosa_01.jpg",
+        "title": "File:Agrobacterium tumefaciens galls on Rosa 01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Agrobacterium_tumefaciens_galls_on_Rosa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      },
+      {
+        "url": "images/agrobacterium-tumefaciens/3.webp",
+        "url_small": "images/agrobacterium-tumefaciens/3-600.webp",
+        "author": "Cherubino",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Agrobacterium_tumefaciens_galls_on_Rosa_02.jpg",
+        "title": "File:Agrobacterium tumefaciens galls on Rosa 02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Agrobacterium_tumefaciens_galls_on_Rosa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1100,6 +1416,7 @@
     "images": [
       {
         "url": "images/clostridium-botulinum/1.webp",
+        "url_small": "images/clostridium-botulinum/1-600.webp",
         "author": "Content Providers: CDC",
         "license": "Public domain",
         "license_url": "",
@@ -1108,8 +1425,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Clostridium_botulinum_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 645,
         "height": 610,
-        "kind": "micrograph",
-        "url_small": "images/clostridium-botulinum/1-600.webp"
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -1175,6 +1491,7 @@
     "images": [
       {
         "url": "images/salmonella-enterica/1.webp",
+        "url_small": "images/salmonella-enterica/1-600.webp",
         "author": "U.S. Department of Agriculture",
         "license": "Public domain",
         "license_url": "",
@@ -1183,8 +1500,20 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Salmonella_enteritidis_in_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 1364,
-        "kind": "micrograph",
-        "url_small": "images/salmonella-enterica/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/salmonella-enterica/2.webp",
+        "url_small": "images/salmonella-enterica/2-600.webp",
+        "author": "Andreagn05",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taxonomia_de_Salmonella_Enteritidis.jpg",
+        "title": "File:Taxonomia de Salmonella Enteritidis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Taxonomia_de_Salmonella_Enteritidis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1249,6 +1578,7 @@
     "images": [
       {
         "url": "images/helicobacter-pylori/1.webp",
+        "url_small": "images/helicobacter-pylori/1-600.webp",
         "author": "User:KGH",
         "license": "CC BY-SA 3.0",
         "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -1257,8 +1587,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Immunohistochemical_detection_of_Helicobacter_pylori_histopathology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 500,
         "height": 376,
-        "kind": "photo",
-        "url_small": "images/helicobacter-pylori/1-600.webp"
+        "kind": "photo"
+      },
+      {
+        "url": "images/helicobacter-pylori/2.webp",
+        "url_small": "images/helicobacter-pylori/2-600.webp",
+        "author": "Photo Credit: Janice Carr Content Providers(s): CDC/ Dr. Patricia Fields, Dr. Collette Fitzgerald",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hpylori.jpg",
+        "title": "File:Hpylori.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hpylori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 700,
+        "height": 476,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/helicobacter-pylori/3.webp",
+        "url_small": "images/helicobacter-pylori/3-600.webp",
+        "author": "Doc James",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:H.pyloriTx.jpg",
+        "title": "File:H.pyloriTx.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/H.pyloriTx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1211,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1323,6 +1678,7 @@
     "images": [
       {
         "url": "images/burkholderia-pseudomallei/1.webp",
+        "url_small": "images/burkholderia-pseudomallei/1-600.webp",
         "author": "Neha Shrestha, Mahesh Adhikari, Vivek Pant, Suman Baral, Anjan Shrestha, Buddha Basnyat, Sangita Sharma and Jeevan Bahadur Sherchand",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -1331,8 +1687,20 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Burkholderia_pseudomallei_gram_stain_safety_pin_apperance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 894,
         "height": 734,
-        "kind": "micrograph",
-        "url_small": "images/burkholderia-pseudomallei/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/burkholderia-pseudomallei/2.webp",
+        "url_small": "images/burkholderia-pseudomallei/2-600.webp",
+        "author": "Dr. Biegeleisen",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Immunofluorescent-stained_sample_of_guinea_pig_tissue_leads_to_positive_diagnosis_of_melioidosis.png",
+        "title": "File:Immunofluorescent-stained sample of guinea pig tissue leads to positive diagnosis of melioidosis.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Immunofluorescent-stained_sample_of_guinea_pig_tissue_leads_to_positive_diagnosis_of_melioidosis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 790,
+        "kind": "micrograph"
       }
     ],
     "review": "ai_draft",
@@ -1397,6 +1765,7 @@
     "images": [
       {
         "url": "images/leptospira-interrogans/1.webp",
+        "url_small": "images/leptospira-interrogans/1-600.webp",
         "author": "Obtained from the CDC Public Health Image Library. Image credit: CDC/NCID/HIP/Janice Carr (PHIL #1220).",
         "license": "Public domain",
         "license_url": "",
@@ -1405,8 +1774,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Leptospira_interrogans_strain_RGA_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1013,
         "height": 671,
-        "kind": "photo",
-        "url_small": "images/leptospira-interrogans/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1472,6 +1840,7 @@
     "images": [
       {
         "url": "images/thermus-aquaticus/1.webp",
+        "url_small": "images/thermus-aquaticus/1-600.webp",
         "author": "Eugene V. Koonin, Mart Krupovic, Sonoko Ishino, and Yoshizumi Ishino",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -1480,8 +1849,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/12915_2020_800_Fig1_HTML_%281%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 962,
-        "kind": "photo",
-        "url_small": "images/thermus-aquaticus/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1547,6 +1915,7 @@
     "images": [
       {
         "url": "images/bacillus-thuringiensis/1.webp",
+        "url_small": "images/bacillus-thuringiensis/1-600.webp",
         "author": "Dr. Sahay",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -1555,8 +1924,33 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bacillus_thuringiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
         "height": 886,
-        "kind": "micrograph",
-        "url_small": "images/bacillus-thuringiensis/1-600.webp"
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/bacillus-thuringiensis/2.webp",
+        "url_small": "images/bacillus-thuringiensis/2-600.webp",
+        "author": "Sam LaRussa from United States of America",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bt_4A4_(24866589842).jpg",
+        "title": "File:Bt 4A4 (24866589842).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bt_4A4_%2824866589842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "micrograph"
+      },
+      {
+        "url": "images/bacillus-thuringiensis/3.webp",
+        "url_small": "images/bacillus-thuringiensis/3-600.webp",
+        "author": "Danny S.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacillus_thuringiensis-S.jpg",
+        "title": "File:Bacillus thuringiensis-S.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bacillus_thuringiensis-S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1144,
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1621,6 +2015,7 @@
     "images": [
       {
         "url": "images/nitrosomonas-europaea/1.webp",
+        "url_small": "images/nitrosomonas-europaea/1-600.webp",
         "author": "Jawahar Swaminathan and MSD staff at the European Bioinformatics Institute",
         "license": "Public domain",
         "license_url": "",
@@ -1629,8 +2024,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/PDB_1iqc_EBI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 600,
-        "kind": "photo",
-        "url_small": "images/nitrosomonas-europaea/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
@@ -1756,6 +2150,7 @@
     "images": [
       {
         "url": "images/acetobacter-aceti/1.webp",
+        "url_small": "images/acetobacter-aceti/1-600.webp",
         "author": "Ivet Morera",
         "license": "CC0",
         "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -1764,8 +2159,7 @@
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/C0015116-Acetobacter_Aceti_Bacteria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 800,
         "height": 599,
-        "kind": "photo",
-        "url_small": "images/acetobacter-aceti/1-600.webp"
+        "kind": "photo"
       }
     ],
     "review": "ai_draft",
