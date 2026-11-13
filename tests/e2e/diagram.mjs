@@ -107,6 +107,7 @@ for (const lang of ['th', 'en']) {
         const r = await panelScan(page);
         ok(r.leaks.length === 0, `${label}: Thai in English UI: ${r.leaks.slice(0, 2).join(' | ')}`);
         enFallback += r.fallback;
+        ok(r.fallback === 0, `${label}: Thai fallback text in the English diagram`);
       }
     }
 
@@ -160,6 +161,6 @@ for (const lang of ['th', 'en']) {
 await browser.close();
 server.close();
 console.log(`names clicked: ${clicked} (6 groups x 2 languages), checks: ${checks}, failures: ${failures.length}`);
-console.log(`warnings: ${enFallback} Thai fallback text blocks in the English diagram (should be 0 when all names have English)`);
+console.log(`English diagram: ${enFallback} Thai fallback blocks (expected 0)`);
 for (const f of failures.slice(0, 40)) console.log(`FAIL ${f}`);
 process.exit(failures.length ? 1 : 0);

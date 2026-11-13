@@ -4,7 +4,7 @@
     "group": "animals",
     "scientific_name": "Spongilla lacustris",
     "name_th": "ฟองน้ำน้ำจืด",
-    "name_en": "",
+    "name_en": "Lake sponge",
     "reading_th": "สปอนจิลลา ลาคัสทริส",
     "lineage": [
       {
@@ -41,7 +41,7 @@
       "ecology"
     ],
     "summary_th": "ไม่มีเนื้อเยื่อแท้ น้ำไหลเข้าทางรูพรุนรอบตัว แล้วเซลล์ปลอกคอกรองอาหารออกจากน้ำ",
-    "summary_en": "",
+    "summary_en": "Has no true tissues. Water flows in through pores around the body, and collar cells filter food out of the water.",
     "traits": {
       "sym": "none",
       "layers": "none",
@@ -52,7 +52,10 @@
       "food": "กรองอาหารจากน้ำ",
       "home": "แหล่งน้ำจืดที่ใส"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Filters food from the water",
+      "home": "Clear fresh water"
+    },
     "illustration": "sponge",
     "images": [],
     "review": "ai_draft",
@@ -66,7 +69,7 @@
     "group": "animals",
     "scientific_name": "Aurelia aurita",
     "name_th": "แมงกะพรุนพระจันทร์",
-    "name_en": "",
+    "name_en": "Moon jelly",
     "reading_th": "ออเรเลีย ออริทา",
     "lineage": [
       {
@@ -103,7 +106,7 @@
       "ecology"
     ],
     "summary_th": "มีเซลล์เข็มพิษ (นีมาโทซิสต์) ที่หนวด วงชีวิตสลับระหว่างระยะโพลิปกับระยะเมดูซา",
-    "summary_en": "",
+    "summary_en": "Has stinging cells (nematocysts) on its tentacles. The life cycle alternates between a polyp stage and a medusa stage.",
     "traits": {
       "sym": "radial",
       "layers": "two",
@@ -114,7 +117,10 @@
       "food": "จับแพลงก์ตอนด้วยหนวดและเมือก",
       "home": "ทะเลชายฝั่งทั่วโลก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Catches plankton with its tentacles and mucus",
+      "home": "Coastal seas worldwide"
+    },
     "illustration": "jelly",
     "images": [],
     "review": "ai_draft",
@@ -165,7 +171,7 @@
       "science"
     ],
     "summary_th": "สัตว์น้ำจืดตัวเล็กรูปทรงกระบอก สืบพันธุ์แบบแตกหน่อ และงอกส่วนที่ขาดหายขึ้นใหม่ได้",
-    "summary_en": "",
+    "summary_en": "A small cylindrical fresh-water animal. Reproduces by budding and can regrow lost parts.",
     "traits": {
       "sym": "radial",
       "layers": "two",
@@ -176,7 +182,10 @@
       "food": "ใช้หนวดจับสัตว์เล็ก เช่น ไรน้ำ",
       "home": "บ่อและคูน้ำจืด"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Uses its tentacles to catch small animals such as water fleas",
+      "home": "Fresh-water ponds and ditches"
+    },
     "illustration": "hydra",
     "images": [],
     "review": "ai_draft",
@@ -190,7 +199,7 @@
     "group": "animals",
     "scientific_name": "Opisthorchis viverrini",
     "name_th": "พยาธิใบไม้ตับ",
-    "name_en": "",
+    "name_en": "Southeast Asian liver fluke",
     "reading_th": "ออพิสทอร์คิส วิเวอร์รินี",
     "lineage": [
       {
@@ -227,7 +236,7 @@
       "medicine"
     ],
     "summary_th": "ติดต่อจากการกินปลาน้ำจืดดิบหรือสุกไม่ทั่ว เช่น ก้อยปลา และเป็นปัจจัยเสี่ยงสำคัญของมะเร็งท่อน้ำดีในภาคอีสาน",
-    "summary_en": "",
+    "summary_en": "Spread by eating raw or undercooked fresh-water fish, such as koi pla, and a major risk factor for bile duct cancer in northeastern Thailand.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -238,7 +247,10 @@
       "food": "ปรสิตในท่อน้ำดี",
       "home": "คน หอยน้ำจืด และปลาน้ำจืด"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Parasite in the bile duct",
+      "home": "Humans, fresh-water snails and fresh-water fish"
+    },
     "illustration": "fluke",
     "images": [],
     "review": "ai_draft",
@@ -289,7 +301,7 @@
       "science"
     ],
     "summary_th": "หนอนตัวกลมยาวราว 1 มิลลิเมตร ตัวเต็มวัยมีจำนวนเซลล์คงที่ จึงใช้ศึกษาการเจริญและระบบประสาท",
-    "summary_en": "",
+    "summary_en": "A roundworm about 1 millimeter long. The adult has a fixed number of cells, so it is used to study development and the nervous system.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -300,7 +312,10 @@
       "food": "กินแบคทีเรีย",
       "home": "ดินและเศษพืชที่เน่าเปื่อย"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats bacteria",
+      "home": "Soil and rotting plant matter"
+    },
     "illustration": "nematode",
     "images": [],
     "review": "ai_draft",
@@ -314,7 +329,7 @@
     "group": "animals",
     "scientific_name": "Hirudinaria manillensis",
     "name_th": "ปลิงควาย",
-    "name_en": "",
+    "name_en": "Buffalo leech",
     "reading_th": "ฮิรูดินาเรีย มะนิลเลนซิส",
     "lineage": [
       {
@@ -352,7 +367,7 @@
       "ecology"
     ],
     "summary_th": "ลำตัวเป็นปล้อง มีปุ่มดูดที่หัวและท้าย น้ำลายมีสารต้านการแข็งตัวของเลือด",
-    "summary_en": "",
+    "summary_en": "The body is segmented, with suckers at the head and rear. Its saliva contains an anticoagulant.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -363,7 +378,10 @@
       "food": "ดูดเลือดสัตว์มีกระดูกสันหลัง",
       "home": "นาข้าวและแหล่งน้ำจืด"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Sucks the blood of vertebrates",
+      "home": "Rice fields and fresh water"
+    },
     "illustration": "leech",
     "images": [],
     "review": "ai_draft",
@@ -377,7 +395,7 @@
     "group": "animals",
     "scientific_name": "Pomacea canaliculata",
     "name_th": "หอยเชอรี่",
-    "name_en": "",
+    "name_en": "Golden apple snail",
     "reading_th": "โพมาเซีย คานาลิคูลาตา",
     "lineage": [
       {
@@ -415,7 +433,7 @@
       "ecology"
     ],
     "summary_th": "หอยฝาเดียวต่างถิ่นที่กินต้นกล้าข้าว วางไข่สีชมพูไว้เหนือน้ำ",
-    "summary_en": "",
+    "summary_en": "A non-native snail with a single shell that eats rice seedlings. Lays pink eggs above the water.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -426,7 +444,10 @@
       "food": "กินพืช",
       "home": "นาข้าว คลอง และหนองน้ำ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats plants",
+      "home": "Rice fields, canals and swamps"
+    },
     "illustration": "snail",
     "images": [],
     "review": "ai_draft",
@@ -440,7 +461,7 @@
     "group": "animals",
     "scientific_name": "Nautilus pompilius",
     "name_th": "หอยงวงช้าง",
-    "name_en": "",
+    "name_en": "Emperor nautilus",
     "reading_th": "นอทิลัส พอมพิเลียส",
     "lineage": [
       {
@@ -477,7 +498,7 @@
       "ecology"
     ],
     "summary_th": "หมึกที่ยังมีเปลือกนอก เปลือกแบ่งเป็นห้อง และปรับการลอยตัวด้วยแก๊สในห้องเหล่านั้น",
-    "summary_en": "",
+    "summary_en": "A cephalopod that still has an outer shell. The shell is divided into chambers, and it adjusts its buoyancy with gas in those chambers.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -488,7 +509,10 @@
       "food": "ล่าสัตว์และกินซาก",
       "home": "ทะเลลึกใกล้แนวปะการัง รวมถึงทะเลอันดามัน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Hunts animals and eats carrion",
+      "home": "Deep water near coral reefs, including the Andaman Sea"
+    },
     "illustration": "nautilus",
     "images": [],
     "review": "ai_draft",
@@ -502,7 +526,7 @@
     "group": "animals",
     "scientific_name": "Aedes aegypti",
     "name_th": "ยุงลาย",
-    "name_en": "",
+    "name_en": "Yellow fever mosquito",
     "reading_th": "เอดีส อียิปไต",
     "lineage": [
       {
@@ -539,7 +563,7 @@
       "medicine"
     ],
     "summary_th": "ยุงที่ออกหากินกลางวัน เป็นพาหะของไข้เลือดออก ไข้ซิกา และชิคุนกุนยา วางไข่ในภาชนะที่มีน้ำขัง",
-    "summary_en": "",
+    "summary_en": "A mosquito that feeds in the daytime and carries dengue, Zika and chikungunya. Lays eggs in containers of standing water.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -550,7 +574,10 @@
       "food": "ตัวเมียดูดเลือด ตัวผู้กินน้ำหวาน",
       "home": "บ้านเรือนและภาชนะที่มีน้ำขัง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Females suck blood; males feed on nectar",
+      "home": "Houses and containers with standing water"
+    },
     "illustration": "mosquito",
     "images": [],
     "review": "ai_draft",
@@ -564,7 +591,7 @@
     "group": "animals",
     "scientific_name": "Penaeus monodon",
     "name_th": "กุ้งกุลาดำ",
-    "name_en": "",
+    "name_en": "Giant tiger prawn",
     "reading_th": "พีเนียส โมโนดอน",
     "lineage": [
       {
@@ -602,7 +629,7 @@
       "agriculture"
     ],
     "summary_th": "ครัสเตเชียนที่มีเปลือกแข็งและรยางค์เป็นข้อ ลอกคราบเพื่อเติบโต และเป็นกุ้งเพาะเลี้ยงเศรษฐกิจ",
-    "summary_en": "",
+    "summary_en": "A crustacean with a hard shell and jointed appendages. It molts to grow and is an economically important farmed shrimp.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -613,7 +640,10 @@
       "food": "กินซากและสัตว์เล็กที่พื้นทะเล",
       "home": "ชายฝั่ง ป่าชายเลน และบ่อเลี้ยง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats carrion and small animals on the sea floor",
+      "home": "Coasts, mangrove forest and farm ponds"
+    },
     "illustration": "shrimp",
     "images": [],
     "review": "ai_draft",
@@ -664,7 +694,7 @@
       "ecology"
     ],
     "summary_th": "แมงที่มีขาเดิน 4 คู่ ก้ามใหญ่ และเหล็กไนที่ปลายหาง",
-    "summary_en": "",
+    "summary_en": "An arachnid with 4 pairs of walking legs, large pincers and a stinger at the tip of the tail.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -675,7 +705,10 @@
       "food": "ล่าแมลงในเวลากลางคืน",
       "home": "ป่าและพื้นดินในภาคอีสานและประเทศเพื่อนบ้าน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Hunts insects at night",
+      "home": "Forests and ground in northeastern Thailand and neighboring countries"
+    },
     "illustration": "scorpion",
     "images": [],
     "review": "ai_draft",
@@ -689,7 +722,7 @@
     "group": "animals",
     "scientific_name": "Acanthaster planci",
     "name_th": "ดาวมงกุฎหนาม",
-    "name_en": "",
+    "name_en": "Crown-of-thorns starfish",
     "reading_th": "อะแคนทาสเทอร์ แพลนซี",
     "lineage": [
       {
@@ -726,7 +759,7 @@
       "ecology"
     ],
     "summary_th": "ดาวทะเลที่กินปะการัง ถ้าระบาดมากแนวปะการังจะเสียหาย ตัวอ่อนมีสมมาตรด้านข้าง แต่ตัวเต็มวัยมีสมมาตรรัศมี",
-    "summary_en": "",
+    "summary_en": "A sea star that eats coral. In an outbreak it damages coral reefs. The larva is bilaterally symmetrical, but the adult is radially symmetrical.",
     "traits": {
       "sym": "radial",
       "layers": "three",
@@ -737,7 +770,10 @@
       "food": "กินเนื้อเยื่อปะการัง",
       "home": "แนวปะการังในมหาสมุทรอินเดียและแปซิฟิก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats coral tissue",
+      "home": "Coral reefs in the Indian and Pacific Oceans"
+    },
     "illustration": "star",
     "images": [],
     "review": "ai_draft",
@@ -751,7 +787,7 @@
     "group": "animals",
     "scientific_name": "Branchiostoma belcheri",
     "name_th": "แอมฟิออกซัส",
-    "name_en": "",
+    "name_en": "Belcher's lancelet",
     "reading_th": "แบรงคิโอสโตมา เบลเชอรี",
     "lineage": [
       {
@@ -788,7 +824,7 @@
       "science"
     ],
     "summary_th": "คอร์เดตที่ไม่มีกระดูกสันหลัง แต่มีโนโทคอร์ด เส้นประสาทกลวงด้านหลัง และช่องเหงือกตลอดชีวิต",
-    "summary_en": "",
+    "summary_en": "A chordate with no backbone, but with a notochord, a hollow dorsal nerve cord and gill slits throughout life.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -799,7 +835,10 @@
       "food": "กรองอาหารจากน้ำ",
       "home": "พื้นทรายในทะเลตื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Filters food from the water",
+      "home": "Sandy bottoms in shallow seas"
+    },
     "illustration": "lancelet",
     "images": [],
     "review": "ai_draft",
@@ -813,7 +852,7 @@
     "group": "animals",
     "scientific_name": "Betta splendens",
     "name_th": "ปลากัด",
-    "name_en": "",
+    "name_en": "Siamese fighting fish",
     "reading_th": "เบตตา สเปลนเดนส์",
     "lineage": [
       {
@@ -851,7 +890,7 @@
       "science"
     ],
     "summary_th": "สัตว์น้ำประจำชาติไทย มีอวัยวะช่วยหายใจ (ลาบิรินท์) จึงฮุบอากาศจากผิวน้ำได้ ตัวผู้ก่อหวอดไว้ดูแลไข่",
-    "summary_en": "",
+    "summary_en": "The national aquatic animal of Thailand. It has an air-breathing organ (the labyrinth), so it can gulp air from the surface. The male builds a bubble nest to care for the eggs.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -862,7 +901,10 @@
       "food": "กินแมลงและตัวอ่อนแมลงในน้ำ",
       "home": "นาข้าวและหนองน้ำตื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats insects and insect larvae in the water",
+      "home": "Rice fields and shallow swamps"
+    },
     "illustration": "fish",
     "images": [],
     "review": "ai_draft",
@@ -876,7 +918,7 @@
     "group": "animals",
     "scientific_name": "Hoplobatrachus rugulosus",
     "name_th": "กบนา",
-    "name_en": "",
+    "name_en": "Chinese edible frog",
     "reading_th": "ฮอปโลบาทราคัส รูกูโลซัส",
     "lineage": [
       {
@@ -914,7 +956,7 @@
       "agriculture"
     ],
     "summary_th": "สะเทินน้ำสะเทินบกที่หายใจผ่านผิวหนังได้ ลูกอ๊อดอยู่ในน้ำแล้วเปลี่ยนรูปร่างเป็นตัวเต็มวัย",
-    "summary_en": "",
+    "summary_en": "An amphibian that can breathe through its skin. Tadpoles live in water and then change into adults.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -925,7 +967,10 @@
       "food": "กินแมลงและสัตว์เล็ก",
       "home": "นาข้าวและหนองน้ำ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats insects and small animals",
+      "home": "Rice fields and swamps"
+    },
     "illustration": "frog",
     "images": [],
     "review": "ai_draft",
@@ -939,7 +984,7 @@
     "group": "animals",
     "scientific_name": "Elephas maximus",
     "name_th": "ช้างเอเชีย",
-    "name_en": "",
+    "name_en": "Asian elephant",
     "reading_th": "เอลิฟาส แมกซิมัส",
     "lineage": [
       {
@@ -976,7 +1021,7 @@
       "ecology"
     ],
     "summary_th": "สัตว์บกขนาดใหญ่ที่สุดในเอเชีย งวงเกิดจากจมูกรวมกับริมฝีปากบน และช่วยกระจายเมล็ดพืชในป่า",
-    "summary_en": "",
+    "summary_en": "The largest land animal in Asia. The trunk is formed from the nose joined with the upper lip, and the animal helps spread seeds in the forest.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -987,7 +1032,10 @@
       "food": "กินพืช",
       "home": "ป่าในเอเชียใต้และเอเชียตะวันออกเฉียงใต้"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats plants",
+      "home": "Forests in South and Southeast Asia"
+    },
     "illustration": "elephant",
     "images": [],
     "review": "ai_draft",
@@ -1038,7 +1086,7 @@
       "science"
     ],
     "summary_th": "หนอนตัวแบนที่มีจุดรับแสงคล้ายตา และงอกส่วนที่ขาดได้ทั้งตัวจากชิ้นเล็กๆ",
-    "summary_en": "",
+    "summary_en": "A flatworm with light-sensing spots like eyes. A whole new worm can regrow from a small piece.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1049,7 +1097,10 @@
       "food": "กินสัตว์เล็กและซากผ่านคอหอยที่ยื่นออกจากใต้ลำตัว",
       "home": "ใต้หินในลำธารน้ำจืด"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats small animals and carrion through a pharynx that extends from the underside of the body",
+      "home": "Under rocks in fresh-water streams"
+    },
     "illustration": "fluke",
     "images": [],
     "review": "ai_draft",
@@ -1063,7 +1114,7 @@
     "group": "animals",
     "scientific_name": "Taenia solium",
     "name_th": "พยาธิตืดหมู",
-    "name_en": "",
+    "name_en": "Pork tapeworm",
     "reading_th": "ทีเนีย โซเลียม",
     "lineage": [
       {
@@ -1100,7 +1151,7 @@
       "medicine"
     ],
     "summary_th": "ลำตัวเป็นปล้องแบน หัวมีขอและปุ่มดูดเกาะผนังลำไส้ ติดต่อจากการกินหมูดิบที่มีซีสต์",
-    "summary_en": "",
+    "summary_en": "A flat, segmented body. The head has hooks and suckers that attach to the intestinal wall. Spread by eating raw pork containing cysts.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1111,7 +1162,10 @@
       "food": "ดูดซึมอาหารที่ย่อยแล้วผ่านผิวลำตัว ไม่มีทางเดินอาหาร",
       "home": "ลำไส้เล็กของคน และกล้ามเนื้อหมู"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Absorbs digested food through the body surface; has no digestive tract",
+      "home": "Human small intestine, and pig muscle"
+    },
     "illustration": "tape",
     "images": [],
     "review": "ai_draft",
@@ -1125,7 +1179,7 @@
     "group": "animals",
     "scientific_name": "Ascaris lumbricoides",
     "name_th": "พยาธิไส้เดือน",
-    "name_en": "",
+    "name_en": "Giant roundworm",
     "reading_th": "แอสคาริส ลัมบริคอยดีส",
     "lineage": [
       {
@@ -1162,7 +1216,7 @@
       "medicine"
     ],
     "summary_th": "หนอนตัวกลมขนาดใหญ่ในลำไส้คน ติดต่อจากการกินไข่ที่ปนเปื้อนในดิน ผัก หรือมือ",
-    "summary_en": "",
+    "summary_en": "A large roundworm in the human intestine. Spread by eating eggs that contaminate soil, vegetables or hands.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1173,7 +1227,10 @@
       "food": "กินอาหารที่ย่อยแล้วในลำไส้",
       "home": "ลำไส้เล็กของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats food already digested in the intestine",
+      "home": "Human small intestine"
+    },
     "illustration": "nematode",
     "images": [],
     "review": "ai_draft",
@@ -1224,7 +1281,7 @@
       "medicine"
     ],
     "summary_th": "ติดต่อจากการกินปลา กบ หรือไก่ที่ดิบหรือสุกไม่ทั่ว ตัวอ่อนชอนไชใต้ผิวหนังจนเกิดอาการบวมที่เคลื่อนที่ได้",
-    "summary_en": "",
+    "summary_en": "Spread by eating raw or undercooked fish, frogs or chicken. The larva burrows under the skin, causing a swelling that moves.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1235,7 +1292,10 @@
       "food": "ปรสิตในเนื้อเยื่อ",
       "home": "สุนัขและแมวเป็นโฮสต์จำเพาะ คนติดโดยบังเอิญ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Parasite in tissue",
+      "home": "Dogs and cats are the definitive hosts. Humans are infected by accident"
+    },
     "illustration": "nematode",
     "images": [],
     "review": "ai_draft",
@@ -1287,7 +1347,7 @@
       "ecology"
     ],
     "summary_th": "ไส้เดือนทะเลที่แต่ละปล้องมีพาราโพเดียและเดือยจำนวนมาก ใช้เป็นอาหารพ่อแม่พันธุ์กุ้ง",
-    "summary_en": "",
+    "summary_en": "A marine worm with many parapodia and bristles on each segment. Used to feed shrimp broodstock.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1298,7 +1358,10 @@
       "food": "กินซากพืชซากสัตว์และสาหร่าย",
       "home": "หาดเลนและป่าชายเลน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats plant and animal remains and algae",
+      "home": "Mud flats and mangrove forest"
+    },
     "illustration": "leech",
     "images": [],
     "review": "ai_draft",
@@ -1312,7 +1375,7 @@
     "group": "animals",
     "scientific_name": "Tridacna squamosa",
     "name_th": "หอยมือเสือ",
-    "name_en": "",
+    "name_en": "Fluted giant clam",
     "reading_th": "ไตรแด็กนา สความอซา",
     "lineage": [
       {
@@ -1349,7 +1412,7 @@
       "ecology"
     ],
     "summary_th": "หอยสองฝาขนาดใหญ่ที่มีสาหร่ายซูแซนเทลลีอาศัยอยู่ในเนื้อเยื่อ และเป็นสัตว์ป่าคุ้มครองของไทย",
-    "summary_en": "",
+    "summary_en": "A large bivalve with zooxanthellae algae living in its tissue. A protected wild animal in Thailand.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1360,7 +1423,10 @@
       "food": "กรองอาหารจากน้ำ และได้สารอาหารจากสาหร่ายที่อาศัยร่วม",
       "home": "แนวปะการังน้ำตื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Filters food from the water, and gets nutrients from the algae living with it",
+      "home": "Shallow coral reefs"
+    },
     "illustration": "bivalve",
     "images": [],
     "review": "ai_draft",
@@ -1374,7 +1440,7 @@
     "group": "animals",
     "scientific_name": "Periplaneta americana",
     "name_th": "แมลงสาบอเมริกัน",
-    "name_en": "",
+    "name_en": "American cockroach",
     "reading_th": "เพอริพลาเนตา อเมริกานา",
     "lineage": [
       {
@@ -1411,7 +1477,7 @@
       "medicine"
     ],
     "summary_th": "แมลงที่เจริญเติบโตแบบไม่สมบูรณ์ (ไข่ ตัวอ่อน ตัวเต็มวัย) และใช้ศึกษาโครงสร้างของแมลงในห้องปฏิบัติการ",
-    "summary_en": "",
+    "summary_en": "An insect with incomplete metamorphosis (egg, nymph, adult), used in the laboratory to study insect structure.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1422,7 +1488,10 @@
       "food": "กินแทบทุกอย่าง",
       "home": "บ้านเรือนและท่อระบายน้ำ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats almost anything",
+      "home": "Houses and drains"
+    },
     "illustration": "insect",
     "images": [],
     "review": "ai_draft",
@@ -1436,7 +1505,7 @@
     "group": "animals",
     "scientific_name": "Drosophila melanogaster",
     "name_th": "แมลงหวี่",
-    "name_en": "",
+    "name_en": "Common fruit fly",
     "reading_th": "ดรอโซฟิลา เมลาโนแกสเตอร์",
     "lineage": [
       {
@@ -1473,7 +1542,7 @@
       "science"
     ],
     "summary_th": "แมลงที่มอร์แกนใช้ศึกษายีนบนโครโมโซมเพศ วงชีวิตสั้นราว 10 วัน จึงเป็นสัตว์ต้นแบบทางพันธุศาสตร์",
-    "summary_en": "",
+    "summary_en": "The insect Morgan used to study genes on the sex chromosomes. Its life cycle is short, about 10 days, so it is a model animal in genetics.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1484,7 +1553,10 @@
       "food": "กินยีสต์บนผลไม้สุก",
       "home": "ผลไม้สุกและผลไม้หมัก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats yeast on ripe fruit",
+      "home": "Ripe and fermenting fruit"
+    },
     "illustration": "insect",
     "images": [],
     "review": "ai_draft",
@@ -1498,7 +1570,7 @@
     "group": "animals",
     "scientific_name": "Bombyx mori",
     "name_th": "ไหม",
-    "name_en": "",
+    "name_en": "Silkworm",
     "reading_th": "บอมบิกซ์ โมไร",
     "lineage": [
       {
@@ -1536,7 +1608,7 @@
       "agriculture"
     ],
     "summary_th": "ผีเสื้อกลางคืนที่เจริญเติบโตแบบสมบูรณ์ หนอนไหมพ่นใยโปรตีนทำรังไหม ซึ่งนำมาทอเป็นผ้าไหม",
-    "summary_en": "",
+    "summary_en": "A moth with complete metamorphosis. The silkworm spins a protein thread into a cocoon, which is woven into silk cloth.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1547,7 +1619,10 @@
       "food": "หนอนกินใบหม่อน",
       "home": "โรงเลี้ยงไหม (ไม่พบในธรรมชาติแล้ว)"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "The caterpillar eats mulberry leaves",
+      "home": "Silkworm farms (no longer found in the wild)"
+    },
     "illustration": "insect",
     "images": [],
     "review": "ai_draft",
@@ -1561,7 +1636,7 @@
     "group": "animals",
     "scientific_name": "Diadema setosum",
     "name_th": "เม่นทะเลหนามดำ",
-    "name_en": "",
+    "name_en": "Long-spined sea urchin",
     "reading_th": "ไดอะดีมา ซีโทซัม",
     "lineage": [
       {
@@ -1598,7 +1673,7 @@
       "ecology"
     ],
     "summary_th": "เอไคโนเดิร์มที่มีหนามยาวและเปราะ เคลื่อนที่ด้วยทิวบ์ฟีตของระบบท่อน้ำ และช่วยกินสาหร่ายบนแนวปะการัง",
-    "summary_en": "",
+    "summary_en": "An echinoderm with long, brittle spines. Moves with the tube feet of its water vascular system, and helps clear algae from coral reefs.",
     "traits": {
       "sym": "radial",
       "layers": "three",
@@ -1609,7 +1684,10 @@
       "food": "ขูดกินสาหร่ายด้วยอวัยวะที่เรียกว่าตะเกียงของอริสโตเติล",
       "home": "แนวปะการังและพื้นหิน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Scrapes off algae with an organ called Aristotle's lantern",
+      "home": "Coral reefs and rocky bottoms"
+    },
     "illustration": "urchin",
     "images": [],
     "review": "ai_draft",
@@ -1623,7 +1701,7 @@
     "group": "animals",
     "scientific_name": "Ciona intestinalis",
     "name_th": "เพรียงหัวหอม",
-    "name_en": "",
+    "name_en": "Vase tunicate",
     "reading_th": "ไซโอนา อินเทสทินาลิส",
     "lineage": [
       {
@@ -1660,7 +1738,7 @@
       "science"
     ],
     "summary_th": "คอร์เดตที่ตัวอ่อนมีโนโทคอร์ดและว่ายน้ำได้คล้ายลูกอ๊อด แต่ตัวเต็มวัยเกาะอยู่กับที่และกรองอาหาร",
-    "summary_en": "",
+    "summary_en": "A chordate whose larva has a notochord and swims like a tadpole, but the adult is fixed in place and filter-feeds.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1671,7 +1749,10 @@
       "food": "กรองอาหารจากน้ำ",
       "home": "ท่าเรือและวัตถุใต้ทะเล"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Filters food from the water",
+      "home": "Harbors and underwater objects"
+    },
     "illustration": "tunicate",
     "images": [],
     "review": "ai_draft",
@@ -1685,7 +1766,7 @@
     "group": "animals",
     "scientific_name": "Rhincodon typus",
     "name_th": "ฉลามวาฬ",
-    "name_en": "",
+    "name_en": "Whale shark",
     "reading_th": "ริงโคดอน ไทปัส",
     "lineage": [
       {
@@ -1722,7 +1803,7 @@
       "ecology"
     ],
     "summary_th": "ปลากระดูกอ่อนที่ใหญ่ที่สุดในโลก แม้เป็นฉลามแต่กินแพลงก์ตอนด้วยการกรอง",
-    "summary_en": "",
+    "summary_en": "The largest cartilaginous fish in the world. Although it is a shark, it feeds on plankton by filtering.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1733,7 +1814,10 @@
       "food": "กรองแพลงก์ตอนและปลาตัวเล็ก",
       "home": "ทะเลเขตร้อน รวมถึงทะเลอันดามันและอ่าวไทย"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Filters plankton and small fish",
+      "home": "Tropical seas, including the Andaman Sea and the Gulf of Thailand"
+    },
     "illustration": "fish",
     "images": [],
     "review": "ai_draft",
@@ -1747,7 +1831,7 @@
     "group": "animals",
     "scientific_name": "Chelonia mydas",
     "name_th": "เต่าตนุ",
-    "name_en": "",
+    "name_en": "Green sea turtle",
     "reading_th": "คีโลเนีย ไมดาส",
     "lineage": [
       {
@@ -1784,7 +1868,7 @@
       "ecology"
     ],
     "summary_th": "สัตว์เลื้อยคลานที่วางไข่มีเปลือกบนหาด อุณหภูมิของทรายเป็นตัวกำหนดเพศของลูกเต่า",
-    "summary_en": "",
+    "summary_en": "A reptile that lays shelled eggs on the beach. The temperature of the sand determines the sex of the hatchlings.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1795,7 +1879,10 @@
       "food": "ตัวเต็มวัยกินหญ้าทะเลและสาหร่าย",
       "home": "ทะเลเขตร้อนและหาดทราย"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Adults eat seagrass and algae",
+      "home": "Tropical seas and sandy beaches"
+    },
     "illustration": "turtle",
     "images": [],
     "review": "ai_draft",
@@ -1809,7 +1896,7 @@
     "group": "animals",
     "scientific_name": "Gallus gallus",
     "name_th": "ไก่",
-    "name_en": "",
+    "name_en": "Chicken",
     "reading_th": "แกลลัส แกลลัส",
     "lineage": [
       {
@@ -1847,7 +1934,7 @@
       "science"
     ],
     "summary_th": "นกที่สืบเชื้อสายจากไก่ป่าในเอเชียตะวันออกเฉียงใต้ ไข่และเอ็มบริโอใช้ศึกษาการเจริญของสัตว์มีกระดูกสันหลัง",
-    "summary_en": "",
+    "summary_en": "A bird descended from the junglefowl of Southeast Asia. Its eggs and embryos are used to study vertebrate development.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1858,7 +1945,10 @@
       "food": "กินเมล็ดพืชและแมลง",
       "home": "ฟาร์มทั่วโลก ส่วนไก่ป่าอยู่ในป่าของไทย"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats seeds and insects",
+      "home": "Farms worldwide, while wild junglefowl live in Thai forests"
+    },
     "illustration": "bird",
     "images": [],
     "review": "ai_draft",
@@ -1872,7 +1962,7 @@
     "group": "animals",
     "scientific_name": "Homo sapiens",
     "name_th": "มนุษย์",
-    "name_en": "",
+    "name_en": "Human",
     "reading_th": "โฮโม เซเปียนส์",
     "lineage": [
       {
@@ -1910,7 +2000,7 @@
       "science"
     ],
     "summary_th": "สัตว์เลี้ยงลูกด้วยน้ำนมอันดับไพรเมต เดินสองขา และมีสมองใหญ่เมื่อเทียบกับขนาดตัว",
-    "summary_en": "",
+    "summary_en": "A mammal of the primate order that walks on two legs and has a large brain relative to its body size.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1921,7 +2011,10 @@
       "food": "กินทั้งพืชและสัตว์",
       "home": "ทั่วโลก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats both plants and animals",
+      "home": "Worldwide"
+    },
     "illustration": "human",
     "images": [],
     "review": "ai_draft",
@@ -1935,7 +2028,7 @@
     "group": "animals",
     "scientific_name": "Ornithorhynchus anatinus",
     "name_th": "ตุ่นปากเป็ด",
-    "name_en": "",
+    "name_en": "Platypus",
     "reading_th": "ออร์นิโทริงคัส อะนาทินัส",
     "lineage": [
       {
@@ -1972,7 +2065,7 @@
       "science"
     ],
     "summary_th": "สัตว์เลี้ยงลูกด้วยน้ำนมที่ออกลูกเป็นไข่ ไม่มีหัวนม ลูกเลียน้ำนมจากผิวหนังแม่ และตัวผู้มีเดือยพิษที่ขาหลัง",
-    "summary_en": "",
+    "summary_en": "A mammal that lays eggs. It has no nipples, and the young lick milk from the mother's skin. The male has a venomous spur on the hind leg.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -1983,7 +2076,10 @@
       "food": "กินสัตว์ไม่มีกระดูกสันหลังในน้ำ",
       "home": "แม่น้ำและลำธารทางตะวันออกของออสเตรเลีย"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats invertebrates in the water",
+      "home": "Rivers and streams in eastern Australia"
+    },
     "illustration": "platypus",
     "images": [],
     "review": "ai_draft",
@@ -1997,7 +2093,7 @@
     "group": "animals",
     "scientific_name": "Lumbricus terrestris",
     "name_th": "ไส้เดือนดิน",
-    "name_en": "",
+    "name_en": "Common earthworm",
     "reading_th": "ลัมบริคัส เทอร์เรสทริส",
     "lineage": [
       {
@@ -2035,7 +2131,7 @@
       "science"
     ],
     "summary_th": "หนอนปล้องที่กินดินและพรวนดิน มีไคลเทลลัม และใช้เป็นตัวอย่างศึกษาโครงสร้างภายในของหนอนปล้อง",
-    "summary_en": "",
+    "summary_en": "An annelid that eats soil and turns it over. Has a clitellum, and is used as an example for studying the internal structure of annelids.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -2046,7 +2142,10 @@
       "food": "กินดินและเศษพืชที่เน่าเปื่อย",
       "home": "ดินชื้นในเขตอบอุ่น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats soil and rotting plant matter",
+      "home": "Damp soil in temperate regions"
+    },
     "illustration": "leech",
     "images": [],
     "review": "ai_draft",
@@ -2097,7 +2196,7 @@
       "medicine"
     ],
     "summary_th": "ยุงที่เกาะโดยยกก้นทำมุมกับพื้น ออกหากินตอนกลางคืน และเป็นพาหะสำคัญของมาลาเรียในไทย",
-    "summary_en": "",
+    "summary_en": "A mosquito that rests with its rear raised at an angle to the surface, feeds at night, and is a major carrier of malaria in Thailand.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -2108,7 +2207,10 @@
       "food": "ตัวเมียดูดเลือด ตัวผู้กินน้ำหวาน",
       "home": "ลำธารน้ำไหลช้าในป่าและเชิงเขา"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Females suck blood; males feed on nectar",
+      "home": "Slow-flowing streams in forests and at the foot of hills"
+    },
     "illustration": "mosquito",
     "images": [],
     "review": "ai_draft",
@@ -2122,7 +2224,7 @@
     "group": "animals",
     "scientific_name": "Apis cerana",
     "name_th": "ผึ้งโพรง",
-    "name_en": "",
+    "name_en": "Asian honey bee",
     "reading_th": "เอพิส เซรานา",
     "lineage": [
       {
@@ -2160,7 +2262,7 @@
       "ecology"
     ],
     "summary_th": "แมลงสังคมที่แบ่งวรรณะเป็นนางพญา ผึ้งงาน และผึ้งตัวผู้ สื่อสารตำแหน่งแหล่งอาหารด้วยการเต้นรำ และช่วยผสมเกสร",
-    "summary_en": "",
+    "summary_en": "A social insect divided into castes of queen, workers and drones. It communicates the location of food by dancing, and helps pollinate plants.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -2171,7 +2273,10 @@
       "food": "กินน้ำหวานและเกสรดอกไม้",
       "home": "โพรงไม้และรังเลี้ยง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats nectar and pollen",
+      "home": "Tree hollows and kept hives"
+    },
     "illustration": "insect",
     "images": [],
     "review": "ai_draft",
@@ -2185,7 +2290,7 @@
     "group": "animals",
     "scientific_name": "Mus musculus",
     "name_th": "หนูเมาส์",
-    "name_en": "",
+    "name_en": "House mouse",
     "reading_th": "มัส มัสคูลัส",
     "lineage": [
       {
@@ -2223,7 +2328,7 @@
       "science"
     ],
     "summary_th": "สัตว์ทดลองที่ใช้มากที่สุดในงานวิจัยทางการแพทย์ เพราะตัวเล็ก ขยายพันธุ์เร็ว และมียีนส่วนใหญ่คล้ายของคน",
-    "summary_en": "",
+    "summary_en": "The most widely used laboratory animal in medical research, because it is small, breeds quickly and has most of its genes similar to those of humans.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -2234,7 +2339,10 @@
       "food": "กินเมล็ดพืชและแมลง",
       "home": "ทั่วโลก ใกล้ที่อยู่ของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats seeds and insects",
+      "home": "Worldwide, near where people live"
+    },
     "illustration": "mouse",
     "images": [],
     "review": "ai_draft",
@@ -2248,7 +2356,7 @@
     "group": "animals",
     "scientific_name": "Danio rerio",
     "name_th": "ปลาม้าลาย",
-    "name_en": "",
+    "name_en": "Zebrafish",
     "reading_th": "ดานิโอ เรริโอ",
     "lineage": [
       {
@@ -2285,7 +2393,7 @@
       "science"
     ],
     "summary_th": "ปลาตัวเล็กที่ตัวอ่อนใส มองเห็นอวัยวะที่กำลังเจริญได้จากภายนอก จึงใช้ศึกษาการเจริญของสัตว์มีกระดูกสันหลัง",
-    "summary_en": "",
+    "summary_en": "A small fish whose embryos are transparent, so developing organs can be seen from outside. Used to study vertebrate development.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -2296,7 +2404,10 @@
       "food": "กินแพลงก์ตอนสัตว์และแมลง",
       "home": "ลำธารและนาข้าวในเอเชียใต้"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Eats zooplankton and insects",
+      "home": "Streams and rice fields in South Asia"
+    },
     "illustration": "fish",
     "images": [],
     "review": "ai_draft",
@@ -2310,7 +2421,7 @@
     "group": "animals",
     "scientific_name": "Hippocampus kuda",
     "name_th": "ม้าน้ำ",
-    "name_en": "",
+    "name_en": "Spotted seahorse",
     "reading_th": "ฮิปโปแคมปัส คูดา",
     "lineage": [
       {
@@ -2347,7 +2458,7 @@
       "ecology"
     ],
     "summary_th": "ปลาที่ตัวผู้มีถุงหน้าท้องรับไข่จากตัวเมีย แล้วฟักไข่จนลูกออกเป็นตัว",
-    "summary_en": "",
+    "summary_en": "A fish in which the male has a brood pouch on the belly that receives eggs from the female and incubates them until the young hatch.",
     "traits": {
       "sym": "bilateral",
       "layers": "three",
@@ -2358,7 +2469,10 @@
       "food": "ดูดกินสัตว์เล็กในน้ำ",
       "home": "แนวหญ้าทะเลและป่าชายเลน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Sucks in small animals from the water",
+      "home": "Seagrass beds and mangrove forest"
+    },
     "illustration": "seahorse",
     "images": [],
     "review": "ai_draft",

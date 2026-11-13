@@ -42,7 +42,7 @@
       "agriculture"
     ],
     "summary_th": "มอสที่ดูดซับน้ำได้หลายเท่าของน้ำหนักตัว เป็นองค์ประกอบหลักของพรุ และใช้เป็นวัสดุปลูกกล้วยไม้",
-    "summary_en": "",
+    "summary_en": "A moss that can absorb many times its own weight in water. A main component of peat bogs, and used as a growing medium for orchids.",
     "traits": {
       "vasc": "no",
       "seed": "none",
@@ -52,7 +52,10 @@
       "food": "วัสดุเพาะปลูก และเป็นแหล่งกักเก็บคาร์บอนในพื้นที่พรุ",
       "home": "พื้นที่ชุ่มน้ำและพรุบนที่สูง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Growing medium, and a store of carbon in peatlands",
+      "home": "Wetlands and highland peat bogs"
+    },
     "illustration": "moss",
     "images": [],
     "review": "ai_draft",
@@ -66,7 +69,7 @@
     "group": "plants",
     "scientific_name": "Marchantia polymorpha",
     "name_th": "ลิเวอร์เวิร์ต",
-    "name_en": "",
+    "name_en": "Common liverwort",
     "reading_th": "มาร์แคนเทีย พอลิมอร์ฟา",
     "lineage": [
       {
@@ -103,7 +106,7 @@
       "science"
     ],
     "summary_th": "ตัวเป็นแผ่นแทลลัสแบนแนบพื้น สร้างถ้วยเจมมาไว้สืบพันธุ์แบบไม่อาศัยเพศ",
-    "summary_en": "",
+    "summary_en": "The body is a flat thallus lying close to the ground. It makes gemma cups for asexual reproduction.",
     "traits": {
       "vasc": "no",
       "seed": "none",
@@ -113,7 +116,10 @@
       "food": "สิ่งมีชีวิตต้นแบบในงานวิจัยวิวัฒนาการของพืชบก",
       "home": "ดินชื้นและริมลำธาร"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "A model organism in research on land plant evolution",
+      "home": "Damp soil and stream banks"
+    },
     "illustration": "liver",
     "images": [],
     "review": "ai_draft",
@@ -127,7 +133,7 @@
     "group": "plants",
     "scientific_name": "Lycopodiella cernua",
     "name_th": "สามร้อยยอด",
-    "name_en": "",
+    "name_en": "Staghorn clubmoss",
     "reading_th": "ไลโคโพดิเอลลา เซอร์นัว",
     "lineage": [
       {
@@ -164,7 +170,7 @@
       "ecology"
     ],
     "summary_th": "มีท่อลำเลียงแต่ไม่มีเมล็ด ใบเล็กแบบไมโครฟิลล์ สร้างสปอร์ในสตรอบิลัสที่ปลายกิ่ง",
-    "summary_en": "",
+    "summary_en": "Has vascular tissue but no seeds. Small microphyll leaves. Makes spores in strobili at the tips of branches.",
     "traits": {
       "vasc": "yes",
       "seed": "none",
@@ -174,7 +180,10 @@
       "food": "ใช้ประดับ",
       "home": "ที่โล่งดินเปรี้ยวและไหล่เขา"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Used as an ornamental",
+      "home": "Open areas with acidic soil, and hillsides"
+    },
     "illustration": "club",
     "images": [],
     "review": "ai_draft",
@@ -188,7 +197,7 @@
     "group": "plants",
     "scientific_name": "Psilotum nudum",
     "name_th": "หวายทะนอย",
-    "name_en": "",
+    "name_en": "Whisk fern",
     "reading_th": "ไซโลตัม นูดัม",
     "lineage": [
       {
@@ -225,7 +234,7 @@
       "science"
     ],
     "summary_th": "ไม่มีใบและรากที่แท้จริง ลำต้นแตกกิ่งเป็นคู่ มีอับสปอร์ติดอยู่ตามกิ่ง",
-    "summary_en": "",
+    "summary_en": "Has no true leaves or roots. The stem branches in pairs and sporangia are attached along the branches.",
     "traits": {
       "vasc": "yes",
       "seed": "none",
@@ -235,7 +244,10 @@
       "food": "ตัวอย่างพืชมีท่อลำเลียงที่โครงสร้างเรียบง่าย",
       "home": "ลำต้นของต้นไม้ใหญ่ ซอกหิน และกำแพงเก่า"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "An example of a vascular plant with a simple structure",
+      "home": "Trunks of large trees, rock crevices and old walls"
+    },
     "illustration": "whisk",
     "images": [],
     "review": "ai_draft",
@@ -249,7 +261,7 @@
     "group": "plants",
     "scientific_name": "Azolla pinnata",
     "name_th": "แหนแดง",
-    "name_en": "",
+    "name_en": "Mosquito fern",
     "reading_th": "อะซอลลา พินนาตา",
     "lineage": [
       {
@@ -287,7 +299,7 @@
       "ecology"
     ],
     "summary_th": "เฟิร์นลอยน้ำขนาดเล็ก มีไซยาโนแบคทีเรียอาศัยอยู่ในใบและตรึงไนโตรเจน จึงใช้เป็นปุ๋ยพืชสดในนาข้าว",
-    "summary_en": "",
+    "summary_en": "A small floating fern. Cyanobacteria live in its leaves and fix nitrogen, so it is used as green manure in rice fields.",
     "traits": {
       "vasc": "yes",
       "seed": "none",
@@ -297,7 +309,10 @@
       "food": "ปุ๋ยพืชสดในนาข้าว และอาหารสัตว์",
       "home": "ผิวน้ำนิ่งและนาข้าว"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Green manure in rice fields, and animal feed",
+      "home": "Still water surfaces and rice fields"
+    },
     "illustration": "azolla",
     "images": [],
     "review": "ai_draft",
@@ -348,7 +363,7 @@
       "ecology"
     ],
     "summary_th": "พืชเมล็ดเปลือยหน้าตาคล้ายปาล์ม ต้นเพศผู้และต้นเพศเมียแยกกัน",
-    "summary_en": "",
+    "summary_en": "A gymnosperm that looks like a palm. Male and female plants are separate.",
     "traits": {
       "vasc": "yes",
       "seed": "naked",
@@ -358,7 +373,10 @@
       "food": "ไม้ประดับ",
       "home": "ป่าเต็งรังและป่าเบญจพรรณ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Ornamental plant",
+      "home": "Dry dipterocarp forest and mixed deciduous forest"
+    },
     "illustration": "cycad",
     "images": [],
     "review": "ai_draft",
@@ -372,7 +390,7 @@
     "group": "plants",
     "scientific_name": "Ginkgo biloba",
     "name_th": "แปะก๊วย",
-    "name_en": "",
+    "name_en": "Ginkgo",
     "reading_th": "กิงโก ไบโลบา",
     "lineage": [
       {
@@ -410,7 +428,7 @@
       "science"
     ],
     "summary_th": "ชนิดเดียวที่ยังเหลืออยู่ของไฟลัมนี้ ใบรูปพัด และสเปิร์มมีแฟลเจลลัมว่ายไปผสมกับไข่",
-    "summary_en": "",
+    "summary_en": "The only living species of its phylum. Fan-shaped leaves, and sperm with flagella that swim to fertilize the egg.",
     "traits": {
       "vasc": "yes",
       "seed": "naked",
@@ -420,7 +438,10 @@
       "food": "เมล็ดใช้เป็นอาหาร และปลูกเป็นไม้ประดับ",
       "home": "ถิ่นเดิมในจีน ปลูกทั่วโลก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "The seeds are eaten, and it is grown as an ornamental",
+      "home": "Native to China, grown worldwide"
+    },
     "illustration": "ginkgo",
     "images": [],
     "review": "ai_draft",
@@ -434,7 +455,7 @@
     "group": "plants",
     "scientific_name": "Pinus kesiya",
     "name_th": "สนสามใบ",
-    "name_en": "",
+    "name_en": "Khasi pine",
     "reading_th": "ไพนัส เคซิยา",
     "lineage": [
       {
@@ -472,7 +493,7 @@
       "ecology"
     ],
     "summary_th": "ใบรูปเข็มออกเป็นกลุ่มละ 3 ใบ สร้างเมล็ดบนเกล็ดของโคนเพศเมีย",
-    "summary_en": "",
+    "summary_en": "Needle-shaped leaves grow in bundles of 3. Seeds form on the scales of the female cone.",
     "traits": {
       "vasc": "yes",
       "seed": "naked",
@@ -482,7 +503,10 @@
       "food": "เนื้อไม้และยางสน",
       "home": "ป่าสนเขาในภาคเหนือ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Wood and resin",
+      "home": "Pine forests in northern Thailand"
+    },
     "illustration": "pine",
     "images": [],
     "review": "ai_draft",
@@ -496,7 +520,7 @@
     "group": "plants",
     "scientific_name": "Gnetum gnemon",
     "name_th": "ผักเหมียง",
-    "name_en": "",
+    "name_en": "Melinjo",
     "reading_th": "นีตัม นีมอน",
     "lineage": [
       {
@@ -533,7 +557,7 @@
       "food"
     ],
     "summary_th": "พืชเมล็ดเปลือยที่มีเวสเซลในท่อลำเลียงน้ำ ใบกว้างคล้ายพืชดอก ยอดอ่อนเป็นผักพื้นบ้านภาคใต้",
-    "summary_en": "",
+    "summary_en": "A gymnosperm with vessels in its water-conducting tissue. Its broad leaves look like those of flowering plants. The young shoots are a local vegetable in southern Thailand.",
     "traits": {
       "vasc": "yes",
       "seed": "naked",
@@ -543,7 +567,10 @@
       "food": "ยอดอ่อนใช้เป็นผัก เมล็ดใช้ทำข้าวเกรียบ",
       "home": "ป่าดิบชื้นภาคใต้"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Young shoots eaten as a vegetable, and seeds used to make crackers",
+      "home": "Tropical rain forest in southern Thailand"
+    },
     "illustration": "gnetum",
     "images": [],
     "review": "ai_draft",
@@ -557,7 +584,7 @@
     "group": "plants",
     "scientific_name": "Oryza sativa",
     "name_th": "ข้าว",
-    "name_en": "",
+    "name_en": "Rice",
     "reading_th": "โอไรซา ซาทิวา",
     "lineage": [
       {
@@ -595,7 +622,7 @@
       "agriculture"
     ],
     "summary_th": "พืชดอกใบเลี้ยงเดี่ยว เส้นใบขนาน เป็นอาหารหลักของประชากรโลกมากกว่าครึ่ง",
-    "summary_en": "",
+    "summary_en": "A monocot flowering plant with parallel leaf veins. The staple food of more than half the world's people.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -605,7 +632,10 @@
       "food": "อาหารหลัก",
       "home": "นาน้ำขังและไร่"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Staple food",
+      "home": "Flooded paddy fields and upland fields"
+    },
     "illustration": "rice",
     "images": [],
     "review": "ai_draft",
@@ -619,7 +649,7 @@
     "group": "plants",
     "scientific_name": "Nelumbo nucifera",
     "name_th": "บัวหลวง",
-    "name_en": "",
+    "name_en": "Sacred lotus",
     "reading_th": "นีลัมโบ นูซิเฟอรา",
     "lineage": [
       {
@@ -656,7 +686,7 @@
       "food"
     ],
     "summary_th": "พืชดอกในน้ำ ใบไม่เปียกน้ำเพราะผิวใบมีปุ่มเล็กเคลือบไข เมล็ดมีชีวิตอยู่ได้หลายร้อยปี",
-    "summary_en": "",
+    "summary_en": "A flowering water plant. Its leaves do not get wet because the leaf surface has tiny bumps coated with wax. Seeds can stay alive for hundreds of years.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -666,7 +696,10 @@
       "food": "กินได้ทั้งเมล็ด เหง้า และดอก",
       "home": "บึงและสระน้ำจืด"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "The seeds, rhizomes and flowers are all edible",
+      "home": "Swamps and fresh-water ponds"
+    },
     "illustration": "lotus",
     "images": [],
     "review": "ai_draft",
@@ -680,7 +713,7 @@
     "group": "plants",
     "scientific_name": "Durio zibethinus",
     "name_th": "ทุเรียน",
-    "name_en": "",
+    "name_en": "Durian",
     "reading_th": "ดูริโอ ซิเบทินัส",
     "lineage": [
       {
@@ -718,7 +751,7 @@
       "agriculture"
     ],
     "summary_th": "ไม้ผลเขตร้อน ดอกบานกลางคืนและมีค้างคาวเป็นผู้ผสมเกสรหลัก ผลมีหนามแข็ง",
-    "summary_en": "",
+    "summary_en": "A tropical fruit tree. The flowers open at night and bats are the main pollinators. The fruit has hard spines.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -728,7 +761,10 @@
       "food": "ผลไม้เศรษฐกิจ",
       "home": "สวนผลไม้ภาคใต้และภาคตะวันออก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Economic fruit",
+      "home": "Fruit orchards in southern and eastern Thailand"
+    },
     "illustration": "durian",
     "images": [],
     "review": "ai_draft",
@@ -742,7 +778,7 @@
     "group": "plants",
     "scientific_name": "Hevea brasiliensis",
     "name_th": "ยางพารา",
-    "name_en": "",
+    "name_en": "Para rubber tree",
     "reading_th": "ฮีเวีย บราซิลิเอนซิส",
     "lineage": [
       {
@@ -780,7 +816,7 @@
       "agriculture"
     ],
     "summary_th": "ต้นไม้ที่มีท่อน้ำยางในเปลือก กรีดแล้วได้น้ำยางสำหรับทำยางธรรมชาติ",
-    "summary_en": "",
+    "summary_en": "A tree with latex tubes in its bark. Tapping gives the latex used to make natural rubber.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -790,7 +826,10 @@
       "food": "น้ำยางธรรมชาติและเนื้อไม้",
       "home": "สวนยางภาคใต้และภาคตะวันออก ถิ่นเดิมอยู่ในลุ่มน้ำแอมะซอน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Natural rubber latex and wood",
+      "home": "Rubber plantations in southern and eastern Thailand. Native to the Amazon basin"
+    },
     "illustration": "rubber",
     "images": [],
     "review": "ai_draft",
@@ -841,7 +880,7 @@
       "science"
     ],
     "summary_th": "สปอโรไฟต์รูปเขาตั้งขึ้นจากแผ่นแกมีโทไฟต์ มีปากใบ และมีไซยาโนแบคทีเรียอาศัยอยู่ในแทลลัส",
-    "summary_en": "",
+    "summary_en": "The sporophyte is a horn that stands up from the gametophyte plate. It has stomata, and cyanobacteria live in the thallus.",
     "traits": {
       "vasc": "no",
       "seed": "none",
@@ -851,7 +890,10 @@
       "food": "ใช้ศึกษาวิวัฒนาการของพืชบก",
       "home": "ดินชื้นริมทางและริมลำธาร"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Used to study the evolution of land plants",
+      "home": "Damp soil along roads and streams"
+    },
     "illustration": "horn",
     "images": [],
     "review": "ai_draft",
@@ -902,7 +944,7 @@
       "ecology"
     ],
     "summary_th": "ไลโคไฟต์ที่สร้างสปอร์สองขนาด คือเมกะสปอร์และไมโครสปอร์ (เฮเทอโรสปอร์)",
-    "summary_en": "",
+    "summary_en": "A lycophyte that makes spores of two sizes, megaspores and microspores (heterospory).",
     "traits": {
       "vasc": "yes",
       "seed": "none",
@@ -912,7 +954,10 @@
       "food": "ไม้ประดับและสมุนไพรพื้นบ้าน",
       "home": "ผิวหินและเปลือกไม้ในป่าชื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Ornamental and local herbal medicine",
+      "home": "Rock surfaces and tree bark in humid forest"
+    },
     "illustration": "club",
     "images": [],
     "review": "ai_draft",
@@ -963,7 +1008,7 @@
       "ecology"
     ],
     "summary_th": "ลำต้นเป็นข้อปล้องที่ดึงแยกออกได้ ใบลดรูปเป็นเกล็ดรอบข้อ และผิวมีซิลิกาจึงสาก",
-    "summary_en": "",
+    "summary_en": "The stem is jointed and can be pulled apart at the joints. Leaves are reduced to scales around the nodes, and the surface contains silica, so it feels rough.",
     "traits": {
       "vasc": "yes",
       "seed": "none",
@@ -973,7 +1018,10 @@
       "food": "สมุนไพรพื้นบ้าน",
       "home": "ริมน้ำและที่ชื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Local herbal medicine",
+      "home": "Water edges and damp places"
+    },
     "illustration": "horsetail",
     "images": [],
     "review": "ai_draft",
@@ -987,7 +1035,7 @@
     "group": "plants",
     "scientific_name": "Diplazium esculentum",
     "name_th": "ผักกูด",
-    "name_en": "",
+    "name_en": "Vegetable fern",
     "reading_th": "ดิพลาเซียม เอสคิวเลนทัม",
     "lineage": [
       {
@@ -1024,7 +1072,7 @@
       "food"
     ],
     "summary_th": "เฟิร์นที่ยอดอ่อนม้วนงอ ใต้ใบมีกลุ่มอับสปอร์ (ซอรัส) และกินเป็นผักพื้นบ้าน",
-    "summary_en": "",
+    "summary_en": "A fern whose young shoots are coiled. Clusters of sporangia (sori) are under the leaf. Eaten as a local vegetable.",
     "traits": {
       "vasc": "yes",
       "seed": "none",
@@ -1034,7 +1082,10 @@
       "food": "ยอดอ่อนใช้เป็นผัก",
       "home": "ริมลำธารและที่ชื้นแฉะ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Young shoots eaten as a vegetable",
+      "home": "Stream banks and soggy places"
+    },
     "illustration": "frond",
     "images": [],
     "review": "ai_draft",
@@ -1048,7 +1099,7 @@
     "group": "plants",
     "scientific_name": "Zea mays",
     "name_th": "ข้าวโพด",
-    "name_en": "",
+    "name_en": "Maize",
     "reading_th": "ซีอา เมย์ส",
     "lineage": [
       {
@@ -1086,7 +1137,7 @@
       "agriculture"
     ],
     "summary_th": "พืชใบเลี้ยงเดี่ยวที่ตรึงคาร์บอนแบบ C4 ช่อดอกเพศผู้อยู่ปลายยอด ส่วนดอกเพศเมียอยู่ในฝักบนต้นเดียวกัน",
-    "summary_en": "",
+    "summary_en": "A monocot that fixes carbon by the C4 pathway. The male flower cluster is at the top, and the female flowers are in the ears on the same plant.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1096,7 +1147,10 @@
       "food": "อาหารคนและอาหารสัตว์",
       "home": "ไร่และพื้นที่เกษตร"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Food for people and animals",
+      "home": "Fields and farmland"
+    },
     "illustration": "rice",
     "images": [],
     "review": "ai_draft",
@@ -1110,7 +1164,7 @@
     "group": "plants",
     "scientific_name": "Mimosa pudica",
     "name_th": "ไมยราบ",
-    "name_en": "",
+    "name_en": "Sensitive plant",
     "reading_th": "มิโมซา พูดิกา",
     "lineage": [
       {
@@ -1147,7 +1201,7 @@
       "science"
     ],
     "summary_th": "ใบหุบเมื่อถูกสัมผัส (ทิกโมนาสตี) เพราะเซลล์ในพัลไวนัสที่โคนก้านใบเสียน้ำอย่างรวดเร็ว",
-    "summary_en": "",
+    "summary_en": "The leaves fold when touched (thigmonasty) because cells in the pulvinus at the leaf base quickly lose water.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1157,7 +1211,10 @@
       "food": "ตัวอย่างการตอบสนองของพืชต่อสิ่งเร้า",
       "home": "ที่โล่งและริมทาง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "An example of a plant's response to a stimulus",
+      "home": "Open ground and roadsides"
+    },
     "illustration": "mimosa",
     "images": [],
     "review": "ai_draft",
@@ -1171,7 +1228,7 @@
     "group": "plants",
     "scientific_name": "Arabidopsis thaliana",
     "name_th": "อะราบิดอปซิส",
-    "name_en": "",
+    "name_en": "Thale cress",
     "reading_th": "อะราบิดอปซิส ทาเลียนา",
     "lineage": [
       {
@@ -1208,7 +1265,7 @@
       "science"
     ],
     "summary_th": "พืชดอกขนาดเล็กวงศ์ผักกาดที่มีวงชีวิตสั้นราว 6 สัปดาห์ เป็นพืชชนิดแรกที่ถอดรหัสจีโนมได้",
-    "summary_en": "",
+    "summary_en": "A small flowering plant of the mustard family with a short life cycle of about 6 weeks. The first plant to have its genome sequenced.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1218,7 +1275,10 @@
       "food": "พืชต้นแบบในงานวิจัย",
       "home": "ถิ่นเดิมในยุโรปและเอเชีย"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "A model plant in research",
+      "home": "Native to Europe and Asia"
+    },
     "illustration": "rosette",
     "images": [],
     "review": "ai_draft",
@@ -1269,7 +1329,7 @@
       "ecology"
     ],
     "summary_th": "พืชเบียนที่ไม่มีใบ ลำต้น และราก อาศัยอยู่ในเถาย่านไก่ต้ม ดอกกว้างราว 50–90 เซนติเมตรและมีกลิ่นเหม็นล่อแมลงวัน",
-    "summary_en": "",
+    "summary_en": "A parasitic plant with no leaves, stem or roots. It lives inside a Tetrastigma vine. The flower is about 50–90 centimeters wide and smells foul to attract flies.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1279,7 +1339,10 @@
       "food": "สัญลักษณ์ของการอนุรักษ์ป่าภาคใต้",
       "home": "ป่าดิบชื้นภาคใต้ เช่น เขาสก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "A symbol of forest conservation in southern Thailand",
+      "home": "Tropical rain forest in southern Thailand, such as Khao Sok"
+    },
     "illustration": "rafflesia",
     "images": [],
     "review": "ai_draft",
@@ -1330,7 +1393,7 @@
       "science"
     ],
     "summary_th": "พืชเมล็ดเปลือยในทะเลทรายนามิบที่มีใบเพียงสองใบงอกยาวไปตลอดชีวิต บางต้นอายุเกินพันปี",
-    "summary_en": "",
+    "summary_en": "A gymnosperm of the Namib Desert with only two leaves that keep growing for its whole life. Some plants are over a thousand years old.",
     "traits": {
       "vasc": "yes",
       "seed": "naked",
@@ -1340,7 +1403,10 @@
       "food": "ใช้ศึกษาการปรับตัวของพืชทะเลทราย",
       "home": "ทะเลทรายนามิบ ทางตะวันตกเฉียงใต้ของแอฟริกา"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Used to study desert adaptation in plants",
+      "home": "Namib Desert, southwestern Africa"
+    },
     "illustration": "welw",
     "images": [],
     "review": "ai_draft",
@@ -1354,7 +1420,7 @@
     "group": "plants",
     "scientific_name": "Allium cepa",
     "name_th": "หอมหัวใหญ่",
-    "name_en": "",
+    "name_en": "Onion",
     "reading_th": "อัลเลียม ซีปา",
     "lineage": [
       {
@@ -1392,7 +1458,7 @@
       "science"
     ],
     "summary_th": "ปลายรากมีเซลล์แบ่งตัวมาก จึงใช้ดูการแบ่งเซลล์แบบไมโทซิส ส่วนหัวคือลำต้นใต้ดินที่มีใบเกล็ดหนาซ้อนกัน",
-    "summary_en": "",
+    "summary_en": "Root tips have many dividing cells, so they are used to observe mitosis. The bulb is an underground stem with thick, stacked scale leaves.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1402,7 +1468,10 @@
       "food": "อาหาร และใช้ในการทดลอง",
       "home": "แปลงปลูก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Food, and used in experiments",
+      "home": "Cultivated plots"
+    },
     "illustration": "onion",
     "images": [],
     "review": "ai_draft",
@@ -1416,7 +1485,7 @@
     "group": "plants",
     "scientific_name": "Pisum sativum",
     "name_th": "ถั่วลันเตา",
-    "name_en": "",
+    "name_en": "Garden pea",
     "reading_th": "ไพซัม ซาทิวัม",
     "lineage": [
       {
@@ -1454,7 +1523,7 @@
       "science"
     ],
     "summary_th": "พืชที่เมนเดลใช้ศึกษาการถ่ายทอดลักษณะ เพราะผสมตัวเองได้ ปลูกง่าย และมีลักษณะต่างกันชัด เช่น เมล็ดกลมกับเมล็ดย่น",
-    "summary_en": "",
+    "summary_en": "The plant Mendel used to study inheritance, because it self-pollinates, is easy to grow and has clearly different traits, such as round and wrinkled seeds.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1464,7 +1533,10 @@
       "food": "อาหาร",
       "home": "แปลงปลูกในที่อากาศเย็น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Food",
+      "home": "Cultivated plots in cool climates"
+    },
     "illustration": "pea",
     "images": [],
     "review": "ai_draft",
@@ -1478,7 +1550,7 @@
     "group": "plants",
     "scientific_name": "Hydrilla verticillata",
     "name_th": "สาหร่ายหางกระรอก",
-    "name_en": "",
+    "name_en": "Hydrilla",
     "reading_th": "ไฮดริลลา เวอร์ทิซิลลาตา",
     "lineage": [
       {
@@ -1515,7 +1587,7 @@
       "science"
     ],
     "summary_th": "พืชดอกใต้น้ำที่ใบเรียงเป็นวงรอบข้อ ใช้ทดลองการสังเคราะห์ด้วยแสงโดยนับฟองแก๊สออกซิเจน",
-    "summary_en": "",
+    "summary_en": "A submerged flowering plant with leaves in whorls around the nodes. Used in photosynthesis experiments by counting oxygen bubbles.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1525,7 +1597,10 @@
       "food": "ใช้ในการทดลอง และตกแต่งตู้ปลา",
       "home": "แหล่งน้ำจืดนิ่ง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Used in experiments, and to decorate aquariums",
+      "home": "Still fresh water"
+    },
     "illustration": "hydrilla",
     "images": [],
     "review": "ai_draft",
@@ -1539,7 +1614,7 @@
     "group": "plants",
     "scientific_name": "Ananas comosus",
     "name_th": "สับปะรด",
-    "name_en": "",
+    "name_en": "Pineapple",
     "reading_th": "อะนานัส โคโมซัส",
     "lineage": [
       {
@@ -1577,7 +1652,7 @@
       "agriculture"
     ],
     "summary_th": "พืช CAM ที่เปิดปากใบตอนกลางคืนเพื่อตรึงคาร์บอนไดออกไซด์ จึงเสียน้ำน้อย ผลเป็นผลรวมจากดอกจำนวนมาก",
-    "summary_en": "",
+    "summary_en": "A CAM plant that opens its stomata at night to fix carbon dioxide, so it loses little water. The fruit is a multiple fruit formed from many flowers.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1587,7 +1662,10 @@
       "food": "ผลไม้เศรษฐกิจ",
       "home": "ไร่ในเขตร้อน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Economic fruit",
+      "home": "Plantations in the tropics"
+    },
     "illustration": "pineapple",
     "images": [],
     "review": "ai_draft",
@@ -1601,7 +1679,7 @@
     "group": "plants",
     "scientific_name": "Saccharum officinarum",
     "name_th": "อ้อย",
-    "name_en": "",
+    "name_en": "Sugarcane",
     "reading_th": "แซ็กคารัม ออฟฟิซินารัม",
     "lineage": [
       {
@@ -1639,7 +1717,7 @@
       "agriculture"
     ],
     "summary_th": "พืช C4 ที่ตรึงคาร์บอนได้ดีในที่ร้อนและแดดจัด สะสมซูโครสในลำต้น ใช้ผลิตน้ำตาลและเอทานอล",
-    "summary_en": "",
+    "summary_en": "A C4 plant that fixes carbon well in hot, bright sun. Stores sucrose in its stem. Used to make sugar and ethanol.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1649,7 +1727,10 @@
       "food": "น้ำตาลและเอทานอล",
       "home": "ไร่ในเขตร้อน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Sugar and ethanol",
+      "home": "Plantations in the tropics"
+    },
     "illustration": "cane",
     "images": [],
     "review": "ai_draft",
@@ -1663,7 +1744,7 @@
     "group": "plants",
     "scientific_name": "Wolffia globosa",
     "name_th": "ผำ",
-    "name_en": "",
+    "name_en": "Asian watermeal",
     "reading_th": "วูลฟ์เฟีย โกลโบซา",
     "lineage": [
       {
@@ -1700,7 +1781,7 @@
       "food"
     ],
     "summary_th": "พืชดอกที่เล็กที่สุดในโลก ตัวเป็นเม็ดกลมลอยน้ำไม่มีราก และนำมาเป็นอาหารในภาคเหนือและภาคอีสาน",
-    "summary_en": "",
+    "summary_en": "The smallest flowering plant in the world. The body is a round floating grain with no roots, and it is eaten in northern and northeastern Thailand.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1710,7 +1791,10 @@
       "food": "อาหารโปรตีนสูง",
       "home": "ผิวน้ำนิ่ง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "High-protein food",
+      "home": "Still water surfaces"
+    },
     "illustration": "azolla",
     "images": [],
     "review": "ai_draft",
@@ -1724,7 +1808,7 @@
     "group": "plants",
     "scientific_name": "Nepenthes mirabilis",
     "name_th": "หม้อข้าวหม้อแกงลิง",
-    "name_en": "",
+    "name_en": "Tropical pitcher plant",
     "reading_th": "นีเพนธีส มิราบิลิส",
     "lineage": [
       {
@@ -1761,7 +1845,7 @@
       "ecology"
     ],
     "summary_th": "พืชกินแมลงที่ปลายใบเปลี่ยนเป็นหม้อมีน้ำย่อย ได้ไนโตรเจนจากแมลงเพราะขึ้นในดินที่ขาดธาตุอาหาร",
-    "summary_en": "",
+    "summary_en": "A carnivorous plant whose leaf tips turn into pitchers holding digestive fluid. It gets nitrogen from insects because it grows in soil poor in nutrients.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1771,7 +1855,10 @@
       "food": "ไม้ประดับ",
       "home": "ดินทรายและที่ชื้นแฉะ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Ornamental plant",
+      "home": "Sandy soil and soggy places"
+    },
     "illustration": "pitcher",
     "images": [],
     "review": "ai_draft",
@@ -1785,7 +1872,7 @@
     "group": "plants",
     "scientific_name": "Rhizophora apiculata",
     "name_th": "โกงกางใบเล็ก",
-    "name_en": "",
+    "name_en": "Tall-stilt mangrove",
     "reading_th": "ไรโซฟอรา เอพิคูลาตา",
     "lineage": [
       {
@@ -1822,7 +1909,7 @@
       "ecology"
     ],
     "summary_th": "ไม้ป่าชายเลนที่มีรากค้ำจุน และเมล็ดงอกตั้งแต่อยู่บนต้น ช่วยกันคลื่นและเป็นแหล่งอนุบาลสัตว์น้ำ",
-    "summary_en": "",
+    "summary_en": "A mangrove tree with prop roots, and seeds that sprout while still on the tree. It breaks waves and is a nursery for young aquatic animals.",
     "traits": {
       "vasc": "yes",
       "seed": "covered",
@@ -1832,7 +1919,10 @@
       "food": "ถ่านไม้ และป้องกันชายฝั่ง",
       "home": "ป่าชายเลน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Charcoal, and protection of the coast",
+      "home": "Mangrove forest"
+    },
     "illustration": "mangrove",
     "images": [],
     "review": "ai_draft",

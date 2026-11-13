@@ -35,7 +35,10 @@ const QUERIES = [
   { q: 'pseudomonadota', has: ['escherichia-coli'] },                                // new phylum name
   { q: 'enterobacteriaceae', has: ['escherichia-coli'] },                            // family
   { q: 'archaea', has: ['halobacterium-salinarum'] },                                // group name
-  { q: 'fungi', has: ['rhizopus-stolonifer'] },
+  { q: 'rhizopus fungi', has: ['rhizopus-stolonifer'] },                           // words from different fields
+  { q: 'black bread mold', first: 'rhizopus-stolonifer' },                         // English common name
+  { q: "baker's yeast", first: 'saccharomyces-cerevisiae' },
+  { q: 'whale shark', first: 'rhincodon-typus' },
   { q: 'homo sapiens', first: 'homo-sapiens' },
   { q: 'zzzzqq', none: true },
   { q: '   ', none: true },

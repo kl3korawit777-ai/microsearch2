@@ -38,7 +38,7 @@
       "medicine"
     ],
     "summary_th": "อาศัยในลำไส้ใหญ่ของคนและสัตว์ สายพันธุ์ส่วนใหญ่ไม่ก่อโรค และเป็นสิ่งมีชีวิตต้นแบบที่ใช้มากที่สุดในห้องปฏิบัติการ",
-    "summary_en": "",
+    "summary_en": "Lives in the large intestine of humans and animals. Most strains are harmless, and it is the most widely used model organism in the laboratory.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -48,7 +48,10 @@
       "food": "ย่อยสลายสารอินทรีย์ (เฮเทอโรโทรฟ)",
       "home": "ลำไส้ใหญ่ของคนและสัตว์เลือดอุ่น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter (heterotroph)",
+      "home": "Large intestine of humans and warm-blooded animals"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -96,7 +99,7 @@
       "agriculture"
     ],
     "summary_th": "อยู่ในปมรากพืชตระกูลถั่ว ตรึงไนโตรเจนจากอากาศเป็นแอมโมเนียให้พืชใช้",
-    "summary_en": "",
+    "summary_en": "Lives in the root nodules of legumes and fixes nitrogen from the air into ammonia that the plant can use.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -106,7 +109,10 @@
       "food": "ได้สารอาหารจากพืช แลกกับไนโตรเจนที่ตรึงได้",
       "home": "ดิน และปมรากพืชตระกูลถั่ว"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Gets nutrients from the plant in exchange for the nitrogen it fixes",
+      "home": "Soil and the root nodules of legumes"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -153,7 +159,7 @@
       "medicine"
     ],
     "summary_th": "แบคทีเรียรูปท่อนโค้ง ก่ออหิวาตกโรค ติดต่อผ่านน้ำและอาหารที่ปนเปื้อน",
-    "summary_en": "",
+    "summary_en": "A curved rod-shaped bacterium that causes cholera, spread through contaminated water and food.",
     "traits": {
       "shape": "curved",
       "gram": "neg",
@@ -163,7 +169,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "น้ำกร่อยและน้ำทะเลชายฝั่ง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Brackish water and coastal seawater"
+    },
     "illustration": "curved",
     "images": [],
     "review": "ai_draft",
@@ -211,7 +220,7 @@
       "industry"
     ],
     "summary_th": "สร้างเอนโดสปอร์ที่ทนความร้อน ใช้หมักถั่วเหลืองและผลิตเอนไซม์ในอุตสาหกรรม",
-    "summary_en": "",
+    "summary_en": "Forms heat-resistant endospores. Used to ferment soybeans and to produce enzymes in industry.",
     "traits": {
       "shape": "rod",
       "gram": "pos",
@@ -221,7 +230,10 @@
       "food": "ย่อยสลายสารอินทรีย์ในดิน",
       "home": "ดิน และบริเวณรากพืช"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter in soil",
+      "home": "Soil and the area around plant roots"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -268,7 +280,7 @@
       "food"
     ],
     "summary_th": "หมักน้ำตาลได้กรดแล็กติก ใช้ในนมเปรี้ยวและผลิตภัณฑ์โพรไบโอติก",
-    "summary_en": "",
+    "summary_en": "Ferments sugar into lactic acid. Used in yogurt and probiotic products.",
     "traits": {
       "shape": "rod",
       "gram": "pos",
@@ -278,7 +290,10 @@
       "food": "หมักน้ำตาลได้กรดแล็กติก",
       "home": "ทางเดินอาหารของคน และนมหมัก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Ferments sugar into lactic acid",
+      "home": "Human digestive tract and fermented milk"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -325,7 +340,7 @@
       "medicine"
     ],
     "summary_th": "ทรงกลมเรียงเป็นกลุ่มคล้ายพวงองุ่น พบบนผิวหนัง ก่อฝีและอาหารเป็นพิษได้",
-    "summary_en": "",
+    "summary_en": "Spherical cells arranged in clusters like bunches of grapes. Found on the skin, it can cause abscesses and food poisoning.",
     "traits": {
       "shape": "coccus",
       "gram": "pos",
@@ -335,7 +350,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ผิวหนังและโพรงจมูกของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Human skin and nasal cavity"
+    },
     "illustration": "coccus",
     "images": [],
     "review": "ai_draft",
@@ -349,7 +367,7 @@
     "group": "bacteria",
     "scientific_name": "Arthrospira platensis",
     "name_th": "สไปรูลินา",
-    "name_en": "",
+    "name_en": "Spirulina",
     "reading_th": "อาร์โทรสไปรา พลาเทนซิส",
     "lineage": [
       {
@@ -383,7 +401,7 @@
       "ecology"
     ],
     "summary_th": "เป็นเส้นสายขดเกลียว สังเคราะห์ด้วยแสงและปล่อยออกซิเจน ใช้เป็นอาหารเสริม",
-    "summary_en": "",
+    "summary_en": "Coiled filaments that photosynthesize and release oxygen. Used as a food supplement.",
     "traits": {
       "shape": "filament",
       "gram": "neg",
@@ -393,7 +411,10 @@
       "food": "สังเคราะห์ด้วยแสงและปล่อยออกซิเจน",
       "home": "ทะเลสาบน้ำด่างในเขตร้อน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Photosynthesis, releasing oxygen",
+      "home": "Alkaline lakes in the tropics"
+    },
     "illustration": "helix",
     "images": [],
     "review": "ai_draft",
@@ -441,7 +462,7 @@
       "agriculture"
     ],
     "summary_th": "ตรึงไนโตรเจนในเซลล์พิเศษที่เรียกว่าเฮเทอโรซิสต์ พบในดินชื้นและนาข้าว",
-    "summary_en": "",
+    "summary_en": "Fixes nitrogen in special cells called heterocysts. Found in damp soil and rice fields.",
     "traits": {
       "shape": "filament",
       "gram": "neg",
@@ -451,7 +472,10 @@
       "food": "สังเคราะห์ด้วยแสง และตรึงไนโตรเจน",
       "home": "ดินชื้น นาข้าว และผิวหิน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Photosynthesis and nitrogen fixation",
+      "home": "Damp soil, rice fields and rock surfaces"
+    },
     "illustration": "beads",
     "images": [],
     "review": "ai_draft",
@@ -499,7 +523,7 @@
       "industry"
     ],
     "summary_th": "เจริญเป็นเส้นสายในดิน เป็นแหล่งของยาปฏิชีวนะสเตรปโตมัยซิน",
-    "summary_en": "",
+    "summary_en": "Grows as filaments in soil and is a source of the antibiotic streptomycin.",
     "traits": {
       "shape": "filament",
       "gram": "pos",
@@ -509,7 +533,10 @@
       "food": "ย่อยสลายอินทรียวัตถุในดิน",
       "home": "ดิน กลิ่นดินหลังฝนตกส่วนหนึ่งมาจากสารจีออสมินที่แบคทีเรียสกุลนี้สร้าง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter in soil",
+      "home": "Soil. Part of the smell of earth after rain comes from geosmin made by bacteria of this genus"
+    },
     "illustration": "branch",
     "images": [],
     "review": "ai_draft",
@@ -556,7 +583,7 @@
       "medicine"
     ],
     "summary_th": "ผนังเซลล์มีกรดไมโคลิกจึงย้อมแกรมติดไม่ดี ต้องใช้การย้อมสีทนกรด ก่อวัณโรค",
-    "summary_en": "",
+    "summary_en": "Its cell wall contains mycolic acid, so it stains poorly with the Gram stain and needs an acid-fast stain. Causes tuberculosis.",
     "traits": {
       "shape": "rod",
       "gram": "none",
@@ -566,7 +593,10 @@
       "food": "เฮเทอโรโทรฟ เติบโตช้ามาก",
       "home": "ปอดของคน อาศัยอยู่ในเซลล์แมโครฟาจ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph, grows very slowly",
+      "home": "Human lungs, living inside macrophage cells"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -613,7 +643,7 @@
       "medicine"
     ],
     "summary_th": "รูปเกลียวยาวและบางมาก เคลื่อนที่ด้วยการบิดตัว ก่อโรคซิฟิลิส",
-    "summary_en": "",
+    "summary_en": "A very long, thin spiral that moves by twisting. Causes syphilis.",
     "traits": {
       "shape": "spiral",
       "gram": "none",
@@ -623,7 +653,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ร่างกายคน เพาะเลี้ยงในห้องปฏิบัติการได้ยากมาก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "The human body. Very hard to culture in the laboratory"
+    },
     "illustration": "spiral",
     "images": [],
     "review": "ai_draft",
@@ -670,7 +703,7 @@
       "ecology"
     ],
     "summary_th": "ไซยาโนแบคทีเรียเส้นสายที่โบกไปมาได้ จึงได้ชื่อว่าออสซิลลาทอเรีย พบเป็นแผ่นสีเขียวเข้มในน้ำนิ่ง",
-    "summary_en": "",
+    "summary_en": "A filamentous cyanobacterium that can sway back and forth, hence the name Oscillatoria. Found as dark green mats in still water.",
     "traits": {
       "shape": "filament",
       "gram": "neg",
@@ -680,7 +713,10 @@
       "food": "สังเคราะห์ด้วยแสงและปล่อยออกซิเจน",
       "home": "แหล่งน้ำจืดนิ่งและพื้นดินชื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Photosynthesis, releasing oxygen",
+      "home": "Still fresh water and damp ground"
+    },
     "illustration": "beads",
     "images": [],
     "review": "ai_draft",
@@ -728,7 +764,7 @@
       "science"
     ],
     "summary_th": "ทรงกลมอยู่เป็นคู่ ก่อปอดอักเสบ และเป็นแบคทีเรียในการทดลองของกริฟฟิทที่ค้นพบการแปลงพันธุ์ (transformation)",
-    "summary_en": "",
+    "summary_en": "Spherical cells in pairs. Causes pneumonia, and was the bacterium in Griffith's experiment that revealed transformation.",
     "traits": {
       "shape": "coccus",
       "gram": "pos",
@@ -738,7 +774,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "โพรงจมูกและลำคอของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Human nasal cavity and throat"
+    },
     "illustration": "coccus",
     "images": [],
     "review": "ai_draft",
@@ -786,7 +825,7 @@
       "science"
     ],
     "summary_th": "ส่งดีเอ็นเอบางส่วนจากพลาสมิด Ti เข้าไปในจีโนมพืชได้ จึงใช้เป็นพาหะในการสร้างพืชดัดแปรพันธุกรรม",
-    "summary_en": "",
+    "summary_en": "Can transfer part of the DNA of its Ti plasmid into a plant genome, so it is used as a vector for making genetically modified plants.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -796,7 +835,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ดินและรากพืช ก่อโรคปุ่มปมที่โคนต้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Soil and plant roots. Causes crown gall disease at the base of the plant"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -844,7 +886,7 @@
       "food"
     ],
     "summary_th": "สร้างเอนโดสปอร์และสารพิษโบทูลินัมที่ทำให้กล้ามเนื้ออ่อนแรง พบในอาหารบรรจุปิดสนิทที่ฆ่าเชื้อไม่ดี เช่น หน่อไม้ปี๊บ",
-    "summary_en": "",
+    "summary_en": "Forms endospores and produces botulinum toxin, which weakens muscles. Found in sealed foods that were poorly sterilized, such as canned bamboo shoots.",
     "traits": {
       "shape": "rod",
       "gram": "pos",
@@ -854,7 +896,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ดินและตะกอน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Soil and sediment"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -902,7 +947,7 @@
       "food"
     ],
     "summary_th": "ก่ออาหารเป็นพิษจากไข่และเนื้อสัตว์ที่ปรุงไม่สุก บางซีโรวาร์ เช่น Typhi ก่อไข้ไทฟอยด์",
-    "summary_en": "",
+    "summary_en": "Causes food poisoning from undercooked eggs and meat. Some serovars, such as Typhi, cause typhoid fever.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -912,7 +957,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ลำไส้ของคนและสัตว์"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Intestines of humans and animals"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -959,7 +1007,7 @@
       "medicine"
     ],
     "summary_th": "รูปเกลียวสั้น อยู่ในกระเพาะอาหารได้เพราะสร้างเอนไซม์ยูรีเอสลดความเป็นกรดรอบตัว เป็นสาเหตุหลักของแผลในกระเพาะอาหาร",
-    "summary_en": "",
+    "summary_en": "A short spiral that survives in the stomach because it makes the enzyme urease, which lowers the acidity around it. The main cause of stomach ulcers.",
     "traits": {
       "shape": "curved",
       "gram": "neg",
@@ -969,7 +1017,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "เยื่อบุกระเพาะอาหารของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Lining of the human stomach"
+    },
     "illustration": "curved",
     "images": [],
     "review": "ai_draft",
@@ -1016,7 +1067,7 @@
       "medicine"
     ],
     "summary_th": "อยู่ในดินและน้ำ ก่อโรคเมลิออยโดสิส ซึ่งพบมากในภาคอีสาน โดยเฉพาะในผู้ที่ทำงานสัมผัสดินโคลน",
-    "summary_en": "",
+    "summary_en": "Lives in soil and water and causes melioidosis, which is common in northeastern Thailand, especially among people who work in muddy soil.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -1026,7 +1077,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ดินและน้ำในเขตร้อน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Soil and water in the tropics"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -1073,7 +1127,7 @@
       "medicine"
     ],
     "summary_th": "รูปเกลียวที่ปลายงอเป็นตะขอ ก่อโรคฉี่หนู ติดต่อผ่านน้ำหรือดินที่ปนเปื้อนปัสสาวะของสัตว์",
-    "summary_en": "",
+    "summary_en": "A spiral with ends bent into hooks. Causes leptospirosis, spread through water or soil contaminated with animal urine.",
     "traits": {
       "shape": "spiral",
       "gram": "none",
@@ -1083,7 +1137,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ไตของสัตว์ฟันแทะ น้ำ และดินชื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Kidneys of rodents, water and damp soil"
+    },
     "illustration": "spiral",
     "images": [],
     "review": "ai_draft",
@@ -1131,7 +1188,7 @@
       "industry"
     ],
     "summary_th": "แบคทีเรียจากบ่อน้ำพุร้อนที่เจริญได้ดีราว 70 °C เอนไซม์ Taq DNA polymerase ของมันทนความร้อน จึงใช้ในเทคนิค PCR",
-    "summary_en": "",
+    "summary_en": "A bacterium from hot springs that grows well at about 70 °C. Its Taq DNA polymerase enzyme withstands heat, so it is used in PCR.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -1141,7 +1198,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "บ่อน้ำพุร้อน เช่น ในอุทยานเยลโลว์สโตน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Hot springs, for example in Yellowstone National Park"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -1189,7 +1249,7 @@
       "science"
     ],
     "summary_th": "สร้างผลึกโปรตีนที่เป็นพิษต่อหนอนแมลงแต่ไม่เป็นพิษต่อคน ใช้เป็นสารชีวภาพกำจัดแมลง และเป็นแหล่งยีนของพืช Bt",
-    "summary_en": "",
+    "summary_en": "Makes protein crystals that are toxic to insect larvae but not to humans. Used as a biological insecticide and as the source of the genes in Bt plants.",
     "traits": {
       "shape": "rod",
       "gram": "pos",
@@ -1199,7 +1259,10 @@
       "food": "เฮเทอโรโทรฟ",
       "home": "ดินและผิวใบพืช"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Heterotroph",
+      "home": "Soil and leaf surfaces"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -1246,7 +1309,7 @@
       "ecology"
     ],
     "summary_th": "ออกซิไดซ์แอมโมเนียเป็นไนไตรต์เพื่อได้พลังงาน เป็นขั้นแรกของไนตริฟิเคชันในวัฏจักรไนโตรเจน",
-    "summary_en": "",
+    "summary_en": "Oxidizes ammonia to nitrite to obtain energy. This is the first step of nitrification in the nitrogen cycle.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -1256,7 +1319,10 @@
       "food": "ออกซิไดซ์แอมโมเนียเพื่อได้พลังงาน และตรึงคาร์บอนไดออกไซด์ (เคโมออโตโทรฟ)",
       "home": "ดิน น้ำ และระบบบำบัดน้ำเสีย"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Oxidizes ammonia for energy and fixes carbon dioxide (chemoautotroph)",
+      "home": "Soil, water and wastewater treatment systems"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -1303,7 +1369,7 @@
       "ecology"
     ],
     "summary_th": "ออกซิไดซ์ไนไตรต์เป็นไนเตรต ซึ่งเป็นขั้นที่สองของไนตริฟิเคชัน ต่อจากไนโตรโซโมแนส",
-    "summary_en": "",
+    "summary_en": "Oxidizes nitrite to nitrate, the second step of nitrification, following Nitrosomonas.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -1313,7 +1379,10 @@
       "food": "ออกซิไดซ์ไนไตรต์เพื่อได้พลังงาน (เคโมออโตโทรฟ)",
       "home": "ดินและน้ำ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Oxidizes nitrite for energy (chemoautotroph)",
+      "home": "Soil and water"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -1361,7 +1430,7 @@
       "industry"
     ],
     "summary_th": "ออกซิไดซ์เอทานอลเป็นกรดแอซิติก จึงใช้หมักน้ำส้มสายชู",
-    "summary_en": "",
+    "summary_en": "Oxidizes ethanol to acetic acid, so it is used to ferment vinegar.",
     "traits": {
       "shape": "rod",
       "gram": "neg",
@@ -1371,7 +1440,10 @@
       "food": "ออกซิไดซ์แอลกอฮอล์เป็นกรดแอซิติก",
       "home": "ผลไม้ ดอกไม้ และเครื่องดื่มหมัก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Oxidizes alcohol to acetic acid",
+      "home": "Fruit, flowers and fermented drinks"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",

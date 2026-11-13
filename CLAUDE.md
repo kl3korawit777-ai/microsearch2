@@ -52,7 +52,7 @@ npm run test:diagram                                  # คลิกทุกช
 npm run test:search                                   # ชุดคำค้นตายตัว วัดเวลา (<100 ms) ตัวกรองใน URL
 npm run screens                                       # screenshot เทียบต้นแบบ 1440px/390px
 python scripts/microsearch.py images                  # ตรวจรูป เครดิต license (เฟส 6 ยังไม่มี)
-python scripts/microsearch.py coverage                # ตรวจช่องว่าง/อังกฤษ (เฟส 5 ยังไม่มี)
+python scripts/microsearch.py coverage                # ช่องอังกฤษที่ยังว่างต่อกลุ่ม -> reports/coverage.md
 npm run test:offline                                  # ทดสอบ PWA ออฟไลน์ (เฟส 7 ยังไม่มี)
 ```
 
@@ -61,7 +61,7 @@ Python 3 stdlib เท่านั้น (pytest ใช้เฉพาะตอ�
 
 ## ทำเสมอ
 
-- ไทย + อังกฤษ ทุกเนื้อหา
+- ไทย + อังกฤษ ทุกเนื้อหา (summary_en, traits_text_en ต้องครบ validate เตือนถ้าว่าง) ส่วน name_en คือชื่อสามัญภาษาอังกฤษ **ว่างได้** ถ้าไม่มีชื่อสามัญจริง ห้ามแต่งชื่อ
 - ทุกรูปมีเครดิตและ license (ไฟล์ ≤500 KB)
 - ไม่เดา taxon ID: หาไม่เจอให้เป็น `null` แล้วลงรายงานใน `reports/`
 - `validate` ต้องผ่านก่อน deploy

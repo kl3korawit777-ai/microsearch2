@@ -7,6 +7,7 @@
   python scripts/microsearch.py fetch [--refresh] [--only id1,id2] [--sleep 0.34]
   python scripts/microsearch.py taxonomy-diff
   python scripts/microsearch.py build
+  python scripts/microsearch.py coverage
 
 ใช้ไลบรารีมาตรฐานของ Python เท่านั้น (JSON Schema ตรวจด้วยตัวตรวจเล็กๆ ในไฟล์นี้
 รองรับเฉพาะคำสำคัญที่ schema/*.json ใช้)
@@ -26,6 +27,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -299,9 +301,9 @@ def _check_organism(rep, o, rel, label, stem, group_info, trait_values, tag_keys
                 rep.error("TAG_UNKNOWN", rel, label, "tag %r ไม่มีใน groups.json > tags" % t)
 
     # warning: ช่องอังกฤษที่ยังว่าง
-    for field in ("name_en", "summary_en"):
-        if isinstance(o.get(field), str) and not o[field].strip():
-            rep.warn("EN_EMPTY_" + field.upper(), rel, label, "%s ว่าง" % field)
+    # name_en เป็นชื่อสามัญภาษาอังกฤษ ชนิดที่ไม่มีชื่อสามัญจริงปล่อยว่างได้ จึงไม่เตือน (coverage นับให้แยกต่างหาก)
+    if isinstance(o.get("summary_en"), str) and not o["summary_en"].strip():
+        rep.warn("EN_EMPTY_SUMMARY_EN", rel, label, "summary_en ว่าง")
     th, en = o.get("traits_text_th"), o.get("traits_text_en")
     if isinstance(th, dict) and isinstance(en, dict):
         miss = [k for k, v in th.items() if v and not (en.get(k) or "").strip()]
@@ -312,7 +314,6 @@ def _check_organism(rep, o, rel, label, stem, group_info, trait_values, tag_keys
 
 
 WARN_TITLES = {
-    "EN_EMPTY_NAME_EN": "name_en ยังว่าง",
     "EN_EMPTY_SUMMARY_EN": "summary_en ยังว่าง",
     "EN_EMPTY_TRAITS_TEXT_EN": "traits_text_en ยังว่างบางคีย์",
     "EN_EMPTY_EXTRA_EN": "มี extra_th แต่ไม่มี extra_en",
@@ -843,6 +844,81 @@ def cmd_taxonomy_diff(args):
     return 0
 
 
+# ---------------------------------------------------------------- coverage
+
+def coverage_data(data_dir=DATA):
+    """นับช่องภาษาอังกฤษที่ยังว่างต่อกลุ่ม คืน (แถวต่อกลุ่ม, รายการช่องว่างต่อชนิด)"""
+    groups_doc = load_json(os.path.join(data_dir, "groups.json"))
+    taxa = load_json(os.path.join(data_dir, "taxa.json"))
+    rows = []
+    gaps = {}
+    for g in groups_doc["groups"]:
+        orgs = [o for o in load_organisms(data_dir) if o["group"] == g["id"]]
+        r = {"id": g["id"], "species": len(orgs), "summary_en": 0, "traits_text_en": 0, "traits_text_total": 0,
+             "extra_en": 0, "name_en_empty": 0, "taxa_about_en": 0}
+        for o in orgs:
+            miss = []
+            if not (o.get("summary_en") or "").strip():
+                r["summary_en"] += 1
+                miss.append("summary_en")
+            th, en = o.get("traits_text_th") or {}, o.get("traits_text_en") or {}
+            for k, v in th.items():
+                if v:
+                    r["traits_text_total"] += 1
+                    if not (en.get(k) or "").strip():
+                        r["traits_text_en"] += 1
+                        miss.append("traits_text_en." + k)
+            if "extra_th" in o and not o.get("extra_en"):
+                r["extra_en"] += 1
+                miss.append("extra_en")
+            if not (o.get("name_en") or "").strip():
+                r["name_en_empty"] += 1
+            if miss:
+                gaps[o["id"]] = miss
+        used = {x["name"] for o in orgs for x in o["lineage"]} - {UNKNOWN}
+        r["taxa_about_en"] = sum(1 for n in used if taxa.get(n, {}).get("rank") not in ("genus", None) and not (taxa[n].get("about_en") or "").strip())
+        r["gaps"] = r["summary_en"] + r["traits_text_en"] + r["extra_en"]
+        rows.append(r)
+    return rows, gaps
+
+
+def build_coverage_report(data_dir=DATA):
+    rows, gaps = coverage_data(data_dir)
+    L = ["# ความครบของภาษาอังกฤษ", "",
+         "สร้างจาก `python scripts/microsearch.py coverage` นับช่องที่ **ยังว่าง** ต่อกลุ่ม (0 = ครบ)", "",
+         "| กลุ่ม | ชนิด | summary_en ว่าง | traits_text_en ว่าง (จากทั้งหมด) | extra_en ว่าง | รวมช่องว่าง | name_en ว่าง (ไม่มีชื่อสามัญ ว่างได้) | about_en ของชื่อในแผนผังว่าง |",
+         "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+    tot = Counter()
+    for r in rows:
+        L.append("| %s | %d | %d | %d / %d | %d | %d | %d | %d |" % (r["id"], r["species"], r["summary_en"], r["traits_text_en"], r["traits_text_total"],
+                                                                  r["extra_en"], r["gaps"], r["name_en_empty"], r["taxa_about_en"]))
+        for k in ("species", "summary_en", "traits_text_en", "traits_text_total", "extra_en", "gaps", "name_en_empty", "taxa_about_en"):
+            tot[k] += r[k]
+    L.append("| **รวม** | %d | %d | %d / %d | %d | %d | %d | %d |" % (tot["species"], tot["summary_en"], tot["traits_text_en"], tot["traits_text_total"],
+                                                                      tot["extra_en"], tot["gaps"], tot["name_en_empty"], tot["taxa_about_en"]))
+    L += ["", "`name_en` ว่างได้เมื่อไม่มีชื่อสามัญภาษาอังกฤษจริง (ห้ามแต่งชื่อ) ส่วน about_en ของสกุลว่างได้ตามกติกา validate", ""]
+    if gaps:
+        L += ["## ชนิดที่ยังมีช่องว่าง", ""]
+        for oid, miss in gaps.items():
+            L.append("- `%s`: %s" % (oid, ", ".join(miss)))
+        L.append("")
+    return "\n".join(L), tot
+
+
+def cmd_coverage(args):
+    text, tot = build_coverage_report(args.data)
+    os.makedirs(os.path.dirname(args.out), exist_ok=True)
+    with open(args.out, "w", encoding="utf-8", newline="\n") as f:
+        f.write(text)
+    rows, _ = coverage_data(args.data)
+    print("เขียน %s" % args.out)
+    for r in rows:
+        print("  %-9s ชนิด %3d  ช่องว่าง %3d (summary_en %d, traits_text_en %d, extra_en %d)  name_en ว่าง %d" % (
+            r["id"], r["species"], r["gaps"], r["summary_en"], r["traits_text_en"], r["extra_en"], r["name_en_empty"]))
+    print("รวมช่องอังกฤษที่ยังว่าง: %d" % tot["gaps"])
+    return 0
+
+
 # ---------------------------------------------------------------- build
 
 SITE_DATA = os.path.join(ROOT, "site", "data")
@@ -995,6 +1071,9 @@ def build_parser():
     s.add_argument("--only", help="ดึงเฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--cache", default=CACHE, help=argparse.SUPPRESS)
+    s = sub.add_parser("coverage", help="นับช่องภาษาอังกฤษที่ยังว่างต่อกลุ่ม เขียน reports/coverage.md")
+    s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
+    s.add_argument("--out", default=os.path.join(REPORTS, "coverage.md"), help=argparse.SUPPRESS)
     s = sub.add_parser("build", help="validate แล้วสร้าง site/data/*.json (หยุดถ้ามี error)")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--out", default=SITE_DATA, help=argparse.SUPPRESS)
@@ -1015,6 +1094,8 @@ def main(argv=None):
         return cmd_taxonomy_diff(args)
     if args.cmd == "build":
         return cmd_build(args)
+    if args.cmd == "coverage":
+        return cmd_coverage(args)
     return cmd_validate(args)
 
 

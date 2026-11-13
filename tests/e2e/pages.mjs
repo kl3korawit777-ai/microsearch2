@@ -112,6 +112,7 @@ async function checkAllPages(lang, index, meta) {
     ok(r.title.includes('Microsearch 2.0'), `${tag}: title ${r.title}`);
     if (lang === 'en') {
       ok(r.leaks.length === 0, `${tag}: Thai in English UI: ${r.leaks.slice(0, 3).join(' | ')}`);
+      ok(r.fallback === 0, `${tag}: ${r.fallback} Thai content blocks shown in English mode (missing English field)`);
       if (r.fallback) { fb.pages++; fb.nodes += r.fallback; }
     }
     if (kind === 'species') {
@@ -270,7 +271,7 @@ async function main() {
     server.close();
   }
   console.log(`checks: ${checks}, failures: ${failures.length}`);
-  console.log(`warnings: English mode shows Thai content (not yet translated) on ${fbEn.pages} pages, ${fbEn.nodes} text blocks`);
+  console.log(`English mode: Thai content fallbacks on ${fbEn.pages} pages (${fbEn.nodes} blocks), expected 0`);
   for (const f of failures.slice(0, 60)) console.log(`FAIL ${f}`);
   if (failures.length > 60) console.log(`... and ${failures.length - 60} more`);
   process.exit(failures.length ? 1 : 0);

@@ -332,7 +332,14 @@ def test_empty_english_fields_are_warnings_not_errors(ds):
     o["traits_text_en"] = {}
     rep = ds.check()
     assert rep.errors == []
-    assert {"EN_EMPTY_NAME_EN", "EN_EMPTY_SUMMARY_EN", "EN_EMPTY_TRAITS_TEXT_EN"} <= rep.codes("warnings")
+    assert {"EN_EMPTY_SUMMARY_EN", "EN_EMPTY_TRAITS_TEXT_EN"} <= rep.codes("warnings")
+    assert "EN_EMPTY_NAME_EN" not in rep.codes("warnings")  # ไม่มีชื่อสามัญจริงก็ปล่อยว่างได้
+
+
+def test_empty_name_en_alone_gives_no_warning(ds):
+    ds.files["bacteria"][0]["name_en"] = ""
+    rep = ds.check()
+    assert rep.errors == [] and rep.warnings == []
 
 
 def test_extra_th_without_extra_en_is_warning(ds):

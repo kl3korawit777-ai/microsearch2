@@ -4,7 +4,7 @@
     "group": "fungi",
     "scientific_name": "Batrachochytrium dendrobatidis",
     "name_th": "ไคทริดในกบ",
-    "name_en": "",
+    "name_en": "Amphibian chytrid fungus",
     "reading_th": "บาทราโคไคเทรียม เดนโดรบาทิดิส",
     "lineage": [
       {
@@ -41,7 +41,7 @@
       "ecology"
     ],
     "summary_th": "สร้างสปอร์ที่มีแฟลเจลลัม ก่อโรคไคทริดิโอไมโคซิสในสัตว์สะเทินน้ำสะเทินบก",
-    "summary_en": "",
+    "summary_en": "Produces spores with a flagellum. Causes chytridiomycosis in amphibians.",
     "traits": {
       "form": "chytrid"
     },
@@ -50,7 +50,11 @@
       "spore": "ซูสปอร์ที่มีแฟลเจลลัมหนึ่งเส้น",
       "home": "แหล่งน้ำจืด และผิวหนังของกบ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Parasite on the skin of amphibians",
+      "spore": "Zoospores with one flagellum",
+      "home": "Fresh water and frog skin"
+    },
     "illustration": "chytrid",
     "images": [],
     "review": "ai_draft",
@@ -64,7 +68,7 @@
     "group": "fungi",
     "scientific_name": "Rhizopus stolonifer",
     "name_th": "ราขนมปัง",
-    "name_en": "",
+    "name_en": "Black bread mold",
     "reading_th": "ไรโซปัส สโตโลนิเฟอร์",
     "lineage": [
       {
@@ -101,7 +105,7 @@
       "food"
     ],
     "summary_th": "ขึ้นบนขนมปังเป็นเส้นใยสีขาว มีอับสปอร์สีดำอยู่บนก้านชูอับสปอร์",
-    "summary_en": "",
+    "summary_en": "Grows on bread as white threads, with black sporangia on the sporangiophore stalks.",
     "traits": {
       "form": "mold"
     },
@@ -110,7 +114,11 @@
       "spore": "สปอร์ในอับสปอร์ และสร้างไซโกสปอร์เมื่อสืบพันธุ์แบบอาศัยเพศ",
       "home": "ขนมปัง ผลไม้ และดิน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter",
+      "spore": "Spores in sporangia, and zygospores formed in sexual reproduction",
+      "home": "Bread, fruit and soil"
+    },
     "illustration": "mold",
     "images": [],
     "review": "ai_draft",
@@ -162,7 +170,7 @@
       "agriculture"
     ],
     "summary_th": "อยู่ร่วมกับรากพืชแบบอาร์บัสคูลาร์ ช่วยพืชดูดฟอสฟอรัสจากดิน",
-    "summary_en": "",
+    "summary_en": "Lives with plant roots as an arbuscular mycorrhiza and helps the plant take up phosphorus from the soil.",
     "traits": {
       "form": "mold"
     },
@@ -171,7 +179,11 @@
       "spore": "สปอร์ขนาดใหญ่ในดิน",
       "home": "ภายในรากพืชและดินรอบราก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Lives with plant roots in a mutual partnership, receiving sugar from the plant",
+      "spore": "Large spores in the soil",
+      "home": "Inside plant roots and the soil around the roots"
+    },
     "illustration": "myco",
     "images": [],
     "review": "ai_draft",
@@ -185,7 +197,7 @@
     "group": "fungi",
     "scientific_name": "Saccharomyces cerevisiae",
     "name_th": "ยีสต์ขนมปัง",
-    "name_en": "",
+    "name_en": "Baker's yeast",
     "reading_th": "แซ็กคาโรไมซีส เซเรวิซิอี",
     "lineage": [
       {
@@ -223,7 +235,7 @@
       "science"
     ],
     "summary_th": "ยีสต์เซลล์เดียว หมักน้ำตาลได้แอลกอฮอล์และคาร์บอนไดออกไซด์ ใช้ทำขนมปังและเครื่องดื่ม",
-    "summary_en": "",
+    "summary_en": "A single-celled yeast that ferments sugar into alcohol and carbon dioxide. Used to make bread and drinks.",
     "traits": {
       "form": "yeast"
     },
@@ -232,7 +244,11 @@
       "spore": "แตกหน่อ และสร้างแอสโคสปอร์",
       "home": "ผิวผลไม้ และน้ำหวาน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Ferments sugar",
+      "spore": "Budding, and forms ascospores",
+      "home": "Fruit skin and sugary sap"
+    },
     "illustration": "yeast",
     "images": [],
     "review": "ai_draft",
@@ -284,7 +300,7 @@
       "industry"
     ],
     "summary_th": "ราสีเขียวอมฟ้า ใช้ผลิตยาเพนิซิลลินในระดับอุตสาหกรรม",
-    "summary_en": "",
+    "summary_en": "A blue-green mold used to produce the drug penicillin on an industrial scale.",
     "traits": {
       "form": "mold"
     },
@@ -293,7 +309,11 @@
       "spore": "โคนิเดียเรียงเป็นสายคล้ายแปรงบนก้าน",
       "home": "ดิน และอาหารที่ขึ้นรา"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter",
+      "spore": "Conidia in brush-like chains on the stalk",
+      "home": "Soil and moldy food"
+    },
     "illustration": "brush",
     "images": [],
     "review": "ai_draft",
@@ -307,7 +327,7 @@
     "group": "fungi",
     "scientific_name": "Aspergillus oryzae",
     "name_th": "แอสเปอร์จิลลัส ออไรซี",
-    "name_en": "",
+    "name_en": "Koji mold",
     "reading_th": "แอสเปอร์จิลลัส ออไรซี",
     "lineage": [
       {
@@ -345,7 +365,7 @@
       "industry"
     ],
     "summary_th": "ใช้หมักซีอิ๊ว เต้าเจี้ยว และมิโซะ เพราะสร้างเอนไซม์ย่อยแป้งและโปรตีน",
-    "summary_en": "",
+    "summary_en": "Used to ferment soy sauce, bean paste and miso because it makes enzymes that break down starch and protein.",
     "traits": {
       "form": "mold"
     },
@@ -354,7 +374,11 @@
       "spore": "โคนิเดียบนหัวกลมปลายก้าน",
       "home": "ข้าวนึ่งที่ใช้ทำหัวเชื้อหมัก (โคจิ)"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down starch and protein",
+      "spore": "Conidia on a round head at the tip of the stalk",
+      "home": "Steamed rice used to make the fermentation starter (koji)"
+    },
     "illustration": "asper",
     "images": [],
     "review": "ai_draft",
@@ -368,7 +392,7 @@
     "group": "fungi",
     "scientific_name": "Volvariella volvacea",
     "name_th": "เห็ดฟาง",
-    "name_en": "",
+    "name_en": "Straw mushroom",
     "reading_th": "วอลวาริเอลลา วอลวาเซีย",
     "lineage": [
       {
@@ -406,7 +430,7 @@
       "agriculture"
     ],
     "summary_th": "เพาะได้จากฟางข้าว ดอกเห็ดคือส่วนที่สร้างเบสิดิโอสปอร์",
-    "summary_en": "",
+    "summary_en": "Can be grown on rice straw. The mushroom is the part that makes basidiospores.",
     "traits": {
       "form": "mushroom"
     },
@@ -415,7 +439,11 @@
       "spore": "เบสิดิโอสปอร์ที่ครีบใต้หมวกเห็ด",
       "home": "กองฟางในเขตร้อน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down straw and plant debris",
+      "spore": "Basidiospores on the gills under the cap",
+      "home": "Straw piles in the tropics"
+    },
     "illustration": "mushroom",
     "images": [],
     "review": "ai_draft",
@@ -466,7 +494,7 @@
       "medicine"
     ],
     "summary_th": "ยีสต์ที่มีแคปซูลหนา ก่อเยื่อหุ้มสมองอักเสบในผู้ที่ภูมิคุ้มกันต่ำ",
-    "summary_en": "",
+    "summary_en": "A yeast with a thick capsule that causes meningitis in people with weak immunity.",
     "traits": {
       "form": "yeast"
     },
@@ -475,7 +503,11 @@
       "spore": "แตกหน่อ",
       "home": "ดิน และมูลนกพิราบ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter, and causes opportunistic disease",
+      "spore": "Budding",
+      "home": "Soil and pigeon droppings"
+    },
     "illustration": "capsule",
     "images": [],
     "review": "ai_draft",
@@ -489,7 +521,7 @@
     "group": "fungi",
     "scientific_name": "Neurospora crassa",
     "name_th": "นิวโรสปอรา",
-    "name_en": "",
+    "name_en": "Red bread mold",
     "reading_th": "นิวโรสปอรา แครสซา",
     "lineage": [
       {
@@ -526,7 +558,7 @@
       "science"
     ],
     "summary_th": "ราขนมปังสีส้มที่บีเดิลและเททัมใช้ทดลองจนได้แนวคิดหนึ่งยีนหนึ่งเอนไซม์",
-    "summary_en": "",
+    "summary_en": "An orange bread mold that Beadle and Tatum used in experiments leading to the one gene, one enzyme idea.",
     "traits": {
       "form": "mold"
     },
@@ -535,7 +567,11 @@
       "spore": "โคนิเดีย และแอสโคสปอร์ 8 อันเรียงในแอสคัส",
       "home": "ซากพืชหลังไฟป่าและขนมปัง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter",
+      "spore": "Conidia, and 8 ascospores in a row inside each ascus",
+      "home": "Plant remains after wildfires, and bread"
+    },
     "illustration": "mold",
     "images": [],
     "review": "ai_draft",
@@ -587,7 +623,7 @@
       "medicine"
     ],
     "summary_th": "ราที่ขึ้นบนถั่วลิสงและข้าวโพดที่เก็บไว้ชื้น สร้างอะฟลาทอกซินซึ่งเป็นสารก่อมะเร็งตับ",
-    "summary_en": "",
+    "summary_en": "A mold that grows on peanuts and corn stored damp. It makes aflatoxin, a liver carcinogen.",
     "traits": {
       "form": "mold"
     },
@@ -596,7 +632,11 @@
       "spore": "โคนิเดียบนหัวกลมปลายก้าน",
       "home": "ดิน และเมล็ดพืชที่เก็บไว้ชื้น"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter",
+      "spore": "Conidia on a round head at the tip of the stalk",
+      "home": "Soil and grain stored damp"
+    },
     "illustration": "asper",
     "images": [],
     "review": "ai_draft",
@@ -610,7 +650,7 @@
     "group": "fungi",
     "scientific_name": "Pleurotus ostreatus",
     "name_th": "เห็ดนางรม",
-    "name_en": "",
+    "name_en": "Oyster mushroom",
     "reading_th": "พลูโรตัส ออสเทรียตัส",
     "lineage": [
       {
@@ -648,7 +688,7 @@
       "agriculture"
     ],
     "summary_th": "เห็ดที่เพาะจากขี้เลื่อยและฟาง ครีบอยู่ใต้หมวกและลาดลงมาถึงก้าน",
-    "summary_en": "",
+    "summary_en": "A mushroom grown on sawdust and straw. Its gills sit under the cap and run down onto the stalk.",
     "traits": {
       "form": "mushroom"
     },
@@ -657,7 +697,11 @@
       "spore": "เบสิดิโอสปอร์ที่ครีบ",
       "home": "ขอนไม้และวัสดุเพาะ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down wood",
+      "spore": "Basidiospores on the gills",
+      "home": "Logs and growing material"
+    },
     "illustration": "mushroom",
     "images": [],
     "review": "ai_draft",
@@ -709,7 +753,7 @@
       "ecology"
     ],
     "summary_th": "เห็ดที่ปลวกเพาะไว้ในรังใต้ดิน ปลวกได้อาหารจากเส้นใยเห็ด ส่วนเห็ดได้ที่อยู่และเศษพืช",
-    "summary_en": "",
+    "summary_en": "A mushroom that termites grow in underground nests. The termites get food from the fungal threads, and the fungus gets a home and plant debris.",
     "traits": {
       "form": "mushroom"
     },
@@ -718,7 +762,11 @@
       "spore": "เบสิดิโอสปอร์ที่ครีบ",
       "home": "จอมปลวกในป่าเขตร้อน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Lives with termites in a mutual partnership",
+      "spore": "Basidiospores on the gills",
+      "home": "Termite mounds in tropical forest"
+    },
     "illustration": "mushroom",
     "images": [],
     "review": "ai_draft",
@@ -769,7 +817,7 @@
       "medicine"
     ],
     "summary_th": "ยีสต์ที่อยู่ในปากและลำไส้ตามปกติ แต่เปลี่ยนเป็นเส้นใยและก่อโรคเชื้อราในช่องปากหรือช่องคลอดเมื่อภูมิคุ้มกันต่ำ",
-    "summary_en": "",
+    "summary_en": "A yeast that normally lives in the mouth and gut, but turns into threads and causes fungal infection of the mouth or vagina when immunity is low.",
     "traits": {
       "form": "yeast"
     },
@@ -778,7 +826,11 @@
       "spore": "แตกหน่อ",
       "home": "ปาก ลำไส้ และผิวหนังของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter, and causes opportunistic disease",
+      "spore": "Budding",
+      "home": "Human mouth, gut and skin"
+    },
     "illustration": "yeast",
     "images": [],
     "review": "ai_draft",
@@ -830,7 +882,7 @@
       "industry"
     ],
     "summary_th": "ราที่เป็นปรสิตในดักแด้แมลง สร้างดอกสีส้ม นำมาเพาะเลี้ยงเป็นอาหารเสริม",
-    "summary_en": "",
+    "summary_en": "A fungus that is a parasite in insect pupae and makes orange fruiting bodies. It is cultured as a food supplement.",
     "traits": {
       "form": "mushroom"
     },
@@ -839,7 +891,11 @@
       "spore": "แอสโคสปอร์ในดอกรูปกระบอง",
       "home": "ดักแด้แมลงในดิน และฟาร์มเพาะเลี้ยง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Parasite in insect larvae and pupae",
+      "spore": "Ascospores in club-shaped fruiting bodies",
+      "home": "Insect pupae in the soil, and culture farms"
+    },
     "illustration": "mushroom",
     "images": [],
     "review": "ai_draft",
@@ -853,7 +909,7 @@
     "group": "fungi",
     "scientific_name": "Puccinia graminis",
     "name_th": "ราสนิมข้าวสาลี",
-    "name_en": "",
+    "name_en": "Wheat stem rust",
     "reading_th": "พุกซิเนีย กรามินิส",
     "lineage": [
       {
@@ -890,7 +946,7 @@
       "agriculture"
     ],
     "summary_th": "ราสนิมที่ทำให้ข้าวสาลีเสียหาย วงชีวิตต้องอาศัยพืชสองชนิดและสร้างสปอร์ได้ถึงห้าแบบ",
-    "summary_en": "",
+    "summary_en": "A rust fungus that damages wheat. Its life cycle needs two plant hosts and produces up to five kinds of spores.",
     "traits": {
       "form": "mold"
     },
@@ -899,7 +955,11 @@
       "spore": "สปอร์หลายแบบในวงชีวิตเดียว รวมถึงสปอร์สีสนิมบนใบข้าวสาลี",
       "home": "ข้าวสาลีและพืชบาร์เบอร์รี"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Parasite in plants",
+      "spore": "Several kinds of spores in one life cycle, including rust-colored spores on wheat leaves",
+      "home": "Wheat and barberry plants"
+    },
     "illustration": "mold",
     "images": [],
     "review": "ai_draft",
@@ -950,7 +1010,7 @@
       "medicine"
     ],
     "summary_th": "ฟังไจที่ก่อปอดอักเสบรุนแรงในผู้ติดเชื้อเอชไอวี เดิมเคยถูกจัดเป็นโปรโตซัว",
-    "summary_en": "",
+    "summary_en": "A fungus that causes severe pneumonia in people with HIV. It was once classified as a protozoan.",
     "traits": {
       "form": "yeast"
     },
@@ -959,7 +1019,11 @@
       "spore": "สร้างแอสคัสภายในซีสต์",
       "home": "ปอดของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Parasite in the air sacs of the lung",
+      "spore": "Forms asci inside cysts",
+      "home": "Human lungs"
+    },
     "illustration": "yeast",
     "images": [],
     "review": "ai_draft",
@@ -1010,7 +1074,7 @@
       "industry"
     ],
     "summary_th": "ราดำที่ใช้ผลิตกรดซิตริกและเอนไซม์ในอุตสาหกรรม พบเป็นราสีดำบนหัวหอมและผลไม้",
-    "summary_en": "",
+    "summary_en": "A black mold used to produce citric acid and enzymes in industry. Seen as black mold on onions and fruit.",
     "traits": {
       "form": "mold"
     },
@@ -1019,7 +1083,11 @@
       "spore": "โคนิเดียสีดำบนหัวกลมปลายก้าน",
       "home": "ดิน และผักผลไม้ที่ขึ้นรา"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter",
+      "spore": "Black conidia on a round head at the tip of the stalk",
+      "home": "Soil and moldy vegetables and fruit"
+    },
     "illustration": "asper",
     "images": [],
     "review": "ai_draft",
@@ -1033,7 +1101,7 @@
     "group": "fungi",
     "scientific_name": "Ganoderma lucidum",
     "name_th": "เห็ดหลินจือ",
-    "name_en": "",
+    "name_en": "Reishi",
     "reading_th": "แกโนเดอร์มา ลูซิดัม",
     "lineage": [
       {
@@ -1071,7 +1139,7 @@
       "agriculture"
     ],
     "summary_th": "เห็ดหิ้งเนื้อแข็งผิวมันวาว ใต้หมวกไม่มีครีบแต่มีรูเล็กที่สร้างสปอร์ และย่อยสลายเนื้อไม้",
-    "summary_en": "",
+    "summary_en": "A hard, glossy bracket fungus. It has no gills under the cap but small pores that make spores, and it breaks down wood.",
     "traits": {
       "form": "mushroom"
     },
@@ -1080,7 +1148,11 @@
       "spore": "เบสิดิโอสปอร์ในรูใต้หมวก",
       "home": "ตอไม้และวัสดุเพาะ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down the lignin in wood",
+      "spore": "Basidiospores in the pores under the cap",
+      "home": "Tree stumps and growing material"
+    },
     "illustration": "mushroom",
     "images": [],
     "review": "ai_draft",
@@ -1131,7 +1203,7 @@
       "medicine"
     ],
     "summary_th": "เห็ดพิษสีขาวที่มีวงแหวนที่ก้านและถ้วยหุ้มโคน มีสารอะมาท็อกซินทำลายตับ และหน้าตาคล้ายเห็ดระโงกขาวที่กินได้",
-    "summary_en": "",
+    "summary_en": "A white poisonous mushroom with a ring on the stalk and a cup around the base. It contains amatoxin, which destroys the liver, and looks like the edible white Amanita.",
     "traits": {
       "form": "mushroom"
     },
@@ -1140,7 +1212,11 @@
       "spore": "เบสิดิโอสปอร์ที่ครีบ",
       "home": "ป่าเต็งรังและป่าเบญจพรรณ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Lives with tree roots as an ectomycorrhiza",
+      "spore": "Basidiospores on the gills",
+      "home": "Dry dipterocarp forest and mixed deciduous forest"
+    },
     "illustration": "mushroom",
     "images": [],
     "review": "ai_draft",

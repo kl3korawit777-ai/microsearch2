@@ -38,7 +38,7 @@
       "science"
     ],
     "summary_th": "อยู่ได้ในน้ำเกลือเข้มข้นจัด รงควัตถุในเซลล์ทำให้นาเกลือมีสีชมพูอมแดง",
-    "summary_en": "",
+    "summary_en": "Survives in very concentrated brine. Pigments in its cells turn salt ponds pinkish red.",
     "traits": {
       "shape": "rod",
       "env": "salt",
@@ -48,7 +48,10 @@
       "food": "ย่อยสลายสารอินทรีย์ และใช้แสงผ่านโปรตีนแบคทีริโอโรดอปซินเสริม",
       "home": "บ่อตากเกลือ ทะเลสาบน้ำเค็มจัด และอาหารที่หมักเกลือ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter, and is helped by light through the protein bacteriorhodopsin",
+      "home": "Salt evaporation ponds, very salty lakes and salted foods"
+    },
     "illustration": "halo",
     "images": [],
     "review": "ai_draft",
@@ -200,7 +203,7 @@
       "science"
     ],
     "summary_th": "สร้างแก๊สมีเทน เป็นอาร์เคียที่พบมากที่สุดในลำไส้คน",
-    "summary_en": "",
+    "summary_en": "Produces methane gas. The most common archaeon in the human gut.",
     "traits": {
       "shape": "rod",
       "env": "normal",
@@ -210,7 +213,10 @@
       "food": "ใช้ไฮโดรเจนกับคาร์บอนไดออกไซด์สร้างแก๊สมีเทน",
       "home": "ลำไส้ใหญ่ของคน"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Uses hydrogen and carbon dioxide to make methane",
+      "home": "Human large intestine"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -258,7 +264,7 @@
       "industry"
     ],
     "summary_th": "เจริญได้ดีที่สุดราว 100 °C เอนไซม์ Pfu DNA polymerase ของมันใช้ในเทคนิค PCR",
-    "summary_en": "",
+    "summary_en": "Grows best at about 100 °C. Its Pfu DNA polymerase enzyme is used in PCR.",
     "traits": {
       "shape": "coccus",
       "env": "hot",
@@ -268,7 +274,10 @@
       "food": "หมักเปปไทด์และน้ำตาล",
       "home": "ตะกอนทะเลร้อนใกล้ภูเขาไฟใต้น้ำ"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Ferments peptides and sugars",
+      "home": "Hot marine sediment near undersea volcanoes"
+    },
     "illustration": "coccus1",
     "images": [],
     "review": "ai_draft",
@@ -316,7 +325,7 @@
       "science"
     ],
     "summary_th": "อยู่ในบ่อน้ำพุร้อนที่เป็นกรด อุณหภูมิราว 75–80 °C และ pH ประมาณ 2–3",
-    "summary_en": "",
+    "summary_en": "Lives in acidic hot springs at about 75–80 °C and a pH of about 2–3.",
     "traits": {
       "shape": "lobed",
       "env": "hotacid",
@@ -326,7 +335,10 @@
       "food": "ใช้สารอินทรีย์เป็นแหล่งพลังงานหลัก",
       "home": "บ่อน้ำพุร้อนที่เป็นกรด"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Uses organic compounds as its main energy source",
+      "home": "Acidic hot springs"
+    },
     "illustration": "lobed",
     "images": [],
     "review": "ai_draft",
@@ -373,7 +385,7 @@
       "ecology"
     ],
     "summary_th": "ออกซิไดซ์แอมโมเนียเป็นไนไตรต์ พบจำนวนมากในมหาสมุทร มีบทบาทในวัฏจักรไนโตรเจน",
-    "summary_en": "",
+    "summary_en": "Oxidizes ammonia to nitrite. Very abundant in the oceans, where it plays a role in the nitrogen cycle.",
     "traits": {
       "shape": "rod",
       "env": "normal",
@@ -383,7 +395,10 @@
       "food": "ออกซิไดซ์แอมโมเนียเพื่อได้พลังงาน และตรึงคาร์บอนไดออกไซด์",
       "home": "น้ำทะเลทั่วโลก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Oxidizes ammonia for energy and fixes carbon dioxide",
+      "home": "Seawater worldwide"
+    },
     "illustration": "rod",
     "images": [],
     "review": "ai_draft",
@@ -431,7 +446,7 @@
       "industry"
     ],
     "summary_th": "สร้างแก๊สมีเทนได้จากหลายแหล่ง ทั้งอะซิเตต เมทานอล และไฮโดรเจน พบในบ่อหมักแก๊สชีวภาพ",
-    "summary_en": "",
+    "summary_en": "Can make methane from several sources, including acetate, methanol and hydrogen. Found in biogas digesters.",
     "traits": {
       "shape": "coccus",
       "env": "normal",
@@ -441,7 +456,10 @@
       "food": "สร้างแก๊สมีเทนจากอะซิเตต เมทานอล หรือไฮโดรเจน",
       "home": "ตะกอนก้นบ่อ บ่อหมักแก๊สชีวภาพ และกระเพาะสัตว์เคี้ยวเอื้อง"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Makes methane from acetate, methanol or hydrogen",
+      "home": "Pond-bottom sediment, biogas digesters and the stomachs of ruminants"
+    },
     "illustration": "coccus",
     "images": [],
     "review": "ai_draft",
@@ -488,7 +506,7 @@
       "science"
     ],
     "summary_th": "อาร์เคียชนิดแรกที่ถอดรหัสจีโนมได้ทั้งหมด (ปี 1996) อยู่ที่ปล่องน้ำร้อนใต้ทะเลลึกและสร้างแก๊สมีเทน",
-    "summary_en": "",
+    "summary_en": "The first archaeon to have its whole genome sequenced (in 1996). Lives at deep-sea hydrothermal vents and produces methane.",
     "traits": {
       "shape": "coccus",
       "env": "hot",
@@ -498,7 +516,10 @@
       "food": "ใช้ไฮโดรเจนกับคาร์บอนไดออกไซด์สร้างแก๊สมีเทน",
       "home": "ปล่องน้ำร้อนใต้ทะเลลึก"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Uses hydrogen and carbon dioxide to make methane",
+      "home": "Deep-sea hydrothermal vents"
+    },
     "illustration": "coccus1",
     "images": [],
     "review": "ai_draft",
@@ -545,7 +566,7 @@
       "science"
     ],
     "summary_th": "อาร์เคียชอบเค็มรูปแผ่นแบน เลี้ยงง่ายและแก้ไขยีนได้ จึงเป็นสิ่งมีชีวิตต้นแบบของอาร์เคีย",
-    "summary_en": "",
+    "summary_en": "A flat, plate-shaped salt-loving archaeon that is easy to grow and to edit genetically, so it is a model organism for archaea.",
     "traits": {
       "shape": "irregular",
       "env": "salt",
@@ -555,7 +576,10 @@
       "food": "ย่อยสลายสารอินทรีย์",
       "home": "ทะเลเดดซี"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter",
+      "home": "The Dead Sea"
+    },
     "illustration": "lobed",
     "images": [],
     "review": "ai_draft",
@@ -602,7 +626,7 @@
       "science"
     ],
     "summary_th": "ไม่มีผนังเซลล์ อยู่ในที่ร้อนราว 55–60 °C และเป็นกรดจัดราว pH 1–2",
-    "summary_en": "",
+    "summary_en": "Has no cell wall. Lives in hot places at about 55–60 °C that are very acidic, at about pH 1–2.",
     "traits": {
       "shape": "irregular",
       "env": "hotacid",
@@ -612,7 +636,10 @@
       "food": "ย่อยสลายสารอินทรีย์",
       "home": "กองถ่านหินที่ร้อนขึ้นเอง และบ่อน้ำพุร้อนที่เป็นกรด"
     },
-    "traits_text_en": {},
+    "traits_text_en": {
+      "food": "Breaks down organic matter",
+      "home": "Self-heating coal piles and acidic hot springs"
+    },
     "illustration": "lobed",
     "images": [],
     "review": "ai_draft",

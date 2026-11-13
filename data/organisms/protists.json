@@ -33,7 +33,7 @@
       "science"
     ],
     "summary_th": "มีคลอโรพลาสต์และจุดตา เคลื่อนที่ด้วยแฟลเจลลัม กินอาหารได้เมื่อไม่มีแสง",
-    "summary_en": "",
+    "summary_en": "Has chloroplasts and an eyespot and moves with a flagellum. It can feed when there is no light.",
     "traits": {
       "diet": "both"
     },
@@ -43,7 +43,9 @@
       "home": "น้ำจืด"
     },
     "traits_text_en": {
-      "move": "Flagellum"
+      "move": "Flagellum",
+      "food": "Photosynthesis, and absorbs organic matter when in the dark",
+      "home": "Fresh water"
     },
     "illustration": "euglena",
     "images": [],
@@ -87,7 +89,7 @@
       "medicine"
     ],
     "summary_th": "ก่อโรคเหงาหลับในแอฟริกา มีแมลงวันเซตซีเป็นพาหะ",
-    "summary_en": "",
+    "summary_en": "Causes sleeping sickness in Africa. The tsetse fly is the vector.",
     "traits": {
       "diet": "parasite"
     },
@@ -97,7 +99,9 @@
       "home": "กระแสเลือดของคน และแมลงวันเซตซี"
     },
     "traits_text_en": {
-      "move": "Flagellum with undulating membrane"
+      "move": "Flagellum with an undulating membrane",
+      "food": "Absorbs nutrients from the host's blood",
+      "home": "Human bloodstream and the tsetse fly"
     },
     "illustration": "trypano",
     "images": [],
@@ -141,7 +145,7 @@
       "medicine"
     ],
     "summary_th": "มีนิวเคลียสสองอัน ไมโทคอนเดรียลดรูปเหลือเป็นไมโทโซม ก่อท้องร่วง",
-    "summary_en": "",
+    "summary_en": "Has two nuclei, and its mitochondria are reduced to mitosomes. Causes diarrhea.",
     "traits": {
       "diet": "parasite"
     },
@@ -151,7 +155,9 @@
       "home": "ลำไส้เล็กของคนและสัตว์ ติดต่อผ่านน้ำดื่ม"
     },
     "traits_text_en": {
-      "move": "4 pairs of flagella"
+      "move": "4 pairs of flagella",
+      "food": "Attaches to the intestinal wall and absorbs nutrients",
+      "home": "Small intestine of humans and animals, spread through drinking water"
     },
     "illustration": "giardia",
     "images": [],
@@ -195,7 +201,7 @@
       "science"
     ],
     "summary_th": "เคลื่อนที่ด้วยซิเลีย มีทั้งแมโครนิวเคลียสและไมโครนิวเคลียส",
-    "summary_en": "",
+    "summary_en": "Moves with cilia. Has both a macronucleus and micronuclei.",
     "traits": {
       "diet": "feed"
     },
@@ -205,7 +211,9 @@
       "home": "น้ำจืดนิ่ง"
     },
     "traits_text_en": {
-      "move": "Cilia"
+      "move": "Cilia",
+      "food": "Eats bacteria through the oral groove, then digests them in food vacuoles",
+      "home": "Still fresh water"
     },
     "illustration": "ciliate",
     "images": [],
@@ -249,7 +257,7 @@
       "medicine"
     ],
     "summary_th": "ก่อมาลาเรียชนิดรุนแรงที่สุด มียุงก้นปล่องเป็นพาหะ",
-    "summary_en": "",
+    "summary_en": "Causes the most severe form of malaria. The Anopheles mosquito is the vector.",
     "traits": {
       "diet": "parasite"
     },
@@ -259,7 +267,9 @@
       "home": "คน และยุงก้นปล่อง"
     },
     "traits_text_en": {
-      "move": "Gliding in some stages"
+      "move": "Gliding movement in some stages",
+      "food": "Lives in liver cells and red blood cells, digesting hemoglobin",
+      "home": "Humans and Anopheles mosquitoes"
     },
     "illustration": "plasmo",
     "images": [],
@@ -303,7 +313,7 @@
       "ecology"
     ],
     "summary_th": "มีผนังซิลิกาสองฝาประกบกัน เป็นแพลงก์ตอนพืชที่ผลิตออกซิเจนจำนวนมาก",
-    "summary_en": "",
+    "summary_en": "Has a silica wall in two overlapping halves. A phytoplankton that produces a large amount of oxygen.",
     "traits": {
       "diet": "photo"
     },
@@ -313,7 +323,9 @@
       "home": "ทะเล"
     },
     "traits_text_en": {
-      "move": "No locomotor organelles; drifts with water"
+      "move": "No organ of movement; drifts with the water",
+      "food": "Photosynthesis",
+      "home": "The sea"
     },
     "illustration": "diatom",
     "images": [],
@@ -357,7 +369,7 @@
       "science"
     ],
     "summary_th": "สาหร่ายสีเขียวเซลล์เดียว มีแฟลเจลลัมสองเส้นและคลอโรพลาสต์รูปถ้วย",
-    "summary_en": "",
+    "summary_en": "A single-celled green alga with two flagella and a cup-shaped chloroplast.",
     "traits": {
       "diet": "photo"
     },
@@ -367,7 +379,9 @@
       "home": "น้ำจืดและดินชื้น"
     },
     "traits_text_en": {
-      "move": "2 flagella"
+      "move": "2 flagella",
+      "food": "Photosynthesis",
+      "home": "Fresh water and damp soil"
     },
     "illustration": "chlamy",
     "images": [],
@@ -382,7 +396,7 @@
     "group": "protists",
     "scientific_name": "Pyropia yezoensis",
     "name_th": "สาหร่ายโนริ",
-    "name_en": "",
+    "name_en": "Nori",
     "reading_th": "ไพโรเปีย เยโซเอนซิส",
     "lineage": [
       {
@@ -411,7 +425,7 @@
       "food"
     ],
     "summary_th": "สาหร่ายสีแดงที่นำมาทำแผ่นสาหร่ายห่อข้าว",
-    "summary_en": "",
+    "summary_en": "A red alga made into the sheets of seaweed used to wrap rice.",
     "traits": {
       "diet": "photo"
     },
@@ -421,7 +435,9 @@
       "home": "ชายฝั่งทะเลเขตน้ำขึ้นน้ำลง"
     },
     "traits_text_en": {
-      "move": "Does not move; attached to rock"
+      "move": "Does not move; attached to rocks",
+      "food": "Photosynthesis",
+      "home": "Intertidal coasts"
     },
     "illustration": "seaweed",
     "images": [],
@@ -465,7 +481,7 @@
       "science"
     ],
     "summary_th": "เปลี่ยนรูปร่างได้ เคลื่อนที่และกินอาหารด้วยเท้าเทียม",
-    "summary_en": "",
+    "summary_en": "Changes shape. Moves and feeds with pseudopodia.",
     "traits": {
       "diet": "feed"
     },
@@ -475,7 +491,9 @@
       "home": "น้ำจืด"
     },
     "traits_text_en": {
-      "move": "Pseudopodia"
+      "move": "Pseudopodia",
+      "food": "Engulfs prey into the cell (phagocytosis)",
+      "home": "Fresh water"
     },
     "illustration": "amoeba",
     "images": [],
@@ -490,7 +508,7 @@
     "group": "protists",
     "scientific_name": "Physarum polycephalum",
     "name_th": "ราเมือก",
-    "name_en": "",
+    "name_en": "Many-headed slime mold",
     "reading_th": "ไฟซารัม พอลิเซฟาลัม",
     "lineage": [
       {
@@ -519,7 +537,7 @@
       "science"
     ],
     "summary_th": "เป็นพลาสโมเดียมสีเหลืองที่มีหลายนิวเคลียสอยู่ในเซลล์เดียว คืบคลานหาอาหาร",
-    "summary_en": "",
+    "summary_en": "A yellow plasmodium with many nuclei in a single cell. It creeps about in search of food.",
     "traits": {
       "diet": "feed"
     },
@@ -529,7 +547,9 @@
       "home": "ขอนไม้ผุและใบไม้ชื้น"
     },
     "traits_text_en": {
-      "move": "Shuttle streaming of cytoplasm"
+      "move": "Cytoplasm streams back and forth",
+      "food": "Eats bacteria and fungal spores",
+      "home": "Rotting logs and damp leaves"
     },
     "illustration": "slime",
     "images": [],
@@ -544,7 +564,7 @@
     "group": "protists",
     "scientific_name": "Noctiluca scintillans",
     "name_th": "ขี้ปลาวาฬ",
-    "name_en": "",
+    "name_en": "Sea sparkle",
     "reading_th": "น็อกติลูกา ซินทิลแลนส์",
     "lineage": [
       {
@@ -573,7 +593,7 @@
       "ecology"
     ],
     "summary_th": "ไดโนแฟลเจลเลตที่เรืองแสงได้เมื่อถูกกระแทก และเมื่อเพิ่มจำนวนมากทำให้น้ำทะเลเป็นสีเขียวหรือแดง",
-    "summary_en": "",
+    "summary_en": "A dinoflagellate that glows when disturbed, and when it multiplies in large numbers it turns seawater green or red.",
     "traits": {
       "diet": "both"
     },
@@ -583,7 +603,9 @@
       "home": "ทะเลชายฝั่ง รวมถึงอ่าวไทย"
     },
     "traits_text_en": {
-      "move": "Flagellum"
+      "move": "Flagellum",
+      "food": "Eats plankton, and some strains have algae living inside the cell",
+      "home": "Coastal seas, including the Gulf of Thailand"
     },
     "illustration": "dino",
     "images": [],
@@ -627,7 +649,7 @@
       "ecology"
     ],
     "summary_th": "สาหร่ายสีน้ำตาลที่มีถุงลมช่วยพยุงให้ลอยตั้งขึ้น เป็นแหล่งอนุบาลสัตว์น้ำวัยอ่อน",
-    "summary_en": "",
+    "summary_en": "A brown alga with air bladders that help it float upright. A nursery for young aquatic animals.",
     "traits": {
       "diet": "photo"
     },
@@ -637,7 +659,9 @@
       "home": "แนวหินและปะการังชายฝั่ง"
     },
     "traits_text_en": {
-      "move": "Does not move; attached to rock"
+      "move": "Does not move; attached to rocks",
+      "food": "Photosynthesis. The pigment fucoxanthin makes it brown",
+      "home": "Rocky and coral reefs along the coast"
     },
     "illustration": "kelp",
     "images": [],
@@ -681,7 +705,7 @@
       "science"
     ],
     "summary_th": "สาหร่ายสีเขียวเส้นสาย คลอโรพลาสต์ขดเป็นเกลียว สืบพันธุ์แบบคอนจูเกชันระหว่างสองสาย",
-    "summary_en": "",
+    "summary_en": "A filamentous green alga with spiral chloroplasts. Reproduces by conjugation between two filaments.",
     "traits": {
       "diet": "photo"
     },
@@ -691,7 +715,9 @@
       "home": "น้ำจืดนิ่ง"
     },
     "traits_text_en": {
-      "move": "No locomotor organelles"
+      "move": "No organ of movement",
+      "food": "Photosynthesis",
+      "home": "Still fresh water"
     },
     "illustration": "spiro",
     "images": [],
@@ -735,7 +761,7 @@
       "science"
     ],
     "summary_th": "สาหร่ายสีเขียวที่อยู่รวมเป็นโคโลนีทรงกลมหลายพันเซลล์ มีเซลล์สืบพันธุ์และเซลล์ร่างกายแยกกัน",
-    "summary_en": "",
+    "summary_en": "A green alga living in spherical colonies of thousands of cells, with separate reproductive cells and body cells.",
     "traits": {
       "diet": "photo"
     },
@@ -745,7 +771,9 @@
       "home": "บ่อและแหล่งน้ำจืด"
     },
     "traits_text_en": {
-      "move": "2 flagella per cell; the whole colony rolls forward"
+      "move": "Each cell has 2 flagella, and the whole colony rolls forward",
+      "food": "Photosynthesis",
+      "home": "Ponds and fresh water"
     },
     "illustration": "volvox",
     "images": [],
@@ -789,7 +817,7 @@
       "medicine"
     ],
     "summary_th": "อะมีบาที่ก่อโรคบิดมีตัว ติดต่อจากซีสต์ในน้ำและอาหาร และลุกลามเป็นฝีในตับได้",
-    "summary_en": "",
+    "summary_en": "An amoeba that causes amoebic dysentery, spread by cysts in water and food, and can spread to form liver abscesses.",
     "traits": {
       "diet": "parasite"
     },
@@ -799,7 +827,9 @@
       "home": "ลำไส้ใหญ่ของคน"
     },
     "traits_text_en": {
-      "move": "Pseudopodia"
+      "move": "Pseudopodia",
+      "food": "Eats red blood cells and intestinal tissue",
+      "home": "Human large intestine"
     },
     "illustration": "amoeba",
     "images": [],
@@ -843,7 +873,7 @@
       "medicine"
     ],
     "summary_th": "ปรสิตที่ติดต่อทางเพศสัมพันธ์ มีแฟลเจลลัมและเยื่อลูกคลื่น และไม่มีระยะซีสต์",
-    "summary_en": "",
+    "summary_en": "A sexually transmitted parasite with flagella and an undulating membrane, and no cyst stage.",
     "traits": {
       "diet": "parasite"
     },
@@ -853,7 +883,9 @@
       "home": "ทางเดินปัสสาวะและอวัยวะสืบพันธุ์ของคน"
     },
     "traits_text_en": {
-      "move": "Flagellum with undulating membrane"
+      "move": "Flagella with an undulating membrane",
+      "food": "Absorbs nutrients from the lining",
+      "home": "Human urinary and reproductive tract"
     },
     "illustration": "giardia",
     "images": [],
@@ -897,7 +929,7 @@
       "medicine"
     ],
     "summary_th": "ปรสิตที่มีริ้นฝอยทรายเป็นพาหะ ก่อโรคลิชมาเนียชนิดอวัยวะภายใน (กาลาอาซาร์)",
-    "summary_en": "",
+    "summary_en": "A parasite carried by sand flies. Causes visceral leishmaniasis (kala-azar).",
     "traits": {
       "diet": "parasite"
     },
@@ -907,7 +939,9 @@
       "home": "คน สุนัข และริ้นฝอยทราย"
     },
     "traits_text_en": {
-      "move": "Flagellum (in the sand fly stage)"
+      "move": "Flagellum (in the stage inside the sand fly)",
+      "food": "Lives inside macrophage cells",
+      "home": "Humans, dogs and sand flies"
     },
     "illustration": "trypano",
     "images": [],
@@ -951,7 +985,7 @@
       "medicine"
     ],
     "summary_th": "ปรสิตที่มีแมวเป็นโฮสต์จำเพาะ ติดต่อจากเนื้อดิบหรืออุจจาระแมว และเป็นอันตรายต่อทารกในครรภ์",
-    "summary_en": "",
+    "summary_en": "A parasite whose definitive host is the cat. Spread by raw meat or cat feces, and dangerous to a baby in the womb.",
     "traits": {
       "diet": "parasite"
     },
@@ -961,7 +995,9 @@
       "home": "แมว และสัตว์เลือดอุ่นแทบทุกชนิด"
     },
     "traits_text_en": {
-      "move": "Gliding"
+      "move": "Gliding movement",
+      "food": "Lives inside the host's cells",
+      "home": "Cats and almost all warm-blooded animals"
     },
     "illustration": "plasmo",
     "images": [],
@@ -1005,7 +1041,7 @@
       "science"
     ],
     "summary_th": "อะมีบาเซลล์เดียวที่รวมตัวกันเมื่อขาดอาหาร แล้วสร้างก้านชูสปอร์ ใช้ศึกษาการสื่อสารระหว่างเซลล์",
-    "summary_en": "",
+    "summary_en": "A single-celled amoeba that gathers together when food runs out and builds a spore-bearing stalk. Used to study communication between cells.",
     "traits": {
       "diet": "feed"
     },
@@ -1015,7 +1051,9 @@
       "home": "ดินชื้นในป่า"
     },
     "traits_text_en": {
-      "move": "Pseudopodia"
+      "move": "Pseudopodia",
+      "food": "Eats bacteria",
+      "home": "Damp forest soil"
     },
     "illustration": "slime",
     "images": [],
@@ -1059,7 +1097,7 @@
       "agriculture"
     ],
     "summary_th": "โอโอไมซีตที่หน้าตาคล้ายรา แต่ผนังเซลล์เป็นเซลลูโลส ก่อโรคใบไหม้ในมันฝรั่งจนเกิดทุพภิกขภัยในไอร์แลนด์",
-    "summary_en": "",
+    "summary_en": "An oomycete that looks like a fungus but has cellulose in its cell wall. Causes late blight in potatoes, leading to famine in Ireland.",
     "traits": {
       "diet": "parasite"
     },
@@ -1069,7 +1107,9 @@
       "home": "มันฝรั่งและมะเขือเทศ"
     },
     "traits_text_en": {
-      "move": "Zoospores with 2 flagella"
+      "move": "Zoospores with 2 flagella",
+      "food": "Absorbs nutrients from plant tissue",
+      "home": "Potatoes and tomatoes"
     },
     "illustration": "mold",
     "images": [],
@@ -1114,7 +1154,7 @@
       "science"
     ],
     "summary_th": "สาหร่ายสีเขียวเซลล์เดียวทรงกลมไม่มีแฟลเจลลัม คาลวินใช้สาหร่ายสกุลนี้ศึกษาวัฏจักรคาลวิน และใช้เป็นอาหารเสริม",
-    "summary_en": "",
+    "summary_en": "A round single-celled green alga with no flagella. Calvin used algae of this genus to study the Calvin cycle, and it is used as a food supplement.",
     "traits": {
       "diet": "photo"
     },
@@ -1124,7 +1164,9 @@
       "home": "น้ำจืด"
     },
     "traits_text_en": {
-      "move": "No locomotor organelles"
+      "move": "No organ of movement",
+      "food": "Photosynthesis",
+      "home": "Fresh water"
     },
     "illustration": "chlorella",
     "images": [],
@@ -1139,7 +1181,7 @@
     "group": "protists",
     "scientific_name": "Caulerpa lentillifera",
     "name_th": "สาหร่ายพวงองุ่น",
-    "name_en": "",
+    "name_en": "Sea grapes",
     "reading_th": "คอเลอร์พา เลนทิลลิเฟอรา",
     "lineage": [
       {
@@ -1168,7 +1210,7 @@
       "food"
     ],
     "summary_th": "สาหร่ายสีเขียวที่ทั้งต้นเป็นเซลล์เดียวขนาดใหญ่ มีหลายนิวเคลียสโดยไม่มีผนังกั้น และมีเม็ดกลมคล้ายพวงองุ่นที่กินได้",
-    "summary_en": "",
+    "summary_en": "A green alga whose whole body is one large cell with many nuclei and no dividing walls, with round beads like a bunch of grapes that can be eaten.",
     "traits": {
       "diet": "photo"
     },
@@ -1178,7 +1220,9 @@
       "home": "ทะเลน้ำตื้นและบ่อเพาะเลี้ยง"
     },
     "traits_text_en": {
-      "move": "Does not move; anchored in sand by rhizoids"
+      "move": "Does not move; anchored in sand by rhizoids",
+      "food": "Photosynthesis",
+      "home": "Shallow seas and culture ponds"
     },
     "illustration": "grape",
     "images": [],
@@ -1223,7 +1267,7 @@
       "industry"
     ],
     "summary_th": "สาหร่ายสีแดงเป็นเส้นกลม ผนังเซลล์มีสารที่ใช้ทำวุ้น (agar) ทั้งในอาหารและในอาหารเลี้ยงเชื้อ",
-    "summary_en": "",
+    "summary_en": "A red alga with round threads. Its cell walls contain the substance used to make agar, in both food and culture media.",
     "traits": {
       "diet": "photo"
     },
@@ -1233,7 +1277,9 @@
       "home": "ชายฝั่งและบ่อน้ำกร่อย"
     },
     "traits_text_en": {
-      "move": "Does not move"
+      "move": "Does not move",
+      "food": "Photosynthesis",
+      "home": "Coasts and brackish ponds"
     },
     "illustration": "seaweed",
     "images": [],
@@ -1277,7 +1323,7 @@
       "medicine"
     ],
     "summary_th": "เชื้อมาลาเรียที่พบบ่อยในไทย มีระยะพักตัวในตับ (ฮิปโนซอยต์) จึงกลับเป็นซ้ำได้ ต่างจาก P. falciparum",
-    "summary_en": "",
+    "summary_en": "A malaria parasite common in Thailand. It has a dormant stage in the liver (hypnozoites), so it can relapse, unlike P. falciparum.",
     "traits": {
       "diet": "parasite"
     },
@@ -1287,7 +1333,9 @@
       "home": "คน และยุงก้นปล่อง"
     },
     "traits_text_en": {
-      "move": "Gliding in some stages"
+      "move": "Gliding movement in some stages",
+      "food": "Lives in liver cells and red blood cells",
+      "home": "Humans and Anopheles mosquitoes"
     },
     "illustration": "plasmo",
     "images": [],
@@ -1331,7 +1379,7 @@
       "science"
     ],
     "summary_th": "ซิลิเอตรูประฆังคว่ำบนก้านที่หดเป็นขดสปริงได้ ใช้ซิเลียรอบปากโบกอาหารเข้าเซลล์",
-    "summary_en": "",
+    "summary_en": "A ciliate shaped like an upside-down bell on a stalk that can coil like a spring. It uses cilia around the mouth to sweep food into the cell.",
     "traits": {
       "diet": "feed"
     },
@@ -1341,7 +1389,9 @@
       "home": "น้ำจืดนิ่ง เกาะอยู่บนพืชน้ำ"
     },
     "traits_text_en": {
-      "move": "Cilia around the mouth and a contractile stalk"
+      "move": "Cilia around the mouth, and a contractile stalk",
+      "food": "Eats bacteria",
+      "home": "Still fresh water, attached to water plants"
     },
     "illustration": "vorti",
     "images": [],
