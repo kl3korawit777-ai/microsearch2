@@ -6,6 +6,7 @@ import { groups } from './data.js';
 import { gName } from './ui.js';
 import { render, updateNav } from './router.js';
 import { focusHeroSearch } from './search.js';
+import { parseHash } from './query.js';
 
 const app = document.getElementById('app');
 const menuBtn = document.getElementById('menuBtn');
@@ -62,7 +63,7 @@ export function wireChrome() {
     store.set('lang', S.lang);
     applyChrome();
     render(true);
-    updateNav((location.hash || '#home').slice(1));
+    updateNav(parseHash().path);
   }));
   document.querySelectorAll('[data-theme-set]').forEach((b) => b.addEventListener('click', () => {
     S.theme = b.getAttribute('data-theme-set');

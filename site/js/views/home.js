@@ -1,11 +1,13 @@
 import { S } from '../state.js';
-import { T, loc } from '../i18n.js';
+import { T, TA, loc } from '../i18n.js';
+import { diagram } from '../diagram.js';
 import { esc } from '../util.js';
 import { groups, G, inGroup, inPhylum } from '../data.js';
 import { art } from '../art.js';
 import { gName, rankName, tagName, lvBadge, rd, spRd, spCommon, isEn, footer, searchBox } from '../ui.js';
 
-export function viewHome() {
+// params: URL query of #home (dg = group shown in the rank diagram, sel = selected name path)
+export function viewHome(params) {
   const tr = S.tree;
   const grp = G(tr.g);
   const plist = inPhylum(grp.id, tr.p);
@@ -49,6 +51,13 @@ export function viewHome() {
     `<a class="btn" href="#${sp.id}">${T('openPage')}</a></div>`;
   h += '</section>';
 
+  const dgId = G(params.get('dg')) ? params.get('dg') : 'bacteria';
+  h += `<section class="section" data-g="${dgId}" aria-labelledby="dgH"><div style="display:flex;flex-direction:column;gap:8px"><h2 class="h2" id="dgH">${T('dgTitle')}</h2><p class="lede" style="font-size:16px">${T('dgLede')}</p></div>` +
+    `<div class="chips" role="group" aria-label="${esc(T('colGroup'))}">${groups().map((g) =>
+      `<button type="button" class="chip dg-chip" data-g="${g.id}" data-act="dg" data-v="${g.id}" aria-pressed="${g.id === dgId}"><span class="dot" style="width:10px;height:10px"></span>${esc(gName(g))}</button>`).join('')}</div>` +
+    diagram(dgId, params.get('sel') || '') +
+    (dgId === 'protists' ? `<p class="notice">${T('dgProtist')}</p>` : '') + `<p class="dg-hint">${T('dgScroll')}</p></section>`;
+
   h += `<section class="section"><h2 class="h2">${T('browseGroups')}</h2><div class="groups4">`;
   for (const g of groups()) {
     const list = inGroup(g.id);
@@ -56,5 +65,9 @@ export function viewHome() {
       `<span class="count">${list.length} ${T('speciesCount')} (${T('lvHs')} ${list.filter((x) => x.lv === 'hs').length})</span></a>`;
   }
   h += '</div></section>';
+
+  h += `<section class="section"><h2 class="h2">${T('compareTitle')}</h2><div class="tablebox"><table><thead><tr><th scope="col" style="color:var(--muted);font-weight:500">${T('traits')}</th>` +
+    groups().map((g) => `<th scope="col" data-g="${g.id}"><span class="thg"><span class="dot" style="width:10px;height:10px"></span>${esc(gName(g))}</span></th>`).join('') + '</tr></thead><tbody>' +
+    TA('compareRows').map((r) => `<tr><th scope="row">${esc(r[0])}</th>${r.slice(1).map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('') + '</tbody></table></div></section>';
   return h + footer();
 }

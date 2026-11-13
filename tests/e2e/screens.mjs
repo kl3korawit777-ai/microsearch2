@@ -9,7 +9,7 @@ import { ROOT, buildSite, findChrome, serveSite } from './lib.mjs';
 const OUT = join(ROOT, 'reports', 'screens');
 const PAGES = [['home', 'home'], ['group', 'bacteria'], ['species', 'escherichia-coli']];
 const SIZES = [[1440, 900], [390, 844]];
-const SHOT_MAX = 2600; // px of the top of the page that is compared
+const SHOT_MAX = 7000; // px of the top of the page that is compared
 
 mkdirSync(OUT, { recursive: true });
 buildSite();

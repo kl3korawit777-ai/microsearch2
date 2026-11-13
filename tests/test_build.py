@@ -127,3 +127,36 @@ def test_build_fails_when_phylum_is_unknown(world, capsys):
     ds.write()
     assert run_build(ds, illus, out) == 1
     assert "escherichia-coli" in capsys.readouterr().out and not os.path.exists(out)
+
+
+def write_fetched(ds, organisms):
+    os.makedirs(os.path.join(ds.root, "generated"), exist_ok=True)
+    with open(ms.fetched_path(ds.root), "w", encoding="utf-8") as f:
+        json.dump({"organisms": organisms}, f)
+
+
+def test_index_has_synonyms_and_accepted_names_from_fetch(world):
+    ds, illus, out = world
+    write_fetched(ds, {"escherichia-coli": {
+        "gbif": {"accepted_name": "Escherichia coli", "synonyms": ["Bacillus coli", "Bacterium coli"]},
+        "ncbi": {"accepted_name": "Escherichia vulgaris", "synonyms": ["Bacterium coli", "Enterococcus coli"]},
+    }, "plasmodium-falciparum": {"gbif": None, "ncbi": None}})
+    run_build(ds, illus, out)
+    index = {r["id"]: r for r in read(out, "index.json")}
+    # own name excluded, duplicates (case-insensitive) removed, order stable: accepted name then synonyms per source
+    assert index["escherichia-coli"]["sy"] == ["Bacillus coli", "Bacterium coli", "Escherichia vulgaris", "Enterococcus coli"]
+    assert "sy" not in index["plasmodium-falciparum"]
+
+
+def test_synonyms_are_capped_per_source(world):
+    ds, illus, out = world
+    names = ["Name %02d" % i for i in range(40)]
+    write_fetched(ds, {"escherichia-coli": {"gbif": {"accepted_name": None, "synonyms": names}, "ncbi": None}})
+    run_build(ds, illus, out)
+    assert len(read(out, "index.json")[0]["sy"]) == ms.SYNONYM_LIMIT
+
+
+def test_build_without_fetched_file_has_no_synonyms(world):
+    ds, illus, out = world
+    run_build(ds, illus, out)
+    assert all("sy" not in r for r in read(out, "index.json"))

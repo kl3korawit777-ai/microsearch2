@@ -13,7 +13,7 @@ async function getJson(name) {
 
 export async function loadCore() {
   [meta, index, drawings] = await Promise.all([getJson('meta'), getJson('index'), getJson('illustrations')]);
-  index.forEach((r) => byIdMap.set(r.id, r));
+  index.forEach((r) => { byIdMap.set(r.id, r); r._sy = (r.sy || []).map((x) => x.toLowerCase()); });
 }
 
 // Detail (traits text, lineage, extra content) of one group, attached to each row as row.d

@@ -1,46 +1,17 @@
 import { S } from '../state.js';
+import { readFilters, matchesFilter, anyFilter } from '../filters.js';
 import { T, loc } from '../i18n.js';
 import { esc } from '../util.js';
 import { G, inGroup, getMeta } from '../data.js';
 import { art } from '../art.js';
 import { gName, rankName, tagName, lvBadge, spRd, spCommon, isEn, chev, searchIcon, footer, traitValue, rowSummary } from '../ui.js';
 
-// Filters whose key differs from the trait key, or that merge several trait values into one option.
-const FILTER_TRAIT = { shapeF: 'shape', envF: 'env' };
-const FILTER_MERGE = { shapeF: { curvedspiral: ['curved', 'spiral'] }, envF: { hot: ['hot', 'hotacid'] } };
-
-export function filterState(gid) {
-  if (!S.gf[gid]) {
-    const f = { ph: -1, tag: '', q: '', lv: '' };
-    for (const x of G(gid).filters || []) f[x[0]] = '';
-    S.gf[gid] = f;
-  }
-  return S.gf[gid];
-}
-
-function matchesFilter(s, f, g) {
-  if (f.ph >= 0 && s.p !== f.ph) return false;
-  if (f.lv && s.lv !== f.lv) return false;
-  if (f.tag && !s.tags.includes(f.tag)) return false;
-  for (const fd of g.filters || []) {
-    const k = fd[0];
-    if (!f[k]) continue;
-    const trait = FILTER_TRAIT[k] || k;
-    const merged = FILTER_MERGE[k]?.[f[k]];
-    const val = s.d?.traits?.[trait];
-    if (merged ? !merged.includes(val) : val !== f[k]) return false;
-  }
-  const q = (f.q || '').trim().toLowerCase();
-  if (q && `${s.sci} ${s.th} ${s.rd} ${s.en}`.toLowerCase().indexOf(q) === -1) return false;
-  return true;
-}
-
-export function viewGroup(gid) {
+export function viewGroup(gid, params) {
   const g = G(gid);
-  const f = filterState(gid);
+  const f = readFilters(gid, params);
   const all = inGroup(gid);
   const list = all.filter((s) => matchesFilter(s, f, g));
-  const any = f.ph >= 0 || f.tag || f.q || f.lv || (g.filters || []).some((x) => f[x[0]]);
+  const any = anyFilter(g, f);
   const rank = rankName(g);
 
   let h = `<header class="ghead"><nav class="crumbs" aria-label="breadcrumb"><a href="#home">${T('explorePath')}</a> › ${esc(gName(g))}</nav>` +

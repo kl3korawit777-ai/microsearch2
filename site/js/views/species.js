@@ -15,24 +15,19 @@ export function viewSpecies(s) {
   const ex = (isEn() ? d.extra_en : null) || d.extra_th || {};
   const fb = isEn() && !useEn; // extra content falls back to Thai
   const ranks = g.ranks;
-  const phylumRank = g.rankEn === 'Supergroup' ? 'supergroup' : 'phylum';
 
   const steps = d.lineage.map((x, i) => ({
     rank: isEn() ? ranks[i].en : ranks[i].th,
     name: x.name,
     last: i === d.lineage.length - 1,
-    link: x.rank === phylumRank,
-    idx: i,
   }));
-  const phIdx = g.phyla.findIndex((p) => d.lineage.some((x) => x.name === p.name));
   let h = `<header style="display:flex;flex-direction:column;gap:22px"><nav class="ladder" aria-label="${esc(T('domain'))}"><ol>` +
     steps.map((st, i) => {
       const label = st.name === '?' ? T('unplaced') : esc(st.name);
       const rr = st.name === '?' ? '' : rd(st.name, s.g);
       const inner = `<span class="rank">${esc(st.rank)}</span><span class="nm${st.last ? ' sci' : ''}">${label}</span>${rr ? `<span class="rd">${esc(rr)}</span>` : ''}`;
-      const node = st.link
-        ? `<a class="step" href="#${s.g}" data-act="ph-link" data-v="${phIdx}" title="${esc(T('browseGroups'))}">${inner}</a>`
-        : `<span class="step">${inner}</span>`;
+      const key = steps.slice(0, i + 1).map((x) => x.name).join('/');
+      const node = `<a class="step" href="#home?${new URLSearchParams({ dg: s.g, sel: key })}" title="${esc(T('openInDiagram'))}">${inner}</a>`;
       return `<li>${i ? arrowR : ''}${node}</li>`;
     }).join('') + '</ol></nav>' +
     `<div class="sp-title"><h1 class="sci" tabindex="-1">${esc(s.sci)}</h1><div class="sp-sub">` +

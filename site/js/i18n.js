@@ -31,3 +31,9 @@ export function loc(th, en) {
   if (en) return esc(en);
   return thFallback(th);
 }
+
+// Array-valued entries such as the comparison table rows.
+export function TA(key) {
+  const cur = dict[S.lang] || dict.th;
+  return Object.hasOwn(cur, key) ? cur[key] : dict.th[key] || [];
+}

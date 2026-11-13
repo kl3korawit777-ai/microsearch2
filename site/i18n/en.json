@@ -92,5 +92,62 @@
   "srcH3": "Content status",
   "srcP3": "Every Thai description was drafted by Claude and carries an “AI draft” label until a person has checked it.",
   "srcH4": "Images",
-  "srcP4": "The site currently uses simple drawings. Openly licensed photos from Wikimedia Commons will be added, each credited with photographer, licence and source link."
+  "srcP4": "The site currently uses simple drawings. Openly licensed photos from Wikimedia Commons will be added, each credited with photographer, licence and source link.",
+  "compareRows": [
+    [
+      "Cell type",
+      "Prokaryote",
+      "Prokaryote",
+      "Eukaryote",
+      "Eukaryote",
+      "Eukaryote",
+      "Eukaryote"
+    ],
+    [
+      "Number of cells",
+      "Single cell",
+      "Single cell",
+      "Single cell or many",
+      "Mostly single cell",
+      "Many cells",
+      "Many cells"
+    ],
+    [
+      "Cell wall",
+      "Peptidoglycan, except a few groups such as Mycoplasma",
+      "No peptidoglycan; many have an S-layer",
+      "Chitin",
+      "Varied: cellulose or silica in some, none in others",
+      "Cellulose",
+      "No cell wall"
+    ],
+    [
+      "Membrane lipids",
+      "Fatty acids joined by ester bonds",
+      "Isoprene chains joined by ether bonds",
+      "Ester bonds",
+      "Ester bonds",
+      "Ester bonds",
+      "Ester bonds"
+    ],
+    [
+      "Nutrition",
+      "Photosynthesis, chemosynthesis and decomposition",
+      "Mostly chemosynthesis or decomposition; none use chlorophyll-based photosynthesis",
+      "Digest food outside the cell, then absorb it",
+      "Both photosynthesis and eating",
+      "Photosynthesis",
+      "Eat other organisms and digest inside the body"
+    ],
+    [
+      "Everyday example",
+      "Bacteria in yogurt",
+      "Pink color in salt ponds",
+      "Straw mushroom, baker's yeast",
+      "Nori seaweed, amoeba",
+      "Rice, durian",
+      "Betta fish, Aedes mosquito"
+    ]
+  ],
+  "synonymOf": "Synonym"
 }

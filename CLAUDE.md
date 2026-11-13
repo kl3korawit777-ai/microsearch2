@@ -27,7 +27,7 @@ cache/                    คำตอบดิบจาก GBIF/NCBI (อยู
 reports/                  รายงานจากสคริปต์ (taxonomy-diff.md, seed-issues.md) screens/ ไม่ commit
 scripts/microsearch.py    เครื่องมือหลักตัวเดียว
 site/                     หน้าเว็บที่ deploy
-  index.html, css/style.css, js/*.js (ES modules ไม่ใช้ framework), js/views/
+  index.html, css/style.css, js/*.js (ES modules ไม่ใช้ framework: router, diagram, search, filters, query), js/views/
   i18n/th.json, en.json   ข้อความ UI ทั้งหมด (ห้ามฝังข้อความไทยใน JS)
   data/*.json             สร้างจาก build ห้ามแก้เอง ไม่อยู่ใน repo
 tests/                    pytest (validate, fetch, build)
@@ -46,7 +46,10 @@ python scripts/microsearch.py fetch [--only id,..] [--refresh]   # GBIF + NCBI (
 python scripts/microsearch.py taxonomy-diff           # reports/taxonomy-diff.md
 python scripts/microsearch.py build                   # validate แล้วสร้าง site/data/*.json
 python -m pytest tests                                # ทดสอบสคริปต์
-npm test                                              # e2e: ทุกหน้า x ไทย/อังกฤษ (build ให้เองก่อน)
+npm test                                              # e2e ทั้งหมด = test:pages + test:diagram + test:search (build ให้เอง)
+npm run test:pages                                    # ทุกหน้า x ไทย/อังกฤษ ไม่มี console error ไม่มีไทยหลุดในโหมดอังกฤษ
+npm run test:diagram                                  # คลิกทุกชื่อในแผนผังทั้ง 6 กลุ่ม x 2 ภาษา
+npm run test:search                                   # ชุดคำค้นตายตัว วัดเวลา (<100 ms) ตัวกรองใน URL
 npm run screens                                       # screenshot เทียบต้นแบบ 1440px/390px
 python scripts/microsearch.py images                  # ตรวจรูป เครดิต license (เฟส 6 ยังไม่มี)
 python scripts/microsearch.py coverage                # ตรวจช่องว่าง/อังกฤษ (เฟส 5 ยังไม่มี)

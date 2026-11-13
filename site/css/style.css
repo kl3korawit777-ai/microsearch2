@@ -101,6 +101,7 @@ h1,h2,h3{text-wrap:balance}
 .results a:hover,.results a.active{background:var(--hover)}
 .results .r-sci{font-size:17px}
 .results .r-th{font-size:14px;color:var(--muted)}
+.results .r-via{font-size:13px;color:var(--faint)}
 .results .r-g{margin-left:auto;font-size:13px;color:var(--faint);white-space:nowrap}
 .results p{margin:0;padding:12px;font-size:15px;color:var(--muted)}
 

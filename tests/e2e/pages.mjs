@@ -130,6 +130,8 @@ async function checkAllPages(lang, index, meta) {
     } else if (hash === 'home') {
       ok((await count(page, '.gcard')) === meta.groups.length, `${tag}: group cards`);
       ok((await count(page, '.tree .col')) === 3, `${tag}: tree columns`);
+      ok((await count(page, '.dg-node')) > 20, `${tag}: diagram nodes`);
+      ok((await count(page, '.tablebox tbody tr')) === 6, `${tag}: compare table rows`);
     } else if (hash === 'sources') {
       ok((await count(page, '.prose h2')) === 4, `${tag}: sources sections`);
     }
@@ -174,9 +176,9 @@ async function interactions(index, meta) {
   await page.keyboard.press('ArrowRight');
   ok((await page.$eval('#tab-name', (e) => e.getAttribute('aria-selected'))) === 'true', 'tab switches with ArrowRight');
   ok((await count(page, '.aside li')) > 0, 'aside block rendered for halobacterium');
-  await page.click('.ladder a.step');
-  await ready(page, 'archaea');
-  ok((await count(page, '.chip[aria-pressed="true"]')) === 1 && (await page.$eval('.chip[aria-pressed="true"]', (e) => e.getAttribute('data-v'))) !== '-1', 'ladder phylum link preselects the phylum filter');
+  await page.click('.ladder a.step:nth-child(1)');
+  await ready(page, 'home');
+  ok(/dg=archaea/.test(page.url()) && (await count(page, '.dg-node.sel')) === 1, 'ladder step opens the diagram with that name selected');
 
   // site-wide search with Latin and Thai queries, keyboard selection
   await visit(page, 'home');

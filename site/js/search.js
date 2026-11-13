@@ -1,20 +1,39 @@
-// Site-wide search over site/data/index.json (each row carries a pre-built lowercase haystack, row.q).
+// Site-wide search over site/data/index.json. Each row carries a pre-built lowercase haystack (row.q:
+// scientific, Thai, reading, English names, group, phylum and lineage names, tags) and row._sy, its
+// lowercase synonyms / currently accepted names (from the GBIF + NCBI fetch).
 import { S } from './state.js';
 import { T } from './i18n.js';
 import { esc } from './util.js';
 import { all, byId, G } from './data.js';
 import { lvBadge, gName, spRd, isEn } from './ui.js';
 
-export function searchAll(q) {
-  q = q.trim().toLowerCase();
+const LIMIT = 8;
+
+// Returns [{ s, via }] best first. via = the synonym that matched, when no other field did.
+export function searchRows(query) {
+  const q = query.trim().toLowerCase();
   if (!q) return [];
+  const tokens = q.split(/\s+/);
   const out = [];
   for (const s of all()) {
+    let score = -1;
+    let via = '';
     const i = s.q.indexOf(q);
-    if (i !== -1) out.push({ s, score: s.sci.toLowerCase().startsWith(q) || s.th.startsWith(q) ? 0 : 1 + i });
+    if (i !== -1) {
+      score = s.sci.toLowerCase().startsWith(q) || s.th.startsWith(q) || s.en.toLowerCase().startsWith(q) ? 0 : 1 + i;
+    } else if (tokens.length > 1 && tokens.every((t) => s.q.includes(t))) {
+      score = 500;
+    } else {
+      const j = s._sy.findIndex((x) => x.includes(q));
+      if (j !== -1) { score = 1000 + j; via = s.sy[j]; }
+    }
+    if (score >= 0) out.push({ s, score, via });
   }
-  return out.sort((a, b) => a.score - b.score).slice(0, 8).map((x) => x.s);
+  out.sort((a, b) => a.score - b.score || a.s.sci.localeCompare(b.s.sci));
+  return out.slice(0, LIMIT);
 }
+
+export const searchAll = (query) => searchRows(query).map((x) => x.s);
 
 // Attach combobox behaviour to every [data-search] input inside root. onGo(species) navigates.
 export function wireSearch(root, onGo) {
@@ -33,12 +52,14 @@ export function wireSearch(root, onGo) {
     };
     const draw = () => {
       const q = inp.value;
-      items = searchAll(q);
+      const rows = searchRows(q);
+      items = rows.map((x) => x.s);
       active = items.length ? 0 : -1;
       if (!q.trim()) { close(); return; }
-      box.innerHTML = items.length ? items.map((s, i) =>
+      box.innerHTML = rows.length ? rows.map(({ s, via }, i) =>
         `<a href="#${s.id}" role="option" id="${inp.id}-o${i}" data-g="${s.g}" class="${i === active ? 'active' : ''}"><span class="dot" style="width:10px;height:10px"></span><span class="r-sci sci">${esc(s.sci)}</span>` +
-        (isEn() ? '' : `<span class="r-th">${esc(spRd(s))}</span>`) + `<span class="r-g">${lvBadge(s)} ${esc(gName(G(s.g)))}</span></a>`).join('')
+        (isEn() ? '' : `<span class="r-th">${esc(spRd(s))}</span>`) + (via ? `<span class="r-via">${T('synonymOf')}: <span class="sci">${esc(via)}</span></span>` : '') +
+        `<span class="r-g">${lvBadge(s)} ${esc(gName(G(s.g)))}</span></a>`).join('')
         : `<p>${esc(T('noResult', { q }))}</p>`;
       box.hidden = false;
       inp.setAttribute('aria-expanded', 'true');

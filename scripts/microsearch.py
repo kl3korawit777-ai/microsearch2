@@ -861,6 +861,38 @@ def write_min_json(path, obj):
         f.write("\n")
 
 
+SYNONYM_LIMIT = 12  # ต่อแหล่ง (NCBI บางชนิดมีชื่อพ้องเป็นสิบ)
+
+
+def load_synonyms(data_dir):
+    """ชื่อพ้องและชื่อที่ยอมรับตอนนี้ จาก data/generated/taxa-fetched.json (ถ้ามี) สำหรับใช้ค้นหา
+    คืน {id: [ชื่อ ...]} ไม่รวมชื่อวิทยาศาสตร์ของเราเอง เรียงลำดับคงที่"""
+    path = fetched_path(data_dir)
+    if not os.path.exists(path):
+        return {}
+    own = {o["id"]: o["scientific_name"] for o in load_organisms(data_dir)}
+    out = {}
+    for oid, entry in load_json(path).get("organisms", {}).items():
+        if oid not in own:
+            continue
+        names = []
+        for src in ("gbif", "ncbi"):
+            e = entry.get(src)
+            if not e:
+                continue
+            if e.get("accepted_name"):
+                names.append(e["accepted_name"])
+            names += e.get("synonyms", [])[:SYNONYM_LIMIT]
+        seen, uniq = set(), []
+        for n in names:
+            if n != own[oid] and n.lower() not in seen:
+                seen.add(n.lower())
+                uniq.append(n)
+        if uniq:
+            out[oid] = uniq
+    return out
+
+
 def build_site_data(data_dir, illustrations_path):
     """คืน {ชื่อไฟล์: ข้อมูล} ที่จะเขียนไป site/data/ (ยังไม่เขียนไฟล์ใด) ถ้าข้อมูลไม่ครบจะ raise BuildError"""
     groups_doc = load_json(os.path.join(data_dir, "groups.json"))
@@ -882,6 +914,7 @@ def build_site_data(data_dir, illustrations_path):
         "readings": {n: readings[n] for n in sorted(phyla_names) if readings.get(n)},
     }
 
+    synonyms = load_synonyms(data_dir)
     index, per_group = [], {gid: [] for gid in gmap}
     for o in orgs:
         g = gmap[o["group"]]
@@ -904,6 +937,8 @@ def build_site_data(data_dir, illustrations_path):
             "art": o.get("illustration", ""), "sm": [o["summary_th"], o["summary_en"]],
             "q": " ".join(x for x in hay if x).lower(),
         })
+        if synonyms.get(o["id"]):
+            index[-1]["sy"] = synonyms[o["id"]]
         detail = {k: v for k, v in o.items() if k not in ("taxon_ids", "id", "group", "scientific_name")}
         detail["id"] = o["id"]
         per_group[o["group"]].append(detail)
