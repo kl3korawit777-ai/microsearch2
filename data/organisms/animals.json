@@ -57,7 +57,20 @@
       "home": "Clear fresh water"
     },
     "illustration": "sponge",
-    "images": [],
+    "images": [
+      {
+        "url": "images/spongilla-lacustris/1.webp",
+        "author": "Lamiot",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gemmules_Spongilla_lacustris_2014-11-16_a_3723.JPG",
+        "title": "File:Gemmules Spongilla lacustris 2014-11-16 a 3723.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Gemmules_Spongilla_lacustris_2014-11-16_a_3723.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 637,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2244988,
@@ -122,7 +135,20 @@
       "home": "Coastal seas worldwide"
     },
     "illustration": "jelly",
-    "images": [],
+    "images": [
+      {
+        "url": "images/aurelia-aurita/1.webp",
+        "author": "André Karwath aka Aka",
+        "license": "CC BY-SA 2.5",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_(aka).jpg",
+        "title": "File:Aurelia aurita (aka).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Aurelia_aurita_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 908,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2264442,
@@ -187,7 +213,20 @@
       "home": "Fresh-water ponds and ditches"
     },
     "illustration": "hydra",
-    "images": [],
+    "images": [
+      {
+        "url": "images/hydra-vulgaris/1.webp",
+        "author": "Samantha Makrocka",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hydra_vulgaris.jpg",
+        "title": "File:Hydra vulgaris.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hydra_vulgaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5185782,
@@ -252,7 +291,20 @@
       "home": "Humans, fresh-water snails and fresh-water fish"
     },
     "illustration": "fluke",
-    "images": [],
+    "images": [
+      {
+        "url": "images/opisthorchis-viverrini/1.webp",
+        "author": "Juliaturnermda",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cicle_vital_d%27Opisthorchis_viverrini.png",
+        "title": "File:Cicle vital d'Opisthorchis viverrini.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cicle_vital_d%27Opisthorchis_viverrini.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1026,
+        "height": 523,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2505611,
@@ -317,7 +369,20 @@
       "home": "Soil and rotting plant matter"
     },
     "illustration": "nematode",
-    "images": [],
+    "images": [
+      {
+        "url": "images/caenorhabditis-elegans/1.webp",
+        "author": "The original uploader was Kbradnam at English Wikipedia. (Original text: Zeynep F. Altun, Editor of www.wormatlas.org)",
+        "license": "CC BY-SA 2.5",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Adult_Caenorhabditis_elegans.jpg",
+        "title": "File:Adult Caenorhabditis elegans.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Adult_Caenorhabditis_elegans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 395,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2283683,
@@ -383,7 +448,20 @@
       "home": "Rice fields and fresh water"
     },
     "illustration": "leech",
-    "images": [],
+    "images": [
+      {
+        "url": "images/hirudinaria-manillensis/1.webp",
+        "author": "Jeratthitikul E, Jiranuntskul P, Nakano T, Sutcharit C, Panha S (2020) A new species of buffalo leech in the genus Hirudinaria Whitman, 1886 (Arhynchobdellida, Hirudinidae) from Thailand. ZooKeys 933: 1-14. https://doi.org/10.3897/zookeys.933.49314",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hirudinaria_(10.3897-zookeys.933.49314)_Figure_1.jpg",
+        "title": "File:Hirudinaria (10.3897-zookeys.933.49314) Figure 1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Hirudinaria_%2810.3897-zookeys.933.49314%29_Figure_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 931,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 9512546,
@@ -449,7 +527,20 @@
       "home": "Rice fields, canals and swamps"
     },
     "illustration": "snail",
-    "images": [],
+    "images": [
+      {
+        "url": "images/pomacea-canaliculata/1.webp",
+        "author": "H. Zell",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pomacea_canaliculata_01.JPG",
+        "title": "File:Pomacea canaliculata 01.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pomacea_canaliculata_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 808,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2292582,
@@ -514,7 +605,20 @@
       "home": "Deep water near coral reefs, including the Andaman Sea"
     },
     "illustration": "nautilus",
-    "images": [],
+    "images": [
+      {
+        "url": "images/nautilus-pompilius/1.webp",
+        "author": "GodeNehler",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gotha_Nautilus_pompilius-7434.jpg",
+        "title": "File:Gotha Nautilus pompilius-7434.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gotha_Nautilus_pompilius-7434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1253,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2289202,
@@ -579,7 +683,20 @@
       "home": "Houses and containers with standing water"
     },
     "illustration": "mosquito",
-    "images": [],
+    "images": [
+      {
+        "url": "images/aedes-aegypti/1.webp",
+        "author": "NIAID",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aedes_Aegypti_Mosquitoes_(26444995041).jpg",
+        "title": "File:Aedes Aegypti Mosquitoes (26444995041).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Aedes_Aegypti_Mosquitoes_%2826444995041%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 1651891,
@@ -645,7 +762,20 @@
       "home": "Coasts, mangrove forest and farm ponds"
     },
     "illustration": "shrimp",
-    "images": [],
+    "images": [
+      {
+        "url": "images/penaeus-monodon/1.webp",
+        "author": "Ave Maria Mõistlik",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Penaeus_monodon.IMG_20210504_124630(1).jpg",
+        "title": "File:Penaeus monodon.IMG 20210504 124630(1).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Penaeus_monodon.IMG_20210504_124630%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8406925,
@@ -710,7 +840,20 @@
       "home": "Forests and ground in northeastern Thailand and neighboring countries"
     },
     "illustration": "scorpion",
-    "images": [],
+    "images": [
+      {
+        "url": "images/heterometrus-laoticus/1.webp",
+        "author": "Syrio",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Spiders_Genova_-_Heterometrus_laoticus.jpg",
+        "title": "File:Spiders Genova - Heterometrus laoticus.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Spiders_Genova_-_Heterometrus_laoticus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 6894876,
@@ -775,7 +918,20 @@
       "home": "Coral reefs in the Indian and Pacific Oceans"
     },
     "illustration": "star",
-    "images": [],
+    "images": [
+      {
+        "url": "images/acanthaster-planci/1.webp",
+        "author": "Ryan McMinds",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Acanthaster_planci_(26226795504).jpg",
+        "title": "File:Acanthaster planci (26226795504).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Acanthaster_planci_%2826226795504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2271208,
@@ -840,7 +996,20 @@
       "home": "Sandy bottoms in shallow seas"
     },
     "illustration": "lancelet",
-    "images": [],
+    "images": [
+      {
+        "url": "images/branchiostoma-belcheri/1.webp",
+        "author": "Kato M, Yamamori L, Goto R, Tsubaki R, Ohsuga K (2017) A new large tellinid species of the genus Pharaonella from the Ryukyu Archipelago, Japan (Mollusca, Bivalvia). ZooKeys 705: 1-13. https://doi.org/10.3897/zookeys.705.12888",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sand-dwelling_organisms_(10.3897-zookeys.705.12888)_Figure_2.jpg",
+        "title": "File:Sand-dwelling organisms (10.3897-zookeys.705.12888) Figure 2.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sand-dwelling_organisms_%2810.3897-zookeys.705.12888%29_Figure_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 686,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5227667,
@@ -906,7 +1075,20 @@
       "home": "Rice fields and shallow swamps"
     },
     "illustration": "fish",
-    "images": [],
+    "images": [
+      {
+        "url": "images/betta-splendens/1.webp",
+        "author": "G.Garitan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Betta_Splendens_nanCy_1005895.jpg",
+        "title": "File:Betta Splendens nanCy 1005895.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Betta_Splendens_nanCy_1005895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 577,
+        "height": 676,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2393998,
@@ -972,7 +1154,20 @@
       "home": "Rice fields and swamps"
     },
     "illustration": "frog",
-    "images": [],
+    "images": [
+      {
+        "url": "images/hoplobatrachus-rugulosus/1.webp",
+        "author": "Arvin Diesmos, National Museum of the Philippines, nationalmuseum.gov.ph",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hoplobatrachus_rugulosus_2.jpg",
+        "title": "File:Hoplobatrachus rugulosus 2.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hoplobatrachus_rugulosus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 801,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2430382,
@@ -1037,7 +1232,20 @@
       "home": "Forests in South and Southeast Asia"
     },
     "illustration": "elephant",
-    "images": [],
+    "images": [
+      {
+        "url": "images/elephas-maximus/1.webp",
+        "author": "Yathin S Krishnappa",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg",
+        "title": "File:Elephas maximus (Bandipur).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5219461,
@@ -1102,7 +1310,20 @@
       "home": "Under rocks in fresh-water streams"
     },
     "illustration": "fluke",
-    "images": [],
+    "images": [
+      {
+        "url": "images/dugesia-japonica/1.webp",
+        "author": "Timur Kalininsky",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dugesia_japonica_226612305.jpg",
+        "title": "File:Dugesia japonica 226612305.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Dugesia_japonica_226612305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1200,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5892108,
@@ -1167,7 +1388,20 @@
       "home": "Human small intestine, and pig muscle"
     },
     "illustration": "tape",
-    "images": [],
+    "images": [
+      {
+        "url": "images/taenia-solium/1.webp",
+        "author": "Danvasilis",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taenia_solium_1.jpg",
+        "title": "File:Taenia solium 1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Taenia_solium_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 849,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 6101576,
@@ -1232,7 +1466,20 @@
       "home": "Human small intestine"
     },
     "illustration": "nematode",
-    "images": [],
+    "images": [
+      {
+        "url": "images/ascaris-lumbricoides/1.webp",
+        "author": "Nmitei",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ascaris_Lumbricoides_that_had_caused_intestinal_obstruction.jpg",
+        "title": "File:Ascaris Lumbricoides that had caused intestinal obstruction.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Ascaris_Lumbricoides_that_had_caused_intestinal_obstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 4558786,
@@ -1297,7 +1544,20 @@
       "home": "Dogs and cats are the definitive hosts. Humans are infected by accident"
     },
     "illustration": "nematode",
-    "images": [],
+    "images": [
+      {
+        "url": "images/gnathostoma-spinigerum/1.webp",
+        "author": "Ubs6u!d-onstory",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gnathostoma_spinigerum.jpg",
+        "title": "File:Gnathostoma spinigerum.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Gnathostoma_spinigerum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1070,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 4556994,
@@ -1363,7 +1623,20 @@
       "home": "Mud flats and mangrove forest"
     },
     "illustration": "leech",
-    "images": [],
+    "images": [
+      {
+        "url": "images/perinereis-nuntia/1.webp",
+        "author": "Spyrow45",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Perinereis_nuntia.jpg",
+        "title": "File:Perinereis nuntia.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Perinereis_nuntia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2316143,
@@ -1428,7 +1701,20 @@
       "home": "Shallow coral reefs"
     },
     "illustration": "bivalve",
-    "images": [],
+    "images": [
+      {
+        "url": "images/tridacna-squamosa/1.webp",
+        "author": "Nhobgood Nick Hobgood",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tridacna_squamosa_(Fluted_Giant_clam).jpg",
+        "title": "File:Tridacna squamosa (Fluted Giant clam).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tridacna_squamosa_%28Fluted_Giant_clam%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 4372624,
@@ -1493,7 +1779,20 @@
       "home": "Houses and drains"
     },
     "illustration": "insect",
-    "images": [],
+    "images": [
+      {
+        "url": "images/periplaneta-americana/1.webp",
+        "author": "MatasNavickas",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%22Periplaneta_americana%22_connected_to_the_electrophysiology_equipment.JPG",
+        "title": "File:\"Periplaneta americana\" connected to the electrophysiology equipment.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/%22Periplaneta_americana%22_connected_to_the_electrophysiology_equipment.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2000152,
@@ -1558,7 +1857,20 @@
       "home": "Ripe and fermenting fruit"
     },
     "illustration": "insect",
-    "images": [],
+    "images": [
+      {
+        "url": "images/drosophila-melanogaster/1.webp",
+        "author": "Sanjay Acharya",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_Proboscis.jpg",
+        "title": "File:Drosophila melanogaster Proboscis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Drosophila_melanogaster_Proboscis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5073713,
@@ -1624,7 +1936,20 @@
       "home": "Silkworm farms (no longer found in the wild)"
     },
     "illustration": "insect",
-    "images": [],
+    "images": [
+      {
+        "url": "images/bombyx-mori/1.webp",
+        "author": "Marinna",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bombyx_mori_en_2020.jpg",
+        "title": "File:Bombyx mori en 2020.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bombyx_mori_en_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 1868664,
@@ -1689,7 +2014,20 @@
       "home": "Coral reefs and rocky bottoms"
     },
     "illustration": "urchin",
-    "images": [],
+    "images": [
+      {
+        "url": "images/diadema-setosum/1.webp",
+        "author": "Quartl",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Diadema_setosum_qtl1.jpg",
+        "title": "File:Diadema setosum qtl1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Diadema_setosum_qtl1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 930,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5721108,
@@ -1754,7 +2092,20 @@
       "home": "Harbors and underwater objects"
     },
     "illustration": "tunicate",
-    "images": [],
+    "images": [
+      {
+        "url": "images/ciona-intestinalis/1.webp",
+        "author": "Parent Géry",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ciona_intestinalis_(Linnaeus,_1767)_.jpg",
+        "title": "File:Ciona intestinalis (Linnaeus, 1767) .jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ciona_intestinalis_%28Linnaeus%2C_1767%29_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1081,
+        "height": 986,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2329622,
@@ -1819,7 +2170,20 @@
       "home": "Tropical seas, including the Andaman Sea and the Gulf of Thailand"
     },
     "illustration": "fish",
-    "images": [],
+    "images": [
+      {
+        "url": "images/rhincodon-typus/1.webp",
+        "author": "Jean-Paul Boerekamps",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rhincodon_typus_420227783.jpg",
+        "title": "File:Rhincodon typus 420227783.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Rhincodon_typus_420227783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 652,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2417522,
@@ -1884,7 +2248,20 @@
       "home": "Tropical seas and sandy beaches"
     },
     "illustration": "turtle",
-    "images": [],
+    "images": [
+      {
+        "url": "images/chelonia-mydas/1.webp",
+        "author": "Brocken Inaglory",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chelonia_mydas_is_going_for_the_air_edit.jpg",
+        "title": "File:Chelonia mydas is going for the air edit.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2442225,
@@ -1950,7 +2327,20 @@
       "home": "Farms worldwide, while wild junglefowl live in Thai forests"
     },
     "illustration": "bird",
-    "images": [],
+    "images": [
+      {
+        "url": "images/gallus-gallus/1.webp",
+        "author": "Wee Hong",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gallus_gallus_at_Melaka_Crocodile_Park.jpg",
+        "title": "File:Gallus gallus at Melaka Crocodile Park.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Gallus_gallus_at_Melaka_Crocodile_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 9326020,
@@ -2016,7 +2406,20 @@
       "home": "Worldwide"
     },
     "illustration": "human",
-    "images": [],
+    "images": [
+      {
+        "url": "images/homo-sapiens/1.webp",
+        "author": "Pinal0408",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Homo_sapiens2020.jpg",
+        "title": "File:Homo sapiens2020.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Homo_sapiens2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1040,
+        "height": 780,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2436436,
@@ -2081,7 +2484,20 @@
       "home": "Rivers and streams in eastern Australia"
     },
     "illustration": "platypus",
-    "images": [],
+    "images": [
+      {
+        "url": "images/ornithorhynchus-anatinus/1.webp",
+        "author": "robertpaulyoung",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ornithorhynchus_anatinus_-_feeding.jpg",
+        "title": "File:Ornithorhynchus anatinus - feeding.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ornithorhynchus_anatinus_-_feeding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 803,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2433376,
@@ -2147,7 +2563,20 @@
       "home": "Damp soil in temperate regions"
     },
     "illustration": "leech",
-    "images": [],
+    "images": [
+      {
+        "url": "images/lumbricus-terrestris/1.webp",
+        "author": "Rosser1954",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Common_Earthworm_(Lumbricus_terrestris)_Plug,_Chapeltoun,_Scotland.JPG",
+        "title": "File:Common Earthworm (Lumbricus terrestris) Plug, Chapeltoun, Scotland.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Common_Earthworm_%28Lumbricus_terrestris%29_Plug%2C_Chapeltoun%2C_Scotland.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 4410657,
@@ -2212,7 +2641,20 @@
       "home": "Slow-flowing streams in forests and at the foot of hills"
     },
     "illustration": "mosquito",
-    "images": [],
+    "images": [
+      {
+        "url": "images/anopheles-minimus/1.webp",
+        "author": "James Gathany, USCDCP",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anopheles_minimus_1.jpg",
+        "title": "File:Anopheles minimus 1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Anopheles_minimus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 829,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 1650618,
@@ -2278,7 +2720,20 @@
       "home": "Tree hollows and kept hives"
     },
     "illustration": "insect",
-    "images": [],
+    "images": [
+      {
+        "url": "images/apis-cerana/1.webp",
+        "author": "Dennisknr",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Apis_Cerana_Bees_Honey_Comb.jpg",
+        "title": "File:Apis Cerana Bees Honey Comb.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Apis_Cerana_Bees_Honey_Comb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 1341979,
@@ -2344,7 +2799,20 @@
       "home": "Worldwide, near where people live"
     },
     "illustration": "mouse",
-    "images": [],
+    "images": [
+      {
+        "url": "images/mus-musculus/1.webp",
+        "author": "Dion Art",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D1%8B%D1%88%D1%8C_(Mus_musculus),_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.jpg",
+        "title": "File:Домовая мышь (Mus musculus), Москва.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D1%8B%D1%88%D1%8C_%28Mus_musculus%29%2C_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 721,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7429082,
@@ -2409,7 +2877,20 @@
       "home": "Streams and rice fields in South Asia"
     },
     "illustration": "fish",
-    "images": [],
+    "images": [
+      {
+        "url": "images/danio-rerio/1.webp",
+        "author": "Pogrebnoj-Alexandroff",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Danio_rerio.JPG",
+        "title": "File:Danio rerio.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Danio_rerio.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 9797255,
@@ -2474,7 +2955,20 @@
       "home": "Seagrass beds and mangrove forest"
     },
     "illustration": "seahorse",
-    "images": [],
+    "images": [
+      {
+        "url": "images/hippocampus-kuda/1.webp",
+        "author": "Nhobgood Nick Hobgood",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hippocampus_kuda_(Yellow_estuary_seahorse).jpg",
+        "title": "File:Hippocampus kuda (Yellow estuary seahorse).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hippocampus_kuda_%28Yellow_estuary_seahorse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 898,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5201037,

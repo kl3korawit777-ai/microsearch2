@@ -48,7 +48,20 @@
       "home": "Fresh water"
     },
     "illustration": "euglena",
-    "images": [],
+    "images": [
+      {
+        "url": "images/euglena-gracilis/1.webp",
+        "author": "Ellis O'Neill",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:FieldofEuglena.gracilis.jpg",
+        "title": "File:FieldofEuglena.gracilis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/FieldofEuglena.gracilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7465722,
@@ -104,7 +117,20 @@
       "home": "Human bloodstream and the tsetse fly"
     },
     "illustration": "trypano",
-    "images": [],
+    "images": [
+      {
+        "url": "images/trypanosoma-brucei/1.webp",
+        "author": "Image Credit: Dror Eliaz",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Exosome_Secretion_Affects_Social_Motility_in_Trypanosoma_brucei.png",
+        "title": "File:Exosome Secretion Affects Social Motility in Trypanosoma brucei.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Exosome_Secretion_Affects_Social_Motility_in_Trypanosoma_brucei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 656,
+        "height": 656,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7822322,
@@ -160,7 +186,20 @@
       "home": "Small intestine of humans and animals, spread through drinking water"
     },
     "illustration": "giardia",
-    "images": [],
+    "images": [
+      {
+        "url": "images/giardia-intestinalis/1.webp",
+        "author": "Stefan Walkowski",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Giardia_intestinalis_-_trophozoite.jpg",
+        "title": "File:Giardia intestinalis - trophozoite.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Giardia_intestinalis_-_trophozoite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 853,
+        "height": 849,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8635830,
@@ -216,7 +255,20 @@
       "home": "Still fresh water"
     },
     "illustration": "ciliate",
-    "images": [],
+    "images": [
+      {
+        "url": "images/paramecium-caudatum/1.webp",
+        "author": "Deuterostome",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Paramecium_caudatum_Ehrenberg,_1833.jpg",
+        "title": "File:Paramecium caudatum Ehrenberg, 1833.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Paramecium_caudatum_Ehrenberg%2C_1833.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 959,
+        "height": 728,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8122199,
@@ -272,7 +324,20 @@
       "home": "Humans and Anopheles mosquitoes"
     },
     "illustration": "plasmo",
-    "images": [],
+    "images": [
+      {
+        "url": "images/plasmodium-falciparum/1.webp",
+        "author": "MichaelZahniser",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plasmodium_falciparum_(malaria)_parasite_in_blood.jpg",
+        "title": "File:Plasmodium falciparum (malaria) parasite in blood.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Plasmodium_falciparum_%28malaria%29_parasite_in_blood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1024,
+        "height": 1024,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 10540993,
@@ -328,7 +393,20 @@
       "home": "The sea"
     },
     "illustration": "diatom",
-    "images": [],
+    "images": [
+      {
+        "url": "images/thalassiosira-pseudonana/1.webp",
+        "author": "Oregon State University",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Diatom_sperm_cells_--_2_(35617965905).jpg",
+        "title": "File:Diatom sperm cells -- 2 (35617965905).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Diatom_sperm_cells_--_2_%2835617965905%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1202,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3193414,
@@ -384,7 +462,20 @@
       "home": "Fresh water and damp soil"
     },
     "illustration": "chlamy",
-    "images": [],
+    "images": [
+      {
+        "url": "images/chlamydomonas-reinhardtii/1.webp",
+        "author": "Dartmouth Electron Microscope Facility, Dartmouth College",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chlamydomonas2-3.jpg",
+        "title": "File:Chlamydomonas2-3.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chlamydomonas2-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1215,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5271221,
@@ -440,7 +531,20 @@
       "home": "Intertidal coasts"
     },
     "illustration": "seaweed",
-    "images": [],
+    "images": [
+      {
+        "url": "images/pyropia-yezoensis/1.webp",
+        "author": "Anonymous Powered",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Neopyropia_yezoensis.jpg",
+        "title": "File:Neopyropia yezoensis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Neopyropia_yezoensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7713874,
@@ -496,7 +600,20 @@
       "home": "Fresh water"
     },
     "illustration": "amoeba",
-    "images": [],
+    "images": [
+      {
+        "url": "images/amoeba-proteus/1.webp",
+        "author": "Berkshire Community College Bioscience Image Library",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ameboid_Protozoa_Amoeba_proteus_(37175354480).jpg",
+        "title": "File:Ameboid Protozoa Amoeba proteus (37175354480).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ameboid_Protozoa_Amoeba_proteus_%2837175354480%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 677,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5425264,
@@ -552,7 +669,20 @@
       "home": "Rotting logs and damp leaves"
     },
     "illustration": "slime",
-    "images": [],
+    "images": [
+      {
+        "url": "images/physarum-polycephalum/1.webp",
+        "author": "Le Bernemi",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Blob_(Physarum_polycephalum).jpg",
+        "title": "File:Blob (Physarum polycephalum).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Blob_%28Physarum_polycephalum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3214606,
@@ -608,7 +738,20 @@
       "home": "Coastal seas, including the Gulf of Thailand"
     },
     "illustration": "dino",
-    "images": [],
+    "images": [
+      {
+        "url": "images/noctiluca-scintillans/1.webp",
+        "author": "Nadine Neaud-Masson",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Noctiluque_(Noctiluca_scintillans)_(Ifremer_00689-80077).jpg",
+        "title": "File:Noctiluque (Noctiluca scintillans) (Ifremer 00689-80077).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Noctiluque_%28Noctiluca_scintillans%29_%28Ifremer_00689-80077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8063862,
@@ -664,7 +807,20 @@
       "home": "Rocky and coral reefs along the coast"
     },
     "illustration": "kelp",
-    "images": [],
+    "images": [
+      {
+        "url": "images/sargassum-polycystum/1.webp",
+        "author": "C.Agardh",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_L.4025326_-_Sargassum_polycystum_C.Agardh_-_Sargassaceae_-_Plant_type_specimen.jpeg",
+        "title": "File:Naturalis Biodiversity Center - L.4025326 - Sargassum polycystum C.Agardh - Sargassaceae - Plant type specimen.jpeg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Naturalis_Biodiversity_Center_-_L.4025326_-_Sargassum_polycystum_C.Agardh_-_Sargassaceae_-_Plant_type_specimen.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1097,
+        "height": 1920,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3196717,
@@ -776,7 +932,20 @@
       "home": "Ponds and fresh water"
     },
     "illustration": "volvox",
-    "images": [],
+    "images": [
+      {
+        "url": "images/volvox-carteri/1.webp",
+        "author": "Martinrm1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Niveles_de_gonidias_en_el_embri%C3%B3n.png",
+        "title": "File:Niveles de gonidias en el embrión.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Niveles_de_gonidias_en_el_embri%C3%B3n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 644,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2639377,
@@ -832,7 +1001,20 @@
       "home": "Human large intestine"
     },
     "illustration": "amoeba",
-    "images": [],
+    "images": [
+      {
+        "url": "images/entamoeba-histolytica/1.webp",
+        "author": "CDC/ Dr. Mae Melvin; Dr. Greene",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Micrograph_of_Entamoeba_histolytica.jpg",
+        "title": "File:Micrograph of Entamoeba histolytica.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Micrograph_of_Entamoeba_histolytica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 700,
+        "height": 461,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3210505,
@@ -888,7 +1070,20 @@
       "home": "Human urinary and reproductive tract"
     },
     "illustration": "giardia",
-    "images": [],
+    "images": [
+      {
+        "url": "images/trichomonas-vaginalis/1.webp",
+        "author": "Geovane Dias-Lopes1 , Leonardo Saboia-Vahia2, Eliane Trindade Margotti3 , Nilma de Souza Fernandes3 , Cássia Luana de Faria Castro4 , Francisco Odencio Oliveira-Junior5 , Juliana Figueiredo Peixoto1 , Constança Britto1 , Fernando Costa e Silva-Filho6 , Patricia Cuervo2, José Batista de Jesus1,3/ + 1 Fundação Oswaldo Cruz-Fiocruz, Instituto Oswaldo Cruz, Laboratório de Biologia Molecular e Doenças Endêmicas, Rio de Janeiro, RJ, Brasil 2 Fundação Oswaldo Cruz-Fiocruz, Instituto Oswaldo Cruz, Laboratório de Pesquisa em Leishmanioses, Rio de Janeiro, RJ, Brasil 3 Universidade Federal de São João Del Rei, Faculdade de Medicina, Departamento de Medicina, São João Del Rei, MG, Brasil 4 Instituto de Ensino Superior Presidente Tancredo de Almeida Neves, São João Del Rei, MG, Brasil 5 Fundação Oswaldo Cruz-Fiocruz, Instituto Oswaldo Cruz, Laboratório de Ultraestrutura Celular, Rio de Janeiro, RJ, Brasil 6 Universidade Estadual do Norte Fluminense Darcy Ribeiro, Centro de Biociências e Biotecnologia, Laboratório de Biologia Celular e Tecidual, Rio de Janeiro, RJ, Brasil",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Trichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg",
+        "title": "File:Trichomonas vaginalis observed by scanning electron microscopy.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Trichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1066,
+        "height": 688,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
@@ -944,7 +1139,20 @@
       "home": "Humans, dogs and sand flies"
     },
     "illustration": "trypano",
-    "images": [],
+    "images": [
+      {
+        "url": "images/leishmania-donovani/1.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amastogotes_of_Leishmania_donovani.jpg",
+        "title": "File:Amastogotes of Leishmania donovani.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Amastogotes_of_Leishmania_donovani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
@@ -1000,7 +1208,20 @@
       "home": "Cats and almost all warm-blooded animals"
     },
     "illustration": "plasmo",
-    "images": [],
+    "images": [
+      {
+        "url": "images/toxoplasma-gondii/1.webp",
+        "author": "Carmen Gómez",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:TOXOPLASMA_GONDII.jpg",
+        "title": "File:TOXOPLASMA GONDII.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TOXOPLASMA_GONDII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 806,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8014281,
@@ -1056,7 +1277,20 @@
       "home": "Damp forest soil"
     },
     "illustration": "slime",
-    "images": [],
+    "images": [
+      {
+        "url": "images/dictyostelium-discoideum/1.webp",
+        "author": "Bruno in Columbus",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dictyostelium_Fruiting_Bodies.JPG",
+        "title": "File:Dictyostelium Fruiting Bodies.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Dictyostelium_Fruiting_Bodies.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 698,
+        "height": 1024,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3212434,
@@ -1112,7 +1346,20 @@
       "home": "Potatoes and tomatoes"
     },
     "illustration": "mold",
-    "images": [],
+    "images": [
+      {
+        "url": "images/phytophthora-infestans/1.webp",
+        "author": "Engler, Adolf; Prantl, Karl Anton Eugen; Pilger, Robert Knuds Friedrich; Krause, Kurt",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Phytophthora_infestans_Sporangium_zoospores.jpg",
+        "title": "File:Phytophthora infestans Sporangium zoospores.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Phytophthora_infestans_Sporangium_zoospores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 451,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3203716,
@@ -1169,7 +1416,20 @@
       "home": "Fresh water"
     },
     "illustration": "chlorella",
-    "images": [],
+    "images": [
+      {
+        "url": "images/chlorella-vulgaris/1.webp",
+        "author": "Лаборатория \"Микрокосмос\"",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BD%D1%84%D1%83%D0%B7%D0%BE%D1%80%D0%B8%D0%B8_Ophridium_versatile.jpg",
+        "title": "File:Инфузории Ophridium versatile.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%D0%98%D0%BD%D1%84%D1%83%D0%B7%D0%BE%D1%80%D0%B8%D0%B8_Ophridium_versatile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5270961,
@@ -1225,7 +1485,20 @@
       "home": "Shallow seas and culture ponds"
     },
     "illustration": "grape",
-    "images": [],
+    "images": [
+      {
+        "url": "images/caulerpa-lentillifera/1.webp",
+        "author": "Coughdrop12",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sea_grapes_(Caulerpa_lentillifera).jpg",
+        "title": "File:Sea grapes (Caulerpa lentillifera).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sea_grapes_%28Caulerpa_lentillifera%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1200,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2642878,
@@ -1338,7 +1611,20 @@
       "home": "Humans and Anopheles mosquitoes"
     },
     "illustration": "plasmo",
-    "images": [],
+    "images": [
+      {
+        "url": "images/plasmodium-vivax/1.webp",
+        "author": "Vivien Rolfe",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plasmodium_vivax_x100mag_(1)UK_NEQAS_(7687060186).jpg",
+        "title": "File:Plasmodium vivax x100mag (1)UK NEQAS (7687060186).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Plasmodium_vivax_x100mag_%281%29UK_NEQAS_%287687060186%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
@@ -1394,7 +1680,20 @@
       "home": "Still fresh water, attached to water plants"
     },
     "illustration": "vorti",
-    "images": [],
+    "images": [
+      {
+        "url": "images/vorticella-campanula/1.webp",
+        "author": "Giuseppe Vago",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vorticella_campanula.jpg",
+        "title": "File:Vorticella campanula.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Vorticella_campanula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 655,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,

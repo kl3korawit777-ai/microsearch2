@@ -56,7 +56,20 @@
       "home": "Fresh water and frog skin"
     },
     "illustration": "chytrid",
-    "images": [],
+    "images": [
+      {
+        "url": "images/batrachochytrium-dendrobatidis/1.webp",
+        "author": "Pascale van Rooij",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Batrachochytrium_species,_morphology_in_culture.jpg",
+        "title": "File:Batrachochytrium species, morphology in culture.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Batrachochytrium_species%2C_morphology_in_culture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 898,
+        "height": 1191,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2627503,
@@ -120,7 +133,20 @@
       "home": "Bread, fruit and soil"
     },
     "illustration": "mold",
-    "images": [],
+    "images": [
+      {
+        "url": "images/rhizopus-stolonifer/1.webp",
+        "author": "zygolife",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rhizopus_stolonifer_1.jpg",
+        "title": "File:Rhizopus stolonifer 1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rhizopus_stolonifer_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 935,
+        "height": 981,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2558944,
@@ -185,7 +211,20 @@
       "home": "Inside plant roots and the soil around the roots"
     },
     "illustration": "myco",
-    "images": [],
+    "images": [
+      {
+        "url": "images/rhizophagus-irregularis/1.webp",
+        "author": "Mylène Durant",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mycorhize_dans_racine.jpg",
+        "title": "File:Mycorhize dans racine.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mycorhize_dans_racine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1023,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7764042,
@@ -250,7 +289,20 @@
       "home": "Fruit skin and sugary sap"
     },
     "illustration": "yeast",
-    "images": [],
+    "images": [
+      {
+        "url": "images/saccharomyces-cerevisiae/1.webp",
+        "author": "Pilarbini",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Saccharomyces_cerevisiae_100x_phase-contrast_microscopy2.jpg",
+        "title": "File:Saccharomyces cerevisiae 100x phase-contrast microscopy2.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Saccharomyces_cerevisiae_100x_phase-contrast_microscopy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1199,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7440012,
@@ -315,7 +367,20 @@
       "home": "Soil and moldy food"
     },
     "illustration": "brush",
-    "images": [],
+    "images": [
+      {
+        "url": "images/penicillium-chrysogenum/1.webp",
+        "author": "Louis Bontemps",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Penicillium_notatum.png",
+        "title": "File:Penicillium notatum.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Penicillium_notatum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1689,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3466349,
@@ -380,7 +445,20 @@
       "home": "Steamed rice used to make the fermentation starter (koji)"
     },
     "illustration": "asper",
-    "images": [],
+    "images": [
+      {
+        "url": "images/aspergillus-oryzae/1.webp",
+        "author": "Forrest O.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aspergillus_oryzae_(%E9%BA%B9).jpg",
+        "title": "File:Aspergillus oryzae (麹).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Aspergillus_oryzae_%28%E9%BA%B9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5259827,
@@ -445,7 +523,20 @@
       "home": "Straw piles in the tropics"
     },
     "illustration": "mushroom",
-    "images": [],
+    "images": [
+      {
+        "url": "images/volvariella-volvacea/1.webp",
+        "author": "Zenyrgarden",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Volvariella_volvacea_mushroom_spawn_on_straw.jpg",
+        "title": "File:Volvariella volvacea mushroom spawn on straw.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Volvariella_volvacea_mushroom_spawn_on_straw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5241445,
@@ -509,7 +600,20 @@
       "home": "Soil and pigeon droppings"
     },
     "illustration": "capsule",
-    "images": [],
+    "images": [
+      {
+        "url": "images/cryptococcus-neoformans/1.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cryptococcus_in_India_Ink.jpg",
+        "title": "File:Cryptococcus in India Ink.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cryptococcus_in_India_Ink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5237368,
@@ -573,7 +677,20 @@
       "home": "Plant remains after wildfires, and bread"
     },
     "illustration": "mold",
-    "images": [],
+    "images": [
+      {
+        "url": "images/neurospora-crassa/1.webp",
+        "author": "Roland Gromes",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Neurospora_crassahyphae.jpg",
+        "title": "File:Neurospora crassahyphae.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Neurospora_crassahyphae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 894,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5253986,
@@ -638,7 +755,20 @@
       "home": "Soil and grain stored damp"
     },
     "illustration": "asper",
-    "images": [],
+    "images": [
+      {
+        "url": "images/aspergillus-flavus/1.webp",
+        "author": "Korinna",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Microscope_view_of_Aspergillus_flavus_fungus_02.jpg",
+        "title": "File:Microscope view of Aspergillus flavus fungus 02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Microscope_view_of_Aspergillus_flavus_fungus_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1065,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5259820,
@@ -703,7 +833,20 @@
       "home": "Logs and growing material"
     },
     "illustration": "mushroom",
-    "images": [],
+    "images": [
+      {
+        "url": "images/pleurotus-ostreatus/1.webp",
+        "author": "Ian Alexander",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20191213_GT_Pleurotus_ostreatus_var_columbinus.jpg",
+        "title": "File:20191213 GT Pleurotus ostreatus var columbinus.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/20191213_GT_Pleurotus_ostreatus_var_columbinus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2526530,
@@ -768,7 +911,20 @@
       "home": "Termite mounds in tropical forest"
     },
     "illustration": "mushroom",
-    "images": [],
+    "images": [
+      {
+        "url": "images/termitomyces-fuliginosus/1.webp",
+        "author": "Renaudsechet",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Het_pluak_gai_noi_%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%A7%E0%B8%81%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_termitomyces_fuliginosus.jpg",
+        "title": "File:Het pluak gai noi เห็ดปลวกไก่น้อย termitomyces fuliginosus.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Het_pluak_gai_noi_%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%A7%E0%B8%81%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_termitomyces_fuliginosus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3347384,
@@ -832,7 +988,20 @@
       "home": "Human mouth, gut and skin"
     },
     "illustration": "yeast",
-    "images": [],
+    "images": [
+      {
+        "url": "images/candida-albicans/1.webp",
+        "author": "Dr Graham Beards",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Candida_albicans_-_Gram_stain.jpg",
+        "title": "File:Candida albicans - Gram stain.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Candida_albicans_-_Gram_stain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2599597,
@@ -897,7 +1066,20 @@
       "home": "Insect pupae in the soil, and culture farms"
     },
     "illustration": "mushroom",
-    "images": [],
+    "images": [
+      {
+        "url": "images/cordyceps-militaris/1.webp",
+        "author": "mushroomclinicaltrials.com",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cordyceps_Militaris.jpg",
+        "title": "File:Cordyceps Militaris.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cordyceps_Militaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7567077,
@@ -961,7 +1143,20 @@
       "home": "Wheat and barberry plants"
     },
     "illustration": "mold",
-    "images": [],
+    "images": [
+      {
+        "url": "images/puccinia-graminis/1.webp",
+        "author": "signature illegible; see legend below for some additional attributions",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:EB1911_Fungi_-_Puccinia_graminis.jpg",
+        "title": "File:EB1911 Fungi - Puccinia graminis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/EB1911_Fungi_-_Puccinia_graminis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 675,
+        "height": 870,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2514501,
@@ -1025,7 +1220,20 @@
       "home": "Human lungs"
     },
     "illustration": "yeast",
-    "images": [],
+    "images": [
+      {
+        "url": "images/pneumocystis-jirovecii/1.webp",
+        "author": "Yale Rosen from USA",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pneumocystis_jiroveci-Plasma_cell_interstitial_pneumonia_Case_158_(5438412121).jpg",
+        "title": "File:Pneumocystis jiroveci-Plasma cell interstitial pneumonia Case 158 (5438412121).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pneumocystis_jiroveci-Plasma_cell_interstitial_pneumonia_Case_158_%285438412121%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2610978,
@@ -1089,7 +1297,20 @@
       "home": "Soil and moldy vegetables and fruit"
     },
     "illustration": "asper",
-    "images": [],
+    "images": [
+      {
+        "url": "images/aspergillus-niger/1.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aspergillus_niger_in_LPCB_Tease_Mount_at_1600X.jpg",
+        "title": "File:Aspergillus niger in LPCB Tease Mount at 1600X.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Aspergillus_niger_in_LPCB_Tease_Mount_at_1600X.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3465658,
@@ -1154,7 +1375,20 @@
       "home": "Tree stumps and growing material"
     },
     "illustration": "mushroom",
-    "images": [],
+    "images": [
+      {
+        "url": "images/ganoderma-lucidum/1.webp",
+        "author": "This image was created by user Vihane (wihane) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2015-08-17_Ganoderma_lucidum_(Curtis)_P._Karst_713895.jpg",
+        "title": "File:2015-08-17 Ganoderma lucidum (Curtis) P. Karst 713895.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2015-08-17_Ganoderma_lucidum_%28Curtis%29_P._Karst_713895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2549730,

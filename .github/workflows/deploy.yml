@@ -32,6 +32,9 @@ jobs:
       - name: validate (ไม่ผ่านแล้วหยุด ห้าม deploy)
         run: python scripts/microsearch.py validate
 
+      - name: ตรวจรูป (เครดิต license ขนาดไฟล์)
+        run: python scripts/microsearch.py images --check
+
       - name: pytest
         run: |
           python -m pip install pytest pillow

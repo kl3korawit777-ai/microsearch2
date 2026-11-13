@@ -53,7 +53,20 @@
       "home": "Large intestine of humans and warm-blooded animals"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/escherichia-coli/1.webp",
+        "author": "Stefan Walkowski",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:UPEC_adhered_to_BEC.jpg",
+        "title": "File:UPEC adhered to BEC.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/UPEC_adhered_to_BEC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 600,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 6110934,
@@ -114,7 +127,20 @@
       "home": "Soil and the root nodules of legumes"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/rhizobium-leguminosarum/1.webp",
+        "author": "Qaswarah 21",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Root_nodules_of_Fabaceae.png",
+        "title": "File:Root nodules of Fabaceae.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Root_nodules_of_Fabaceae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 589,
+        "height": 597,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 9037540,
@@ -174,7 +200,20 @@
       "home": "Brackish water and coastal seawater"
     },
     "illustration": "curved",
-    "images": [],
+    "images": [
+      {
+        "url": "images/vibrio-cholerae/1.webp",
+        "author": "Tom Kirn, Ron Taylor, Louisa Howard - Dartmouth Electron Microscope Facility",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vibrio_cholerae.jpg",
+        "title": "File:Vibrio cholerae.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vibrio_cholerae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 979,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3222442,
@@ -235,7 +274,20 @@
       "home": "Soil and the area around plant roots"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/bacillus-subtilis/1.webp",
+        "author": "Allonweiner at English Wikipedia",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacillus_subtilis.jpg",
+        "title": "File:Bacillus subtilis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bacillus_subtilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 10826006,
@@ -295,7 +347,20 @@
       "home": "Human digestive tract and fermented milk"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/lactobacillus-acidophilus/1.webp",
+        "author": "Bob Blaylock",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20101212_205549_LactobacillusAcidophilus.jpg",
+        "title": "File:20101212 205549 LactobacillusAcidophilus.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/20101212_205549_LactobacillusAcidophilus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 7485397,
@@ -355,7 +420,20 @@
       "home": "Human skin and nasal cavity"
     },
     "illustration": "coccus",
-    "images": [],
+    "images": [
+      {
+        "url": "images/staphylococcus-aureus/1.webp",
+        "author": "Photo Credit: Janice Carr Content Providers(s): CDC/ Matthew J. Arduino, DRPH; Janice Carr",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_01.jpg",
+        "title": "File:Staphylococcus aureus 01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Staphylococcus_aureus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 932,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3227657,
@@ -416,7 +494,20 @@
       "home": "Alkaline lakes in the tropics"
     },
     "illustration": "helix",
-    "images": [],
+    "images": [
+      {
+        "url": "images/arthrospira-platensis/1.webp",
+        "author": "MaCameron",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arthrospira_platensis.jpg",
+        "title": "File:Arthrospira platensis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Arthrospira_platensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3218108,
@@ -477,7 +568,20 @@
       "home": "Damp soil, rice fields and rock surfaces"
     },
     "illustration": "beads",
-    "images": [],
+    "images": [
+      {
+        "url": "images/nostoc-commune/1.webp",
+        "author": "Thomas Bolton (1831-1887) - text Herbert Edward Forrest - illustration",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nostoc_Commune_flyleaf_-_Thomas_Bolton_%2B_H._E._Forrest_-_1879.jpg",
+        "title": "File:Nostoc Commune flyleaf - Thomas Bolton + H. E. Forrest - 1879.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nostoc_Commune_flyleaf_-_Thomas_Bolton_%2B_H._E._Forrest_-_1879.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 675,
+        "height": 1082,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8225325,
@@ -538,7 +642,20 @@
       "home": "Soil. Part of the smell of earth after rain comes from geosmin made by bacteria of this genus"
     },
     "illustration": "branch",
-    "images": [],
+    "images": [
+      {
+        "url": "images/streptomyces-griseus/1.webp",
+        "author": "Docwarhol",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Streptomyces_griseus_color_enhanced_scanning_electron_micrograph..jpg",
+        "title": "File:Streptomyces griseus color enhanced scanning electron micrograph..jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Streptomyces_griseus_color_enhanced_scanning_electron_micrograph..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 601,
+        "height": 412,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8778525,
@@ -598,7 +715,20 @@
       "home": "Human lungs, living inside macrophage cells"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/mycobacterium-tuberculosis/1.webp",
+        "author": "Siduduziwe Nxumalo",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mycobacterium_Tuberculosis_with_sample_contamination_under_the_microscope.jpg",
+        "title": "File:Mycobacterium Tuberculosis with sample contamination under the microscope.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mycobacterium_Tuberculosis_with_sample_contamination_under_the_microscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 1280,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3225140,
@@ -658,7 +788,20 @@
       "home": "The human body. Very hard to culture in the laboratory"
     },
     "illustration": "spiral",
-    "images": [],
+    "images": [
+      {
+        "url": "images/treponema-pallidum/1.webp",
+        "author": "NIAID",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Treponema_pallidum_Bacteria_(Syphilis)_(cropped).jpg",
+        "title": "File:Treponema pallidum Bacteria (Syphilis) (cropped).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Treponema_pallidum_Bacteria_%28Syphilis%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1234,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3228214,
@@ -718,7 +861,20 @@
       "home": "Still fresh water and damp ground"
     },
     "illustration": "beads",
-    "images": [],
+    "images": [
+      {
+        "url": "images/oscillatoria-princeps/1.webp",
+        "author": "Kristian Peters http://www.korseby.net/outer/flora/algae/index.html",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Oscillatoria_princeps.jpeg",
+        "title": "File:Oscillatoria princeps.jpeg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Oscillatoria_princeps.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3218836,
@@ -779,7 +935,20 @@
       "home": "Human nasal cavity and throat"
     },
     "illustration": "coccus",
-    "images": [],
+    "images": [
+      {
+        "url": "images/streptococcus-pneumoniae/1.webp",
+        "author": "Ajay Kumar Chaurasiya",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pneumococcus_in_Gram-Stained_BAL_Sample.jpg",
+        "title": "File:Pneumococcus in Gram-Stained BAL Sample.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pneumococcus_in_Gram-Stained_BAL_Sample.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
@@ -840,7 +1009,20 @@
       "home": "Soil and plant roots. Causes crown gall disease at the base of the plant"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/agrobacterium-tumefaciens/1.webp",
+        "author": "Jerzy Opioła",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Agrobacterium_tumefaciens_a1.jpg",
+        "title": "File:Agrobacterium tumefaciens a1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Agrobacterium_tumefaciens_a1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 9333004,
@@ -901,7 +1083,20 @@
       "home": "Soil and sediment"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/clostridium-botulinum/1.webp",
+        "author": "Content Providers: CDC",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Clostridium_botulinum_01.png",
+        "title": "File:Clostridium botulinum 01.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Clostridium_botulinum_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 645,
+        "height": 610,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
@@ -962,7 +1157,20 @@
       "home": "Intestines of humans and animals"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/salmonella-enterica/1.webp",
+        "author": "U.S. Department of Agriculture",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salmonella_enteritidis_in_color.jpg",
+        "title": "File:Salmonella enteritidis in color.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Salmonella_enteritidis_in_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1364,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 9701185,
@@ -1022,7 +1230,20 @@
       "home": "Lining of the human stomach"
     },
     "illustration": "curved",
-    "images": [],
+    "images": [
+      {
+        "url": "images/helicobacter-pylori/1.webp",
+        "author": "User:KGH",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Immunohistochemical_detection_of_Helicobacter_pylori_histopathology.jpg",
+        "title": "File:Immunohistochemical detection of Helicobacter pylori histopathology.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Immunohistochemical_detection_of_Helicobacter_pylori_histopathology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 500,
+        "height": 376,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": null,
@@ -1082,7 +1303,20 @@
       "home": "Soil and water in the tropics"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/burkholderia-pseudomallei/1.webp",
+        "author": "Neha Shrestha, Mahesh Adhikari, Vivek Pant, Suman Baral, Anjan Shrestha, Buddha Basnyat, Sangita Sharma and Jeevan Bahadur Sherchand",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Burkholderia_pseudomallei_gram_stain_safety_pin_apperance.jpg",
+        "title": "File:Burkholderia pseudomallei gram stain safety pin apperance.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Burkholderia_pseudomallei_gram_stain_safety_pin_apperance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 894,
+        "height": 734,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3219968,
@@ -1142,7 +1376,20 @@
       "home": "Kidneys of rodents, water and damp soil"
     },
     "illustration": "spiral",
-    "images": [],
+    "images": [
+      {
+        "url": "images/leptospira-interrogans/1.webp",
+        "author": "Obtained from the CDC Public Health Image Library. Image credit: CDC/NCID/HIP/Janice Carr (PHIL #1220).",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Leptospira_interrogans_strain_RGA_01.png",
+        "title": "File:Leptospira interrogans strain RGA 01.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Leptospira_interrogans_strain_RGA_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1013,
+        "height": 671,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 8796208,
@@ -1203,7 +1450,20 @@
       "home": "Hot springs, for example in Yellowstone National Park"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/thermus-aquaticus/1.webp",
+        "author": "Eugene V. Koonin, Mart Krupovic, Sonoko Ishino, and Yoshizumi Ishino",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:12915_2020_800_Fig1_HTML_(1).webp",
+        "title": "File:12915 2020 800 Fig1 HTML (1).webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/12915_2020_800_Fig1_HTML_%281%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 962,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5426400,
@@ -1264,7 +1524,20 @@
       "home": "Soil and leaf surfaces"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/bacillus-thuringiensis/1.webp",
+        "author": "Dr. Sahay",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacillus_thuringiensis.jpg",
+        "title": "File:Bacillus thuringiensis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bacillus_thuringiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 886,
+        "kind": "micrograph"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5428045,
@@ -1324,7 +1597,20 @@
       "home": "Soil, water and wastewater treatment systems"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/nitrosomonas-europaea/1.webp",
+        "author": "Jawahar Swaminathan and MSD staff at the European Bioinformatics Institute",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PDB_1iqc_EBI.jpg",
+        "title": "File:PDB 1iqc EBI.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/PDB_1iqc_EBI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3220369,
@@ -1445,7 +1731,20 @@
       "home": "Fruit, flowers and fermented drinks"
     },
     "illustration": "rod",
-    "images": [],
+    "images": [
+      {
+        "url": "images/acetobacter-aceti/1.webp",
+        "author": "Ivet Morera",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:C0015116-Acetobacter_Aceti_Bacteria.jpg",
+        "title": "File:C0015116-Acetobacter Aceti Bacteria.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/C0015116-Acetobacter_Aceti_Bacteria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 599,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3221529,

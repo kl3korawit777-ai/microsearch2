@@ -57,7 +57,20 @@
       "home": "Wetlands and highland peat bogs"
     },
     "illustration": "moss",
-    "images": [],
+    "images": [
+      {
+        "url": "images/sphagnum-palustre/1.webp",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sphagnum_palustre_kz01.jpg",
+        "title": "File:Sphagnum palustre kz01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Sphagnum_palustre_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2669006,
@@ -121,7 +134,20 @@
       "home": "Damp soil and stream banks"
     },
     "illustration": "liver",
-    "images": [],
+    "images": [
+      {
+        "url": "images/marchantia-polymorpha/1.webp",
+        "author": "Holger Krisp",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Brunnenlebermoos_Marchantia_polymorpha_1.jpg",
+        "title": "File:Brunnenlebermoos Marchantia polymorpha 1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Brunnenlebermoos_Marchantia_polymorpha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2688570,
@@ -185,7 +211,20 @@
       "home": "Open areas with acidic soil, and hillsides"
     },
     "illustration": "club",
-    "images": [],
+    "images": [
+      {
+        "url": "images/lycopodiella-cernua/1.webp",
+        "author": "Vengolis",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lycopodiella_cernua_01748.jpg",
+        "title": "File:Lycopodiella cernua 01748.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lycopodiella_cernua_01748.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2688348,
@@ -249,7 +288,20 @@
       "home": "Trunks of large trees, rock crevices and old walls"
     },
     "illustration": "whisk",
-    "images": [],
+    "images": [
+      {
+        "url": "images/psilotum-nudum/1.webp",
+        "author": "Dguendel",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Leipzig,_botanischer_Garten,_Psilotum_nudum.jpg",
+        "title": "File:Leipzig, botanischer Garten, Psilotum nudum.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Leipzig%2C_botanischer_Garten%2C_Psilotum_nudum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2688176,
@@ -314,7 +366,20 @@
       "home": "Still water surfaces and rice fields"
     },
     "illustration": "azolla",
-    "images": [],
+    "images": [
+      {
+        "url": "images/azolla-pinnata/1.webp",
+        "author": "Yercaud-elango",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Azolla_pinnata-1-JNTBGRI-palode-kerala-India.jpg",
+        "title": "File:Azolla pinnata-1-JNTBGRI-palode-kerala-India.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Azolla_pinnata-1-JNTBGRI-palode-kerala-India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2650106,
@@ -378,7 +443,20 @@
       "home": "Dry dipterocarp forest and mixed deciduous forest"
     },
     "illustration": "cycad",
-    "images": [],
+    "images": [
+      {
+        "url": "images/cycas-siamensis/1.webp",
+        "author": "Miq.",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_L.1180292_-_Cycas_siamensis_Miq._-_Cycadaceae_-_Plant_type_specimen.jpeg",
+        "title": "File:Naturalis Biodiversity Center - L.1180292 - Cycas siamensis Miq. - Cycadaceae - Plant type specimen.jpeg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Naturalis_Biodiversity_Center_-_L.1180292_-_Cycas_siamensis_Miq._-_Cycadaceae_-_Plant_type_specimen.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1089,
+        "height": 1920,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2683286,
@@ -443,7 +521,20 @@
       "home": "Native to China, grown worldwide"
     },
     "illustration": "ginkgo",
-    "images": [],
+    "images": [
+      {
+        "url": "images/ginkgo-biloba/1.webp",
+        "author": "Marija Gajić",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_(2).JPG",
+        "title": "File:Ginkgo biloba (2).JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ginkgo_biloba_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2687885,
@@ -508,7 +599,20 @@
       "home": "Pine forests in northern Thailand"
     },
     "illustration": "pine",
-    "images": [],
+    "images": [
+      {
+        "url": "images/pinus-kesiya/1.webp",
+        "author": "Obsidian Soul",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pinus_kesiya_(Benguet_pine)_in_Bukidnon,_Philippines_01.jpg",
+        "title": "File:Pinus kesiya (Benguet pine) in Bukidnon, Philippines 01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pinus_kesiya_%28Benguet_pine%29_in_Bukidnon%2C_Philippines_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5285824,
@@ -572,7 +676,20 @@
       "home": "Tropical rain forest in southern Thailand"
     },
     "illustration": "gnetum",
-    "images": [],
+    "images": [
+      {
+        "url": "images/gnetum-gnemon/1.webp",
+        "author": "James Steakley",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gnetum_gnemon_(DITSL).JPG",
+        "title": "File:Gnetum gnemon (DITSL).JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Gnetum_gnemon_%28DITSL%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2653133,
@@ -637,7 +754,20 @@
       "home": "Flooded paddy fields and upland fields"
     },
     "illustration": "rice",
-    "images": [],
+    "images": [
+      {
+        "url": "images/oryza-sativa/1.webp",
+        "author": "William M. Brown Jr., Bugwood.org",
+        "license": "CC BY 3.0 US",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Entyloma_oryzae_on_Oryza_sativa_(01).jpg",
+        "title": "File:Entyloma oryzae on Oryza sativa (01).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Entyloma_oryzae_on_Oryza_sativa_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 811,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2703459,
@@ -701,7 +831,20 @@
       "home": "Swamps and fresh-water ponds"
     },
     "illustration": "lotus",
-    "images": [],
+    "images": [
+      {
+        "url": "images/nelumbo-nucifera/1.webp",
+        "author": "Peripitus",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg",
+        "title": "File:Nelumno nucifera open flower - botanic garden adelaide2.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 879,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2882449,
@@ -766,7 +909,20 @@
       "home": "Fruit orchards in southern and eastern Thailand"
     },
     "illustration": "durian",
-    "images": [],
+    "images": [
+      {
+        "url": "images/durio-zibethinus/1.webp",
+        "author": "Dinkun Chen",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Durio_zibethinus_(1).jpg",
+        "title": "File:Durio zibethinus (1).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Durio_zibethinus_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 801,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3152230,
@@ -831,7 +987,20 @@
       "home": "Rubber plantations in southern and eastern Thailand. Native to the Amazon basin"
     },
     "illustration": "rubber",
-    "images": [],
+    "images": [
+      {
+        "url": "images/hevea-brasiliensis/1.webp",
+        "author": "KENPEI",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hevea_brasiliensis1.jpg",
+        "title": "File:Hevea brasiliensis1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hevea_brasiliensis1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3071171,
@@ -959,7 +1128,20 @@
       "home": "Rock surfaces and tree bark in humid forest"
     },
     "illustration": "club",
-    "images": [],
+    "images": [
+      {
+        "url": "images/selaginella-involvens/1.webp",
+        "author": "Kembangraps",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Selaginella_involvens_Pj_IMG_20210606_070126.jpg",
+        "title": "File:Selaginella involvens Pj IMG 20210606 070126.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Selaginella_involvens_Pj_IMG_20210606_070126.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 4940372,
@@ -1023,7 +1205,20 @@
       "home": "Water edges and damp places"
     },
     "illustration": "horsetail",
-    "images": [],
+    "images": [
+      {
+        "url": "images/equisetum-debile/1.webp",
+        "author": "Kembangraps",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Equis_debile_Pj_DSC_1527.jpg",
+        "title": "File:Equis debile Pj DSC 1527.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Equis_debile_Pj_DSC_1527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 10769463,
@@ -1087,7 +1282,20 @@
       "home": "Stream banks and soggy places"
     },
     "illustration": "frond",
-    "images": [],
+    "images": [
+      {
+        "url": "images/diplazium-esculentum/1.webp",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Diplazium_esculentum_kz1.jpg",
+        "title": "File:Diplazium esculentum kz1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Diplazium_esculentum_kz1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 801,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2650858,
@@ -1152,7 +1360,20 @@
       "home": "Fields and farmland"
     },
     "illustration": "rice",
-    "images": [],
+    "images": [
+      {
+        "url": "images/zea-mays/1.webp",
+        "author": "Forest and Kim Starr",
+        "license": "CC BY 3.0 US",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Starr-110621-6261-Zea_mays-cv_Sugar_Dots_cob-Hawea_Pl_Olinda-Maui_(24466577474).jpg",
+        "title": "File:Starr-110621-6261-Zea mays-cv Sugar Dots cob-Hawea Pl Olinda-Maui (24466577474).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Starr-110621-6261-Zea_mays-cv_Sugar_Dots_cob-Hawea_Pl_Olinda-Maui_%2824466577474%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5290052,
@@ -1216,7 +1437,20 @@
       "home": "Open ground and roadsides"
     },
     "illustration": "mimosa",
-    "images": [],
+    "images": [
+      {
+        "url": "images/mimosa-pudica/1.webp",
+        "author": "Manuspanicker",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mimosa_Pudica_Linn-Flower2.jpg",
+        "title": "File:Mimosa Pudica Linn-Flower2.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Mimosa_Pudica_Linn-Flower2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 862,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2969284,
@@ -1280,7 +1514,20 @@
       "home": "Native to Europe and Asia"
     },
     "illustration": "rosette",
-    "images": [],
+    "images": [
+      {
+        "url": "images/arabidopsis-thaliana/1.webp",
+        "author": "Jucember",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arabidopsis_Thaliana_planted_in_Laboratory.JPG",
+        "title": "File:Arabidopsis Thaliana planted in Laboratory.JPG",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Arabidopsis_Thaliana_planted_in_Laboratory.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3052436,
@@ -1344,7 +1591,20 @@
       "home": "Tropical rain forest in southern Thailand, such as Khao Sok"
     },
     "illustration": "rafflesia",
-    "images": [],
+    "images": [
+      {
+        "url": "images/rafflesia-kerrii/1.webp",
+        "author": "Ahoerstemeier",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rafflesia_kerrii_Khao_Sok.jpg",
+        "title": "File:Rafflesia kerrii Khao Sok.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Rafflesia_kerrii_Khao_Sok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3941194,
@@ -1408,7 +1668,20 @@
       "home": "Namib Desert, southwestern Africa"
     },
     "illustration": "welw",
-    "images": [],
+    "images": [
+      {
+        "url": "images/welwitschia-mirabilis/1.webp",
+        "author": "Schnobby",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Namib,_Welwitschia_mirabilis.jpg",
+        "title": "File:Namib, Welwitschia mirabilis.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Namib%2C_Welwitschia_mirabilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 801,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5275521,
@@ -1473,7 +1746,20 @@
       "home": "Cultivated plots"
     },
     "illustration": "onion",
-    "images": [],
+    "images": [
+      {
+        "url": "images/allium-cepa/1.webp",
+        "author": "Michel Chauvet",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Allium_cepa_champ_de_semences_Tusson.jpg",
+        "title": "File:Allium cepa champ de semences Tusson.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Allium_cepa_champ_de_semences_Tusson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2857697,
@@ -1538,7 +1824,20 @@
       "home": "Cultivated plots in cool climates"
     },
     "illustration": "pea",
-    "images": [],
+    "images": [
+      {
+        "url": "images/pisum-sativum/1.webp",
+        "author": "Roger Culos",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pisum_sativum_MHNT.BOT.2010.12.9.jpg",
+        "title": "File:Pisum sativum MHNT.BOT.2010.12.9.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Pisum_sativum_MHNT.BOT.2010.12.9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 785,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5347845,
@@ -1602,7 +1901,20 @@
       "home": "Still fresh water"
     },
     "illustration": "hydrilla",
-    "images": [],
+    "images": [
+      {
+        "url": "images/hydrilla-verticillata/1.webp",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hydrilla_verticillata_kz01_02.jpg",
+        "title": "File:Hydrilla verticillata kz01 02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hydrilla_verticillata_kz01_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5329570,
@@ -1667,7 +1979,20 @@
       "home": "Plantations in the tropics"
     },
     "illustration": "pineapple",
-    "images": [],
+    "images": [
+      {
+        "url": "images/ananas-comosus/1.webp",
+        "author": "FASTILY",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ananas_comosus_1_2018-12-09.jpg",
+        "title": "File:Ananas comosus 1 2018-12-09.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Ananas_comosus_1_2018-12-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5288819,
@@ -1732,7 +2057,20 @@
       "home": "Plantations in the tropics"
     },
     "illustration": "cane",
-    "images": [],
+    "images": [
+      {
+        "url": "images/saccharum-officinarum/1.webp",
+        "author": "Forest and Kim Starr",
+        "license": "CC BY 3.0 US",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Starr-110307-2674-Saccharum_officinarum-habit-Kula_Botanical_Garden-Maui_(24782912550).jpg",
+        "title": "File:Starr-110307-2674-Saccharum officinarum-habit-Kula Botanical Garden-Maui (24782912550).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Starr-110307-2674-Saccharum_officinarum-habit-Kula_Botanical_Garden-Maui_%2824782912550%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 1280,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 2703912,
@@ -1796,7 +2134,20 @@
       "home": "Still water surfaces"
     },
     "illustration": "azolla",
-    "images": [],
+    "images": [
+      {
+        "url": "images/wolffia-globosa/1.webp",
+        "author": "Nesnad",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Wolffia_globosa_Sep_16_2021_04PM.jpeg",
+        "title": "File:Wolffia globosa Sep 16 2021 04PM.jpeg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Wolffia_globosa_Sep_16_2021_04PM.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 5330098,
@@ -1860,7 +2211,20 @@
       "home": "Sandy soil and soggy places"
     },
     "illustration": "pitcher",
-    "images": [],
+    "images": [
+      {
+        "url": "images/nepenthes-mirabilis/1.webp",
+        "author": "Gweltaz",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jara%C3%AF_Girl_with_Nepenthes_mirabilis_(6730595369).jpg",
+        "title": "File:Jaraï Girl with Nepenthes mirabilis (6730595369).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Jara%C3%AF_Girl_with_Nepenthes_mirabilis_%286730595369%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3190712,
@@ -1924,7 +2288,20 @@
       "home": "Mangrove forest"
     },
     "illustration": "mangrove",
-    "images": [],
+    "images": [
+      {
+        "url": "images/rhizophora-apiculata/1.webp",
+        "author": "Alphama",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rhizophora_apiculata_in_Dat_Mui,_Vietnam.jpg",
+        "title": "File:Rhizophora apiculata in Dat Mui, Vietnam.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rhizophora_apiculata_in_Dat_Mui%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 1280,
+        "kind": "photo"
+      }
+    ],
     "review": "ai_draft",
     "taxon_ids": {
       "gbif": 3086526,
