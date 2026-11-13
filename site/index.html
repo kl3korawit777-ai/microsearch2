@@ -6,12 +6,46 @@
 <title>Microsearch 2.0</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400;1,6..72,500&display=swap">
+<!-- fonts load without blocking the first paint (text shows in a fallback font, then swaps) -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400;1,6..72,500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400;1,6..72,500&display=swap"></noscript>
+<meta name="description" content="Microsearch 2.0: bacteria, archaea, fungi, protists, plants and animals for students. สิ่งมีชีวิต 6 กลุ่มสำหรับนักเรียนและนักศึกษา">
+<meta name="theme-color" content="#F3F6F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151A26" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.json">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="stylesheet" href="css/style.css">
+<!-- fetch the module graph and the first data files in parallel instead of one import after another -->
+<link rel="modulepreload" href="js/main.js">
+<link rel="modulepreload" href="js/art.js">
+<link rel="modulepreload" href="js/chrome.js">
+<link rel="modulepreload" href="js/data.js">
+<link rel="modulepreload" href="js/diagram.js">
+<link rel="modulepreload" href="js/filters.js">
+<link rel="modulepreload" href="js/i18n.js">
+<link rel="modulepreload" href="js/pwa.js">
+<link rel="modulepreload" href="js/query.js">
+<link rel="modulepreload" href="js/router.js">
+<link rel="modulepreload" href="js/search.js">
+<link rel="modulepreload" href="js/state.js">
+<link rel="modulepreload" href="js/ui.js">
+<link rel="modulepreload" href="js/util.js">
+<link rel="modulepreload" href="js/views/group.js">
+<link rel="modulepreload" href="js/views/home.js">
+<link rel="modulepreload" href="js/views/notfound.js">
+<link rel="modulepreload" href="js/views/sources.js">
+<link rel="modulepreload" href="js/views/species.js">
+<link rel="preload" as="fetch" href="i18n/th.json" crossorigin>
+<link rel="preload" as="fetch" href="data/meta.json" crossorigin>
+<link rel="preload" as="fetch" href="data/index.json" crossorigin>
+<link rel="preload" as="fetch" href="data/illustrations.json" crossorigin>
 </head>
 <body>
 <div class="app" id="app">
+
+<a class="skip" href="#main" data-i18n="skip"></a>
 
 <header class="topbar">
   <button type="button" class="icon-btn" id="menuBtn" aria-controls="side" aria-expanded="false" data-i18n-aria="openMenu">
@@ -30,7 +64,7 @@
 
 <nav class="side" id="side" data-i18n-aria="mainMenu">
   <div class="side-head">
-    <a class="brand" href="#home" aria-label="Microsearch 2.0">
+    <a class="brand" href="#home">
       <svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="11" cy="12" r="3" fill="var(--bac-dot)"/><circle cx="20.5" cy="11" r="2.4" fill="var(--arc-dot)"/><circle cx="12.5" cy="21" r="2.6" fill="var(--fun-dot)"/><circle cx="21" cy="20" r="3.2" fill="var(--pro-dot)"/><circle cx="16" cy="6.5" r="1.9" fill="var(--pla-dot)"/><circle cx="16" cy="26" r="1.9" fill="var(--ani-dot)"/></svg>
       <span class="brand-name lbl"><b>Microsearch 2.0</b><span data-i18n="tagline"></span></span>
     </a>

@@ -3,6 +3,7 @@ import { S } from './state.js';
 import { T, loc, thFallback } from './i18n.js';
 import { esc } from './util.js';
 import { getMeta, reading } from './data.js';
+import { art } from './art.js';
 
 export const chev = '<svg class="chev" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 8 4 4 4-4"/></svg>';
 export const arrowR = '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg>';
@@ -74,6 +75,11 @@ export function rowSummary(s) {
     case 'animals': return [t('sym'), t('coel')];
     default: return [t('diet'), t('move')];
   }
+}
+
+// Small picture of a species: the photo when we have one, otherwise the temporary drawing.
+export function thumb(s) {
+  return s.img ? `<img src="${esc(s.img)}" alt="" loading="lazy" decoding="async" data-art="${esc(s.art)}">` : art(s.art);
 }
 
 export const footer = () => `<footer class="foot" id="foot"><p>${T('taxSource')}</p></footer>`;

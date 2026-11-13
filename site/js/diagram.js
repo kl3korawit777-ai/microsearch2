@@ -3,8 +3,7 @@
 import { T, loc } from './i18n.js';
 import { esc } from './util.js';
 import { G, inGroup, groupTaxa } from './data.js';
-import { art } from './art.js';
-import { lvBadge, rd, spRd, spCommon, isEn } from './ui.js';
+import { lvBadge, rd, spRd, spCommon, isEn, thumb } from './ui.js';
 
 const COL_W = 198;
 const PILL_W = 174;
@@ -93,8 +92,8 @@ export function diagram(gid, selKey) {
     const rk = en ? ranks[nd.level].en : ranks[nd.level].th;
     const rdN = nd.label === '?' ? '' : rd(nd.label, gid);
     h += `<button type="button" class="${cls}" data-act="dgsel" data-v="${esc(nd.key)}" data-k="${nd.id}" data-trail="${nd.trail.join(' ')}" data-level="${nd.level}" data-parent="${nd.parent ? nd.parent.id : ''}" aria-pressed="${nd === sel}" ` +
-      `aria-label="${esc(`${rk} ${nd.label === '?' ? T('unplaced') : nd.label}${rdN ? ` (${rdN})` : ''}, ${T('nSpecies', { n: nd.items.length })}`)}" style="left:${nd.x}px;top:${nd.y}px"${tip ? ` title="${esc(tip)}"` : ''}>` +
-      `<span class="dg-l">${text}</span>${rdN ? `<span class="dg-r">${esc(rdN)}</span>` : ''}</button>`;
+      `aria-label="${esc(`${nd.label === '?' ? T('unplaced') : nd.label}${rdN ? ` ${rdN}` : ''}, ${rk}, ${T('nSpecies', { n: nd.items.length })}`)}" style="left:${nd.x}px;top:${nd.y}px"${tip ? ` title="${esc(tip)}"` : ''}>` +
+      `<span class="dg-l">${text}</span>${rdN ? ` <span class="dg-r">${esc(rdN)}</span>` : ''}</button>`;
   }
   h += '</div></div>';
 
@@ -134,7 +133,7 @@ export function diagram(gid, selKey) {
 
   h += `<h4 class="dg-list-h">${T('dgSpeciesIn', { n: sel.items.length })}</h4><ul class="dg-list">` + sel.items.map((it) => {
     const below = it.path.slice(sel.level + 1, -1).map((x) => (x === '?' ? T('unplaced') : esc(x)));
-    return `<li><a href="#${it.s.id}"><span class="thumb">${art(it.s.art)}</span><span class="rowtxt"><span class="sci">${esc(it.s.sci)} ${lvBadge(it.s)}</span>` +
+    return `<li><a href="#${it.s.id}"><span class="thumb">${thumb(it.s)}</span><span class="rowtxt"><span class="sci">${esc(it.s.sci)} ${lvBadge(it.s)}</span>` +
       (en ? '' : `<span class="th">${esc(spRd(it.s))}${spCommon(it.s) ? ` (${esc(spCommon(it.s))})` : ''}</span>`) +
       (below.length ? `<span class="dg-below">${below.join(' › ')}</span>` : '') + '</span></a></li>';
   }).join('') + '</ul>';

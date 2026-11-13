@@ -95,7 +95,7 @@ const scan = (page) => page.evaluate(() => {
 const count = (page, sel) => page.$$eval(sel, (els) => els.length);
 
 // ---------------------------------------------------------------- per-page checks
-async function checkAllPages(lang, index, meta) {
+async function checkAllPages(lang, index, meta, credits) {
   const page = await newPage(lang);
   const fb = { pages: 0, nodes: 0 };
   const errs = baseErrors.get(page);
@@ -122,7 +122,15 @@ async function checkAllPages(lang, index, meta) {
       ok((await count(page, '.ladder .step')) === g.ranks.length, `${tag}: ladder steps != ${g.ranks.length}`);
       ok((await count(page, '.badge.draft')) === 1, `${tag}: draft badge missing (review=ai_draft)`);
       ok((await count(page, '.sp-title .lv')) === 1, `${tag}: level badge missing`);
-      ok((await count(page, '.art-box svg path, .art-box svg circle, .art-box svg rect, .art-box svg ellipse, .art-box svg g')) > 0, `${tag}: no drawing`);
+      if (s.img) {
+        await page.waitForFunction(() => { const i = document.querySelector('.art-box.photo img'); return !i || (i.complete && i.naturalWidth > 0); }, { timeout: 8000 }).catch(() => {});
+        const pic = await page.$eval('.art-box.photo img', (i) => ({ ok: i.complete && i.naturalWidth > 0, src: i.getAttribute('src') })).catch(() => null);
+        ok(pic && pic.ok && pic.src === s.img, `${tag}: photo missing or not loaded`);
+        const cap = await page.$eval('figure.art figcaption', (e) => e.textContent).catch(() => '');
+        ok(/\S/.test(cap) && (await count(page, 'figure.art figcaption a')) >= 1, `${tag}: photo credit missing`);
+      } else {
+        ok((await count(page, '.art-box svg path, .art-box svg circle, .art-box svg rect, .art-box svg ellipse, .art-box svg g')) > 0, `${tag}: no drawing`);
+      }
       ok((await count(page, '#tabpanel dl.facts > div')) > 0, `${tag}: empty traits`);
     } else if (kind === 'group') {
       const g = meta.groups.find((x) => x.id === hash);
@@ -135,6 +143,7 @@ async function checkAllPages(lang, index, meta) {
       ok((await count(page, '.tablebox tbody tr')) === 6, `${tag}: compare table rows`);
     } else if (hash === 'sources') {
       ok((await count(page, '.prose h2')) === 4, `${tag}: sources sections`);
+      ok((await count(page, 'table.credits tbody tr')) === credits.length, `${tag}: credits table rows`);
     }
   }
   await page.close();
@@ -259,11 +268,12 @@ async function main() {
   browser = await puppeteer.launch({ executablePath: findChrome(), headless: true, args: ['--no-sandbox', '--disable-gpu'] });
   const index = readJson('data/index.json');
   const meta = readJson('data/meta.json');
+  const credits = readJson('data/credits.json');
   let fbEn;
   try {
     const t0 = Date.now();
-    await checkAllPages('th', index, meta);
-    fbEn = await checkAllPages('en', index, meta);
+    await checkAllPages('th', index, meta, credits);
+    fbEn = await checkAllPages('en', index, meta, credits);
     await interactions(index, meta);
     console.log(`pages: ${2 * (2 + meta.groups.length + index.length)} loads in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
   } finally {

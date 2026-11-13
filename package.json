@@ -5,13 +5,19 @@
   "type": "module",
   "description": "Microsearch 2.0: ทดสอบหน้าเว็บ (e2e ด้วย puppeteer) ตัวเว็บเองเป็น static site ไม่ใช้ framework",
   "scripts": {
-    "test": "npm run test:pages && npm run test:diagram && npm run test:search",
+    "test": "npm run test:pages && npm run test:diagram && npm run test:search && npm run test:offline",
     "test:pages": "node tests/e2e/pages.mjs",
     "test:diagram": "node tests/e2e/diagram.mjs",
     "test:search": "node tests/e2e/search.mjs",
-    "screens": "node tests/e2e/screens.mjs"
+    "screens": "node tests/e2e/screens.mjs",
+    "test:offline": "node tests/e2e/offline.mjs",
+    "icons": "node scripts/make-icons.mjs",
+    "test:lighthouse": "node tests/e2e/lighthouse.mjs",
+    "test:a11y": "node tests/e2e/a11y.mjs"
   },
   "devDependencies": {
+    "axe-core": "4.14.0",
+    "lighthouse": "13.6.0",
     "puppeteer-core": "25.13.0"
   }
 }

@@ -26,6 +26,12 @@ export async function loadGroup(id) {
   return groupCache.get(id);
 }
 
+let credits = null;
+export async function loadCredits() {
+  if (!credits) credits = await getJson('credits');
+  return credits;
+}
+
 export const getMeta = () => meta;
 export const groups = () => meta.groups;
 export const G = (id) => meta.groups.find((g) => g.id === id) || null;

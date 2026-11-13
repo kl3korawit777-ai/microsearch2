@@ -39,7 +39,9 @@ export function applyChrome() {
 export function openMenu() {
   app.classList.add('menu-open');
   menuBtn.setAttribute('aria-expanded', 'true');
-  setTimeout(() => document.getElementById('closeBtn').focus(), 30);
+  // the drawer slides in (visibility changes during the transition), so retry once if the first focus does not take
+  const closeBtn = document.getElementById('closeBtn');
+  setTimeout(() => { closeBtn.focus(); if (document.activeElement !== closeBtn) setTimeout(() => closeBtn.focus(), 260); }, 30);
 }
 
 export function closeMenu() {
@@ -53,6 +55,8 @@ function goSearch() {
 }
 
 export function wireChrome() {
+  // The router owns the hash, so the skip link moves focus itself instead of navigating to #main.
+  document.querySelector('.skip').addEventListener('click', (e) => { e.preventDefault(); document.getElementById('main').focus(); });
   document.getElementById('collapseBtn').addEventListener('click', () => {
     S.collapsed = !S.collapsed;
     store.set('collapsed', S.collapsed ? '1' : '0');

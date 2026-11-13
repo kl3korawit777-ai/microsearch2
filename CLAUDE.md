@@ -29,6 +29,8 @@ scripts/microsearch.py    เครื่องมือหลักตัวเ
 site/                     หน้าเว็บที่ deploy
   index.html, css/style.css, js/*.js (ES modules ไม่ใช้ framework: router, diagram, search, filters, query), js/views/
   i18n/th.json, en.json   ข้อความ UI ทั้งหมด (ห้ามฝังข้อความไทยใน JS)
+  sw.js, manifest.json, icons/   PWA ใช้ออฟไลน์ (precache.json และ version.js สร้างจาก build)
+  images/<id>/1.webp      รูปจาก Wikimedia Commons (เครดิตอยู่ใน data/organisms/*.json)
   data/*.json             สร้างจาก build ห้ามแก้เอง ไม่อยู่ใน repo
 tests/                    pytest (validate, fetch, build)
 tests/e2e/                puppeteer: pages.mjs (npm test), screens.mjs (npm run screens)
@@ -46,14 +48,18 @@ python scripts/microsearch.py fetch [--only id,..] [--refresh]   # GBIF + NCBI (
 python scripts/microsearch.py taxonomy-diff           # reports/taxonomy-diff.md
 python scripts/microsearch.py build                   # validate แล้วสร้าง site/data/*.json
 python -m pytest tests                                # ทดสอบสคริปต์
-npm test                                              # e2e ทั้งหมด = test:pages + test:diagram + test:search (build ให้เอง)
+npm test                                              # e2e ทั้งหมด = test:pages + test:diagram + test:search + test:offline (build ให้เอง)
 npm run test:pages                                    # ทุกหน้า x ไทย/อังกฤษ ไม่มี console error ไม่มีไทยหลุดในโหมดอังกฤษ
 npm run test:diagram                                  # คลิกทุกชื่อในแผนผังทั้ง 6 กลุ่ม x 2 ภาษา
 npm run test:search                                   # ชุดคำค้นตายตัว วัดเวลา (<100 ms) ตัวกรองใน URL
 npm run screens                                       # screenshot เทียบต้นแบบ 1440px/390px
-python scripts/microsearch.py images                  # ตรวจรูป เครดิต license (เฟส 6 ยังไม่มี)
+python scripts/microsearch.py images [--only id,..] [--redo]   # หารูปจาก Wikimedia Commons (ต้องมี Pillow) -> site/images + data/organisms
+python scripts/microsearch.py images --check         # ทุกรูปมีเครดิตครบ license เปิด ไฟล์ WebP <=500 KB และชนิดที่ไม่มีรูปอยู่ใน reports/images-missing.md
 python scripts/microsearch.py coverage                # ช่องอังกฤษที่ยังว่างต่อกลุ่ม -> reports/coverage.md
-npm run test:offline                                  # ทดสอบ PWA ออฟไลน์ (เฟส 7 ยังไม่มี)
+npm run test:offline                                  # service worker: ตัดเน็ตแล้วเปิดทุกกลุ่ม/ชนิดได้ + อัปเดตเวอร์ชัน
+npm run test:a11y                                     # axe-core ทุกหน้า x สว่าง/มืด x ไทย/อังกฤษ + คีย์บอร์ด/focus/reduced-motion
+npm run test:lighthouse                               # Lighthouse มือถือ ทุกหมวด >=90 (LH_URL=... เพื่อวัดเว็บจริง)
+npm run icons                                         # สร้างไอคอน PNG จาก site/icons/*.svg (เมื่อแก้ SVG)
 ```
 
 Python 3 stdlib เท่านั้น (pytest ใช้เฉพาะตอนทดสอบ) Node ใช้เฉพาะงานทดสอบ ระบุเวอร์ชันแน่นอนใน package.json

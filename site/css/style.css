@@ -131,7 +131,7 @@ h1,h2,h3{text-wrap:balance}
 .pick .sci{font-size:17px}
 .pv{flex:2 1 340px;min-width:0;background:var(--g-tint);padding:28px 30px;display:flex;flex-direction:column;gap:12px}
 .pv-path{margin:0;font-size:14px;color:var(--muted)}
-.pv h3{margin:0;font-size:clamp(30px,3vw,42px);line-height:1.08;letter-spacing:-.01em}
+.pv h2,.pv h3{margin:0;font-size:clamp(30px,3vw,42px);line-height:1.08;letter-spacing:-.01em}
 .pv .th{margin:0;font-size:17px;font-weight:500}
 .pv .note{margin:0;font-size:16px;line-height:1.75;max-width:46ch}
 .pv-art{height:120px;display:flex;align-items:center}
@@ -365,3 +365,19 @@ dl.facts dd{flex:1 1 260px;margin:0;font-size:16px;line-height:1.7}
   .pv{padding:22px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none !important;animation:none !important}}
+
+/* ---------- photos (Wikimedia Commons) ---------- */
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.pv-art img{height:100%;width:auto;max-width:100%;object-fit:contain;border-radius:12px;display:block}
+.art-box.photo{display:block}
+.art-box.photo img{width:100%;height:100%;object-fit:cover;display:block}
+figcaption a{color:var(--muted)}
+table.credits{min-width:640px}
+table.credits th[scope="row"]{width:auto;color:var(--ink)}
+
+/* ---------- skip link (keyboard users) ---------- */
+.skip{position:absolute;left:12px;top:-60px;z-index:100;padding:12px 18px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:600;text-decoration:none;transition:top .12s ease}
+.skip:focus{top:12px}
+
+/* contrast: the selected node uses the group's ink colour (dark in light theme, light in dark theme) with the surface colour as text */
+.dg-node.sel,.dg-node.root.sel{background:var(--g-ink);border-color:var(--g-ink);color:var(--surface);box-shadow:0 0 0 3px var(--g-tint)}

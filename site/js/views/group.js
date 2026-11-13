@@ -3,8 +3,7 @@ import { readFilters, matchesFilter, anyFilter } from '../filters.js';
 import { T, loc } from '../i18n.js';
 import { esc } from '../util.js';
 import { G, inGroup, getMeta } from '../data.js';
-import { art } from '../art.js';
-import { gName, rankName, tagName, lvBadge, spRd, spCommon, isEn, chev, searchIcon, footer, traitValue, rowSummary } from '../ui.js';
+import { gName, rankName, tagName, lvBadge, spRd, spCommon, isEn, chev, searchIcon, footer, traitValue, rowSummary, thumb } from '../ui.js';
 
 export function viewGroup(gid, params) {
   const g = G(gid);
@@ -45,7 +44,7 @@ export function viewGroup(gid, params) {
       const isOpen = open === s.id;
       const th = isEn() ? esc(s.en || '') : `${esc(spRd(s))}${spCommon(s) ? ` (${esc(spCommon(s))})` : ''}`;
       return `<li><button type="button" class="rowbtn" data-act="row" data-v="${s.id}" aria-expanded="${isOpen}" aria-controls="m-${s.id}">` +
-        `<span class="thumb">${art(s.art)}</span><span class="rowtxt"><span class="sci">${esc(s.sci)}</span>${th ? `<span class="th">${th}</span>` : ''}</span>` +
+        `<span class="thumb">${thumb(s)}</span><span class="rowtxt"><span class="sci">${esc(s.sci)}</span>${th ? `<span class="th">${th}</span>` : ''}</span>` +
         `<span class="meta">${lvBadge(s)}<span class="mini">${esc(g.phyla[s.p].name)}</span>${rowSummary(s).filter(Boolean).map((x) => `<span class="mini">${x}</span>`).join('')}</span>${chev}</button>` +
         (isOpen ? `<div class="rowmore" id="m-${s.id}"><p>${loc(s.sm[0], s.sm[1])}</p><div class="facts-inline">` +
           g.traits.slice(0, 3).map((tk) => `<span>${esc(isEn() ? tk.en : tk.th)}: ${traitValue(s, tk.key)}</span>`).join('') + '</div>' +

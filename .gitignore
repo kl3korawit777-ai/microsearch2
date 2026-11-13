@@ -9,3 +9,5 @@ __pycache__/
 # สร้างโดย build (GitHub Actions สร้างให้ตอน deploy) ไม่ commit
 site/data/
 reports/screens/
+site/precache.json
+site/version.js

@@ -3,8 +3,7 @@ import { T, TA, loc } from '../i18n.js';
 import { diagram } from '../diagram.js';
 import { esc } from '../util.js';
 import { groups, G, inGroup, inPhylum } from '../data.js';
-import { art } from '../art.js';
-import { gName, rankName, tagName, lvBadge, rd, spRd, spCommon, isEn, footer, searchBox } from '../ui.js';
+import { gName, rankName, tagName, lvBadge, rd, spRd, spCommon, isEn, footer, searchBox, thumb } from '../ui.js';
 
 // params: URL query of #home (dg = group shown in the rank diagram, sel = selected name path)
 export function viewHome(params) {
@@ -46,7 +45,7 @@ export function viewHome(params) {
   const ph = grp.phyla[sp.p];
   const common = isEn() ? '' : `<p class="th">${esc(spRd(sp))}</p>${spCommon(sp) ? `<p class="pv-common">${T('commonName')} ${esc(spCommon(sp))}</p>` : ''}`;
   h += `<div class="pv" data-g="${grp.id}" aria-live="polite"><p class="pv-path">${esc(gName(grp))} › ${esc(ph.name)}${rd(ph.name) ? ` (${esc(rd(ph.name))})` : ''}</p>` +
-    `<div class="pv-art">${art(sp.art)}</div><h3 class="sci">${esc(sp.sci)}</h3>${common}` +
+    `<div class="pv-art">${thumb(sp)}</div><h2 class="sci">${esc(sp.sci)}</h2>${common}` +
     `<p class="note">${loc(sp.sm[0], sp.sm[1])}</p><div class="tags">${lvBadge(sp)}${sp.tags.map((t) => `<span class="tag">${esc(tagName(t))}</span>`).join('')}</div>` +
     `<a class="btn" href="#${sp.id}">${T('openPage')}</a></div>`;
   h += '</section>';
@@ -66,7 +65,7 @@ export function viewHome(params) {
   }
   h += '</div></section>';
 
-  h += `<section class="section"><h2 class="h2">${T('compareTitle')}</h2><div class="tablebox"><table><thead><tr><th scope="col" style="color:var(--muted);font-weight:500">${T('traits')}</th>` +
+  h += `<section class="section"><h2 class="h2">${T('compareTitle')}</h2><div class="tablebox" tabindex="0" role="region" aria-label="${esc(T('compareTitle'))}"><table><thead><tr><th scope="col" style="color:var(--muted);font-weight:500">${T('traits')}</th>` +
     groups().map((g) => `<th scope="col" data-g="${g.id}"><span class="thg"><span class="dot" style="width:10px;height:10px"></span>${esc(gName(g))}</span></th>`).join('') + '</tr></thead><tbody>' +
     TA('compareRows').map((r) => `<tr><th scope="row">${esc(r[0])}</th>${r.slice(1).map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('') + '</tbody></table></div></section>';
   return h + footer();

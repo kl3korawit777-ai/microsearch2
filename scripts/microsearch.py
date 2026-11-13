@@ -8,12 +8,14 @@
   python scripts/microsearch.py taxonomy-diff
   python scripts/microsearch.py build
   python scripts/microsearch.py coverage
+  python scripts/microsearch.py images [--only id,..] [--check]
 
 ใช้ไลบรารีมาตรฐานของ Python เท่านั้น (JSON Schema ตรวจด้วยตัวตรวจเล็กๆ ในไฟล์นี้
 รองรับเฉพาะคำสำคัญที่ schema/*.json ใช้)
 """
 
 import argparse
+import collections
 import filecmp
 import glob
 import hashlib
@@ -42,7 +44,7 @@ CACHE = os.path.join(ROOT, "cache")  # คำตอบดิบจาก API (�
 
 GBIF_API = "https://api.gbif.org/v1"
 NCBI_API = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
-USER_AGENT = "microsearch2-taxonomy-check/1.0"  # ไม่ใส่ข้อมูลส่วนตัวของผู้ใช้
+USER_AGENT = "taxonomy-data-tool/1.0"  # ชื่อกลาง ไม่ใส่ชื่อโปรเจกต์หรือข้อมูลส่วนตัวของผู้ใช้
 NCBI_MIN_INTERVAL = 0.34  # NCBI ไม่มี API key: ไม่เกิน 3 คำขอ/วินาที
 GBIF_MIN_INTERVAL = 0.1
 
@@ -300,6 +302,11 @@ def _check_organism(rep, o, rel, label, stem, group_info, trait_values, tag_keys
             if isinstance(t, str) and t not in tag_keys:
                 rep.error("TAG_UNKNOWN", rel, label, "tag %r ไม่มีใน groups.json > tags" % t)
 
+    # รูป: license ต้องเป็นหนึ่งใน CC0, CC BY, CC BY-SA, Public domain ที่ระบุชัดเจน
+    for i, img in enumerate(o.get("images") or []):
+        if isinstance(img, dict) and isinstance(img.get("license"), str) and not ALLOWED_LICENSE_RE.match(img["license"]):
+            rep.error("IMAGE_LICENSE", rel, label, "รูปที่ %d: license %r ไม่อยู่ในที่อนุญาต (CC0, CC BY, CC BY-SA, Public domain)" % (i + 1, img["license"]))
+
     # warning: ช่องอังกฤษที่ยังว่าง
     # name_en เป็นชื่อสามัญภาษาอังกฤษ ชนิดที่ไม่มีชื่อสามัญจริงปล่อยว่างได้ จึงไม่เตือน (coverage นับให้แยกต่างหาก)
     if isinstance(o.get("summary_en"), str) and not o["summary_en"].strip():
@@ -406,14 +413,21 @@ def http_get(url, timeout=30):
         return resp.read().decode("utf-8")
 
 
+def http_get_bytes(url, timeout=60):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read()
+
+
 class Fetcher:
     """ดึง URL พร้อม cache คำตอบดิบ (ไฟล์ละคำขอ) และหน่วงเวลาต่อแหล่ง ไม่ให้เกินอัตราที่กำหนด
     คำตอบที่ผิดพลาดไม่ถูก cache (รันซ้ำจะลองใหม่)"""
 
-    def __init__(self, cache_dir=CACHE, refresh=False, getter=None, intervals=None, retries=3):
+    def __init__(self, cache_dir=CACHE, refresh=False, getter=None, intervals=None, retries=3, bytes_getter=None):
         self.cache_dir = cache_dir
         self.refresh = refresh
         self.getter = getter or http_get
+        self.bytes_getter = bytes_getter
         self.intervals = intervals if intervals is not None else {"ncbi": NCBI_MIN_INTERVAL, "gbif": GBIF_MIN_INTERVAL}
         self.retries = retries
         self.stats = {"api": 0, "cache": 0}
@@ -438,7 +452,22 @@ class Fetcher:
         os.replace(tmp, path)
         return body
 
-    def _request(self, source, url):
+    def get_bytes(self, source, label, url):
+        """ดาวน์โหลดไฟล์ไบนารี (รูป) พร้อม cache แบบเดียวกับ get()"""
+        path = self.cache_path(source, label, url, "bin")
+        if not self.refresh and os.path.exists(path):
+            with open(path, "rb") as f:
+                self.stats["cache"] += 1
+                return f.read()
+        body = self._request(source, url, binary=True)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        tmp = path + ".tmp"
+        with open(tmp, "wb") as f:
+            f.write(body)
+        os.replace(tmp, path)
+        return body
+
+    def _request(self, source, url, binary=False):
         last_err = None
         for attempt in range(1, self.retries + 1):
             wait = self.intervals.get(source, 0) - (time.monotonic() - self._last.get(source, -1e9))
@@ -447,11 +476,18 @@ class Fetcher:
             self._last[source] = time.monotonic()
             self.stats["api"] += 1
             try:
-                return self.getter(url)
+                return (self.bytes_getter or http_get_bytes)(url) if binary else self.getter(url)
             except urllib.error.HTTPError as e:
                 last_err = "HTTP %s" % e.code
                 if e.code not in (429, 500, 502, 503, 504):
                     break
+                if e.code == 429:  # เซิร์ฟเวอร์ขอให้ช้าลง: รอตามที่บอก (สูงสุด 90 วินาที)
+                    try:
+                        delay = int((e.headers or {}).get("Retry-After", 20))
+                    except (TypeError, ValueError):
+                        delay = 20
+                    time.sleep(min(max(delay, 5), 90) if self.intervals else 0)
+                    continue
             except (urllib.error.URLError, TimeoutError, OSError) as e:
                 last_err = str(e)
             time.sleep(min(2 * attempt, 6) if self.intervals else 0)
@@ -991,7 +1027,7 @@ def build_site_data(data_dir, illustrations_path):
     }
 
     synonyms = load_synonyms(data_dir)
-    index, per_group = [], {gid: [] for gid in gmap}
+    index, per_group, credits = [], {gid: [] for gid in gmap}, []
     for o in orgs:
         g = gmap[o["group"]]
         names = [x["name"] for x in o["lineage"]]
@@ -1015,10 +1051,16 @@ def build_site_data(data_dir, illustrations_path):
         })
         if synonyms.get(o["id"]):
             index[-1]["sy"] = synonyms[o["id"]]
+        if o.get("images"):
+            index[-1]["img"] = o["images"][0]["url"]
+            for im in o["images"]:
+                credits.append({"id": o["id"], "sci": o["scientific_name"], "file": im["url"], "author": im["author"], "license": im["license"],
+                                "license_url": im.get("license_url", ""), "source_url": im["source_url"], "title": im.get("title", "")})
         detail = {k: v for k, v in o.items() if k not in ("taxon_ids", "id", "group", "scientific_name")}
         detail["id"] = o["id"]
         per_group[o["group"]].append(detail)
     files["index.json"] = index
+    files["credits.json"] = credits
     for gid, items in per_group.items():
         used = {x["name"] for o in items for x in o["lineage"]} - {UNKNOWN}
         files["%s.json" % gid] = {
@@ -1028,6 +1070,32 @@ def build_site_data(data_dir, illustrations_path):
         }
     files["illustrations.json"] = load_json(illustrations_path)
     return files
+
+
+PRECACHE_SKIP = ("images/", "precache.json", "version.js")
+
+
+def write_precache(site_dir):
+    """รายการไฟล์ที่ service worker เก็บไว้ใช้ออฟไลน์ (ทุกไฟล์ในเว็บ ยกเว้นรูป: รูปเก็บเมื่อเปิดดู) และเวอร์ชัน = แฮชของเนื้อหา
+    เวอร์ชันเขียนลง version.js ซึ่ง sw.js นำเข้า (importScripts) เมื่อออกเวอร์ชันใหม่ไฟล์นี้เปลี่ยน เบราว์เซอร์จึงติดตั้ง service worker ใหม่"""
+    files = []
+    for root, _, names in os.walk(site_dir):
+        for n in names:
+            rel = os.path.relpath(os.path.join(root, n), site_dir).replace(os.sep, "/")
+            if not rel.startswith(PRECACHE_SKIP[0]) and rel not in PRECACHE_SKIP[1:]:
+                files.append(rel)
+    files.sort()
+    h = hashlib.sha1()
+    for rel in files:
+        h.update(rel.encode("utf-8"))
+        with open(os.path.join(site_dir, rel), "rb") as f:
+            # CRLF/LF ของ git ไม่ควรทำให้เวอร์ชันต่างกันระหว่างเครื่อง
+            h.update(f.read().replace(b"\r\n", b"\n"))
+    version = h.hexdigest()[:12]
+    with open(os.path.join(site_dir, "version.js"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("self.MS2_VERSION = '%s';\n" % version)
+    write_min_json(os.path.join(site_dir, "precache.json"), {"version": version, "files": sorted(files + ["version.js"])})
+    return version, len(files) + 1
 
 
 def cmd_build(args):
@@ -1051,7 +1119,375 @@ def cmd_build(args):
         write_min_json(os.path.join(args.out, name), obj)
         total += os.path.getsize(os.path.join(args.out, name))
     print("build เสร็จ: เขียน %d ไฟล์ใน %s (รวม %.0f KB)" % (len(files), args.out, total / 1024))
+    site_dir = os.path.dirname(os.path.abspath(args.out))
+    if os.path.basename(os.path.abspath(args.out)) == "data" and os.path.exists(os.path.join(site_dir, "index.html")):
+        version, n = write_precache(site_dir)
+        print("precache.json: %d ไฟล์ เวอร์ชัน %s" % (n, version))
     return 0
+
+
+# ---------------------------------------------------------------- images (Wikimedia Commons)
+
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+COMMONS_MIN_INTERVAL = 1.0  # Wikimedia จำกัดอัตราคำขอ (429) จึงช้าและใจเย็น
+IMAGES_DIR = os.path.join(ROOT, "site", "images")
+MAX_IMAGE_BYTES = 500 * 1024
+TARGET_IMAGE_BYTES = 420 * 1024   # เป้าหมายตอนย่อ เผื่อขอบเขต 500 KB
+MAX_IMAGE_WIDTH = 1200
+MIN_SOURCE_WIDTH = 500
+THUMB_WIDTH = 1280                # ขนาดมาตรฐานของ Wikimedia thumbnail
+CANDIDATES_PER_QUERY = 50
+OK_MIMES = ("image/jpeg", "image/png", "image/webp")
+IMAGE_NOTES = "generated/images-notes.json"
+IMAGE_OVERRIDES = "images-overrides.json"  # เลือกหรือตัดรูปรายชนิดด้วยมือหลังตรวจ
+
+# ลักษณะรูปที่ให้น้ำหนัก (จุลินทรีย์: รูปจากกล้องจุลทรรศน์ดีกว่ารูปจานเพาะเชื้อ)
+MICRO_WORDS = ("microscop", "micrograph", "gram stain", "gram-stain", "stained", "staining", " sem ", " tem ", "scanning electron",
+               "transmission electron", "electron micro", "fluoresc", "phase contrast", "phase-contrast", "magnification",
+               "cells", "cell ", "bacilli", "cocci", "hyphae", "spores", "trophozoite", "flagell", "cilia")
+PLATE_WORDS = ("agar", "petri", "plate", "colony", "colonies", "culture dish", "streak", "growth on", "blood agar", "mackonkey", "macconkey")
+BAD_PATTERNS = (r"-g\d{3}", r"\bfig(ure)?s?\.? ?\d", r"\bplos\b", r"\bjournal\b", r"\bpmc\d", r"\.pdf")
+BAD_WORDS = ("alignment", "sequence", "protein", "structure", "crystal", "render", "infographic", "anatomy", "manuscript", "diorama",
+             "museum", "reconstruction", "exhibit", "statue", "sculpture", "poster", "tree of", "spectr", "analysis", "symptom", "stamp",
+             "painting", "engraving", "woodcut", "herbarium", "life cycle", "lifecycle", "crossview", "cross-view", "stereo", "anaglyph", "diagram", "schematic", "scheme", "map", "range", "distribution", "phylogen", "logo", "genome", "gel ", "chromatogram",
+             "graph", "chart", "table", "drawing", "illustration", "cladogram", "structure of", "molecule", "skeleton", "label")
+GOOD_CATEGORIES = ("featured pictures", "quality images", "valued images", "picture of the day")
+# โพรทิสต์ที่เป็นสาหร่ายขนาดใหญ่ ใช้รูปถ่ายธรรมดา (ไม่ต้องใช้กล้องจุลทรรศน์)
+MACRO_PROTISTS = {"sargassum-polycystum", "pyropia-yezoensis", "caulerpa-lentillifera", "gracilaria-fisheri", "physarum-polycephalum"}
+
+
+def normalize_license(short):
+    """ชื่อ license จาก Commons -> ชื่อมาตรฐานที่ยอมรับ หรือ None ถ้าไม่ใช่ CC0, CC BY, CC BY-SA, Public domain ที่ชัดเจน
+    (CC BY-NC, CC BY-ND, GFDL อย่างเดียว, 'Attribution' ไม่ระบุรุ่น ฯลฯ ไม่รับ)"""
+    low = (short or "").strip().lower().replace("–", "-")
+    if not low:
+        return None
+    if re.fullmatch(r"cc[ -]?0( 1\.0)?( universal)?|cc[ -]zero", low):
+        return "CC0"
+    m = re.fullmatch(r"cc[ -]by[ -]sa[ -](\d\.\d)(?: ([a-z]{2,3}))?", low)
+    if m:
+        return "CC BY-SA %s%s" % (m.group(1), " " + m.group(2).upper() if m.group(2) else "")
+    m = re.fullmatch(r"cc[ -]by[ -](\d\.\d)(?: ([a-z]{2,3}))?", low)
+    if m:
+        return "CC BY %s%s" % (m.group(1), " " + m.group(2).upper() if m.group(2) else "")
+    if low == "public domain" or low.startswith("public domain ") or re.match(r"pd[- ]", low) or low in ("pd", "no known copyright restrictions"):
+        return "Public domain"
+    return None
+
+
+ALLOWED_LICENSE_RE = re.compile(r"^(CC0|CC BY \d\.\d( [A-Z]{2,3})?|CC BY-SA \d\.\d( [A-Z]{2,3})?|Public domain)$")
+
+
+def strip_html(text):
+    text = re.sub(r"<[^>]+>", "", text or "")
+    for a, b in (("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"), ("&quot;", '"'), ("&#39;", "'"), ("&nbsp;", " ")):
+        text = text.replace(a, b)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def is_microbe(org):
+    """จุลินทรีย์ที่ควรใช้รูปจากกล้องจุลทรรศน์"""
+    g = org["group"]
+    if g in ("bacteria", "archaea"):
+        return True
+    if g == "fungi":
+        return (org.get("traits") or {}).get("form") in ("yeast", "mold", "chytrid")
+    if g == "protists":
+        return org["id"] not in MACRO_PROTISTS
+    return False
+
+
+def commons_query(fx, label, params):
+    url = COMMONS_API + "?" + urllib.parse.urlencode(dict(params, action="query", format="json", formatversion="2",
+                                                          prop="imageinfo", iiprop="url|extmetadata|size|mime",
+                                                          iiurlwidth=THUMB_WIDTH,
+                                                          iiextmetadatafilter="LicenseShortName|LicenseUrl|Artist|ImageDescription|Categories|ObjectName"))
+    data = json.loads(fx.get("commons", label, url))
+    return data.get("query", {}).get("pages", [])
+
+
+def candidate_from_page(page):
+    ii = (page.get("imageinfo") or [None])[0]
+    if not ii:
+        return None
+    meta = ii.get("extmetadata") or {}
+    val = lambda k: strip_html((meta.get(k) or {}).get("value", ""))  # noqa: E731
+    return {
+        "title": page.get("title", ""), "thumb": ii.get("thumburl") or "", "original": ii.get("url") or "",
+        "page": ii.get("descriptionurl") or "", "width": ii.get("width") or 0, "height": ii.get("height") or 0,
+        "mime": ii.get("mime") or "", "license_raw": val("LicenseShortName"), "license_url": val("LicenseUrl"),
+        "author": val("Artist"), "desc": val("ImageDescription"), "cats": val("Categories"), "name": val("ObjectName"),
+    }
+
+
+def candidate_ok(c, sci, from_search):
+    """ผ่านเมื่อ license เปิดและชัดเจน มีผู้ถ่าย ไฟล์เป็นรูปแรสเตอร์ขนาดพอ และ (ถ้ามาจากการค้นหา) พูดถึงชื่อวิทยาศาสตร์"""
+    if not normalize_license(c["license_raw"]):
+        return False, "license"
+    if c["mime"] not in OK_MIMES or c["width"] < MIN_SOURCE_WIDTH or not c["thumb"]:
+        return False, "format"
+    if not c["author"]:
+        return False, "author"
+    if from_search:
+        hay = ("%s %s %s" % (c["title"], c["desc"], c["cats"])).lower()
+        if sci.lower() not in hay:
+            return False, "not-this-species"
+    return True, ""
+
+
+def sci_in_title(c, sci):
+    return bool(sci) and sci.lower() in c["title"].lower()
+
+
+def score_candidate(c, microbe, sci=""):
+    text = (" %s %s %s %s " % (c["title"], c["name"], c["desc"], c["cats"])).lower()
+    s = 0.0
+    micro = sum(1 for w in MICRO_WORDS if w in text)
+    plate = sum(1 for w in PLATE_WORDS if w in text)
+    bad = sum(1 for w in BAD_WORDS if w in text) + sum(1 for pat in BAD_PATTERNS if re.search(pat, text))
+    if microbe:
+        s += 6 * min(micro, 3) - 8 * min(plate, 2)
+    else:
+        s -= 2 * min(plate, 1)
+    s -= 8 * min(bad, 2)
+    s += 4 * sum(1 for g in GOOD_CATEGORIES if g in text)
+    if len(c["title"].split()) > 8:   # ชื่อไฟล์เป็นประโยคยาว มักเป็นรูปประกอบบทความวิจัย
+        s -= 6
+    if c["mime"] == "image/png":      # กราฟและภาพประกอบมักเป็น PNG รูปถ่ายจริงมักเป็น JPEG
+        s -= 3
+    if sci_in_title(c, sci):
+        s += 3
+    s += min(c["width"], 3000) / 1000.0          # ความละเอียดสูงกว่าดีกว่าเล็กน้อย
+    return s
+
+
+def pick_candidates(cands, microbe, limit, sci=""):
+    ranked = sorted(cands, key=lambda c: (-score_candidate(c, microbe, sci), c["title"]))
+    out, seen = [], set()
+    for c in ranked:
+        if c["title"] in seen:
+            continue
+        seen.add(c["title"])
+        out.append(c)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def find_candidates(fx, sci):
+    """คืน (ผู้สมัคร, เหตุผลที่ตัดทิ้ง) จากหมวดหมู่ของชนิดนั้นและการค้นหาข้อความ"""
+    pages = []
+    cat = commons_query(fx, "cat-" + sci, {"generator": "categorymembers", "gcmtitle": "Category:" + sci, "gcmtype": "file",
+                                           "gcmlimit": CANDIDATES_PER_QUERY})
+    pages += [(p, False) for p in cat]
+    srch = commons_query(fx, "search-" + sci, {"generator": "search", "gsrnamespace": 6, "gsrsearch": '"%s"' % sci,
+                                               "gsrlimit": CANDIDATES_PER_QUERY})
+    pages += [(p, True) for p in srch]
+    good, rejected = [], collections.Counter()
+    seen = set()
+    for page, from_search in pages:
+        c = candidate_from_page(page)
+        if not c or c["title"] in seen:
+            continue
+        seen.add(c["title"])
+        ok, why = candidate_ok(c, sci, from_search)
+        if ok:
+            good.append(c)
+        else:
+            rejected[why] += 1
+    return good, rejected, len(seen)
+
+
+def to_webp(raw, dest):
+    """แปลงเป็น WebP ย่อให้กว้างไม่เกิน MAX_IMAGE_WIDTH และไม่เกิน TARGET_IMAGE_BYTES คืน (กว้าง, สูง, ไบต์)"""
+    try:
+        from PIL import Image
+    except ImportError as e:
+        raise RuntimeError("ต้องติดตั้ง Pillow ก่อน: pip install Pillow") from e
+    import io
+    img = Image.open(io.BytesIO(raw))
+    img.load()
+    if img.mode not in ("RGB", "L"):
+        img = img.convert("RGB")
+    width = MAX_IMAGE_WIDTH
+    while True:
+        im = img
+        if im.width > width:
+            im = im.resize((width, max(1, round(im.height * width / im.width))), Image.LANCZOS)
+        for quality in (82, 74, 66, 58, 50, 42):
+            buf = io.BytesIO()
+            im.save(buf, "WEBP", quality=quality, method=6)
+            if buf.tell() <= TARGET_IMAGE_BYTES:
+                break
+        if buf.tell() <= TARGET_IMAGE_BYTES or width <= 400:
+            break
+        width = int(width * 0.8)
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    with open(dest, "wb") as f:
+        f.write(buf.getvalue())
+    return im.width, im.height, buf.tell()
+
+
+def image_record(org_id, n, c, size):
+    lic = normalize_license(c["license_raw"])
+    return {
+        "url": "images/%s/%d.webp" % (org_id, n), "author": c["author"], "license": lic,
+        "license_url": c["license_url"], "source_url": c["page"], "title": c["title"], "original_url": c["original"],
+        "width": size[0], "height": size[1], "kind": "micrograph" if any(w in (" %s %s " % (c["title"], c["desc"])).lower() for w in MICRO_WORDS[:11]) else "photo",
+    }
+
+
+def save_orgs(path, items):
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps(items, ensure_ascii=False, indent=2) + "\n")
+
+
+def cmd_images(args, fetcher=None):
+    if args.check:
+        return cmd_images_check(args)
+    fx = fetcher or Fetcher(args.cache, args.refresh, retries=6)
+    if fetcher is None:
+        fx.intervals["commons"] = COMMONS_MIN_INTERVAL
+        fx.intervals["commons-img"] = COMMONS_MIN_INTERVAL
+    wanted = set(x.strip() for x in args.only.split(",") if x.strip()) if args.only else None
+    notes_path = os.path.join(args.data, IMAGE_NOTES)
+    notes = load_json(notes_path) if os.path.exists(notes_path) else {}
+    ov_path = os.path.join(args.data, IMAGE_OVERRIDES)
+    overrides = load_json(ov_path) if os.path.exists(ov_path) else {}
+    done = missing = skipped = 0
+    for path in sorted(glob.glob(os.path.join(args.data, "organisms", "*.json"))):
+        items = load_json(path)
+        changed = False
+        for o in items:
+            if wanted is not None and o["id"] not in wanted:
+                continue
+            have = [i for i in o.get("images", []) if os.path.exists(os.path.join(args.images_dir, "..", i["url"]))]
+            if have and not args.redo:
+                skipped += 1
+                continue
+            sci = o["scientific_name"]
+            try:
+                good, rejected, seen = find_candidates(fx, sci)
+            except (FetchError, ValueError) as e:
+                notes[o["id"]] = "ดึงข้อมูลจาก Commons ไม่สำเร็จ: %s" % e
+                print("[%s] ดึงข้อมูลไม่สำเร็จ" % o["id"])
+                missing += 1
+                continue
+            ov = overrides.get(o["id"], {})
+            good = [c for c in good if c["title"] not in ov.get("skip", [])]
+            picks = pick_candidates(good, is_microbe(o), args.per_species + 3, sci)
+            if ov.get("use"):
+                forced = [c for c in good if c["title"] == ov["use"]]
+                if not forced:  # a file chosen by hand need not be in the species category: look it up by title
+                    forced = [c for c in (candidate_from_page(p) for p in commons_query(fx, "title-" + ov["use"], {"titles": ov["use"]})) if c and candidate_ok(c, sci, False)[0]]
+                picks = forced + [c for c in picks if c["title"] != ov["use"]]
+            saved = []
+            for c in picks:
+                if len(saved) >= args.per_species:
+                    break
+                try:
+                    raw = fx.get_bytes("commons-img", c["title"], c["thumb"])
+                    dest = os.path.join(args.images_dir, o["id"], "%d.webp" % (len(saved) + 1))
+                    size = to_webp(raw, dest)
+                except (FetchError, OSError, ValueError) as e:
+                    print("  ข้าม %s: %s" % (c["title"], e))
+                    continue
+                saved.append(image_record(o["id"], len(saved) + 1, c, size))
+            if saved:
+                o["images"] = saved
+                notes.pop(o["id"], None)
+                changed = True
+                done += 1
+                print("[%s] %d รูป: %s (%s)" % (o["id"], len(saved), saved[0]["title"], saved[0]["license"]))
+            else:
+                o["images"] = []
+                why = "ไม่พบรูปในหมวดหมู่หรือผลค้นหา (เห็น %d ไฟล์)" % seen if not seen else \
+                    "ไม่มีรูปที่ผ่านเกณฑ์ (เห็น %d ไฟล์; ตัดทิ้ง: %s)" % (seen, ", ".join("%s %d" % kv for kv in sorted(rejected.items())) or "ดาวน์โหลดไม่สำเร็จ")
+                notes[o["id"]] = why
+                changed = True
+                missing += 1
+                print("[%s] หาไม่ได้: %s" % (o["id"], why))
+        if changed:
+            save_orgs(path, items)
+    os.makedirs(os.path.dirname(notes_path), exist_ok=True)
+    with open(notes_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps(dict(sorted(notes.items())), ensure_ascii=False, indent=2) + "\n")
+    write_images_missing(args.data, args.missing_report)
+    print("สรุป: ได้รูป %d ชนิด, หาไม่ได้ %d, ข้าม (มีรูปแล้ว) %d; เรียก API %d ครั้ง ใช้ cache %d ครั้ง" % (done, missing, skipped, fx.stats["api"], fx.stats["cache"]))
+    return 0
+
+
+def write_images_missing(data_dir, out_path):
+    notes_path = os.path.join(data_dir, IMAGE_NOTES)
+    notes = load_json(notes_path) if os.path.exists(notes_path) else {}
+    orgs = load_organisms(data_dir)
+    miss = [o for o in orgs if not o.get("images")]
+    L = ["# ชนิดที่ยังไม่มีรูปจาก Wikimedia Commons", "",
+         "สร้างจาก `python scripts/microsearch.py images` รับเฉพาะ license CC0, CC BY, CC BY-SA, Public domain ที่ระบุชัดเจน",
+         "ชนิดในรายการนี้ใช้ภาพวาดเดิมต่อ (ห้ามใช้รูปที่ license ไม่ชัด)", "",
+         "ชนิดทั้งหมด %d ชนิด มีรูป %d ชนิด ไม่มีรูป %d ชนิด" % (len(orgs), len(orgs) - len(miss), len(miss)), ""]
+    if miss:
+        L += ["| ชนิด | กลุ่ม | เหตุผล |", "| --- | --- | --- |"]
+        for o in miss:
+            L.append("| *%s* (`%s`) | %s | %s |" % (o["scientific_name"], o["id"], o["group"], notes.get(o["id"], "ยังไม่ได้ค้น").replace("|", "/")))
+    L.append("")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(L))
+    return miss
+
+
+def cmd_images_check(args):
+    """ทุกรูปต้องมีเครดิตครบ license เปิด ไฟล์ .webp อยู่จริงและไม่เกิน 500 KB ไม่มีไฟล์เกิน และชนิดที่ไม่มีรูปอยู่ในรายงาน"""
+    problems = []
+    orgs = load_organisms(args.data)
+    base = os.path.abspath(os.path.join(args.images_dir, ".."))
+    referenced = set()
+    total = 0
+    for o in orgs:
+        for i, img in enumerate(o.get("images", [])):
+            tag = "%s รูปที่ %d" % (o["id"], i + 1)
+            total += 1
+            for k in ("url", "author", "license", "source_url"):
+                if not str(img.get(k, "")).strip():
+                    problems.append("%s: ขาด %s" % (tag, k))
+            if img.get("license") and not ALLOWED_LICENSE_RE.match(img["license"]):
+                problems.append("%s: license %r ไม่อยู่ในที่อนุญาต" % (tag, img["license"]))
+            if img.get("source_url") and not str(img["source_url"]).startswith("https://commons.wikimedia.org/"):
+                problems.append("%s: source_url ไม่ใช่หน้าไฟล์ของ Commons" % tag)
+            url = img.get("url", "")
+            if url:
+                path = os.path.normpath(os.path.join(base, url))
+                referenced.add(path)
+                if not url.endswith(".webp"):
+                    problems.append("%s: ไฟล์ต้องเป็น .webp (%s)" % (tag, url))
+                if not os.path.exists(path):
+                    problems.append("%s: ไม่พบไฟล์ %s" % (tag, url))
+                else:
+                    size = os.path.getsize(path)
+                    if size > MAX_IMAGE_BYTES:
+                        problems.append("%s: ไฟล์ใหญ่ %d KB เกิน %d KB" % (tag, size // 1024, MAX_IMAGE_BYTES // 1024))
+                    with open(path, "rb") as f:
+                        head = f.read(12)
+                    if not (head[:4] == b"RIFF" and head[8:12] == b"WEBP"):
+                        problems.append("%s: เนื้อไฟล์ไม่ใช่ WebP" % tag)
+    if os.path.isdir(args.images_dir):
+        for root, _, files in os.walk(args.images_dir):
+            for fn in files:
+                p = os.path.normpath(os.path.join(root, fn))
+                if p not in referenced:
+                    problems.append("ไฟล์เกิน ไม่มีชนิดไหนอ้างถึง: %s" % os.path.relpath(p, base).replace(os.sep, "/"))
+    miss = [o for o in orgs if not o.get("images")]
+    if miss:
+        rep = os.path.exists(args.missing_report) and open(args.missing_report, encoding="utf-8").read() or ""
+        for o in miss:
+            if "`%s`" % o["id"] not in rep:
+                problems.append("%s: ไม่มีรูปและไม่อยู่ใน %s (รัน images ใหม่)" % (o["id"], os.path.relpath(args.missing_report, ROOT)))
+    for p in problems:
+        print("ข้อผิดพลาด: " + p)
+    print("ตรวจรูป: %d รูป, ชนิดที่ยังไม่มีรูป %d, ปัญหา %d" % (total, len(miss), len(problems)))
+    print("ผ่าน" if not problems else "ไม่ผ่าน")
+    return 1 if problems else 0
 
 
 # ---------------------------------------------------------------- main
@@ -1071,6 +1507,16 @@ def build_parser():
     s.add_argument("--only", help="ดึงเฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--cache", default=CACHE, help=argparse.SUPPRESS)
+    s = sub.add_parser("images", help="หารูปจาก Wikimedia Commons ต่อชนิด (CC0, CC BY, CC BY-SA, Public domain) หรือตรวจด้วย --check")
+    s.add_argument("--check", action="store_true", help="ตรวจเครดิต license ขนาด และไฟล์ ไม่ดึงอะไร")
+    s.add_argument("--only", help="เฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
+    s.add_argument("--redo", action="store_true", help="เลือกรูปใหม่แม้ชนิดนั้นมีรูปแล้ว")
+    s.add_argument("--refresh", action="store_true", help="ไม่ใช้ cache ยิง API ใหม่")
+    s.add_argument("--per-species", type=int, default=1, help="จำนวนรูปต่อชนิด (ค่าเริ่มต้น 1)")
+    s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
+    s.add_argument("--cache", default=CACHE, help=argparse.SUPPRESS)
+    s.add_argument("--images-dir", default=IMAGES_DIR, help=argparse.SUPPRESS)
+    s.add_argument("--missing-report", default=os.path.join(REPORTS, "images-missing.md"), help=argparse.SUPPRESS)
     s = sub.add_parser("coverage", help="นับช่องภาษาอังกฤษที่ยังว่างต่อกลุ่ม เขียน reports/coverage.md")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--out", default=os.path.join(REPORTS, "coverage.md"), help=argparse.SUPPRESS)
@@ -1096,6 +1542,8 @@ def main(argv=None):
         return cmd_build(args)
     if args.cmd == "coverage":
         return cmd_coverage(args)
+    if args.cmd == "images":
+        return cmd_images(args)
     return cmd_validate(args)
 
 

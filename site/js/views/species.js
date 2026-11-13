@@ -3,10 +3,19 @@ import { T, loc, thFallback } from '../i18n.js';
 import { esc } from '../util.js';
 import { G, inGroup } from '../data.js';
 import { art } from '../art.js';
-import { gName, tagName, lvBadge, rd, spRd, spCommon, isEn, arrowR, traitValue } from '../ui.js';
+import { gName, tagName, lvBadge, rd, spRd, spCommon, isEn, arrowR, traitValue, thumb } from '../ui.js';
 
 // Text from the extra_th / extra_en blocks: English when available, otherwise flagged Thai.
 const extraText = (text, fallback) => (fallback ? thFallback(text) : esc(text));
+
+// Main picture with its credit under it; falls back to the temporary drawing and its caption.
+function figure(s) {
+  const img = s.d.images?.[0];
+  if (!img) return `<figure class="art"><div class="art-box">${art(s.art)}</div><figcaption>${T('artCaption')}</figcaption></figure>`;
+  const lic = img.license_url ? `<a href="${esc(img.license_url)}" rel="noopener">${esc(img.license)}</a>` : esc(img.license);
+  return `<figure class="art"><div class="art-box photo"><img src="${esc(img.url)}" fetchpriority="high" alt="${esc(s.sci)}" data-art="${esc(s.art)}" width="${img.width || ''}" height="${img.height || ''}" decoding="async"></div>` +
+    `<figcaption>${T('imgBy')} <span data-native>${esc(img.author)}</span> · ${lic} · <a href="${esc(img.source_url)}" rel="noopener">${T('imgOn')}</a></figcaption></figure>`;
+}
 
 export function viewSpecies(s) {
   const g = G(s.g);
@@ -49,7 +58,7 @@ export function viewSpecies(s) {
   const tab = tabs.some((t) => t[0] === S.tab) ? S.tab : 'traits';
   const cur = tabs.find((t) => t[0] === tab);
 
-  h += `<div class="sp-body"><figure class="art"><div class="art-box">${art(s.art)}</div><figcaption>${T('artCaption')}</figcaption></figure>` +
+  h += `<div class="sp-body">${figure(s)}` +
     `<div class="sp-text"><p class="sp-lede">${ex.lede ? extraText(ex.lede, fb) : loc(s.sm[0], s.sm[1])}</p>` +
     `<div class="tabs" role="tablist" aria-label="${esc(T('traits'))}">` + tabs.map((t) =>
       `<button type="button" role="tab" class="tab" id="tab-${t[0]}" data-act="tab" data-v="${t[0]}" aria-selected="${t[0] === tab}" aria-controls="tabpanel" tabindex="${t[0] === tab ? 0 : -1}">${t[1]}</button>`).join('') + '</div>' +
@@ -63,7 +72,7 @@ export function viewSpecies(s) {
   const idx = mates.indexOf(s);
   const near = mates.filter((m) => m !== s).sort((a, b) => (a.p === s.p ? 0 : 1) - (b.p === s.p ? 0 : 1)).slice(0, 6);
   h += `<section class="section" aria-labelledby="nearH"><h2 class="h2" id="nearH">${T('others', { g: esc(gName(g)) })}</h2><div class="near">` +
-    near.map((m) => `<a href="#${m.id}" data-g="${m.g}"><span class="thumb">${art(m.art)}</span><span class="rowtxt"><span class="sci">${esc(m.sci)}</span>${isEn() ? '' : `<span class="th">${esc(spRd(m))}</span>`}</span></a>`).join('') + '</div></section>';
+    near.map((m) => `<a href="#${m.id}" data-g="${m.g}"><span class="thumb">${thumb(m)}</span><span class="rowtxt"><span class="sci">${esc(m.sci)}</span>${isEn() ? '' : `<span class="th">${esc(spRd(m))}</span>`}</span></a>`).join('') + '</div></section>';
   const prev = mates[(idx - 1 + mates.length) % mates.length];
   const next = mates[(idx + 1) % mates.length];
   h += `<nav class="pager" aria-label="${esc(T('prev'))} / ${esc(T('next'))}"><a href="#${prev.id}"><small>${T('prev')}</small><span class="sci">${esc(prev.sci)}</span></a>` +

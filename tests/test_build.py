@@ -38,7 +38,7 @@ def read(out, name):
 def test_build_writes_expected_files(world):
     ds, illus, out = world
     assert run_build(ds, illus, out) == 0
-    assert sorted(os.listdir(out)) == ["bacteria.json", "illustrations.json", "index.json", "meta.json", "protists.json"]
+    assert sorted(os.listdir(out)) == ["bacteria.json", "credits.json", "illustrations.json", "index.json", "meta.json", "protists.json"]
     index = read(out, "index.json")
     assert [r["id"] for r in index] == ["escherichia-coli", "plasmodium-falciparum"]
     assert read(out, "bacteria.json")["organisms"][0]["lineage"][1]["name"] == "Proteobacteria"

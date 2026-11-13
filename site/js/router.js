@@ -3,7 +3,7 @@
 // rank diagram lives in the URL query so every view can be linked and reloaded.
 import { S } from './state.js';
 import { T } from './i18n.js';
-import { G, byId, loadGroup } from './data.js';
+import { G, byId, loadGroup, loadCredits } from './data.js';
 import { gName } from './ui.js';
 import { parseHash, replaceHash } from './query.js';
 import { readFilters, writeFilters } from './filters.js';
@@ -28,7 +28,7 @@ async function route() {
     await loadGroup(dg);
     return { path, params, html: viewHome(params), g: '', title: base };
   }
-  if (path === 'sources') return { path, params, html: viewSources(), g: '', title: `${T('sources')} | ${base}` };
+  if (path === 'sources') return { path, params, html: viewSources(await loadCredits()), g: '', title: `${T('sources')} | ${base}` };
   if (G(path)) {
     await loadGroup(path);
     return { path, params, html: viewGroup(path, params), g: path, title: `${gName(G(path))} | ${base}` };

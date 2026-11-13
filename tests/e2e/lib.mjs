@@ -1,5 +1,6 @@
 // Shared helpers for the e2e scripts: build the site data, serve site/, find Chrome.
 import { spawnSync } from 'node:child_process';
+import { gzipSync } from 'node:zlib';
 import { createServer } from 'node:http';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
@@ -48,8 +49,11 @@ export function serveSite(dir = SITE) {
     if (p.endsWith('/')) p += 'index.html';
     const file = normalize(join(dir, p));
     if (!file.startsWith(dir) || !existsSync(file) || !statSync(file).isFile()) { res.writeHead(404); res.end('not found'); return; }
-    res.writeHead(200, { 'content-type': MIME[extname(file)] || 'application/octet-stream', 'cache-control': 'no-store' });
-    res.end(readFileSync(file));
+    const type = MIME[extname(file)] || 'application/octet-stream';
+    const body = readFileSync(file);
+    const gz = /gzip/.test(req.headers['accept-encoding'] || '') && /^(text|application\/json|image\/svg)/.test(type);
+    res.writeHead(200, { 'content-type': type, 'cache-control': 'no-store', ...(gz ? { 'content-encoding': 'gzip', vary: 'accept-encoding' } : {}) });
+    res.end(gz ? gzipSync(body) : body);
   });
   return new Promise((ok) => server.listen(0, '127.0.0.1', () => ok({ server, base: `http://127.0.0.1:${server.address().port}` })));
 }
