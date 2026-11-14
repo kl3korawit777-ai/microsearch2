@@ -8,9 +8,9 @@
 | archaea | 9 | 0 | 0 / 18 | 8 | 8 | 9 | 0 |
 | fungi | 19 | 0 | 0 / 57 | 19 | 19 | 10 | 0 |
 | protists | 25 | 0 | 0 / 75 | 25 | 25 | 21 | 0 |
-| plants | 30 | 0 | 0 / 60 | 1 | 1 | 7 | 0 |
+| plants | 30 | 0 | 0 / 60 | 30 | 30 | 7 | 0 |
 | animals | 38 | 0 | 0 / 76 | 1 | 1 | 7 | 0 |
-| **รวม** | 145 | 0 | 0 / 334 | 78 | 78 | 77 | 0 |
+| **รวม** | 145 | 0 | 0 / 334 | 107 | 107 | 77 | 0 |
 
 `name_en` ว่างได้เมื่อไม่มีชื่อสามัญภาษาอังกฤษจริง (ห้ามแต่งชื่อ) ส่วน about_en ของสกุลว่างได้ตามกติกา validate
 
@@ -92,5 +92,34 @@
 - `gracilaria-fisheri`: extra_en
 - `plasmodium-vivax`: extra_en
 - `vorticella-campanula`: extra_en
+- `sphagnum-palustre`: extra_en
+- `marchantia-polymorpha`: extra_en
+- `lycopodiella-cernua`: extra_en
+- `psilotum-nudum`: extra_en
+- `azolla-pinnata`: extra_en
+- `cycas-siamensis`: extra_en
+- `ginkgo-biloba`: extra_en
+- `pinus-kesiya`: extra_en
+- `gnetum-gnemon`: extra_en
 - `oryza-sativa`: extra_en
+- `nelumbo-nucifera`: extra_en
+- `durio-zibethinus`: extra_en
+- `hevea-brasiliensis`: extra_en
+- `anthoceros-punctatus`: extra_en
+- `selaginella-involvens`: extra_en
+- `equisetum-debile`: extra_en
+- `diplazium-esculentum`: extra_en
+- `zea-mays`: extra_en
+- `mimosa-pudica`: extra_en
+- `arabidopsis-thaliana`: extra_en
+- `rafflesia-kerrii`: extra_en
+- `welwitschia-mirabilis`: extra_en
+- `allium-cepa`: extra_en
+- `pisum-sativum`: extra_en
+- `hydrilla-verticillata`: extra_en
+- `ananas-comosus`: extra_en
+- `saccharum-officinarum`: extra_en
+- `wolffia-globosa`: extra_en
+- `nepenthes-mirabilis`: extra_en
+- `rhizophora-apiculata`: extra_en
 - `aedes-aegypti`: extra_en

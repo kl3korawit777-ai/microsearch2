@@ -12,9 +12,9 @@
 | archaea | 9 | 9 | 9 | 9 | 9 | 1 | 9 | 9 | 9 |
 | fungi | 19 | 19 | 19 | 18 | 19 | 2 | 19 | 0 | 19 |
 | protists | 25 | 21 | 25 | 13 | 25 | 12 | 23 | 1 | 25 |
-| plants | 30 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | 1 |
+| plants | 30 | 30 | 30 | 30 | 30 | 1 | 30 | 0 | 30 |
 | animals | 38 | 1 | 1 | 38 | 1 | 1 | 1 | 0 | 1 |
-| **รวม** | 145 | 75 | 79 | 103 | 79 | 20 | 77 | 31 | 79 |
+| **รวม** | 145 | 104 | 108 | 132 | 108 | 21 | 106 | 31 | 108 |
 
 ## ต่อกลุ่ม: ภาษาอังกฤษ
 
@@ -24,9 +24,9 @@
 | archaea | 9 | 9 | 1 | 7 | 0 | 0 | 1 | 1 | 9 |
 | fungi | 19 | 19 | 0 | 8 | 0 | 0 | 0 | 0 | 19 |
 | protists | 25 | 21 | 0 | 4 | 0 | 0 | 0 | 0 | 25 |
-| plants | 30 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| plants | 30 | 30 | 0 | 30 | 0 | 0 | 0 | 0 | 30 |
 | animals | 38 | 1 | 0 | 38 | 0 | 0 | 0 | 0 | 1 |
-| **รวม** | 145 | 75 | 1 | 67 | 0 | 0 | 1 | 1 | 79 |
+| **รวม** | 145 | 104 | 1 | 96 | 0 | 0 | 1 | 1 | 108 |
 
 ## ต่อชนิด: ภาษาไทย
 
@@ -124,36 +124,36 @@
 | `aspergillus-niger` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `ganoderma-lucidum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `amanita-exitialis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
-| `sphagnum-palustre` | – | – | – | – | – | – | – | – |
-| `marchantia-polymorpha` | – | – | – | – | – | – | – | – |
-| `lycopodiella-cernua` | – | – | – | – | – | – | – | – |
-| `psilotum-nudum` | – | – | – | – | – | – | – | – |
-| `azolla-pinnata` | – | – | – | – | – | – | – | – |
-| `cycas-siamensis` | – | – | – | – | – | – | – | – |
-| `ginkgo-biloba` | – | – | – | – | – | – | – | – |
-| `pinus-kesiya` | – | – | – | – | – | – | – | – |
-| `gnetum-gnemon` | – | – | – | – | – | – | – | – |
+| `sphagnum-palustre` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `marchantia-polymorpha` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `lycopodiella-cernua` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `psilotum-nudum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `azolla-pinnata` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `cycas-siamensis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `ginkgo-biloba` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `pinus-kesiya` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `gnetum-gnemon` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `oryza-sativa` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
-| `nelumbo-nucifera` | – | – | – | – | – | – | – | – |
-| `durio-zibethinus` | – | – | – | – | – | – | – | – |
-| `hevea-brasiliensis` | – | – | – | – | – | – | – | – |
-| `anthoceros-punctatus` | – | – | – | – | – | – | – | – |
-| `selaginella-involvens` | – | – | – | – | – | – | – | – |
-| `equisetum-debile` | – | – | – | – | – | – | – | – |
-| `diplazium-esculentum` | – | – | – | – | – | – | – | – |
-| `zea-mays` | – | – | – | – | – | – | – | – |
-| `mimosa-pudica` | – | – | – | – | – | – | – | – |
-| `arabidopsis-thaliana` | – | – | – | – | – | – | – | – |
-| `rafflesia-kerrii` | – | – | – | – | – | – | – | – |
-| `welwitschia-mirabilis` | – | – | – | – | – | – | – | – |
-| `allium-cepa` | – | – | – | – | – | – | – | – |
-| `pisum-sativum` | – | – | – | – | – | – | – | – |
-| `hydrilla-verticillata` | – | – | – | – | – | – | – | – |
-| `ananas-comosus` | – | – | – | – | – | – | – | – |
-| `saccharum-officinarum` | – | – | – | – | – | – | – | – |
-| `wolffia-globosa` | – | – | – | – | – | – | – | – |
-| `nepenthes-mirabilis` | – | – | – | – | – | – | – | – |
-| `rhizophora-apiculata` | – | – | – | – | – | – | – | – |
+| `nelumbo-nucifera` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `durio-zibethinus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `hevea-brasiliensis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `anthoceros-punctatus` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `selaginella-involvens` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `equisetum-debile` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `diplazium-esculentum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `zea-mays` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `mimosa-pudica` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `arabidopsis-thaliana` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `rafflesia-kerrii` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `welwitschia-mirabilis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `allium-cepa` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `pisum-sativum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `hydrilla-verticillata` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `ananas-comosus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `saccharum-officinarum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `wolffia-globosa` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `nepenthes-mirabilis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `rhizophora-apiculata` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `euglena-gracilis` | ✓ | ✓ | – | ✓ | – | ✓ | – | ✓ |
 | `trypanosoma-brucei` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
 | `giardia-intestinalis` | – | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
@@ -276,36 +276,36 @@
 | `aspergillus-niger` | ✓ | – | – | – | – | – | – | ✓ |
 | `ganoderma-lucidum` | ✓ | – | – | – | – | – | – | ✓ |
 | `amanita-exitialis` | ✓ | – | – | – | – | – | – | ✓ |
-| `sphagnum-palustre` | – | – | – | – | – | – | – | – |
-| `marchantia-polymorpha` | – | – | – | – | – | – | – | – |
-| `lycopodiella-cernua` | – | – | – | – | – | – | – | – |
-| `psilotum-nudum` | – | – | – | – | – | – | – | – |
-| `azolla-pinnata` | – | – | – | – | – | – | – | – |
-| `cycas-siamensis` | – | – | – | – | – | – | – | – |
-| `ginkgo-biloba` | – | – | – | – | – | – | – | – |
-| `pinus-kesiya` | – | – | – | – | – | – | – | – |
-| `gnetum-gnemon` | – | – | – | – | – | – | – | – |
+| `sphagnum-palustre` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `marchantia-polymorpha` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `lycopodiella-cernua` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `psilotum-nudum` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `azolla-pinnata` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `cycas-siamensis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `ginkgo-biloba` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `pinus-kesiya` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `gnetum-gnemon` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `oryza-sativa` | ✓ | – | ✓ | – | – | – | – | ✓ |
-| `nelumbo-nucifera` | – | – | – | – | – | – | – | – |
-| `durio-zibethinus` | – | – | – | – | – | – | – | – |
-| `hevea-brasiliensis` | – | – | – | – | – | – | – | – |
-| `anthoceros-punctatus` | – | – | – | – | – | – | – | – |
-| `selaginella-involvens` | – | – | – | – | – | – | – | – |
-| `equisetum-debile` | – | – | – | – | – | – | – | – |
-| `diplazium-esculentum` | – | – | – | – | – | – | – | – |
-| `zea-mays` | – | – | – | – | – | – | – | – |
-| `mimosa-pudica` | – | – | – | – | – | – | – | – |
-| `arabidopsis-thaliana` | – | – | – | – | – | – | – | – |
-| `rafflesia-kerrii` | – | – | – | – | – | – | – | – |
-| `welwitschia-mirabilis` | – | – | – | – | – | – | – | – |
-| `allium-cepa` | – | – | – | – | – | – | – | – |
-| `pisum-sativum` | – | – | – | – | – | – | – | – |
-| `hydrilla-verticillata` | – | – | – | – | – | – | – | – |
-| `ananas-comosus` | – | – | – | – | – | – | – | – |
-| `saccharum-officinarum` | – | – | – | – | – | – | – | – |
-| `wolffia-globosa` | – | – | – | – | – | – | – | – |
-| `nepenthes-mirabilis` | – | – | – | – | – | – | – | – |
-| `rhizophora-apiculata` | – | – | – | – | – | – | – | – |
+| `nelumbo-nucifera` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `durio-zibethinus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `hevea-brasiliensis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `anthoceros-punctatus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `selaginella-involvens` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `equisetum-debile` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `diplazium-esculentum` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `zea-mays` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `mimosa-pudica` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `arabidopsis-thaliana` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `rafflesia-kerrii` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `welwitschia-mirabilis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `allium-cepa` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `pisum-sativum` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `hydrilla-verticillata` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `ananas-comosus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `saccharum-officinarum` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `wolffia-globosa` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `nepenthes-mirabilis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `rhizophora-apiculata` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `euglena-gracilis` | ✓ | – | – | – | – | – | – | ✓ |
 | `trypanosoma-brucei` | ✓ | – | – | – | – | – | – | ✓ |
 | `giardia-intestinalis` | – | – | – | – | – | – | – | ✓ |
