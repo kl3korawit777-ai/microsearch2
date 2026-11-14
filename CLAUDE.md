@@ -57,6 +57,8 @@ npm run screens                                       # screenshot เทีย�
 python scripts/microsearch.py images [--only id,..] [--redo]   # หารูปจาก Wikimedia Commons (ต้องมี Pillow) -> site/images + data/organisms
 python scripts/microsearch.py images --check         # ทุกรูปมีเครดิตครบ license เปิด ไฟล์ WebP <=500 KB และชนิดที่ไม่มีรูปอยู่ใน reports/images-missing.md
 python scripts/microsearch.py coverage                # ช่องอังกฤษที่ยังว่างต่อกลุ่ม -> reports/coverage.md และความครบ 8 ส่วนของหน้าชนิด (ไทย/อังกฤษ) -> reports/content-coverage.md
+python scripts/microsearch.py fetch-traits [--only id,..] [--source bacdive,iucn] [--refresh]   # ลักษณะจาก BacDive v2 (type strain; ไม่ต้อง login) + สถานภาพ IUCN v4 (ต้องมี IUCN_TOKEN ใน .env ไม่ commit) -> data/generated/traits-fetched.json
+python scripts/microsearch.py traits-diff             # เทียบกับ traits/iucn ใน data/organisms -> reports/traits-diff.md (ไม่แก้ข้อมูล)
 python scripts/microsearch.py import-research research/<ชื่อ> [--dry-run]   # ไฟล์พัก .md + .data.json -> extra_th ของชนิด ตรวจเทียบฉบับร่างแรกใน git ก่อน (ถ้าไม่ตรง เขียน reports/import-check.md แล้วหยุด)
 npm run test:sample                                   # ชนิดทดสอบที่ใส่ครบ 8 ส่วน (tests/fixtures/sample-species.json) ทั้งสองภาษา ใช้สำเนาชั่วคราว ไม่แตะ data/
 npm run test:offline                                  # service worker: ตัดเน็ตแล้วเปิดทุกกลุ่ม/ชนิดได้ + อัปเดตเวอร์ชัน

@@ -1,0 +1,980 @@
+{
+  "organisms": {
+    "acanthaster-planci": {},
+    "acetobacter-aceti": {
+      "bacdive": {
+        "query": "Acetobacter aceti",
+        "n_strains": 8,
+        "type_strain_id": 2,
+        "url": "https://bacdive.dsmz.de/strain/2",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "neg",
+            "raw": "negative"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "oxy": {
+            "value": "aer",
+            "raw": "aerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 10.0,
+              "max": 45.0,
+              "unit": "°C"
+            },
+            "raw": "9 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "aedes-aegypti": {},
+    "agrobacterium-tumefaciens": {
+      "bacdive": {
+        "query": "Agrobacterium tumefaciens",
+        "n_strains": 3,
+        "type_strain_id": null,
+        "url": null,
+        "traits": {},
+        "note": "พบ 3 สายพันธุ์แต่ไม่มี type strain ของชื่อนี้ (type strain ที่พบเป็นของ Agrobacterium radiobacter ไม่ใช้ ไม่เดา)"
+      }
+    },
+    "allium-cepa": {},
+    "amanita-exitialis": {},
+    "amoeba-proteus": {},
+    "ananas-comosus": {},
+    "anopheles-minimus": {},
+    "anthoceros-punctatus": {},
+    "apis-cerana": {},
+    "arabidopsis-thaliana": {},
+    "arthrospira-platensis": {
+      "bacdive": {
+        "query": "Limnospira platensis",
+        "n_strains": 0,
+        "type_strain_id": null,
+        "url": null,
+        "traits": {},
+        "note": "ไม่พบชื่อนี้ใน BacDive"
+      }
+    },
+    "ascaris-lumbricoides": {},
+    "aspergillus-flavus": {},
+    "aspergillus-niger": {},
+    "aspergillus-oryzae": {},
+    "aurelia-aurita": {},
+    "azolla-pinnata": {},
+    "bacillus-subtilis": {
+      "bacdive": {
+        "query": "Bacillus subtilis",
+        "n_strains": 292,
+        "type_strain_id": 1172,
+        "url": "https://bacdive.dsmz.de/strain/1172",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "pos",
+            "raw": "positive"
+          },
+          "motility": {
+            "value": null,
+            "raw": "yes"
+          },
+          "oxy": {
+            "value": "fac",
+            "raw": "facultative anaerobe"
+          },
+          "endospore": {
+            "value": "yes",
+            "raw": "yes"
+          },
+          "temp": {
+            "value": {
+              "min": 10.0,
+              "max": 55.0,
+              "unit": "°C"
+            },
+            "raw": "6 รายการ"
+          },
+          "temp_opt": {
+            "value": "meso",
+            "raw": "optimum 30 °C"
+          },
+          "ph": {
+            "value": {
+              "min": 6.0,
+              "max": 6.0,
+              "unit": "pH"
+            },
+            "raw": "1 รายการ"
+          },
+          "salinity": {
+            "value": {
+              "min": 0.0,
+              "max": 8.0,
+              "unit": "% NaCl"
+            },
+            "raw": "1 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "bacillus-thuringiensis": {
+      "bacdive": {
+        "query": "Bacillus thuringiensis",
+        "n_strains": 91,
+        "type_strain_id": 1006,
+        "url": "https://bacdive.dsmz.de/strain/1006",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "pos",
+            "raw": "positive"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "oxy": {
+            "value": "fac",
+            "raw": "facultative anaerobe"
+          },
+          "endospore": {
+            "value": "yes",
+            "raw": "yes"
+          },
+          "temp": {
+            "value": {
+              "min": 30.0,
+              "max": 37.0,
+              "unit": "°C"
+            },
+            "raw": "4 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "batrachochytrium-dendrobatidis": {},
+    "betta-splendens": {},
+    "bombyx-mori": {},
+    "branchiostoma-belcheri": {},
+    "burkholderia-pseudomallei": {
+      "bacdive": {
+        "query": "Burkholderia pseudomallei",
+        "n_strains": 16,
+        "type_strain_id": 168104,
+        "url": "https://bacdive.dsmz.de/strain/168104",
+        "traits": {},
+        "note": ""
+      }
+    },
+    "caenorhabditis-elegans": {},
+    "candida-albicans": {},
+    "caulerpa-lentillifera": {},
+    "chelonia-mydas": {},
+    "chlamydomonas-reinhardtii": {},
+    "chlorella-vulgaris": {},
+    "ciona-intestinalis": {},
+    "clostridium-botulinum": {
+      "bacdive": {
+        "query": "Clostridium botulinum",
+        "n_strains": 15,
+        "type_strain_id": 166627,
+        "url": "https://bacdive.dsmz.de/strain/166627",
+        "traits": {},
+        "note": ""
+      }
+    },
+    "cordyceps-militaris": {},
+    "cryptococcus-neoformans": {},
+    "cycas-siamensis": {},
+    "danio-rerio": {},
+    "diadema-setosum": {},
+    "dictyostelium-discoideum": {},
+    "diplazium-esculentum": {},
+    "drosophila-melanogaster": {},
+    "dugesia-japonica": {},
+    "durio-zibethinus": {},
+    "elephas-maximus": {},
+    "entamoeba-histolytica": {},
+    "equisetum-debile": {},
+    "escherichia-coli": {
+      "bacdive": {
+        "query": "Escherichia coli",
+        "n_strains": 1975,
+        "type_strain_id": 4907,
+        "url": "https://bacdive.dsmz.de/strain/4907",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "neg",
+            "raw": "negative"
+          },
+          "motility": {
+            "value": null,
+            "raw": "yes"
+          },
+          "oxy": {
+            "value": "fac",
+            "raw": "facultative anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 5.0,
+              "max": 41.0,
+              "unit": "°C"
+            },
+            "raw": "6 รายการ"
+          },
+          "temp_opt": {
+            "value": "meso",
+            "raw": "optimum 37 °C"
+          }
+        },
+        "note": ""
+      }
+    },
+    "euglena-gracilis": {},
+    "gallus-gallus": {},
+    "ganoderma-lucidum": {},
+    "giardia-intestinalis": {},
+    "ginkgo-biloba": {},
+    "gnathostoma-spinigerum": {},
+    "gnetum-gnemon": {},
+    "gracilaria-fisheri": {},
+    "halobacterium-salinarum": {
+      "bacdive": {
+        "query": "Halobacterium salinarum",
+        "n_strains": 15,
+        "type_strain_id": 5912,
+        "url": "https://bacdive.dsmz.de/strain/5912",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "neg",
+            "raw": "negative"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "temp": {
+            "value": {
+              "min": 37.0,
+              "max": 37.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "haloferax-volcanii": {
+      "bacdive": {
+        "query": "Haloferax volcanii",
+        "n_strains": 2,
+        "type_strain_id": 5933,
+        "url": "https://bacdive.dsmz.de/strain/5933",
+        "traits": {
+          "temp": {
+            "value": {
+              "min": 37.0,
+              "max": 37.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "helicobacter-pylori": {
+      "bacdive": {
+        "query": "Helicobacter pylori",
+        "n_strains": 70,
+        "type_strain_id": 6102,
+        "url": "https://bacdive.dsmz.de/strain/6102",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "neg",
+            "raw": "negative"
+          },
+          "oxy": {
+            "value": "low",
+            "raw": "microaerophile"
+          },
+          "temp": {
+            "value": {
+              "min": 37.0,
+              "max": 37.0,
+              "unit": "°C"
+            },
+            "raw": "5 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "heterometrus-laoticus": {},
+    "hevea-brasiliensis": {},
+    "hippocampus-kuda": {},
+    "hirudinaria-manillensis": {},
+    "homo-sapiens": {},
+    "hoplobatrachus-rugulosus": {},
+    "hydra-vulgaris": {},
+    "hydrilla-verticillata": {},
+    "lactobacillus-acidophilus": {
+      "bacdive": {
+        "query": "Lactobacillus acidophilus",
+        "n_strains": 36,
+        "type_strain_id": 6404,
+        "url": "https://bacdive.dsmz.de/strain/6404",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "pos",
+            "raw": "positive"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "oxy": {
+            "value": "ana",
+            "raw": "anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 10.0,
+              "max": 45.0,
+              "unit": "°C"
+            },
+            "raw": "8 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "leishmania-donovani": {},
+    "leptospira-interrogans": {
+      "bacdive": {
+        "query": "Leptospira interrogans",
+        "n_strains": 100,
+        "type_strain_id": 168824,
+        "url": "https://bacdive.dsmz.de/strain/168824",
+        "traits": {
+          "temp": {
+            "value": {
+              "min": 29.0,
+              "max": 29.0,
+              "unit": "°C"
+            },
+            "raw": "1 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "lumbricus-terrestris": {},
+    "lycopodiella-cernua": {},
+    "marchantia-polymorpha": {},
+    "methanobrevibacter-smithii": {
+      "bacdive": {
+        "query": "Methanobrevibacter smithii",
+        "n_strains": 4,
+        "type_strain_id": 6963,
+        "url": "https://bacdive.dsmz.de/strain/6963",
+        "traits": {
+          "oxy": {
+            "value": "ana",
+            "raw": "anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 37.0,
+              "max": 37.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "methanocaldococcus-jannaschii": {
+      "bacdive": {
+        "query": "Methanocaldococcus jannaschii",
+        "n_strains": 1,
+        "type_strain_id": 6981,
+        "url": "https://bacdive.dsmz.de/strain/6981",
+        "traits": {
+          "oxy": {
+            "value": "ana",
+            "raw": "anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 80.0,
+              "max": 80.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "methanosarcina-barkeri": {
+      "bacdive": {
+        "query": "Methanosarcina barkeri",
+        "n_strains": 5,
+        "type_strain_id": 7087,
+        "url": "https://bacdive.dsmz.de/strain/7087",
+        "traits": {
+          "oxy": {
+            "value": "ana",
+            "raw": "anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 35.0,
+              "max": 37.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "mimosa-pudica": {},
+    "mus-musculus": {},
+    "mycobacterium-tuberculosis": {
+      "bacdive": {
+        "query": "Mycobacterium tuberculosis",
+        "n_strains": 184,
+        "type_strain_id": 170314,
+        "url": "https://bacdive.dsmz.de/strain/170314",
+        "traits": {},
+        "note": ""
+      }
+    },
+    "nautilus-pompilius": {},
+    "nelumbo-nucifera": {},
+    "nepenthes-mirabilis": {},
+    "neurospora-crassa": {},
+    "nitrobacter-winogradskyi": {
+      "bacdive": {
+        "query": "Nitrobacter winogradskyi",
+        "n_strains": 2,
+        "type_strain_id": 1796,
+        "url": "https://bacdive.dsmz.de/strain/1796",
+        "traits": {
+          "temp": {
+            "value": {
+              "min": 28.0,
+              "max": 28.0,
+              "unit": "°C"
+            },
+            "raw": "1 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "nitrosomonas-europaea": {
+      "bacdive": {
+        "query": "Nitrosomonas europaea",
+        "n_strains": 1,
+        "type_strain_id": 130472,
+        "url": "https://bacdive.dsmz.de/strain/130472",
+        "traits": {
+          "temp": {
+            "value": {
+              "min": 28.0,
+              "max": 28.0,
+              "unit": "°C"
+            },
+            "raw": "1 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "nitrosopumilus-maritimus": {
+      "bacdive": {
+        "query": "Nitrosopumilus maritimus",
+        "n_strains": 1,
+        "type_strain_id": 141102,
+        "url": "https://bacdive.dsmz.de/strain/141102",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "oxy": {
+            "value": "aer",
+            "raw": "aerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 15.0,
+              "max": 35.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          },
+          "temp_opt": {
+            "value": "meso",
+            "raw": "optimum 32 °C"
+          },
+          "ph": {
+            "value": {
+              "min": 6.8,
+              "max": 8.1,
+              "unit": "pH"
+            },
+            "raw": "2 รายการ"
+          },
+          "salinity": {
+            "value": {
+              "min": 32.0,
+              "max": 37.0,
+              "unit": "% NaCl"
+            },
+            "raw": "1 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "noctiluca-scintillans": {},
+    "nostoc-commune": {
+      "bacdive": {
+        "query": "Nostoc commune",
+        "n_strains": 0,
+        "type_strain_id": null,
+        "url": null,
+        "traits": {},
+        "note": "ไม่พบชื่อนี้ใน BacDive"
+      }
+    },
+    "opisthorchis-viverrini": {},
+    "ornithorhynchus-anatinus": {},
+    "oryza-sativa": {},
+    "oscillatoria-princeps": {
+      "bacdive": {
+        "query": "Oscillatoria princeps",
+        "n_strains": 0,
+        "type_strain_id": null,
+        "url": null,
+        "traits": {},
+        "note": "ไม่พบชื่อนี้ใน BacDive"
+      }
+    },
+    "paramecium-caudatum": {},
+    "penaeus-monodon": {},
+    "penicillium-chrysogenum": {},
+    "perinereis-nuntia": {},
+    "periplaneta-americana": {},
+    "physarum-polycephalum": {},
+    "phytophthora-infestans": {},
+    "pinus-kesiya": {},
+    "pisum-sativum": {},
+    "plasmodium-falciparum": {},
+    "plasmodium-vivax": {},
+    "pleurotus-ostreatus": {},
+    "pneumocystis-jirovecii": {},
+    "pomacea-canaliculata": {},
+    "psilotum-nudum": {},
+    "puccinia-graminis": {},
+    "pyrococcus-furiosus": {
+      "bacdive": {
+        "query": "Pyrococcus furiosus",
+        "n_strains": 2,
+        "type_strain_id": 16854,
+        "url": "https://bacdive.dsmz.de/strain/16854",
+        "traits": {
+          "oxy": {
+            "value": "ana",
+            "raw": "anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 95.0,
+              "max": 97.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "pyropia-yezoensis": {},
+    "rafflesia-kerrii": {},
+    "rhincodon-typus": {},
+    "rhizobium-leguminosarum": {
+      "bacdive": {
+        "query": "Rhizobium leguminosarum",
+        "n_strains": 17,
+        "type_strain_id": 138443,
+        "url": "https://bacdive.dsmz.de/strain/138443",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "neg",
+            "raw": "negative"
+          },
+          "motility": {
+            "value": null,
+            "raw": "yes"
+          },
+          "temp": {
+            "value": {
+              "min": 10.0,
+              "max": 45.0,
+              "unit": "°C"
+            },
+            "raw": "6 รายการ"
+          },
+          "salinity": {
+            "value": {
+              "min": 0.0,
+              "max": 10.0,
+              "unit": "% NaCl"
+            },
+            "raw": "1 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "rhizophagus-irregularis": {},
+    "rhizophora-apiculata": {},
+    "rhizopus-stolonifer": {},
+    "saccharomyces-cerevisiae": {},
+    "saccharum-officinarum": {},
+    "salmonella-enterica": {
+      "bacdive": {
+        "query": "Salmonella enterica",
+        "n_strains": 422,
+        "type_strain_id": 5117,
+        "url": "https://bacdive.dsmz.de/strain/5117",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "neg",
+            "raw": "negative"
+          },
+          "motility": {
+            "value": null,
+            "raw": "yes"
+          },
+          "oxy": {
+            "value": "aer",
+            "raw": "aerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 5.0,
+              "max": 41.0,
+              "unit": "°C"
+            },
+            "raw": "7 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "sargassum-polycystum": {},
+    "selaginella-involvens": {},
+    "sphagnum-palustre": {},
+    "spirogyra-varians": {},
+    "spongilla-lacustris": {},
+    "staphylococcus-aureus": {
+      "bacdive": {
+        "query": "Staphylococcus aureus",
+        "n_strains": 506,
+        "type_strain_id": 14487,
+        "url": "https://bacdive.dsmz.de/strain/14487",
+        "traits": {
+          "shape": {
+            "value": "coccus",
+            "raw": "coccus-shaped"
+          },
+          "gram": {
+            "value": "pos",
+            "raw": "positive"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "oxy": {
+            "value": "fac",
+            "raw": "facultative anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 5.0,
+              "max": 45.0,
+              "unit": "°C"
+            },
+            "raw": "6 รายการ"
+          },
+          "temp_opt": {
+            "value": "meso",
+            "raw": "optimum 37 °C"
+          }
+        },
+        "note": ""
+      }
+    },
+    "streptococcus-pneumoniae": {
+      "bacdive": {
+        "query": "Streptococcus pneumoniae",
+        "n_strains": 369,
+        "type_strain_id": 14749,
+        "url": "https://bacdive.dsmz.de/strain/14749",
+        "traits": {
+          "shape": {
+            "value": "coccus",
+            "raw": "coccus-shaped"
+          },
+          "gram": {
+            "value": "pos",
+            "raw": "positive"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "oxy": {
+            "value": "low",
+            "raw": "microaerophile"
+          },
+          "temp": {
+            "value": {
+              "min": 10.0,
+              "max": 45.0,
+              "unit": "°C"
+            },
+            "raw": "7 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "streptomyces-griseus": {
+      "bacdive": {
+        "query": "Streptomyces griseus",
+        "n_strains": 135,
+        "type_strain_id": 16229,
+        "url": "https://bacdive.dsmz.de/strain/16229",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "pos",
+            "raw": "positive"
+          },
+          "motility": {
+            "value": "none",
+            "raw": "no"
+          },
+          "oxy": {
+            "value": "aer",
+            "raw": "obligate aerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 10.0,
+              "max": 45.0,
+              "unit": "°C"
+            },
+            "raw": "7 รายการ"
+          },
+          "salinity": {
+            "value": {
+              "min": 0.0,
+              "max": 8.0,
+              "unit": "% NaCl"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "sulfolobus-acidocaldarius": {
+      "bacdive": {
+        "query": "Sulfolobus acidocaldarius",
+        "n_strains": 2,
+        "type_strain_id": 16649,
+        "url": "https://bacdive.dsmz.de/strain/16649",
+        "traits": {
+          "temp": {
+            "value": {
+              "min": 70.0,
+              "max": 70.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "taenia-solium": {},
+    "termitomyces-fuliginosus": {},
+    "thalassiosira-pseudonana": {},
+    "thermoplasma-acidophilum": {
+      "bacdive": {
+        "query": "Thermoplasma acidophilum",
+        "n_strains": 12,
+        "type_strain_id": 17017,
+        "url": "https://bacdive.dsmz.de/strain/17017",
+        "traits": {
+          "temp": {
+            "value": {
+              "min": 55.0,
+              "max": 55.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "thermus-aquaticus": {
+      "bacdive": {
+        "query": "Thermus aquaticus",
+        "n_strains": 1,
+        "type_strain_id": 16714,
+        "url": "https://bacdive.dsmz.de/strain/16714",
+        "traits": {
+          "temp": {
+            "value": {
+              "min": 70.0,
+              "max": 70.0,
+              "unit": "°C"
+            },
+            "raw": "2 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "toxoplasma-gondii": {},
+    "treponema-pallidum": {
+      "bacdive": {
+        "query": "Treponema pallidum",
+        "n_strains": 1,
+        "type_strain_id": null,
+        "url": null,
+        "traits": {},
+        "note": "พบ 1 สายพันธุ์แต่ไม่มี type strain ของชื่อนี้"
+      }
+    },
+    "trichomonas-vaginalis": {},
+    "tridacna-squamosa": {},
+    "trypanosoma-brucei": {},
+    "vibrio-cholerae": {
+      "bacdive": {
+        "query": "Vibrio cholerae",
+        "n_strains": 117,
+        "type_strain_id": 130763,
+        "url": "https://bacdive.dsmz.de/strain/130763",
+        "traits": {
+          "shape": {
+            "value": "rod",
+            "raw": "rod-shaped"
+          },
+          "gram": {
+            "value": "neg",
+            "raw": "negative"
+          },
+          "motility": {
+            "value": null,
+            "raw": "yes"
+          },
+          "oxy": {
+            "value": "fac",
+            "raw": "facultative anaerobe"
+          },
+          "temp": {
+            "value": {
+              "min": 5.0,
+              "max": 41.0,
+              "unit": "°C"
+            },
+            "raw": "4 รายการ"
+          },
+          "salinity": {
+            "value": {
+              "min": 0.0,
+              "max": 8.0,
+              "unit": "% NaCl"
+            },
+            "raw": "1 รายการ"
+          }
+        },
+        "note": ""
+      }
+    },
+    "volvariella-volvacea": {},
+    "volvox-carteri": {},
+    "vorticella-campanula": {},
+    "welwitschia-mirabilis": {},
+    "wolffia-globosa": {},
+    "zea-mays": {}
+  },
+  "sources": {
+    "bacdive": "https://api.bacdive.dsmz.de/v2",
+    "iucn": "https://api.iucnredlist.org/api/v4"
+  },
+  "iucn_error": "IUCN ปฏิเสธ token (HTTP 401)"
+}

@@ -2151,6 +2151,411 @@ def cmd_import_research(args):
     return 1 if rep.errors else 0
 
 
+# ---------------------------------------------------------------- fetch-traits / traits-diff (BacDive v2, IUCN Red List API v4)
+
+BACDIVE_API = "https://api.bacdive.dsmz.de/v2"
+IUCN_API = "https://api.iucnredlist.org/api/v4"
+BACDIVE_MIN_INTERVAL = 0.3
+IUCN_MIN_INTERVAL = 0.5
+BACDIVE_GROUPS = ("bacteria", "archaea")
+IUCN_GROUPS = ("plants", "animals")
+BACDIVE_CHUNK = 40          # จำนวน ID ต่อคำขอ fetch (BacDive รับได้ถึง 100 แต่คำตอบใหญ่)
+BACDIVE_MAX_PAGES = 30      # รายการ ID ของชนิดหนึ่งมากสุดกี่หน้า (หน้าละ 100)
+TRAITS_FETCHED = "generated/traits-fetched.json"
+IUCN_CATEGORIES = ("EX", "EW", "CR", "EN", "VU", "NT", "LC", "DD", "NE")
+
+
+def traits_fetched_path(data_dir):
+    return os.path.join(data_dir, TRAITS_FETCHED)
+
+
+def load_env(path=None):
+    """อ่านไฟล์ .env แบบ KEY=VALUE (ไม่ใช้ค่านี้พิมพ์ออกที่ใด) ตัวแปรสภาพแวดล้อมมาก่อนไฟล์"""
+    env = {}
+    path = path or os.path.join(ROOT, ".env")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    env[k.strip()] = v.strip().strip('"').strip("'")
+    for k in ("IUCN_TOKEN",):
+        if os.environ.get(k):
+            env[k] = os.environ[k]
+    return env
+
+
+def http_get_verified(url, timeout=60, headers=None):
+    """เหมือน http_get แต่ถ้า Python ตรวจใบรับรองไม่ผ่านเพราะเซิร์ฟเวอร์ส่งสายใบรับรองไม่ครบ (api.bacdive.dsmz.de บน Windows)
+    จะลอง curl ซึ่งตรวจใบรับรองเหมือนกันแต่ดึงใบรับรองกลางเองได้ ไม่ปิดการตรวจใบรับรอง"""
+    import ssl
+    req = urllib.request.Request(url, headers=dict({"User-Agent": USER_AGENT, "Accept": "application/json"}, **(headers or {})))
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8")
+    except urllib.error.URLError as e:
+        if not isinstance(getattr(e, "reason", None), ssl.SSLCertVerificationError):
+            raise
+    import subprocess
+    cmd = ["curl", "-sS", "-f", "-m", str(timeout), "-H", "Accept: application/json", "-A", USER_AGENT] + [x for k, v in (headers or {}).items() for x in ("-H", "%s: %s" % (k, v))] + [url]
+    out = subprocess.run(cmd, capture_output=True)
+    if out.returncode != 0:
+        raise urllib.error.URLError("curl: %s" % out.stderr.decode("utf-8", "replace").strip()[:120])
+    return out.stdout.decode("utf-8")
+
+
+def as_list(x):
+    return x if isinstance(x, list) else ([] if x in (None, "") else [x])
+
+
+def parse_numbers(text):
+    """'25-45' -> (25.0, 45.0) ; '37' -> (37.0, 37.0) ; ไม่มีตัวเลข -> None"""
+    nums = [float(n) for n in re.findall(r"\d+(?:\.\d+)?", str(text).replace(",", "."))]
+    return (min(nums), max(nums)) if nums else None
+
+
+def salt_percent(text):
+    """ความเข้มข้นเกลือเป็น % (w/v) จาก '2.5 %', '100 g/L', '0.5 M' ไม่รู้หน่วยคืน None"""
+    s = str(text).lower()
+    rng = parse_numbers(s)
+    if not rng:
+        return None
+    if "%" in s:
+        k = 1.0
+    elif "g/l" in s or "g/ l" in s:
+        k = 0.1
+    elif re.search(r"\bm\b|mol", s):
+        k = 5.844
+    else:
+        return None
+    return (rng[0] * k, rng[1] * k)
+
+
+BACDIVE_SHAPES = {"rod-shaped": "rod", "coccus-shaped": "coccus", "sphere-shaped": "coccus", "spiral-shaped": "spiral", "helical-shaped": "spiral",
+                  "curved-shaped": "curved", "vibrio-shaped": "curved", "filament-shaped": "filament", "pleomorphic": "irregular"}
+BACDIVE_GRAM = {"negative": "neg", "positive": "pos"}
+BACDIVE_OXY = {"aerobe": "aer", "obligate aerobe": "aer", "anaerobe": "ana", "obligate anaerobe": "ana", "facultative anaerobe": "fac",
+               "facultative aerobe": "fac", "microaerophile": "low", "microaerotolerant": "low"}
+
+
+def temp_category(optimum):
+    """อุณหภูมิที่เหมาะ (°C) -> ค่า topt ใน groups.json"""
+    return "psychro" if optimum < 20 else "meso" if optimum <= 45 else "thermo" if optimum <= 80 else "hyper"
+
+
+def normalize_bacdive(rec):
+    """แปลงระเบียน BacDive ของสายพันธุ์หนึ่งเป็นค่าลักษณะแบบกลาง: {คีย์: {"value", "raw"}} เฉพาะที่ BacDive ระบุ
+    value = ค่าที่ตรงกับ groups.json (ถ้าแปลงได้) ไม่งั้นเป็น None แล้วดูที่ raw"""
+    out = {}
+    morph = rec.get("Morphology") or {}
+    cm = as_list(morph.get("cell morphology"))
+    def first(key):
+        for d in cm:
+            if isinstance(d, dict) and d.get(key):
+                return d[key]
+        return None
+    shape = first("cell shape")
+    if shape:
+        out["shape"] = {"value": BACDIVE_SHAPES.get(str(shape).lower()), "raw": shape}
+    gram = first("gram stain")
+    if gram:
+        out["gram"] = {"value": BACDIVE_GRAM.get(str(gram).lower()), "raw": gram}
+    mot = first("motility")
+    if mot:
+        flag = first("flagellum arrangement")
+        value = "none" if str(mot).lower() == "no" else ("flagella" if str(mot).lower() == "yes" and flag else None)
+        out["motility"] = {"value": value, "raw": "%s%s" % (mot, " (flagellum: %s)" % flag if flag else "")}
+    phys = rec.get("Physiology and metabolism") or {}
+    for d in as_list(phys.get("oxygen tolerance")):
+        if isinstance(d, dict) and d.get("oxygen tolerance"):
+            raw = d["oxygen tolerance"]
+            out["oxy"] = {"value": BACDIVE_OXY.get(str(raw).lower()), "raw": raw}
+            break
+    for d in as_list(phys.get("spore formation")):
+        if isinstance(d, dict) and d.get("spore formation") is not None:
+            raw = str(d["spore formation"]).lower()
+            kind = d.get("type of spore") or ""
+            value = "no" if raw == "no" else ("yes" if raw == "yes" and (not kind or "endospore" in str(kind).lower()) else None)
+            out["endospore"] = {"value": value, "raw": "%s%s" % (raw, " (%s)" % kind if kind else "")}
+            break
+    growth = rec.get("Culture and growth conditions") or {}
+    grow_t, opt_t = [], []
+    for d in as_list(growth.get("culture temp")):
+        r = parse_numbers(d.get("temperature")) if isinstance(d, dict) else None
+        if r and d.get("growth") != "no":
+            (opt_t if d.get("type") == "optimum" else grow_t).append(r)
+    allt = grow_t + opt_t
+    if allt:
+        out["temp"] = {"value": {"min": min(a for a, _ in allt), "max": max(b for _, b in allt), "unit": "°C"}, "raw": "%d รายการ" % len(allt)}
+    if opt_t:
+        mid = sum((a + b) / 2 for a, b in opt_t) / len(opt_t)
+        out["temp_opt"] = {"value": temp_category(mid), "raw": "optimum %s °C" % ", ".join("%g" % ((a + b) / 2) for a, b in opt_t)}
+    ph = [parse_numbers(d.get("pH")) for d in as_list(growth.get("culture pH")) if isinstance(d, dict) and d.get("ability") != "no"]
+    ph = [p for p in ph if p]
+    if ph:
+        out["ph"] = {"value": {"min": min(a for a, _ in ph), "max": max(b for _, b in ph), "unit": "pH"}, "raw": "%d รายการ" % len(ph)}
+    salt = []
+    for d in as_list(phys.get("halophily")):
+        if isinstance(d, dict) and str(d.get("salt", "")).lower() == "nacl" and d.get("growth") != "no":
+            r = salt_percent(d.get("concentration"))
+            if r:
+                salt.append(r)
+    if salt:
+        out["salinity"] = {"value": {"min": round(min(a for a, _ in salt), 2), "max": round(max(b for _, b in salt), 2), "unit": "% NaCl"}, "raw": "%d รายการ" % len(salt)}
+    return out
+
+
+def bacdive_ids(fx, genus, species):
+    """รายการ BacDive ID ของชนิด (เรียงจากน้อยไปมาก) และจำนวนทั้งหมด ไม่พบคืน ([], 0)"""
+    url = "%s/taxon/%s/%s" % (BACDIVE_API, urllib.parse.quote(genus), urllib.parse.quote(species))
+    ids, total, page = [], 0, 0
+    while url and page < BACDIVE_MAX_PAGES:
+        try:
+            d = json.loads(fx.get("bacdive", "taxon-%s-%s-p%d" % (genus, species, page), url))
+        except FetchError as e:
+            if "HTTP 404" in str(e):
+                return [], 0
+            raise
+        res = d.get("results") or []
+        ids += [int(i) for i in (res.keys() if isinstance(res, dict) else res)]
+        total = d.get("count", len(ids))
+        url = d.get("next")
+        page += 1
+    return sorted(set(ids)), total
+
+
+def bacdive_same_species(rec_name, name):
+    """ชื่อชนิดใน BacDive ตรงกับที่ค้น: ชื่อเดียวกัน หรือชนิดย่อยต้นแบบ (Genus species subsp. species) ซึ่งเป็น type strain ของชนิดนั้น"""
+    r, n = str(rec_name or "").lower().split(), name.lower().split()
+    return r == n or (len(r) == 4 and r[:2] == n and r[2] in ("subsp.", "subspecies") and r[3] == n[1])
+
+
+def fetch_bacdive(fx, name):
+    """หา type strain ของชนิดใน BacDive แล้วแปลงลักษณะ ไม่พบ type strain = ไม่เดา (ตัวเลือกว่าง)"""
+    entry = {"query": name, "n_strains": 0, "type_strain_id": None, "url": None, "traits": {}, "note": ""}
+    genus, _, species = name.partition(" ")
+    species = species.split(" ")[0]
+    ids, total = bacdive_ids(fx, genus, species)
+    entry["n_strains"] = total
+    if not ids:
+        entry["note"] = "ไม่พบชื่อนี้ใน BacDive"
+        return entry
+    other_ts = None
+    for i in range(0, len(ids), BACDIVE_CHUNK):
+        chunk = ids[i:i + BACDIVE_CHUNK]
+        d = json.loads(fx.get("bacdive", "fetch-%s-%d" % (name, chunk[0]), "%s/fetch/%s" % (BACDIVE_API, ";".join(map(str, chunk)))))
+        res = d.get("results") or {}
+        for sid, rec in (res.items() if isinstance(res, dict) else enumerate(res)):
+            nt = rec.get("Name and taxonomic classification") or {}
+            if str(nt.get("type strain", "")).lower() != "yes":
+                continue
+            if bacdive_same_species(nt.get("species"), name):
+                entry.update(type_strain_id=int(rec.get("General", {}).get("BacDive-ID", sid)), traits=normalize_bacdive(rec))
+                entry["url"] = "https://bacdive.dsmz.de/strain/%d" % entry["type_strain_id"]
+                return entry
+            other_ts = other_ts or (nt.get("species"), sid)
+    entry["note"] = "พบ %d สายพันธุ์แต่ไม่มี type strain ของชื่อนี้" % total + (" (type strain ที่พบเป็นของ %s ไม่ใช้ ไม่เดา)" % other_ts[0] if other_ts else "")
+    return entry
+
+
+class IucnAuthError(Exception):
+    pass
+
+
+def fetch_iucn(fx, name):
+    """IUCN Red List API v4: การประเมินล่าสุดระดับโลกของชนิด คืน {category, year, url, assessment_id} หรือ note ว่าไม่พบ"""
+    entry = {"query": name, "category": None, "assessed": None, "url": None, "assessment_id": None, "note": ""}
+    genus, _, species = name.partition(" ")
+    url = IUCN_API + "/taxa/scientific_name?" + urllib.parse.urlencode({"genus_name": genus, "species_name": species.split(" ")[0]})
+    try:
+        d = json.loads(fx.get("iucn", "taxon-" + name, url))
+    except FetchError as e:
+        if "HTTP 401" in str(e) or "HTTP 403" in str(e):
+            raise IucnAuthError("IUCN ปฏิเสธ token (%s)" % str(e).rsplit(": ", 1)[-1])
+        if "HTTP 404" in str(e):
+            entry["note"] = "ไม่พบชื่อนี้ใน IUCN"
+            return entry
+        raise
+    assessments = d.get("assessments") or []
+    if not assessments:
+        entry["note"] = "IUCN ยังไม่มีการประเมินของชื่อนี้"
+        return entry
+    def is_global(a):
+        return any(str((s.get("description") or {}).get("en", "")).lower() == "global" for s in as_list(a.get("scopes")) if isinstance(s, dict)) or not a.get("scopes")
+    cands = [a for a in assessments if a.get("latest") and is_global(a)] or [a for a in assessments if a.get("latest")] or assessments
+    a = max(cands, key=lambda x: str(x.get("year_published") or ""))
+    entry.update(category=a.get("red_list_category_code"), assessed=str(a.get("year_published") or "") or None,
+                 url=a.get("url"), assessment_id=a.get("assessment_id"))
+    if entry["category"] not in IUCN_CATEGORIES:
+        entry["note"] = "รหัสหมวด %r ไม่รู้จัก" % entry["category"]
+        entry["category"] = None
+    if entry["url"] and not str(entry["url"]).startswith("https://"):
+        entry["url"] = "https://" + str(entry["url"]).split("://")[-1]
+    return entry
+
+
+def cmd_fetch_traits(args, fetcher=None, iucn_fetcher=None, env=None):
+    env = env if env is not None else load_env()
+    sources = {x.strip() for x in args.source.split(",") if x.strip()}
+    wanted = {x.strip() for x in args.only.split(",") if x.strip()} if args.only else None
+    path = traits_fetched_path(args.data)
+    result = load_json(path) if os.path.exists(path) else {"organisms": {}}
+    bfx = fetcher or Fetcher(args.cache, args.refresh, getter=http_get_verified, intervals={"bacdive": BACDIVE_MIN_INTERVAL})
+    ifx = iucn_fetcher
+    token = env.get("IUCN_TOKEN")
+    if ifx is None and "iucn" in sources:
+        if token:
+            ifx = Fetcher(args.cache, args.refresh, getter=lambda u: http_get_verified(u, headers={"Authorization": token}), intervals={"iucn": IUCN_MIN_INTERVAL})
+        else:
+            print("ไม่มี IUCN_TOKEN ใน .env จึงข้าม IUCN")
+    iucn_dead = None
+    counts = Counter()
+    for o in load_organisms(args.data):
+        if wanted is not None and o["id"] not in wanted:
+            continue
+        names = [o["scientific_name"]] + ([o["accepted_name"]] if o.get("accepted_name") else [])
+        rec = result["organisms"].setdefault(o["id"], {})
+        if "bacdive" in sources and o["group"] in BACDIVE_GROUPS:
+            for n in names:
+                e = fetch_bacdive(bfx, n)
+                if e["type_strain_id"] or n == names[-1]:
+                    break
+            rec["bacdive"] = e
+            counts["bacdive ได้ค่า" if e["type_strain_id"] else "bacdive ไม่มี"] += 1
+            print("[bacdive] %-34s %s" % (o["id"], ("type strain %d, %d ลักษณะ" % (e["type_strain_id"], len(e["traits"]))) if e["type_strain_id"] else e["note"]))
+        if ifx is not None and "iucn" in sources and o["group"] in IUCN_GROUPS and iucn_dead is None:
+            try:
+                for n in names:
+                    e = fetch_iucn(ifx, n)
+                    if e["category"] or n == names[-1]:
+                        break
+                rec["iucn"] = e
+                counts["iucn ได้ค่า" if e["category"] else "iucn ไม่มี"] += 1
+                print("[iucn]    %-34s %s" % (o["id"], ("%s (%s)" % (e["category"], e["assessed"])) if e["category"] else e["note"]))
+            except IucnAuthError as err:
+                iucn_dead = str(err)
+                print("หยุดดึง IUCN: %s ตรวจ IUCN_TOKEN ใน .env" % err)
+    result["sources"] = {"bacdive": BACDIVE_API, "iucn": IUCN_API}
+    if iucn_dead:
+        result["iucn_error"] = iucn_dead
+    elif "iucn_error" in result and ifx is not None:
+        del result["iucn_error"]
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps({"organisms": dict(sorted(result["organisms"].items())), **{k: v for k, v in result.items() if k != "organisms"}}, ensure_ascii=False, indent=2) + "\n")
+    print("สรุป: %s; เรียก API %d ครั้ง ใช้ cache %d ครั้ง; เขียน %s" % (", ".join("%s %d" % kv for kv in sorted(counts.items())) or "ไม่มีรายการ",
+                                                                  bfx.stats["api"] + (ifx.stats["api"] if ifx else 0), bfx.stats["cache"] + (ifx.stats["cache"] if ifx else 0), path))
+    return 0 if not iucn_dead else 2
+
+
+# ---- traits-diff
+
+DIFF_KEYS = {  # ค่ากลางจาก BacDive -> คีย์ลักษณะของกลุ่ม (ถ้ากลุ่มไม่มีคีย์นั้นก็ไม่เทียบ)
+    "bacteria": {"shape": "shape", "gram": "gram", "oxy": "oxy", "motility": "motility", "endospore": "endospore", "temp_opt": "topt"},
+    "archaea": {"shape": "shape", "oxy": "oxy", "temp": "temp", "ph": "ph", "salinity": "salinity"},
+}
+DIFF_CATEGORIES = [("same", "ตรงกัน"), ("fill", "เราว่างแต่ API มี"), ("differ", "ต่างกัน"), ("missing", "API ไม่มี")]
+
+
+def fmt_trait(v):
+    if isinstance(v, dict) and "min" in v:
+        return "%g–%g %s" % (v["min"], v["max"], v.get("unit", "")) if v["min"] != v["max"] else "%g %s" % (v["min"], v.get("unit", ""))
+    return str(v)
+
+
+def same_trait(a, b):
+    if isinstance(a, dict) and isinstance(b, dict):
+        return a.get("min") == b.get("min") and a.get("max") == b.get("max")
+    return a == b
+
+
+def traits_diff_data(data_dir):
+    """เทียบ data/generated/traits-fetched.json กับ traits และ iucn ใน data/organisms
+    คืน {"rows": [{cat, id, group, trait, ours, api, raw, url}], "no_record": [...], "summary": Counter}"""
+    fpath = traits_fetched_path(data_dir)
+    fetched = load_json(fpath).get("organisms", {}) if os.path.exists(fpath) else {}
+    rows, no_record = [], []
+    for o in load_organisms(data_dir):
+        g, rec = o["group"], fetched.get(o["id"], {})
+        if g in DIFF_KEYS:
+            b = rec.get("bacdive")
+            if not b or not b.get("type_strain_id"):
+                no_record.append((o["id"], "bacdive", (b or {}).get("note") or "ยังไม่ได้ดึง"))
+            for gen_key, trait in DIFF_KEYS[g].items():
+                ours = (o.get("traits") or {}).get(trait)
+                api = (b or {}).get("traits", {}).get(gen_key) if b else None
+                api_v = None if api is None else (api["value"] if api["value"] is not None else "(ยังแปลงเป็นค่าของเราไม่ได้) " + str(api["raw"]))
+                if ours is None and api is None:
+                    continue
+                row = {"id": o["id"], "group": g, "trait": trait, "ours": ours, "api": api_v, "raw": api["raw"] if api else None, "url": (b or {}).get("url")}
+                if api is None:
+                    row["cat"] = "missing"
+                elif ours is None:
+                    row["cat"] = "fill"
+                elif api["value"] is not None and same_trait(ours, api["value"]):
+                    row["cat"] = "same"
+                else:
+                    row["cat"] = "differ"
+                rows.append(row)
+        if g in IUCN_GROUPS:
+            i = rec.get("iucn")
+            ours = o.get("iucn")
+            if not i or not i.get("category"):
+                err = load_json(fpath).get("iucn_error") if os.path.exists(fpath) else None
+                no_record.append((o["id"], "iucn", (i or {}).get("note") or ("ยังไม่ได้ดึง" + (": " + err if err else ""))))
+                if ours:
+                    rows.append({"id": o["id"], "group": g, "trait": "iucn", "ours": ours.get("category"), "api": None, "raw": None, "url": None, "cat": "missing"})
+                continue
+            row = {"id": o["id"], "group": g, "trait": "iucn", "ours": ours.get("category") if ours else None, "api": i["category"],
+                   "raw": "ประเมิน %s" % i.get("assessed"), "url": i.get("url")}
+            row["cat"] = "fill" if not ours else ("same" if ours.get("category") == i["category"] else "differ")
+            rows.append(row)
+    summary = Counter(r["cat"] for r in rows)
+    return {"rows": rows, "no_record": no_record, "summary": summary}
+
+
+def build_traits_diff_report(data_dir):
+    d = traits_diff_data(data_dir)
+    L = ["# เทียบลักษณะกับ BacDive และ IUCN", "",
+         "สร้างจาก `python scripts/microsearch.py traits-diff` (ข้อมูลดิบ `data/generated/traits-fetched.json`)",
+         "รายงานนี้ **ไม่แก้ข้อมูลอัตโนมัติ** ค่าที่ API ให้ต้องผ่านการตรวจก่อนนำไปใส่ใน `data/organisms`", "",
+         "BacDive ใช้ type strain ของแต่ละชนิด ส่วน IUCN ใช้การประเมินล่าสุดระดับโลก", "", "## สรุป", "", "| หมวด | จำนวน |", "| --- | --- |"]
+    for key, label in DIFF_CATEGORIES:
+        L.append("| %s | %d |" % (label, d["summary"].get(key, 0)))
+    L += ["| ชนิดที่ไม่มีระเบียนจาก API เลย | %d |" % len(d["no_record"]), ""]
+    for key, label in DIFF_CATEGORIES:
+        rows = [r for r in d["rows"] if r["cat"] == key]
+        L += ["## %s (%d)" % (label, len(rows)), ""]
+        if not rows:
+            L += ["ไม่มี", ""]
+            continue
+        L += ["| ชนิด | ลักษณะ | ของเรา | API | ค่าดิบและแหล่ง |", "| --- | --- | --- | --- | --- |"]
+        for r in rows:
+            src = ("[%s](%s)" % (r["raw"], r["url"]) if r["url"] else (r["raw"] or "")) if r["raw"] or r["url"] else ""
+            L.append("| `%s` | %s | %s | %s | %s |" % (r["id"], r["trait"], "—" if r["ours"] is None else fmt_trait(r["ours"]), "—" if r["api"] is None else fmt_trait(r["api"]), src))
+        L.append("")
+    L += ["## ชนิดที่ไม่มีระเบียนจาก API", ""]
+    if d["no_record"]:
+        L += ["| ชนิด | แหล่ง | เหตุผล |", "| --- | --- | --- |"] + ["| `%s` | %s | %s |" % x for x in d["no_record"]]
+    else:
+        L.append("ไม่มี")
+    L.append("")
+    return "\n".join(L), d
+
+
+def cmd_traits_diff(args):
+    text, d = build_traits_diff_report(args.data)
+    os.makedirs(os.path.dirname(args.out), exist_ok=True)
+    with open(args.out, "w", encoding="utf-8", newline="\n") as f:
+        f.write(text)
+    print("เขียน %s" % args.out)
+    for key, label in DIFF_CATEGORIES:
+        print("  %-22s %d" % (label, d["summary"].get(key, 0)))
+    print("  ชนิดที่ไม่มีระเบียนจาก API เลย %d" % len(d["no_record"]))
+    return 0
+
+
 # ---------------------------------------------------------------- main
 
 def build_parser():
@@ -2168,6 +2573,15 @@ def build_parser():
     s.add_argument("--only", help="ดึงเฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--cache", default=CACHE, help=argparse.SUPPRESS)
+    s = sub.add_parser("fetch-traits", help="ดึงลักษณะจาก BacDive (แบคทีเรีย อาร์เคีย) และสถานภาพ IUCN (พืช สัตว์) ลง data/generated/traits-fetched.json (cache ใน cache/)")
+    s.add_argument("--refresh", action="store_true", help="ไม่ใช้ cache ยิง API ใหม่")
+    s.add_argument("--only", help="เฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
+    s.add_argument("--source", default="bacdive,iucn", help="bacdive, iucn หรือทั้งสอง (ค่าเริ่มต้น)")
+    s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
+    s.add_argument("--cache", default=CACHE, help=argparse.SUPPRESS)
+    s = sub.add_parser("traits-diff", help="เทียบ traits-fetched.json กับ traits และ iucn ใน data/organisms -> reports/traits-diff.md (ไม่แก้ข้อมูล)")
+    s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
+    s.add_argument("--out", default=os.path.join(REPORTS, "traits-diff.md"), help=argparse.SUPPRESS)
     s = sub.add_parser("images", help="หารูปจาก Wikimedia Commons ต่อชนิด (CC0, CC BY, CC BY-SA, Public domain) หรือตรวจด้วย --check")
     s.add_argument("--check", action="store_true", help="ตรวจเครดิต license ขนาด และไฟล์ ไม่ดึงอะไร")
     s.add_argument("--only", help="เฉพาะ id เหล่านี้ คั่นด้วยจุลภาค")
@@ -2216,6 +2630,10 @@ def main(argv=None):
         return cmd_coverage(args)
     if args.cmd == "images":
         return cmd_images(args)
+    if args.cmd == "fetch-traits":
+        return cmd_fetch_traits(args)
+    if args.cmd == "traits-diff":
+        return cmd_traits_diff(args)
     if args.cmd == "import-research":
         return cmd_import_research(args)
     return cmd_validate(args)
