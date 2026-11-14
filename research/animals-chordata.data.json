@@ -1,0 +1,556 @@
+{
+ "betta-splendens": {
+  "authority": "Regan, 1910",
+  "synonyms": [
+   "Micracanthus marchei"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ปลากัดกับความก้าวร้าว",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Betta splendens Regan, 1910",
+    "url": "https://www.gbif.org/species/2393998",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Clotfelter ED et al. Serotonin decreases aggression via 5-HT1A receptors in the fighting fish Betta splendens. Pharmacol Biochem Behav 2007;87:222-231",
+    "url": "https://doi.org/10.1016/j.pbb.2007.04.018",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Mabee PM, Trendler TA. Development of the cranium and paired fins in Betta splendens (Teleostei: Percomorpha): intraspecific variation and interspecific comparisons. J Morphol 1996;227:249-287",
+    "url": "https://doi.org/10.1002/(sici)1097-4687(199603)227:3<249::aid-jmor1>3.0.co;2-1",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Dzieweczynski TL, Hebert OL. Fluoxetine alters behavioral consistency of aggression and courtship in male Siamese fighting fish, Betta splendens. Physiol Behav 2012;107:92-97",
+    "url": "https://doi.org/10.1016/j.physbeh.2012.06.007",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "hoplobatrachus-rugulosus": {
+  "authority": "(Wiegmann, 1834)",
+  "synonyms": [
+   "Limnonectes rugulosus",
+   "Hoplobatrachus chinensis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "กบกับเปปไทด์จากผิวหนัง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Hoplobatrachus rugulosus (Wiegmann, 1834)",
+    "url": "https://www.gbif.org/species/2430382",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Ojo OO et al. Tigerinin-1R: a potent, non-toxic insulin-releasing peptide isolated from the skin of the Asian frog, Hoplobatrachus rugulosus. Diabetes Obes Metab 2011;13:1114-1122",
+    "url": "https://doi.org/10.1111/j.1463-1326.2011.01470.x",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Pili AN et al. Niche shifts and environmental non-equilibrium undermine the usefulness of ecological niche models for invasion risk assessments. Sci Rep 2020;10:7972",
+    "url": "https://doi.org/10.1038/s41598-020-64568-2",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "elephas-maximus": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [
+   "Elephas asiaticus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no",
+   "realm": "land"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ช้างกับกระจก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Elephas maximus Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/5219461",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Plotnik JM, de Waal FBM, Reiss D. Self-recognition in an Asian elephant. PNAS 2006;103:17053-17057",
+    "url": "https://doi.org/10.1073/pnas.0608062103",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Plotnik JM et al. Elephants know when they need a helping trunk in a cooperative task. PNAS 2011;108:5116-5121",
+    "url": "https://doi.org/10.1073/pnas.1101765108",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Stanton JJ et al. Detection of pathogenic elephant endotheliotropic herpesvirus in routine trunk washes from healthy adult Asian elephants (Elephas maximus) by use of a real-time quantitative polymerase chain reaction assay. Am J Vet Res 2010;71:925-933",
+    "url": "https://doi.org/10.2460/ajvr.71.8.925",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "rhincodon-typus": {
+  "authority": "Smith, 1828",
+  "synonyms": [
+   "Rhiniodon typus",
+   "Rhineodon typus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no",
+   "realm": "marine"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ],
+   [
+    "ช่วงแผ่นกรองในคอหอย",
+    "20 แผ่น ช่องตาข่ายกว้างเฉลี่ย 1.2 มิลลิเมตร"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    4
+   ]
+  ],
+  "asideTitle": "ปลาที่ใหญ่ที่สุดในโลก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Rhincodon typus Smith, 1828",
+    "url": "https://www.gbif.org/species/2417522",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Rowat D, Brooks KS. A review of the biology, fisheries and conservation of the whale shark Rhincodon typus. J Fish Biol 2012;80:1019-1056",
+    "url": "https://doi.org/10.1111/j.1095-8649.2012.03252.x",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Read TD et al. Draft sequencing and assembly of the genome of the world's largest fish, the whale shark: Rhincodon typus Smith 1828. BMC Genomics 2017;18:532",
+    "url": "https://doi.org/10.1186/s12864-017-3926-9",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Motta PJ et al. Feeding anatomy, filter-feeding rate, and diet of whale sharks Rhincodon typus during surface ram filter feeding off the Yucatan Peninsula, Mexico. Zoology 2010;113:199-212",
+    "url": "https://doi.org/10.1016/j.zool.2009.12.001",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "chelonia-mydas": {
+  "authority": "(Linnaeus, 1758)",
+  "synonyms": [
+   "Chelone mydas",
+   "Caretta esculenta"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no",
+   "realm": "marine"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "เต่าที่กลับมาวางไข่ที่ถิ่นเกิด",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Chelonia mydas (Linnaeus, 1758)",
+    "url": "https://www.gbif.org/species/2442225",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Wang Z et al. The draft genomes of soft-shell turtle and green sea turtle yield insights into the development and evolution of the turtle-specific body plan. Nat Genet 2013;45:701-706",
+    "url": "https://doi.org/10.1038/ng.2615",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Bowen BW, Karl SA. Population genetics and phylogeography of sea turtles. Mol Ecol 2007;16:4886-4907",
+    "url": "https://doi.org/10.1111/j.1365-294x.2007.03542.x",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Schuyler Q et al. Global analysis of anthropogenic debris ingestion by sea turtles. Conserv Biol 2014;28:129-139",
+    "url": "https://doi.org/10.1111/cobi.12126",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "gallus-gallus": {
+  "authority": "(Linnaeus, 1758)",
+  "synonyms": [
+   "Gallus domesticus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ],
+   [
+    "ขนาดจีโนมโดยประมาณ",
+    "ราว 1,000 ล้านคู่เบส มี 20,000 ถึง 23,000 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ไก่กับจีโนมสัตว์น้ำคร่ำ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Gallus gallus (Linnaeus, 1758)",
+    "url": "https://www.gbif.org/species/9326020",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "International Chicken Genome Sequencing Consortium. Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution. Nature 2004;432:695-716",
+    "url": "https://doi.org/10.1038/nature03154",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "homo-sapiens": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [
+   "Homo americanus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ],
+   [
+    "จีโนมฉบับสมบูรณ์ (Build 35)",
+    "2.85 พันล้านนิวคลีโอไทด์ มีช่องว่าง 341 ช่อง"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "จีโนมมนุษย์ที่เสร็จสมบูรณ์",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Homo sapiens Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/2436436",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "International Human Genome Sequencing Consortium. Finishing the euchromatic sequence of the human genome. Nature 2004;431:931-945",
+    "url": "https://doi.org/10.1038/nature03001",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "ornithorhynchus-anatinus": {
+  "authority": "(Shaw, 1799)",
+  "synonyms": [
+   "Platypus anatinus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "สัตว์ที่ผสมลักษณะสองกลุ่ม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Ornithorhynchus anatinus (Shaw, 1799)",
+    "url": "https://www.gbif.org/species/2433376",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Warren WC et al. Genome analysis of the platypus reveals unique signatures of evolution. Nature 2008;453:175-183",
+    "url": "https://doi.org/10.1038/nature06936",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "mus-musculus": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [
+   "Mus domesticus",
+   "Mus molossinus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "หนูกับจีโนมมนุษย์",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Mus musculus Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/7429082",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Mouse Genome Sequencing Consortium. Initial sequencing and comparative analysis of the mouse genome. Nature 2002;420:520-562",
+    "url": "https://doi.org/10.1038/nature01262",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "danio-rerio": {
+  "authority": "(Hamilton, 1822)",
+  "synonyms": [
+   "Brachydanio rerio",
+   "Barilius rerio"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ปลาที่ตัวอ่อนใส",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Danio rerio (Hamilton, 1822)",
+    "url": "https://www.gbif.org/species/9797255",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Howe K et al. The zebrafish reference genome sequence and its relationship to the human genome. Nature 2013;496:498-503",
+    "url": "https://doi.org/10.1038/nature12111",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "hippocampus-kuda": {
+  "authority": "Bleeker, 1852",
+  "synonyms": [
+   "Hippocampus chinensis",
+   "Hippocamphus kuda"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no",
+   "realm": "marine"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ม้าน้ำกับไมโครพลาสติก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Hippocampus kuda Bleeker, 1852",
+    "url": "https://www.gbif.org/species/5201037",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Lourie SA, Green DM, Vincent ACJ. Dispersal, habitat differences, and comparative phylogeography of Southeast Asian seahorses (Syngnathidae: Hippocampus). Mol Ecol 2005;14:1073-1094",
+    "url": "https://doi.org/10.1111/j.1365-294x.2005.02464.x",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Jinhui S et al. Effects of microplastics and attached heavy metals on growth, immunity, and heavy metal accumulation in the yellow seahorse, Hippocampus kuda Bleeker. Mar Pollut Bull 2019;149:110510",
+    "url": "https://doi.org/10.1016/j.marpolbul.2019.110510",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "ciona-intestinalis": {
+  "authority": "(Linnaeus, 1767)",
+  "synonyms": [
+   "Ascidia intestinalis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ],
+   [
+    "จำนวนยีนเข้ารหัสโปรตีนโดยประมาณ",
+    "ราว 16,000 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "คอร์เดตที่ไม่มีกระดูกสันหลัง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Ciona intestinalis (Linnaeus, 1767)",
+    "url": "https://www.gbif.org/species/2329622",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Dehal P et al. The draft genome of Ciona intestinalis: insights into chordate and vertebrate origins. Science 2002;298:2157-2167",
+    "url": "https://doi.org/10.1126/science.1080049",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ }
+}
