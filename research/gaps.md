@@ -334,5 +334,5 @@ IUCN: ยังไม่มี token (เฟส R2) จึงตั้ง `iucn:
 | ทุกชนิด | ผู้ตั้งชื่อและชื่อพ้องมาจาก GBIF เท่านั้น ยังไม่ได้ตรวจกับ MycoBank หรือ Index Fungorum ชื่อพ้องที่ GBIF ระบุมีจำนวนมากสำหรับหลายชนิด ผมเลือกใส่ 2 ถึง 3 ชื่อ ไม่ได้ตรวจว่าชื่อไหนยังพบในตำรา |
 | aspergillus-oryzae | GBIF จัดเป็นชื่อพ้องของ *Aspergillus flavus* ซึ่งตรงกับ `accepted_name` ที่มีอยู่แล้ว ผู้ตั้งชื่อ (Ahlb.) Cohn เป็นของชื่อ *oryzae* Machida 2005 ระบุว่าสองชนิดนี้ต่างกัน (ชนิดแรกไม่สร้างอะฟลาทอกซิน) ควรให้คุณตัดสินว่าจะคงสถานะนี้ไว้ |
 | candida-albicans | มีชื่อพ้องใน GBIF มาก ใส่ 2 ชื่อ |
-| cordyceps-militaris | งานปี 2020 ย้ายหลายชนิดออกจากสกุล *Cordyceps* ไม่ได้ตรวจว่าชื่อที่ยอมรับปัจจุบันของชนิดนี้ต่างจากชื่อในตำราหรือไม่ GBIF ยังยอมรับ *Cordyceps militaris* |
+| cordyceps-militaris | GBIF ยอมรับ *Cordyceps militaris* ไม่ได้ตรวจกับ MycoBank ว่ามีการย้ายสกุลหรือไม่ จึงไม่ใส่ `accepted_name` |
 | volvariella-volvacea | GBIF ยอมรับ *Volvariella volvacea* ไม่ได้ตรวจว่ามีงานย้ายสกุลหรือไม่ |
