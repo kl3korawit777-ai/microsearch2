@@ -60,9 +60,7 @@
    "Vibrio albensis"
   ],
   "accepted_name": null,
-  "traits": {
-   "shape": "rod"
-  },
+  "traits": {},
   "traitsExtra": [
    [
     "จีโนม (สายพันธุ์ El Tor N16961)",
@@ -194,7 +192,6 @@
   ],
   "accepted_name": null,
   "traits": {
-   "oxy": "ana",
    "motility": "none"
   },
   "traitsExtra": [
@@ -412,7 +409,6 @@
   ],
   "accepted_name": null,
   "traits": {
-   "shape": "rod",
    "motility": "none"
   },
   "traitsExtra": [
@@ -786,9 +782,7 @@
    "Salmonella typhimurium"
   ],
   "accepted_name": null,
-  "traits": {
-   "oxy": "aer"
-  },
+  "traits": {},
   "traitsExtra": [
    [
     "ชนิดย่อยที่มีชื่อถูกต้อง",
@@ -843,9 +837,7 @@
    "Campylobacter pyloridis"
   ],
   "accepted_name": null,
-  "traits": {
-   "shape": "rod"
-  },
+  "traits": {},
   "traitsExtra": [
    [
     "จีโนม (สายพันธุ์ 26695)",
