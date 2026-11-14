@@ -1,0 +1,1050 @@
+{
+  "euglena-gracilis": {
+    "authority": "G.A.Klebs",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [],
+    "traitsExtraRefs": [],
+    "asideTitle": "ยูกลีนาในตลาดผลิตภัณฑ์สาหร่าย",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Euglena gracilis G.A.Klebs",
+        "url": "https://www.gbif.org/species/7465722",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Gissibl A et al. Bioproducts from Euglena gracilis: synthesis and applications. Front Bioeng Biotechnol 2019",
+        "url": "https://doi.org/10.3389/fbioe.2019.00108",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Kostygov AY et al. Euglenozoa: taxonomy, diversity and ecology, symbioses and viruses. Open Biol 2021",
+        "url": "https://doi.org/10.1098/rsob.200407",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "thalassiosira-pseudonana": {
+    "authority": "Hasle & Heimdal, 1970",
+    "synonyms": [
+      "Cyclotella pseudonana"
+    ],
+    "accepted_name": null,
+    "traits": {
+      "cells": "uni"
+    },
+    "traitsExtra": [
+      [
+        "จีโนมในนิวเคลียส",
+        "ราว 34 ล้านคู่เบส มี 24 โครโมโซมแบบดิพลอยด์"
+      ],
+      [
+        "จีโนมพลาสติดและไมโทคอนเดรีย",
+        "พลาสติดราว 129,000 คู่เบส ไมโทคอนเดรียราว 44,000 คู่เบส"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "asideTitle": "ไดอะตอมกับผนังเซลล์ซิลิกา",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Thalassiosira pseudonana Hasle & Heimdal, 1970",
+        "url": "https://www.gbif.org/species/3193414",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Armbrust EV et al. The genome of the diatom Thalassiosira pseudonana: ecology, evolution, and metabolism. Science 2004",
+        "url": "https://doi.org/10.1126/science.1101156",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Scholz B et al. Zoosporic parasites infecting marine diatoms: a black box that needs to be opened. Fungal Ecol 2016",
+        "url": "https://doi.org/10.1016/j.funeco.2015.09.002",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "chlamydomonas-reinhardtii": {
+    "authority": "P.A.Dang.",
+    "synonyms": [
+      "Chlamydomonas morieri"
+    ],
+    "accepted_name": null,
+    "traits": {
+      "cells": "uni"
+    },
+    "traitsExtra": [
+      [
+        "จีโนมในนิวเคลียส",
+        "ราว 120 ล้านคู่เบส"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "สาหร่ายเซลล์เดียวที่ช่วยอธิบายโรคของคน",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Chlamydomonas reinhardtii P.A.Dang.",
+        "url": "https://www.gbif.org/species/5271221",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Merchant SS et al. The Chlamydomonas genome reveals the evolution of key animal and plant functions. Science 2007",
+        "url": "https://doi.org/10.1126/science.1143609",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Harris EH. Chlamydomonas as a model organism. Annu Rev Plant Physiol Plant Mol Biol 2001",
+        "url": "https://doi.org/10.1146/annurev.arplant.52.1.363",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Sasso S et al. From molecular manipulation of domesticated Chlamydomonas reinhardtii to survival in nature. eLife 2018:e39233",
+        "url": "https://doi.org/10.7554/eLife.39233",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "volvox-carteri": {
+    "authority": null,
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "cells": "multi"
+    },
+    "traitsExtra": [
+      [
+        "จีโนมในนิวเคลียส",
+        "ราว 138 ล้านคู่เบส มีโปรตีนที่ทำนายได้ราว 14,500 ชนิด"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "เซลล์ที่เสียสละเพื่อส่วนรวม",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Volvox carteri",
+        "url": "https://www.gbif.org/species/2639377",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Prochnik SE et al. Genomic analysis of organismal complexity in the multicellular green alga Volvox carteri. Science 2010",
+        "url": "https://doi.org/10.1126/science.1188800",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Michod RE. Evolution of individuality during the transition from unicellular to multicellular life. PNAS 2007",
+        "url": "https://doi.org/10.1073/pnas.0701489104",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "chlorella-vulgaris": {
+    "authority": "Beij.",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "ไขมันในเซลล์เมื่อเลี้ยงด้วยแสง",
+        "38%"
+      ],
+      [
+        "จีโนมคลอโรพลาสต์ (สายพันธุ์ C-27)",
+        "150,613 คู่เบส"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        4
+      ]
+    ],
+    "asideTitle": "สาหร่ายที่ใกล้พืชบกกว่าที่คิด",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Chlorella vulgaris Beij.",
+        "url": "https://www.gbif.org/species/5270961",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Liang Y et al. Biomass and lipid productivities of Chlorella vulgaris under autotrophic, heterotrophic and mixotrophic growth conditions. Biotechnol Lett 2009",
+        "url": "https://doi.org/10.1007/s10529-009-9975-7",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Yuan Q et al. Isolation, structures and biological activities of polysaccharides from Chlorella: a review. Int J Biol Macromol 2020",
+        "url": "https://doi.org/10.1016/j.ijbiomac.2020.09.080",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Wakasugi T et al. Complete nucleotide sequence of the chloroplast genome from the green alga Chlorella vulgaris. PNAS 1997",
+        "url": "https://doi.org/10.1073/pnas.94.11.5967",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Sherafati N et al. Effect of supplementation with Chlorella vulgaris on lipid profile in adults: a systematic review and dose-response meta-analysis. Complement Ther Med 2022",
+        "url": "https://doi.org/10.1016/j.ctim.2022.102822",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "giardia-intestinalis": {
+    "authority": null,
+    "synonyms": [
+      "Giardia lamblia"
+    ],
+    "accepted_name": "Giardia duodenalis",
+    "traits": {
+      "vector": "direct"
+    },
+    "traitsExtra": [
+      [
+        "ซีสต์",
+        "รูปไข่ถึงรูปรี ยาว 8 ถึง 19 ไมโครเมตร ที่โตเต็มที่มี 4 นิวเคลียส"
+      ],
+      [
+        "โทรโฟซอยต์",
+        "รูปลูกแพร์ ยาว 10 ถึง 20 ไมโครเมตร มี 2 นิวเคลียส"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "asideTitle": "ซีสต์เล็กๆ ที่ทนทาน",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Giardia duodenalis (Davaine) Deschiens, 1921",
+        "url": "https://www.gbif.org/species/8562913",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "CDC DPDx: Giardiasis",
+        "url": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "CDC: About Giardia infection",
+        "url": "https://www.cdc.gov/giardia/about/index.html",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "entamoeba-histolytica": {
+    "authority": "Schaudinn, 1903",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "phost": "human",
+      "vector": "direct"
+    },
+    "traitsExtra": [
+      [
+        "ซีสต์ที่โตเต็มที่",
+        "มี 4 นิวเคลียส ยาวราว 12 ถึง 15 ไมโครเมตร"
+      ],
+      [
+        "โทรโฟซอยต์",
+        "มี 1 นิวเคลียส ยาวราว 15 ถึง 20 ไมโครเมตร"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "asideTitle": "ญาติที่หน้าตาเหมือนกันแต่ไม่ก่อโรค",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Entamoeba histolytica Schaudinn, 1903",
+        "url": "https://www.gbif.org/species/3210505",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "CDC DPDx: Amebiasis",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "CDC: Amebiasis",
+        "url": "https://www.cdc.gov/amebiasis/about/index.html",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "trichomonas-vaginalis": {
+    "authority": "Donné, 1836",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "phost": "human",
+      "vector": "direct"
+    },
+    "traitsExtra": [
+      [
+        "รูปร่างของโทรโฟซอยต์",
+        "รูปลูกแพร์ ยาวราว 7 ถึง 30 ไมโครเมตร มีแฟลเจลลัม 5 เส้น"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "ปรสิตที่ไม่มีซีสต์",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Trichomonas vaginalis Donné, 1836",
+        "url": "https://www.gbif.org/species/100091622",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "CDC DPDx: Trichomoniasis",
+        "url": "https://www.cdc.gov/dpdx/trichomoniasis/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "CDC: About trichomoniasis",
+        "url": "https://www.cdc.gov/trichomoniasis/about/index.html",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "trypanosoma-brucei": {
+    "authority": "Plimmer & Bradford, 1899",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "vector": "fly"
+    },
+    "traitsExtra": [
+      [
+        "ชนิดย่อยที่ก่อโรคในคน",
+        "T. b. gambiense (เรื้อรัง ในแอฟริกาตะวันตกและกลาง) และ T. b. rhodesiense (เฉียบพลัน ในแอฟริกาตะวันออกและใต้)"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "โรคเหงาหลับที่ลดลงมาก",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Trypanosoma brucei Plimmer & Bradford, 1899",
+        "url": "https://www.gbif.org/species/7822322",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "CDC DPDx: African trypanosomiasis",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisafrican/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "WHO: Trypanosomiasis, human African (sleeping sickness), updated 2 May 2023",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/trypanosomiasis-human-african-(sleeping-sickness)",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "leishmania-donovani": {
+    "authority": null,
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "vector": "fly"
+    },
+    "traitsExtra": [
+      [
+        "ระยะอะมาสติโกต",
+        "ยาว 1 ถึง 5 ไมโครเมตร กว้าง 1 ถึง 2 ไมโครเมตร อยู่ในแมคโครฟาจ"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        1
+      ]
+    ],
+    "asideTitle": "แยกชนิดด้วยตาเปล่าไม่ได้",
+    "refs": [
+      {
+        "n": 1,
+        "title": "CDC DPDx: Leishmaniasis",
+        "url": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "WHO: Leishmaniasis fact sheet, updated 12 January 2023",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/leishmaniasis",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "paramecium-caudatum": {
+    "authority": "Ehrenberg, 1834",
+    "synonyms": [
+      "Paramaecium caudatum"
+    ],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "ความแปรผันของยีน COI ในไมโทคอนเดรียภายในชนิด",
+        "สูงสุดราว 7%"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        3
+      ]
+    ],
+    "asideTitle": "ยีนซ้ำจากการเพิ่มจำนวนจีโนมทั้งชุด",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Paramecium caudatum Ehrenberg, 1834",
+        "url": "https://www.gbif.org/species/8122199",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "McGrath CL et al. Insights into three whole-genome duplications gleaned from the Paramecium caudatum genome sequence. Genetics 2014",
+        "url": "https://doi.org/10.1534/genetics.114.163287",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Barth D et al. Intraspecific genetic variation in Paramecium revealed by mitochondrial cytochrome C oxidase I sequences. J Eukaryot Microbiol 2006",
+        "url": "https://doi.org/10.1111/j.1550-7408.2005.00068.x",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Allen RD. Food vacuole membrane growth with microtubule-associated membrane transport in Paramecium. J Cell Biol 1974",
+        "url": "https://doi.org/10.1083/jcb.63.3.904",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Horn M et al. Novel bacterial endosymbionts of Acanthamoeba spp. related to the Paramecium caudatum symbiont Caedibacter caryophilus. Environ Microbiol 1999",
+        "url": "https://doi.org/10.1046/j.1462-2920.1999.00045.x",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "amoeba-proteus": {
+    "authority": "(Pal.)",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [],
+    "traitsExtraRefs": [],
+    "asideTitle": "ต้องใช้เส้นใยสองชนิดจึงเคลื่อนที่ได้",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Amoeba proteus (Pal.)",
+        "url": "https://www.gbif.org/species/5425264",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Pollard TD, Ito S. Cytoplasmic filaments of Amoeba proteus. I. The role of filaments in consistency changes and movement. J Cell Biol 1970",
+        "url": "https://doi.org/10.1083/jcb.46.2.267",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Prescott DM, James TW. Culturing of Amoeba proteus on Tetrahymena. Exp Cell Res 1955",
+        "url": "https://doi.org/10.1016/0014-4827(55)90067-7",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "vorticella-campanula": {
+    "authority": "Ehrenberg, 1831",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [],
+    "traitsExtraRefs": [],
+    "asideTitle": "ก้านที่หดเร็วที่สุดอย่างหนึ่งของเซลล์",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Vorticella campanula Ehrenberg, 1831",
+        "url": "https://www.gbif.org/species/237276316",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Upadhyaya A et al. Power-limited contraction dynamics of Vorticella convallaria: an ultrafast biological spring. Biophys J 2008",
+        "url": "https://doi.org/10.1529/biophysj.107.108852",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Moriyama Y et al. High-speed video cinematographic demonstration of stalk and zooid contraction of Vorticella convallaria. Biophys J 1998",
+        "url": "https://doi.org/10.1016/s0006-3495(98)77806-3",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Maciejewski JJ et al. Cloning and expression of a cDNA encoding a Vorticella convallaria spasmin: an EF-hand calcium-binding protein. J Eukaryot Microbiol 1999",
+        "url": "https://doi.org/10.1111/j.1550-7408.1999.tb04601.x",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "dictyostelium-discoideum": {
+    "authority": "Raper, 1935",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "จำนวนโปรตีนที่ทำนายได้จากจีโนม",
+        "ราว 12,500 ชนิด"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "อะมีบาที่กลายเป็นหลายเซลล์เมื่อหิว",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Dictyostelium discoideum Raper, 1935",
+        "url": "https://www.gbif.org/species/3212434",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Eichinger L et al. The genome of the social amoeba Dictyostelium discoideum. Nature 2005",
+        "url": "https://doi.org/10.1038/nature03481",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Parent CA, Devreotes PN. Molecular genetics of signal transduction in Dictyostelium. Annu Rev Biochem 1996",
+        "url": "https://doi.org/10.1146/annurev.bi.65.070196.002211",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "physarum-polycephalum": {
+    "authority": "Schwein., 1822",
+    "synonyms": [
+      "Didymium polycephalum"
+    ],
+    "accepted_name": "Badhamia polycephala",
+    "traits": {},
+    "traitsExtra": [
+      [
+        "ช่วงอดอาหารก่อนพร้อมสร้างสปอร์",
+        "ราว 5 วัน"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        3
+      ]
+    ],
+    "asideTitle": "ราเมือกที่แก้ไขอาร์เอ็นเอของตัวเอง",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Physarum polycephalum Schwein., 1822",
+        "url": "https://www.gbif.org/species/3214606",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Alim K et al. Random network peristalsis in Physarum polycephalum organizes fluid flows across an individual. PNAS 2013",
+        "url": "https://doi.org/10.1073/pnas.1305049110",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Golderer G et al. Nitric oxide synthase is induced in sporulation of Physarum polycephalum. Genes Dev 2001",
+        "url": "https://doi.org/10.1101/gad.890501",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Mahendran R et al. RNA editing by cytidine insertion in mitochondria of Physarum polycephalum. Nature 1991",
+        "url": "https://doi.org/10.1038/349434a0",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "pyropia-yezoensis": {
+    "authority": "(Ueda) M.S.Hwang & H.G.Choi, 2011",
+    "synonyms": [
+      "Porphyra yezoensis",
+      "Neopyropia yezoensis"
+    ],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "จีโนมในนิวเคลียส",
+        "ราว 43 ล้านคู่เบส มียีนที่ทำนายได้ 10,327 ยีน"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "จีโนมที่เล็กกว่าที่คิดสิบเท่า",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Pyropia yezoensis (Ueda) M.S.Hwang & H.G.Choi, 2011",
+        "url": "https://www.gbif.org/species/7713874",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Nakamura Y et al. The first symbiont-free genome sequence of marine red alga, Susabi-nori (Pyropia yezoensis). PLoS ONE 2013",
+        "url": "https://doi.org/10.1371/journal.pone.0057122",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Wang D et al. Pyropia yezoensis genome reveals diverse mechanisms of carbon acquisition in the intertidal environment. Nat Commun 2020",
+        "url": "https://doi.org/10.1038/s41467-020-17689-1",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Lee HA et al. Bioactive peptide from Pyropia yezoensis and its anti-inflammatory activities. Int J Mol Med 2015",
+        "url": "https://doi.org/10.3892/ijmm.2015.2386",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "sargassum-polycystum": {
+    "authority": "C.Ag.",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [],
+    "traitsExtraRefs": [],
+    "asideTitle": "สาหร่ายทะเลที่ยังใช้ประโยชน์ได้อีกมาก",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Sargassum polycystum C.Ag.",
+        "url": "https://www.gbif.org/species/3196717",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Mohd Fauziee NA et al. Functional polysaccharides of fucoidan, laminaran and alginate from Malaysian brown seaweeds (Sargassum polycystum, Turbinaria ornata and Padina boryana). Int J Biol Macromol 2021",
+        "url": "https://doi.org/10.1016/j.ijbiomac.2020.11.067",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Chan YY et al. Inhibitory effects of Sargassum polycystum on tyrosinase activity and melanin formation in B16F10 murine melanoma cells. J Ethnopharmacol 2011",
+        "url": "https://doi.org/10.1016/j.jep.2011.07.050",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Palanisamy S et al. Isolation of fucoidan from Sargassum polycystum brown algae: structural characterization, in vitro antioxidant and anticancer activity. Int J Biol Macromol 2017",
+        "url": "https://doi.org/10.1016/j.ijbiomac.2017.03.182",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "spirogyra-varians": {
+    "authority": "(Hassall) Kütz.",
+    "synonyms": [
+      "Zygnema varians"
+    ],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [],
+    "traitsExtraRefs": [],
+    "asideTitle": "สาหร่ายน้ำจืดที่ใกล้พืชบก",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Spirogyra varians (Hassall) Kütz.",
+        "url": "https://www.gbif.org/species/2646966",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Timme RE, Delwiche CF. Uncovering the evolutionary origin of plant molecular processes: comparison of Coleochaete and Spirogyra transcriptomes. BMC Plant Biol 2010",
+        "url": "https://doi.org/10.1186/1471-2229-10-96",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Sawitzky H, Grolig F. Phragmoplast of the green alga Spirogyra is functionally distinct from the higher plant phragmoplast. J Cell Biol 1995",
+        "url": "https://doi.org/10.1083/jcb.130.6.1359",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Agrawal SC, Singh V. Viability of dried filaments, survivability and reproduction under water stress, and survivability following heat and UV exposure in Lyngbya martensiana, Oscillatoria agardhii, Nostoc calcicola, Hormidium fluitans, Spirogyra sp. and Vaucheria geminata. Folia Microbiol 2002",
+        "url": "https://doi.org/10.1007/bf02818567",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Pfeifer L et al. Search for evolutionary roots of land plant arabinogalactan-proteins in charophytes: presence of a rhamnogalactan-protein in Spirogyra pratensis. Plant J 2022",
+        "url": "https://doi.org/10.1111/tpj.15577",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "caulerpa-lentillifera": {
+    "authority": "J.Ag.",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [],
+    "traitsExtraRefs": [],
+    "asideTitle": "สาหร่ายที่ดูดซับโลหะหนักได้",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Caulerpa lentillifera J.Ag.",
+        "url": "https://www.gbif.org/species/2642878",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Pavasant P et al. Biosorption of Cu2+, Cd2+, Pb2+, and Zn2+ using dried marine green macroalga Caulerpa lentillifera. Bioresour Technol 2006",
+        "url": "https://doi.org/10.1016/j.biortech.2005.10.032",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Sun Y et al. Caulerpa lentillifera polysaccharides enhance the immunostimulatory activity in immunosuppressed mice in correlation with modulating gut microbiota. Food Funct 2019",
+        "url": "https://doi.org/10.1039/c9fo00713j",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Sharma BR et al. Caulerpa lentillifera extract ameliorates insulin resistance and regulates glucose metabolism in C57BL/KsJ-db/db mice via PI3K/AKT signaling pathway in myocytes. J Transl Med 2015",
+        "url": "https://doi.org/10.1186/s12967-015-0412-5",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "gracilaria-fisheri": {
+    "authority": null,
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "มวลโมเลกุลของซัลเฟตกาแลกแทน",
+        "ราว 100 กิโลดอลตัน"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "สาหร่ายที่ช่วยกุ้งสู้โรค",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Gracilaria fisheri",
+        "url": "https://www.gbif.org/species/105122576",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Wongprasert K et al. Immunostimulatory activity of sulfated galactans isolated from the red seaweed Gracilaria fisheri and development of resistance against white spot syndrome virus (WSSV) in shrimp. Fish Shellfish Immunol 2014",
+        "url": "https://doi.org/10.1016/j.fsi.2013.10.010",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Imjongjairak S et al. Biochemical characteristics and antioxidant activity of crude and purified sulfated polysaccharides from Gracilaria fisheri. Biosci Biotechnol Biochem 2016",
+        "url": "https://doi.org/10.1080/09168451.2015.1101334",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Kanjana K et al. Solvent extracts of the red seaweed Gracilaria fisheri prevent Vibrio harveyi infections in the black tiger shrimp Penaeus monodon. Fish Shellfish Immunol 2011",
+        "url": "https://doi.org/10.1016/j.fsi.2010.11.016",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "toxoplasma-gondii": {
+    "authority": "(Nicolle & Manceaux, 1908)",
+    "synonyms": [
+      "Leishmania gondii"
+    ],
+    "accepted_name": null,
+    "traits": {
+      "vector": "direct"
+    },
+    "traitsExtra": [
+      [
+        "ขนาดทาคีซอยต์",
+        "ราว 4 ถึง 8 ไมโครเมตร"
+      ],
+      [
+        "ขนาดโอโอซิสต์ที่โตเต็มที่",
+        "10 ถึง 12 ไมโครเมตร มีสปอโรซิสต์ 2 อัน"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "asideTitle": "ปรสิตที่มีแมวเป็นโฮสต์ระยะสุดท้าย",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Toxoplasma gondii (Nicolle & Manceaux, 1908)",
+        "url": "https://www.gbif.org/species/8014281",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "CDC DPDx: Toxoplasmosis",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "CDC: About toxoplasmosis (11 March 2025)",
+        "url": "https://www.cdc.gov/toxoplasmosis/about/index.html",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "phytophthora-infestans": {
+    "authority": "(Mont.) de Bary",
+    "synonyms": [
+      "Peronospora infestans",
+      "Botrytis infestans"
+    ],
+    "accepted_name": null,
+    "traits": {
+      "phost": "plant"
+    },
+    "traitsExtra": [
+      [
+        "จีโนม",
+        "ราว 240 ล้านคู่เบส มีดีเอ็นเอซ้ำราว 74%"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "จีโนมที่ใหญ่เพราะดีเอ็นเอซ้ำ",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Phytophthora infestans (Mont.) de Bary",
+        "url": "https://www.gbif.org/species/3203716",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Haas BJ et al. Genome sequence and analysis of the Irish potato famine pathogen Phytophthora infestans. Nature 2009",
+        "url": "https://doi.org/10.1038/nature08358",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Yoshioka H et al. Nicotiana benthamiana gp91phox homologs NbrbohA and NbrbohB participate in H2O2 accumulation and resistance to Phytophthora infestans. Plant Cell 2003",
+        "url": "https://doi.org/10.1105/tpc.008680",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "plasmodium-vivax": {
+    "authority": "(Grassi & Feletti, 1890)",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "phost": "human",
+      "vector": "mosquito"
+    },
+    "traitsExtra": [
+      [
+        "สัดส่วนของผู้ป่วยมาลาเรียทั่วโลก",
+        "25% ถึง 40% (ข้อมูลในบทความปี 2008)"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "ปรสิตมาลาเรียที่ถูกละเลย",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Plasmodium vivax (Grassi & Feletti, 1890)",
+        "url": "https://www.gbif.org/species/100351254",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Carlton JM et al. Comparative genomics of the neglected human malaria parasite Plasmodium vivax. Nature 2008",
+        "url": "https://doi.org/10.1038/nature07327",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "CDC DPDx: Malaria",
+        "url": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "WHO: Malaria fact sheet (updated 4 December 2025)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "noctiluca-scintillans": {
+    "authority": "(Macartney) Kof. & Swezy",
+    "synonyms": [
+      "Noctiluca miliaris",
+      "Medusa scintillans"
+    ],
+    "accepted_name": null,
+    "traits": {
+      "cells": "uni"
+    },
+    "traitsExtra": [],
+    "traitsExtraRefs": [],
+    "asideTitle": "น้ำทะเลสีแดงที่เรืองแสง",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Noctiluca scintillans (Macartney) Kof. & Swezy",
+        "url": "https://www.gbif.org/species/8063862",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Liu L, Hastings JW. Two different domains of the luciferase gene in the heterotrophic dinoflagellate Noctiluca scintillans occur as two separate genes in photosynthetic species. PNAS 2007",
+        "url": "https://doi.org/10.1073/pnas.0607816103",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Fukuda Y, Endoh H. New details from the complete life cycle of the red-tide dinoflagellate Noctiluca scintillans (Ehrenberg) McCartney. Eur J Protistol 2006",
+        "url": "https://doi.org/10.1016/j.ejop.2006.05.003",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "do Rosario Gomes H et al. Massive outbreaks of Noctiluca scintillans blooms in the Arabian Sea due to spread of hypoxia. Nat Commun 2014",
+        "url": "https://doi.org/10.1038/ncomms5862",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Raj KD et al. Low oxygen levels caused by Noctiluca scintillans bloom kills corals in Gulf of Mannar, India. Sci Rep 2020",
+        "url": "https://doi.org/10.1038/s41598-020-79152-x",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  }
+}
