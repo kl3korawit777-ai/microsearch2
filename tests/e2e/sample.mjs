@@ -88,12 +88,12 @@ for (const lang of ['th', 'en']) {
   await page.close();
 }
 
-// the real site: no species has the new fields yet, so no new filter or tab shows up
+// the real site: a filter shows only when some species has that trait (bacteria: endospore is used, cell arrangement is not yet)
 const realServer = await serveSite();
 const realPage = await browser.newPage();
-await realPage.goto(`${realServer.base}/#archaea`, { waitUntil: 'load' });
-await realPage.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'archaea', { timeout: 15000 });
-ok((await count(realPage, '.opt[data-k="metab"]')) === 0 && (await count(realPage, '.filters fieldset')) === 4, 'real data: unused filters are not shown (level, conditions, oxygen, importance)');
+await realPage.goto(`${realServer.base}/#bacteria`, { waitUntil: 'load' });
+await realPage.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'bacteria', { timeout: 15000 });
+ok((await count(realPage, '.opt[data-k="arrange"]')) === 0 && (await count(realPage, '.opt[data-k="endospore"]')) > 0, 'real data: unused filters are not shown, used ones are');
 await realPage.close();
 realServer.server.close();
 
