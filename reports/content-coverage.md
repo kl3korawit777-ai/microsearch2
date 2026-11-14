@@ -8,25 +8,25 @@
 
 | กลุ่ม | ชนิด | 1 หัวเรื่อง | 2 รู้จักใน 30 วินาที | 3 ลักษณะเด่น | 4 การดำรงชีวิต | 5 วงชีวิต | 6 ความสำคัญ | 7 ชื่อและเกร็ด | 8 อ้างอิง |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| bacteria | 24 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
+| bacteria | 24 | 24 | 24 | 24 | 24 | 4 | 24 | 21 | 24 |
 | archaea | 9 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
 | fungi | 19 | 1 | 1 | 0 | 1 | 1 | 1 | 0 | 1 |
 | protists | 25 | 21 | 25 | 13 | 25 | 12 | 23 | 1 | 25 |
 | plants | 30 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | 1 |
 | animals | 38 | 1 | 1 | 38 | 1 | 1 | 1 | 0 | 1 |
-| **รวม** | 145 | 26 | 30 | 54 | 30 | 14 | 28 | 3 | 30 |
+| **รวม** | 145 | 49 | 53 | 77 | 53 | 18 | 51 | 23 | 53 |
 
 ## ต่อกลุ่ม: ภาษาอังกฤษ
 
 | กลุ่ม | ชนิด | 1 หัวเรื่อง | 2 รู้จักใน 30 วินาที | 3 ลักษณะเด่น | 4 การดำรงชีวิต | 5 วงชีวิต | 6 ความสำคัญ | 7 ชื่อและเกร็ด | 8 อ้างอิง |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| bacteria | 24 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| bacteria | 24 | 24 | 0 | 9 | 0 | 0 | 0 | 0 | 24 |
 | archaea | 9 | 1 | 1 | 1 | 0 | 0 | 1 | 1 | 1 |
 | fungi | 19 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | protists | 25 | 21 | 0 | 4 | 0 | 0 | 0 | 0 | 25 |
 | plants | 30 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | animals | 38 | 1 | 0 | 38 | 0 | 0 | 0 | 0 | 1 |
-| **รวม** | 145 | 26 | 1 | 44 | 0 | 0 | 1 | 1 | 30 |
+| **รวม** | 145 | 49 | 1 | 53 | 0 | 0 | 1 | 1 | 53 |
 
 ## ต่อชนิด: ภาษาไทย
 
@@ -82,29 +82,29 @@
 | `haloferax-volcanii` | – | – | – | – | – | – | – | – |
 | `thermoplasma-acidophilum` | – | – | – | – | – | – | – | – |
 | `escherichia-coli` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
-| `rhizobium-leguminosarum` | – | – | – | – | – | – | – | – |
-| `vibrio-cholerae` | – | – | – | – | – | – | – | – |
-| `bacillus-subtilis` | – | – | – | – | – | – | – | – |
-| `lactobacillus-acidophilus` | – | – | – | – | – | – | – | – |
-| `staphylococcus-aureus` | – | – | – | – | – | – | – | – |
-| `arthrospira-platensis` | – | – | – | – | – | – | – | – |
-| `nostoc-commune` | – | – | – | – | – | – | – | – |
-| `streptomyces-griseus` | – | – | – | – | – | – | – | – |
-| `mycobacterium-tuberculosis` | – | – | – | – | – | – | – | – |
-| `treponema-pallidum` | – | – | – | – | – | – | – | – |
-| `oscillatoria-princeps` | – | – | – | – | – | – | – | – |
-| `streptococcus-pneumoniae` | – | – | – | – | – | – | – | – |
-| `agrobacterium-tumefaciens` | – | – | – | – | – | – | – | – |
-| `clostridium-botulinum` | – | – | – | – | – | – | – | – |
-| `salmonella-enterica` | – | – | – | – | – | – | – | – |
-| `helicobacter-pylori` | – | – | – | – | – | – | – | – |
-| `burkholderia-pseudomallei` | – | – | – | – | – | – | – | – |
-| `leptospira-interrogans` | – | – | – | – | – | – | – | – |
-| `thermus-aquaticus` | – | – | – | – | – | – | – | – |
-| `bacillus-thuringiensis` | – | – | – | – | – | – | – | – |
-| `nitrosomonas-europaea` | – | – | – | – | – | – | – | – |
-| `nitrobacter-winogradskyi` | – | – | – | – | – | – | – | – |
-| `acetobacter-aceti` | – | – | – | – | – | – | – | – |
+| `rhizobium-leguminosarum` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `vibrio-cholerae` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `bacillus-subtilis` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `lactobacillus-acidophilus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `staphylococcus-aureus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `arthrospira-platensis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `nostoc-commune` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `streptomyces-griseus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `mycobacterium-tuberculosis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `treponema-pallidum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `oscillatoria-princeps` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `streptococcus-pneumoniae` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `agrobacterium-tumefaciens` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `clostridium-botulinum` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `salmonella-enterica` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `helicobacter-pylori` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `burkholderia-pseudomallei` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `leptospira-interrogans` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `thermus-aquaticus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `bacillus-thuringiensis` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `nitrosomonas-europaea` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `nitrobacter-winogradskyi` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
+| `acetobacter-aceti` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
 | `batrachochytrium-dendrobatidis` | – | – | – | – | – | – | – | – |
 | `rhizopus-stolonifer` | – | – | – | – | – | – | – | – |
 | `rhizophagus-irregularis` | – | – | – | – | – | – | – | – |
@@ -234,29 +234,29 @@
 | `haloferax-volcanii` | – | – | – | – | – | – | – | – |
 | `thermoplasma-acidophilum` | – | – | – | – | – | – | – | – |
 | `escherichia-coli` | ✓ | – | – | – | – | – | – | ✓ |
-| `rhizobium-leguminosarum` | – | – | – | – | – | – | – | – |
-| `vibrio-cholerae` | – | – | – | – | – | – | – | – |
-| `bacillus-subtilis` | – | – | – | – | – | – | – | – |
-| `lactobacillus-acidophilus` | – | – | – | – | – | – | – | – |
-| `staphylococcus-aureus` | – | – | – | – | – | – | – | – |
-| `arthrospira-platensis` | – | – | – | – | – | – | – | – |
-| `nostoc-commune` | – | – | – | – | – | – | – | – |
-| `streptomyces-griseus` | – | – | – | – | – | – | – | – |
-| `mycobacterium-tuberculosis` | – | – | – | – | – | – | – | – |
-| `treponema-pallidum` | – | – | – | – | – | – | – | – |
-| `oscillatoria-princeps` | – | – | – | – | – | – | – | – |
-| `streptococcus-pneumoniae` | – | – | – | – | – | – | – | – |
-| `agrobacterium-tumefaciens` | – | – | – | – | – | – | – | – |
-| `clostridium-botulinum` | – | – | – | – | – | – | – | – |
-| `salmonella-enterica` | – | – | – | – | – | – | – | – |
-| `helicobacter-pylori` | – | – | – | – | – | – | – | – |
-| `burkholderia-pseudomallei` | – | – | – | – | – | – | – | – |
-| `leptospira-interrogans` | – | – | – | – | – | – | – | – |
-| `thermus-aquaticus` | – | – | – | – | – | – | – | – |
-| `bacillus-thuringiensis` | – | – | – | – | – | – | – | – |
-| `nitrosomonas-europaea` | – | – | – | – | – | – | – | – |
-| `nitrobacter-winogradskyi` | – | – | – | – | – | – | – | – |
-| `acetobacter-aceti` | – | – | – | – | – | – | – | – |
+| `rhizobium-leguminosarum` | ✓ | – | – | – | – | – | – | ✓ |
+| `vibrio-cholerae` | ✓ | – | – | – | – | – | – | ✓ |
+| `bacillus-subtilis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `lactobacillus-acidophilus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `staphylococcus-aureus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `arthrospira-platensis` | ✓ | – | – | – | – | – | – | ✓ |
+| `nostoc-commune` | ✓ | – | – | – | – | – | – | ✓ |
+| `streptomyces-griseus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `mycobacterium-tuberculosis` | ✓ | – | – | – | – | – | – | ✓ |
+| `treponema-pallidum` | ✓ | – | – | – | – | – | – | ✓ |
+| `oscillatoria-princeps` | ✓ | – | – | – | – | – | – | ✓ |
+| `streptococcus-pneumoniae` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `agrobacterium-tumefaciens` | ✓ | – | – | – | – | – | – | ✓ |
+| `clostridium-botulinum` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `salmonella-enterica` | ✓ | – | – | – | – | – | – | ✓ |
+| `helicobacter-pylori` | ✓ | – | – | – | – | – | – | ✓ |
+| `burkholderia-pseudomallei` | ✓ | – | – | – | – | – | – | ✓ |
+| `leptospira-interrogans` | ✓ | – | – | – | – | – | – | ✓ |
+| `thermus-aquaticus` | ✓ | – | – | – | – | – | – | ✓ |
+| `bacillus-thuringiensis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `nitrosomonas-europaea` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `nitrobacter-winogradskyi` | ✓ | – | – | – | – | – | – | ✓ |
+| `acetobacter-aceti` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `batrachochytrium-dendrobatidis` | – | – | – | – | – | – | – | – |
 | `rhizopus-stolonifer` | – | – | – | – | – | – | – | – |
 | `rhizophagus-irregularis` | – | – | – | – | – | – | – | – |
