@@ -1,0 +1,507 @@
+{
+ "methanobrevibacter-smithii": {
+  "authority": "Balch & Wolfe 1981",
+  "synonyms": [
+   "Methanocatella smithii"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "metab": "methano"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "1,853,160 คู่เบส"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ผู้อยู่ร่วมในลำไส้ที่ถูกจับตา",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Methanobrevibacter smithii",
+    "url": "https://lpsn.dsmz.de/species/methanobrevibacter-smithii",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Methanobrevibacter",
+    "url": "https://lpsn.dsmz.de/genus/methanobrevibacter",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Samuel BS, Gordon JI. A humanized gnotobiotic mouse model of host-archaeal-bacterial mutualism. PNAS 2006;103:10011-10016",
+    "url": "https://doi.org/10.1073/pnas.0602187103",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Samuel BS et al. Genomic and metabolic adaptations of Methanobrevibacter smithii to the human gut. PNAS 2007;104:10643-10648",
+    "url": "https://doi.org/10.1073/pnas.0704189104",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "BacDive: Methanobrevibacter smithii (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/6963",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "pyrococcus-furiosus": {
+  "authority": "Fiala & Stetter 1986",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "ช่วงอุณหภูมิเพาะเลี้ยงสายพันธุ์ต้นแบบ (BacDive)",
+    "95 ถึง 97 °C"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    5
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ดีเอ็นเอพอลิเมอเรสที่เที่ยงตรงกว่า",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Pyrococcus furiosus",
+    "url": "https://lpsn.dsmz.de/species/pyrococcus-furiosus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Pyrococcus",
+    "url": "https://lpsn.dsmz.de/genus/pyrococcus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Lundberg KS et al. High-fidelity amplification using a thermostable DNA polymerase isolated from Pyrococcus furiosus. Gene 1991;108:1-6",
+    "url": "https://doi.org/10.1016/0378-1119(91)90480-y",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Vieille C, Zeikus GJ. Hyperthermophilic enzymes: sources, uses, and molecular mechanisms for thermostability. Microbiol Mol Biol Rev 2001;65:1-43",
+    "url": "https://doi.org/10.1128/mmbr.65.1.1-43.2001",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "BacDive: Pyrococcus furiosus (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/16854",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "sulfolobus-acidocaldarius": {
+  "authority": "Brock et al. 1972",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "metab": "sulfur"
+  },
+  "traitsExtra": [
+   [
+    "อุณหภูมิและ pH ที่โตดีที่สุด",
+    "80 °C และ pH 2"
+   ],
+   [
+    "จีโนม (สายพันธุ์ DSM 639)",
+    "2,225,959 คู่เบส สัดส่วน GC 37% มี 2,292 ยีนที่เข้ารหัสโปรตีน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "จีโนมที่แตกต่างจากญาติในสกุลเดียวกัน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Sulfolobus acidocaldarius",
+    "url": "https://lpsn.dsmz.de/species/sulfolobus-acidocaldarius",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Sulfolobus",
+    "url": "https://lpsn.dsmz.de/genus/sulfolobus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Chen L et al. The genome of Sulfolobus acidocaldarius, a model organism of the Crenarchaeota. J Bacteriol 2005;187:4992-4999",
+    "url": "https://doi.org/10.1128/jb.187.14.4992-4999.2005",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Brock TD et al. Sulfolobus: a new genus of sulfur-oxidizing bacteria living at low pH and high temperature. Arch Mikrobiol 1972;84:54-68",
+    "url": "https://doi.org/10.1007/bf00408082",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "nitrosopumilus-maritimus": {
+  "authority": "Qin et al. 2017",
+  "synonyms": [
+   "Candidatus Nitrosopumilus maritimus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "metab": "ammonia",
+   "temp": {
+    "min": 15.0,
+    "max": 35.0,
+    "unit": "°C"
+   },
+   "ph": {
+    "min": 6.8,
+    "max": 8.1,
+    "unit": "pH"
+   }
+  },
+  "traitsExtra": [
+   [
+    "ช่วงอุณหภูมิและ pH ที่ BacDive บันทึก (สายพันธุ์ต้นแบบ)",
+    "15 ถึง 35 °C และ pH 6.8 ถึง 8.1"
+   ],
+   [
+    "จีโนม (สายพันธุ์ SCM1)",
+    "โครโมโซมปิดยาว 1,645,259 คู่เบส"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    5
+   ],
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "อาร์เคียที่ไม่ได้อยู่ในที่รุนแรง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Nitrosopumilus maritimus",
+    "url": "https://lpsn.dsmz.de/species/nitrosopumilus-maritimus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Nitrosopumilus",
+    "url": "https://lpsn.dsmz.de/genus/nitrosopumilus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Könneke M et al. Isolation of an autotrophic ammonia-oxidizing marine archaeon. Nature 2005;437:543-546",
+    "url": "https://doi.org/10.1038/nature03911",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Walker CB et al. Nitrosopumilus maritimus genome reveals unique mechanisms for nitrification and autotrophy in globally distributed marine crenarchaea. PNAS 2010;107:8818-8823",
+    "url": "https://doi.org/10.1073/pnas.0913533107",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "BacDive: Nitrosopumilus maritimus (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/141102",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "methanosarcina-barkeri": {
+  "authority": "Schnellen 1947",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "metab": "methano"
+  },
+  "traitsExtra": [
+   [
+    "จำนวนกรอบอ่านรหัสในจีโนม",
+    "3,680 กรอบ"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "จีโนมที่เรียงยีนสลับกันมาก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Methanosarcina barkeri",
+    "url": "https://lpsn.dsmz.de/species/methanosarcina-barkeri",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Methanosarcina",
+    "url": "https://lpsn.dsmz.de/genus/methanosarcina",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Maeder DL et al. The Methanosarcina barkeri genome: comparative analysis with Methanosarcina acetivorans and Methanosarcina mazei reveals extensive rearrangement within methanosarcinal genomes. J Bacteriol 2006;188:7922-7931",
+    "url": "https://doi.org/10.1128/jb.00810-06",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Thauer RK et al. Methanogenic archaea: ecologically relevant differences in energy conservation. Nat Rev Microbiol 2008;6:579-591",
+    "url": "https://doi.org/10.1038/nrmicro1931",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "BacDive: Methanosarcina barkeri (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/7087",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "methanocaldococcus-jannaschii": {
+  "authority": "(Jones et al. 1984) Whitman 2002",
+  "synonyms": [
+   "Methanococcus jannaschii"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "metab": "methano"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "ราว 1.66 ล้านคู่เบส มี 1,738 ยีนที่เข้ารหัสโปรตีน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ชื่อเดิมคือ Methanococcus",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Methanocaldococcus jannaschii",
+    "url": "https://lpsn.dsmz.de/species/methanocaldococcus-jannaschii",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Methanocaldococcus",
+    "url": "https://lpsn.dsmz.de/genus/methanocaldococcus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Bult CJ et al. Complete genome sequence of the methanogenic archaeon, Methanococcus jannaschii. Science 1996;273:1058-1073",
+    "url": "https://doi.org/10.1126/science.273.5278.1058",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "BacDive: Methanocaldococcus jannaschii (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/6981",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "haloferax-volcanii": {
+  "authority": "(Mullakhanbhai & Larsen 1975) Torreblanca et al. 1986",
+  "synonyms": [
+   "Halobacterium volcanii",
+   "Haloferax lucentense",
+   "Haloferax alexandrinum"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ DS2)",
+    "โครโมโซมหลัก 2.848 ล้านคู่เบส โครโมโซมเล็ก 3 อัน (85, 438 และ 636 กิโลคู่เบส) และพลาสมิด 6.4 กิโลคู่เบส"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "จากแบคทีเรียที่เข้าใจผิดสู่อาร์เคียต้นแบบ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Haloferax volcanii",
+    "url": "https://lpsn.dsmz.de/species/haloferax-volcanii",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Haloferax",
+    "url": "https://lpsn.dsmz.de/genus/haloferax",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Hartman AL et al. The complete genome sequence of Haloferax volcanii DS2, a model archaeon. PLoS One 2010;5:e9605",
+    "url": "https://doi.org/10.1371/journal.pone.0009605",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Allers T, Mevarech M. Archaeal genetics - the third way. Nat Rev Genet 2005;6:58-73",
+    "url": "https://doi.org/10.1038/nrg1504",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "thermoplasma-acidophilum": {
+  "authority": "Darland et al. 1970",
+  "synonyms": [
+   "Thermoplasma acidophila"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "wall": "none",
+   "temp": {
+    "min": 45.0,
+    "max": 62.0,
+    "unit": "°C"
+   },
+   "ph": {
+    "min": 0.96,
+    "max": 3.5,
+    "unit": "pH"
+   }
+  },
+  "traitsExtra": [
+   [
+    "ช่วงอุณหภูมิและ pH ที่โตได้",
+    "45 ถึง 62 °C และ pH 0.96 ถึง 3.5"
+   ],
+   [
+    "จีโนม",
+    "1,564,905 คู่เบส มี 1,509 กรอบอ่านรหัส"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ],
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ไมโคพลาสมาที่ชอบร้อนและกรด",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Thermoplasma acidophilum",
+    "url": "https://lpsn.dsmz.de/species/thermoplasma-acidophilum",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Thermoplasma",
+    "url": "https://lpsn.dsmz.de/genus/thermoplasma",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Ruepp A et al. The genome sequence of the thermoacidophilic scavenger Thermoplasma acidophilum. Nature 2000;407:508-513",
+    "url": "https://doi.org/10.1038/35035069",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Darland G et al. A thermophilic, acidophilic mycoplasma isolated from a coal refuse pile. Science 1970;170:1416-1418",
+    "url": "https://doi.org/10.1126/science.170.3965.1416",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ }
+}
