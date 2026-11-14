@@ -1,0 +1,378 @@
+{
+  "escherichia-coli": {
+    "authority": "(Migula 1895) Castellani & Chalmers 1919",
+    "synonyms": [
+      "Bacillus coli",
+      "Bacterium coli commune"
+    ],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "ขนาดจีโนม (สายพันธุ์ K-12)",
+        "ราว 4.64 ล้านคู่เบส มียีนที่เข้ารหัสโปรตีน 4,288 ยีน"
+      ],
+      [
+        "สายพันธุ์ที่ก่อโรคท้องเสียในคน",
+        "มี 6 ประเภท"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        5
+      ],
+      [
+        3
+      ]
+    ],
+    "asideTitle": "ชื่อเดียวที่รวมหลายพันธุ์ไว้ด้วยกัน",
+    "refs": [
+      {
+        "n": 1,
+        "title": "LPSN: Escherichia coli",
+        "url": "https://lpsn.dsmz.de/species/escherichia-coli",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Etymologia: Escherichia coli. Emerging Infectious Diseases 2015;21(8):1310",
+        "url": "https://wwwnc.cdc.gov/eid/article/21/8/et-2108_article",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "CDC: About Escherichia coli Infection",
+        "url": "https://www.cdc.gov/ecoli/about/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "CDC: Preventing E. coli Infection",
+        "url": "https://www.cdc.gov/ecoli/prevention/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Blattner FR et al. The complete genome sequence of Escherichia coli K-12. Science 1997;277:1453-1462",
+        "url": "https://doi.org/10.1126/science.277.5331.1453",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "halobacterium-salinarum": {
+    "authority": "(Harrison & Kennedy 1922) Elazari-Volcani 1957",
+    "synonyms": [
+      "Halobacterium halobium",
+      "Halobacterium cutirubrum"
+    ],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "ระดับความเสี่ยงทางชีวภาพ",
+        "กลุ่มความเสี่ยง 1 ตามที่ระบุใน LPSN"
+      ],
+      [
+        "ที่มาของสายพันธุ์อ้างอิง",
+        "สายพันธุ์ต้นแบบ ATCC 33171 (= DSM 3754)"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "asideTitle": "ชื่อมีคำว่า bacterium แต่ไม่ใช่แบคทีเรีย",
+    "refs": [
+      {
+        "n": 1,
+        "title": "LPSN: Halobacterium salinarum",
+        "url": "https://lpsn.dsmz.de/species/halobacterium-salinarum",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "LPSN: Halobacterium (genus)",
+        "url": "https://lpsn.dsmz.de/genus/halobacterium",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Eichler J. Halobacterium salinarum: Life with more than a grain of salt. Microbiology 2023;169(4)",
+        "url": "https://doi.org/10.1099/mic.0.001327",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Oesterhelt D, Stoeckenius W. Functions of a new photoreceptor membrane. PNAS 1973;70(10):2853-2857",
+        "url": "https://doi.org/10.1073/pnas.70.10.2853",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Shahmohammadi HR et al. Protective roles of bacterioruberin and intracellular KCl in the resistance of Halobacterium salinarium against DNA-damaging agents. J Radiat Res 1998;39(4):251-262",
+        "url": "https://doi.org/10.1269/jrr.39.251",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "saccharomyces-cerevisiae": {
+    "authority": "(Desm.) Meyen",
+    "synonyms": [
+      "Mycoderma cerevisiae"
+    ],
+    "accepted_name": null,
+    "traits": {},
+    "traitsExtra": [
+      [
+        "ขนาดจีโนม",
+        "ราว 12 ล้านคู่เบส ใน 16 โครโมโซม มียีนที่อาจสร้างโปรตีนราว 5,900 ยีน"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ]
+    ],
+    "asideTitle": "ยีสต์ไม่ได้อยู่แค่ในครัวและห้องแล็บ",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Saccharomyces cerevisiae (Desm.) Meyen",
+        "url": "https://www.gbif.org/species/7440012",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Goffeau A et al. Life with 6000 genes. Science 1996;274:546-567",
+        "url": "https://doi.org/10.1126/science.274.5287.546",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Liti G. The fascinating and secret wild life of the budding yeast S. cerevisiae. eLife 2015;4:e05835",
+        "url": "https://doi.org/10.7554/eLife.05835",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Kennedy T et al. Imaging the entire sexual life cycle of the budding yeast Saccharomyces cerevisiae using a microfluidic platform. Bio-protocol 2025;15(23):e5536",
+        "url": "https://doi.org/10.21769/bioprotoc.5536",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Nielsen J. Yeast systems biology: model organism and cell factory. Biotechnol J 2019;14(9):e1800421",
+        "url": "https://doi.org/10.1002/biot.201800421",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "plasmodium-falciparum": {
+    "authority": "Welch, 1897",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "phost": "human",
+      "vector": "mosquito"
+    },
+    "traitsExtra": [
+      [
+        "ขนาดจีโนมนิวเคลียส",
+        "ราว 23 ล้านคู่เบส ใน 14 โครโมโซม เข้ารหัสราว 5,300 ยีน เป็นจีโนมที่มี A กับ T สูงที่สุดที่ถอดลำดับได้ในปี 2002"
+      ],
+      [
+        "ระยะที่ก่อให้เกิดอาการ",
+        "ระยะในเม็ดเลือดแดง"
+      ],
+      [
+        "รูปร่างของแกมีโตไซต์",
+        "รูปเสี้ยวหรือคล้ายไส้กรอก ยาวประมาณ 1.5 เท่าของเส้นผ่านศูนย์กลางเม็ดเลือดแดง"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ]
+    ],
+    "asideTitle": "ชื่อที่เกือบเป็นอย่างอื่น",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Plasmodium falciparum Welch, 1897",
+        "url": "https://www.gbif.org/species/10540993",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Gardner MJ et al. Genome sequence of the human malaria parasite Plasmodium falciparum. Nature 2002;419:498-511",
+        "url": "https://doi.org/10.1038/nature01097",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "Tiwari A, Sinha A. Etymologia: Falciparum. Emerging Infectious Diseases 2021;27(2):470",
+        "url": "https://wwwnc.cdc.gov/eid/article/27/2/et-2702_article",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "CDC DPDx: Malaria",
+        "url": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "WHO: Malaria fact sheet (updated 4 December 2025)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "oryza-sativa": {
+    "authority": "L.",
+    "synonyms": [],
+    "accepted_name": null,
+    "traits": {
+      "cotyledon": "mono",
+      "habit": "herb",
+      "origin": "asia"
+    },
+    "traitsExtra": [
+      [
+        "การนำมาปลูกครั้งแรกของข้าวจาโปนิกา",
+        "ราว 8,000 ปีก่อน ในลุ่มแม่น้ำแยงซีทางตอนใต้ของจีน"
+      ],
+      [
+        "ผู้ปลูกส่วนใหญ่",
+        "เกษตรกรรายย่อยในประเทศรายได้น้อยและกำลังพัฒนา (ราวสี่ในห้าของข้าวโลก)"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "asideTitle": "ข้าวถูกทำให้เชื่องอย่างไร",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Oryza sativa L.",
+        "url": "https://www.gbif.org/species/2703459",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "Gross BL, Zhao Z. Archaeological and genetic insights into the origins of domesticated rice. PNAS 2014;111(17):6190-6197",
+        "url": "https://doi.org/10.1073/pnas.1308942110",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "FAO: International Year of Rice 2004, progress in preparation and implementation",
+        "url": "https://www.fao.org/4/Y5167E/y5167e03.htm",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "Gramineae of Northern and West Tropical Africa: Genus Oryza Linnaeus (Naturalis)",
+        "url": "https://grasses-africa.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?id=54106",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  },
+  "aedes-aegypti": {
+    "authority": "(Linnaeus, 1762)",
+    "synonyms": [
+      "Stegomyia aegypti",
+      "Culex aegypti"
+    ],
+    "accepted_name": null,
+    "traits": {
+      "development": "complete"
+    },
+    "traitsExtra": [
+      [
+        "จุดสังเกต",
+        "เกล็ดสีเงินรูปพิณ (lyre) บนอกด้านบนบนพื้นสีดำ"
+      ],
+      [
+        "ช่วงเวลาออกหากิน",
+        "กลางวันและพลบค่ำ"
+      ],
+      [
+        "ระยะบินโดยประมาณ",
+        "ราว 200 เมตร"
+      ],
+      [
+        "ระยะเวลาจากไข่ถึงตัวเต็มวัย",
+        "7 ถึง 10 วัน (ข้อมูลของยุงลาย 2 ชนิดรวมกัน)"
+      ]
+    ],
+    "traitsExtraRefs": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "asideTitle": "ยุงที่ปรับตัวมาอยู่กับคน",
+    "refs": [
+      {
+        "n": 1,
+        "title": "GBIF: Aedes aegypti (Linnaeus, 1762)",
+        "url": "https://www.gbif.org/species/1651891",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 2,
+        "title": "ECDC: Aedes aegypti, factsheet for experts",
+        "url": "https://www.ecdc.europa.eu/en/disease-vectors/facts/mosquito-factsheets/aedes-aegypti",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 3,
+        "title": "CDC: Life cycle of Aedes aegypti and Ae. albopictus mosquitoes",
+        "url": "https://www.cdc.gov/mosquitoes/about/life-cycles/aedes.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 4,
+        "title": "WHO: Dengue and severe dengue fact sheet (updated 21 August 2025)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+        "accessed": "2026-11-14"
+      },
+      {
+        "n": 5,
+        "title": "Powell JR, Tabachnick WJ. History of domestication and spread of Aedes aegypti: a review. Mem Inst Oswaldo Cruz 2013;108(suppl 1):11-17",
+        "url": "https://doi.org/10.1590/0074-0276130395",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "iucn": null
+  }
+}
