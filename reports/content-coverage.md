@@ -11,10 +11,10 @@
 | bacteria | 24 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
 | archaea | 9 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
 | fungi | 19 | 1 | 1 | 0 | 1 | 1 | 1 | 0 | 1 |
-| protists | 25 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| protists | 25 | 21 | 25 | 13 | 25 | 12 | 23 | 1 | 25 |
 | plants | 30 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | 1 |
 | animals | 38 | 1 | 1 | 38 | 1 | 1 | 1 | 0 | 1 |
-| **รวม** | 145 | 6 | 6 | 42 | 6 | 3 | 6 | 3 | 6 |
+| **รวม** | 145 | 26 | 30 | 54 | 30 | 14 | 28 | 3 | 30 |
 
 ## ต่อกลุ่ม: ภาษาอังกฤษ
 
@@ -23,10 +23,10 @@
 | bacteria | 24 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | archaea | 9 | 1 | 1 | 1 | 0 | 0 | 1 | 1 | 1 |
 | fungi | 19 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| protists | 25 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| protists | 25 | 21 | 0 | 4 | 0 | 0 | 0 | 0 | 25 |
 | plants | 30 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | animals | 38 | 1 | 0 | 38 | 0 | 0 | 0 | 0 | 1 |
-| **รวม** | 145 | 6 | 1 | 41 | 0 | 0 | 1 | 1 | 6 |
+| **รวม** | 145 | 26 | 1 | 44 | 0 | 0 | 1 | 1 | 30 |
 
 ## ต่อชนิด: ภาษาไทย
 
@@ -154,31 +154,31 @@
 | `wolffia-globosa` | – | – | – | – | – | – | – | – |
 | `nepenthes-mirabilis` | – | – | – | – | – | – | – | – |
 | `rhizophora-apiculata` | – | – | – | – | – | – | – | – |
-| `euglena-gracilis` | – | – | – | – | – | – | – | – |
-| `trypanosoma-brucei` | – | – | – | – | – | – | – | – |
-| `giardia-intestinalis` | – | – | – | – | – | – | – | – |
-| `paramecium-caudatum` | – | – | – | – | – | – | – | – |
+| `euglena-gracilis` | ✓ | ✓ | – | ✓ | – | ✓ | – | ✓ |
+| `trypanosoma-brucei` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `giardia-intestinalis` | – | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `paramecium-caudatum` | ✓ | ✓ | – | ✓ | – | ✓ | – | ✓ |
 | `plasmodium-falciparum` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| `thalassiosira-pseudonana` | – | – | – | – | – | – | – | – |
-| `chlamydomonas-reinhardtii` | – | – | – | – | – | – | – | – |
-| `pyropia-yezoensis` | – | – | – | – | – | – | – | – |
-| `amoeba-proteus` | – | – | – | – | – | – | – | – |
-| `physarum-polycephalum` | – | – | – | – | – | – | – | – |
-| `noctiluca-scintillans` | – | – | – | – | – | – | – | – |
-| `sargassum-polycystum` | – | – | – | – | – | – | – | – |
-| `spirogyra-varians` | – | – | – | – | – | – | – | – |
-| `volvox-carteri` | – | – | – | – | – | – | – | – |
-| `entamoeba-histolytica` | – | – | – | – | – | – | – | – |
-| `trichomonas-vaginalis` | – | – | – | – | – | – | – | – |
-| `leishmania-donovani` | – | – | – | – | – | – | – | – |
-| `toxoplasma-gondii` | – | – | – | – | – | – | – | – |
-| `dictyostelium-discoideum` | – | – | – | – | – | – | – | – |
-| `phytophthora-infestans` | – | – | – | – | – | – | – | – |
-| `chlorella-vulgaris` | – | – | – | – | – | – | – | – |
-| `caulerpa-lentillifera` | – | – | – | – | – | – | – | – |
-| `gracilaria-fisheri` | – | – | – | – | – | – | – | – |
-| `plasmodium-vivax` | – | – | – | – | – | – | – | – |
-| `vorticella-campanula` | – | – | – | – | – | – | – | – |
+| `thalassiosira-pseudonana` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `chlamydomonas-reinhardtii` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `pyropia-yezoensis` | ✓ | ✓ | – | ✓ | ✓ | ✓ | – | ✓ |
+| `amoeba-proteus` | ✓ | ✓ | – | ✓ | – | ✓ | – | ✓ |
+| `physarum-polycephalum` | ✓ | ✓ | – | ✓ | ✓ | ✓ | – | ✓ |
+| `noctiluca-scintillans` | ✓ | ✓ | – | ✓ | ✓ | ✓ | – | ✓ |
+| `sargassum-polycystum` | ✓ | ✓ | – | ✓ | – | – | – | ✓ |
+| `spirogyra-varians` | ✓ | ✓ | – | ✓ | – | ✓ | – | ✓ |
+| `volvox-carteri` | – | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `entamoeba-histolytica` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `trichomonas-vaginalis` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `leishmania-donovani` | – | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `toxoplasma-gondii` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `dictyostelium-discoideum` | ✓ | ✓ | – | ✓ | ✓ | ✓ | – | ✓ |
+| `phytophthora-infestans` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `chlorella-vulgaris` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `caulerpa-lentillifera` | ✓ | ✓ | – | ✓ | – | – | – | ✓ |
+| `gracilaria-fisheri` | – | ✓ | – | ✓ | – | ✓ | – | ✓ |
+| `plasmodium-vivax` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `vorticella-campanula` | ✓ | ✓ | – | ✓ | – | ✓ | – | ✓ |
 
 ## ต่อชนิด: ภาษาอังกฤษ
 
@@ -306,28 +306,28 @@
 | `wolffia-globosa` | – | – | – | – | – | – | – | – |
 | `nepenthes-mirabilis` | – | – | – | – | – | – | – | – |
 | `rhizophora-apiculata` | – | – | – | – | – | – | – | – |
-| `euglena-gracilis` | – | – | – | – | – | – | – | – |
-| `trypanosoma-brucei` | – | – | – | – | – | – | – | – |
-| `giardia-intestinalis` | – | – | – | – | – | – | – | – |
-| `paramecium-caudatum` | – | – | – | – | – | – | – | – |
+| `euglena-gracilis` | ✓ | – | – | – | – | – | – | ✓ |
+| `trypanosoma-brucei` | ✓ | – | – | – | – | – | – | ✓ |
+| `giardia-intestinalis` | – | – | – | – | – | – | – | ✓ |
+| `paramecium-caudatum` | ✓ | – | – | – | – | – | – | ✓ |
 | `plasmodium-falciparum` | ✓ | – | ✓ | – | – | – | – | ✓ |
-| `thalassiosira-pseudonana` | – | – | – | – | – | – | – | – |
-| `chlamydomonas-reinhardtii` | – | – | – | – | – | – | – | – |
-| `pyropia-yezoensis` | – | – | – | – | – | – | – | – |
-| `amoeba-proteus` | – | – | – | – | – | – | – | – |
-| `physarum-polycephalum` | – | – | – | – | – | – | – | – |
-| `noctiluca-scintillans` | – | – | – | – | – | – | – | – |
-| `sargassum-polycystum` | – | – | – | – | – | – | – | – |
-| `spirogyra-varians` | – | – | – | – | – | – | – | – |
-| `volvox-carteri` | – | – | – | – | – | – | – | – |
-| `entamoeba-histolytica` | – | – | – | – | – | – | – | – |
-| `trichomonas-vaginalis` | – | – | – | – | – | – | – | – |
-| `leishmania-donovani` | – | – | – | – | – | – | – | – |
-| `toxoplasma-gondii` | – | – | – | – | – | – | – | – |
-| `dictyostelium-discoideum` | – | – | – | – | – | – | – | – |
-| `phytophthora-infestans` | – | – | – | – | – | – | – | – |
-| `chlorella-vulgaris` | – | – | – | – | – | – | – | – |
-| `caulerpa-lentillifera` | – | – | – | – | – | – | – | – |
-| `gracilaria-fisheri` | – | – | – | – | – | – | – | – |
-| `plasmodium-vivax` | – | – | – | – | – | – | – | – |
-| `vorticella-campanula` | – | – | – | – | – | – | – | – |
+| `thalassiosira-pseudonana` | ✓ | – | – | – | – | – | – | ✓ |
+| `chlamydomonas-reinhardtii` | ✓ | – | – | – | – | – | – | ✓ |
+| `pyropia-yezoensis` | ✓ | – | – | – | – | – | – | ✓ |
+| `amoeba-proteus` | ✓ | – | – | – | – | – | – | ✓ |
+| `physarum-polycephalum` | ✓ | – | – | – | – | – | – | ✓ |
+| `noctiluca-scintillans` | ✓ | – | – | – | – | – | – | ✓ |
+| `sargassum-polycystum` | ✓ | – | – | – | – | – | – | ✓ |
+| `spirogyra-varians` | ✓ | – | – | – | – | – | – | ✓ |
+| `volvox-carteri` | – | – | – | – | – | – | – | ✓ |
+| `entamoeba-histolytica` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `trichomonas-vaginalis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `leishmania-donovani` | – | – | – | – | – | – | – | ✓ |
+| `toxoplasma-gondii` | ✓ | – | – | – | – | – | – | ✓ |
+| `dictyostelium-discoideum` | ✓ | – | – | – | – | – | – | ✓ |
+| `phytophthora-infestans` | ✓ | – | – | – | – | – | – | ✓ |
+| `chlorella-vulgaris` | ✓ | – | – | – | – | – | – | ✓ |
+| `caulerpa-lentillifera` | ✓ | – | – | – | – | – | – | ✓ |
+| `gracilaria-fisheri` | – | – | – | – | – | – | – | ✓ |
+| `plasmodium-vivax` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `vorticella-campanula` | ✓ | – | – | – | – | – | – | ✓ |

@@ -7,10 +7,10 @@
 | bacteria | 24 | 0 | 0 / 48 | 1 | 1 | 23 | 0 |
 | archaea | 9 | 0 | 0 / 18 | 0 | 0 | 9 | 0 |
 | fungi | 19 | 0 | 0 / 57 | 1 | 1 | 10 | 0 |
-| protists | 25 | 0 | 0 / 75 | 1 | 1 | 21 | 0 |
+| protists | 25 | 0 | 0 / 75 | 25 | 25 | 21 | 0 |
 | plants | 30 | 0 | 0 / 60 | 1 | 1 | 7 | 0 |
 | animals | 38 | 0 | 0 / 76 | 1 | 1 | 7 | 0 |
-| **รวม** | 145 | 0 | 0 / 334 | 5 | 5 | 77 | 0 |
+| **รวม** | 145 | 0 | 0 / 334 | 29 | 29 | 77 | 0 |
 
 `name_en` ว่างได้เมื่อไม่มีชื่อสามัญภาษาอังกฤษจริง (ห้ามแต่งชื่อ) ส่วน about_en ของสกุลว่างได้ตามกติกา validate
 
@@ -18,6 +18,30 @@
 
 - `escherichia-coli`: extra_en
 - `saccharomyces-cerevisiae`: extra_en
+- `euglena-gracilis`: extra_en
+- `trypanosoma-brucei`: extra_en
+- `giardia-intestinalis`: extra_en
+- `paramecium-caudatum`: extra_en
 - `plasmodium-falciparum`: extra_en
+- `thalassiosira-pseudonana`: extra_en
+- `chlamydomonas-reinhardtii`: extra_en
+- `pyropia-yezoensis`: extra_en
+- `amoeba-proteus`: extra_en
+- `physarum-polycephalum`: extra_en
+- `noctiluca-scintillans`: extra_en
+- `sargassum-polycystum`: extra_en
+- `spirogyra-varians`: extra_en
+- `volvox-carteri`: extra_en
+- `entamoeba-histolytica`: extra_en
+- `trichomonas-vaginalis`: extra_en
+- `leishmania-donovani`: extra_en
+- `toxoplasma-gondii`: extra_en
+- `dictyostelium-discoideum`: extra_en
+- `phytophthora-infestans`: extra_en
+- `chlorella-vulgaris`: extra_en
+- `caulerpa-lentillifera`: extra_en
+- `gracilaria-fisheri`: extra_en
+- `plasmodium-vivax`: extra_en
+- `vorticella-campanula`: extra_en
 - `oryza-sativa`: extra_en
 - `aedes-aegypti`: extra_en

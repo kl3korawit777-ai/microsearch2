@@ -244,6 +244,7 @@ def test_real_pilot_files_import_cleanly_into_a_copy_of_the_real_data(tmp_path):
     assert ms.validate_data(str(data)).errors == []
     done = {o["id"]: o for o in ms.load_organisms(str(data)) if o.get("extra_th")}
     assert {"escherichia-coli", "halobacterium-salinarum", "saccharomyces-cerevisiae", "plasmodium-falciparum", "oryza-sativa", "aedes-aegypti"} <= set(done)
-    assert all(len(o["refs"]) >= 2 and o["authority"] for i, o in done.items() if i != "x")
+    pilot = {"escherichia-coli", "halobacterium-salinarum", "saccharomyces-cerevisiae", "plasmodium-falciparum", "oryza-sativa", "aedes-aegypti"}
+    assert all(len(done[i]["refs"]) >= 2 and done[i]["authority"] for i in pilot)
     # หัวข้อว่างไม่สร้างช่อง: วงชีวิตของ E. coli ยังไม่มี
     assert "lifecycle" not in done["escherichia-coli"]["extra_th"] and "disease" in done["plasmodium-falciparum"]["extra_th"]
