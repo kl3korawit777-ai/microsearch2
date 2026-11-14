@@ -9,8 +9,8 @@
 | fungi | 19 | 0 | 0 / 57 | 19 | 19 | 10 | 0 |
 | protists | 25 | 0 | 0 / 75 | 25 | 25 | 21 | 0 |
 | plants | 30 | 0 | 0 / 60 | 30 | 30 | 7 | 0 |
-| animals | 38 | 0 | 0 / 76 | 1 | 1 | 7 | 0 |
-| **รวม** | 145 | 0 | 0 / 334 | 107 | 107 | 77 | 0 |
+| animals | 38 | 0 | 0 / 76 | 26 | 26 | 7 | 0 |
+| **รวม** | 145 | 0 | 0 / 334 | 132 | 132 | 77 | 0 |
 
 `name_en` ว่างได้เมื่อไม่มีชื่อสามัญภาษาอังกฤษจริง (ห้ามแต่งชื่อ) ส่วน about_en ของสกุลว่างได้ตามกติกา validate
 
@@ -122,4 +122,29 @@
 - `wolffia-globosa`: extra_en
 - `nepenthes-mirabilis`: extra_en
 - `rhizophora-apiculata`: extra_en
+- `spongilla-lacustris`: extra_en
+- `aurelia-aurita`: extra_en
+- `hydra-vulgaris`: extra_en
+- `opisthorchis-viverrini`: extra_en
+- `caenorhabditis-elegans`: extra_en
+- `hirudinaria-manillensis`: extra_en
+- `pomacea-canaliculata`: extra_en
+- `nautilus-pompilius`: extra_en
 - `aedes-aegypti`: extra_en
+- `penaeus-monodon`: extra_en
+- `heterometrus-laoticus`: extra_en
+- `acanthaster-planci`: extra_en
+- `branchiostoma-belcheri`: extra_en
+- `dugesia-japonica`: extra_en
+- `taenia-solium`: extra_en
+- `ascaris-lumbricoides`: extra_en
+- `gnathostoma-spinigerum`: extra_en
+- `perinereis-nuntia`: extra_en
+- `tridacna-squamosa`: extra_en
+- `periplaneta-americana`: extra_en
+- `drosophila-melanogaster`: extra_en
+- `bombyx-mori`: extra_en
+- `diadema-setosum`: extra_en
+- `lumbricus-terrestris`: extra_en
+- `anopheles-minimus`: extra_en
+- `apis-cerana`: extra_en

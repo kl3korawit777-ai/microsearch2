@@ -13,8 +13,8 @@
 | fungi | 19 | 19 | 19 | 18 | 19 | 2 | 19 | 0 | 19 |
 | protists | 25 | 21 | 25 | 13 | 25 | 12 | 23 | 1 | 25 |
 | plants | 30 | 30 | 30 | 30 | 30 | 1 | 30 | 0 | 30 |
-| animals | 38 | 1 | 1 | 38 | 1 | 1 | 1 | 0 | 1 |
-| **รวม** | 145 | 104 | 108 | 132 | 108 | 21 | 106 | 31 | 108 |
+| animals | 38 | 26 | 26 | 38 | 26 | 7 | 26 | 0 | 26 |
+| **รวม** | 145 | 129 | 133 | 132 | 133 | 27 | 131 | 31 | 133 |
 
 ## ต่อกลุ่ม: ภาษาอังกฤษ
 
@@ -25,8 +25,8 @@
 | fungi | 19 | 19 | 0 | 8 | 0 | 0 | 0 | 0 | 19 |
 | protists | 25 | 21 | 0 | 4 | 0 | 0 | 0 | 0 | 25 |
 | plants | 30 | 30 | 0 | 30 | 0 | 0 | 0 | 0 | 30 |
-| animals | 38 | 1 | 0 | 38 | 0 | 0 | 0 | 0 | 1 |
-| **รวม** | 145 | 104 | 1 | 96 | 0 | 0 | 1 | 1 | 108 |
+| animals | 38 | 26 | 0 | 38 | 0 | 0 | 0 | 0 | 26 |
+| **รวม** | 145 | 129 | 1 | 96 | 0 | 0 | 1 | 1 | 133 |
 
 ## ต่อชนิด: ภาษาไทย
 
@@ -34,41 +34,41 @@
 
 | ชนิด | title | lede | traits | life | lifecycle | why | name | refs |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `spongilla-lacustris` | – | – | ✓ | – | – | – | – | – |
-| `aurelia-aurita` | – | – | ✓ | – | – | – | – | – |
-| `hydra-vulgaris` | – | – | ✓ | – | – | – | – | – |
-| `opisthorchis-viverrini` | – | – | ✓ | – | – | – | – | – |
-| `caenorhabditis-elegans` | – | – | ✓ | – | – | – | – | – |
-| `hirudinaria-manillensis` | – | – | ✓ | – | – | – | – | – |
-| `pomacea-canaliculata` | – | – | ✓ | – | – | – | – | – |
-| `nautilus-pompilius` | – | – | ✓ | – | – | – | – | – |
+| `spongilla-lacustris` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `aurelia-aurita` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `hydra-vulgaris` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `opisthorchis-viverrini` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `caenorhabditis-elegans` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `hirudinaria-manillensis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `pomacea-canaliculata` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `nautilus-pompilius` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `aedes-aegypti` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
-| `penaeus-monodon` | – | – | ✓ | – | – | – | – | – |
-| `heterometrus-laoticus` | – | – | ✓ | – | – | – | – | – |
-| `acanthaster-planci` | – | – | ✓ | – | – | – | – | – |
-| `branchiostoma-belcheri` | – | – | ✓ | – | – | – | – | – |
+| `penaeus-monodon` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `heterometrus-laoticus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `acanthaster-planci` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `branchiostoma-belcheri` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `betta-splendens` | – | – | ✓ | – | – | – | – | – |
 | `hoplobatrachus-rugulosus` | – | – | ✓ | – | – | – | – | – |
 | `elephas-maximus` | – | – | ✓ | – | – | – | – | – |
-| `dugesia-japonica` | – | – | ✓ | – | – | – | – | – |
-| `taenia-solium` | – | – | ✓ | – | – | – | – | – |
-| `ascaris-lumbricoides` | – | – | ✓ | – | – | – | – | – |
-| `gnathostoma-spinigerum` | – | – | ✓ | – | – | – | – | – |
-| `perinereis-nuntia` | – | – | ✓ | – | – | – | – | – |
-| `tridacna-squamosa` | – | – | ✓ | – | – | – | – | – |
-| `periplaneta-americana` | – | – | ✓ | – | – | – | – | – |
-| `drosophila-melanogaster` | – | – | ✓ | – | – | – | – | – |
-| `bombyx-mori` | – | – | ✓ | – | – | – | – | – |
-| `diadema-setosum` | – | – | ✓ | – | – | – | – | – |
+| `dugesia-japonica` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `taenia-solium` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `ascaris-lumbricoides` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `gnathostoma-spinigerum` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
+| `perinereis-nuntia` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `tridacna-squamosa` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `periplaneta-americana` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `drosophila-melanogaster` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `bombyx-mori` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `diadema-setosum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `ciona-intestinalis` | – | – | ✓ | – | – | – | – | – |
 | `rhincodon-typus` | – | – | ✓ | – | – | – | – | – |
 | `chelonia-mydas` | – | – | ✓ | – | – | – | – | – |
 | `gallus-gallus` | – | – | ✓ | – | – | – | – | – |
 | `homo-sapiens` | – | – | ✓ | – | – | – | – | – |
 | `ornithorhynchus-anatinus` | – | – | ✓ | – | – | – | – | – |
-| `lumbricus-terrestris` | – | – | ✓ | – | – | – | – | – |
-| `anopheles-minimus` | – | – | ✓ | – | – | – | – | – |
-| `apis-cerana` | – | – | ✓ | – | – | – | – | – |
+| `lumbricus-terrestris` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `anopheles-minimus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `apis-cerana` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `mus-musculus` | – | – | ✓ | – | – | – | – | – |
 | `danio-rerio` | – | – | ✓ | – | – | – | – | – |
 | `hippocampus-kuda` | – | – | ✓ | – | – | – | – | – |
@@ -186,41 +186,41 @@
 
 | ชนิด | title | lede | traits | life | lifecycle | why | name | refs |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `spongilla-lacustris` | – | – | ✓ | – | – | – | – | – |
-| `aurelia-aurita` | – | – | ✓ | – | – | – | – | – |
-| `hydra-vulgaris` | – | – | ✓ | – | – | – | – | – |
-| `opisthorchis-viverrini` | – | – | ✓ | – | – | – | – | – |
-| `caenorhabditis-elegans` | – | – | ✓ | – | – | – | – | – |
-| `hirudinaria-manillensis` | – | – | ✓ | – | – | – | – | – |
-| `pomacea-canaliculata` | – | – | ✓ | – | – | – | – | – |
-| `nautilus-pompilius` | – | – | ✓ | – | – | – | – | – |
+| `spongilla-lacustris` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `aurelia-aurita` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `hydra-vulgaris` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `opisthorchis-viverrini` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `caenorhabditis-elegans` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `hirudinaria-manillensis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `pomacea-canaliculata` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `nautilus-pompilius` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `aedes-aegypti` | ✓ | – | ✓ | – | – | – | – | ✓ |
-| `penaeus-monodon` | – | – | ✓ | – | – | – | – | – |
-| `heterometrus-laoticus` | – | – | ✓ | – | – | – | – | – |
-| `acanthaster-planci` | – | – | ✓ | – | – | – | – | – |
-| `branchiostoma-belcheri` | – | – | ✓ | – | – | – | – | – |
+| `penaeus-monodon` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `heterometrus-laoticus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `acanthaster-planci` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `branchiostoma-belcheri` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `betta-splendens` | – | – | ✓ | – | – | – | – | – |
 | `hoplobatrachus-rugulosus` | – | – | ✓ | – | – | – | – | – |
 | `elephas-maximus` | – | – | ✓ | – | – | – | – | – |
-| `dugesia-japonica` | – | – | ✓ | – | – | – | – | – |
-| `taenia-solium` | – | – | ✓ | – | – | – | – | – |
-| `ascaris-lumbricoides` | – | – | ✓ | – | – | – | – | – |
-| `gnathostoma-spinigerum` | – | – | ✓ | – | – | – | – | – |
-| `perinereis-nuntia` | – | – | ✓ | – | – | – | – | – |
-| `tridacna-squamosa` | – | – | ✓ | – | – | – | – | – |
-| `periplaneta-americana` | – | – | ✓ | – | – | – | – | – |
-| `drosophila-melanogaster` | – | – | ✓ | – | – | – | – | – |
-| `bombyx-mori` | – | – | ✓ | – | – | – | – | – |
-| `diadema-setosum` | – | – | ✓ | – | – | – | – | – |
+| `dugesia-japonica` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `taenia-solium` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `ascaris-lumbricoides` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `gnathostoma-spinigerum` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `perinereis-nuntia` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `tridacna-squamosa` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `periplaneta-americana` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `drosophila-melanogaster` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `bombyx-mori` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `diadema-setosum` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `ciona-intestinalis` | – | – | ✓ | – | – | – | – | – |
 | `rhincodon-typus` | – | – | ✓ | – | – | – | – | – |
 | `chelonia-mydas` | – | – | ✓ | – | – | – | – | – |
 | `gallus-gallus` | – | – | ✓ | – | – | – | – | – |
 | `homo-sapiens` | – | – | ✓ | – | – | – | – | – |
 | `ornithorhynchus-anatinus` | – | – | ✓ | – | – | – | – | – |
-| `lumbricus-terrestris` | – | – | ✓ | – | – | – | – | – |
-| `anopheles-minimus` | – | – | ✓ | – | – | – | – | – |
-| `apis-cerana` | – | – | ✓ | – | – | – | – | – |
+| `lumbricus-terrestris` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `anopheles-minimus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `apis-cerana` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `mus-musculus` | – | – | ✓ | – | – | – | – | – |
 | `danio-rerio` | – | – | ✓ | – | – | – | – | – |
 | `hippocampus-kuda` | – | – | ✓ | – | – | – | – | – |
