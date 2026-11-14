@@ -60,6 +60,8 @@ python scripts/microsearch.py coverage                # ช่องอังก
 python scripts/microsearch.py fetch-traits [--only id,..] [--source bacdive,iucn] [--refresh]   # ลักษณะจาก BacDive v2 (type strain; ไม่ต้อง login) + สถานภาพ IUCN v4 (ต้องมี IUCN_TOKEN ใน .env ไม่ commit) -> data/generated/traits-fetched.json
 python scripts/microsearch.py traits-diff             # เทียบกับ traits/iucn ใน data/organisms -> reports/traits-diff.md (ไม่แก้ข้อมูล)
 python scripts/microsearch.py import-research research/<ชื่อ> [--dry-run]   # ไฟล์พัก .md + .data.json -> extra_th ของชนิด ตรวจเทียบฉบับร่างแรกใน git ก่อน (ถ้าไม่ตรง เขียน reports/import-check.md แล้วหยุด)
+python scripts/microsearch.py export-translation <group> [--out ไฟล์] [--only id,..]   # extra_th ของกลุ่ม -> ไฟล์ข้อความ `คีย์: ป้าย | ข้อความ` สำหรับแปลอังกฤษ (R9)
+python scripts/microsearch.py import-translation research/en/<group>.txt [--dry-run]   # ไฟล์แปล -> extra_en ตรวจเทียบ extra_th ก่อน (บรรทัด คีย์ [n] ตัวเลขต้องเท่ากัน ห้ามมีอักษรไทย) ถ้าไม่ตรงไม่เขียนอะไร
 npm run test:sample                                   # ชนิดทดสอบที่ใส่ครบ 8 ส่วน (tests/fixtures/sample-species.json) ทั้งสองภาษา ใช้สำเนาชั่วคราว ไม่แตะ data/
 npm run test:offline                                  # service worker: ตัดเน็ตแล้วเปิดทุกกลุ่ม/ชนิดได้ + อัปเดตเวอร์ชัน
 npm run test:a11y                                     # axe-core ทุกหน้า x สว่าง/มืด x ไทย/อังกฤษ + คีย์บอร์ด/focus/reduced-motion

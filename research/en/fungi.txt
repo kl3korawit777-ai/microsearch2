@@ -1,0 +1,249 @@
+## batrachochytrium-dendrobatidis
+lede: A chytrid fungus that infects the skin of amphibians and causes the disease chytridiomycosis [2]. It was the first chytrid reported to be a parasite of vertebrates [2]. The disease has caused declines in at least 501 amphibian species [3]
+traitsExtra: Phylum | Chytridiomycota [2]
+life: Relationships | A parasite that changes the outer skin layer of frogs and toads, and has been found in both sick and dead animals [2]
+life: Spread | Human trade and development have broken down the barriers to dispersal, allowing the disease to spread around the world [3]
+why: Ecology | Outbreaks of this disease have caused declines in at least 501 amphibian species over the past half century, and 90 species are thought to have gone extinct. Only 12% of the declining species have begun to recover, while 39% continue to decline [3]
+asideTitle: A fungus behind amphibian declines worldwide
+aside: It was the first time a member of the phylum Chytridiomycota was reported as a parasite of vertebrates [2]
+aside: The impact has been most severe on large frogs and toads that live in restricted ranges and humid climates in the Americas and Australia [3]
+aside: Amphibian declines associated with this disease peaked in the 1980s [3]
+
+## rhizopus-stolonifer
+lede: A fungus that is one of the main pathogens of fruit during postharvest storage, infecting more than 100 kinds of fruit, such as strawberries, tomatoes and watermelons [2]
+traitsExtra: Number of fruit species it causes postharvest disease in | More than 100 [2]
+life: Habitat | Fruit that is stored and transported after harvest [2]
+life: Pathogenicity | A review summarizes the morphology, detection, pathogenicity and invasion mechanisms of this fungus [2]
+why: Food | Causes postharvest spoilage in more than 100 kinds of fruit. Physical, chemical and biological control methods exist [2]
+asideTitle: A main pathogen of stored fruit
+aside: GBIF lists several synonyms of this species, such as Ascophora mucedo and Mucor agaricinus [1]
+aside: A 2024 review states that control methods are developing toward nanomaterials, biological metabolites and light that kills microbes [2]
+aside: The review proposes that the mechanisms of pathogenicity should continue to be studied [2]
+
+## rhizophagus-irregularis
+lede: An arbuscular mycorrhizal fungus that lives with plant roots, exchanging nutrients with them [2][4]. Its hyphae have no cross-walls and contain hundreds of nuclei [2]. Fungi in this group help cycle phosphorus, which is important for plant yield [2]
+traitsExtra: Genome size | About 153 million base pairs [2]
+life: Relationships | Lives with about 80% of plants and helps them obtain water, nutrients and protection from pathogens, in exchange for products of photosynthesis [4]
+life: Nutrition | Plants can send the fungus up to 20% of the carbon they fix, and plants also send lipids to the fungus [3]
+life: Structure | The hyphae have no cross-walls and contain hundreds of nuclei [2]
+lifecycle: Spores | Reproduces clonally through large, multinucleate spores [2]
+why: Ecology | The partnership with land plants is the oldest partnership plants have, and it has been hypothesized that it helped land plants evolve in the middle of the Paleozoic [2]
+why: Agriculture | Used as a natural biofertilizer because it helps plants obtain water, nutrients and protection from pathogens [4]
+asideTitle: An ancient partnership between plants and fungi
+aside: GBIF lists synonyms that were once placed in the genera Glomus and Rhizoglomus [1]
+aside: The genome is about 153 million base pairs in size [2]
+aside: Mutant plants lacking the genes that make lipids for the root symbiosis show abnormal development of the fungus [3]
+
+## saccharomyces-cerevisiae
+lede: This yeast divides by budding, and people have used it to make bread, beer and wine for a long time [5]. Molecular biology and genetics laboratories have also relied on it for more than a hundred years [3]. It is now known to live in nature too, not only in human-made environments and laboratories [3]
+traitsExtra: Genome size | About 12 million base pairs in 16 chromosomes, with about 5,900 genes that may encode proteins [2]
+life: Habitat | Lives in both human-made environments and nature [3]
+life: Origin | Yeasts collected in China have nearly twice the genetic diversity of yeasts from all other parts of the world combined, so Asia is believed to be the likely place of origin [3]
+lifecycle: Starvation | When cells run out of food and stop multiplying, they enter meiosis and form spores [4]
+lifecycle: Spore germination | Spores germinate into single (haploid) cells [4]
+lifecycle: Mating | Two haploid cells pair and fuse to form a new generation [4]
+why: Food | Used to make bread, beer and wine [5]
+why: Science | An important model organism for eukaryotic biology, and research in yeast is relevant to human disease [5]. Its genome has been fully sequenced and is about 12 million base pairs long, with about 5,900 genes that may encode proteins [2]
+asideTitle: Yeast lives outside kitchens and laboratories too
+aside: The genome has 16 chromosomes and many redundant genes. After sequencing was completed, the big task became working out what all the genes do [2]
+aside: Yeasts from China are so diverse that they suggest Asia is the likely place of origin [3]
+aside: Besides making food, yeast has also been engineered to produce fuels, chemicals, food ingredients and medicines [5]
+
+## penicillium-chrysogenum
+lede: A filamentous fungus used to make the antibiotic penicillin industrially [2]. Industrial production relies on strain improvement carried out over a long period [2]. The genome of strain Wisconsin54-1255 is 32.19 million base pairs long [2]
+traitsExtra: Genome (strain Wisconsin54-1255) | 32.19 million base pairs [2]
+life: Production | The genome has many genes involved in the key steps of penicillin biosynthesis [2]
+life: Precursors | Penicillin biosynthesis uses amino acids such as valine and cysteine, as well as alpha-aminoadipic acid, as precursors [2]
+why: Medicine | A source of penicillin, an antibiotic [2]
+why: Industry | Industrial penicillin production relies on strain improvement carried out over a long period [2]
+asideTitle: A fungus improved by selection for many years
+aside: The researchers compared gene activity between the sequenced strain and a strain that produces high levels of penicillin, both with and without side-chain precursors [2]
+aside: In the high-producing strain, genes for making valine, cysteine and alpha-aminoadipic acid, as well as genes for microbody proteins, were more active [2]
+aside: GBIF lists several synonyms, such as Penicillium baculatum and Penicillium brunneorubrum [1]
+
+## aspergillus-oryzae
+lede: A fungus that is important in the production of traditional Japanese fermented foods and drinks [2]. It secretes large amounts of protein, so it is used in modern biotechnology [2]. Unlike A. flavus, it does not produce aflatoxin [2]
+traitsExtra: Genome | 37 million base pairs, with 12,074 genes [2]
+life: Protein secretion | Can secrete large amounts of protein [2]
+life: Genome | About 7 to 9 million base pairs larger than the genomes of A. nidulans and A. fumigatus [2]
+why: Food | Has long been used to make traditional Japanese fermented foods and drinks, and its history of use in the food industry confirms that it is safe [2]
+why: Industry | It secretes a lot of protein and has gene transfer systems, so it is used in modern biotechnology [2]
+asideTitle: A close relative that makes no aflatoxin
+aside: GBIF treats this species as a synonym of Aspergillus flavus [1]
+aside: A. oryzae and A. flavus both belong to section Flavi of the subgenus Circumdati [2]
+aside: The genome is 37 million base pairs long and has 12,074 genes [2]
+
+## volvariella-volvacea
+lede: The edible paddy straw mushroom, which is highly nutritious and widely cultivated commercially in many parts of Asia on rice straw and cotton waste [2]. The limits of cultivation are low yield per unit of growing material, sensitivity to low temperatures and an unclear mode of sexual reproduction [2]
+traitsExtra: Genome | 35.7 million base pairs, assembled into 62 scaffolds [2]
+life: Growing material | Grows on agricultural waste such as rice straw and cotton waste [2]
+life: Temperature | Sensitive to low temperatures [2]
+life: Digestion of material | The mushroom digests lignocellulosic material with enzymes and uses the products to build fruiting bodies [3]
+why: Food | A highly nutritious food source [2]
+why: Agriculture | Cultivation on agricultural waste makes use of material that can be an environmental problem when disposed of or burned [2][3]
+asideTitle: A mushroom grown on waste
+aside: GBIF lists synonyms such as Agaricus volvaceus and Agaricus virgatus [1]
+aside: The genome is 35.7 million base pairs long, assembled into 62 scaffolds [2]
+aside: The researchers sequenced the genome to address low yield and the unclear mode of sexual reproduction, both of which hinder strain development [2]
+
+## cryptococcus-neoformans
+lede: A basidiomycete yeast that is common in the environment [3]. It causes opportunistic disease in humans, which is a major problem worldwide [3]. People become infected by breathing in spores [2]. Fungi of this genus are the most common cause of meningitis in adults with HIV in sub-Saharan Africa [4]
+traitsExtra: Genome | About 20 million base pairs, with about 6,500 genes [3]
+life: Habitat | Common in the environment [3]. C. neoformans is found worldwide [2]
+life: Form | A yeast [3]
+life: Genome | About 20 million base pairs long, with about 6,500 genes that have many introns, and many transposons [3]
+why: Medicine | Causes opportunistic disease in the lungs and brain, mostly in people with weakened immune systems, especially those with advanced HIV/AIDS [2]. It is also used as a model for studying fungal pathogenesis [3]
+asideTitle: A yeast that serves as a model for pathogenesis
+aside: In this group the CDC distinguishes two main species: C. neoformans, found worldwide, and C. gattii, found mostly in tropical and subtropical regions [2]
+aside: Transposons in the genome may make chromosomes unstable and cause differences in the characteristics of the fungus [3]
+aside: The genome has unique genes that may be related to virulence [3]
+disease.name: Cryptococcosis, a serious fungal infection that usually affects the lungs or brain, and in the brain it causes meningitis [2]
+disease.symptoms: Lung infection causes cough, shortness of breath, chest pain and fever. Meningitis causes headache, neck pain, sensitivity to light, confusion or changes in behavior [2]
+disease.transmission: Breathing in spores from the environment. Most people who are exposed do not become ill, and healthy people can be affected but this is uncommon [2]
+disease.prevention: The source does not state a direct method of prevention, but it says that screening helps find and treat the infection before symptoms appear or before they become severe, and the CDC supports testing people with HIV before they start HIV treatment [2]
+disease.drugs: Antifungal drugs, used continuously for a long time [2]
+
+## neurospora-crassa
+lede: A filamentous fungus that was an important organism in the history of genetics, biochemistry and molecular biology in the 20th century [2]. Its genome is about 40 million base pairs long and has about 10,000 genes [2]
+traitsExtra: Genome | About 40 million base pairs, with about 10,000 genes [2]
+life: Light sensing | The genome has genes that are likely involved in the response to red light [2]
+life: Secondary metabolism | Has genes involved in making secondary metabolites [2]
+life: Calcium signaling | Differs from plants and animals in several respects [2]
+why: Science | An important organism for genetics and biochemistry in the 20th century [2]. The 1941 work of Beadle and Tatum on the control of biochemical reactions by genes was carried out in this fungus [3]
+asideTitle: A fungus that advanced biochemistry and genetics
+aside: It has more than twice as many genes as the yeast Schizosaccharomyces pombe and about 25% fewer than the fruit fly [2]
+aside: The 1941 paper by Beadle and Tatum is titled Genetic Control of Biochemical Reactions in Neurospora [3]
+aside: The researchers reported the genome as a high-quality draft [2]
+
+## aspergillus-flavus
+lede: A soil fungus that grows on dead organic matter [3]. It contaminates crop seeds before and after harvest with aflatoxin, a carcinogen [3], and it is an opportunistic pathogen of humans and animals that causes aspergillosis [3]
+traitsExtra: Secondary metabolite gene clusters | 55 clusters [3]
+life: Habitat | Soil, growing on dead organic matter [3]
+life: Production | The genome has 55 gene clusters for making secondary metabolites, which are regulated by the environment and by the master regulators LaeA and VeA [3]
+life: Pathogenicity | Traits related to pathogenicity and adaptation to habitat include the production of secondary metabolites, the secretion of enzymes and communication with the host through oxylipins [3]
+why: Food | Contaminates crop seeds with aflatoxin, a carcinogen [3]. Mycotoxins are secondary metabolites of fungi that can cause disease and death in both humans and animals [4]
+why: Medicine | An opportunistic pathogen that causes aspergillosis in people with weakened immune systems, a group that is growing in number [3]
+asideTitle: A fungus that contaminates food with a carcinogen
+aside: GBIF treats this species as the accepted name and A. oryzae as a synonym [1]
+aside: The A. flavus genome has been sequenced and published [3]
+aside: Aflatoxin is a mycotoxin that appears in a review focused on diseases of humans and animals [4]
+disease.name: Aspergillosis, an infection caused by breathing in spores of fungi in the genus Aspergillus, of which A. flavus is one cause [2][3]
+disease.symptoms: Most people have no symptoms. Common signs are cough and shortness of breath. Some forms bring nasal congestion, headache, fatigue or coughing up blood. A severe lung infection causes fever and chest pain, and if it spreads to other places, other symptoms follow [2]
+disease.transmission: Breathing in invisible spores from the environment. It does not spread between people or between people and animals [2]
+disease.prevention: The source states that people with weakened immune systems can reduce their risk, but it does not list methods on this page [2]
+disease.drugs: Usually antifungal drugs, depending on the type of infection. The source states that drug-resistant A. fumigatus is increasing, making treatment harder [2]
+
+## pleurotus-ostreatus
+lede: The oyster mushroom, the second most widely cultivated edible mushroom in the world after the button mushroom [2]. It can break down lignocellulosic material and many kinds of waste [2]. Its growth period is shorter than that of other edible mushrooms [2]
+traitsExtra: Rank among the most widely cultivated edible mushrooms in the world | Second, after Agaricus bisporus [2]
+life: Digestion of material | Can colonize and break down lignocellulosic material and many kinds of waste from agriculture, forestry and the food industry [2]
+life: Growth | Its growth period is shorter than that of other edible mushrooms [2]
+life: Growing material | Does not need full sterilization, and pasteurization, which is cheaper, is used instead [2]
+why: Food | The second most widely cultivated edible mushroom in the world after Agaricus bisporus [2]
+why: Agriculture | Agricultural, forestry and food industry waste can be used to grow it into mushrooms, which has both economic and ecological value [2]
+asideTitle: A mushroom grown on waste
+aside: The review authors state that mushroom cultivation has begun to turn toward producing more kinds of mushrooms [2]
+aside: GBIF lists synonyms such as Agaricus glandulosus and Agaricus convivarum [1]
+aside: Basidiomycete mushrooms make up 32% of named fungi and include mostly wood-decaying fungi [3]
+
+## termitomyces-fuliginosus
+lede: Fungi in the genus Termitomyces live in partnership with fungus-farming termites [2]. The information below comes from the genus as a whole, not specifically from the species T. fuliginosus
+traitsExtra: Origin of the partnership between termites and fungi (genus level) | A single origin in Africa [2]
+life: Relationships | Lives with fungus-farming termites. The partnership has a single origin in Africa [2]
+life: Dispersal | The fungi are mostly transmitted horizontally between nests, and the nest of a single termite species may contain several fungal species [2]
+why: Ecology | The termite-fungus partnership is a mutualism, and there has been no replacement by other cultivated fungi and no return of the fungi to a free-living life [2]
+asideTitle: Fungi farmed by termites
+aside: A 2002 study used DNA sequences to build family trees of termites and their symbiotic fungi [2]
+aside: Termites often switch the species of fungus they farm, especially at lower taxonomic levels [2]
+aside: GBIF lists the synonym Termitomyces robustus var. fuliginosus [1]
+
+## candida-albicans
+lede: A yeast that normally lives on the skin and in the mouth, throat and vagina without causing symptoms [2], but when it overgrows it causes candidiasis [2]. Fungi in the genus Candida are the most common cause of opportunistic fungal infection worldwide [3]
+traitsExtra: Usual sites | Skin, mouth, throat and vagina [2]
+life: Habitat | The skin, mouth, throat and vagina of humans [2]
+life: Pathogenicity | Causes disease when it grows out of control [2]
+life: Adaptation | Pathogenic Candida species have expanded families of cell wall genes, secreted proteins and transporters compared with nonpathogenic species [3]
+why: Medicine | Fungal infections contribute greatly to illness and death in humans, but their impact is not widely recognized [4]. Candida is the most common cause of opportunistic fungal infection worldwide [3]
+asideTitle: A fungus that lives as a companion before becoming a pathogen
+aside: A genome study of eight Candida species found that some lack key components of mating and meiosis [3]
+aside: In three of the diploid species, large regions of the genome are identical in both sets of chromosomes [3]
+aside: GBIF lists many synonyms of C. albicans, such as Actonia tropicalis [1]
+disease.name: Candidiasis, a Candida infection that occurs when yeast that normally lives on the skin and mucous membranes overgrows [2]
+disease.symptoms: Depends on the site. In the mouth or throat (thrush) there are white or red patches or soreness. In the vagina there is itching, soreness and discharge. In the esophagus there is pain and difficulty swallowing. On the skin there is an itchy or burning rash. Invasive forms usually cause fever and chills [2]
+disease.transmission: The source does not describe how it spreads [2]
+disease.prevention: The source mentions prevention but does not list methods [2]
+disease.drugs: Antifungal drugs, available as creams, lozenges, mouthwashes, tablets and intravenous drugs, chosen according to the type and severity of the infection [2]
+
+## cordyceps-militaris
+lede: A fungus that infects insects and is an expensive Chinese herbal medicine [2]. It is the type species of the genus Cordyceps [2]
+traitsExtra: Status of the species | Type species of the genus Cordyceps [2]
+life: Relationships | A pathogen of insects [2]
+life: Evolution | Genome studies suggest that fungi in the genera Cordyceps and Metarhizium evolved separately into insect pathogens [2]
+why: Medicine | Used in traditional Chinese medicine and expensive, but the genes that make its bioactive compounds were unknown before this genome study [2]. This content does not confirm that it can treat disease
+asideTitle: An insect pathogen used in Chinese medicine
+aside: Cordyceps was once proposed to be the sexual stage of Metarhizium, which is used to control insect pests [2]
+aside: GBIF lists the synonym given by Linnaeus in the genus Clavaria [1]
+aside: It has a large family of secreted proteins and expanded gene families, which arose through repeated evolution [2]
+
+## puccinia-graminis
+lede: A rust fungus that causes stem rust of wheat and barley [2]. Rust fungi are among the most destructive crop pathogens [2]. It depends entirely on living plant tissue and does not grow apart from its host [2]
+traitsExtra: Genome (P. graminis f. sp. tritici) | 89 million base pairs [2]
+life: Nutrition | An obligate biotroph that draws nutrients only from living plant tissue [2]
+life: Genome | The genome of P. graminis f. sp. tritici is 89 million base pairs long and has 17,773 predicted proteins [2]
+why: Agriculture | The Ug99 strain was first detected in Uganda in 1998 and threatens world wheat production, because 90% of the wheat varieties grown worldwide are susceptible [3]. Seven strains in the Ug99 group are now known, which have spread to the eastern highlands of Africa, Zimbabwe, South Africa, Sudan, Yemen and Iran [3]
+asideTitle: Stem rust that threatens world wheat
+aside: GBIF lists synonyms that were once placed in the genus Aecidium [1]
+aside: The Ug99 strains can spread both on the wind and by human transport [3]
+aside: Screening in Kenya and Ethiopia found very few resistant wheat varieties [3]
+
+## pneumocystis-jirovecii
+lede: A fungus that causes severe pneumonia in people with weakened immune systems [2][3]. It spreads through the air from person to person [2]. It has adapted to live only in mammal hosts [3]
+traitsExtra: Hosts of the genus Pneumocystis | Mammals only [3]
+life: Relationships | A parasite found only in mammals [3]
+life: Genome | The genome is more compact than those of other fungi, having lost ribosomal RNA genes, transporters, transcription regulators and many metabolic pathways, but it has expanded its cell surface proteins [3]
+life: Carriage | Some healthy adults can carry the fungus without becoming ill [2]
+why: Medicine | A leading cause of potentially fatal pneumonia in people with weakened immune systems, including organ transplant recipients and people with HIV/AIDS [3]
+asideTitle: A fungus that infects only mammals
+aside: A 2016 study compared the genomes of three Pneumocystis species that infect humans, rats and mice [3]
+aside: The genome has a unique large family of cell surface glycoproteins [3]
+aside: The CDC uses the name PCP for the pneumonia caused by this fungus [2]
+disease.name: Pneumocystis pneumonia (PCP), an uncommon but serious lung infection that can be fatal if untreated [2]
+disease.symptoms: Usually develops over days to weeks, with fever, cough, difficulty breathing, chest pain, chills and fatigue [2]
+disease.transmission: Through the air from person to person. Some healthy adults carry the fungus without becoming ill and can pass it to people with weakened immune systems [2]
+disease.prevention: There is no vaccine. People at high risk, such as those with HIV, stem cell transplant recipients, some organ transplant recipients and people on continuous high-dose steroids, are advised to take preventive medicine [2]
+disease.drugs: Antibiotics (not antifungals), taken by mouth or through a vein for several weeks. Alternatives are available for people who cannot take the main drug [2]
+
+## aspergillus-niger
+lede: A filamentous fungus used by the fermentation industry to make enzymes and organic acids, especially citric acid [2]. The genome of strain CBS 513.88, the ancestor of the current enzyme-producing strains, is 33.9 million base pairs long [2]
+traitsExtra: Genome (strain CBS 513.88) | 33.9 million base pairs [2]
+life: Metabolism | Has a diverse metabolic network, and the reconstructed network contains 1,069 unique reactions [2]
+life: Protein secretion | Has a protein secretion system whose components have been described in detail, and has degradative enzymes that clearly differ from those of other Aspergillus species [2]
+why: Industry | Used to make enzymes and organic acids, especially citric acid [2]
+asideTitle: A versatile cell factory
+aside: The genome has 14,165 open reading frames, and functions could be predicted with confidence for 6,506 of them [2]
+aside: The gene order in the genome is very similar to that of other sequenced Aspergillus species [2]
+aside: GBIF lists synonyms that were once placed in the genus Aspergillopsis [1]
+
+## ganoderma-lucidum
+lede: A large mushroom widely used in traditional Chinese medicine that makes a wide range of bioactive compounds [2]. Its genome is 43.3 million base pairs long and has 16,113 predicted genes [2]
+traitsExtra: Genome | 43.3 million base pairs, with 16,113 predicted genes [2]
+life: Wood decay | The genome has one of the richest sets of wood-degrading enzyme genes among sequenced basidiomycetes [2]
+life: Production | Has cytochrome P450 genes, transporters and regulators that work together in secondary metabolism [2]
+why: Medicine | Used in traditional Chinese medicine and studied as an example of a medicinal mushroom [2]. This content does not confirm that it can treat disease
+asideTitle: A model medicinal mushroom
+aside: Its cytochrome P450 genes form 24 physical clusters [2]
+aside: 78 cytochrome P450 genes work together with the lanosterol synthase gene [2]
+aside: GBIF lists synonyms such as Agaricus lignosus and Agaricus pseudoboletus [1]
+
+## amanita-exitialis
+lede: A white mushroom that is deadly poisonous and common in Guangdong Province, China [2]. The toxins that kill people are the amatoxins [2]. Mushroom poisoning is the leading cause of death from food poisoning in China [2]
+traitsExtra: Main toxin | Amatoxins [2]
+life: Habitat | Common in Guangdong Province, China [2]
+life: Toxins | Amatoxins are spread through different parts of the fruiting body and vary with the stage of development [2]
+why: Medicine | Most deadly poisonous mushrooms belong to the genus Amanita, and the toxins that kill people are amatoxins [2]. Amatoxins and phallotoxins are cyclic peptides found in the genus Amanita and are the main cause of death from food poisoning in China [4]
+asideTitle: A white mushroom that can kill
+aside: About 100 mushroom species are poisonous to humans [3]
+aside: Some mushrooms once classed as edible were later reclassified as poisonous [3]
+aside: Early diagnosis is important for the outcome of treatment for poisoning by Amanita mushrooms [4]
+warning.text: This mushroom contains the deadly amatoxins. Do not eat it [2]
+warning.myths: Some mushrooms once believed to be edible were later found to be poisonous [3]

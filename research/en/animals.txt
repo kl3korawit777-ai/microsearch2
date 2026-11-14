@@ -1,0 +1,535 @@
+## spongilla-lacustris
+lede: A freshwater sponge in the phylum Porifera [1]. Its skeletal fibers contain chitin as an important component [3], and several groups of bacteria live in its tissue [2]
+traitsExtra: Phylum (GBIF) | Porifera [1]
+life: Habitat | Fresh water. The specimens studied were collected from a lake [2]
+life: Associated microbes | The tissue contains Alphaproteobacteria, Actinobacteria, Betaproteobacteria and Chloroflexi. About half of the sequences found belong to freshwater bacterial groups that are also found in lake water [2]
+life: Skeleton | The skeletal fibers contain a chitin close to alpha-chitin, which is found in other animals [3]
+why: Ecology | Its tissue contains a variety of bacterial groups, including at least two new lineages of Alphaproteobacteria whose gene sequences are less than 89% similar to known groups [2]
+asideTitle: A sponge that contains chitin
+aside: A 2013 study found chitin synthase enzymes in sponges for the first time [3]
+aside: The finding of chitin in both marine and freshwater sponges suggests that chitin was already present in the common ancestor of sponges [3]
+aside: GBIF lists the synonyms Euspongilla lacustris and Spongia lacustris [1]
+
+## aurelia-aurita
+lede: A moon jellyfish that changes seasonally from a polyp (attached) to a medusa (swimming) [3]. It forms dense swarms in the seas of China [4]. Its genome has been sequenced [2]
+traitsExtra: Phylum (GBIF) | Cnidaria [1]
+life: Transformation | The change from polyp to free-swimming jellyfish is triggered by environmental signals, especially seasonal changes in temperature [3]
+life: Habitat | Forms dense swarms in the northern South China Sea, the Yellow Sea and the Bohai Sea [4]
+life: Genome | About a third of the genes that are active only in the medusa stage have no counterpart in the genomes of corals and sea anemones [2]
+lifecycle: Polyp | The attached stage, which reproduces asexually [3]
+lifecycle: Transformation | The polyp changes into a free-swimming medusa when the temperature changes with the season [3]
+lifecycle: Regulators | Secreted proteins act like a temperature-responsive clock, and one of them is the precursor of a hormone that triggers the transformation [3]
+why: Ecology | Causes dense growth of jellyfish in the seas of China. Possible factors are excess nutrients in the water, overfishing, coastal modification for aquaculture and climate change [4]
+asideTitle: A jellyfish that transforms with temperature
+aside: The Aurelia genome was sequenced alongside that of the box jellyfish Morbakka virulenta [2]
+aside: The genetic difference between these two jellyfish groups is comparable to that between humans and sea urchins [2]
+aside: GBIF lists the synonym Medusa aurita, given by Linnaeus in 1758 [1]
+
+## hydra-vulgaris
+lede: A hydra in the phylum Cnidaria used to study body axis formation, stem cells and regeneration [2]. Its nervous system, once seen as just a nerve net, has several activity-specific networks [3], and it hosts a variety of microbes [4]
+traitsExtra: Phylum (GBIF) | Cnidaria [1]
+life: Habitat | Fresh water [2]
+life: Nervous system | Calcium imaging of almost all neurons found 3 large non-overlapping functional networks, used for longitudinal contraction, elongation in response to light and radial contraction, and a fourth network near the mouth that is active during nodding [3]
+life: Microbes | H. vulgaris hosts a diverse set of bacteria both on its surface and inside cells, unlike H. oligactis, which has only a few [4]
+lifecycle: Budding | Experiments between 1736 and 1744 showed that hydra reproduces asexually by budding and can regenerate lost parts [2]
+why: Science | An important model for body axis formation, stem cells and regeneration [2]
+asideTitle: An animal that regenerates and buds
+aside: Hydra was first described in 1702 and has been studied for 300 years [2]
+aside: The genome that was sequenced is that of Hydra magnipapillata, which GBIF treats as a synonym of H. vulgaris [1][2]
+aside: The hydra genome shows bursts of transposons, lateral gene transfer, and reduction in gene structure and content, which goes in the same direction as a simplified life cycle [2]
+
+## opisthorchis-viverrini
+lede: A small liver fluke, 5 to 10 millimeters long, that lives in the bile ducts of humans and fish-eating mammals [2]. It is common in northeastern Thailand, Laos, Cambodia and central and southern Vietnam [2]. People become infected by eating raw or undercooked freshwater fish [2]
+traitsExtra: Phylum (GBIF) | Platyhelminthes [1]
+traitsExtra: Adult size | 5 to 10 millimeters long and 1 to 2 millimeters wide [2]
+life: Habitat | Adults live in the bile ducts of mammals [2]
+life: Hosts | Freshwater snails are the first intermediate host, freshwater fish are the second intermediate host, and humans, cats, dogs or other fish-eating mammals are the definitive host [2][3]
+life: Size | Adults are about 5 to 10 millimeters long and 1 to 2 millimeters wide [2]
+lifecycle: Eggs | Adults in the bile ducts lay eggs, which leave the body in feces [2]
+lifecycle: In the snail | A freshwater snail swallows the eggs, and the larvae go through several stages in the snail and emerge as cercariae [2]
+lifecycle: In the fish | The cercariae penetrate a freshwater fish and form cysts (metacercariae) in the muscle or under the scales [2]
+lifecycle: In the definitive host | When a fish containing cysts is eaten, the cysts open in the duodenum and the young flukes travel up to the bile ducts [2]
+lifecycle: Adult | Develops into an adult and begins laying eggs about 3 to 4 weeks after infection [2]
+why: Medicine | Chronic infection damages the liver and can lead to bile duct cancer, and WHO classifies this fluke as a carcinogen [3]. In some villages in Laos the prevalence is more than 80% [3]
+asideTitle: A fluke caught from raw fish
+aside: The eggs of O. viverrini are very similar to those of Clonorchis flukes, so they are hard to tell apart under a microscope [2]
+aside: The original name, given by Poirier in 1886, was Distoma viverrini [1]
+aside: Another liver fluke in this group is O. felineus, which is found in Italy, Germany, Belarus, Russia, Kazakhstan and Ukraine [2]
+disease.name: Opisthorchiasis [2]
+disease.symptoms: Most people have no symptoms. The damage is caused by inflammation and blockage of the bile ducts. Mild cases may have indigestion, abdominal pain, diarrhea or constipation. Long-term infection may cause an enlarged liver and malnutrition, and less often cholangitis, cholecystitis or bile duct cancer [2][3]
+disease.transmission: Eating raw or undercooked freshwater fish that contain cysts of the fluke [2][3]
+disease.prevention: Education about food safety, improved sanitation, veterinary measures and access to clean water [3]
+disease.drugs: Anthelmintic drugs, used to treat individuals and given preventively to whole populations in areas where the disease occurs in clusters [3]
+
+## caenorhabditis-elegans
+lede: A roundworm whose genome was sequenced in 1998 [2]. Its genome is 97 megabase pairs long and has more than 19,000 genes [2]
+traitsExtra: Phylum (GBIF) | Nematoda [1]
+traitsExtra: Genome size | 97 megabase pairs, with more than 19,000 genes [2]
+life: Genome | Has more than 19,000 genes, and more than 40% of the predicted proteins have clear counterparts in other organisms [2]
+life: Repeated sequences | Has repeated sequences that are both clustered and dispersed throughout the genome [2]
+life: Chromosomes | The distribution of some kinds of repeats and of highly conserved genes indicates that the chromosomes are organized by region [2]
+why: Science | Its genome has been called a platform for studying biology [2]
+asideTitle: A model roundworm
+aside: GBIF lists the synonym Caenorhabditis kowalewskyi [1]
+aside: GBIF lists the synonym Rhabditis elegans [1]
+aside: The authors used this genome to study chromosome organization and protein similarity to other organisms [2]
+
+## hirudinaria-manillensis
+lede: The Asian buffalo leech, an animal in the phylum Annelida that feeds on blood [3]. Its saliva contains several compounds that are released into the host's wound [2]. Its genome has 72 anticoagulant genes [3]
+traitsExtra: Phylum (GBIF) | Annelida [1]
+traitsExtra: Anticoagulant gene families in the genome | 21 families with 72 genes [3]
+life: Blood feeding | The leech feeds only on blood (obligate blood-feeding) [3]
+life: Saliva | The salivary glands secrete several bioactive compounds into the wound made when it bites to take blood [2]
+life: Hirudin | The most studied compound in leech saliva and the only one that has been successfully used in medicine [2]
+why: Medicine | The compounds that leeches secrete have medical value in treatments related to blood clotting [3]. The genome of the buffalo leech has 21 anticoagulant gene families: 14 families of coagulation inhibitors, 3 families of platelet aggregation inhibitors, 3 families of fibrinolysis enhancers and 1 family of tissue penetration enhancers [3]
+why: Ecology | A leech that feeds on the blood of its host [3]
+asideTitle: Compounds from leech saliva
+aside: In 2017 hirudin-like factors were reported in the buffalo leech as well [2]
+aside: GBIF lists the synonym Hirudo manillensis [1]
+aside: Some anticoagulant protein families have internal repeats with 6, 10 and 12 conserved cysteines [3]
+
+## pomacea-canaliculata
+lede: The golden apple snail, a large freshwater snail whose shell can grow up to 80 millimeters high [3]. It is listed as one of the 100 worst invasive alien species in the world and is an agricultural pest [2]. In Thailand, wetlands with dense snail populations have almost no aquatic plants left [3]
+traitsExtra: Phylum (GBIF) | Mollusca [1]
+traitsExtra: Genome size | 440 megabase pairs, with 21,533 gene models [2]
+life: Growth | Grows fast, tolerates stress well, reproduces prolifically and adapts to a wide range of environments [2]
+life: Plant eating | Its feeding on aquatic plants changes ecosystems into turbid waters dominated by phytoplankton [3]
+life: Size | A large snail whose shell can grow up to 80 millimeters high [3]
+why: Agriculture | An agricultural pest and a quarantine species that causes great economic damage [2]
+why: Ecology | In surveys of Thai wetlands, dense snail populations were associated with almost no aquatic plants, high nutrients and a lot of phytoplankton [3]. A survey in China also found it to be an intermediate host of the parasite Angiostrongylus cantonensis, which causes eosinophilic meningitis [4]
+asideTitle: An alien snail that invades wetlands
+aside: The genome is 440 megabase pairs long at chromosome level and has 21,533 gene models [2]
+aside: The researchers found a burst of DNA/hAT-Charlie transposons and an expansion of the P450 gene family, which helps it tolerate stress [2]
+aside: Field experiments showed that the snails eat aquatic plants, causing the plants to disappear and shifting the ecosystem to turbid water [3]
+
+## nautilus-pompilius
+lede: The nautilus is the only cephalopod with an external shell to survive from the Paleozoic [2]. It has a pinhole eye [2] and a compact genome that evolves slowly [2]
+traitsExtra: Phylum (GBIF) | Mollusca [1]
+life: Eye | The pinhole eye evolved along with the loss, expansion and contraction of specific gene families [2]
+life: Shell | The set of genes for making the mollusc shell is conserved, with lineage-specific repeated domains [2]
+life: Genome | A compact genome with few coding genes that evolves slowly in both noncoding and coding parts compared with known cephalopods [2]
+why: Ecology | The only cephalopod that still has an external shell, so it is important for understanding evolutionary innovations in cephalopods [2]
+asideTitle: A cephalopod that still has a shell
+aside: GBIF treats the subspecies Nautilus pompilius pompilius as a synonym [1]
+aside: Its genome is used as a baseline reference for cephalopod innovations such as the pinhole eye and shell formation [2]
+aside: Many genes were lost along the evolutionary path of the pinhole eye [2]
+
+## aedes-aegypti
+lede: A small black-and-white mosquito, recognized by the silver lyre-shaped scales on the upper thorax [2]. It is active both in the daytime and at dusk and prefers to feed on human blood [2]. It lays eggs in containers that hold standing water [2][3]. It is a vector of dengue, yellow fever, chikungunya and Zika [2]
+traitsExtra: Distinguishing mark | Silver lyre-shaped scales on the upper thorax on a black background [2]
+traitsExtra: Active period | Daytime and dusk [2]
+traitsExtra: Approximate flight range | About 200 meters [2]
+traitsExtra: Time from egg to adult | 7 to 10 days (data for 2 Aedes species combined) [3]
+life: Habitat | Prefers to live near people, both indoors and outdoors [3]. Found throughout the tropics and parts of the subtropics [2]
+life: Breeding sites | Human-made containers such as vases, water storage tanks and tires, and underground sites such as septic tanks [2]
+life: Blood feeding | Only females bite, because they need blood to make eggs [3]. A female feeds on blood several times in one egg-making cycle, which increases the chance of spreading infection [2]
+life: Dispersal | Does not fly far, about 200 meters [2]
+lifecycle: Egg | The female lays eggs on the walls of containers just above the water line, and the eggs can survive drying for up to 8 months [3]
+lifecycle: Larva | The eggs hatch when flooded, and the larvae live and feed in the water [3]
+lifecycle: Pupa | Lives in water and does not feed [3]
+lifecycle: Adult | The adult emerges from the pupa and flies off. From egg to adult takes 7 to 10 days (combined data for 2 Aedes species) [3]
+why: Medicine | The main vector of dengue [4], and also a vector of yellow fever, chikungunya and Zika [2]
+asideTitle: A mosquito that adapted to live with people
+aside: Aedes aegypti lives so close to people that it has been regarded as an animal adapted to human-made environments (domestication), but its traits vary a lot, so researchers warn against dividing it into overly rigid groups [5]
+aside: The eggs can resist drying for up to 8 months, so they wait for rain to flood them before hatching [3]
+aside: Mosquito control focuses on reducing breeding sites, using insecticides, using methods based on Wolbachia bacteria, and personal protection [2]
+disease.name: Dengue, caused by the dengue virus [4]
+disease.symptoms: Most people have no symptoms or mild ones. Symptoms include high fever, severe headache, pain behind the eyes, muscle and joint pain, nausea, vomiting, swollen glands and a rash. Most people recover within 1 to 2 weeks. Warning signs often appear after the fever goes down, such as severe abdominal pain, persistent vomiting, rapid breathing and bleeding from the gums or nose. People with these signs must see a doctor right away [4]
+disease.transmission: Spread by the bite of an infected mosquito. The main vector is the mosquito Aedes aegypti [4]
+disease.prevention: Prevent mosquito bites, especially during the day, with covering clothing, bed nets, window screens and repellents, and get rid of standing water, dispose of garbage properly, and cover, turn over and wash water containers every week [4]
+disease.drugs: There is no specific treatment, and care is given for the symptoms. Some patients need hospital care, and pain relievers that increase the risk of bleeding should be avoided [4]
+
+## penaeus-monodon
+lede: The black tiger shrimp, a shrimp that was the main farmed species in Asia before it was replaced by the whiteleg shrimp from 2003 [2]. Most shrimp diseases are caused by viruses, and the most serious viruses are white spot syndrome virus and yellow head virus [2]
+traitsExtra: Phylum (GBIF) | Arthropoda [1]
+traitsExtra: Share of disease losses in shrimp farming caused by viruses | About 60% [2]
+life: Farming | A giant shrimp that dominated shrimp farming in Asia before 2003 [2]
+life: Disease | About 60% of disease losses in shrimp farming come from viruses and 20% from bacteria, while fungi and parasites cause relatively little loss [2]
+life: Important bacteria | Among the pathogenic bacteria, Vibrio is the most important [2]
+why: Food | A shrimp that was the main species farmed for food in Asia before 2003 [2]
+why: Agriculture | Viral diseases cause heavy losses in aquaculture, and WSSV and YHV are the most serious in both black tiger shrimp and whiteleg shrimp [2]
+asideTitle: A shrimp displaced on the farm
+aside: In English this species is called the giant tiger shrimp or black tiger shrimp [2]
+aside: Since 2003 the whiteleg shrimp, a domesticated and selectively bred line, has replaced the black tiger shrimp as the main species [2]
+aside: GBIF lists several synonyms, such as Penaeus carinatus and Penaeus durbani [1]
+
+## heterometrus-laoticus
+lede: A species of giant forest scorpion most common in northeastern Thailand [2]. It lives on the Indochinese Peninsula and is widespread in southwestern Vietnam [3]. Its venom has low acute toxicity [3]
+traitsExtra: Phylum (GBIF) | Arthropoda [1]
+traitsExtra: Molecular weight of the venom protein Heteroscorpine-1 | 8,293 daltons [2]
+life: Habitat | The Indochinese Peninsula, widespread in southwestern Vietnam [3] and most common in northeastern Thailand [2]
+life: Venom | In experiments the crude venom paralyzed crickets and inhibited several kinds of bacteria [2]
+life: Toxicity | The venom has low acute toxicity, and no human deaths from the sting of this species have been reported [3]
+why: Ecology | A venomous animal and a source of a new venom protein studied in the laboratory [2][3]
+asideTitle: A scorpion and its studied venom
+aside: A study from Thailand calls this species the Thai giant scorpion [2]
+aside: The venom protein that was isolated is Heteroscorpine-1, with a molecular weight of 8,293 daltons [2]
+aside: Venom from scorpions collected in An Giang Province, Vietnam showed pain-relieving and anti-inflammatory activity in mice and contained a new toxin that binds the potassium channel Kv1.3 [3]
+warning.text: This scorpion is venomous, although a study in Vietnam states that there are no reports of deaths from its sting [3]
+
+## acanthaster-planci
+lede: The crown-of-thorns starfish, a sea star that preys on reef-building corals across the Indo-Pacific [2]. It has many offspring [2]. When its population explodes, coral cover falls sharply and the reef ecosystem is weakened [2]
+traitsExtra: Phylum (GBIF) | Echinodermata [1]
+life: Food | Preys on reef-building corals [2]
+life: Communication | Starfish that gather release chemicals into the water, which make normally slow-moving sea stars active [2]
+life: Outbreaks | Outbreaks around the island of Moorea (French Polynesia) were gradual and spread, and often began in limited areas [3]
+why: Ecology | Outbreaks greatly reduce coral cover, which affects fish and bottom-dwelling organisms on the reef [2][3]. The cause of outbreaks is still debated [3]
+asideTitle: A sea star that eats coral
+aside: The researchers sequenced the genomes of starfish from the Great Barrier Reef and Okinawa to find communication proteins that could be used for biological control [2]
+aside: It has been proposed that water running off the land carries nutrients to the sea and helps larvae grow and survive better, with nutrients from rivers in the central Great Barrier Reef increasing at least fourfold over the past century [4]
+aside: GBIF lists the synonyms Acanthaster echinites and Acanthaster ellisi [1]
+
+## branchiostoma-belcheri
+lede: Amphioxus (lancelet), an animal in the phylum Chordata and a survivor of an ancient chordate lineage with fossils going back to the Cambrian [3]. Its genome is used in comparisons to study the origin of vertebrates [2]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+traitsExtra: Genome size of Branchiostoma floridae | About 520 megabase pairs [3]
+life: Genome comparison | The genomes of several lancelet species have a high diversity of transposons, including the RAG transposon that researchers had long sought [2]
+life: Proteins | Lancelets have also kept more diversity in proteins and noncoding regulatory motifs than modern vertebrates [2]
+life: Genome size | The genome of the lancelet Branchiostoma floridae is about 520 megabase pairs long and highly variable [3]
+why: Science | Comparing the genomes of lancelets, tunicates and vertebrates helps reconstruct the genes of the common ancestor of the chordates [3]
+asideTitle: Lancelets and the origin of vertebrates
+aside: A 2014 analysis indicated that the ancestor of vertebrates had a high rate of protein evolution, which slowed greatly after the jawed vertebrates split from the jawless ones [2]
+aside: GBIF lists the synonym Amphioxus belcheri [1]
+aside: The genome helps explain two whole-genome duplication events in the vertebrate lineage [3]
+
+## betta-splendens
+lede: The Siamese fighting fish, a bony fish used to study aggressive behavior, measured by its reaction to its own reflection in a mirror [2]. The chemical serotonin reduces its aggression [2]. In an experiment in which a male met both a male and a female model at once, drugs that raise serotonin reduced aggression but did not change courtship [4]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Aggressive behavior | Males respond to their own reflection with aggression, which is used as an index of this behavior [2]
+life: Serotonin | A single dose of serotonin or of a 5-HT1A receptor agonist reduced aggression [2]
+life: Courtship | When males were given drugs that raise serotonin, overall aggression decreased but courtship did not change [4]
+why: Science | A laboratory animal for studying aggressive behavior and the role of neurotransmitters [2], and used to compare the development of the skull and fins with other fish [3]
+asideTitle: The fighting fish and aggression
+aside: In skull formation, the bones of the outer layer form before the bones that develop from cartilage, as in several other groups of vertebrates [3]
+aside: Some males are differently sensitive to drugs that raise serotonin, and not all of them show reduced aggression [4]
+aside: GBIF lists the synonym Micracanthus marchei [1]
+
+## hoplobatrachus-rugulosus
+lede: The Asian tiger frog, which in Vietnam is a common lowland frog [2]. Its skin contains a peptide that stimulates insulin release in experiments [2]. It is an alien species that has established itself in the Philippines [3]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Skin | The skin contains a cyclic peptide of 12 amino acids called tigerinin-1R that, in the short term, does not damage cells or red blood cells [2]
+life: Native and invaded ranges | The climatic niche of this frog was studied in its native range compared with where it has invaded the Philippines [3]
+life: Climatic niche shift | In the Philippines, the realized climatic niches of four alien amphibian species, including this frog, shifted from the native range to different degrees [3]
+why: Ecology | An alien amphibian in the Philippines, where the shift in climatic niche makes predictions of risk areas from ecological models inaccurate [3]
+asideTitle: The frog and its skin peptide
+aside: The researchers tested the tigerinin-1R peptide in mice made obese and insulin resistant by a high-fat diet, to see its effect on glucose tolerance [2]
+aside: GBIF lists the synonyms Limnonectes rugulosus and Hoplobatrachus chinensis [1]
+aside: In the Philippine study, the four frog species examined were Hylarana erythraea, Rhinella marina, Hoplobatrachus rugulosus and Kaloula pulchra [3]
+
+## elephas-maximus
+lede: The Asian elephant, the largest land animal [3]. Three Asian elephants were shown a mirror to test whether they recognize themselves [2]. Captive elephants that appear healthy may carry the herpesvirus EEHV1 in trunk secretions [4]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Intelligence | In the mirror experiment, the researchers observed four stages of behavior seen in animals that recognize themselves: social response, exploration, repeated testing and realizing that they see themselves [2]
+life: Cooperation | Asian elephants know when they need a partner in the classic cooperation task used to test monkeys and apes [3]
+life: Virus | The herpesvirus EEHV1 was detected in trunk wash samples from 5 healthy captive elephants in the same herd [4]
+why: Ecology | The Asian elephant, the largest land animal, is used to study animal intelligence, because experiments with an animal of this size are both dangerous and difficult [3]
+asideTitle: Elephants and mirrors
+aside: A 2006 study used a large mirror and put real and sham marks on the elephants' heads as a test [2]
+aside: A cooperation experiment in 2011 was adapted from a method used with chimpanzees [3]
+aside: GBIF lists the synonym Elephas asiaticus [1]
+
+## dugesia-japonica
+lede: A planarian that can regrow a complete body from a piece of the head, body or tail [3]. It relies on pluripotent stem cells throughout its body [3]. It is used to study organ regeneration [2]
+traitsExtra: Phylum (GBIF) | Platyhelminthes [1]
+life: Regeneration | Can regrow a whole animal from cut pieces using stem cells that can take on many fates [3]
+life: Brain | The nou-darake gene is active only in the head and keeps brain tissue from forming outside the head region [2]
+life: Signaling | ERK and Wnt/beta-catenin signaling are the main framework of regeneration [3]
+why: Science | Used to study how the body rebuilds organs and tissues after injury, illness or aging [2]
+asideTitle: A worm that regrows into a new animal
+aside: A 2002 study found the nou-darake gene, which resembles a receptor for the growth factor FGF [2]
+aside: Silencing nou-darake by RNA interference caused brain tissue to form outside the head region [2]
+aside: About a century ago Thomas Hunt Morgan proposed that regenerative ability arises from a gradient of head- and tail-determining factors along the body axis. A 2013 study used data from D. japonica to test this hypothesis [3]
+
+## taenia-solium
+lede: The pork tapeworm, a tapeworm for which humans are the only definitive host [2]. Pigs are the intermediate host, and people become infected by eating raw or undercooked pork [2][3]. The most important issue is the larvae that enter tissues and the brain and form cysts [3]
+traitsExtra: Phylum (GBIF) | Platyhelminthes [1]
+traitsExtra: Time for a cysticercus to become an adult in the small intestine | About 2 months [2]
+life: Habitat | The adult lives in the human small intestine [2]
+life: Where it occurs | Found worldwide, most often in poor communities that live close to pigs and eat undercooked pork [2]
+life: Cysts in pigs | Larvae that hatch in the pig's intestine travel to striated muscle and form cysticerci that can persist for years [2]
+lifecycle: Eggs | Eggs or egg-containing segments (proglottids) leave the body in feces and can survive in the environment for days to months [2]
+lifecycle: In the pig | The pig eats contaminated plants, the eggs hatch in the intestine, and the larvae penetrate the intestinal wall and form cysticerci in muscle [2]
+lifecycle: In humans | A person eats raw or undercooked pork, and the cysticercus develops into an adult tapeworm in the small intestine in about 2 months [2]
+lifecycle: Adult | Lives for years and releases egg-containing segments [2]
+why: Medicine | In 2015 WHO listed it as a leading cause of death from foodborne disease, accounting for 2.8 million disability-adjusted life years (DALYs) [3]. Cysticercosis of the brain is the leading preventable cause of epilepsy worldwide, accounting for about 30% of epilepsy cases in areas where it occurs [3]
+asideTitle: A parasite passed through pigs
+aside: GBIF lists the synonyms Taenia cucurbitina and Cysticercus cellulosae [1]
+aside: In patients with an adult tapeworm, passing segments is usually the main symptom [2]
+aside: WHO estimates that there are 2.56 to 8.30 million people with cysticercosis of the brain [3]
+disease.name: Taeniasis, when the adult worm is in the intestine, and cysticercosis, when the larvae form cysts in tissues. When it is in the brain it is called neurocysticercosis [2][3]
+disease.symptoms: Taeniasis usually causes few symptoms. The most common sign is passing segments, while the most important risk of this infection is cysticercosis, and cysts in the brain are a major cause of epilepsy [2][3]
+disease.transmission: Eating raw or undercooked pork that contains cysts gives an adult tapeworm, while swallowing eggs from the feces of a person who has the tapeworm, for example through poor hygiene or contaminated food and water, causes cysticercosis [2][3]
+disease.prevention: Treat people who have the adult worm, vaccinate and deworm pigs, educate people about hygiene and food safety, end open defecation, keep pigs from roaming freely, and improve meat inspection [3]
+disease.drugs: Anthelmintic drugs for the intestinal worm, while neurocysticercosis needs specialized treatment, which may include antiparasitic drugs, steroid anti-inflammatory drugs, anticonvulsants and sometimes surgery [3]
+
+## ascaris-lumbricoides
+lede: The giant roundworm, the roundworm that most commonly infects humans worldwide [2]. It lives in the small intestine [2]. People become infected by swallowing infective eggs in contaminated soil [2][3]
+traitsExtra: Phylum (GBIF) | Nematoda [1]
+traitsExtra: Lifespan of the adult | 1 to 2 years [2]
+life: Habitat | Adults live in the lumen of the small intestine [2]
+life: Distribution | Common in tropical and subtropical regions with poor sanitation, and uncommon in developed countries [2]
+life: Lifespan of the adult | Lives 1 to 2 years [2]
+lifecycle: Eggs | Females in the small intestine lay large numbers of eggs every day, which leave the body in feces. Fertilized eggs need about 18 days to several weeks in warm, moist, shaded soil before they become infective [2]
+lifecycle: Larvae | When infective eggs are swallowed, the larvae hatch in the small intestine, penetrate the intestinal wall and travel through the bloodstream to the lungs [2]
+lifecycle: In the lungs | The larvae grow in the lungs for about 10 to 14 days, then climb the airways to the throat and are swallowed [2]
+lifecycle: Adult | They return to the small intestine and mature, and egg laying begins about 2 to 3 months after the infective eggs were swallowed [2]
+why: Medicine | About 1.5 billion people, or about 24% of the world's population, are infected with soil-transmitted helminths, of which the giant roundworm is one [3]
+asideTitle: A parasite that passes through the lungs
+aside: Eggs found in dog feces do not mean the dog is infected, because the eggs pass through the intestine after the dog eats them [2]
+aside: In 2021 more than 500 million children in countries where the disease occurs received deworming drugs, about 62% of children at risk [3]
+aside: Between 2010 and 2019, the annual disability-adjusted life years from soil-transmitted helminths fell by more than 50% [3]
+disease.name: Ascariasis [2]
+disease.symptoms: Adult worms usually cause no acute symptoms. Heavy infection in children causes stunted growth from malnutrition. If there are many worms there may be abdominal pain and intestinal blockage, and less often a perforated intestine. Migrating worms may block the bile duct, cause appendicitis, or be coughed or vomited out through the nose or mouth [2][3]
+disease.transmission: Swallowing infective eggs that develop in soil contaminated with feces, through unwashed or uncooked fruit and vegetables, contaminated water or children's dirty hands. It does not spread directly from person to person [2][3]
+disease.prevention: Give deworming drugs regularly to people at risk in areas where the disease occurs, educate people about hygiene to reduce reinfection, and improve sanitation [3]
+disease.drugs: Anthelmintic drugs [3]
+
+## gnathostoma-spinigerum
+lede: A roundworm that is common in East and Southeast Asia [2]. Humans are accidental hosts and become infected by eating raw or undercooked animals from the water [2]. The larvae travel through human tissue but do not mature to adults [2]
+traitsExtra: Phylum (GBIF) | Nematoda [1]
+life: Definitive host | Carnivores, especially dogs and cats in the dog and cat families. The adults live in tumor-like lumps in the stomach wall [2]
+life: In humans | Humans are accidental hosts. The larvae travel through tissue but never reach reproductive age [2]
+life: Where it is found | Most cases are reported from areas where eating raw fish dishes is popular, such as Japan, Thailand, Vietnam and Mexico [2]
+lifecycle: Eggs | Adults in the stomach of a carnivore release eggs in the feces, and the eggs develop in water into stage 1 larvae [2]
+lifecycle: First intermediate host | A freshwater copepod eats the stage 1 larvae, which molt into early stage 3 [2]
+lifecycle: Second intermediate host | Fish and amphibians eat the copepods, and the larvae travel to the tissues and become late stage 3 [2]
+lifecycle: Paratenic host | Snakes and birds that eat the second intermediate host keep the larvae, which are still infective, without further development [2]
+lifecycle: Back to the definitive host | When the definitive host eats an intermediate or paratenic host, the larvae grow into adults [2]
+why: Medicine | Causes gnathostomiasis in humans, which can be severe when the larvae enter deep organs or the brain [2]
+asideTitle: Humans are accidental hosts
+aside: In the United States most patients are immigrants from Southeast Asia [2]
+aside: It is not clear whether drinking water that contains infected copepods can cause infection [2]
+aside: A rise in eosinophils is common during the early stage when the larvae are migrating, but it is not always seen in chronic infection [2]
+disease.name: Gnathostomiasis [2]
+disease.symptoms: The most common form is the larva migrating under the skin, causing intermittent swelling on the trunk or arms that may be red, itchy or painful, and that can return for months or years if untreated. Sometimes the larva emerges through the skin. When larvae enter deep organs such as the lungs, intestines, genital and urinary tract, eyes, ears or brain, symptoms vary widely. In the brain it can cause eosinophilic meningitis and myelitis that can be fatal, and in the eye it can cause loss of vision [2]
+disease.transmission: Eating raw or undercooked meat of a second intermediate host or paratenic host that contains infective larvae [2]
+disease.prevention: The source does not list methods of prevention, but it says that the infection comes from eating raw or undercooked meat [2]
+disease.drugs: The source does not name a class of drugs [2]
+
+## perinereis-nuntia
+lede: A marine polychaete worm used as an indicator of pollution in marine sediments [2]. It responds to copper, cadmium and crude oil [2][3]
+traitsExtra: Phylum (GBIF) | Annelida [1]
+life: Habitat | Marine sediment [2]
+life: Sensitivity to pollution | In sediment from Lake Sihwa in Korea with high metal concentrations, mortality was 80% on day 6, while another polychaete, Cirratulus cirratus, did not die at all over 35 days [2]
+life: Antioxidants | Cytochrome P450 genes and antioxidant genes become active on exposure to crude oil and benzo[a]pyrene [3]
+why: Ecology | Used to assess the effects of pollution in marine sediments [2]. Copper is unexpectedly more toxic than cadmium to this polychaete [2]
+asideTitle: An animal that indicates pollution
+aside: A 2013 study cloned three new cytochrome P450 genes of this species [3]
+aside: The CYP432A1 gene is induced by exposure to benzo[a]pyrene, while the CYP431A1 gene is sensitive to exposure to crude oil [3]
+aside: GBIF lists the synonym Nereis nuntia [1]
+
+## tridacna-squamosa
+lede: The fluted giant clam, a large bivalve in tropical and subtropical waters [2]. It lives with zooxanthellae algae in its tissue [2]. Light increases shell formation [3]
+traitsExtra: Phylum (GBIF) | Mollusca [1]
+life: Habitat | Tropical and subtropical waters [2]
+life: Relationships | Lives with several clades of zooxanthellae, each with different physiology [2]. In clams raised under the same conditions, T. squamosa had a more varied algal composition than T. crocea, which is dominated by clade A [2]
+life: Light | After 12 hours of light, enzymes that transport ammonium and protons in the inner tissue change their activity to help build the shell [3]
+why: Ecology | The composition of the algae it lives with may affect the survival of the clam and its tolerance of environmental change [2]
+asideTitle: A clam that keeps algae inside its body
+aside: Sample clams, 93 per species, were raised and kept under the same conditions in an outdoor pond [2]
+aside: The stretchable outer tissue holds many zooxanthellae, but the same enzyme changes as in the inner tissue were not found [3]
+aside: GBIF lists the synonym Tridacna lamarcki [1]
+
+## periplaneta-americana
+lede: The American cockroach, an insect that stores nitrogenous waste in its fat cells as uric acid, unlike most terrestrial insects [2]. The bacterium Blattabacterium lives in its fat cells [2]. Cockroach allergens are associated with severe asthma in allergic children [3]
+traitsExtra: Phylum (GBIF) | Arthropoda [1]
+life: Nitrogen supply | Insects that feed on plants have limited nitrogen, so cockroaches store nitrogenous waste as uric acid in fat cells, which serves as a reserve when food does not contain enough nitrogen [2]
+life: Symbiotic bacteria | Blattabacterium lives in the fat cells of cockroaches and is passed from mother to offspring, and studies indicate that it recycles nitrogen and makes nutrients for the insect [2]
+life: Bacterial genome | The genome of Blattabacterium from P. americana has been completely sequenced [2]
+why: Medicine | A study of 476 children with asthma from eight inner-city areas of the United States found that children who were allergic to cockroaches and exposed to high levels of cockroach allergen in bedroom dust were hospitalized 0.37 times a year, compared with 0.11 times for other children, and made unscheduled visits to a doctor 2.56 times a year, compared with 1.43. This information is about cockroaches in general and does not refer to this species specifically [3]
+asideTitle: Cockroaches and bacteria in fat cells
+aside: Most cockroaches have Blattabacterium in their fat cells [2]
+aside: The study of children with asthma used the main cockroach allergen, Bla g 1, measured in house dust [3]
+aside: GBIF lists the synonym Blatta americana, given by Linnaeus in 1758 [1]
+
+## drosophila-melanogaster
+lede: The fruit fly, one of the most studied organisms in biology [2]. It is used as a model for developmental and cellular processes that are similar in higher eukaryotes, including humans [2]. About 120 megabase pairs of the euchromatic part of its genome have been sequenced [2]
+traitsExtra: Phylum (GBIF) | Arthropoda [1]
+traitsExtra: Size of the euchromatic part of the genome | About 120 megabase pairs [2]
+life: Genome | Almost all of the euchromatic part, about 120 megabase pairs, has been sequenced [2]
+life: Sequencing method | Used whole-genome shotgun sequencing together with sequences from clones and a high-quality physical map of BACs [2]
+life: Gaps | Some gaps remain to be closed, but the sequence is accurate enough to be declared essentially complete [2]
+why: Science | One of the most studied organisms, and a model for developmental and cellular processes shared among higher eukaryotes [2]
+asideTitle: The model fruit fly
+aside: GBIF lists several synonyms, such as Drosophila ampelophila and Drosophila aceti [1]
+aside: The authors used the genome sequence to analyze genome structure and to give a preliminary account of gene function [2]
+aside: GBIF also treats the names Drosophila amelophila and Drosophila ampelophaga as synonyms [1]
+
+## bombyx-mori
+lede: The domesticated silkworm, which has been tamed through domestication [2]. A draft genome sequence covers 90.9% of known genes and the number of genes is estimated at about 18,510, more than the 13,379 reported for the fruit fly [2]
+traitsExtra: Phylum (GBIF) | Arthropoda [1]
+traitsExtra: Estimated number of genes | 18,510 genes [2]
+life: Genome | The draft genome covers 90.9% of the known genes of the silkworm [2]
+life: Number of genes | Estimated at 18,510 genes, more than the 13,379 reported for the fruit fly [2]
+life: Comparison | Compared with the fruit fly, mosquito, spider and butterfly, both similarities and differences in gene content were found [2]
+why: Agriculture | An animal that has been tamed through domestication [2]
+asideTitle: The silkworm and the fruit fly
+aside: The common name domesticated silkworm refers to the silkworm that has been brought into domestication [2]
+aside: The researchers compared gene content with the fruit fly, mosquito, spider and butterfly [2]
+aside: GBIF lists several synonyms, such as Bombyx arracanensis and Bombyx croesi [1]
+
+## diadema-setosum
+lede: The long-spined black sea urchin, which is normally a herbivore and a bioeroder of corals, but has been found eating corals in Hong Kong [2]. Damage to corals is related to the number of urchins [2]
+traitsExtra: Phylum (GBIF) | Echinodermata [1]
+life: Coral feeding | Most sea urchins are herbivores and erode coral structures, and there are few reports of them eating corals as food [2]
+life: Density | In Hong Kong waters, 0.01 to 5.2 urchins per coral head, or 0.1 to 21.1 per square meter, were found [2]
+life: Damage | In the northeastern area, 23.7 to 90.3% of corals were toppled or severely damaged (more than 25% of tissue lost) [2]
+why: Ecology | Destroys coral colonies at the community level, especially structure-building corals of the genus Platygyra, and the damage increases as urchin numbers increase [2]
+asideTitle: A sea urchin that eats coral
+aside: The study surveyed the spatial pattern of damage to corals in Hong Kong waters [2]
+aside: GBIF lists several synonyms, such as Centrostephanus setosus and Cidaris tenuispina [1]
+aside: The author of the name of this species is Leske, in 1778 [1]
+
+## ciona-intestinalis
+lede: A sea squirt (ascidian), the most studied species [2]. The tadpole of a modern ascidian is probably a close stand-in for the early chordates [2]. Its genome has about 16,000 genes, half as many as vertebrates [2]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+traitsExtra: Estimated number of protein-coding genes | About 16,000 genes [2]
+life: Genome | Has about 16,000 protein-coding genes, similar to other invertebrates [2]
+life: Gene families | Vertebrate gene families are often present in simpler forms in Ciona [2]
+life: Tadpole | The researchers see the tadpole of a modern ascidian as a probable close stand-in for the early chordates [2]
+why: Science | Used to study the origin of chordates and vertebrates, because it has the basic genes of the ancestor [2]
+asideTitle: A chordate without a backbone
+aside: The first chordates appear in fossils from the Cambrian explosion almost 550 million years ago [2]
+aside: GBIF lists the synonym Ascidia intestinalis, given by Linnaeus in 1767 [1]
+aside: The researchers sequenced only the protein-coding parts of the genome in the draft version [2]
+
+## rhincodon-typus
+lede: The whale shark, the largest living fish [2][3]. It was first described in 1828 [2]. It eats plankton by filtering water through 20 filter pads in the pharynx [4]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+traitsExtra: Filter pads in the pharynx | 20 pads, with an average mesh width of 1.2 millimeters [4]
+life: Feeding | Filters plankton at the surface while swimming at an average speed of 1.1 meters per second, with the mouth open 85% of the time just below the surface [4]
+life: Feeding time | Spends an average of about 7.5 hours a day feeding at the surface [4]
+life: Food | Dense plankton containing sergestids, calanoid copepods, arrow worms and fish larvae [4]
+life: Aggregation | Gathers to feed seasonally, separated by size and sex [2]
+why: Ecology | The largest fish in the world and a conservation ambassador for open-ocean ecosystems [3]. It has been hunted for restaurants in Asia and caught as bycatch in tuna purse seine fisheries [2]
+asideTitle: The largest fish in the world
+aside: Before 1986 there were only 320 recorded sightings of this species. Increased tourism and marine activities have led to more sightings and to research interest [2]
+aside: It is the largest shark or ray in the Chondrichthyes, the sister group to all other jawed animals [3]
+aside: The mesh of the filter pads has an average opening width of 1.2 millimeters [4]
+
+## chelonia-mydas
+lede: The green sea turtle, a sea turtle that returns to nest at its natal site [3]. A draft genome indicates that turtles are close to the birds and crocodilians [2], and the turtle can swallow marine debris [4]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Travel | Sea turtles have excellent navigation skills and migrate periodically between feeding grounds and breeding grounds [3]
+life: Homing to the natal site | Returns to mate and lay eggs in the region where it was born. Maternally inherited mitochondrial DNA shows clear population structure between nesting groups, while nuclear genes indicate gene flow through males [3]
+life: Debris | The likelihood that green turtles swallow human-made debris has increased significantly over time [4]
+why: Ecology | Swallowing marine debris causes death or injury in turtles [4], and capturing turtles at feeding grounds can affect populations from several nesting groups [3]
+asideTitle: A turtle that returns to nest at its birthplace
+aside: Turtles split from the lineage of birds and crocodilians about 267.9 to 248.3 million years ago [2]
+aside: Sea turtles have an evolutionary history going back more than 100 million years and number seven species [3]
+aside: The turtle genome has greatly expanded olfactory receptor genes [2]
+
+## gallus-gallus
+lede: The chicken, whose genome was sequenced from the red jungle fowl [2]. It was the first non-mammalian vertebrate in the amniotes to have its genome sequenced [2]. The genome is about 1,000 million base pairs long and has about 20,000 to 23,000 genes [2]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+traitsExtra: Estimated genome size | About 1,000 million base pairs, with 20,000 to 23,000 genes [2]
+life: Genome | About 1,000 million base pairs, with about 20,000 to 23,000 genes [2]
+life: Origin | Chickens are modern descendants of the dinosaurs [2]
+life: Conserved sequences | The evolutionary distance between chicken and human makes it easier to detect functional regions, both noncoding and coding [2]
+why: Science | The chicken genome helps in understanding vertebrate genome evolution and improves the annotation of mammalian genomes [2]
+asideTitle: The chicken and amniote genomes
+aside: Many conserved noncoding sequences are far from genes, and it cannot be determined which genes they regulate [2]
+aside: GBIF lists the synonym Gallus domesticus [1]
+
+## homo-sapiens
+lede: Humans. Our genome holds the genetic instructions for human physiology and also contains information about our evolution [2]. The finished genome sequence is 2.85 billion nucleotides long and has only 341 gaps [2]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+traitsExtra: Finished genome (Build 35) | 2.85 billion nucleotides, with 341 gaps [2]
+life: Genome | The Build 35 sequence is 2.85 billion nucleotides long, with only 341 gaps [2]
+life: Coverage | Covers about 99% of the euchromatic part [2]
+why: Science | The human genome sequence is the basis for studying human physiology and human evolution [2]
+asideTitle: The finished human genome
+aside: In 2001 the International Human Genome Sequencing Consortium reported a draft of the euchromatic part [2]
+aside: Finishing turned the draft into an accurate sequence covering almost all of it [2]
+aside: GBIF lists several synonyms, such as Homo americanus [1]
+
+## ornithorhynchus-anatinus
+lede: The platypus, a monotreme that has features of both reptiles and mammals [2]. The female produces milk but lays eggs [2]. The male has a venom similar to that of reptiles [2]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Fur | Has fur adapted for life in the water [2]
+life: Lactation | The female produces milk but lays eggs, and the milk protein genes remain conserved despite egg laying [2]
+life: Venom | The venom proteins of the platypus and of reptiles were adapted independently from the same gene families [2]
+why: Science | The genome of the first monotreme to be sequenced helps link its interesting features to genetic innovations [2]
+asideTitle: An animal that mixes two groups of traits
+aside: Immune gene families have expanded in line with the biology of the platypus [2]
+aside: The genome shows a mixture of reptilian and mammalian features [2]
+aside: GBIF lists the synonym Platypus anatinus [1]
+warning.text: The male platypus is venomous [2]
+
+## lumbricus-terrestris
+lede: An anecic earthworm [2]. Its burrowing carries microplastics from the soil surface deep into the soil [2][3]
+traitsExtra: Phylum (GBIF) | Annelida [1]
+life: Burrowing | An anecic earthworm that makes burrows in soil [2]
+life: Effect on microplastics | When earthworms were present, microplastics were found much more in deeper soil layers, and small beads were carried down more [3]
+life: Reaction to pollution | In an experiment, earthworms made the most burrows when the surface litter contained 7% microplastics [2]
+why: Ecology | Digs burrows and carries material from the soil surface into the lower soil, including microplastics [2][3]
+why: Science | Used as an experimental animal to study the effects of plastics in terrestrial ecosystems [2][3]
+asideTitle: The earthworm that carries microplastics into the soil
+aside: In one experiment, earthworms were kept with surface litter containing low-density polyethylene microplastics at 0, 7, 28, 45 and 60% for 2 weeks [2]
+aside: Another experiment used polyethylene beads of 4 sizes in a greenhouse and examined 3 layers of soil, each 3.5 centimeters thick [3]
+aside: GBIF lists the synonyms Aporrectodea terrestris and Enterion terrestre [1]
+
+## anopheles-minimus
+lede: An Anopheles mosquito that is a main vector of malaria in the forested hills of Southeast Asia [2]. The malaria parasite is spread when a female Anopheles mosquito bites [4]. A. minimus in the broad sense is a group of sibling species, of which species A and C may transmit malaria to different degrees [2]
+traitsExtra: Phylum (GBIF) | Arthropoda [1]
+life: Habitat | The forested hills of Southeast Asia [2]
+life: Sibling species group | The Minimus group includes sibling species A and C on the mainland and species E, which lives in Japan's Ryukyu Islands, where there is no malaria [2]
+life: Surveys | Human landing catches of mosquitoes in villages in Vietnam, Laos and Cambodia from 1998 to 2000 were used to assess the risk from the main vector [3]
+why: Medicine | A main vector of malaria in the forested hills of Southeast Asia [2]. In 2024 WHO estimated about 282 million malaria cases and 610,000 deaths worldwide [4]
+asideTitle: Sibling species of a malaria vector
+aside: The mosquito-catching study in Vietnam, Laos and Cambodia found that malaria remains a potentially fatal disease in some forested hill areas [3]
+aside: Earlier work used different methods to identify species and mostly did not separate sibling species, making it hard to get an overall picture of the biology and ecology of each species [2]
+aside: GBIF lists the synonym Anopheles christophersi [1]
+disease.name: Malaria, caused by Plasmodium parasites, of which 5 species infect humans. The most serious is P. falciparum [4]
+disease.symptoms: Fever, headache and chills, usually beginning 10 to 15 days after the bite. Severe cases may bring extreme fatigue, confusion, seizures, difficulty breathing, dark urine, jaundice or bleeding. Infants, young children, pregnant women, travelers and people with HIV are at high risk [4]
+disease.transmission: The bite of an infected female Anopheles mosquito. It can also be passed through blood transfusion and contaminated needles, and the disease does not pass directly from person to person [4]
+disease.prevention: Use bed nets, repellents, covering clothing and window screens, control mosquitoes with insecticide-treated nets and indoor spraying, and travelers should take preventive medicine, but insecticide resistance is a growing problem [4]
+disease.drugs: Must always be treated with drugs after the infection is confirmed, with the drug chosen according to the type of parasite, drug resistance, age or weight, and pregnancy [4]
+
+## apis-cerana
+lede: The Asian honey bee, which has been kept in many countries of Asia for thousands of years and brings economic benefits to the beekeeping industry [2]. It has biological traits that differ from those of the European honey bee [2]. Its genome was first sequenced in 2015 [2]
+traitsExtra: Phylum (GBIF) | Arthropoda [1]
+life: Keeping | Has been kept in Asian countries for thousands of years [2]
+life: Differences | Has biological traits that differ from those of the European honey bee A. mellifera [2]
+life: Biodiversity | Plays an important role in maintaining biodiversity in East and South Asia [2]
+why: Agriculture | Brings economic benefits to the beekeeping industry of Asia [2]
+why: Ecology | Plays an important role in maintaining biodiversity in East and South Asia [2]
+asideTitle: The Asian honey bee and its genome
+aside: The European honey bee A. mellifera is a main model for social behavior and had its genome published before the Asian honey bee [2]
+aside: The genome of A. cerana was first sequenced using a new genome assembly method [2]
+aside: GBIF lists several subspecies names as synonyms, such as Apis cerana cathayca [1]
+
+## mus-musculus
+lede: The house mouse, a laboratory animal whose genome sequence is an important tool for biomedical research [2]. Its genome is used in comparison with the human genome to understand the human genome [2]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Genome | A high-quality draft that can be compared with the human genome [2]
+life: Conservation | The order of genes is similar to that of the human genome across most of the genome [2]
+life: Evolutionary forces | Analysis of the forces that determine the size, structure and sequence of the genome [2]
+why: Medicine | The mouse genome sequence is an informational tool that helps in understanding the content of the human genome, and an important experimental tool for biomedical research [2]
+why: Science | The mouse genome is compared with the human genome to study evolution [2]
+asideTitle: The mouse and the human genome
+aside: The initial comparison of the mouse and human genomes was the result of international collaboration [2]
+aside: GBIF lists the synonyms Mus domesticus and Mus molossinus [1]
+
+## danio-rerio
+lede: The zebrafish, an organism commonly used to study gene function in vertebrates [2]. Its embryos are almost transparent, and gene expression can be switched off or increased [2]. It is used to study human genetic diseases [2]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Embryo | The embryos are almost transparent, which makes it possible to observe development [2]
+life: Genetics | Genetic studies can be sped up by reducing or increasing the activity of genes [2]
+life: Genome | The reference genome sequence was assembled from clones that were fully sequenced and overlapping [2]
+why: Science | Used to study the function of vertebrate genes and human genetic diseases, which requires understanding how similar fish genes are to human genes [2]
+asideTitle: A fish with transparent embryos
+aside: The reference genome sequenced in 2013 was compared with the human genome [2]
+aside: GBIF lists the synonym Brachydanio rerio [1]
+
+## hippocampus-kuda
+lede: The yellow seahorse, a shallow-water seahorse in Southeast Asia [2]. Microplastics carrying heavy metals reduce its growth and survival [3]
+traitsExtra: Phylum (GBIF) | Chordata [1]
+life: Habitat | A shallow-water seahorse that has colonized the Sunda Shelf less than deep-water seahorses have [2]
+life: Dispersal | Genetic differences are related to the sampling location and geographic distance [2]
+life: Effects of pollution | In an experiment, seahorses that ate microplastics together with heavy metals had lower length, weight and survival than the other groups, but the group that ate microplastics alone did not differ from the control [3]
+why: Ecology | The four seahorse species studied had four different patterns of genetic distribution according to the ecology of each species [2]
+asideTitle: Seahorses and microplastics
+aside: A 2005 study examined four seahorse species: H. barbouri, H. kuda, H. spinosissimus and H. trimaculatus [2]
+aside: The seahorses in the experiment were divided into three groups, fed mysids, mysids with microplastics, and mysids with microplastics and heavy metals [3]
+aside: GBIF lists the synonym Hippocampus chinensis [1]

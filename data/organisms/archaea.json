@@ -154,55 +154,57 @@
       ]
     },
     "extra_en": {
-      "lede": "An archaeon that survives in brine strong enough to kill most life. It lives in salt evaporation ponds and very salty lakes. Its red pigments and light-driven proteins make salt ponds pink and make it a model organism in research.",
+      "lede": "An archaeon that grows in brine close to saturation [3]. It was first isolated from salted fish about a hundred years ago [3]. Its cells are red because of a carotenoid called bacterioruberin [5], and it has the protein bacteriorhodopsin, which uses light as an energy source [3][4]. It has also helped researchers work out the structures of membrane proteins [3].",
       "traitsExtra": [
         [
-          "Cell wall",
-          "No peptidoglycan; a glycoprotein S-layer instead. Stains Gram-negative."
+          "Biosafety risk level",
+          "Risk group 1, as listed in LPSN [1]"
         ],
         [
-          "Preferred salinity",
-          "About 4 molar NaCl, roughly 7 times saltier than seawater"
+          "Origin of the reference strain",
+          "Type strain ATCC 33171 (= DSM 3754) [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Brine close to saturation; it has also been isolated from salted fish [3]"
+        ],
+        [
+          "Energy source",
+          "Bacteriorhodopsin in the purple membrane uses light to build a proton gradient across the cell membrane. This effect is seen when cells are starved or grown without oxygen [4]"
+        ],
+        [
+          "Protection",
+          "Bacterioruberin and potassium chloride inside the cell reduce DNA damage from radiation and oxidizing agents [5]"
         ]
       ],
       "why": [
         [
           "Ecology",
-          "One reason salt ponds turn pink to red, from the carotenoid bacterioruberin"
+          "An example of an organism that has adapted to live in very concentrated brine [3]. Its pigments and the salt inside its cells help protect its DNA [5]"
         ],
         [
-          "Research",
-          "Bacteriorhodopsin is a light-driven proton pump and one of the most studied membrane proteins"
-        ],
-        [
-          "Food",
-          "Can spoil salted fish and hides, turning them pink"
-        ],
-        [
-          "Health",
-          "Not a human pathogen"
+          "Science",
+          "Once bacteriorhodopsin was discovered in 1971, researchers in many fields became interested, including biophysics, chemistry, molecular evolution and biotechnology [3]. The cell's purple membrane contains only this one protein [4], and the organism has helped scientists determine the structures of membrane proteins [3]"
         ]
       ],
       "name": [
         [
           "Halobacterium",
-          "From Greek hals, salt, plus bacterium"
+          "Greek hals means sea or salt, combined with New Latin bacterium, meaning a small rod. The genus name therefore means \"small rod that needs salt\" [2]"
         ],
         [
           "salinarum",
-          "Latin for \"of the salt works\""
-        ],
-        [
-          "Synonyms",
-          "Halobacterium halobium, Halobacterium cutirubrum"
+          "Latin, meaning \"of the salt works\" [1]"
         ]
       ],
-      "asideTitle": "Called a bacterium, but not a bacterium",
+      "asideTitle": "Has \"bacterium\" in its name but is not a bacterium",
       "aside": [
-        "No peptidoglycan in the cell wall; an S-layer of glycoprotein instead",
-        "Membrane lipids are joined by ether bonds, while bacteria use ester bonds",
-        "RNA polymerase and transcription look more like those of eukaryotes than of bacteria",
-        "The genus was named before scientists split archaea off as a separate domain"
+        "The genus name contains \"bacterium\", but this species is an archaeon in the domain Archaea. In 2008 someone proposed renaming the genus Haloarchaeum, but others argued that the proposal did not follow the code of nomenclature [2]",
+        "H. halobium and H. cutirubrum are now included in the species H. salinarum, because no features were found that separate the two names [1]",
+        "The first glycoprotein found outside the eukaryotes came from this organism [3]",
+        "It is one of the species used to define what an archaeon is, so studying it has helped scientists understand the molecular mechanisms of the third domain of life [3]"
       ]
     },
     "authority": "(Harrison & Kennedy 1922) Elazari-Volcani 1957",
@@ -426,6 +428,63 @@
         "ในปี 2026 มีผู้เสนอชื่อ Methanocatella smithii ซึ่งเผยแพร่ถูกต้อง แต่ LPSN ยังระบุว่า Methanobrevibacter smithii เป็นชื่อที่ถูกต้อง [1]",
         "ในปี 2006 ซามูเอลและกอร์ดอนสร้างแบบจำลองหนูที่ให้เชื้อมนุษย์ เพื่อศึกษาการอยู่ร่วมกันของเจ้าบ้าน อาร์เคีย และแบคทีเรีย [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "The methane-producing archaeon found in greatest numbers in the human large intestine [4]. It does not use oxygen [5]. It uses formate made by gut bacteria to produce methane [3], and it affects how bacteria digest polysaccharides from food [4]",
+      "traitsExtra": [
+        [
+          "Genome",
+          "1,853,160 base pairs [4]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "The distal large intestine of humans [4]"
+        ],
+        [
+          "Respiration",
+          "Does not use oxygen [5]"
+        ],
+        [
+          "Nutrition",
+          "Uses formate from gut bacteria such as Bacteroides thetaiotaomicron to produce methane [3]"
+        ],
+        [
+          "Relationships",
+          "Lives alongside gut bacteria and affects the specificity and efficiency with which bacteria digest polysaccharides, which in turn affects the energy the body absorbs and fat storage [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "In germ-free mice colonized with both microbes (M. smithii and B. thetaiotaomicron), body fat increased more than in mice given a single microbe [3]. This led to the hypothesis that M. smithii might be a target for reducing energy absorption in obese people [4]"
+        ],
+        [
+          "Science",
+          "Its genome has been sequenced and is 1,853,160 base pairs long. It is used as an example for studying how archaea live together with bacteria and their host [3][4]"
+        ]
+      ],
+      "name": [
+        [
+          "Methanobrevibacter",
+          "methano, relating to methane, combined with Latin brevis, meaning short, and bacter, meaning rod. The genus name therefore means \"short rod that produces methane\" [2]"
+        ],
+        [
+          "smithii",
+          "New Latin, meaning \"of Smith\". It is named after P. H. Smith, who isolated the type strain [1]"
+        ]
+      ],
+      "asideTitle": "A gut resident under close study",
+      "aside": [
+        "LPSN gives the author of the name as Balch and Wolfe, which differs from the authors of the paper that published the name (Balch and colleagues) [1]",
+        "In 2026 the name Methanocatella smithii was proposed and validly published, but LPSN still lists Methanobrevibacter smithii as the correct name [1]",
+        "In 2006 Samuel and Gordon built a mouse model colonized with human microbes to study the mutualism between host, archaea and bacteria [3]"
+      ]
     }
   },
   {
@@ -595,6 +654,59 @@
         "ชื่อชนิดย่อย P. furiosus subsp. woesei ยังไม่ได้เผยแพร่อย่างถูกต้องและจัดเป็นชื่อพ้อง [1]",
         "ผู้เขียนรีวิวระบุว่าความเสถียรต่อความร้อนของเอนไซม์ไฮเปอร์เทอร์โมฟิลมาจากการเปลี่ยนแปลงเฉพาะจุดจำนวนน้อย และไม่มีกลไกเดียวที่อธิบายได้ทั้งหมด [4]"
       ]
+    },
+    "extra_en": {
+      "lede": "An archaeon that prefers very high temperatures (a hyperthermophile) [3]. It does not use oxygen [5]. Its DNA polymerase (Pfu) is heat-stable and has proofreading activity [3]",
+      "traitsExtra": [
+        [
+          "Culture temperature range of the type strain (BacDive)",
+          "95 to 97 °C [5]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Respiration",
+          "Does not use oxygen [5]"
+        ],
+        [
+          "Temperature",
+          "A hyperthermophile is an organism that grows best above 80 °C [4]. BacDive records the type strain being cultured at 95 to 97 °C [5]"
+        ],
+        [
+          "Enzymes",
+          "Enzymes from hyperthermophiles are usually heat-stable and work well at high temperatures [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The review authors note that hyperthermophilic enzymes in general keep their heat-stable properties when produced in host cells that prefer moderate temperatures, which shows that this property is genetically encoded [4]"
+        ],
+        [
+          "Industry",
+          "The DNA polymerase of this species is used in the polymerase chain reaction (PCR) and gives products with fewer than 10% of the mutations produced by the polymerase from Thermus aquaticus [3]"
+        ]
+      ],
+      "name": [
+        [
+          "Pyrococcus",
+          "Greek pŷr means fire, combined with coccus, meaning grain or round body. The genus name therefore means \"fireball\" [2]"
+        ],
+        [
+          "furiosus",
+          "Latin, meaning furious or raging [1]"
+        ]
+      ],
+      "asideTitle": "A more accurate DNA polymerase",
+      "aside": [
+        "LPSN gives the author of the name as Fiala and Stetter, 1986 [1]",
+        "The subspecies name P. furiosus subsp. woesei has not been validly published and is treated as a synonym [1]",
+        "The review authors note that the heat stability of hyperthermophilic enzymes comes from a small number of specific changes, and that no single mechanism explains it fully [4]"
+      ]
     }
   },
   {
@@ -754,6 +866,67 @@
         "จีโนมของสายพันธุ์ DSM 639 ยาว 2,225,959 คู่เบส มี 2,292 ยีนที่เข้ารหัสโปรตีน [3]",
         "มี 305 ยีนที่พบเฉพาะในชนิดนี้ และ 866 ยีนที่เฉพาะกับสกุล Sulfolobus [3]",
         "จีโนมมีพลาสมิดชนิด pARN ที่ฝังอยู่ ซึ่งอาจช่วยให้เซลล์แลกเปลี่ยนยีนบนโครโมโซมกันได้ [3]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A crenarchaeote that likes heat and acid and uses oxygen [3]. It grows best at 80 °C and pH 2 in terrestrial sulfur springs (solfataras) [3]. Strain DSM 639 has been used in several important studies of archaeal biology [3]",
+      "traitsExtra": [
+        [
+          "Optimal temperature and pH",
+          "80 °C and pH 2 [3]"
+        ],
+        [
+          "Genome (strain DSM 639)",
+          "2,225,959 base pairs, 37% GC, 2,292 protein-coding genes [3]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Terrestrial sulfur springs (solfataras) [3]"
+        ],
+        [
+          "Respiration",
+          "Uses oxygen [3]"
+        ],
+        [
+          "Temperature and acidity",
+          "Grows best at 80 °C and pH 2 [3]"
+        ],
+        [
+          "Sulfur use",
+          "The genus Sulfolobus was described in 1972 as sulfur-oxidizing organisms living at low pH and high temperature [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "Lives in very hot, very acidic places such as terrestrial sulfur springs [3]"
+        ],
+        [
+          "Science",
+          "A model organism of the crenarchaeotes; strain DSM 639 has been used in many studies of archaeal biology [3]"
+        ]
+      ],
+      "name": [
+        [
+          "Sulfolobus",
+          "Latin sulfur means sulfur, combined with lobus, meaning a rounded lobe. The genus name therefore means \"lobed sulfur-oxidizing organism\" [2]"
+        ],
+        [
+          "acidocaldarius",
+          "New Latin, meaning an organism living in hot, acidic places [1]"
+        ]
+      ],
+      "asideTitle": "A genome unlike those of its close relatives",
+      "aside": [
+        "The genome of strain DSM 639 is 2,225,959 base pairs long and has 2,292 protein-coding genes [3]",
+        "305 genes are found only in this species, and 866 genes are specific to the genus Sulfolobus [3]",
+        "The genome contains an integrated plasmid of the pARN type, which may help cells exchange chromosomal genes with each other [3]"
       ]
     }
   },
@@ -954,6 +1127,63 @@
         "เป็นชนิดต้นแบบของสกุล Nitrosopumilus [1]",
         "เดิมนักจุลชีววิทยามองว่าอาร์เคียเป็นสิ่งมีชีวิตที่ต้องอยู่ในที่รุนแรง แต่การพบครีนอาร์เคียจำนวนมากในน้ำทะเลที่เย็นและมีออกซิเจนทำให้ภาพนี้เปลี่ยนไป [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "A marine archaeon that gets its energy by oxidizing ammonia to nitrite, using oxygen [3]. It was the first observation of nitrification in an archaeon [3]. It can fix carbon from inorganic sources on its own [4]",
+      "traitsExtra": [
+        [
+          "Temperature and pH range recorded in BacDive (type strain)",
+          "15 to 35 °C and pH 6.8 to 8.1 [5]"
+        ],
+        [
+          "Genome (strain SCM1)",
+          "Closed chromosome 1,645,259 base pairs long [4]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Energy source",
+          "Oxidizes ammonia to nitrite using oxygen; it is a chemolithoautotroph [3]"
+        ],
+        [
+          "Carbon source",
+          "Grows as an autotroph using a variant of the 3-hydroxypropionate/4-hydroxybutyrate pathway, and has only a limited capacity to use organic carbon [4]"
+        ],
+        [
+          "Copper",
+          "Its systems for ammonia oxidation and electron transport depend heavily on copper, unlike ammonia-oxidizing bacteria [4]"
+        ],
+        [
+          "Protection",
+          "Synthesizes ectoine, an osmoprotectant that protects against osmotic stress [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "Marine crenarchaeotes number about 10^28 cells in the world's oceans, so they probably play an important role in the global carbon and nitrogen cycles [3]"
+        ]
+      ],
+      "name": [
+        [
+          "Nitrosopumilus",
+          "Latin nitrosus means containing nitrite, combined with pumilus, meaning dwarf. The genus name therefore means \"dwarf that produces nitrite\" [2]"
+        ],
+        [
+          "maritimus",
+          "Latin, meaning \"of the sea\", which describes its habitat [1]"
+        ]
+      ],
+      "asideTitle": "An archaeon that does not live in extreme places",
+      "aside": [
+        "The name Candidatus Nitrosopumilus maritimus, given by Könneke and colleagues in 2005, was later treated as a synonym because the validly published name appeared in 2017 [1]",
+        "It is the type species of the genus Nitrosopumilus [1]",
+        "Microbiologists once saw archaea as organisms that had to live in extreme places, but the discovery of large numbers of crenarchaeotes in cold, oxygen-rich seawater changed that picture [3]"
+      ]
     }
   },
   {
@@ -1120,6 +1350,55 @@
         "มี 128 กรอบที่ไม่ใช่ยีนสมมติและไม่พบคู่เทียบในสองชนิดนั้น [3]",
         "จีโนมมีพลาสมิดปริศนาขนาด 36 กิโลคู่เบส [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "A methane-producing archaeon that does not use oxygen [5]. It belongs to a genus whose genomes show a lot of gene rearrangement [3]. The genome of this species has a cluster of 14 gas vesicle genes [3]",
+      "traitsExtra": [
+        [
+          "Number of open reading frames in the genome",
+          "3,680 [3]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Respiration",
+          "Does not use oxygen [5]"
+        ],
+        [
+          "Energy source",
+          "A methanogen, that is, it produces methane. Most methanogens reduce CO₂ with H₂ to form methane [3][4]"
+        ],
+        [
+          "Genome features",
+          "Has genes for making N-acetylmuramic acid and a cluster of 14 gas vesicle genes [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "Methanogens convert CO₂ and H₂ to methane, and their mechanisms for conserving energy differ between groups [4]"
+        ]
+      ],
+      "name": [
+        [
+          "Methanosarcina",
+          "methano, relating to methane, combined with Latin sarcina, meaning a package or bundle. The genus name therefore means \"methane package\" [2]"
+        ],
+        [
+          "barkeri",
+          "New Latin, meaning \"of Barker\". It is named after H. A. Barker, who made many detailed studies of this and other methanogens [1]"
+        ]
+      ],
+      "asideTitle": "A genome with a lot of gene rearrangement",
+      "aside": [
+        "Of the 3,680 open reading frames in the genome, 746 have homologs with better than 80% identity to both M. acetivorans and M. mazei [3]",
+        "128 non-hypothetical open reading frames have no counterpart in those two species [3]",
+        "The genome contains a cryptic plasmid of 36 kilobase pairs [3]"
+      ]
     }
   },
   {
@@ -1269,6 +1548,55 @@
         "ชื่อเดิมคือ Methanococcus jannaschii ที่โจนส์และคณะตั้งไว้ในปี 1984 ก่อนจะย้ายมาสกุล Methanocaldococcus [1]",
         "LPSN บันทึกว่าบทความต้นฉบับระบุเพียงว่าฝากสายพันธุ์ต้นแบบไว้ในที่เก็บเชื้อแห่งเดียว ซึ่งโดยกฎอย่างเดียวไม่พอให้ชื่อมีผล แต่ความเห็นของคณะกรรมาธิการตุลาการหมายเลข 81 ถือว่าชื่อนี้เผยแพร่ถูกต้อง [1]",
         "จีโนมมีชิ้นดีเอ็นเอนอกโครโมโซมอีก 2 ชิ้น ยาว 58 และ 16 กิโลคู่เบส และมีเพียง 38% ของยีนที่ระบุหน้าที่ของเซลล์ได้อย่างมั่นใจ [3]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A methane-producing archaeon that grows as an autotroph [3]. It does not use oxygen [4]. The genus name indicates that it produces methane at very high temperatures [2]. Its complete genome was sequenced in 1996 [3]",
+      "traitsExtra": [
+        [
+          "Genome",
+          "About 1.66 million base pairs, with 1,738 protein-coding genes [3]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Energy source",
+          "Grows as an autotroph and produces methane [3]"
+        ],
+        [
+          "Respiration",
+          "Does not use oxygen [4]"
+        ],
+        [
+          "Temperature",
+          "BacDive records the type strain being cultured at 80 °C [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Most genes for energy production, cell division and metabolism resemble those of bacteria, but most genes for transcription, translation and DNA replication resemble those of eukaryotes [3]"
+        ]
+      ],
+      "name": [
+        [
+          "Methanocaldococcus",
+          "methano, relating to methane, combined with caldus, meaning hot, and coccus, meaning round body. The genus name therefore means \"coccus that produces methane at very high temperatures\" [2]"
+        ],
+        [
+          "jannaschii",
+          "New Latin, meaning \"of Jannasch\". It is named after H. W. Jannasch, a marine microbiologist [1]"
+        ]
+      ],
+      "asideTitle": "Formerly called Methanococcus",
+      "aside": [
+        "The original name was Methanococcus jannaschii, given by Jones and colleagues in 1984, before it was moved to the genus Methanocaldococcus [1]",
+        "LPSN notes that the original paper only states that the type strain was deposited in a single culture collection, which by the rules alone would not make the name valid, but Judicial Opinion 81 treats the name as validly published [1]",
+        "The genome has 2 extrachromosomal DNA elements, 58 and 16 kilobase pairs long, and only 38% of genes could be assigned a cellular role with confidence [3]"
       ]
     }
   },
@@ -1420,6 +1748,55 @@
         "ชื่อแรกคือ Halobacterium volcanii ที่มัลลาคานไบและลาร์เซนตั้งไว้ในปี 1975 [1]",
         "LPSN จัดชื่อ H. lucentense และ H. alexandrinum เป็นชื่อพ้องของชนิดนี้ [1]",
         "ในอดีตอาร์เคียถูกจัดผิดว่าเป็นแบคทีเรียมานานหลายสิบปี เพราะรูปร่างเซลล์แบบโพรแคริโอต จนการวิเคราะห์ทางโมเลกุลแสดงว่าเป็นโดเมนที่แยกจากกัน [4]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A moderately halophilic archaeon that grows easily on simple media [3]. It is easy to transform and its genome is fairly stable [3]. It is therefore an important model archaeon for research [3]",
+      "traitsExtra": [
+        [
+          "Genome (strain DS2)",
+          "Main chromosome of 2.848 million base pairs, 3 smaller chromosomes (85, 438 and 636 kilobase pairs) and a 6.4 kilobase pair plasmid [3]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Salty places; a moderate halophile [3]"
+        ],
+        [
+          "Culture",
+          "Grows on simple, chemically defined media [3]"
+        ],
+        [
+          "Genetics",
+          "Easy to transform, and its genome is fairly stable [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "An important model organism for studying both halophilicity and archaeal biology in general [3]. Archaea share many features with eukaryotes, especially in how they handle genetic information, so they can be used as a streamlined model of eukaryotic biology [4]"
+        ]
+      ],
+      "name": [
+        [
+          "Haloferax",
+          "Greek hals means salt, combined with Latin ferax, meaning fertile. The genus name therefore means \"salt-requiring and fertile\" [2]"
+        ],
+        [
+          "volcanii",
+          "New Latin, meaning \"of Volcani\". It is named after B. E. Volcani, an Israeli microbiologist who discovered life in the Dead Sea [1]"
+        ]
+      ],
+      "asideTitle": "From a misclassified bacterium to a model archaeon",
+      "aside": [
+        "The original name was Halobacterium volcanii, given by Mullakhanbhai and Larsen in 1975 [1]",
+        "LPSN treats H. lucentense and H. alexandrinum as synonyms of this species [1]",
+        "For decades archaea were wrongly classified as bacteria because of their prokaryotic cell shape, until molecular analyses showed that they form a separate domain [4]"
       ]
     }
   },
@@ -1590,6 +1967,65 @@
         "ตอนแรกในปี 1970 นักวิจัยเรียกว่าไมโคพลาสมาที่ชอบร้อนและกรด เพราะไม่มีผนังเซลล์ [4]",
         "จากโอเพนรีดิงเฟรมในจีโนม อย่างน้อย 252 กรอบคล้ายโปรตีนของ Sulfolobus มากที่สุด เป็นหลักฐานว่ามีการถ่ายโอนยีนข้ามชนิดระหว่างสองสกุลนี้ [3]",
         "ชื่อชนิดสะกดเดิมว่า acidophila แต่ LPSN ถือเป็นรูปสะกดที่ไม่ถูกต้อง [1]"
+      ]
+    },
+    "extra_en": {
+      "lede": "An archaeon with no rigid cell wall, only a plasma membrane around the cell [3]. It likes heat and acid and grows at 59 °C and pH 2 [3]. It was isolated from self-heating coal refuse piles and sulfur springs [3][4]",
+      "traitsExtra": [
+        [
+          "Temperature and pH range for growth",
+          "45 to 62 °C and pH 0.96 to 3.5 [4]"
+        ],
+        [
+          "Genome",
+          "1,564,905 base pairs, 1,509 open reading frames [3]"
+        ],
+        [
+          "Biosafety risk group (LPSN)",
+          "1 [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Self-heating coal refuse piles and sulfur springs [3]"
+        ],
+        [
+          "Temperature",
+          "Grows best at 59 °C and between 45 and 62 °C; it does not grow at 37 °C or 65 °C [4]"
+        ],
+        [
+          "Acidity",
+          "Grows best at pH 1 to 2 and between pH 0.96 and 3.5 [4]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "Cell division",
+          "Appears to reproduce by budding [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Proteases and chaperones from the genus Thermoplasma have helped scientists understand the structure and function of their counterparts in more complex eukaryotes [3]"
+        ]
+      ],
+      "name": [
+        [
+          "Thermoplasma",
+          "Greek thermê means heat, combined with plasma, meaning something formed or molded. The genus name therefore means \"heat-loving form\" [2]"
+        ],
+        [
+          "acidophilum",
+          "New Latin, meaning acid-loving [1]"
+        ]
+      ],
+      "asideTitle": "A heat- and acid-loving mycoplasma",
+      "aside": [
+        "In 1970 researchers first described it as a thermophilic, acidophilic mycoplasma because it has no cell wall [4]",
+        "Of the open reading frames in the genome, at least 252 are most similar to Sulfolobus proteins, which is evidence of gene transfer between these two genera [3]",
+        "The species name was originally spelled acidophila, but LPSN treats that as an incorrect spelling [1]"
       ]
     }
   }

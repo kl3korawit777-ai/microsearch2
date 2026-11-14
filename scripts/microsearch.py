@@ -2558,6 +2558,158 @@ def cmd_traits_diff(args):
 
 # ---------------------------------------------------------------- main
 
+# ---------------------------------------------------------------- translation (R9: extra_th -> extra_en)
+
+THAI_RE = re.compile(r"[฀-๿]")
+DIGITS_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
+TR_PAIR_KEYS = ("traitsExtra", "life", "lifecycle", "why", "name")
+DISEASE_KEYS = ("name", "symptoms", "transmission", "prevention", "drugs")
+
+
+def extra_to_lines(ex):
+    """extra_th/extra_en -> บรรทัดข้อความ (ใช้เป็นต้นฉบับแปลและอ่านกลับ) รูปแบบ `คีย์: ข้อความ` หรือ `คีย์: ป้าย | ข้อความ`"""
+    lines = []
+    for k in EXTRA_ORDER:
+        v = ex.get(k)
+        if v is None:
+            continue
+        if k in ("lede", "asideTitle"):
+            lines.append("%s: %s" % (k, v))
+        elif k in TR_PAIR_KEYS:
+            lines += ["%s: %s | %s" % (k, a, b) for a, b in v]
+        elif k == "aside":
+            lines += ["aside: %s" % x for x in v]
+        elif k == "disease":
+            lines += ["disease.%s: %s" % (kk, v[kk]) for kk in DISEASE_KEYS if kk in v]
+        elif k == "warning":
+            if "text" in v:
+                lines.append("warning.text: %s" % v["text"])
+            lines += ["warning.myths: %s" % m for m in v.get("myths") or []]
+    return lines
+
+
+def lines_to_extra(lines):
+    ex, errs = {}, []
+    for ln in lines:
+        key, sep, val = ln.partition(": ")
+        if not sep:
+            errs.append("บรรทัดไม่มีรูปแบบ `คีย์: ข้อความ`: %r" % ln[:60])
+            continue
+        if key in ("lede", "asideTitle"):
+            ex[key] = val
+        elif key in TR_PAIR_KEYS:
+            a, sep2, b = val.partition(" | ")
+            if not sep2:
+                errs.append("%s ต้องมี ` | ` คั่นป้ายกับข้อความ: %r" % (key, val[:60]))
+                continue
+            ex.setdefault(key, []).append([a, b])
+        elif key == "aside":
+            ex.setdefault("aside", []).append(val)
+        elif key.startswith("disease.") and key[8:] in DISEASE_KEYS:
+            ex.setdefault("disease", {})[key[8:]] = val
+        elif key == "warning.text":
+            ex.setdefault("warning", {})["text"] = val
+        elif key == "warning.myths":
+            ex.setdefault("warning", {}).setdefault("myths", []).append(val)
+        else:
+            errs.append("คีย์ไม่รู้จัก: %r" % key)
+    return ex, errs
+
+
+def compare_translation(oid, th, en):
+    """ตรวจว่าฉบับอังกฤษมีโครงสร้าง เลข [n] และตัวเลขตรงกับฉบับไทย และไม่มีอักษรไทย (ไม่ให้เพิ่มหรือตัดข้อเท็จจริง)"""
+    problems = []
+    th_lines, en_lines = extra_to_lines(th), extra_to_lines(en)
+    if len(th_lines) != len(en_lines):
+        problems.append("%s: จำนวนบรรทัดไม่เท่ากัน (ไทย %d อังกฤษ %d)" % (oid, len(th_lines), len(en_lines)))
+        return problems
+    for i, (a, b) in enumerate(zip(th_lines, en_lines), 1):
+        ka, kb = a.partition(": ")[0], b.partition(": ")[0]
+        if ka != kb:
+            problems.append("%s บรรทัด %d: คีย์ต่างกัน (%s / %s)" % (oid, i, ka, kb))
+            continue
+        if THAI_RE.search(b):
+            problems.append("%s บรรทัด %d (%s): ยังมีอักษรไทย" % (oid, i, ka))
+        if CITE_RE.findall(a) != CITE_RE.findall(b):
+            problems.append("%s บรรทัด %d (%s): เลขอ้างอิง [n] ไม่ตรงกัน (%s / %s)" % (oid, i, ka, CITE_RE.findall(a), CITE_RE.findall(b)))
+        na = sorted(d.replace(",", "") for d in DIGITS_RE.findall(CITE_RE.sub("", a)))
+        nb = sorted(d.replace(",", "") for d in DIGITS_RE.findall(CITE_RE.sub("", b)))
+        if na != nb:
+            problems.append("%s บรรทัด %d (%s): ตัวเลขไม่ตรงกัน (ไทย %s อังกฤษ %s)" % (oid, i, ka, na, nb))
+    return problems
+
+
+def cmd_export_translation(args):
+    """เขียนต้นฉบับไทยของกลุ่มเป็นไฟล์ข้อความสำหรับแปล (ไม่แตะ data/)"""
+    items = [o for o in load_organisms(args.data) if o["group"] == args.group and o.get("extra_th")]
+    if args.only:
+        wanted = {x.strip() for x in args.only.split(",") if x.strip()}
+        items = [o for o in items if o["id"] in wanted]
+    out = []
+    for o in items:
+        out.append("## %s" % o["id"])
+        out += extra_to_lines(o["extra_th"])
+        out.append("")
+    text = "\n".join(out)
+    if args.out:
+        with open(args.out, "w", encoding="utf-8", newline="\n") as f:
+            f.write(text)
+        print("เขียน %d ชนิด ลง %s" % (len(items), args.out))
+    else:
+        print(text)
+    return 0
+
+
+def parse_translation_file(text):
+    blocks, cur = {}, None
+    for ln in text.splitlines():
+        if ln.startswith("## "):
+            cur = ln[3:].strip()
+            blocks[cur] = []
+        elif ln.strip() and cur is not None:
+            blocks[cur].append(ln.rstrip())
+    return blocks
+
+
+def cmd_import_translation(args):
+    """นำเข้าไฟล์แปล research/en/<ชื่อ>.txt เป็น extra_en (ตรวจเทียบ extra_th ก่อน ไม่ผ่านก็ไม่เขียน)"""
+    blocks = parse_translation_file(open(args.src, encoding="utf-8").read())
+    orgs = {o["id"]: o for o in load_organisms(args.data)}
+    problems, built = [], {}
+    for oid, lines in blocks.items():
+        o = orgs.get(oid)
+        if o is None or not o.get("extra_th"):
+            problems.append("%s: ไม่มีชนิดนี้หรือยังไม่มี extra_th" % oid)
+            continue
+        ex, errs = lines_to_extra(lines)
+        problems += ["%s: %s" % (oid, e) for e in errs]
+        if errs:
+            continue
+        problems += compare_translation(oid, o["extra_th"], ex)
+        built[oid] = ex
+    if problems:
+        print("ไม่ผ่านการตรวจ %d จุด ไม่ได้นำเข้า" % len(problems))
+        for p in problems[:args.limit]:
+            print("  - " + p)
+        return 1
+    print("ผ่านการตรวจ: โครงสร้าง เลข [n] และตัวเลขตรงกับฉบับไทย ไม่มีอักษรไทยหลุด (%d ชนิด)" % len(built))
+    if args.dry_run:
+        return 0
+    for path in sorted(glob.glob(os.path.join(args.data, "organisms", "*.json"))):
+        items = load_json(path)
+        changed = False
+        for o in items:
+            if o["id"] in built:
+                o["extra_en"] = built[o["id"]]
+                changed = True
+        if changed:
+            save_orgs(path, items)
+    rep = validate_data(args.data)
+    print_report(rep, verbose=False)
+    print("นำเข้า extra_en %d ชนิด" % len(built))
+    return 1 if rep.errors else 0
+
+
 def build_parser():
     p = argparse.ArgumentParser(description="Microsearch 2.0 data tools")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -2606,6 +2758,16 @@ def build_parser():
     s.add_argument("--baseline", default=None, help=argparse.SUPPRESS)
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--report", default=os.path.join(REPORTS, "import-check.md"), help=argparse.SUPPRESS)
+    s = sub.add_parser("export-translation", help="เขียนต้นฉบับไทย (extra_th) ของกลุ่มเป็นไฟล์ข้อความสำหรับแปลอังกฤษ (R9)")
+    s.add_argument("group", help="เช่น bacteria")
+    s.add_argument("--out", default="", help="ไฟล์ที่จะเขียน (ไม่ใส่ = พิมพ์ออกหน้าจอ)")
+    s.add_argument("--only", default="", help="เฉพาะ id ที่ระบุ (คั่นด้วยจุลภาค)")
+    s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
+    s = sub.add_parser("import-translation", help="นำเข้าไฟล์แปล research/en/<ชื่อ>.txt เป็น extra_en (ตรวจเทียบ extra_th ก่อน)")
+    s.add_argument("src", help="เช่น research/en/bacteria.txt")
+    s.add_argument("--dry-run", action="store_true", help="ตรวจอย่างเดียว ไม่เขียนไฟล์")
+    s.add_argument("--limit", type=int, default=15, help="จำนวนปัญหาที่แสดง")
+    s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s = sub.add_parser("build", help="validate แล้วสร้าง site/data/*.json (หยุดถ้ามี error)")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--out", default=SITE_DATA, help=argparse.SUPPRESS)
@@ -2636,6 +2798,10 @@ def main(argv=None):
         return cmd_traits_diff(args)
     if args.cmd == "import-research":
         return cmd_import_research(args)
+    if args.cmd == "export-translation":
+        return cmd_export_translation(args)
+    if args.cmd == "import-translation":
+        return cmd_import_translation(args)
     return cmd_validate(args)
 
 

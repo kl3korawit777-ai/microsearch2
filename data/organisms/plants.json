@@ -171,6 +171,45 @@
         "งานปี 2015 เพาะเลี้ยงมอสพีตห้าชนิดแบบโคลนปลอดเชื้อ และเน้นการเลี้ยง S. palustre ปริมาณมากในถังปฏิกรณ์ชีวภาพ [2]",
         "ผู้เขียนระบุว่างานวิจัยพืชที่ผ่านมาเน้นพืชท่อลำเลียง ทำให้ข้อมูลของไบรโอไฟต์และไลเคนน้อย [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "Peat moss (Sphagnum) builds peatlands and is a key component of them, so it is important to ecosystems and to the global climate [2]. This species can be cultured clonally in the laboratory in large quantities [2] and can be used to monitor air pollution [4]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Sphagnopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Peatlands, which peat moss builds and of which it is the main component [2]"
+        ],
+        [
+          "Metal adsorption",
+          "Laboratory-cultured clones of this peat moss adsorbed about twice as much zinc as moss from the wild, while wild moss adsorbed 30 to 50% more copper than the clones [4]"
+        ],
+        [
+          "Relationships",
+          "Bacteria that fix nitrogen live in these mosses, giving the soil extra nitrogen [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "It builds peatlands, which are important to ecosystems and to the global climate [2]. Bryophytes (mosses and their relatives) control soil chemistry, soil moisture and plant cover, and temperature in many climate zones [3]"
+        ],
+        [
+          "Agriculture",
+          "A renewable source of growing material for horticulture, known as peat moss farming [2]"
+        ]
+      ],
+      "asideTitle": "A moss that can be grown in the laboratory",
+      "aside": [
+        "Many peat moss species and their habitats are now protected, but their scientific and economic importance remains high [2]",
+        "A 2015 study cultured five peat moss species as sterile clones and focused on growing S. palustre in large quantities in bioreactors [2]",
+        "The authors note that past plant research has focused on vascular plants, leaving little data on bryophytes and lichens [3]"
+      ]
     }
   },
   {
@@ -326,6 +365,37 @@
         "การปรากฏของพืชบกเปลี่ยนสิ่งแวดล้อมบนบกอย่างมาก [2]",
         "GBIF ระบุชื่อพ้องที่เคยอยู่ในสกุล Jungermannia [1]"
       ]
+    },
+    "extra_en": {
+      "lede": "A liverwort in a lineage of land plants that split off early [2]. Its genome has low genetic redundancy in most regulatory pathways, and this is thought to resemble the genome of the ancestor of land plants [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Marchantiopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Life cycle of land plants",
+          "Alternates between multicellular haploid and diploid phases, which allows drought-tolerant spores to be dispersed effectively [2]"
+        ],
+        [
+          "Adaptation to land",
+          "Compared with charophyte algae, land plants have genes for new biochemical pathways, new plant hormone signaling pathways (especially auxin) and a more diverse set of transcription factor families [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Used to study the evolution of land plants because the liverwort genome reflects the features of the land plant ancestor better than the genomes of other sequenced land plants [2]"
+        ]
+      ],
+      "asideTitle": "A liverwort that reflects the ancestor of land plants",
+      "aside": [
+        "Land plants evolved from charophyte algae, which passed on developmental, biochemical and cell biological traits [2]",
+        "The appearance of land plants greatly changed the environment on land [2]",
+        "GBIF lists synonyms that were once placed in the genus Jungermannia [1]"
+      ]
     }
   },
   {
@@ -452,6 +522,37 @@
         "GBIF ยอมรับชื่อ Palhinhaea cernua และจัด Lycopodiella cernua เป็นชื่อพ้อง [1]",
         "ไลโคพอดถือเป็นหนึ่งในสายพันธุ์พืชมีท่อลำเลียงที่เก่าแก่ที่สุด [2]",
         "การศึกษาปี 2019 ใช้การอ่านลำดับดีเอ็นเอจากตัวอย่างในธรรมชาติเพื่อสำรวจจุลินทรีย์ที่อยู่กับไลโคพอด [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A plant in the family Lycopodiaceae (the clubmosses), one of the oldest living lineages of vascular plants [2]. The information below comes from the whole family, not specifically from this species",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Lycopodiopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Relationships",
+          "Lycophytes live with fungi and bacteria, including fungi in the Endogonales, which have been hypothesized to have helped the first plants colonize land [2]"
+        ],
+        [
+          "Fungi found",
+          "A study in New Zealand found that the roots of nine lycophyte species had more fungi of the phyla Basidiomycota and Ascomycota than expected, while Endogonales and Glomerales were rare [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "An ancient lineage of plants that lives with fungi and bacteria in the soil [2]"
+        ]
+      ],
+      "asideTitle": "Fungi and bacteria that live with lycophytes",
+      "aside": [
+        "GBIF accepts the name Palhinhaea cernua and treats Lycopodiella cernua as a synonym [1]",
+        "Lycophytes are considered one of the oldest lineages of vascular plants [2]",
+        "A 2019 study used DNA sequencing of samples from nature to survey the microbes that live with lycophytes [2]"
       ]
     }
   },
@@ -620,6 +721,45 @@
         "จีโนมพลาสติดของ P. nudum ถูกถอดรหัสร่วมกับ Ophioglossum californicum และ Equisetum hyemale [3]",
         "การเปรียบเทียบช่วยกำหนดตำแหน่งของกลุ่ม Equisetales ในหมู่เฟิร์น [3]",
         "ในไมโทคอนเดรียจีโนมของ Psilotum และ Ophioglossum พบตำแหน่งแก้ไขแบบ U เป็น C ไม่ถึง 60 ตำแหน่ง [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A whisk fern in a lineage of ferns that split off early [3]. It is found in more than 140 regions around the world [1]. Its mitochondrial genome is 628 kilobase pairs long and highly redundant [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Polypodiopsida [1]"
+        ],
+        [
+          "Mitochondrial genome",
+          "628 kilobase pairs [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to more than 140 regions around the world [1]"
+        ],
+        [
+          "Mitochondrial genome",
+          "Has a full set of genes and introns, some of the largest introns in the organellar genomes of green plants, and very low active recombination [2]"
+        ],
+        [
+          "RNA editing",
+          "About 1,000 C-to-U RNA editing sites were found [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Used in genome comparisons to understand the evolution of ferns and land plants. For example, it was found that the plastid genome structure of early-branching ferns remains the same as in the ancestor of land plants [3]"
+        ]
+      ],
+      "asideTitle": "A fern with a redundant genome but almost no recombination",
+      "aside": [
+        "The plastid genome of P. nudum was sequenced together with those of Ophioglossum californicum and Equisetum hyemale [3]",
+        "The comparison helped determine the position of the Equisetales among the ferns [3]",
+        "In the mitochondrial genomes of Psilotum and Ophioglossum, fewer than 60 U-to-C editing sites were found [2]"
       ]
     }
   },
@@ -791,6 +931,49 @@
         "จีโนมของ Azolla ไม่มียีนที่พบร่วมกันในการอยู่ร่วมกับราไมคอร์ไรซาและปมราก [2]",
         "การเจริญของเฟิร์นลดลง 27.0 ถึง 33.9% ซึ่งมากที่สุดเมื่อมีปรอท 0.5 มิลลิกรัมต่อลิตร [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "A small floating water fern that is common in rice fields, wastewater ponds and reservoirs [3]. The genus Azolla lives with nitrogen-fixing cyanobacteria in a unique partnership [2], and this species can absorb heavy metals from wastewater [3]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Polypodiopsida [1]"
+        ],
+        [
+          "Metal concentration in tissue after growing in experimental wastewater",
+          "310 to 740 milligrams per kilogram of dry weight [3]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Floats in rice fields, wastewater ponds and reservoirs [3]"
+        ],
+        [
+          "Relationships",
+          "The genus Azolla lives with nitrogen-fixing cyanobacteria, and there is evidence that the two have speciated together (cospeciation) [2]"
+        ],
+        [
+          "Metal adsorption",
+          "In experimental tanks, mercury and cadmium in the water fell by 70 to 94% after 13 days, and the fern accumulated metals in its tissue at 310 to 740 milligrams per kilogram of dry weight [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Agriculture",
+          "Lives with nitrogen-fixing cyanobacteria, and researchers see it as a plant with biotechnological potential [2]"
+        ],
+        [
+          "Ecology",
+          "Was used in experiments to treat wastewater contaminated with mercury and cadmium [3]"
+        ]
+      ],
+      "asideTitle": "A water fern that takes up heavy metals",
+      "aside": [
+        "The authors of the experiment state that A. pinnata is native to India and grows easily [3]",
+        "The genome of Azolla lacks the genes that are shared in the mycorrhizal and root nodule symbioses [2]",
+        "Growth of the fern decreased by 27.0 to 33.9%, most at 0.5 milligrams per liter of mercury [3]"
+      ]
     }
   },
   {
@@ -946,6 +1129,37 @@
         "งานปี 2008 ตรวจเมล็ดพืชเมล็ดเปลือย 32 ชนิดเพื่อหาสารยับยั้งเอนไซม์ [2]",
         "เมล็ดปรง C. pectinata และ C. siamensis มีสารยับยั้งชนิดแรงทั้ง trypsin และ chymotrypsin [2]",
         "นี่เป็นรายงานแรกของสารยับยั้งโพรทีเอสแบบ Kunitz ในพืชเมล็ดเปลือย และพบอยู่ในปรง สน และแปะก๊วย [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A cycad, a type of gymnosperm, that occurs naturally in Cambodia, Laos, Myanmar, Thailand and Vietnam [1]. Its seeds contain inhibitors of serine protease enzymes [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Cycadopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Occurs naturally in Cambodia, Laos, Myanmar, Thailand and Vietnam [1]"
+        ],
+        [
+          "Substances in the seeds",
+          "The seeds contain inhibitors of serine protease enzymes (trypsin and chymotrypsin), which are especially strong in cycads [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "Occurs naturally in 5 countries of Southeast Asia: Cambodia, Laos, Myanmar, Thailand and Vietnam [1]"
+        ]
+      ],
+      "asideTitle": "Enzyme inhibitors in cycad seeds",
+      "aside": [
+        "A 2008 study screened the seeds of 32 gymnosperm species for enzyme inhibitors [2]",
+        "Seeds of C. pectinata and C. siamensis contain strong inhibitors of both trypsin and chymotrypsin [2]",
+        "This was the first report of Kunitz-type protease inhibitors in gymnosperms, and they were found in cycads, pines and ginkgo [2]"
       ]
     }
   },
@@ -1108,6 +1322,45 @@
         "จีโนมอาจเกิดการจำลองทั้งชุดสองครั้ง ครั้งแรกเหมือนพืชเมล็ดชนิดอื่น และอีกครั้งที่ใหม่กว่าเฉพาะแปะก๊วย [2]",
         "กลุ่มยีนที่ขยายตัวบ่งชี้ว่าแปะก๊วยมีวิถีป้องกันตัวด้วยสารเคมีและสารต้านแบคทีเรียหลากหลาย [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "Ginkgo, known as a living fossil [2]. It is a dioecious plant and resists physical and biological stress well [2]. Its genome is up to 10.61 gigabase pairs long and has 41,840 genes [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Ginkgoopsida [1]"
+        ],
+        [
+          "Genome size",
+          "10.61 gigabase pairs, with 41,840 genes [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to southeastern China, and it has been introduced to seven other regions [1]"
+        ],
+        [
+          "Resistance",
+          "Tolerates physical and biological stress well and has several pathways for making chemicals and antibacterial compounds [2]"
+        ],
+        [
+          "Reproduction",
+          "A dioecious plant [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Well suited as a model organism for studying biology and evolution, with its large genome, hardiness and separate sexes [2]"
+        ]
+      ],
+      "asideTitle": "A living fossil",
+      "aside": [
+        "Repeat sequences that are LTR retrotransposons make up 76.58% of the assembled genome and expanded greatly between 16 and 24 million years ago [2]",
+        "The genome may have undergone two whole-genome duplications, the first shared with other seed plants and a more recent one specific to ginkgo [2]",
+        "The expanded gene families indicate that ginkgo has a variety of chemical and antibacterial defense pathways [2]"
+      ]
     }
   },
   {
@@ -1269,6 +1522,45 @@
         "น้ำมันปลอดภัยต่อสัตว์น้ำที่ไม่ใช่เป้าหมายมากกว่า ด้วยค่า LC50 ระหว่าง 4,135 ถึง 8,390 ไมโครกรัมต่อมิลลิลิตร [2]",
         "ผู้เขียนระบุว่างานนี้เป็นความรู้พื้นฐานเพื่อพัฒนาสารฆ่าลูกน้ำยุงจากพืชวงศ์สน [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "A pine that occurs naturally in Assam, Bangladesh, Cambodia, southern China, Laos, Myanmar and the Philippines [1]. Essential oil from its needles has been tested for killing mosquito larvae that carry malaria, dengue and filariasis [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Pinopsida [1]"
+        ],
+        [
+          "Main compounds in the needle essential oil",
+          "Alpha-pinene, beta-pinene, myrcene and germacrene D [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Assam, Bangladesh, Cambodia, southern China, Laos, Myanmar and the Philippines [1]"
+        ],
+        [
+          "Compounds in the needles",
+          "The needle essential oil contains 18 compounds, and the main ones are alpha-pinene, beta-pinene, myrcene and germacrene D [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Industry",
+          "The needle essential oil is a candidate for developing an environmentally friendly mosquito larvicide [2]"
+        ],
+        [
+          "Ecology",
+          "Occurs naturally in 10 regions of South and Southeast Asia [1]"
+        ]
+      ],
+      "asideTitle": "Needle oil and mosquito larvae",
+      "aside": [
+        "In tests on mosquito larvae, the oil had LC50 values of 52, 57 and 62 micrograms per milliliter for Anopheles, Aedes and Culex larvae respectively [2]",
+        "The oil was safer for non-target aquatic animals, with LC50 values between 4,135 and 8,390 micrograms per milliliter [2]",
+        "The authors state that this work is baseline knowledge for developing mosquito larvicides from plants in the pine family [2]"
+      ]
     }
   },
   {
@@ -1423,6 +1715,37 @@
         "ข้อมูลรูปร่างเดิมชี้ว่านีโทไฟต์เป็นพี่น้องกับพืชดอก (กลุ่มแอนโทไฟต์) แต่ยีน MADS-box ชี้ไปอีกทางหนึ่ง [2]",
         "ห้ายีนอยู่ในกลุ่มยีนเดียวกับยีนของสนและพืชดอก ซึ่งรวมยีนควบคุมดอกหน้าที่ B และ C [2]",
         "GBIF ระบุชื่อพ้องว่า Gnetum domesticum [1]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A gymnosperm in the gnetophytes that occurs naturally in 21 regions, such as Assam, the Bismarck Archipelago, Borneo, Fiji and southern China [1]. A 1999 study using its genes showed that the gnetophytes are closer to the conifers than to the flowering plants [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Gnetopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Occurs naturally in 21 regions, such as Assam, the Bismarck Archipelago, Borneo, the Caroline Islands, southern China, Fiji and the Lesser Sunda Islands [1]"
+        ],
+        [
+          "Flower genes",
+          "Has at least 13 genes similar to the MADS-type genes that control flower formation [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The genes of G. gnemon provided molecular evidence that the gnetophytes are sister to the conifers, which contradicts the morphological data used for almost a century [2]"
+        ]
+      ],
+      "asideTitle": "A plant closer to conifers than to flowering plants",
+      "aside": [
+        "Earlier morphological data suggested that the gnetophytes are sister to the flowering plants (the anthophyte group), but the MADS-box genes point the other way [2]",
+        "Five genes fall in the same gene groups as genes of conifers and flowering plants, including the flower-controlling genes of function B and C [2]",
+        "GBIF lists the synonym Gnetum domesticum [1]"
       ]
     }
   },
@@ -1600,6 +1923,49 @@
         "มีหลักฐานว่าข้าวกลุ่มอินดิกาได้ยีนที่เป็นประโยชน์มาจากจาโปนิกาบางส่วน [2]",
         "ในอินเดียมีการปลูกข้าวเมื่อราว 5,000 ปีก่อน [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "Rice is a monocot in the grass family [1]. It is the staple food of more than half the world's people [3]. Japonica rice was first cultivated in the Yangtze River valley in southern China [2]. It is now grown throughout the tropics and subtropics [4]",
+      "traitsExtra": [
+        [
+          "First domestication of japonica rice",
+          "About 8,000 years ago, in the Yangtze River valley in southern China [2]"
+        ],
+        [
+          "Main growers",
+          "Smallholder farmers in low-income and developing countries (about four in five of the world's rice) [3]"
+        ]
+      ],
+      "life": [
+        [
+          "Where it is grown",
+          "Grown throughout the tropics and subtropics [4]"
+        ],
+        [
+          "Features of the genus",
+          "Plants in the genus Oryza are upright grasses, either annual or perennial, found in wet forests and swamps [4]"
+        ],
+        [
+          "Growers",
+          "About four in five of the world's rice is grown by smallholder farmers in low-income and developing countries [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "In Asia alone, more than 2,000 million people get 60 to 70 percent of their energy from rice and rice products [3]"
+        ],
+        [
+          "Agriculture",
+          "About four in five of the world's rice is grown by smallholder farmers and consumed mainly locally [3]"
+        ]
+      ],
+      "asideTitle": "How rice was domesticated",
+      "aside": [
+        "Japonica rice has been grown in the Yangtze River valley for about 8,000 years, but the traits that keep grains from shattering easily took another thousand years or more to become fixed in rice populations [2]",
+        "There is evidence that indica rice obtained some useful genes from japonica [2]",
+        "Rice was grown in India about 5,000 years ago [2]"
+      ]
     }
   },
   {
@@ -1764,6 +2130,45 @@
         "จีโนมไม่มีการจำลองสามชุดแบบที่พบในยูดิคอตอื่น แต่มีการจำลองเฉพาะสายพันธุ์ และกลายพันธุ์ช้ากว่าองุ่นราว 30% [2]",
         "จีโนมมีโปรตีนวงศ์มัลติคอปเปอร์ออกซิเดส COG2132 ถึง 16 ตัว [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "The sacred lotus, a flowering plant in an early-branching lineage of eudicots [2]. It has been cultivated for about 7,000 years in Asia for its rhizomes and seeds [2]. Its seeds can last up to 1,300 years, and its leaves repel water so well that this is called the lotus effect [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ],
+        [
+          "Estimated genome size",
+          "929 megabase pairs [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to 36 regions, such as the Amur region, Assam, Bangladesh, Cambodia and several parts of China, and introduced in another 26 regions [1]"
+        ],
+        [
+          "Leaves",
+          "The leaf surface has closely packed nanometer-scale bumps, which make it water-repellent and self-cleaning [2]"
+        ],
+        [
+          "Seeds",
+          "Seeds can live up to 1,300 years [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "Cultivated as a food crop for its rhizomes and seeds, which were brought into cultivation in Asia about 7,000 years ago [2]"
+        ]
+      ],
+      "asideTitle": "A lotus with water-repellent leaves",
+      "aside": [
+        "The water-repellent property of the leaf has been used to make self-cleaning paint [2]",
+        "The genome lacks the triplication found in other eudicots but has a lineage-specific duplication, and it mutates about 30% more slowly than grape [2]",
+        "The genome has as many as 16 proteins of the multicopper oxidase family COG2132 [2]"
+      ]
     }
   },
   {
@@ -1923,6 +2328,41 @@
         "เป็นสกุลที่สามในอันดับ Malvales และเป็นสกุลแรกในวงศ์ย่อย Helicteroideae ที่ถอดรหัสจีโนมได้ [2]",
         "ทุเรียนกับฝ้ายมีเหตุการณ์จำลองจีโนมทั้งชุดที่ใช้ร่วมกัน [2]",
         "ยีน MGL และยีน ACS ซึ่งเกี่ยวกับการสร้างเอทิลีน ทำงานมากขึ้นในผลพร้อมกับสารที่ตามมา ซึ่งชี้ว่าการสร้างเอทิลีนอาจเกี่ยวกับการสร้างเมไทโอนีนใหม่ [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "Durian, a tropical plant of Southeast Asia whose fruit has thick spines and a smell like sulfur or onion [2]. Its genome has been sequenced as a chromosome-level draft [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Fruit odor",
+          "The MGL gene, involved in making volatile sulfur compounds (VSCs), has expanded strongly in durian alone [2]"
+        ],
+        [
+          "Ripening",
+          "In durian fruit, genes involved in sulfur, ethylene and lipid metabolism become more active [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "The fruit has a distinctive smell from sulfur compounds [2]"
+        ],
+        [
+          "Agriculture",
+          "The genome is a resource for research on the biology and cultivation of tropical fruit [2]"
+        ]
+      ],
+      "asideTitle": "The genome behind durian's smell",
+      "aside": [
+        "It is the third genus in the order Malvales, and the first in the subfamily Helicteroideae, to have its genome sequenced [2]",
+        "Durian and cotton share a whole-genome duplication event [2]",
+        "The MGL gene and the ACS gene, which is involved in making ethylene, are more active in the fruit together with downstream compounds, which suggests that ethylene synthesis may be linked to methionine regeneration [2]"
       ]
     }
   },
@@ -2090,6 +2530,49 @@
         "อนุภาคยางขนาดใหญ่มีเพียง 6% ของอนุภาคยางทั้งหมด แต่มียางถึง 93% ในน้ำยาง [2]",
         "ไอโซฟอร์มของ REF/SRPP ที่ใหญ่เท่า SRPP1 (204 กรดอะมิโน) หรือใหญ่กว่า พบในพืชอีก 17 ชนิดที่ตรวจ แต่ไม่พบไอโซฟอร์มขนาดเท่า REF1 (138 กรดอะมิโน) [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "The rubber tree, a tropical tree that produces natural rubber, an important industrial raw material [2]. Its genome is 1.37 gigabase pairs long and has 43,792 protein-coding genes [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ],
+        [
+          "Assembled genome size",
+          "1.37 gigabase pairs of an estimated 1.47 gigabase pair genome [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Occurs naturally in Bolivia, Brazil, Colombia, French Guiana and Peru, and has been introduced to 27 regions [1]"
+        ],
+        [
+          "Rubber production",
+          "The REF/SRPP gene family has expanded and split into isoforms specific to latex cells, which are important for rubber production [2]"
+        ],
+        [
+          "Ethylene",
+          "The rubber tree tightly controls ethylene production in latex cells [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Industry",
+          "Produces natural rubber, an important industrial raw material [2]. The REF1 protein is found on large rubber particles, which hold 93% of the rubber in latex [2]"
+        ],
+        [
+          "Agriculture",
+          "The control of ethylene explains why ethylene stimulates rubber yield [2]"
+        ]
+      ],
+      "asideTitle": "The protein behind rubber yield",
+      "aside": [
+        "A key turning point in the evolution of Hevea was the appearance of the REF1 protein [2]",
+        "Large rubber particles make up only 6% of all rubber particles but hold 93% of the rubber in latex [2]",
+        "REF/SRPP isoforms as large as SRPP1 (204 amino acids) or larger were found in 17 other plant species examined, but no isoform of the size of REF1 (138 amino acids) was found [2]"
+      ]
     }
   },
   {
@@ -2256,6 +2739,43 @@
         "จีโนมไม่มีเซนโทรเมียร์ที่เต็มด้วยลำดับซ้ำ ไม่มีการจำลองจีโนมทั้งชุด และมีตัวควบคุมการถอดรหัสจำนวนจำกัด [2]",
         "ฮอร์นเวิร์ตเป็นกลุ่มพี่น้องกับลิเวอร์เวิร์ตรวมกับมอส ตามการวิเคราะห์ที่ให้การสนับสนุนสูง [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "A hornwort, a bryophyte lineage that split from other land plants more than 400 million years ago [2]. The genetic information below comes from the genus Anthoceros as a whole. It has a distinctive form of sporophyte, lives with cyanobacteria and has a pyrenoid-based carbon-concentrating mechanism [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Anthocerotopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Relationships",
+          "Hornworts live with cyanobacteria, and the researchers found genes that may be involved in this partnership [2]"
+        ],
+        [
+          "Carbon concentration",
+          "The LCIB gene, which is involved in carbon concentration in the alga Chlamydomonas, is found in hornworts but not in other plant groups [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "Sex",
+          "About 40% of hornwort species are dioicous [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The genomes of Anthoceros help in understanding the origin of land plants and the unique biology of hornworts [2]"
+        ]
+      ],
+      "asideTitle": "A land plant with algal-type carbon concentration",
+      "aside": [
+        "A 2020 study sequenced three high-quality genomes of Anthoceros [2]",
+        "The genome has no centromeres filled with repeat sequences, no whole-genome duplication and a limited number of transcription regulators [2]",
+        "Hornworts are the sister group of the liverworts and mosses combined, according to a highly supported analysis [2]"
+      ]
     }
   },
   {
@@ -2417,6 +2937,37 @@
         "งานปี 2011 ถอดรหัสจีโนมของ S. moellendorffii ซึ่งเป็นพืชมีท่อลำเลียงที่ไม่มีเมล็ดชนิดแรกที่ถอดรหัสได้ [3]",
         "จากจีโนมนั้น การเปลี่ยนจากเกมีโทไฟต์เด่นมาเป็นสปอโรไฟต์เด่นต้องการยีนใหม่น้อยกว่าการเปลี่ยนจากพืชไม่มีเมล็ดเป็นพืชดอก [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "A lycophyte in the genus Selaginella, an early group of vascular plants [2]. It occurs naturally in the Andaman Islands, Assam, Borneo, Cambodia and the Caroline Islands [1]. The plastid genome of this species has been sequenced [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Lycopodiopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to 28 regions of Asia and the Pacific, such as the Andaman Islands, Assam, Borneo, Cambodia and several parts of China [1]"
+        ],
+        [
+          "Plastid genome",
+          "Unlike other plants, it has a direct repeat structure rather than an inverted one [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "The genus is a lycophyte, one of the two lineages that survive from the vascular plants that appeared about 410 million years ago [3]"
+        ]
+      ],
+      "asideTitle": "A lycophyte with an unusual plastid genome",
+      "aside": [
+        "The plastid genome of Selaginella is small and has far fewer genes [2]",
+        "A 2011 study sequenced the genome of S. moellendorffii, the first seedless vascular plant to be sequenced [3]",
+        "From that genome, the change from a dominant gametophyte to a dominant sporophyte needed fewer new genes than the change from seedless plants to flowering plants [3]"
+      ]
     }
   },
   {
@@ -2548,6 +3099,41 @@
         "ผู้วิจัยพบหลักฐานการจำลองจีโนมทั้งชุดในสายเฟิร์นจากการศึกษา Equisetum giganteum [3]",
         "ตำแหน่งที่ซิลิกาสะสมตรงกับตำแหน่งของคาโลสซึ่งเป็นเฮมิเซลลูโลส [2]",
         "สกุลนี้เป็นที่รู้จักว่าสร้างซิลิกาจากสิ่งมีชีวิต แต่กลไกยังไม่ชัดเจน [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A horsetail in the genus Equisetum, the only genus of its family, which has about 15 species [3]. The information below comes from the genus as a whole, not specifically from E. debile",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Polypodiopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Silica accumulation",
+          "In Equisetum arvense, silica accumulates in every part, from the rhizome and stem to the leaves and spores [2]"
+        ],
+        [
+          "Where it accumulates",
+          "Silica is found in cell walls, cell plates, plasmodesmata, and guard cells and stomata [2]"
+        ],
+        [
+          "Chromosomes",
+          "The genus has a very high chromosome number (n = 108) [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "The oldest living genus of vascular plants, which may go back to the Triassic [3]"
+        ]
+      ],
+      "asideTitle": "A plant that accumulates silica",
+      "aside": [
+        "The researchers found evidence of a whole-genome duplication in the fern lineage from a study of Equisetum giganteum [3]",
+        "The places where silica accumulates match the places where callose, a hemicellulose, is found [2]",
+        "The genus is known to make biogenic silica, but the mechanism is unclear [2]"
       ]
     }
   },
@@ -2708,6 +3294,37 @@
         "เฟิร์นกินได้หลายชนิดใช้ในตำรับยาพื้นบ้านด้วย [2]",
         "งานรีวิวปี 2024 รวบรวมข้อมูลของเฟิร์นกินได้ทั่วโลกถึงสิ้นปี 2022 [2]",
         "GBIF ระบุชื่อพ้องที่เคยอยู่ในสกุล Anisogonium [1]"
+      ]
+    },
+    "extra_en": {
+      "lede": "Vegetable fern, a fern native to the Andaman Islands, Bangladesh, Borneo, Cambodia and southern China [1]. Edible ferns generally have their young shoots eaten as a vegetable [2]. But this information is at the group level and has not been confirmed against sources that name this species directly",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Polypodiopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to 36 regions of Asia and the Pacific, and introduced to another 5 regions [1]"
+        ],
+        [
+          "Substances in the plant",
+          "A study of 10 native plants of Thailand included this fern, looking at phenols, antioxidant activity and the effect of drying [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "The young coiled shoots (fiddleheads) of edible ferns are generally eaten as a vegetable, and starch is extracted from the rhizomes of some [2]"
+        ]
+      ],
+      "asideTitle": "A fern eaten for its young shoots",
+      "aside": [
+        "Several edible ferns are also used in folk medicine [2]",
+        "A 2024 review compiled data on edible ferns around the world up to the end of 2022 [2]",
+        "GBIF lists synonyms that were once placed in the genus Anisogonium [1]"
       ]
     }
   },
@@ -2873,6 +3490,45 @@
         "ทรานสโพซอนจับและขยายชิ้นส่วนยีนจำนวนมาก และมีผลต่อขนาดและตำแหน่งของเซนโทรเมียร์ [2]",
         "บริเวณที่เมทิลเลชันต่ำสัมพันธ์กับการแทรกของทรานสโพซอน Mu และการรวมตัวใหม่ [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "Maize, an important crop and a model for biological research [2]. The genome of strain B73 is 2.3 gigabase pairs long, with more than 32,000 genes, and more than 85% of it is transposons [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Liliopsida [1]"
+        ],
+        [
+          "Genome size (strain B73)",
+          "2.3 gigabase pairs, with more than 32,000 genes [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Genome",
+          "Nearly 85% of the genome is made up of hundreds of families of transposons [2]"
+        ],
+        [
+          "Genome history",
+          "Maize descended from an allotetraploid ancestor that lost genes unevenly until it returned to a genetic diploid [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "An important crop [2]"
+        ],
+        [
+          "Agriculture",
+          "The results of genome analysis help in understanding domestication and breeding [2]"
+        ]
+      ],
+      "asideTitle": "Maize and its transposons",
+      "aside": [
+        "99.8% of the predicted genes were placed on the reference chromosomes [2]",
+        "Transposons captured and multiplied many gene fragments and affect the size and position of centromeres [2]",
+        "Regions of low methylation are associated with insertions of Mu transposons and with recombination [2]"
+      ]
     }
   },
   {
@@ -3026,6 +3682,37 @@
         "พืชไวต่อสิ่งเร้าอีกชนิดที่งานรีวิวกล่าวถึงคือพืชกินแมลง Dionaea muscipula [2]",
         "สัญญาณไฟฟ้าเกี่ยวกับทั้งการเคลื่อนไหวของใบและกระบวนการสรีรวิทยาอื่นในพืชทั่วไป [2]",
         "GBIF ระบุชื่อพ้องว่า Eburnax pudica [1]"
+      ]
+    },
+    "extra_en": {
+      "lede": "The sensitive plant, whose leaves fold when touched, an example of a plant that responds to stimuli [2]. Electrical signals of the action potential type trigger fast movement of the leaves [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Leaf movement",
+          "Electrical signals cause the leaves of touch-sensitive plants such as Mimosa to move quickly [2]"
+        ],
+        [
+          "Distribution",
+          "Native to 49 regions of the Americas, such as the Bahamas, Belize, Bolivia and several parts of Brazil, and introduced to 117 regions [1]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Used as an example for studying electrical signals and responses to stimuli in plants [2]"
+        ]
+      ],
+      "asideTitle": "A touch-sensitive plant",
+      "aside": [
+        "Another touch-sensitive plant mentioned in the review is the carnivorous plant Dionaea muscipula [2]",
+        "Electrical signals are involved both in leaf movement and in other physiological processes in plants generally [2]",
+        "GBIF lists the synonym Eburnax pudica [1]"
       ]
     }
   },
@@ -3182,6 +3869,41 @@
         "จีโนมได้ยีนจากบรรพบุรุษพลาสติดที่คล้ายไซยาโนแบคทีเรียผ่านการถ่ายโอนยีนข้ามสายพันธุ์ [2]",
         "ลำดับที่ถอดรหัสครอบคลุม 115.4 เมกะคู่เบสจากจีโนม 125 เมกะคู่เบส รวมถึงบริเวณเซนโทรเมียร์ [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "A model flowering plant for finding genes and their functions [2]. It was the first plant to have its genome fully sequenced [2]. Its genome is about 125 megabase pairs long and has 25,498 genes [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ],
+        [
+          "Genome size",
+          "About 125 megabase pairs, with 25,498 genes [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to 86 regions of Europe, Asia and North Africa, such as Afghanistan, Albania, Algeria and Austria, and introduced to another 53 regions [1]"
+        ],
+        [
+          "Genome",
+          "A whole-genome duplication occurred once, followed by gene loss and local gene duplication [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The first plant genome to be fully sequenced. It is used to compare processes conserved across all eukaryotes and to identify genes specific to plants [2]"
+        ]
+      ],
+      "asideTitle": "The model plant that was the first to have its genome sequenced",
+      "aside": [
+        "The genome has 25,498 genes from 11,000 families, similar in diversity to that of the fruit fly and the roundworm C. elegans [2]",
+        "The genome acquired genes from a plastid ancestor resembling a cyanobacterium through lateral gene transfer [2]",
+        "The sequence covers 115.4 megabase pairs of the 125 megabase pair genome, including the centromere regions [2]"
+      ]
     }
   },
   {
@@ -3337,6 +4059,41 @@
         "ราว 33% ของชิ้นส่วนยีนพลาสติดที่เหลือใน R. lagascae น่าจะถูกถ่ายโอนมาจากพืชเจ้าบ้านสกุล Tetrastigma [2]",
         "ผู้วิจัยประกอบไมโทคอนเดรียจีโนมของ R. lagascae ได้ แต่ไม่พบจีโนมคลอโรพลาสต์ที่ใช้งานได้ [2]",
         "ชิ้นส่วนยีนพลาสติดที่พบมียีนด้านการสังเคราะห์ด้วยแสงและการผลิตพลังงาน เช่น atp ndh pet psa psb และ rbcL แต่ไม่มียีนใดที่กรอบอ่านสมบูรณ์ [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A flowering plant that occurs naturally in West Malaysia (Malaya) and Thailand [1]. The genus Rafflesia is a fully parasitic plant that does not photosynthesize and is found only in Southeast Asia [2]. The genetic information below comes from a related species, R. lagascae",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Lifestyle",
+          "A parasitic plant that does not photosynthesize (genus Rafflesia) [2]"
+        ],
+        [
+          "Distribution",
+          "Occurs naturally in West Malaysia and Thailand [1]"
+        ],
+        [
+          "Plastid genome",
+          "In the related species R. lagascae, no complete chloroplast genome was found, only small fragments that could not be read [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "A fully parasitic plant found only in Southeast Asia [2]"
+        ]
+      ],
+      "asideTitle": "A parasitic plant that does not photosynthesize",
+      "aside": [
+        "About 33% of the remaining plastid gene fragments in R. lagascae were probably transferred from the host plant genus Tetrastigma [2]",
+        "The researchers could assemble the mitochondrial genome of R. lagascae but found no functional chloroplast genome [2]",
+        "The plastid gene fragments found include genes for photosynthesis and energy production, such as atp, ndh, pet, psa, psb and rbcL, but none has an intact reading frame [2]"
       ]
     }
   },
@@ -3497,6 +4254,41 @@
         "จีโนมมี GC ต่ำมากเพราะการดีอะมิเนชันระยะยาว [2]",
         "ผู้วิจัยประกอบจีโนมของ Gnetum montanum ซึ่งเป็นนีโทไฟต์อีกชนิดเพื่อเปรียบเทียบ [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "A gymnosperm in the gnetophytes and a unique desert plant that lives a very long time and has two leaves that grow continuously [2]. It occurs naturally in Angola and Namibia [1]. Its genome is 6.8 gigabase pairs per haploid set [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Gnetopsida [1]"
+        ],
+        [
+          "Genome size per haploid set (1C)",
+          "6.8 gigabase pairs [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Angola and Namibia [1]"
+        ],
+        [
+          "Longevity",
+          "Changes in the copy number or expression of gene families and transcription factors that control growth and metabolism (such as R2R3MYB and SAUR) underlie its longevity and its tolerance of temperature, nutrients and water [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The genome helps explain the biology that makes this plant live so long in the desert [2]"
+        ]
+      ],
+      "asideTitle": "A long-lived desert plant",
+      "aside": [
+        "The genome arose from a lineage-specific whole-genome duplication about 86 million years ago, and a burst of retrotransposons occurred 1 to 2 million years ago [2]",
+        "The genome has a very low GC content because of long-term deamination [2]",
+        "The researchers assembled the genome of Gnetum montanum, another gnetophyte, for comparison [2]"
+      ]
     }
   },
   {
@@ -3654,6 +4446,41 @@
         "จากปลายบีเอซี 460 ปลาย มีเพียง 3 ปลายที่พบความคล้ายกับโปรตีนในฐานข้อมูล [2]",
         "การกรองด้วยเมทิลเลชันลดลำดับไม่ทราบหน้าที่จาก 82% เหลือ 55% [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "The onion, a plant with one of the largest nuclear genomes among cultivated plants [2], which makes its genome hard to sequence [2]. It is native to Turkmenistan and has been introduced to another 82 regions [1]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Liliopsida [1]"
+        ],
+        [
+          "Estimated gene density",
+          "1 gene per 168 kilobase pairs [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "According to the World Checklist of Vascular Plants (WCVP), it is native only to Turkmenistan and is cultivated in 82 regions [1]"
+        ],
+        [
+          "Genome",
+          "Has on average one gene per 168 kilobase pairs, one of the lowest gene densities ever reported [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Studied as an example of a large plant genome rich in transposons, where methylation filtration helped increase the proportion of sequence that is genes [2]"
+        ]
+      ],
+      "asideTitle": "A genome with very sparse genes",
+      "aside": [
+        "The fully sequenced pair of DNA strands has a high AT content of 64.8% and contains degraded retroviral and transposon fragments [2]",
+        "Of the 460 BAC ends, only 3 showed similarity to proteins in the databases [2]",
+        "Methylation filtration reduced the sequence of unknown function from 82% to 55% [2]"
+      ]
     }
   },
   {
@@ -3806,6 +4633,37 @@
         "GBIF ยอมรับชื่อ Lathyrus oleraceus และจัด Pisum sativum เป็นชื่อพ้อง [1]",
         "การจัดเรียงจีโนมใหม่ของถั่วหลายชนิดชี้ว่าองค์ประกอบซ้ำมีบทบาทสำคัญในวิวัฒนาการจีโนมของถั่วลันเตา [2]",
         "ระหว่างวิวัฒนาการของ Pisum เกิดการย้ายตำแหน่งและทรานสโพซิชันไม่เท่ากันในแต่ละสายพันธุ์ [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "The garden pea, Gregor Mendel's original genetic model [2]. The first annotated chromosome-level genome was reported in 2019 [2]. The currently accepted name is Lathyrus oleraceus [1]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to 34 regions, such as Afghanistan, Albania, Algeria, Bulgaria, Cyprus and Egypt, and cultivated in 127 regions [1]"
+        ],
+        [
+          "Genome",
+          "The expanded genome size is associated with intense gene dynamics after the Fabeae split from their sister group [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Mendel's original genetic model [2]. The reference genome helps in understanding agriculturally important traits and the evolution of legume genomes [2]"
+        ]
+      ],
+      "asideTitle": "Mendel's peas",
+      "aside": [
+        "GBIF accepts the name Lathyrus oleraceus and treats Pisum sativum as a synonym [1]",
+        "Rearrangement of the genomes of several legumes indicates that repeat elements play an important role in the genome evolution of the pea [2]",
+        "During the evolution of Pisum, translocations and transpositions occurred unevenly in different lineages [2]"
       ]
     }
   },
@@ -3965,6 +4823,41 @@
         "ที่ทองแดงเข้มข้นต่ำ (ถึง 1 ไมโครโมลาร์) ชีวมวลและรงควัตถุเปลี่ยนแปลงเล็กน้อย [2]",
         "เอนไซม์ต้านออกซิเดชันเพิ่มขึ้นเมื่อได้รับทองแดงปานกลาง แต่ลดลงที่ความเข้มข้นสูง [2]",
         "GBIF ระบุชื่อพ้องที่เคยอยู่ในสกุล Elodea และ Hydora [1]"
+      ]
+    },
+    "extra_en": {
+      "lede": "Hydrilla, an aquatic plant used to study responses to heavy metals [2]. It is native to 63 regions and has been introduced to another 54 regions [1]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Liliopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to 63 regions, such as Afghanistan, the Altai, the Amur region, Assam, the Baltic states, Bangladesh and Belarus, and introduced to 54 regions [1]"
+        ],
+        [
+          "Copper uptake",
+          "Accumulated up to 770 micrograms per gram of dry weight on day 7 when exposed to 25 micromolar copper [2]"
+        ],
+        [
+          "Stress",
+          "At high concentrations, biomass and photosynthetic pigments decreased and oxidative stress occurred [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Used as a model aquatic plant for studying responses to copper stress, including antioxidants and phytochelatins [2]"
+        ]
+      ],
+      "asideTitle": "An aquatic plant and copper",
+      "aside": [
+        "At low copper concentrations (up to 1 micromolar), biomass and pigments changed only slightly [2]",
+        "Antioxidant enzymes increased at moderate copper exposure but decreased at high concentrations [2]",
+        "GBIF lists synonyms that were once placed in the genera Elodea and Hydora [1]"
       ]
     }
   },
@@ -4131,6 +5024,45 @@
         "CAM ของสับปะรดเกิดจากการจัดวิถีของพืช C3 ใหม่ โดยยีนเดิมได้รับการควบคุมแบบใหม่ [2]",
         "ยีนของ CAM มีองค์ประกอบควบคุมที่เกี่ยวกับนาฬิกาชีวิต [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "The pineapple, the most valuable crop that uses CAM photosynthesis and the second most important tropical fruit [2]. It occurs naturally in South America [1]. This species changed from C3 photosynthesis to CAM [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Liliopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Photosynthesis",
+          "Uses CAM, a water-saving carbon fixation pathway, and the genes involved in CAM are active in a day-night rhythm [2]"
+        ],
+        [
+          "Distribution",
+          "Occurs naturally in northeastern Argentina, Bolivia and several parts of Brazil, and has been introduced to another 49 regions [1]"
+        ],
+        [
+          "Genome",
+          "Has seven sets of chromosomes that have kept their structure from before the ρ whole-genome duplication event [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "The second most important tropical fruit [2]"
+        ],
+        [
+          "Agriculture",
+          "The most economically valuable crop that uses CAM [2]"
+        ]
+      ],
+      "asideTitle": "Pineapple and CAM photosynthesis",
+      "aside": [
+        "The study sequenced the genomes of two pineapple cultivars (F153 and MD2) and the wild relative Ananas bracteatus [2]",
+        "Pineapple CAM arose from the rewiring of the pathways of a C3 plant, with existing genes coming under new regulation [2]",
+        "CAM genes have regulatory elements related to the circadian clock [2]"
+      ]
     }
   },
   {
@@ -4292,6 +5224,41 @@
         "จีโนมของ S. spontaneum มี 32 ซูโดโครโมโซม ใน 8 กลุ่ม กลุ่มละ 4 สำเนา และมี 35,525 ยีน [2]",
         "จำนวนโครโมโซมพื้นฐานของ S. spontaneum ลดจาก 10 เหลือ 8 จากการแยกและย้ายของโครโมโซมบรรพบุรุษ [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "Sugarcane, a plant that yields a lot of sugar [2]. It is native to New Guinea and has been introduced to another 128 regions [1]. Modern cultivated sugarcane is a hybrid between species with several sets of chromosomes [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Liliopsida [1]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to New Guinea and cultivated in 128 regions [1]"
+        ],
+        [
+          "Hybrids",
+          "Modern cultivated sugarcane is a hybrid of S. officinarum, which has a high sugar yield, and S. spontaneum, which is hardy, disease-resistant and able to form tillers [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Industry",
+          "S. officinarum provides the high sugar content of modern cultivated sugarcane [2]"
+        ],
+        [
+          "Agriculture",
+          "Modern cultivated sugarcane combines the hardiness and disease resistance of S. spontaneum with the sugar of S. officinarum [2]"
+        ]
+      ],
+      "asideTitle": "Hybrid sugarcane",
+      "aside": [
+        "The genome data used come from S. spontaneum, a relative, not from S. officinarum [2]",
+        "The genome of S. spontaneum has 32 pseudochromosomes in 8 groups of 4 copies each, and 35,525 genes [2]",
+        "The basic chromosome number of S. spontaneum was reduced from 10 to 8 through fission and translocation of ancestral chromosomes [2]"
+      ]
     }
   },
   {
@@ -4452,6 +5419,41 @@
         "ปริมาณไขมันต่ำ แต่กรดไขมันไม่อิ่มตัวเชิงซ้อนเกิน 60% ของไขมันทั้งหมด [2]",
         "ปริมาณแร่ธาตุขึ้นกับทั้งเงื่อนไขการเพาะเลี้ยงและพันธุกรรมของชนิด [2]",
         "ผู้เขียนเสนอว่า W. microscopica มีศักยภาพสูงที่สุดในการใช้เป็นอาหาร เพราะโตเร็วและให้สารอาหารส่วนใหญ่สูงสุด [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "Watermeal, an aquatic plant in the duckweeds [2]. The genus Wolffia has traditionally been eaten as food in some countries of Asia [2]. It is native to Assam, Bangladesh, Cambodia and China [1]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Liliopsida [1]"
+        ],
+        [
+          "Protein in the genus Wolffia per freeze-dried weight",
+          "20 to 30% [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Distribution",
+          "Native to 24 regions, such as Assam, Bangladesh, Cambodia, southern China, southeastern China, the eastern Himalayas and Hainan, and introduced to another 12 regions [1]"
+        ],
+        [
+          "Differences between clones",
+          "Differences in nutrients were found between clones of W. globosa and W. arrhiza [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "All 11 species of the genus Wolffia contain 20 to 30% protein, 10 to 20% starch, 1 to 5% fat and about 25% dietary fiber of freeze-dried weight [2]. The content of essential amino acids is higher than or close to the requirements of preschool children [2]"
+        ]
+      ],
+      "asideTitle": "An edible aquatic plant",
+      "aside": [
+        "The fat content is low, but polyunsaturated fatty acids make up more than 60% of the total fat [2]",
+        "The mineral content depends on both the culture conditions and the genetics of the species [2]",
+        "The authors propose that W. microscopica has the greatest potential for use as food because it grows fast and gives the highest levels of most nutrients [2]"
       ]
     }
   },
@@ -4618,6 +5620,45 @@
         "ในหม้อเก่า สัดส่วนไนโตรเจนจากแมลงลดลง และในน้ำของหม้อเก่ามีกรดอะมิโนอิสระ [2]",
         "โปรตีน Nep II ที่ใช้ศึกษามาจาก N. mirabilis [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "A pitcher plant, a carnivorous plant that uses specialized pitcher-shaped leaves to trap prey [3]. It occurs naturally in Borneo, Cambodia, the Caroline Islands, southeastern China, Hainan, Java and Laos [1]. It gets about 61.5% of its nitrogen from the insects it catches [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ],
+        [
+          "Share of whole-plant nitrogen that comes from insects",
+          "61.5 ± 7.6% [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Nutrition",
+          "About 61.5 ± 7.6% (range 50 to 71%) of the whole plant's nitrogen comes from insects [2]"
+        ],
+        [
+          "Pitcher fluid",
+          "The plant produces its own digestive fluid, which contains aspartic protease enzymes called nepenthesins [3]"
+        ],
+        [
+          "Regulation",
+          "Protease activity is induced by the plant hormone jasmonic acid but not by salicylic acid [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "More than half of the whole plant's nitrogen comes from the insects it catches [2]"
+        ]
+      ],
+      "asideTitle": "A plant that gets nitrogen from insects",
+      "aside": [
+        "Young leaves with closed pitchers are the main sink for nitrogen, and they develop using nitrogen from insects caught elsewhere on the plant [2]",
+        "In older pitchers, the proportion of nitrogen from insects decreases, and the fluid of older pitchers contains free amino acids [2]",
+        "The Nep II protein used in the study came from N. mirabilis [3]"
+      ]
     }
   },
   {
@@ -4780,6 +5821,45 @@
         "บรรพบุรุษของเผ่า Rhizophoreae เกิดการจำลองจีโนมทั้งชุดเมื่อราว 70 ล้านปีก่อน แล้วตามด้วยการแผ่กระจายอย่างรวดเร็ว [2]",
         "ป่าชายเลนเป็นพืชกลุ่มที่มีความหลากหลายทางพันธุกรรมต่ำที่สุดกลุ่มหนึ่ง [2]",
         "ผู้วิจัยประกอบจีโนมด้วยการอ่านลำดับสายยาวร่วมกับสายสั้น และอ่านจีโนมกับทรานสคริปโทมของชนิดญาติแปดชนิด [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "The tall-stilt mangrove, a mangrove tree that grows at the boundary between land and sea [2]. It occurs naturally in the Andaman Islands, Bangladesh, the Bismarck Archipelago, Borneo and Cambodia [1]. Its genome has been sequenced almost to chromosome level [2]",
+      "traitsExtra": [
+        [
+          "Taxonomic class (GBIF)",
+          "Magnoliopsida [1]"
+        ],
+        [
+          "Longest scaffold of the genome",
+          "13.3 megabase pairs [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Mangrove forests, where woody plants live at the boundary between land and sea [2]"
+        ],
+        [
+          "Distribution",
+          "Native to 29 regions, such as the Andaman Islands, Bangladesh, the Bismarck Archipelago, Borneo and Cambodia [1]"
+        ],
+        [
+          "Special features",
+          "Mangroves have seedlings that develop while still on the mother plant (vivipary) and red bark, which are thought to be adaptations to the tides [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "Mangroves are the foundation of tropical coastal communities around the world [2]"
+        ]
+      ],
+      "asideTitle": "A mangrove with low genetic diversity",
+      "aside": [
+        "The ancestor of the tribe Rhizophoreae underwent a whole-genome duplication about 70 million years ago, followed by rapid dispersal [2]",
+        "Mangroves are one of the plant groups with the lowest genetic diversity [2]",
+        "The researchers assembled the genome using long reads together with short reads, and sequenced the genome and transcriptome of eight related species [2]"
       ]
     }
   }

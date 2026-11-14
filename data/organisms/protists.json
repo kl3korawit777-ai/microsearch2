@@ -114,6 +114,35 @@
         "ยูกลีโนซัวรวมทั้งยูกลีนิดที่สังเคราะห์แสง ไคเนโตพลาสต์ที่อิสระและเป็นปรสิต และไดพลอนีมิดที่ส่วนใหญ่อยู่อิสระ [3]",
         "ในตลาดผลิตภัณฑ์จากสาหร่าย นักวิจัยมองว่ายูกลีนาเป็นคู่แข่งของสาหร่ายอย่างคลอเรลลา [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "A protist that can photosynthesize [2]. It belongs to the Euglenozoa, which include photosynthetic species, species that feed on ready-made food, and parasites [3]. It is a source of protein, vitamins, lipids and paramylon, a glucan found only in the euglenoids [2]",
+      "life": [
+        [
+          "Nutrition",
+          "Photosynthesizes [2]"
+        ],
+        [
+          "Culture",
+          "Can be grown under many conditions to obtain products, and gives a relatively high yield compared with other single-celled algal systems [2]"
+        ],
+        [
+          "Relationships",
+          "Belongs to the same group as kinetoplastids, both free-living and parasitic, but Euglena itself is photosynthetic [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The metabolism of Euglena has several unique pathways, which could be used to develop products through genetic engineering [2], and molecular tools for improving strains are beginning to appear [2]"
+        ]
+      ],
+      "asideTitle": "Euglena in the algal product market",
+      "aside": [
+        "Paramylon from Euglena is already sold as a supplement that stimulates the immune system [2]",
+        "The Euglenozoa include photosynthetic euglenids, free-living and parasitic kinetoplastids, and diplonemids, which are mostly free-living [3]",
+        "In the market for algal products, researchers see Euglena as a competitor to algae such as Chlorella [2]"
+      ]
     }
   },
   {
@@ -266,6 +295,70 @@
         "transmission": "ถูกแมลงวันเซทซีที่มีเชื้อกัด [3]",
         "prevention": "แหล่งอ้างอิงกล่าวถึงมาตรการควบคุมระดับพื้นที่ เช่น การตรวจคัดกรองประชากรเสี่ยง การเฝ้าระวัง และการควบคุมแมลงพาหะ ไม่ได้ระบุวิธีป้องกันรายบุคคล [3]",
         "drugs": "เลือกยาตามชนิดย่อยของเชื้อและระยะของโรค ระยะที่สองต้องใช้ยาที่ผ่านด่านกั้นเลือดและสมองได้ [3]"
+      }
+    },
+    "extra_en": {
+      "lede": "A single-celled parasite that causes African sleeping sickness, transmitted by the bite of the tsetse fly [2][3]. The subspecies that infect humans are T. b. gambiense and T. b. rhodesiense, which cannot be told apart by shape [2]. T. b. brucei infects livestock such as cattle and normally does not infect humans [2]",
+      "traitsExtra": [
+        [
+          "Subspecies that infect humans",
+          "T. b. gambiense (chronic, in West and Central Africa) and T. b. rhodesiense (acute, in East and Southern Africa) [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "In humans it lives in the blood, lymph and other body fluids, spending its whole life cycle outside cells [2]"
+        ],
+        [
+          "In the fly",
+          "The parasite takes about 3 weeks to develop [2]"
+        ],
+        [
+          "Vector",
+          "The tsetse fly (Glossina) is the only known vector [2]. The fly picks up the parasite from infected humans or animals [3]"
+        ],
+        [
+          "Reservoir",
+          "Humans are the main reservoir of T. b. gambiense, while cattle are an important reservoir of T. b. rhodesiense [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 The fly injects the parasite",
+          "An infected fly injects metacyclic trypomastigotes into the skin [2]"
+        ],
+        [
+          "2 In the human body",
+          "The parasite spreads through the blood and lymph and enters other body fluids, staying outside cells throughout [2]"
+        ],
+        [
+          "3 Back into the fly",
+          "The fly picks up the parasite when it feeds on the blood of an infected human or animal [3]"
+        ],
+        [
+          "4 Development in the fly",
+          "The parasite takes about 3 weeks before it can be passed on [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "The cause of sleeping sickness, which occurs in scattered foci. Rural people who farm, fish, keep livestock or hunt are at the greatest risk [3]"
+        ]
+      ],
+      "asideTitle": "Sleeping sickness has declined sharply",
+      "aside": [
+        "T. b. gambiense is found in 24 countries in West and Central Africa and causes 92% of reported cases, while T. b. rhodesiense is found in 13 countries in East and Southern Africa and causes 8% [3]",
+        "In 1998 nearly 40,000 cases were reported, and about 300,000 more cases were estimated to go undetected and untreated, but by 2018 fewer than 1,000 cases remained [3]",
+        "In people infected with gambiense, the lymph nodes at the back of the neck often swell, which is known as Winterbottom's sign [2]"
+      ],
+      "disease": {
+        "name": "African sleeping sickness (African trypanosomiasis), which has a chronic form caused by T. b. gambiense and an acute form caused by T. b. rhodesiense [2][3]",
+        "symptoms": "In the first stage there is fever, headache, swollen lymph nodes, joint pain and itching. In the second stage the parasite enters the central nervous system, causing changes in behavior, confusion, abnormal sensation, poor coordination and a disturbed sleep cycle. Without treatment it is usually fatal [3]",
+        "transmission": "The bite of an infected tsetse fly [3]",
+        "prevention": "The source describes control measures at the population level, such as screening at-risk populations, surveillance and vector control, and does not list methods for individuals [3]",
+        "drugs": "The drug is chosen according to the subspecies of the parasite and the stage of the disease. The second stage requires a drug that can cross the blood-brain barrier [3]"
       }
     }
   },
@@ -427,6 +520,75 @@
         "transmission": "กลืนปรสิตเข้าไป ติดจากคนสู่คน หรือจากน้ำ อาหาร พื้นผิว และสิ่งของที่ปนเปื้อน [3]",
         "prevention": "ล้างมือด้วยสบู่ ไม่กลืนน้ำตอนว่ายน้ำ ต้มหรือกรองน้ำที่ไม่ผ่านการบำบัดก่อนดื่ม (ต้มอย่างน้อย 1 นาที) รอหลายสัปดาห์หลังหยุดท้องเสียก่อนมีเพศสัมพันธ์ เลี่ยงอุจจาระสัตว์ และทำความสะอาดที่ที่คนหรือสัตว์เลี้ยงเพิ่งท้องเสีย [3]",
         "drugs": "แพทย์อาจสั่งยารักษา และควรดื่มน้ำมากๆ เพื่อไม่ให้ขาดน้ำ (แหล่งอ้างอิงไม่ระบุกลุ่มยา) [3]"
+      }
+    },
+    "extra_en": {
+      "lede": "A single-celled flagellated parasite, also called G. lamblia and G. duodenalis [2]. It lives in the intestines of humans and animals and is passed in feces [3]. The hardy cyst is the infective stage [2]. It is found worldwide and is most common in children and in hot climates [2]",
+      "traitsExtra": [
+        [
+          "Cyst",
+          "Oval to ellipsoidal, 8 to 19 micrometers long, with 4 nuclei when mature [2]"
+        ],
+        [
+          "Trophozoite",
+          "Pear-shaped, 10 to 20 micrometers long, with 2 nuclei [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "The intestines of humans and animals [3]. Cysts can survive outside the body for weeks to months [3], and for several months in cold water [2]"
+        ],
+        [
+          "Reproduction",
+          "Trophozoites divide lengthwise in the duodenum and may float free or attach to the intestinal wall with the ventral sucking disk [2]"
+        ],
+        [
+          "Relationship with animals",
+          "Animals can be infected, but it is not clear how much they act as a reservoir [2]. The strains that infect humans are usually different from those that infect dogs and cats [3]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 Cysts are released",
+          "Cysts and trophozoites leave the body in feces, but the cysts are the infective stage [2]"
+        ],
+        [
+          "2 Cysts are swallowed",
+          "A person ingests cysts from contaminated water or food, or through hands and objects [2]"
+        ],
+        [
+          "3 Cysts open",
+          "In the small intestine, each cyst releases 2 trophozoites [2]"
+        ],
+        [
+          "4 Trophozoites multiply",
+          "They divide by lengthwise binary fission in the duodenum [2]"
+        ],
+        [
+          "5 New cysts form",
+          "As they move toward the large intestine they form cysts, which are most common in stool that is not diarrheal [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "The cause of giardiasis, which can spread from person to person and through contaminated water, food and surfaces [3]"
+        ]
+      ],
+      "asideTitle": "Tiny, hardy cysts",
+      "aside": [
+        "The name now in use is G. duodenalis, with G. lamblia and G. intestinalis as synonyms [2]",
+        "Cysts are oval to ellipsoidal, 8 to 19 micrometers long, and mature cysts have 4 nuclei [2]",
+        "Trophozoites are pear-shaped, 10 to 20 micrometers long, with 2 large nuclei [2]",
+        "A small number of parasites can make a person ill [3]"
+      ],
+      "disease": {
+        "name": "Giardiasis [3]",
+        "symptoms": "Diarrhea several times a day, gas, greasy stools that float and smell bad, stomach cramps, nausea, tiredness and dehydration. Symptoms usually begin 1 to 2 weeks after infection and last 2 to 6 weeks, and some people have symptoms for years [3]",
+        "transmission": "Swallowing the parasite. It spreads from person to person or through contaminated water, food, surfaces and objects [3]",
+        "prevention": "Wash hands with soap, do not swallow water while swimming, boil or filter untreated water before drinking (boil for at least 1 minute), wait several weeks after diarrhea has stopped before having sex, avoid animal feces, and clean places where a person or pet has recently had diarrhea [3]",
+        "drugs": "A doctor may prescribe medicine, and you should drink plenty of fluids to avoid dehydration (the source does not name a class of drugs) [3]"
       }
     }
   },
@@ -592,6 +754,42 @@
         "P. caudatum เก็บยีนซ้ำจากเหตุการณ์ที่เก่าที่สุดนี้ไว้มากกว่ากลุ่ม aurelia ประมาณสองเท่า [2]",
         "ลำดับ COI ในไมโทคอนเดรียแตกต่างกันภายในชนิด P. caudatum ได้สูงสุดราว 7% และในบ่อเดียวกันพบหลายแฮพโลไทป์ [3]",
         "งานนี้เป็นรายงานแรกที่ใช้ลำดับดีเอ็นเอไมโทคอนเดรียแสดงความแปรผันภายในชนิดของโพรโทซัวอิสระ [3]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A free-living ciliate protozoan found in ponds [3]. It is a close relative of the aurelia species group in the genus Paramecium, which has long been a model eukaryote [2]. Bacteria can live inside its cells [5]",
+      "traitsExtra": [
+        [
+          "Variation in the mitochondrial COI gene within the species",
+          "Up to about 7% [3]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "A free-living protozoan found in ponds [3]"
+        ],
+        [
+          "Feeding",
+          "In the oral region, groups of microtubules sort disk-shaped vesicles and send them to the cytostome-cytopharynx. These vesicles fuse with the membrane to enlarge newly formed food vacuoles, so the membrane is recycled [4]"
+        ],
+        [
+          "Relationships",
+          "Bacteria live inside the cell, including Caedibacter caryophilus, Holospora elegans and Holospora obtusa [5]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The genus Paramecium has long been a model eukaryote [2]. The genome of P. caudatum is used as an outgroup for studying whole-genome duplication in the aurelia group [2]. Mitochondrial COI DNA is used as a marker for studying the population genetics of free-living protozoa [3]"
+        ]
+      ],
+      "asideTitle": "Duplicated genes from whole-genome duplication",
+      "aside": [
+        "P. caudatum shares only the oldest of 3 whole-genome duplications with the aurelia group [2]",
+        "P. caudatum has kept about twice as many duplicated genes from this oldest event as the aurelia group has [2]",
+        "Mitochondrial COI sequences can differ by up to about 7% within P. caudatum, and several haplotypes were found in a single pond [3]",
+        "This was the first report to use mitochondrial DNA sequences to show variation within a species of free-living protozoan [3]"
       ]
     }
   },
@@ -780,6 +978,93 @@
         "prevention": "ใช้มุ้งชุบสารฆ่าแมลงและพ่นสารฆ่าแมลงในบ้านเพื่อควบคุมยุง ผู้ที่เดินทางไปพื้นที่เสี่ยงควรปรึกษาแพทย์เรื่องยาป้องกัน กลุ่มเสี่ยงอาจได้รับยาป้องกันในช่วงที่เสี่ยงสูง และมีวัคซีนสำหรับเด็กในพื้นที่ที่มีการแพร่เชื้อสูง [5]",
         "drugs": "ยากลุ่มอาร์เทมิซินินที่ใช้ร่วมกับยาอื่น (artemisinin-based combination therapy) ให้ผลการรักษาดีที่สุดสำหรับมาลาเรียจากชนิดนี้ [5]"
       }
+    },
+    "extra_en": {
+      "lede": "The parasite that causes the deadliest form of malaria [5]. It is spread by the bite of female Anopheles mosquitoes and does not pass directly from person to person [5]. It is the most common species in the world and in Africa [4][5]. The stage in red blood cells is the one that causes symptoms [4]",
+      "traitsExtra": [
+        [
+          "Nuclear genome size",
+          "About 23 million base pairs in 14 chromosomes, encoding about 5,300 genes. It is the most A and T rich genome sequenced as of 2002 [2]"
+        ],
+        [
+          "Stage that causes symptoms",
+          "The stage in red blood cells [4]"
+        ],
+        [
+          "Shape of the gametocyte",
+          "Crescent- or sausage-shaped, about 1.5 times the diameter of a red blood cell [4]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "In the human body it lives in liver cells and red blood cells, and in the mosquito it lives in the stomach wall and salivary glands [4]"
+        ],
+        [
+          "Geography",
+          "All kinds of malaria are most common in the tropics and subtropics below about 1,500 meters [4]"
+        ],
+        [
+          "Pathogenicity",
+          "The symptoms of the disease come from the stage in the blood [4], and this species is associated with severe symptoms such as cerebral malaria [4]"
+        ],
+        [
+          "Relationships",
+          "The genome has many genes used to evade the immune system and interact with the host [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 The mosquito releases sporozoites",
+          "An infected female Anopheles mosquito injects sporozoites into a person while taking a blood meal [4]"
+        ],
+        [
+          "2 Liver stage",
+          "Sporozoites enter liver cells, develop into schizonts, and then burst and release merozoites [4]"
+        ],
+        [
+          "3 Red blood cell stage",
+          "Merozoites enter red blood cells. The ring stage develops into a schizont, which bursts and releases more merozoites, and some develop into reproductive cells (gametocytes) [4]"
+        ],
+        [
+          "4 The mosquito takes up gametocytes",
+          "A mosquito takes up male and female gametocytes along with blood [4]"
+        ],
+        [
+          "5 In the mosquito stomach",
+          "The gametes fuse into a zygote, which changes into a motile ookinete. The ookinete passes through the stomach wall and develops into an oocyst [4]"
+        ],
+        [
+          "6 The oocyst bursts",
+          "It releases sporozoites into the mosquito's salivary glands, ready to be passed to the next person [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "In 2024 there were about 282 million cases of malaria of all kinds worldwide, with 610,000 deaths, in 80 countries [5]. This species causes the most deaths [5]"
+        ]
+      ],
+      "name": [
+        [
+          "falciparum",
+          "From the Latin falx, meaning sickle or sickle-shaped, combined with parum or parere, which can be roughly translated as \"similar\" or \"to give birth\" (the source does not make clear which word is meant) [3]"
+        ]
+      ],
+      "asideTitle": "A name that nearly was something else",
+      "aside": [
+        "The gametocytes (reproductive cells) are crescent- or sausage-shaped, and this shape is the origin of the name meaning sickle-shaped [3][4]",
+        "Before William Henry Welch proposed the term falciparum in 1897, other names had been proposed: Ematozoo falciforme in 1890 and Haemotozoon falciforme in 1895 [3]",
+        "In 1954 the International Commission on Zoological Nomenclature approved the name Plasmodium falciparum. Before that, the species was called Laverania malariae [3]",
+        "In 2002 the genome of this parasite had the highest A and T content of any genome sequenced so far [2]"
+      ],
+      "disease": {
+        "name": "Malaria (the severe form caused by P. falciparum) [5]",
+        "symptoms": "Fever, headache and chills. In severe cases there may be extreme fatigue, confusion, seizures, difficulty breathing, jaundice and abnormal bleeding. Symptoms usually begin about 10 to 15 days after a mosquito bite [5]",
+        "transmission": "Spread by the bite of an infected female Anopheles mosquito. It can also be passed through blood transfusion or contaminated needles, but it does not pass directly from person to person [5]",
+        "prevention": "Use insecticide-treated bed nets and indoor insecticide spraying to control mosquitoes. People traveling to risk areas should ask a doctor about preventive medicine, risk groups may be given preventive medicine during periods of high risk, and a vaccine is available for children in areas of high transmission [5]",
+        "drugs": "Artemisinin-based combination therapy gives the best treatment results for malaria caused by this species [5]"
+      }
     }
   },
   {
@@ -912,6 +1197,46 @@
         "พลาสติดของไดอะตอมได้มาจากเอนโดซิมไบโอซิสขั้นที่สอง [2]",
         "มียีนสำหรับสร้างกรดไขมันไม่อิ่มตัวหลายพันธะหลายประเภท [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "A single-celled marine diatom [2]. Diatoms as a group fix about 20% of the world's carbon [2] and are the main producers of the oceans [3]. Its genome has been sequenced [2]",
+      "traitsExtra": [
+        [
+          "Nuclear genome",
+          "About 34 million base pairs, with 24 diploid chromosomes [2]"
+        ],
+        [
+          "Plastid and mitochondrial genomes",
+          "The plastid is about 129,000 base pairs and the mitochondrion about 44,000 base pairs [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "The sea [2]"
+        ],
+        [
+          "Nitrogen use",
+          "Can use many nitrogen-containing compounds and has a complete urea cycle [2]"
+        ],
+        [
+          "Relationships",
+          "Marine diatoms are infected by parasites with swimming spores, which may affect both the diatoms and the food chain, but little is known about this [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "Diatoms fix about 20% of the world's carbon [2] and are the main producers of the oceans [3]"
+        ]
+      ],
+      "asideTitle": "Diatoms and their silica cell walls",
+      "aside": [
+        "The nuclear genome is about 34 million base pairs long and has 24 diploid chromosomes [2]",
+        "It has genes for transporting silicic acid and for building cell walls from silica [2]",
+        "The diatom plastid was acquired through secondary endosymbiosis [2]",
+        "It has genes for making several kinds of polyunsaturated fatty acids [2]"
+      ]
     }
   },
   {
@@ -1043,6 +1368,41 @@
         "จีโนมในนิวเคลียสยาวราว 120 ล้านคู่เบส [2]",
         "การศึกษาจีโนมชี้ความเชื่อมโยงระหว่างโรคซิเลียผิดปกติ (ciliopathy) ในคนกับองค์ประกอบของแฟลเจลลัม [2]",
         "สาหร่ายนี้ถูกพัฒนาเป็นต้นแบบตั้งแต่กลางศตวรรษที่ 20 [4]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A single-celled green alga whose lineage split from land plants more than 1,000 million years ago [2]. It is used as a model for studying photosynthesis in the chloroplast and the structure and function of flagella (cilia) [2]. It has a simple life cycle and mutants are easy to obtain [3]",
+      "traitsExtra": [
+        [
+          "Nuclear genome",
+          "About 120 million base pairs [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "Its life in nature is little studied, for example its abundance, life cycle, genetic and physiological diversity, and interactions with the environment [4]"
+        ],
+        [
+          "Energy source",
+          "Photosynthesizes in the chloroplast [2]"
+        ],
+        [
+          "Movement",
+          "Uses flagella, a structure shared with animals and plants, although land plants have lost it [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Used to study flagellar structure, the formation of basal bodies (centrioles), chloroplast formation, light sensing, cell-cell recognition and cell cycle control [3]. Research on this alga helps in understanding plant and cell biology and human disease [4]"
+        ]
+      ],
+      "asideTitle": "A single-celled alga that helps explain human disease",
+      "aside": [
+        "The nuclear genome is about 120 million base pairs long [2]",
+        "Genome studies link human ciliopathies to components of the flagellum [2]",
+        "This alga has been developed as a model since the middle of the 20th century [4]"
       ]
     }
   },
@@ -1187,6 +1547,52 @@
         "ยีน 3,611 ยีน (35%) ยังไม่ทราบหน้าที่ [2]",
         "มียีนที่ได้มาจากแบคทีเรียโดยการถ่ายโอนยีนแนวนอน [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "A marine red alga known as nori, and one of the most profitable cultivated marine crops in the world [2]. It is high in protein [4]. Its life cycle alternates between a leafy stage in the intertidal zone and a stage that bores into shells [3]",
+      "traitsExtra": [
+        [
+          "Nuclear genome",
+          "About 43 million base pairs, with 10,327 predicted genes [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "The leafy stage lives in the intertidal zone, which is often exposed to air, while the conchocelis stage bores into shells [3]"
+        ],
+        [
+          "Carbon acquisition",
+          "The conchocelis stage obtains bicarbonate from the shell using the enzyme carbonic anhydrase [3]"
+        ],
+        [
+          "Adaptation",
+          "When dried, the leafy stage increases the expression of genes in the carbonic anhydrase family and of antioxidant genes [3]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 Leafy stage (gametophyte)",
+          "The leaf lives in the intertidal zone and is often exposed to air [3]"
+        ],
+        [
+          "2 Conchocelis stage (sporophyte)",
+          "Bores into shells [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "A very profitable cultivated marine crop [2]. It is high in protein, so it is a source of bioactive peptides [4]"
+        ]
+      ],
+      "asideTitle": "A genome ten times smaller than thought",
+      "aside": [
+        "The nuclear genome is about 43 million base pairs long, about ten times smaller than previously estimated [2]",
+        "Of the 10,327 predicted genes, about 60% of the verified genes have no introns [2]",
+        "3,611 genes (35%) have unknown functions [2]",
+        "It has genes acquired from bacteria by horizontal gene transfer [3]"
+      ]
     }
   },
   {
@@ -1325,6 +1731,29 @@
       "asideTitle": "ต้องใช้เส้นใยสองชนิดจึงเคลื่อนที่ได้",
       "aside": [
         "ผู้วิจัยเสนอว่าการเคลื่อนที่ต้องใช้เส้นใยทั้งสองชนิดในสารสกัด คือเส้นใยขนาดเล็กและเส้นใยขนาดใหญ่ [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "An amoeba that researchers use to study how cells move [2]. It can be grown in the laboratory by feeding it Tetrahymena [3]",
+      "life": [
+        [
+          "Movement",
+          "Cytoplasmic extract of A. proteus does not move at 0 °C but flows when warmed to 22 °C with ATP. At first the viscosity increases and thin filaments appear, and later the filaments combine into thick filaments that can be seen in polarized light [2]"
+        ],
+        [
+          "Culture",
+          "Grown by feeding it Tetrahymena as food [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Used to study the role of filaments in changes in the viscosity and movement of cytoplasm [2]"
+        ]
+      ],
+      "asideTitle": "Two kinds of filaments are needed for movement",
+      "aside": [
+        "The researchers proposed that movement needs both kinds of filaments in the extract, the small filaments and the large filaments [2]"
       ]
     }
   },
@@ -1467,6 +1896,51 @@
         "เอนไซม์นิตริกออกไซด์ซินเทสของมันไม่ขึ้นกับแคลเซียม และมีรูปแบบคล้ายชนิดที่เหนี่ยวนำได้ในสัตว์เลี้ยงลูกด้วยนม [3]",
         "อาร์เอ็นเอไมโทคอนเดรียที่เข้ารหัสหน่วยย่อยแอลฟาของ ATP synthase ถูกแก้ไข 54 ตำแหน่งด้วยการแทรกไซโทซีน [4]",
         "การแก้ไขอาร์เอ็นเอแบบแทรกอย่างกว้างขวางในไมโทคอนเดรียเคยพบเฉพาะในไคเนโตพลาสต์ ก่อนที่จะพบในราเมือกชนิดนี้ [4]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A slime mold whose body grows as a network of tubes [2]. It uses waves of contraction in the tubes to push cytoplasm throughout its body [2]. After about 5 days of starvation and exposure to light, it can form spores [3]",
+      "traitsExtra": [
+        [
+          "Starvation period before it is ready to form spores",
+          "About 5 days [3]"
+        ]
+      ],
+      "life": [
+        [
+          "Form",
+          "Grows as an irregularly connected network of tubes [2]"
+        ],
+        [
+          "Internal transport",
+          "Uses peristaltic contraction to drive cytoplasm through the network and adjusts the contraction pattern to its body size to transport as efficiently as possible [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 Starvation",
+          "Needs to be starved for about 5 days before it is ready to form spores [3]"
+        ],
+        [
+          "2 Light",
+          "After the starvation period, light triggers spore formation [3]"
+        ],
+        [
+          "3 Glucose",
+          "Glucose is a growth signal and inhibits spore formation [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "The first organism outside the animals in which the enzyme nitric oxide synthase was found [3], and in which RNA editing by cytosine insertion in mitochondria was found [4]. Its network of tubes is used to study how a single organism coordinates the flow of materials throughout its body [2]"
+        ]
+      ],
+      "asideTitle": "A slime mold that edits its own RNA",
+      "aside": [
+        "Its nitric oxide synthase enzyme does not depend on calcium and has a form similar to the inducible type in mammals [3]",
+        "Mitochondrial RNA encoding the alpha subunit of ATP synthase is edited at 54 sites by cytosine insertion [4]",
+        "Extensive insertional RNA editing in mitochondria had been found only in kinetoplastids before it was found in this slime mold [4]"
       ]
     }
   },
@@ -1647,6 +2121,54 @@
         "บลูมในทะเลอาหรับเกิดขึ้นพร้อมกับน้ำที่ขาดออกซิเจนไหลเข้าสู่ชั้นน้ำที่ได้รับแสง [4]",
         "ออกซิเจนที่ละลายในน้ำที่อ่าวมันนาร์ลดลงต่ำกว่า 2 มิลลิกรัมต่อลิตรระหว่างบลูม [5]"
       ]
+    },
+    "extra_en": {
+      "lede": "A single-celled, bioluminescent dinoflagellate found throughout the oceans that often forms dense blooms [2]. It is one of the dinoflagellates that cause red tides [3]. In the Arabian Sea, this green dinoflagellate combines carbon fixation by a chlorophyll-containing endosymbiont with feeding on prey [4]",
+      "life": [
+        [
+          "Nutrition",
+          "Normally heterotrophic and not photosynthetic [2], but the green form in the Arabian Sea fixes carbon through a chlorophyll-containing endosymbiont called Pedinomonas noctilucae while also feeding on prey [4]"
+        ],
+        [
+          "Habitat",
+          "Found throughout the oceans [2]"
+        ],
+        [
+          "Interaction with oxygen-depleted water",
+          "The endosymbiont fixes carbon more efficiently than other phytoplankton when the water is low in oxygen [4]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 Mature cells",
+          "A minority of cells in the population change into cells that produce gametes [3]"
+        ],
+        [
+          "2 Nuclear division",
+          "The nucleus divides 2 times in a row without the cell dividing, which is probably meiosis [3]"
+        ],
+        [
+          "3 Division at the cell surface",
+          "The products of the nucleus move to the cell surface with a little cytoplasm and then divide simultaneously another 6 to 8 times, connected by cytoplasmic bridges [3]"
+        ],
+        [
+          "4 Gametes are released",
+          "Many half-spindle-shaped gametes detach from the parent cell, each with 2 flagella that are long and move differently [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Ecology",
+          "In the Arabian Sea, blooms of this dinoflagellate have replaced diatom blooms and may disrupt food chains that depend on diatoms, which affects fisheries and the ecosystem of coasts with nearly 120 million inhabitants [4]. In the Gulf of Mannar in India, blooms lowered the oxygen in the water and killed up to 71.23% of corals [5]"
+        ]
+      ],
+      "asideTitle": "Glowing red tide",
+      "aside": [
+        "Its luciferase gene differs from that of other bioluminescent dinoflagellates because it has two domains joined together, whereas all the other bioluminescent dinoflagellates studied, which are photosynthetic, have luciferase with three domains [2]",
+        "Based on 18S rDNA sequences, this dinoflagellate sits on a basal branch of the dinoflagellates [2]",
+        "Blooms in the Arabian Sea occur when oxygen-depleted water flows into the sunlit layer [4]",
+        "Dissolved oxygen in the water of the Gulf of Mannar fell below 2 milligrams per liter during the bloom [5]"
+      ]
     }
   },
   {
@@ -1754,6 +2276,21 @@
         "สารสกัดจากสาหร่ายนี้ยับยั้งเอนไซม์ไทโรซิเนสและการสร้างเม็ดสีเมลานินในเซลล์เมลาโนมาของหนูทดลองได้ [3]",
         "ผลผลิตฟูคอยแดนรวม 4.51% ประกอบด้วยฟิวโคส 46.8% และซัลเฟต 22.35% [4]",
         "สาหร่ายสีน้ำตาลของมาเลเซียที่ศึกษา ได้แก่ S. polycystum, Turbinaria ornata และ Padina boryana ถูกนำมาใช้ประโยชน์น้อยกว่าที่ควร [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A marine brown alga [3]. It is a source of useful polysaccharides, namely fucoidan, laminarin and alginate [2]. It is used in folk medicine to treat skin diseases [3]",
+      "life": [
+        [
+          "Traditional use",
+          "Used in folk medicine to treat diseases of the skin [3]"
+        ]
+      ],
+      "asideTitle": "A seaweed with much more potential",
+      "aside": [
+        "An extract of this alga inhibited the enzyme tyrosinase and melanin production in mouse melanoma cells [3]",
+        "The total fucoidan yield was 4.51%, made up of 46.8% fucose and 22.35% sulfate [4]",
+        "The Malaysian brown algae studied, S. polycystum, Turbinaria ornata and Padina boryana, are used less than they could be [2]"
       ]
     }
   },
@@ -1866,6 +2403,31 @@
         "การแบ่งไซโทพลาซึมของ Spirogyra เกิดจากแผ่นกั้นที่โตจากรอบนอกเข้าสู่ศูนย์กลาง [3]",
         "ผู้วิจัยระบุว่าสายพืชบกอยู่ภายในกลุ่มสาหร่ายสีเขียวน้ำจืดที่เรียกว่าแชโรไฟต์ และใช้ทรานสคริปโทมของ Spirogyra เปรียบเทียบกับ Coleochaete [2]",
         "Spirogyra pratensis มีโปรตีนชนิดแรมโนกาแลกแทนในผนังเซลล์ ซึ่งใช้ค้นหาต้นกำเนิดของโปรตีนอะราบิโนกาแลกแทนในพืชบก [5]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A freshwater green alga in the charophytes, which are the closest relatives of land plants [5]. The information below comes from the genus Spirogyra as a whole, not specifically from the species S. varians",
+      "life": [
+        [
+          "Habitat",
+          "The genus Spirogyra belongs to the freshwater green algae known as charophytes [2]"
+        ],
+        [
+          "Drought tolerance",
+          "Filaments of Spirogyra sp. that were dried died within half an hour [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Spirogyra is compared with land plants to study the origins of plant molecular processes [2], and its cell division has a structure similar to a phragmoplast but works differently from that of higher plants [3]"
+        ]
+      ],
+      "asideTitle": "A freshwater alga close to land plants",
+      "aside": [
+        "Cytoplasmic division in Spirogyra occurs through a partition that grows from the outside toward the center [3]",
+        "The researchers state that the land plant lineage lies within the freshwater green algae known as charophytes, and they used the Spirogyra transcriptome for comparison with Coleochaete [2]",
+        "Spirogyra pratensis has rhamnogalactan-type proteins in its cell wall, which were used to look for the origin of arabinogalactan proteins in land plants [5]"
       ]
     }
   },
@@ -1982,6 +2544,34 @@
         "จำนวนยีนที่สร้างโปรตีนใกล้เคียงกับ Chlamydomonas reinhardtii ที่เป็นเซลล์เดียว ความซับซ้อนที่เพิ่มขึ้นจึงเกี่ยวกับการปรับแต่งโปรตีนเฉพาะสายพันธุ์มากกว่าการสร้างยีนใหม่จำนวนมาก [2]",
         "วอลวอกซ์มีเมทริกซ์นอกเซลล์ที่ขยายใหญ่และแบ่งเป็นส่วนๆ [2]",
         "ยีนเสียสละอาจเกิดจากยีนเดิมของบรรพบุรุษเซลล์เดียวที่ถูกนำมาใช้ใหม่ [3]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A multicellular green alga in the volvocine group, which researchers use to study the evolution of multicellularity and development [2]. It has somatic cells that perform general functions instead of reproducing, which counts as a sacrifice for the good of the whole [3]",
+      "traitsExtra": [
+        [
+          "Nuclear genome",
+          "About 138 million base pairs, with about 14,500 predicted proteins [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Relationship to relatives",
+          "Has close relatives with a variety of appearances, and a single-celled relative, Chlamydomonas reinhardtii [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "Used to study how the complexity of organisms can increase [2] and the origin of self-sacrificing somatic cells [3]"
+        ]
+      ],
+      "asideTitle": "Cells that sacrifice themselves for the whole",
+      "aside": [
+        "The genome is about 138 million base pairs long and has about 14,500 predicted proteins [2]",
+        "The number of protein-coding genes is close to that of the single-celled Chlamydomonas reinhardtii, so the increase in complexity is related more to lineage-specific tuning of proteins than to the creation of many new genes [2]",
+        "Volvox has an enlarged, compartmentalized extracellular matrix [2]",
+        "Self-sacrificing genes may arise from existing genes of the single-celled ancestor that were put to new use [3]"
       ]
     }
   },
@@ -2137,6 +2727,70 @@
         "prevention": "ล้างมือด้วยสบู่หลังเข้าห้องน้ำและเปลี่ยนผ้าอ้อม รวมทั้งก่อนจับอาหาร ในที่สุขาภิบาลไม่ดีให้เลี่ยงน้ำจากตู้กด น้ำแข็ง ผักผลไม้ดิบที่ไม่ปอกเปลือก นมที่ไม่พาสเจอร์ไรส์ และอาหารจากรถเข็น ดื่มน้ำขวดที่ปิดสนิท หรือน้ำประปาที่ต้มอย่างน้อย 1 นาที [3]",
         "drugs": "ยาปฏิชีวนะรักษาได้ผล คนที่ไม่ป่วยมักใช้ยาตัวเดียว ส่วนคนที่ป่วยมักได้ยาตัวที่สองต่อจากตัวแรก [3]"
       }
+    },
+    "extra_en": {
+      "lede": "A single-celled parasite that lives in the human large intestine and causes amebiasis [2][3]. E. histolytica causes disease, while E. dispar, E. moshkovskii and E. bangladeshi look identical but normally do not [2]. Most infected people do not become ill, with only about 10% to 20% falling sick [3]",
+      "traitsExtra": [
+        [
+          "Mature cyst",
+          "Has 4 nuclei and is about 12 to 15 micrometers long [2]"
+        ],
+        [
+          "Trophozoite",
+          "Has 1 nucleus and is about 15 to 20 micrometers long [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "The human large intestine [2]"
+        ],
+        [
+          "Distribution",
+          "Found worldwide, mostly in developing countries [2]"
+        ],
+        [
+          "Relationships",
+          "Most infections cause no symptoms, while invasive forms may cause inflammation of the colon and liver abscesses [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 Cysts are swallowed",
+          "A person ingests mature cysts from food, water or hands contaminated with feces, or through sex [2]"
+        ],
+        [
+          "2 Cysts open",
+          "In the small intestine the cyst releases trophozoites, which move to the large intestine [2]"
+        ],
+        [
+          "3 Multiplication",
+          "Trophozoites divide by binary fission [2]"
+        ],
+        [
+          "4 Cyst formation",
+          "Trophozoites form new cysts that are passed out in feces [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "The cause of amebiasis, which is common in countries with poor sanitation [3]. In industrialized countries the groups at risk are travelers, recent immigrants, people with weakened immunity and people living in institutions [2]"
+        ]
+      ],
+      "asideTitle": "Look-alike relatives that do not cause disease",
+      "aside": [
+        "The presence of ingested red blood cells in the amoeba is often used as a clue to E. histolytica, but it cannot reliably distinguish the species, so molecular methods such as PCR are needed [2]",
+        "A mature cyst has 4 nuclei and is about 12 to 15 micrometers long [2]",
+        "A trophozoite has 1 nucleus with a central karyosome, and its cytoplasm is granular like ground glass. It is about 15 to 20 micrometers long [2]"
+      ],
+      "disease": {
+        "name": "Amebiasis, and its severe form, amebic dysentery [3]",
+        "symptoms": "Mild illness causes loose stools, stomach pain and cramping, usually beginning 2 to 4 weeks after infection. The severe form causes bloody stools and fever. In some uncommon cases the parasite spreads through the blood to the liver and forms an abscess, and less often to the lungs or brain [3]",
+        "transmission": "Swallowing contaminated water or food, putting something contaminated with another person's feces in the mouth, or picking up the parasite from contaminated surfaces or fingers. Infected people can pass it on to others [3]",
+        "prevention": "Wash hands with soap after using the toilet and changing diapers, and before handling food. Where sanitation is poor, avoid water from dispensers, ice, unpeeled raw fruit and vegetables, unpasteurized milk and food from street carts. Drink sealed bottled water or tap water that has been boiled for at least 1 minute [3]",
+        "drugs": "Antibiotics are effective. People who are not ill usually take a single drug, while people who are ill usually take a second drug after the first [3]"
+      }
     }
   },
   {
@@ -2289,6 +2943,54 @@
         "prevention": "การงดเพศสัมพันธ์ทุกแบบเป็นวิธีเดียวที่กันได้เต็มที่ ทางเลือกที่เสี่ยงน้อยกว่าคือมีคู่เพียงคนเดียวระยะยาวที่ตรวจแล้ว และใช้ถุงยางอย่างถูกวิธีทุกครั้ง ควรปรึกษาแพทย์เรื่องการตรวจ [3]",
         "drugs": "รักษาด้วยยากิน ซึ่งปลอดภัยในหญิงตั้งครรภ์ (แหล่งอ้างอิงไม่ระบุกลุ่มยา) ควรรักษาคู่นอนพร้อมกันและตรวจซ้ำหลังรักษาราว 3 เดือน [3]"
       }
+    },
+    "extra_en": {
+      "lede": "A single-celled flagellated parasite and the most common pathogenic protozoan of humans in industrialized countries [2]. Humans are the only known host, and it spreads mainly through sex [2]. Most infected people have no symptoms [3]",
+      "traitsExtra": [
+        [
+          "Shape of the trophozoite",
+          "Pear-shaped, about 7 to 30 micrometers long, with 5 flagella [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "The lower reproductive tract of females, and the urethra and prostate of males [2]"
+        ],
+        [
+          "Outside the body",
+          "Survives poorly [2]"
+        ],
+        [
+          "Distribution",
+          "Found worldwide, and more common in people with multiple sex partners or other sexually transmitted infections [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "Cell division",
+          "Multiplies by binary fission and has no cyst stage [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "The most common curable sexually transmitted infection [3]. Infection may increase the risk of acquiring or passing on other infections, including HIV [3]. In pregnant women it is associated with preterm birth and low birth weight [3]"
+        ]
+      ],
+      "asideTitle": "A parasite with no cyst",
+      "aside": [
+        "The trophozoite is pear-shaped, about 7 to 30 micrometers long, with 5 flagella, 4 pointing forward and the other 1 running along an undulating membrane [2]",
+        "In 2018 the CDC estimated that there were more than 2 million infections in the United States, and about 30% had symptoms [3]",
+        "About 1 in 5 people who are treated become infected again within 3 months, so partners should be treated at the same time [3]"
+      ],
+      "disease": {
+        "name": "Trichomoniasis, a sexually transmitted infection [3]",
+        "symptoms": "Most people have no symptoms. Men may have itching or irritation of the penis, burning after urination or ejaculation, and a discharge. Women may have itching, burning, redness or soreness of the genitals, discomfort when urinating, and a thin clear or fishy-smelling discharge [3]",
+        "transmission": "Sex without a condom with an infected person, mostly between a penis and a vagina. People without symptoms can also pass it on [3]",
+        "prevention": "Abstaining from all sex is the only fully effective method. A lower-risk option is a long-term, tested, one-partner relationship with correct condom use every time. A doctor should be consulted about testing [3]",
+        "drugs": "Treated with oral medicine that is safe in pregnant women (the source does not name a class of drugs). Partners should be treated at the same time, and retesting is advised about 3 months after treatment [3]"
+      }
     }
   },
   {
@@ -2432,6 +3134,67 @@
         "transmission": "ถูกริ้นฝอยทรายตัวเมียที่มีเชื้อกัด [1][2]",
         "prevention": "วินิจฉัยเร็วและรักษาทันที ควบคุมพาหะด้วยการพ่นสารฆ่าแมลง มุ้งชุบสาร การจัดการสิ่งแวดล้อม และการป้องกันตัว รวมถึงเฝ้าระวังโรคและควบคุมสัตว์รังโรค [2]",
         "drugs": "มียาต้านลิชมาเนียที่ได้ผลและปลอดภัย โดยเฉพาะสำหรับชนิดอวัยวะภายใน (แหล่งอ้างอิงไม่ระบุกลุ่มยา) ผู้ติดเชื้อ HIV ที่ได้ยาต้านไวรัสจะป่วยน้อยลงและกลับเป็นซ้ำช้าลง [2]"
+      }
+    },
+    "extra_en": {
+      "lede": "A single-celled parasite in the L. donovani complex that causes visceral leishmaniasis, also called kala-azar [1]. It is spread by the bite of female sand flies [1][2]. Without treatment, this form of the disease is fatal in more than 95% of cases [2]",
+      "traitsExtra": [
+        [
+          "Amastigote stage",
+          "1 to 5 micrometers long and 1 to 2 micrometers wide, living inside macrophages [1]"
+        ]
+      ],
+      "life": [
+        [
+          "In the sand fly",
+          "The parasite lives as promastigotes in the gut and then moves to the proboscis [1]"
+        ],
+        [
+          "In humans",
+          "Lives as amastigotes inside macrophages [1]"
+        ],
+        [
+          "Distribution",
+          "Leishmaniasis occurs in 88 countries, with about 350 million people living in these areas [1]. More than 90% of visceral cases are in India, Bangladesh, Nepal, Sudan and Brazil [1]"
+        ],
+        [
+          "People affected",
+          "The disease is associated with poverty, malnutrition, population movement and poor housing [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 The sand fly injects the parasite",
+          "An infected female sand fly releases promastigotes into a person while taking a blood meal [1]"
+        ],
+        [
+          "2 In macrophages",
+          "Macrophages engulf the promastigotes, which change into amastigotes, multiply and infect other cells [1]"
+        ],
+        [
+          "3 Back into the sand fly",
+          "A sand fly picks up the parasite when it feeds on blood from infected cells, and the amastigotes become promastigotes in its gut [1]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "All forms of leishmaniasis together cause about 700,000 to 1 million new cases a year, of which about 50,000 to 90,000 are the visceral form [2]. People infected with HIV are very likely to develop full disease, relapse and die [2]"
+        ]
+      ],
+      "asideTitle": "Species cannot be told apart by eye",
+      "aside": [
+        "The species of Leishmania cannot be distinguished by shape alone, and isoenzyme analysis or molecular methods are needed [1]",
+        "Amastigotes are round to oval, 1 to 5 micrometers long, while promastigotes are slender, about 10 to 12 micrometers long, with a flagellum at the front [1]",
+        "More than 20 Leishmania species cause disease, and more than 90 sand fly species transmit them [2]",
+        "Co-infection with HIV has been reported in 45 countries (2021 data) [2]"
+      ],
+      "disease": {
+        "name": "Visceral leishmaniasis, or kala-azar [1][2]",
+        "symptoms": "Irregular fever, weight loss, enlarged spleen and liver, and anemia [2]. Blood tests often show anemia, a low white blood cell count and a low platelet count [1]",
+        "transmission": "The bite of an infected female sand fly [1][2]",
+        "prevention": "Early diagnosis and prompt treatment, vector control with insecticide spraying, treated nets, environmental management and personal protection, as well as disease surveillance and control of animal reservoirs [2]",
+        "drugs": "There are effective and safe antileishmanial drugs, especially for the visceral form (the source does not name a class of drugs). People with HIV who take antiretroviral drugs become ill less often and relapse more slowly [2]"
       }
     }
   },
@@ -2597,6 +3360,78 @@
         "prevention": "ปรุงเนื้อให้ถึงอุณหภูมิที่ปลอดภัยหรือแช่แข็งหลายวันก่อนปรุง ล้างผักผลไม้ เลี่ยงนมแพะที่ไม่พาสเจอร์ไรส์และหอยดิบ ล้างมือและพื้นผิวหลังจับอาหารหรือดิน สวมถุงมือเวลาทำสวน และเปลี่ยนกระบะทรายแมวทุกวันถ้าเลี้ยงแมว [3]",
         "drugs": "คนสุขภาพดีส่วนใหญ่ไม่ต้องรักษาและอาการหายเองภายในหลายสัปดาห์ถึงหลายเดือน แพทย์สั่งการรักษาเมื่อจำเป็น (แหล่งอ้างอิงไม่ระบุกลุ่มยา) [3]"
       }
+    },
+    "extra_en": {
+      "lede": "A single-celled parasite that infects almost all warm-blooded animals, including humans [2][3]. Cats and other members of the cat family are the only known definitive hosts [2]. Most people with a normal immune system have no symptoms [3]",
+      "traitsExtra": [
+        [
+          "Size of the tachyzoite",
+          "About 4 to 8 micrometers [2]"
+        ],
+        [
+          "Size of the mature oocyst",
+          "10 to 12 micrometers, with 2 sporocysts [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Hosts",
+          "Infects almost all warm-blooded animals, including humans [2]"
+        ],
+        [
+          "Definitive host",
+          "Cats and their relatives are the only known definitive hosts [2]"
+        ],
+        [
+          "Location in the body",
+          "The parasite forms cysts in muscle and the brain [2] and can stay in the body for a long time [3]"
+        ],
+        [
+          "Prevalence",
+          "In the United States more than 40 million people are infected [3]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 The cat sheds oocysts",
+          "A cat passes unsporulated oocysts in its feces [2]"
+        ],
+        [
+          "2 In the environment",
+          "Oocysts take 1 to 5 days to become infective [2]"
+        ],
+        [
+          "3 Intermediate hosts",
+          "Animals such as birds and rodents become infected by eating contaminated soil, water or plants [2]"
+        ],
+        [
+          "4 Cysts form in tissue",
+          "The parasite forms cysts in the muscle and brain of the intermediate host [2]"
+        ],
+        [
+          "5 The cat eats an intermediate host",
+          "A cat becomes infected when it eats an animal that has cysts [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "One of the most common human infections in the world [2]. In the United States about 12.4% of people over 6 years old had antibodies to this parasite in data from 2009 to 2010 [2]"
+        ]
+      ],
+      "asideTitle": "A parasite whose definitive host is the cat",
+      "aside": [
+        "Tachyzoites are about 4 to 8 micrometers long, cysts are 5 to 50 micrometers long, and mature oocysts are 10 to 12 micrometers long with 2 sporocysts [2]",
+        "Diagnosis normally uses tests for IgG and IgM antibodies, while PCR is used to detect parasite DNA, especially in congenital infection and in people with HIV [2]",
+        "People with weakened immunity may develop serious disease of the central nervous system or the eye [2]"
+      ],
+      "disease": {
+        "name": "Toxoplasmosis [3]",
+        "symptoms": "Most people with a normal immune system have no symptoms. Those who do may have flu-like symptoms, swollen lymph nodes and muscle aches. Severe cases can damage the brain, eyes or other organs. Babies infected in the womb often have no symptoms at birth but may develop them later [3]",
+        "transmission": "Eating undercooked meat or shellfish or unwashed fruit and vegetables, accidentally swallowing the parasite from cat feces or contaminated soil, passing from mother to baby during pregnancy or shortly before it, and, rarely, through organ transplant or blood transfusion [3]",
+        "prevention": "Cook meat to a safe temperature or freeze it for several days before cooking, wash fruit and vegetables, avoid unpasteurized goat's milk and raw shellfish, wash hands and surfaces after handling food or soil, wear gloves when gardening, and change the cat litter box every day if you have a cat [3]",
+        "drugs": "Most healthy people need no treatment and the symptoms go away on their own within several weeks to months. A doctor prescribes treatment when it is needed (the source does not name a class of drugs) [3]"
+      }
     }
   },
   {
@@ -2729,6 +3564,51 @@
         "โครโมโซมมียีนหนาแน่น เข้ารหัสโปรตีนที่ทำนายได้ราว 12,500 ชนิด [2]",
         "ต้นไม้วิวัฒนาการจากโปรตีนชี้ว่ากลุ่มอะมีโบโซอาแยกจากสายสัตว์และรา หลังจากที่พืชแยกจากสัตว์ไปแล้ว [2]",
         "จีโนมของมันเก็บความหลากหลายของจีโนมบรรพบุรุษไว้มากกว่าของพืช สัตว์ และรา [2]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A social amoeba that can switch between a single-celled form and a multicellular form [2]. When food runs out, single cells aggregate by moving along a chemical gradient into a multicellular structure [3]",
+      "traitsExtra": [
+        [
+          "Number of proteins predicted from the genome",
+          "About 12,500 [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Free-living stage",
+          "Lives as a single free-living amoeba [3]"
+        ],
+        [
+          "Metabolism",
+          "Has many genes for polyketide synthases and ABC transporters, suggesting extensive secondary metabolism for making and exporting small molecules [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 Free-living amoebae",
+          "Single cells live independently [3]"
+        ],
+        [
+          "2 Starvation",
+          "Cells enter a developmental program and gather together by chemotaxis [3]"
+        ],
+        [
+          "3 A multicellular structure",
+          "The aggregate undergoes morphogenesis and cell type differentiation, mediated by cAMP receptors on the cell surface [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "A model for studying cell signaling, because most components of these pathways have counterparts in mammals and its genetics is easy to study [3]"
+        ]
+      ],
+      "asideTitle": "An amoeba that becomes multicellular when hungry",
+      "aside": [
+        "The chromosomes are gene-dense and encode about 12,500 predicted proteins [2]",
+        "A phylogenetic tree built from proteins indicates that the Amoebozoa split from the lineage of animals and fungi after plants had already split from animals [2]",
+        "Its genome retains more of the diversity of the ancestral genome than the genomes of plants, animals and fungi do [2]"
       ]
     }
   },
@@ -2886,6 +3766,41 @@
         "ดีเอ็นเอซ้ำคิดเป็นราว 74% ของจีโนม ซึ่งเป็นสาเหตุที่จีโนมขยายใหญ่ [2]",
         "โรคนี้ทำให้เกิดความอดอยากและการย้ายถิ่นของประชากร [2]"
       ]
+    },
+    "extra_en": {
+      "lede": "An oomycete and the most destructive pathogen of potato [2]. Oomycetes are a fungus-like group but are related to brown algae and diatoms [2]. It causes late blight of potato and was the cause of the Great Famine in Ireland in the middle of the 19th century [2]",
+      "traitsExtra": [
+        [
+          "Genome",
+          "About 240 million base pairs, with about 74% repeated DNA [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Host",
+          "A pathogen of potato [2]"
+        ],
+        [
+          "Adaptation",
+          "Adapts very quickly to control methods such as disease-resistant varieties [2]"
+        ],
+        [
+          "Interaction with plants",
+          "In the plant Nicotiana benthamiana, the pathogen's INF1 protein triggers plant responses, including the accumulation of hydrogen peroxide and localized cell death [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Agriculture",
+          "Potato is the fourth largest food crop in the world and an important alternative to the main cereals [2]. A conservative estimate of the damage to potato crops worldwide from late blight is 6,700 million US dollars a year [2]"
+        ]
+      ],
+      "asideTitle": "A genome made large by repeated DNA",
+      "aside": [
+        "The genome is about 240 million base pairs long, the largest and most complex among the sequenced chromalveolates at that time [2]",
+        "Repeated DNA makes up about 74% of the genome, which is why the genome is so large [2]",
+        "The disease caused famine and the movement of populations [2]"
+      ]
     }
   },
   {
@@ -3024,6 +3939,45 @@
         "ผู้วิจัยเสนอว่าคลอโรพลาสต์แบ่งตัวด้วยกลไกที่คล้ายการแบ่งเซลล์ของแบคทีเรีย [4]",
         "สารพอลิแซ็กคาไรด์เป็นสารสำคัญของคลอเรลลา และมีรายงานถึงฤทธิ์ปรับภูมิคุ้มกันและต้านอนุมูลอิสระ [3]"
       ]
+    },
+    "extra_en": {
+      "lede": "A small green alga [3]. It is used as an ingredient in food and medicine because of its good nutritional and functional properties [3]. It can be grown phototrophically, heterotrophically or mixotrophically [2]",
+      "traitsExtra": [
+        [
+          "Cell lipid content when grown with light",
+          "38% [2]"
+        ],
+        [
+          "Chloroplast genome (strain C-27)",
+          "150,613 base pairs [4]"
+        ]
+      ],
+      "life": [
+        [
+          "Nutrition",
+          "Can be grown phototrophically (autotrophic), heterotrophically on organic compounds, or mixotrophically, and overall it is mixotrophic [2]"
+        ],
+        [
+          "Lipids",
+          "When grown with light the cells contain 38% lipid, but when grown on glucose, acetate or glycerol the daily lipid yield is higher [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Food",
+          "Used as an ingredient in food and medicine because of its good nutritional and functional properties [3]. A meta-analysis of 10 randomized controlled trials found that Chlorella taken as a supplement lowered total cholesterol and LDL-C [5]"
+        ],
+        [
+          "Science",
+          "The chloroplast genome sequence indicates that Chlorella is closer to land plants than to red and brown algae [4], and it has minD and minE genes similar to bacterial cell division genes [4]"
+        ]
+      ],
+      "asideTitle": "An alga closer to land plants than expected",
+      "aside": [
+        "The chloroplast genome of strain C-27 is 150,613 base pairs long [4]",
+        "The researchers proposed that the chloroplast divides by a mechanism similar to bacterial cell division [4]",
+        "Polysaccharides are an important component of Chlorella, and immune-modulating and antioxidant activity has been reported [3]"
+      ]
     }
   },
   {
@@ -3132,6 +4086,21 @@
         "ในหนูทดลองที่ภูมิคุ้มกันถูกกด พอลิแซ็กคาไรด์จากสาหร่ายนี้ช่วยเพิ่มการหลั่งสารภูมิคุ้มกันและเปลี่ยนองค์ประกอบของจุลินทรีย์ในลำไส้ [3]",
         "สารสกัดเอทานอลลดน้ำตาลในเลือดขณะอดอาหารในหนูทดลองที่เป็นเบาหวาน [4]"
       ]
+    },
+    "extra_en": {
+      "lede": "A large marine green alga [2]. When dried, it can adsorb heavy metals such as copper, cadmium, lead and zinc [2]. Studies in mice report that its extracts and polysaccharides affect glucose metabolism and immunity [3][4]",
+      "life": [
+        [
+          "Metal adsorption",
+          "Dried alga adsorbs metals quickly and reaches equilibrium within about 20 minutes [2]. Its maximum adsorption capacity is highest for lead, followed by copper, cadmium and zinc [2]"
+        ]
+      ],
+      "asideTitle": "An alga that adsorbs heavy metals",
+      "aside": [
+        "Metal adsorption increases as pH rises [2]",
+        "In mice with suppressed immunity, polysaccharides from this alga increased the secretion of immune molecules and changed the composition of the gut microbiota [3]",
+        "An ethanol extract lowered fasting blood glucose in diabetic mice [4]"
+      ]
     }
   },
   {
@@ -3237,6 +4206,33 @@
         "ซัลเฟตกาแลกแทนมีมวลโมเลกุลโดยประมาณ 100 กิโลดอลตัน [2]",
         "ในการทดลอง สารสกัดเอทานอล เมทานอล และคลอโรฟอร์มยับยั้ง Vibrio harveyi ได้ที่ความเข้มข้นต่ำสุดราว 90 ถึง 190 ไมโครกรัมต่อมิลลิลิตร [4]",
         "ซัลเฟตกาแลกแทนที่สกัดด้วยน้ำอุณหภูมิต่ำ 25 °C มีสารฟีนอลิกสูงกว่าที่สกัดที่ 55 °C [3]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A red alga found in Thailand [3]. Its main component is sulfated galactan, in which galactose is the main sugar [2][3]. Studies in shrimp report that its extracts boost immunity and reduce deaths from pathogens [2][4]",
+      "traitsExtra": [
+        [
+          "Molecular mass of the sulfated galactan",
+          "About 100 kilodaltons [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Composition",
+          "The sulfated galactan contains 12.7% sulfate and 42.2% total carbohydrate, and its main structure is a linear chain of alternating galactopyranose and 3,6-anhydrogalactose [2]"
+        ]
+      ],
+      "why": [
+        [
+          "Industry",
+          "Sulfated galactan from this alga was used to supplement the feed of black tiger shrimp and reduced deaths from white spot syndrome virus (WSSV) infection in experiments [2]. Solvent extracts inhibited Vibrio harveyi, which causes disease in black tiger shrimp [4]"
+        ]
+      ],
+      "asideTitle": "An alga that helps shrimp fight disease",
+      "aside": [
+        "The sulfated galactan has an estimated molecular mass of 100 kilodaltons [2]",
+        "In experiments, ethanol, methanol and chloroform extracts inhibited Vibrio harveyi at minimum concentrations of about 90 to 190 micrograms per milliliter [4]",
+        "Sulfated galactan extracted with low-temperature water at 25 °C had a higher phenolic content than that extracted at 55 °C [3]"
       ]
     }
   },
@@ -3399,6 +4395,72 @@
         "transmission": "ติดจากการถูกยุงก้นปล่องตัวเมียที่มีเชื้อกัด และไม่ติดโดยตรงจากคนสู่คน [4]",
         "prevention": "ใช้มุ้งชุบสารฆ่าแมลงและพ่นสารฆ่าแมลงในบ้านเพื่อควบคุมยุง ผู้ที่เดินทางไปพื้นที่เสี่ยงควรปรึกษาแพทย์เรื่องยาป้องกัน [4]"
       }
+    },
+    "extra_en": {
+      "lede": "A parasite that causes human malaria and accounts for 25% to 40% of the roughly 515 million malaria cases a year, according to a 2008 paper [2]. It is the dominant species in almost every country outside sub-Saharan Africa [4]. It rarely causes death, but people can fall ill again months after recovering [2]",
+      "traitsExtra": [
+        [
+          "Share of malaria cases worldwide",
+          "25% to 40% (data from a 2008 paper) [2]"
+        ]
+      ],
+      "life": [
+        [
+          "Habitat",
+          "In humans it lives in liver cells and red blood cells, and in Anopheles mosquitoes it lives in the stomach wall and salivary glands [3]"
+        ],
+        [
+          "Laboratory culture",
+          "It cannot be cultured continuously in the laboratory except in nonhuman primates, so it has been studied less [2]"
+        ],
+        [
+          "Relapse",
+          "The hypnozoite stage lies dormant in the liver and can cause illness to return after several weeks or years [3]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "1 The mosquito releases sporozoites",
+          "An infected female Anopheles mosquito injects sporozoites into a person while taking a blood meal [3]"
+        ],
+        [
+          "2 Liver stage",
+          "Sporozoites enter liver cells, develop into schizonts, and then burst and release merozoites. In this species, some become dormant as hypnozoites [3]"
+        ],
+        [
+          "3 Red blood cell stage",
+          "Merozoites enter red blood cells. The ring stage develops into a schizont, which bursts and releases more merozoites, and some develop into reproductive cells (gametocytes) [3]"
+        ],
+        [
+          "4 The mosquito takes up gametocytes",
+          "A mosquito takes up male and female gametocytes along with blood [3]"
+        ],
+        [
+          "5 In the mosquito stomach",
+          "The gametes fuse into a zygote, which changes into a motile ookinete that passes through the stomach wall and develops into an oocyst [3]"
+        ],
+        [
+          "6 The oocyst bursts",
+          "It releases sporozoites into the mosquito's salivary glands, ready to be passed to the next person [3]"
+        ]
+      ],
+      "why": [
+        [
+          "Medicine",
+          "A common cause of malaria. Although it seldom causes death, it causes severe symptoms that leave people unable to work [2]"
+        ]
+      ],
+      "asideTitle": "The neglected malaria parasite",
+      "aside": [
+        "Researchers call it the neglected human malaria parasite because it is difficult to grow in the laboratory [2]",
+        "The genome has genes and metabolic potential similar to those of other malaria parasites, but it has new gene families and perhaps different pathways for invading cells [2]"
+      ],
+      "disease": {
+        "name": "Vivax malaria [2]",
+        "symptoms": "Fever, headache and chills [4]. The parasite causes symptoms severe enough to prevent work, and often causes people to fall ill again months after the first infection has cleared [2]",
+        "transmission": "Spread by the bite of an infected female Anopheles mosquito, and it does not pass directly from person to person [4]",
+        "prevention": "Use insecticide-treated bed nets and indoor insecticide spraying to control mosquitoes. People traveling to risk areas should ask a doctor about preventive medicine [4]"
+      }
     }
   },
   {
@@ -3547,6 +4609,34 @@
       "aside": [
         "ความเร็วสูงสุดของการหดตัวแปรผกผันกับรากที่สองของความหนืดของของเหลวรอบเซลล์ [2]",
         "ตอนหดตัว ตัวเซลล์บิดและหมุนเหมือนสกรูมือขวา [3]"
+      ]
+    },
+    "extra_en": {
+      "lede": "A ciliate with a stalk that attaches to surfaces [4]. The stalk has a structure called the spasmoneme that contracts extremely fast [2]. The information about the stalk below comes from V. convallaria, a relative in the same genus",
+      "life": [
+        [
+          "Stalk structure",
+          "The cell attaches to a surface by a slender stalk containing the spasmoneme [2]"
+        ],
+        [
+          "Contraction",
+          "The stalk coils into a helix when the spasmoneme contracts, driven by calcium binding to a negatively charged polymer structure [2]. In V. convallaria, full contraction of the stalk takes about 9 milliseconds, with a maximum speed of 8.8 centimeters per second [3]"
+        ],
+        [
+          "Protein",
+          "Spasmin is an EF-hand calcium-binding protein of about 20 kilodaltons and is the main component of the contractile structure [4]"
+        ]
+      ],
+      "why": [
+        [
+          "Science",
+          "In V. convallaria, the contractile stalk is one of the fastest and most powerful cellular machines [2]"
+        ]
+      ],
+      "asideTitle": "One of the fastest contracting stalks in the cell world",
+      "aside": [
+        "The maximum speed of contraction varies inversely with the square root of the viscosity of the fluid around the cell [2]",
+        "During contraction the cell body twists and rotates like a right-handed screw [3]"
       ]
     }
   }
