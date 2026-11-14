@@ -364,6 +364,13 @@ def _check_research_fields(rep, o, rel, label, tag_keys):
         rep.error("REF_URL", rel, label, "iucn.url ต้องขึ้นต้นด้วย https:// (พบ %r)" % iucn["url"][:60])
     if o.get("accepted_name") and o["accepted_name"] == o.get("scientific_name"):
         rep.error("ACCEPTED_NAME_SAME", rel, label, "accepted_name เหมือน scientific_name ให้ใส่เมื่อต่างกันเท่านั้น")
+    n_refs = len(o.get("refs") or [])
+    for lang in ("extra_th", "extra_en"):
+        ex = o.get(lang)
+        if isinstance(ex, dict):
+            bad = sorted({int(n) for t in _strings(ex) for n in CITE_RE.findall(t) if not 1 <= int(n) <= n_refs})
+            if bad:
+                rep.error("CITE_REF", rel, label, "%s อ้างอิง [%s] แต่ refs มี %d รายการ" % (lang, ", ".join(map(str, bad)), n_refs))
     for lang in ("extra_th", "extra_en"):
         ex = o.get(lang)
         if not isinstance(ex, dict) or not ex.get("disease"):
@@ -1861,6 +1868,289 @@ def cmd_images_supplement(args, fetcher=None):
     return 0
 
 
+# ---------------------------------------------------------------- import-research (ไฟล์พัก research/*.md + *.data.json -> data/organisms)
+
+CITE_RE = re.compile(r"\[(\d+)\]")
+RESEARCH_SECTIONS = {  # หัวข้อ ### -> ช่องใน extra_th
+    "รู้จักใน 30 วินาที": "lede", "การดำรงชีวิต": "life", "การสืบพันธุ์และวงชีวิต": "lifecycle", "ความสำคัญ": "why",
+    "ชื่อนี้มาจากไหน": "name", "โรค": "disease", "คำเตือน": "warning"}
+REQUIRED_RESEARCH_SECTIONS = ["รู้จักใน 30 วินาที", "การดำรงชีวิต", "การสืบพันธุ์และวงชีวิต", "ความสำคัญ", "ชื่อนี้มาจากไหน"]
+DISEASE_LABELS = {"ชื่อโรค": "name", "อาการหลัก": "symptoms", "การติดต่อ": "transmission", "การป้องกัน": "prevention", "กลุ่มยา": "drugs"}
+WARNING_LABELS = {"คำเตือน": "text", "เข้าใจผิด": "myths"}
+ASIDE_LABEL = "เกร็ด"
+EXTRA_ORDER = ["lede", "traitsExtra", "life", "lifecycle", "why", "name", "asideTitle", "aside", "disease", "warning"]
+UNITS = ["กิโลเมตร", "เมตร", "ล้านคู่เบส", "คู่เบส", "ล้านคน", "ล้านราย", "ล้าน", "วัน", "สัปดาห์", "เดือน", "ปี", "ชั่วโมง", "นาที", "โมลาร์",
+         "โครโมโซม", "ยีน", "ราย", "ประเทศ", "เท่า", "ครั้ง", "ชนิด", "ร้อยละ", "เปอร์เซ็นต์", "%", "°C", "องศา", "ไมโครเมตร", "มิลลิเมตร", "ตัน", "คน"]
+NUM_RE = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*(" + "|".join(sorted(map(re.escape, UNITS), key=len, reverse=True)) + r")?")
+LATIN_RE = re.compile(r"[A-Za-z][A-Za-z0-9\-']*")
+
+
+def parse_research_md(text):
+    """อ่านไฟล์พัก คืน {id: {หัวข้อ: [บรรทัดไม่ว่าง]}} เรียงตามลำดับในไฟล์ ถ้ารูปแบบเสียจะ raise ValueError"""
+    out, cur_id, cur_sec = {}, None, None
+    for n, raw in enumerate(text.splitlines(), 1):
+        line = raw.strip()
+        if raw.startswith("## "):
+            cur_id, cur_sec = line[3:].strip(), None
+            if cur_id in out:
+                raise ValueError("บรรทัด %d: id ซ้ำ %s" % (n, cur_id))
+            out[cur_id] = {}
+        elif raw.startswith("### "):
+            if cur_id is None:
+                raise ValueError("บรรทัด %d: หัวข้อ ### อยู่ก่อน ## <id>" % n)
+            cur_sec = line[4:].strip()
+            if cur_sec in out[cur_id]:
+                raise ValueError("บรรทัด %d: หัวข้อ %r ซ้ำใน %s" % (n, cur_sec, cur_id))
+            out[cur_id][cur_sec] = []
+        elif line and cur_sec is not None:
+            out[cur_id][cur_sec].append(line)
+    return out
+
+
+def research_bullets(lines, where):
+    """บรรทัด '- ป้าย: ข้อความ' -> [(ป้าย, ข้อความ)] บรรทัดที่ไม่ขึ้นต้นด้วย '- ' ถือว่าต่อจากบรรทัดก่อน"""
+    out = []
+    for line in lines:
+        if line.startswith("- "):
+            m = re.match(r"^- ([^:：]+?)\s*[:：]\s*(.+)$", line)
+            if not m:
+                raise ValueError("%s: รูปแบบต้องเป็น '- <ป้าย>: <ข้อความ>' แต่พบ %r" % (where, line[:50]))
+            out.append([m.group(1).strip(), m.group(2).strip()])
+        elif out:
+            out[-1][1] += " " + line
+        else:
+            raise ValueError("%s: ต้องเริ่มด้วย '- <ป้าย>: <ข้อความ>' แต่พบ %r" % (where, line[:50]))
+    return out
+
+
+def section_signature(lines):
+    """สิ่งที่ต้องไม่เปลี่ยนเมื่อรัน humanizer: ตัวเลขกับหน่วย, คำละติน (ชื่อวิทยาศาสตร์), เลขอ้างอิง [n]"""
+    text = "\n".join(lines)
+    cites = Counter(CITE_RE.findall(text))
+    body = CITE_RE.sub(" ", text)
+    nums = Counter((m.group(1).replace(",", ""), m.group(2) or "") for m in NUM_RE.finditer(body))
+    latin = Counter(w.rstrip("-'") for w in LATIN_RE.findall(body))
+    return {"numbers": nums, "latin": latin, "cites": cites}
+
+
+def compare_research(base, cur):
+    """เทียบฉบับร่างแรก (base) กับฉบับปัจจุบัน (cur) ที่ parse แล้ว คืนรายการจุดที่ต่าง (ว่าง = เหมือนเดิม)"""
+    diffs = []
+    for oid in sorted(set(base) | set(cur)):
+        if oid not in cur:
+            diffs.append("%s: ชนิดหายไป" % oid)
+            continue
+        if oid not in base:
+            diffs.append("%s: มีชนิดที่ไม่อยู่ในฉบับร่างแรก" % oid)
+            continue
+        if list(base[oid]) != list(cur[oid]):
+            diffs.append("%s: หัวข้อไม่เหมือนเดิม ร่างแรก %s แต่ตอนนี้ %s" % (oid, list(base[oid]), list(cur[oid])))
+            continue
+        for sec in base[oid]:
+            a, b = section_signature(base[oid][sec]), section_signature(cur[oid][sec])
+            for kind, label in (("numbers", "ตัวเลขและหน่วย"), ("latin", "ชื่อวิทยาศาสตร์/ตัวอักษรละติน"), ("cites", "เลขอ้างอิง")):
+                if a[kind] != b[kind]:
+                    lost, gained = a[kind] - b[kind], b[kind] - a[kind]
+                    fmt = lambda c: ", ".join(("%s%s" % k if isinstance(k, tuple) else str(k)) + (" x%d" % v if v > 1 else "") for k, v in sorted(c.items()))
+                    diffs.append("%s > %s: %s ไม่เหมือนเดิม%s%s" % (oid, sec, label, (" หายไป [%s]" % fmt(lost)) if lost else "", (" เพิ่มมา [%s]" % fmt(gained)) if gained else ""))
+    return diffs
+
+
+def build_research_extra(oid, sections, rdata):
+    """แปลงหัวข้อของชนิดหนึ่งกับ .data.json เป็น (extra_th, รายการข้อผิดพลาด)"""
+    errors = []
+    for h in REQUIRED_RESEARCH_SECTIONS:
+        if h not in sections:
+            errors.append("%s: ขาดหัวข้อ %s" % (oid, h))
+    for h in sections:
+        if h not in RESEARCH_SECTIONS:
+            errors.append("%s: หัวข้อ %r ไม่รู้จัก" % (oid, h))
+    refs = rdata.get("refs") or []
+    if [r.get("n") for r in refs] != list(range(1, len(refs) + 1)):
+        errors.append("%s: refs ต้องมี n = 1, 2, 3 ... เรียงตามลำดับ" % oid)
+    used = {int(n) for lines in sections.values() for n in CITE_RE.findall("\n".join(lines))}
+    if used - {r.get("n") for r in refs}:
+        errors.append("%s: เลขอ้างอิง %s ในข้อความไม่มีใน refs" % (oid, sorted(used - {r.get("n") for r in refs})))
+    if errors:
+        return None, errors
+    ex = {}
+    try:
+        for h, lines in sections.items():
+            key, where = RESEARCH_SECTIONS[h], "%s > %s" % (oid, h)
+            if key == "lede":
+                if lines:
+                    ex["lede"] = " ".join(lines)
+            elif key in ("life", "lifecycle", "why"):
+                if lines:
+                    ex[key] = research_bullets(lines, where)
+            elif key == "name":
+                rows = research_bullets(lines, where) if lines else []
+                names = [r for r in rows if r[0] != ASIDE_LABEL]
+                aside = [r[1] for r in rows if r[0] == ASIDE_LABEL]
+                if names:
+                    ex["name"] = names
+                if aside:
+                    ex["aside"] = aside
+            elif key == "disease" or key == "warning":
+                labels = DISEASE_LABELS if key == "disease" else WARNING_LABELS
+                obj = {}
+                for label, text in research_bullets(lines, where):
+                    if label not in labels:
+                        raise ValueError("%s: ป้าย %r ไม่รู้จัก (ใช้ %s)" % (where, label, ", ".join(labels)))
+                    field = labels[label]
+                    if field == "myths":
+                        obj.setdefault("myths", []).append(text)
+                    else:
+                        obj[field] = text
+                if obj:
+                    ex[key] = obj
+    except ValueError as e:
+        return None, [str(e)]
+    if rdata.get("traitsExtra"):
+        refs_per_row = rdata.get("traitsExtraRefs") or []
+        rows = []
+        for i, (label, text) in enumerate(rdata["traitsExtra"]):
+            marks = "".join("[%d]" % n for n in (refs_per_row[i] if i < len(refs_per_row) else []))
+            rows.append([label, text + (" " + marks if marks else "")])
+        ex["traitsExtra"] = rows
+    if "aside" in ex and rdata.get("asideTitle"):
+        ex["asideTitle"] = rdata["asideTitle"]
+    return {k: ex[k] for k in EXTRA_ORDER if k in ex}, []
+
+
+def apply_research(o, ex, rdata):
+    """ใส่ผลลงชนิด o (แก้ที่เดิม) คืนรายการการเปลี่ยนแปลงเป็นข้อความ"""
+    changes = []
+
+    def setf(key, value):
+        if o.get(key) != value:
+            changes.append("%s: %s" % ("ใหม่" if key not in o else "แก้", key))
+            o[key] = value
+
+    for key in ("authority", "accepted_name"):
+        if rdata.get(key):
+            setf(key, rdata[key])
+    if rdata.get("synonyms"):
+        setf("synonyms", list(rdata["synonyms"]))
+    if rdata.get("traits"):
+        merged = dict(o.get("traits") or {})
+        merged.update(rdata["traits"])
+        setf("traits", merged)
+    setf("refs", [{"title": r["title"], "url": r["url"], "accessed": r["accessed"]} for r in rdata["refs"]])
+    if rdata.get("iucn"):
+        setf("iucn", rdata["iucn"])
+    old = o.get("extra_th") or {}
+    if old != ex:
+        gone = [k for k in old if k not in ex]
+        changes.append("%s: extra_th (%s)" % ("แทนที่ของเดิม" if old else "ใหม่", ", ".join(ex)) + (" ลบ %s" % ", ".join(gone) if gone else ""))
+        o["extra_th"] = ex
+    return changes
+
+
+def research_baseline(rel_md):
+    """เนื้อหาไฟล์ .md ตอนที่ commit ครั้งแรก (ฉบับร่างแรก) หรือ None ถ้าไม่มีใน git"""
+    import subprocess
+    try:
+        log = subprocess.run(["git", "log", "--diff-filter=A", "--format=%H", "--", rel_md], cwd=ROOT, capture_output=True, text=True, encoding="utf-8")
+        hashes = [h for h in log.stdout.split() if h]
+        if log.returncode != 0 or not hashes:
+            return None
+        shown = subprocess.run(["git", "show", "%s:%s" % (hashes[-1], rel_md.replace(os.sep, "/"))], cwd=ROOT, capture_output=True, text=True, encoding="utf-8")
+        return shown.stdout if shown.returncode == 0 else None
+    except OSError:
+        return None
+
+
+def write_import_check(path, src, problems):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    L = ["# ผลตรวจก่อนนำเข้า: ไม่ผ่าน", "", "ไฟล์: `%s.md`  เทียบกับฉบับร่างแรกที่ commit ไว้" % src, "",
+         "**ไม่ได้นำเข้าอะไรเลย** แก้จุดต่อไปนี้ให้เหมือนฉบับร่างแรก (หรือแก้ฉบับร่างแรกแล้ว commit ใหม่ถ้าตั้งใจเปลี่ยน) แล้วรันใหม่", ""]
+    L += ["- " + p for p in problems] + [""]
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(L))
+
+
+def cmd_import_research(args):
+    src = args.src[:-3] if args.src.endswith(".md") else args.src
+    md_path, js_path = src + ".md", src + ".data.json"
+    for p in (md_path, js_path):
+        if not os.path.exists(p):
+            print("ไม่พบไฟล์ %s" % p)
+            return 1
+    try:
+        cur = parse_research_md(open(md_path, encoding="utf-8").read())
+    except ValueError as e:
+        write_import_check(args.report, src, ["อ่านไฟล์ .md ไม่ได้: %s" % e])
+        print("ไม่ผ่าน: %s (ดู %s)" % (e, args.report))
+        return 1
+    rdata_all = load_json(js_path)
+    if args.baseline:
+        base_text = open(args.baseline, encoding="utf-8").read()
+    else:
+        rel = os.path.relpath(os.path.abspath(md_path), ROOT)
+        base_text = research_baseline(rel)
+        if base_text is None:
+            print("ไม่พบฉบับร่างแรกใน git ของ %s (ใช้ --baseline <ไฟล์> ระบุเอง)" % rel)
+            return 1
+    base = parse_research_md(base_text)
+    problems = compare_research(base, cur)
+    for oid in cur:
+        if oid not in rdata_all:
+            problems.append("%s: ไม่มีใน %s" % (oid, js_path))
+    if problems:
+        write_import_check(args.report, src, problems)
+        print("ไม่ผ่านการตรวจ %d จุด ไม่ได้นำเข้า (ดู %s)" % (len(problems), args.report))
+        for p in problems[:10]:
+            print("  - " + p)
+        return 1
+
+    wanted = {x.strip() for x in args.only.split(",") if x.strip()} if args.only else None
+    known = {o["id"] for o in load_organisms(args.data)}
+    built, errors = {}, []
+    for oid, sections in cur.items():
+        if wanted is not None and oid not in wanted:
+            continue
+        if oid not in known:
+            errors.append("%s: ไม่มีชนิดนี้ใน data/organisms" % oid)
+            continue
+        ex, errs = build_research_extra(oid, sections, rdata_all[oid])
+        errors += errs
+        if ex is not None:
+            built[oid] = ex
+    if errors:
+        write_import_check(args.report, src, errors)
+        print("ไม่ผ่าน %d จุด ไม่ได้นำเข้า (ดู %s)" % (len(errors), args.report))
+        for e in errors[:10]:
+            print("  - " + e)
+        return 1
+    print("ผ่านการตรวจเทียบกับฉบับร่างแรก: หัวข้อ ตัวเลขและหน่วย ชื่อวิทยาศาสตร์ และเลขอ้างอิง [n] เหมือนเดิมทุกตัว (%d ชนิด)" % len(built))
+    done = []
+    for path in sorted(glob.glob(os.path.join(args.data, "organisms", "*.json"))):
+        items = load_json(path)
+        changed = False
+        for o in items:
+            if o["id"] not in built:
+                continue
+            changes = apply_research(o, built[o["id"]], rdata_all[o["id"]])
+            print("%s %s" % ("[dry-run]" if args.dry_run else "[นำเข้า]", o["id"]))
+            for c in changes:
+                print("    " + c)
+            if args.verbose:
+                print(json.dumps(o["extra_th"], ensure_ascii=False, indent=2))
+            if changes:
+                changed = True
+            done.append(o["id"])
+        if changed and not args.dry_run:
+            save_orgs(path, items)
+    if args.dry_run:
+        print("--dry-run: ยังไม่ได้เขียนไฟล์ใด")
+        return 0
+    rep = validate_data(args.data)
+    print_report(rep, verbose=False)
+    print("นำเข้า %d ชนิด: %s" % (len(done), ", ".join(done)))
+    return 1 if rep.errors else 0
+
+
 # ---------------------------------------------------------------- main
 
 def build_parser():
@@ -1894,6 +2184,14 @@ def build_parser():
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--out", default=os.path.join(REPORTS, "coverage.md"), help=argparse.SUPPRESS)
     s.add_argument("--content-out", default=None, help=argparse.SUPPRESS)
+    s = sub.add_parser("import-research", help="นำเข้าไฟล์พัก research/<ชื่อ>.md + .data.json เป็น extra_th ของชนิด (ตรวจเทียบฉบับร่างแรกใน git ก่อน)")
+    s.add_argument("src", help="เช่น research/pilot (ไม่ต้องใส่นามสกุล)")
+    s.add_argument("--dry-run", action="store_true", help="แสดงว่าจะเปลี่ยนอะไร ไม่เขียนไฟล์")
+    s.add_argument("--only", default="", help="เฉพาะ id ที่ระบุ (คั่นด้วยจุลภาค)")
+    s.add_argument("--verbose", action="store_true", help="แสดง extra_th ที่จะใส่ทั้งก้อน")
+    s.add_argument("--baseline", default=None, help=argparse.SUPPRESS)
+    s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
+    s.add_argument("--report", default=os.path.join(REPORTS, "import-check.md"), help=argparse.SUPPRESS)
     s = sub.add_parser("build", help="validate แล้วสร้าง site/data/*.json (หยุดถ้ามี error)")
     s.add_argument("--data", default=DATA, help=argparse.SUPPRESS)
     s.add_argument("--out", default=SITE_DATA, help=argparse.SUPPRESS)
@@ -1918,6 +2216,8 @@ def main(argv=None):
         return cmd_coverage(args)
     if args.cmd == "images":
         return cmd_images(args)
+    if args.cmd == "import-research":
+        return cmd_import_research(args)
     return cmd_validate(args)
 
 

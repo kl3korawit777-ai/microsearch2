@@ -8,25 +8,25 @@
 
 | กลุ่ม | ชนิด | 1 หัวเรื่อง | 2 รู้จักใน 30 วินาที | 3 ลักษณะเด่น | 4 การดำรงชีวิต | 5 วงชีวิต | 6 ความสำคัญ | 7 ชื่อและเกร็ด | 8 อ้างอิง |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| bacteria | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| archaea | 9 | 0 | 1 | 1 | 0 | 0 | 1 | 1 | 0 |
-| fungi | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| protists | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| plants | 30 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| animals | 38 | 0 | 0 | 38 | 0 | 0 | 0 | 0 | 0 |
-| **รวม** | 145 | 0 | 1 | 39 | 0 | 0 | 1 | 1 | 0 |
+| bacteria | 24 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
+| archaea | 9 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
+| fungi | 19 | 1 | 1 | 0 | 1 | 1 | 1 | 0 | 1 |
+| protists | 25 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| plants | 30 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | 1 |
+| animals | 38 | 1 | 1 | 38 | 1 | 1 | 1 | 0 | 1 |
+| **รวม** | 145 | 6 | 6 | 42 | 6 | 3 | 6 | 3 | 6 |
 
 ## ต่อกลุ่ม: ภาษาอังกฤษ
 
 | กลุ่ม | ชนิด | 1 หัวเรื่อง | 2 รู้จักใน 30 วินาที | 3 ลักษณะเด่น | 4 การดำรงชีวิต | 5 วงชีวิต | 6 ความสำคัญ | 7 ชื่อและเกร็ด | 8 อ้างอิง |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| bacteria | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| archaea | 9 | 0 | 1 | 1 | 0 | 0 | 1 | 1 | 0 |
-| fungi | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| protists | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| plants | 30 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| animals | 38 | 0 | 0 | 38 | 0 | 0 | 0 | 0 | 0 |
-| **รวม** | 145 | 0 | 1 | 39 | 0 | 0 | 1 | 1 | 0 |
+| bacteria | 24 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| archaea | 9 | 1 | 1 | 1 | 0 | 0 | 1 | 1 | 1 |
+| fungi | 19 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| protists | 25 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| plants | 30 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| animals | 38 | 1 | 0 | 38 | 0 | 0 | 0 | 0 | 1 |
+| **รวม** | 145 | 6 | 1 | 41 | 0 | 0 | 1 | 1 | 6 |
 
 ## ต่อชนิด: ภาษาไทย
 
@@ -42,7 +42,7 @@
 | `hirudinaria-manillensis` | – | – | ✓ | – | – | – | – | – |
 | `pomacea-canaliculata` | – | – | ✓ | – | – | – | – | – |
 | `nautilus-pompilius` | – | – | ✓ | – | – | – | – | – |
-| `aedes-aegypti` | – | – | ✓ | – | – | – | – | – |
+| `aedes-aegypti` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
 | `penaeus-monodon` | – | – | ✓ | – | – | – | – | – |
 | `heterometrus-laoticus` | – | – | ✓ | – | – | – | – | – |
 | `acanthaster-planci` | – | – | ✓ | – | – | – | – | – |
@@ -72,7 +72,7 @@
 | `mus-musculus` | – | – | ✓ | – | – | – | – | – |
 | `danio-rerio` | – | – | ✓ | – | – | – | – | – |
 | `hippocampus-kuda` | – | – | ✓ | – | – | – | – | – |
-| `halobacterium-salinarum` | – | ✓ | ✓ | – | – | ✓ | ✓ | – |
+| `halobacterium-salinarum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
 | `methanobrevibacter-smithii` | – | – | – | – | – | – | – | – |
 | `pyrococcus-furiosus` | – | – | – | – | – | – | – | – |
 | `sulfolobus-acidocaldarius` | – | – | – | – | – | – | – | – |
@@ -81,7 +81,7 @@
 | `methanocaldococcus-jannaschii` | – | – | – | – | – | – | – | – |
 | `haloferax-volcanii` | – | – | – | – | – | – | – | – |
 | `thermoplasma-acidophilum` | – | – | – | – | – | – | – | – |
-| `escherichia-coli` | – | – | – | – | – | – | – | – |
+| `escherichia-coli` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
 | `rhizobium-leguminosarum` | – | – | – | – | – | – | – | – |
 | `vibrio-cholerae` | – | – | – | – | – | – | – | – |
 | `bacillus-subtilis` | – | – | – | – | – | – | – | – |
@@ -108,7 +108,7 @@
 | `batrachochytrium-dendrobatidis` | – | – | – | – | – | – | – | – |
 | `rhizopus-stolonifer` | – | – | – | – | – | – | – | – |
 | `rhizophagus-irregularis` | – | – | – | – | – | – | – | – |
-| `saccharomyces-cerevisiae` | – | – | – | – | – | – | – | – |
+| `saccharomyces-cerevisiae` | ✓ | ✓ | – | ✓ | ✓ | ✓ | – | ✓ |
 | `penicillium-chrysogenum` | – | – | – | – | – | – | – | – |
 | `aspergillus-oryzae` | – | – | – | – | – | – | – | – |
 | `volvariella-volvacea` | – | – | – | – | – | – | – | – |
@@ -133,7 +133,7 @@
 | `ginkgo-biloba` | – | – | – | – | – | – | – | – |
 | `pinus-kesiya` | – | – | – | – | – | – | – | – |
 | `gnetum-gnemon` | – | – | – | – | – | – | – | – |
-| `oryza-sativa` | – | – | – | – | – | – | – | – |
+| `oryza-sativa` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `nelumbo-nucifera` | – | – | – | – | – | – | – | – |
 | `durio-zibethinus` | – | – | – | – | – | – | – | – |
 | `hevea-brasiliensis` | – | – | – | – | – | – | – | – |
@@ -158,7 +158,7 @@
 | `trypanosoma-brucei` | – | – | – | – | – | – | – | – |
 | `giardia-intestinalis` | – | – | – | – | – | – | – | – |
 | `paramecium-caudatum` | – | – | – | – | – | – | – | – |
-| `plasmodium-falciparum` | – | – | – | – | – | – | – | – |
+| `plasmodium-falciparum` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | `thalassiosira-pseudonana` | – | – | – | – | – | – | – | – |
 | `chlamydomonas-reinhardtii` | – | – | – | – | – | – | – | – |
 | `pyropia-yezoensis` | – | – | – | – | – | – | – | – |
@@ -194,7 +194,7 @@
 | `hirudinaria-manillensis` | – | – | ✓ | – | – | – | – | – |
 | `pomacea-canaliculata` | – | – | ✓ | – | – | – | – | – |
 | `nautilus-pompilius` | – | – | ✓ | – | – | – | – | – |
-| `aedes-aegypti` | – | – | ✓ | – | – | – | – | – |
+| `aedes-aegypti` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `penaeus-monodon` | – | – | ✓ | – | – | – | – | – |
 | `heterometrus-laoticus` | – | – | ✓ | – | – | – | – | – |
 | `acanthaster-planci` | – | – | ✓ | – | – | – | – | – |
@@ -224,7 +224,7 @@
 | `mus-musculus` | – | – | ✓ | – | – | – | – | – |
 | `danio-rerio` | – | – | ✓ | – | – | – | – | – |
 | `hippocampus-kuda` | – | – | ✓ | – | – | – | – | – |
-| `halobacterium-salinarum` | – | ✓ | ✓ | – | – | ✓ | ✓ | – |
+| `halobacterium-salinarum` | ✓ | ✓ | ✓ | – | – | ✓ | ✓ | ✓ |
 | `methanobrevibacter-smithii` | – | – | – | – | – | – | – | – |
 | `pyrococcus-furiosus` | – | – | – | – | – | – | – | – |
 | `sulfolobus-acidocaldarius` | – | – | – | – | – | – | – | – |
@@ -233,7 +233,7 @@
 | `methanocaldococcus-jannaschii` | – | – | – | – | – | – | – | – |
 | `haloferax-volcanii` | – | – | – | – | – | – | – | – |
 | `thermoplasma-acidophilum` | – | – | – | – | – | – | – | – |
-| `escherichia-coli` | – | – | – | – | – | – | – | – |
+| `escherichia-coli` | ✓ | – | – | – | – | – | – | ✓ |
 | `rhizobium-leguminosarum` | – | – | – | – | – | – | – | – |
 | `vibrio-cholerae` | – | – | – | – | – | – | – | – |
 | `bacillus-subtilis` | – | – | – | – | – | – | – | – |
@@ -260,7 +260,7 @@
 | `batrachochytrium-dendrobatidis` | – | – | – | – | – | – | – | – |
 | `rhizopus-stolonifer` | – | – | – | – | – | – | – | – |
 | `rhizophagus-irregularis` | – | – | – | – | – | – | – | – |
-| `saccharomyces-cerevisiae` | – | – | – | – | – | – | – | – |
+| `saccharomyces-cerevisiae` | ✓ | – | – | – | – | – | – | ✓ |
 | `penicillium-chrysogenum` | – | – | – | – | – | – | – | – |
 | `aspergillus-oryzae` | – | – | – | – | – | – | – | – |
 | `volvariella-volvacea` | – | – | – | – | – | – | – | – |
@@ -285,7 +285,7 @@
 | `ginkgo-biloba` | – | – | – | – | – | – | – | – |
 | `pinus-kesiya` | – | – | – | – | – | – | – | – |
 | `gnetum-gnemon` | – | – | – | – | – | – | – | – |
-| `oryza-sativa` | – | – | – | – | – | – | – | – |
+| `oryza-sativa` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `nelumbo-nucifera` | – | – | – | – | – | – | – | – |
 | `durio-zibethinus` | – | – | – | – | – | – | – | – |
 | `hevea-brasiliensis` | – | – | – | – | – | – | – | – |
@@ -310,7 +310,7 @@
 | `trypanosoma-brucei` | – | – | – | – | – | – | – | – |
 | `giardia-intestinalis` | – | – | – | – | – | – | – | – |
 | `paramecium-caudatum` | – | – | – | – | – | – | – | – |
-| `plasmodium-falciparum` | – | – | – | – | – | – | – | – |
+| `plasmodium-falciparum` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `thalassiosira-pseudonana` | – | – | – | – | – | – | – | – |
 | `chlamydomonas-reinhardtii` | – | – | – | – | – | – | – | – |
 | `pyropia-yezoensis` | – | – | – | – | – | – | – | – |

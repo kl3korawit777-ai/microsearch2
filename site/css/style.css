@@ -422,3 +422,5 @@ h3.facts-h{margin:22px 0 0;font-size:16px;font-weight:600;color:var(--ink)}
 .refs ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.6}
 .refs a{overflow-wrap:anywhere}
 .ref-date{color:var(--muted);white-space:nowrap}
+a.cite{font-size:.78em;vertical-align:super;line-height:0;padding:0 1px;color:var(--ink);text-decoration:underline dotted}
+.refs li:focus{outline:2px solid var(--focus);outline-offset:3px;border-radius:4px}

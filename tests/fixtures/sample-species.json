@@ -44,7 +44,7 @@
     { "title": "Test reference three", "url": "https://example.org/ref-3", "accessed": "2026-11-14" }
   ],
   "extra_th": {
-    "lede": "ชนิดสมมติที่ใช้ทดสอบหน้าชนิด มีข้อมูลครบทั้งแปดส่วน เพื่อดูว่าทุกส่วนแสดงถูกต้อง ไม่ใช่สิ่งมีชีวิตจริง",
+    "lede": "ชนิดสมมติที่ใช้ทดสอบหน้าชนิด มีข้อมูลครบทั้งแปดส่วน เพื่อดูว่าทุกส่วนแสดงถูกต้อง ไม่ใช่สิ่งมีชีวิตจริง [1][2]",
     "traitsExtra": [
       ["แถวลักษณะเพิ่ม", "ข้อมูลทดสอบแถวที่หนึ่ง"],
       ["แถวลักษณะเพิ่มอีกแถว", "ข้อมูลทดสอบแถวที่สอง"]
@@ -82,7 +82,7 @@
     }
   },
   "extra_en": {
-    "lede": "A made-up species used to test the species page. It has all eight sections filled in so every part can be checked. It is not a real organism.",
+    "lede": "A made-up species used to test the species page. It has all eight sections filled in so every part can be checked. It is not a real organism. [1][2]",
     "traitsExtra": [
       ["Extra trait row", "Test data, first row"],
       ["Another extra trait row", "Test data, second row"]

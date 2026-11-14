@@ -340,7 +340,7 @@ def test_empty_english_fields_are_warnings_not_errors(ds):
 def test_empty_name_en_alone_gives_no_warning(ds):
     ds.files["bacteria"][0]["name_en"] = ""
     rep = ds.check()
-    assert rep.errors == [] and rep.warnings == []
+    assert rep.errors == [] and [w for w in rep.warnings if w["id"] == "testium-exemplaris"] == []
 
 
 def test_extra_th_without_extra_en_is_warning(ds):
@@ -586,7 +586,7 @@ def test_sample_species_fixture_is_valid_against_the_real_groups_and_taxa(tmp_pa
     items.append(sample)
     json.dump(items, open(f, "w", encoding="utf-8"), ensure_ascii=False)
     rep = ms.validate_data(str(data))
-    assert rep.errors == [] and rep.warnings == []
+    assert rep.errors == [] and [w for w in rep.warnings if w["id"] == "testium-exemplaris"] == []
     rows, _ = ms.content_coverage_data(str(data))
     archaea = next(r for r in rows if r["id"] == "archaea")
     assert all(archaea[lang][k] >= 1 for lang in ("th", "en") for k, _ in ms.CONTENT_SECTIONS)

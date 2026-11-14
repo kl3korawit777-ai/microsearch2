@@ -188,5 +188,6 @@
   "warnTitle": "Warning",
   "warnMyths": "Common misunderstandings",
   "refs": "References",
-  "accessed": "accessed {d}"
+  "accessed": "accessed {d}",
+  "citeN": "Go to reference {n}"
 }

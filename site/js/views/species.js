@@ -6,7 +6,9 @@ import { art } from '../art.js';
 import { gName, tagName, lvBadge, rd, spRd, spCommon, isEn, arrowR, traitValue, thumb, sourceLabel } from '../ui.js';
 
 // Text from the extra_th / extra_en blocks: English when available, otherwise flagged Thai.
-const extraText = (text, fallback) => (fallback ? thFallback(text) : esc(text));
+// Reference numbers like [3] become links that scroll to the matching item of the reference list.
+const linkCites = (html) => html.replace(/\[(\d+)\]/g, (m, n) => `<a class="cite" href="#" data-act="cite" data-v="${n}" aria-label="${esc(T('citeN', { n }))}">[${n}]</a>`);
+const extraText = (text, fallback) => linkCites(fallback ? thFallback(text) : esc(text));
 
 const chevron = (dir) => `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${dir < 0 ? 'm13.5 5-6 6 6 6' : 'm8.5 5 6 6-6 6'}"/></svg>`;
 
@@ -84,15 +86,16 @@ function warningBox(ex, fb) {
 function refsList(d) {
   if (!d.refs?.length) return '';
   return `<section class="section refs" aria-labelledby="refsH"><h2 class="h2" id="refsH">${T('refs')}</h2><ol>` +
-    d.refs.map((r) => `<li><a href="${esc(r.url)}" rel="noopener" data-native>${esc(r.title)}</a> <span class="ref-date">${T('accessed', { d: esc(r.accessed) })}</span></li>`).join('') + '</ol></section>';
+    d.refs.map((r, i) => `<li id="ref-${i + 1}" tabindex="-1"><a href="${esc(r.url)}" rel="noopener" data-native>${esc(r.title)}</a> <span class="ref-date">${T('accessed', { d: esc(r.accessed) })}</span></li>`).join('') + '</ol></section>';
 }
 
 export function viewSpecies(s) {
   const g = G(s.g);
   const d = s.d;
-  const useEn = isEn() && d.extra_en;
-  const ex = (isEn() ? d.extra_en : null) || d.extra_th || {};
-  const fb = isEn() && !useEn; // extra content falls back to Thai
+  // Extra content (8 sections) is written in Thai first and translated later: until extra_en exists the English page
+  // shows no extra content rather than Thai text.
+  const ex = (isEn() ? d.extra_en : d.extra_th) || {};
+  const fb = false;
   const ranks = g.ranks;
 
   const steps = d.lineage.map((x, i) => ({

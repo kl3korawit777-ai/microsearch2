@@ -57,6 +57,9 @@ for (const lang of ['th', 'en']) {
   ok((await count(page, '.aside li')) === 3, `${t} aside items`);
   ok((await count(page, '.refs ol li a[href^="https://"]')) === 3, `${t} three https references`);
   ok((await count(page, '.refs ol li .ref-date')) === 3, `${t} reference dates`);
+  ok((await count(page, '.sp-lede a.cite')) === 2, `${t} reference numbers in the text are links`);
+  await page.click('.sp-lede a.cite[data-v="2"]');
+  ok(await page.evaluate(() => document.activeElement.id === 'ref-2') && page.url().endsWith(`#${FIXTURE_ID}`), `${t} reference link focuses its item and keeps the page`);
   // keyboard: ArrowRight moves through the four tabs and wraps
   await page.focus('#tab-name');
   await page.keyboard.press('ArrowRight');

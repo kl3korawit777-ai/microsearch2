@@ -180,13 +180,19 @@ async function interactions(index, meta) {
 
   // species page: tabs (mouse + keyboard) and the phylum link back to the group page
   await visit(page, 'halobacterium-salinarum');
-  ok((await count(page, '[role="tab"]')) === 3, 'halobacterium has 3 tabs');
+  ok((await count(page, '[role="tab"]')) === 4, 'halobacterium has 4 tabs (traits, life, why, name)');
   await page.click('#tab-why');
   ok((await page.$eval('#tab-why', (e) => e.getAttribute('aria-selected'))) === 'true', 'tab switches on click');
   await page.focus('#tab-why');
   await page.keyboard.press('ArrowRight');
   ok((await page.$eval('#tab-name', (e) => e.getAttribute('aria-selected'))) === 'true', 'tab switches with ArrowRight');
   ok((await count(page, '.aside li')) > 0, 'aside block rendered for halobacterium');
+  await visit(page, 'escherichia-coli');
+  const cites = await count(page, 'a.cite');
+  ok(cites > 0 && (await count(page, '.refs ol li')) >= 2, 'imported species shows reference numbers and the reference list');
+  await page.click('a.cite');
+  ok(await page.evaluate(() => /^ref-\d+$/.test(document.activeElement.id)), 'reference number moves focus to its reference');
+  await visit(page, 'halobacterium-salinarum');
   await page.click('.ladder a.step:nth-child(1)');
   await ready(page, 'home');
   ok(/dg=archaea/.test(page.url()) && (await count(page, '.dg-node.sel')) === 1, 'ladder step opens the diagram with that name selected');

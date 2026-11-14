@@ -119,6 +119,15 @@ view.addEventListener('click', (e) => {
   const v = b.getAttribute('data-v');
   const { path } = parseHash();
   let scrollToPanel = false;
+  if (act === 'cite') { // reference number: jump to the reference list item, no re-render
+    e.preventDefault();
+    const target = document.getElementById(`ref-${v}`);
+    if (target) {
+      target.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      target.focus({ preventScroll: true });
+    }
+    return;
+  }
   if (act === 'tg') S.tree = { g: v, p: 0, s: 0 };
   else if (act === 'tp') { S.tree.p = +v; S.tree.s = 0; }
   else if (act === 'ts') S.tree.s = +v;
