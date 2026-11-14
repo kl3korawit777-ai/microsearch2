@@ -6,11 +6,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | bacteria | 24 | 0 | 0 / 48 | 24 | 24 | 23 | 0 |
 | archaea | 9 | 0 | 0 / 18 | 8 | 8 | 9 | 0 |
-| fungi | 19 | 0 | 0 / 57 | 1 | 1 | 10 | 0 |
+| fungi | 19 | 0 | 0 / 57 | 19 | 19 | 10 | 0 |
 | protists | 25 | 0 | 0 / 75 | 25 | 25 | 21 | 0 |
 | plants | 30 | 0 | 0 / 60 | 1 | 1 | 7 | 0 |
 | animals | 38 | 0 | 0 / 76 | 1 | 1 | 7 | 0 |
-| **รวม** | 145 | 0 | 0 / 334 | 60 | 60 | 77 | 0 |
+| **รวม** | 145 | 0 | 0 / 334 | 78 | 78 | 77 | 0 |
 
 `name_en` ว่างได้เมื่อไม่มีชื่อสามัญภาษาอังกฤษจริง (ห้ามแต่งชื่อ) ส่วน about_en ของสกุลว่างได้ตามกติกา validate
 
@@ -48,7 +48,25 @@
 - `methanocaldococcus-jannaschii`: extra_en
 - `haloferax-volcanii`: extra_en
 - `thermoplasma-acidophilum`: extra_en
+- `batrachochytrium-dendrobatidis`: extra_en
+- `rhizopus-stolonifer`: extra_en
+- `rhizophagus-irregularis`: extra_en
 - `saccharomyces-cerevisiae`: extra_en
+- `penicillium-chrysogenum`: extra_en
+- `aspergillus-oryzae`: extra_en
+- `volvariella-volvacea`: extra_en
+- `cryptococcus-neoformans`: extra_en
+- `neurospora-crassa`: extra_en
+- `aspergillus-flavus`: extra_en
+- `pleurotus-ostreatus`: extra_en
+- `termitomyces-fuliginosus`: extra_en
+- `candida-albicans`: extra_en
+- `cordyceps-militaris`: extra_en
+- `puccinia-graminis`: extra_en
+- `pneumocystis-jirovecii`: extra_en
+- `aspergillus-niger`: extra_en
+- `ganoderma-lucidum`: extra_en
+- `amanita-exitialis`: extra_en
 - `euglena-gracilis`: extra_en
 - `trypanosoma-brucei`: extra_en
 - `giardia-intestinalis`: extra_en

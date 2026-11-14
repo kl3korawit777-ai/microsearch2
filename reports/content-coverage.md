@@ -10,11 +10,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | bacteria | 24 | 24 | 24 | 24 | 24 | 4 | 24 | 21 | 24 |
 | archaea | 9 | 9 | 9 | 9 | 9 | 1 | 9 | 9 | 9 |
-| fungi | 19 | 1 | 1 | 0 | 1 | 1 | 1 | 0 | 1 |
+| fungi | 19 | 19 | 19 | 18 | 19 | 2 | 19 | 0 | 19 |
 | protists | 25 | 21 | 25 | 13 | 25 | 12 | 23 | 1 | 25 |
 | plants | 30 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | 1 |
 | animals | 38 | 1 | 1 | 38 | 1 | 1 | 1 | 0 | 1 |
-| **รวม** | 145 | 57 | 61 | 85 | 61 | 19 | 59 | 31 | 61 |
+| **รวม** | 145 | 75 | 79 | 103 | 79 | 20 | 77 | 31 | 79 |
 
 ## ต่อกลุ่ม: ภาษาอังกฤษ
 
@@ -22,11 +22,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | bacteria | 24 | 24 | 0 | 9 | 0 | 0 | 0 | 0 | 24 |
 | archaea | 9 | 9 | 1 | 7 | 0 | 0 | 1 | 1 | 9 |
-| fungi | 19 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| fungi | 19 | 19 | 0 | 8 | 0 | 0 | 0 | 0 | 19 |
 | protists | 25 | 21 | 0 | 4 | 0 | 0 | 0 | 0 | 25 |
 | plants | 30 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | animals | 38 | 1 | 0 | 38 | 0 | 0 | 0 | 0 | 1 |
-| **รวม** | 145 | 57 | 1 | 59 | 0 | 0 | 1 | 1 | 61 |
+| **รวม** | 145 | 75 | 1 | 67 | 0 | 0 | 1 | 1 | 79 |
 
 ## ต่อชนิด: ภาษาไทย
 
@@ -105,25 +105,25 @@
 | `nitrosomonas-europaea` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
 | `nitrobacter-winogradskyi` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
 | `acetobacter-aceti` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
-| `batrachochytrium-dendrobatidis` | – | – | – | – | – | – | – | – |
-| `rhizopus-stolonifer` | – | – | – | – | – | – | – | – |
-| `rhizophagus-irregularis` | – | – | – | – | – | – | – | – |
+| `batrachochytrium-dendrobatidis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `rhizopus-stolonifer` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `rhizophagus-irregularis` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
 | `saccharomyces-cerevisiae` | ✓ | ✓ | – | ✓ | ✓ | ✓ | – | ✓ |
-| `penicillium-chrysogenum` | – | – | – | – | – | – | – | – |
-| `aspergillus-oryzae` | – | – | – | – | – | – | – | – |
-| `volvariella-volvacea` | – | – | – | – | – | – | – | – |
-| `cryptococcus-neoformans` | – | – | – | – | – | – | – | – |
-| `neurospora-crassa` | – | – | – | – | – | – | – | – |
-| `aspergillus-flavus` | – | – | – | – | – | – | – | – |
-| `pleurotus-ostreatus` | – | – | – | – | – | – | – | – |
-| `termitomyces-fuliginosus` | – | – | – | – | – | – | – | – |
-| `candida-albicans` | – | – | – | – | – | – | – | – |
-| `cordyceps-militaris` | – | – | – | – | – | – | – | – |
-| `puccinia-graminis` | – | – | – | – | – | – | – | – |
-| `pneumocystis-jirovecii` | – | – | – | – | – | – | – | – |
-| `aspergillus-niger` | – | – | – | – | – | – | – | – |
-| `ganoderma-lucidum` | – | – | – | – | – | – | – | – |
-| `amanita-exitialis` | – | – | – | – | – | – | – | – |
+| `penicillium-chrysogenum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `aspergillus-oryzae` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `volvariella-volvacea` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `cryptococcus-neoformans` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `neurospora-crassa` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `aspergillus-flavus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `pleurotus-ostreatus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `termitomyces-fuliginosus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `candida-albicans` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `cordyceps-militaris` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `puccinia-graminis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `pneumocystis-jirovecii` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `aspergillus-niger` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `ganoderma-lucidum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `amanita-exitialis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `sphagnum-palustre` | – | – | – | – | – | – | – | – |
 | `marchantia-polymorpha` | – | – | – | – | – | – | – | – |
 | `lycopodiella-cernua` | – | – | – | – | – | – | – | – |
@@ -257,25 +257,25 @@
 | `nitrosomonas-europaea` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `nitrobacter-winogradskyi` | ✓ | – | – | – | – | – | – | ✓ |
 | `acetobacter-aceti` | ✓ | – | ✓ | – | – | – | – | ✓ |
-| `batrachochytrium-dendrobatidis` | – | – | – | – | – | – | – | – |
-| `rhizopus-stolonifer` | – | – | – | – | – | – | – | – |
-| `rhizophagus-irregularis` | – | – | – | – | – | – | – | – |
+| `batrachochytrium-dendrobatidis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `rhizopus-stolonifer` | ✓ | – | – | – | – | – | – | ✓ |
+| `rhizophagus-irregularis` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `saccharomyces-cerevisiae` | ✓ | – | – | – | – | – | – | ✓ |
-| `penicillium-chrysogenum` | – | – | – | – | – | – | – | – |
-| `aspergillus-oryzae` | – | – | – | – | – | – | – | – |
-| `volvariella-volvacea` | – | – | – | – | – | – | – | – |
-| `cryptococcus-neoformans` | – | – | – | – | – | – | – | – |
-| `neurospora-crassa` | – | – | – | – | – | – | – | – |
-| `aspergillus-flavus` | – | – | – | – | – | – | – | – |
-| `pleurotus-ostreatus` | – | – | – | – | – | – | – | – |
-| `termitomyces-fuliginosus` | – | – | – | – | – | – | – | – |
-| `candida-albicans` | – | – | – | – | – | – | – | – |
-| `cordyceps-militaris` | – | – | – | – | – | – | – | – |
-| `puccinia-graminis` | – | – | – | – | – | – | – | – |
-| `pneumocystis-jirovecii` | – | – | – | – | – | – | – | – |
-| `aspergillus-niger` | – | – | – | – | – | – | – | – |
-| `ganoderma-lucidum` | – | – | – | – | – | – | – | – |
-| `amanita-exitialis` | – | – | – | – | – | – | – | – |
+| `penicillium-chrysogenum` | ✓ | – | – | – | – | – | – | ✓ |
+| `aspergillus-oryzae` | ✓ | – | – | – | – | – | – | ✓ |
+| `volvariella-volvacea` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `cryptococcus-neoformans` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `neurospora-crassa` | ✓ | – | – | – | – | – | – | ✓ |
+| `aspergillus-flavus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `pleurotus-ostreatus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `termitomyces-fuliginosus` | ✓ | – | – | – | – | – | – | ✓ |
+| `candida-albicans` | ✓ | – | – | – | – | – | – | ✓ |
+| `cordyceps-militaris` | ✓ | – | – | – | – | – | – | ✓ |
+| `puccinia-graminis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `pneumocystis-jirovecii` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `aspergillus-niger` | ✓ | – | – | – | – | – | – | ✓ |
+| `ganoderma-lucidum` | ✓ | – | – | – | – | – | – | ✓ |
+| `amanita-exitialis` | ✓ | – | – | – | – | – | – | ✓ |
 | `sphagnum-palustre` | – | – | – | – | – | – | – | – |
 | `marchantia-polymorpha` | – | – | – | – | – | – | – | – |
 | `lycopodiella-cernua` | – | – | – | – | – | – | – | – |

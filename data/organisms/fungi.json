@@ -43,7 +43,9 @@
     "summary_th": "สร้างสปอร์ที่มีแฟลเจลลัม ก่อโรคไคทริดิโอไมโคซิสในสัตว์สะเทินน้ำสะเทินบก",
     "summary_en": "Produces spores with a flagellum. Causes chytridiomycosis in amphibians.",
     "traits": {
-      "form": "chytrid"
+      "form": "chytrid",
+      "fmode": "parasite",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ปรสิตบนผิวหนังของสัตว์สะเทินน้ำสะเทินบก",
@@ -103,6 +105,55 @@
     "taxon_ids": {
       "gbif": 2627503,
       "ncbi": 109871
+    },
+    "authority": "Longcore, Pessier & D.K.Nichols",
+    "refs": [
+      {
+        "title": "GBIF: Batrachochytrium dendrobatidis Longcore, Pessier & D.K.Nichols",
+        "url": "https://www.gbif.org/species/2627503",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Berger L et al. Chytridiomycosis causes amphibian mortality associated with population declines in the rain forests of Australia and Central America. PNAS 1998;95:9031-9036",
+        "url": "https://doi.org/10.1073/pnas.95.15.9031",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Scheele BC et al. Amphibian fungal panzootic causes catastrophic and ongoing loss of biodiversity. Science 2019;363:1459-1463",
+        "url": "https://doi.org/10.1126/science.aav0379",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราไคทริดที่ติดเชื้อที่ผิวหนังของสัตว์สะเทินน้ำสะเทินบก ทำให้เกิดโรคไคทริดิโอไมโคซิส [2] เป็นรากลุ่มไคทริดกลุ่มแรกที่พบว่าเป็นปรสิตของสัตว์มีกระดูกสันหลัง [2] โรคนี้เป็นสาเหตุให้สัตว์สะเทินน้ำสะเทินบกอย่างน้อย 501 ชนิดลดจำนวนลง [3]",
+      "traitsExtra": [
+        [
+          "ไฟลัม",
+          "Chytridiomycota [2]"
+        ]
+      ],
+      "life": [
+        [
+          "ความสัมพันธ์",
+          "เป็นปรสิต ทำให้ผิวหนังชั้นนอกของกบและคางคกเปลี่ยนแปลง และพบในตัวที่ป่วยและตาย [2]"
+        ],
+        [
+          "การแพร่",
+          "การค้าและการพัฒนาของมนุษย์ทำลายกำแพงการแพร่กระจาย ทำให้โรคนี้ลามไปทั่วโลก [3]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "การระบาดของโรคนี้ทำให้สัตว์สะเทินน้ำสะเทินบกอย่างน้อย 501 ชนิดลดจำนวนลงในครึ่งศตวรรษที่ผ่านมา และคาดว่า 90 ชนิดสูญพันธุ์ไปแล้ว มีเพียง 12% ของชนิดที่ลดลงที่เริ่มฟื้น ส่วน 39% ยังลดลงต่อเนื่อง [3]"
+        ]
+      ],
+      "asideTitle": "ราที่ทำให้สัตว์สะเทินน้ำสะเทินบกลดลงทั่วโลก",
+      "aside": [
+        "เป็นครั้งแรกที่มีรายงานว่าสมาชิกของไฟลัม Chytridiomycota เป็นปรสิตของสัตว์มีกระดูกสันหลัง [2]",
+        "ผลกระทบรุนแรงที่สุดกับกบและคางคกตัวใหญ่ที่พบในพื้นที่จำกัดและอยู่ในภูมิอากาศชื้นของทวีปอเมริกาและออสเตรเลีย [3]",
+        "การลดลงของสัตว์สะเทินน้ำสะเทินบกที่เกี่ยวข้องกับโรคนี้สูงสุดในทศวรรษ 1980 [3]"
+      ]
     }
   },
   {
@@ -149,7 +200,8 @@
     "summary_th": "ขึ้นบนขนมปังเป็นเส้นใยสีขาว มีอับสปอร์สีดำอยู่บนก้านชูอับสปอร์",
     "summary_en": "Grows on bread as white threads, with black sporangia on the sporangiophore stalks.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายสารอินทรีย์",
@@ -209,6 +261,54 @@
     "taxon_ids": {
       "gbif": 2558944,
       "ncbi": 4846
+    },
+    "authority": "(Ehrenb.) Vuill.",
+    "synonyms": [
+      "Ascophora mucedo",
+      "Mucor agaricinus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Rhizopus stolonifer (Ehrenb.) Vuill.",
+        "url": "https://www.gbif.org/species/2558944",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Liu Q et al. Rhizopus stolonifer and related control strategies in postharvest fruit: a review. Heliyon 2024;10:e29522",
+        "url": "https://doi.org/10.1016/j.heliyon.2024.e29522",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราที่เป็นหนึ่งในเชื้อก่อโรคหลักของผลไม้ในช่วงเก็บรักษาหลังเก็บเกี่ยว ติดผลไม้กว่า 100 ชนิด เช่น สตรอว์เบอร์รี มะเขือเทศ และแตงโม [2]",
+      "traitsExtra": [
+        [
+          "จำนวนชนิดผลไม้ที่ราชนิดนี้ก่อโรคหลังเก็บเกี่ยว",
+          "มากกว่า 100 ชนิด [2]"
+        ]
+      ],
+      "life": [
+        [
+          "แหล่งที่อยู่",
+          "ผลไม้ที่เก็บรักษาและขนส่งหลังเก็บเกี่ยว [2]"
+        ],
+        [
+          "การก่อโรค",
+          "งานรีวิวสรุปเรื่องรูปร่าง การตรวจหา การก่อโรค และกลไกการเข้าทำลายของราชนิดนี้ไว้ [2]"
+        ]
+      ],
+      "why": [
+        [
+          "อาหาร",
+          "ทำให้ผลไม้เสียหลังเก็บเกี่ยวในผลไม้กว่า 100 ชนิด มีวิธีควบคุมทั้งทางกายภาพ เคมี และชีวภาพ [2]"
+        ]
+      ],
+      "asideTitle": "เชื้อหลักของผลไม้เก็บรักษา",
+      "aside": [
+        "ชื่อพ้องของชนิดนี้ใน GBIF มีหลายชื่อ เช่น Ascophora mucedo และ Mucor agaricinus [1]",
+        "งานรีวิวปี 2024 ระบุว่าวิธีควบคุมกำลังพัฒนาไปในทางนาโนวัสดุ สารเมแทบอไลต์ชีวภาพ และแสงที่ฆ่าเชื้อ [2]",
+        "งานรีวิวเสนอว่าควรศึกษากลไกการก่อโรคต่อไป [2]"
+      ]
     }
   },
   {
@@ -256,7 +356,10 @@
     "summary_th": "อยู่ร่วมกับรากพืชแบบอาร์บัสคูลาร์ ช่วยพืชดูดฟอสฟอรัสจากดิน",
     "summary_en": "Lives with plant roots as an arbuscular mycorrhiza and helps the plant take up phosphorus from the soil.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "hyphae": "coenocytic",
+      "fmode": "symbiont",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "อยู่ร่วมกับรากพืชแบบพึ่งพากัน ได้น้ำตาลจากพืช",
@@ -288,6 +391,78 @@
     "taxon_ids": {
       "gbif": 7764042,
       "ncbi": 588596
+    },
+    "authority": "(Błaszk., Wubet, Renker & Buscot) C.Walker & A.Schüßler",
+    "synonyms": [
+      "Glomus irregulare",
+      "Rhizoglomus irregulare"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Rhizophagus irregularis (Błaszk., Wubet, Renker & Buscot) C.Walker & A.Schüßler",
+        "url": "https://www.gbif.org/species/7764042",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Tisserant E et al. Genome of an arbuscular mycorrhizal fungus provides insight into the oldest plant symbiosis. PNAS 2013;110:20117-20122",
+        "url": "https://doi.org/10.1073/pnas.1313452110",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Keymer A et al. Lipid transfer from plants to arbuscular mycorrhiza fungi. eLife 2017;6:e29107",
+        "url": "https://doi.org/10.7554/elife.29107",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Berruti A et al. Arbuscular mycorrhizal fungi as natural biofertilizers: let's benefit from past successes. Front Microbiol 2015;6:1559",
+        "url": "https://doi.org/10.3389/fmicb.2015.01559",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราไมคอร์ไรซาแบบอาร์บัสคิวลาร์ ซึ่งอยู่ร่วมกับรากพืชโดยแลกสารอาหารกัน [2][4] เส้นใยไม่มีผนังกั้นและมีนิวเคลียสหลายร้อยอัน [2] ราในกลุ่มนี้ช่วยหมุนเวียนฟอสฟอรัสซึ่งสำคัญต่อผลผลิตของพืช [2]",
+      "traitsExtra": [
+        [
+          "ขนาดจีโนม",
+          "ราว 153 ล้านคู่เบส [2]"
+        ]
+      ],
+      "life": [
+        [
+          "ความสัมพันธ์",
+          "อยู่ร่วมกับพืชราว 80% และช่วยให้พืชได้น้ำ สารอาหาร และการปกป้องจากเชื้อโรค แลกกับผลผลิตจากการสังเคราะห์ด้วยแสง [4]"
+        ],
+        [
+          "การได้อาหาร",
+          "พืชส่งคาร์บอนให้ราได้ถึง 20% ของสิ่งที่สังเคราะห์ได้ และพืชยังส่งไขมันไปให้ราด้วย [3]"
+        ],
+        [
+          "โครงสร้าง",
+          "เส้นใยไม่มีผนังกั้นและมีนิวเคลียสหลายร้อยอัน [2]"
+        ]
+      ],
+      "lifecycle": [
+        [
+          "สปอร์",
+          "สืบพันธุ์แบบโคลนผ่านสปอร์ขนาดใหญ่ที่มีหลายนิวเคลียส [2]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "การอยู่ร่วมกับพืชบกเป็นการอยู่ร่วมกันที่เก่าแก่ที่สุดของพืช และมีผู้ตั้งสมมติฐานว่าช่วยให้พืชบกวิวัฒนาการในช่วงกลางยุคพาลีโอโซอิก [2]"
+        ],
+        [
+          "เกษตร",
+          "ใช้เป็นปุ๋ยชีวภาพตามธรรมชาติ เพราะช่วยให้พืชได้น้ำ สารอาหาร และการปกป้องจากเชื้อโรค [4]"
+        ]
+      ],
+      "asideTitle": "การอยู่ร่วมกันของพืชกับราที่เก่าแก่",
+      "aside": [
+        "GBIF ระบุชื่อพ้องที่เคยอยู่ในสกุล Glomus และ Rhizoglomus [1]",
+        "จีโนมมีขนาดราว 153 ล้านคู่เบส [2]",
+        "พืชกลายพันธุ์ที่ขาดยีนสร้างไขมันของระบบรากร่วมกับรา ทำให้การพัฒนาของราผิดปกติ [3]"
+      ]
     }
   },
   {
@@ -522,7 +697,8 @@
     "summary_th": "ราสีเขียวอมฟ้า ใช้ผลิตยาเพนิซิลลินในระดับอุตสาหกรรม",
     "summary_en": "A blue-green mold used to produce the drug penicillin on an industrial scale.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายสารอินทรีย์",
@@ -554,6 +730,58 @@
     "taxon_ids": {
       "gbif": 3466349,
       "ncbi": 5076
+    },
+    "authority": "Thom",
+    "synonyms": [
+      "Penicillium baculatum",
+      "Penicillium brunneorubrum"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Penicillium chrysogenum Thom",
+        "url": "https://www.gbif.org/species/3466349",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "van den Berg MA et al. Genome sequencing and analysis of the filamentous fungus Penicillium chrysogenum. Nat Biotechnol 2008;26:1161-1168",
+        "url": "https://doi.org/10.1038/nbt.1498",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราเส้นสายที่ใช้ผลิตยาปฏิชีวนะเพนิซิลลินในอุตสาหกรรม [2] การผลิตเชิงอุตสาหกรรมอาศัยการปรับปรุงสายพันธุ์ที่ทำมายาวนาน [2] จีโนมสายพันธุ์ Wisconsin54-1255 ยาว 32.19 ล้านคู่เบส [2]",
+      "traitsExtra": [
+        [
+          "จีโนม (สายพันธุ์ Wisconsin54-1255)",
+          "32.19 ล้านคู่เบส [2]"
+        ]
+      ],
+      "life": [
+        [
+          "การสร้างสาร",
+          "จีโนมมียีนจำนวนมากที่เกี่ยวกับขั้นตอนสำคัญของการสร้างเพนิซิลลิน [2]"
+        ],
+        [
+          "สารตั้งต้น",
+          "การสร้างเพนิซิลลินใช้กรดอะมิโนอย่างวาลีนและซิสเทอีน รวมทั้งกรดแอลฟา-อะมิโนอะดิปิกเป็นสารตั้งต้น [2]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "เป็นแหล่งผลิตเพนิซิลลิน ซึ่งเป็นยาปฏิชีวนะ [2]"
+        ],
+        [
+          "อุตสาหกรรม",
+          "การผลิตเพนิซิลลินเชิงอุตสาหกรรมอาศัยการปรับปรุงสายพันธุ์ที่ทำมายาวนาน [2]"
+        ]
+      ],
+      "asideTitle": "ราที่ถูกปรับปรุงสายพันธุ์มานาน",
+      "aside": [
+        "ผู้วิจัยเทียบการทำงานของยีนระหว่างสายพันธุ์ที่ถอดรหัสจีโนมกับสายพันธุ์ที่ผลิตเพนิซิลลินได้สูง ทั้งตอนมีและไม่มีสารตั้งต้นของสายโซ่ข้าง [2]",
+        "ในสายพันธุ์ผลิตสูง ยีนสร้างวาลีน ซิสเทอีน และกรดแอลฟา-อะมิโนอะดิปิก รวมถึงยีนของโปรตีนในไมโครบอดีทำงานมากขึ้น [2]",
+        "GBIF ระบุชื่อพ้องหลายชื่อ เช่น Penicillium baculatum และ Penicillium brunneorubrum [1]"
+      ]
     }
   },
   {
@@ -601,7 +829,8 @@
     "summary_th": "ใช้หมักซีอิ๊ว เต้าเจี้ยว และมิโซะ เพราะสร้างเอนไซม์ย่อยแป้งและโปรตีน",
     "summary_en": "Used to ferment soy sauce, bean paste and miso because it makes enzymes that break down starch and protein.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายแป้งและโปรตีน",
@@ -634,7 +863,55 @@
       "gbif": 5259827,
       "ncbi": 5062
     },
-    "accepted_name": "Aspergillus flavus"
+    "accepted_name": "Aspergillus flavus",
+    "authority": "(Ahlb.) Cohn",
+    "refs": [
+      {
+        "title": "GBIF: Aspergillus oryzae (Ahlb.) Cohn",
+        "url": "https://www.gbif.org/species/5259820",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Machida M et al. Genome sequencing and analysis of Aspergillus oryzae. Nature 2005;438:1157-1161",
+        "url": "https://doi.org/10.1038/nature04300",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราที่สำคัญต่อการผลิตอาหารและเครื่องดื่มหมักแบบดั้งเดิมของญี่ปุ่น [2] หลั่งโปรตีนได้มาก จึงใช้ในเทคโนโลยีชีวภาพสมัยใหม่ [2] ต่างจาก A. flavus ตรงที่ไม่สร้างสารอะฟลาทอกซิน [2]",
+      "traitsExtra": [
+        [
+          "จีโนม",
+          "37 ล้านคู่เบส มี 12,074 ยีน [2]"
+        ]
+      ],
+      "life": [
+        [
+          "การหลั่งโปรตีน",
+          "สามารถหลั่งโปรตีนออกมาได้มาก [2]"
+        ],
+        [
+          "จีโนม",
+          "ใหญ่กว่าจีโนมของ A. nidulans และ A. fumigatus อยู่ราว 7 ถึง 9 ล้านคู่เบส [2]"
+        ]
+      ],
+      "why": [
+        [
+          "อาหาร",
+          "ใช้ผลิตอาหารและเครื่องดื่มหมักแบบดั้งเดิมของญี่ปุ่นมายาวนาน และประวัติการใช้ในอุตสาหกรรมอาหารยืนยันว่าปลอดภัย [2]"
+        ],
+        [
+          "อุตสาหกรรม",
+          "หลั่งโปรตีนได้มากและมีระบบถ่ายยีน จึงใช้ในเทคโนโลยีชีวภาพสมัยใหม่ [2]"
+        ]
+      ],
+      "asideTitle": "ญาติใกล้ชิดที่ไม่สร้างอะฟลาทอกซิน",
+      "aside": [
+        "GBIF จัดชนิดนี้เป็นชื่อพ้องของ Aspergillus flavus [1]",
+        "A. oryzae กับ A. flavus อยู่ในหมู่ Flavi ของสกุลย่อย Circumdati เหมือนกัน [2]",
+        "จีโนมยาว 37 ล้านคู่เบส มี 12,074 ยีน [2]"
+      ]
+    }
   },
   {
     "id": "volvariella-volvacea",
@@ -681,7 +958,9 @@
     "summary_th": "เพาะได้จากฟางข้าว ดอกเห็ดคือส่วนที่สร้างเบสิดิโอสปอร์",
     "summary_en": "Can be grown on rice straw. The mushroom is the part that makes basidiospores.",
     "traits": {
-      "form": "mushroom"
+      "form": "mushroom",
+      "safety": "edible",
+      "fmode": "saprotroph"
     },
     "traits_text_th": {
       "food": "ย่อยสลายฟางและเศษพืช",
@@ -741,6 +1020,67 @@
     "taxon_ids": {
       "gbif": 5241445,
       "ncbi": 36659
+    },
+    "authority": "(Bull.) Singer",
+    "synonyms": [
+      "Agaricus volvaceus",
+      "Agaricus virgatus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Volvariella volvacea (Bull.) Singer",
+        "url": "https://www.gbif.org/species/5241445",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Bao D et al. Sequencing and comparative analysis of the straw mushroom (Volvariella volvacea) genome. PLoS One 2013;8:e58294",
+        "url": "https://doi.org/10.1371/journal.pone.0058294",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Kumla J et al. Cultivation of mushrooms and their lignocellulolytic enzyme production through the utilization of agro-industrial waste. Molecules 2020;25:2811",
+        "url": "https://doi.org/10.3390/molecules25122811",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "เห็ดฟางที่กินได้ มีคุณค่าทางอาหารสูง และเพาะเลี้ยงเชิงพาณิชย์กันมากในหลายส่วนของเอเชียด้วยฟางข้าวและเศษฝ้าย [2] ข้อจำกัดของการเพาะคือผลผลิตต่อวัสดุเพาะต่ำ ไวต่ออุณหภูมิต่ำ และยังไม่ชัดเจนเรื่องรูปแบบการมีเพศ [2]",
+      "traitsExtra": [
+        [
+          "จีโนม",
+          "35.7 ล้านคู่เบส ประกอบเป็น 62 สกาฟโฟลด์ [2]"
+        ]
+      ],
+      "life": [
+        [
+          "วัสดุเพาะ",
+          "เติบโตบนวัสดุเหลือใช้ทางการเกษตร เช่น ฟางข้าวและเศษฝ้าย [2]"
+        ],
+        [
+          "อุณหภูมิ",
+          "ไวต่ออุณหภูมิต่ำ [2]"
+        ],
+        [
+          "การย่อยวัสดุ",
+          "เห็ดย่อยวัสดุลิกโนเซลลูโลสด้วยเอนไซม์ แล้วใช้สิ่งที่ย่อยได้สร้างดอกเห็ด [3]"
+        ]
+      ],
+      "why": [
+        [
+          "อาหาร",
+          "เป็นแหล่งอาหารที่มีคุณค่าทางอาหารสูง [2]"
+        ],
+        [
+          "เกษตร",
+          "เพาะบนวัสดุเหลือใช้ทางการเกษตรจึงช่วยใช้ประโยชน์จากของเสีย ซึ่งอาจเป็นปัญหาสิ่งแวดล้อมเมื่อกำจัดหรือเผา [2][3]"
+        ]
+      ],
+      "asideTitle": "เห็ดที่เพาะบนวัสดุเหลือใช้",
+      "aside": [
+        "ชื่อพ้องใน GBIF เช่น Agaricus volvaceus และ Agaricus virgatus [1]",
+        "จีโนมยาว 35.7 ล้านคู่เบส ประกอบเป็น 62 สกาฟโฟลด์ [2]",
+        "ผู้วิจัยถอดรหัสจีโนมเพื่อแก้ปัญหาผลผลิตต่ำและรูปแบบการมีเพศที่ยังไม่ชัดเจน ซึ่งขัดขวางการพัฒนาสายพันธุ์ [2]"
+      ]
     }
   },
   {
@@ -787,7 +1127,9 @@
     "summary_th": "ยีสต์ที่มีแคปซูลหนา ก่อเยื่อหุ้มสมองอักเสบในผู้ที่ภูมิคุ้มกันต่ำ",
     "summary_en": "A yeast with a thick capsule that causes meningitis in people with weak immunity.",
     "traits": {
-      "form": "yeast"
+      "form": "yeast",
+      "hyphae": "nohyphae",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายสารอินทรีย์ และก่อโรคแบบฉวยโอกาส",
@@ -819,6 +1161,75 @@
     "taxon_ids": {
       "gbif": 5237368,
       "ncbi": 5207
+    },
+    "authority": "(San Felice) Vuill.",
+    "synonyms": [
+      "Blastomyces neoformans",
+      "Cryptococcus breweri"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Cryptococcus neoformans (San Felice) Vuill.",
+        "url": "https://www.gbif.org/species/5237368",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "CDC: About Cryptococcosis",
+        "url": "https://www.cdc.gov/cryptococcosis/about/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Loftus BJ et al. The genome of the basidiomycetous yeast and human pathogen Cryptococcus neoformans. Science 2005;307:1321-1324",
+        "url": "https://doi.org/10.1126/science.1103773",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Rajasingham R et al. Global burden of disease of HIV-associated cryptococcal meningitis: an updated analysis. Lancet Infect Dis 2017;17:873-881",
+        "url": "https://doi.org/10.1016/s1473-3099(17)30243-8",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ยีสต์ในกลุ่มเบสิดิโอไมซีตที่พบทั่วไปในสิ่งแวดล้อม [3] ก่อโรคแบบฉวยโอกาสในคน ซึ่งเป็นปัญหาสำคัญทั่วโลก [3] คนติดเชื้อจากการหายใจเอาสปอร์เข้าไป [2] ส่วนราสกุลนี้เป็นสาเหตุที่พบบ่อยที่สุดของเยื่อหุ้มสมองอักเสบในผู้ใหญ่ที่ติดเชื้อเอชไอวีในแอฟริกาใต้ซาฮารา [4]",
+      "traitsExtra": [
+        [
+          "จีโนม",
+          "ราว 20 ล้านคู่เบส มียีนราว 6,500 ยีน [3]"
+        ]
+      ],
+      "life": [
+        [
+          "แหล่งที่อยู่",
+          "พบได้ทั่วไปในสิ่งแวดล้อม [3] C. neoformans พบทั่วโลก [2]"
+        ],
+        [
+          "รูปร่าง",
+          "เป็นยีสต์ [3]"
+        ],
+        [
+          "จีโนม",
+          "ยาวราว 20 ล้านคู่เบส มียีนราว 6,500 ยีนที่มีอินทรอนมาก และมีทรานสโพซอนมาก [3]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "ก่อโรคแบบฉวยโอกาสที่ปอดและสมอง ส่วนใหญ่เกิดกับคนที่ภูมิคุ้มกันอ่อนแอ โดยเฉพาะผู้ป่วยเอชไอวี/เอดส์ระยะลุกลาม [2] และใช้เป็นต้นแบบศึกษาการก่อโรคของรา [3]"
+        ]
+      ],
+      "asideTitle": "ยีสต์ที่เป็นต้นแบบของการก่อโรค",
+      "aside": [
+        "ในกลุ่มนี้ CDC แยกสองชนิดหลัก คือ C. neoformans พบทั่วโลก และ C. gattii พบมากในเขตร้อนและกึ่งเขตร้อน [2]",
+        "ทรานสโพซอนในจีโนมอาจทำให้โครโมโซมไม่เสถียรและทำให้ลักษณะของเชื้อต่างกัน [3]",
+        "จีโนมมียีนที่เป็นเอกลักษณ์ซึ่งอาจเกี่ยวกับความรุนแรงของการก่อโรค [3]"
+      ],
+      "disease": {
+        "name": "โรคคริปโตค็อกโคซิส เป็นการติดเชื้อรารุนแรง มักเป็นที่ปอดหรือสมอง โดยสมองทำให้เกิดเยื่อหุ้มสมองอักเสบ [2]",
+        "symptoms": "ปอดติดเชื้อทำให้ไอ หายใจสั้น เจ็บหน้าอก และมีไข้ ส่วนเยื่อหุ้มสมองอักเสบทำให้ปวดศีรษะ ปวดคอ ไวต่อแสง สับสน หรือพฤติกรรมเปลี่ยน [2]",
+        "transmission": "หายใจเอาสปอร์จากสิ่งแวดล้อมเข้าไป คนส่วนใหญ่ที่สัมผัสเชื้อไม่ป่วย และคนปกติก็เป็นได้แต่พบน้อย [2]",
+        "prevention": "แหล่งอ้างอิงไม่ระบุวิธีป้องกันโดยตรง แต่ระบุว่าการตรวจคัดกรองช่วยพบและรักษาก่อนมีอาการหรือก่อนอาการรุนแรง โดย CDC สนับสนุนการตรวจในผู้ติดเชื้อเอชไอวีก่อนเริ่มรักษาเอชไอวี [2]",
+        "drugs": "ยาต้านเชื้อรา ใช้ต่อเนื่องเป็นเวลานาน [2]"
+      }
     }
   },
   {
@@ -865,7 +1276,8 @@
     "summary_th": "ราขนมปังสีส้มที่บีเดิลและเททัมใช้ทดลองจนได้แนวคิดหนึ่งยีนหนึ่งเอนไซม์",
     "summary_en": "An orange bread mold that Beadle and Tatum used in experiments leading to the one gene, one enzyme idea.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายสารอินทรีย์",
@@ -897,6 +1309,59 @@
     "taxon_ids": {
       "gbif": 5253986,
       "ncbi": 5141
+    },
+    "authority": "Shear & B.O.Dodge",
+    "refs": [
+      {
+        "title": "GBIF: Neurospora crassa Shear & B.O.Dodge",
+        "url": "https://www.gbif.org/species/5253986",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Galagan JE et al. The genome sequence of the filamentous fungus Neurospora crassa. Nature 2003;422:859-868",
+        "url": "https://doi.org/10.1038/nature01554",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Beadle GW, Tatum EL. Genetic control of biochemical reactions in Neurospora. PNAS 1941;27:499-506",
+        "url": "https://doi.org/10.1073/pnas.27.11.499",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราเส้นสายที่เป็นสิ่งมีชีวิตสำคัญในประวัติศาสตร์พันธุศาสตร์ ชีวเคมี และชีววิทยาโมเลกุลของศตวรรษที่ 20 [2] จีโนมยาวราว 40 ล้านคู่เบส มียีนราว 10,000 ยีน [2]",
+      "traitsExtra": [
+        [
+          "จีโนม",
+          "ราว 40 ล้านคู่เบส มียีนราว 10,000 ยีน [2]"
+        ]
+      ],
+      "life": [
+        [
+          "การรับแสง",
+          "จีโนมมียีนที่น่าจะเกี่ยวกับการตอบสนองต่อแสงสีแดง [2]"
+        ],
+        [
+          "เมแทบอลิซึมทุติยภูมิ",
+          "มียีนที่เกี่ยวกับการสร้างสารทุติยภูมิ [2]"
+        ],
+        [
+          "การส่งสัญญาณแคลเซียม",
+          "ต่างจากพืชและสัตว์หลายจุด [2]"
+        ]
+      ],
+      "why": [
+        [
+          "วิทยาศาสตร์",
+          "เป็นสิ่งมีชีวิตสำคัญของพันธุศาสตร์และชีวเคมียุคศตวรรษที่ 20 [2] งานของบีเดิลและเททัมในปี 1941 เรื่องการควบคุมปฏิกิริยาชีวเคมีด้วยยีน ศึกษาในราชนิดนี้ [3]"
+        ]
+      ],
+      "asideTitle": "ราที่พาชีวเคมีและพันธุศาสตร์ก้าวหน้า",
+      "aside": [
+        "มียีนมากกว่ายีสต์ Schizosaccharomyces pombe เกินสองเท่า และน้อยกว่าแมลงหวี่ราว 25% [2]",
+        "บทความของบีเดิลและเททัมปี 1941 ชื่อ Genetic Control of Biochemical Reactions in Neurospora [3]",
+        "ผู้วิจัยรายงานจีโนมเป็นฉบับร่างคุณภาพสูง [2]"
+      ]
     }
   },
   {
@@ -944,7 +1409,9 @@
     "summary_th": "ราที่ขึ้นบนถั่วลิสงและข้าวโพดที่เก็บไว้ชื้น สร้างอะฟลาทอกซินซึ่งเป็นสารก่อมะเร็งตับ",
     "summary_en": "A mold that grows on peanuts and corn stored damp. It makes aflatoxin, a liver carcinogen.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "fmode": "saprotroph",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายสารอินทรีย์",
@@ -1004,6 +1471,79 @@
     "taxon_ids": {
       "gbif": 5259820,
       "ncbi": 5059
+    },
+    "authority": "Link",
+    "synonyms": [
+      "Aspergillus effusus",
+      "Aspergillus fasciculatus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Aspergillus flavus Link",
+        "url": "https://www.gbif.org/species/5259820",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "CDC: About Aspergillosis",
+        "url": "https://www.cdc.gov/aspergillosis/about/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Amaike S, Keller NP. Aspergillus flavus. Annu Rev Phytopathol 2011;49:107-133",
+        "url": "https://doi.org/10.1146/annurev-phyto-072910-095221",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Bennett JW, Klich M. Mycotoxins. Clin Microbiol Rev 2003;16:497-516",
+        "url": "https://doi.org/10.1128/cmr.16.3.497-516.2003",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราในดินที่เติบโตบนซากสิ่งมีชีวิต [3] ปนเปื้อนเมล็ดพืชทั้งก่อนและหลังเก็บเกี่ยวด้วยอะฟลาทอกซิน ซึ่งเป็นสารก่อมะเร็ง [3] และเป็นเชื้อก่อโรคแบบฉวยโอกาสของคนและสัตว์ที่ทำให้เกิดโรคแอสเปอร์จิลโลซิส [3]",
+      "traitsExtra": [
+        [
+          "กลุ่มยีนสร้างสารทุติยภูมิ",
+          "55 กลุ่ม [3]"
+        ]
+      ],
+      "life": [
+        [
+          "แหล่งที่อยู่",
+          "ดิน เติบโตบนซากสิ่งมีชีวิต [3]"
+        ],
+        [
+          "การสร้างสาร",
+          "จีโนมมีกลุ่มยีนสร้างสารทุติยภูมิ 55 กลุ่ม ซึ่งถูกควบคุมตามสภาพแวดล้อมและโดยตัวควบคุมหลัก LaeA และ VeA [3]"
+        ],
+        [
+          "การก่อโรค",
+          "ลักษณะที่เกี่ยวกับการก่อโรคและการปรับตัวเข้ากับถิ่น ได้แก่ การสร้างสารทุติยภูมิ การหลั่งเอนไซม์ และการสื่อสารกับโฮสต์ผ่านออกซิลิพิน [3]"
+        ]
+      ],
+      "why": [
+        [
+          "อาหาร",
+          "ปนเปื้อนเมล็ดพืชด้วยอะฟลาทอกซิน ซึ่งเป็นสารก่อมะเร็ง [3] ไมโคทอกซินเป็นสารทุติยภูมิของรา ทำให้เกิดโรคและตายได้ทั้งในคนและสัตว์ [4]"
+        ],
+        [
+          "การแพทย์",
+          "เป็นเชื้อก่อโรคแบบฉวยโอกาส ทำให้เกิดแอสเปอร์จิลโลซิสในกลุ่มผู้ที่ภูมิคุ้มกันอ่อนแอ ซึ่งมีจำนวนเพิ่มขึ้น [3]"
+        ]
+      ],
+      "asideTitle": "ราที่ปนเปื้อนอาหารด้วยสารก่อมะเร็ง",
+      "aside": [
+        "GBIF จัดชนิดนี้เป็นชื่อที่ยอมรับ ส่วน A. oryzae เป็นชื่อพ้อง [1]",
+        "จีโนมของ A. flavus ถูกถอดรหัสและเผยแพร่แล้ว [3]",
+        "อะฟลาทอกซินเป็นไมโคทอกซินที่ปรากฏในงานรีวิวที่เน้นโรคของคนและสัตว์ [4]"
+      ],
+      "disease": {
+        "name": "แอสเปอร์จิลโลซิส คือการติดเชื้อจากการหายใจเอาสปอร์ของราสกุล Aspergillus เข้าไป ซึ่ง A. flavus เป็นสาเหตุหนึ่ง [2][3]",
+        "symptoms": "คนส่วนใหญ่ไม่มีอาการ ที่พบทั่วไปคือไอและหายใจสั้น บางแบบมีคัดจมูก ปวดศีรษะ อ่อนเพลีย หรือไอเป็นเลือด ส่วนปอดติดเชื้อรุนแรงทำให้มีไข้และเจ็บหน้าอก และถ้าแพร่ไปที่อื่นก็มีอาการอื่นตามมา [2]",
+        "transmission": "หายใจเอาสปอร์ที่มองไม่เห็นจากสิ่งแวดล้อมเข้าไป และไม่ติดต่อระหว่างคนหรือระหว่างคนกับสัตว์ [2]",
+        "prevention": "แหล่งอ้างอิงระบุว่าผู้ที่ภูมิคุ้มกันอ่อนแอลดความเสี่ยงได้ แต่ไม่ได้ระบุวิธีไว้ในหน้านี้ [2]",
+        "drugs": "โดยทั่วไปใช้ยาต้านเชื้อรา ขึ้นกับชนิดของการติดเชื้อ แหล่งอ้างอิงระบุว่ามีเชื้อ A. fumigatus ดื้อยาเพิ่มขึ้น ทำให้รักษายากขึ้น [2]"
+      }
     }
   },
   {
@@ -1051,7 +1591,9 @@
     "summary_th": "เห็ดที่เพาะจากขี้เลื่อยและฟาง ครีบอยู่ใต้หมวกและลาดลงมาถึงก้าน",
     "summary_en": "A mushroom grown on sawdust and straw. Its gills sit under the cap and run down onto the stalk.",
     "traits": {
-      "form": "mushroom"
+      "form": "mushroom",
+      "safety": "edible",
+      "fmode": "saprotroph"
     },
     "traits_text_th": {
       "food": "ย่อยสลายเนื้อไม้",
@@ -1111,6 +1653,67 @@
     "taxon_ids": {
       "gbif": 2526530,
       "ncbi": 5322
+    },
+    "authority": "(Jacq.) P.Kumm.",
+    "synonyms": [
+      "Agaricus glandulosus",
+      "Agaricus convivarum"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Pleurotus ostreatus (Jacq.) P.Kumm.",
+        "url": "https://www.gbif.org/species/2526530",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Sánchez C. Cultivation of Pleurotus ostreatus and other edible mushrooms. Appl Microbiol Biotechnol 2010;85:1321-1337",
+        "url": "https://doi.org/10.1007/s00253-009-2343-7",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Riley R et al. Extensive sampling of basidiomycete genomes demonstrates inadequacy of the white-rot/brown-rot paradigm for wood decay fungi. PNAS 2014;111:9923-9928",
+        "url": "https://doi.org/10.1073/pnas.1400592111",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "เห็ดนางรมที่เป็นเห็ดกินได้ซึ่งเพาะมากเป็นอันดับสองของโลก รองจากเห็ดแชมปิญอง [2] ย่อยวัสดุลิกโนเซลลูโลสและของเหลือทิ้งได้หลายชนิด [2] ใช้เวลาเจริญสั้นกว่าเห็ดกินได้ชนิดอื่น [2]",
+      "traitsExtra": [
+        [
+          "อันดับของเห็ดกินได้ที่เพาะมากที่สุดในโลก",
+          "อันดับสอง รองจาก Agaricus bisporus [2]"
+        ]
+      ],
+      "life": [
+        [
+          "การย่อยวัสดุ",
+          "ยึดครองและย่อยวัสดุลิกโนเซลลูโลสและของเสียที่มาจากเกษตรกรรม ป่าไม้ และอุตสาหกรรมอาหารได้หลายชนิด [2]"
+        ],
+        [
+          "การเจริญ",
+          "ใช้เวลาเจริญสั้นกว่าเห็ดกินได้ชนิดอื่น [2]"
+        ],
+        [
+          "วัสดุเพาะ",
+          "ไม่ต้องฆ่าเชื้อเต็มที่ ใช้การพาสเจอร์ไรส์ซึ่งถูกกว่า [2]"
+        ]
+      ],
+      "why": [
+        [
+          "อาหาร",
+          "เป็นเห็ดกินได้ที่เพาะเป็นอันดับสองของโลกรองจาก Agaricus bisporus [2]"
+        ],
+        [
+          "เกษตร",
+          "นำวัสดุเหลือใช้ทางการเกษตร ป่าไม้ และอุตสาหกรรมอาหารมาเพาะเป็นดอกเห็ดได้ และมีมูลค่าทั้งทางเศรษฐกิจและนิเวศ [2]"
+        ]
+      ],
+      "asideTitle": "เห็ดที่เลี้ยงบนของเหลือทิ้ง",
+      "aside": [
+        "ผู้เขียนรีวิวระบุว่าการเพาะเห็ดเริ่มหันไปผลิตเห็ดหลายชนิดมากขึ้น [2]",
+        "GBIF ระบุชื่อพ้องเช่น Agaricus glandulosus และ Agaricus convivarum [1]",
+        "เห็ดกลุ่มเบสิดิโอไมซีตเป็น 32% ของราที่มีชื่อแล้ว และรวมถึงราที่ย่อยไม้เป็นส่วนใหญ่ [3]"
+      ]
     }
   },
   {
@@ -1158,7 +1761,8 @@
     "summary_th": "เห็ดที่ปลวกเพาะไว้ในรังใต้ดิน ปลวกได้อาหารจากเส้นใยเห็ด ส่วนเห็ดได้ที่อยู่และเศษพืช",
     "summary_en": "A mushroom that termites grow in underground nests. The termites get food from the fungal threads, and the fungus gets a home and plant debris.",
     "traits": {
-      "form": "mushroom"
+      "form": "mushroom",
+      "fmode": "symbiont"
     },
     "traits_text_th": {
       "food": "อยู่ร่วมกับปลวกแบบพึ่งพากัน",
@@ -1204,6 +1808,53 @@
     "taxon_ids": {
       "gbif": 3347384,
       "ncbi": 858890
+    },
+    "authority": "R.Heim",
+    "synonyms": [
+      "Termitomyces robustus var. fuliginosus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Termitomyces fuliginosus R.Heim",
+        "url": "https://www.gbif.org/species/3347384",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Aanen DK et al. The evolution of fungus-growing termites and their mutualistic fungal symbionts. PNAS 2002;99:14887-14892",
+        "url": "https://doi.org/10.1073/pnas.222313099",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราในสกุล Termitomyces อยู่ร่วมกับปลวกที่เพาะเลี้ยงรา [2] ข้อมูลด้านล่างมาจากสกุลโดยรวม ไม่ใช่เฉพาะชนิด T. fuliginosus",
+      "traitsExtra": [
+        [
+          "ที่มาของการอยู่ร่วมกันระหว่างปลวกกับรา (ระดับสกุล)",
+          "จุดกำเนิดเดียวในแอฟริกา [2]"
+        ]
+      ],
+      "life": [
+        [
+          "ความสัมพันธ์",
+          "อยู่ร่วมกับปลวกที่เพาะเลี้ยงรา การอยู่ร่วมกันนี้มีจุดกำเนิดเดียวในแอฟริกา [2]"
+        ],
+        [
+          "การแพร่พันธุ์",
+          "ส่วนใหญ่ราถ่ายทอดระหว่างรังแบบแนวนอน และรังของปลวกชนิดเดียวอาจมีราหลายชนิด [2]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "ปลวกกับราเป็นการอยู่ร่วมกันแบบได้ประโยชน์ทั้งสองฝ่าย และไม่เคยมีการนำราชนิดอื่นมาเลี้ยงแทนหรือราที่กลับไปมีชีวิตอิสระ [2]"
+        ]
+      ],
+      "asideTitle": "ราที่ปลวกเลี้ยง",
+      "aside": [
+        "การศึกษาปี 2002 ใช้ลำดับดีเอ็นเอสร้างแผนผังวงศ์ตระกูลของปลวกและราที่อยู่ร่วมกัน [2]",
+        "ปลวกเปลี่ยนชนิดของราที่เลี้ยงบ่อยโดยเฉพาะในระดับอนุกรมวิธานต่ำ [2]",
+        "GBIF ระบุชื่อพ้องว่า Termitomyces robustus var. fuliginosus [1]"
+      ]
     }
   },
   {
@@ -1250,7 +1901,8 @@
     "summary_th": "ยีสต์ที่อยู่ในปากและลำไส้ตามปกติ แต่เปลี่ยนเป็นเส้นใยและก่อโรคเชื้อราในช่องปากหรือช่องคลอดเมื่อภูมิคุ้มกันต่ำ",
     "summary_en": "A yeast that normally lives in the mouth and gut, but turns into threads and causes fungal infection of the mouth or vagina when immunity is low.",
     "traits": {
-      "form": "yeast"
+      "form": "yeast",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายสารอินทรีย์ และก่อโรคแบบฉวยโอกาส",
@@ -1310,6 +1962,75 @@
     "taxon_ids": {
       "gbif": 2599597,
       "ncbi": 5476
+    },
+    "authority": "(C.P.Robin) Berkhout",
+    "synonyms": [
+      "Atelosaccharomyces harteri",
+      "Actonia tropicalis"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Candida albicans (C.P.Robin) Berkhout",
+        "url": "https://www.gbif.org/species/2599597",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "CDC: About Candidiasis",
+        "url": "https://www.cdc.gov/candidiasis/about/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Butler G et al. Evolution of pathogenicity and sexual reproduction in eight Candida genomes. Nature 2009;459:657-662",
+        "url": "https://doi.org/10.1038/nature08064",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Brown GD et al. Hidden killers: human fungal infections. Sci Transl Med 2012;4:165rv13",
+        "url": "https://doi.org/10.1126/scitranslmed.3004404",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ยีสต์ที่ปกติอยู่บนผิวหนังและในปาก คอ และช่องคลอดโดยไม่ทำให้เกิดอาการ [2] แต่เมื่อเจริญมากเกินไปจะก่อโรคแคนดิดิเอซิส [2] ราสกุล Candida เป็นสาเหตุที่พบบ่อยที่สุดของการติดเชื้อราแบบฉวยโอกาสทั่วโลก [3]",
+      "traitsExtra": [
+        [
+          "ตำแหน่งที่พบตามปกติ",
+          "ผิวหนัง ปาก คอ และช่องคลอด [2]"
+        ]
+      ],
+      "life": [
+        [
+          "แหล่งที่อยู่",
+          "ผิวหนัง ปาก คอ และช่องคลอดของคน [2]"
+        ],
+        [
+          "การก่อโรค",
+          "ก่อโรคเมื่อเจริญเกินควบคุม [2]"
+        ],
+        [
+          "การปรับตัว",
+          "Candida ที่ก่อโรคมีกลุ่มยีนผนังเซลล์ โปรตีนหลั่ง และตัวขนส่งขยายตัวมากกว่าชนิดที่ไม่ก่อโรค [3]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "การติดเชื้อราส่งผลต่อการป่วยและเสียชีวิตของคนมาก แต่ผลกระทบยังไม่เป็นที่ตระหนักอย่างกว้างขวาง [4] Candida เป็นสาเหตุที่พบบ่อยที่สุดของการติดเชื้อราแบบฉวยโอกาสทั่วโลก [3]"
+        ]
+      ],
+      "asideTitle": "ราที่ชอบเป็นผู้อยู่ร่วมก่อนกลายเป็นเชื้อก่อโรค",
+      "aside": [
+        "การศึกษาจีโนมของ Candida แปดชนิดพบว่าบางชนิดไม่มีองค์ประกอบสำคัญของการผสมพันธุ์และไมโอซิส [3]",
+        "ในสามชนิดที่เป็นดิพลอยด์ มีบริเวณกว้างของจีโนมที่เหมือนกันทั้งสองชุดโครโมโซม [3]",
+        "GBIF ระบุชื่อพ้องของ C. albicans ไว้จำนวนมาก เช่น Actonia tropicalis [1]"
+      ],
+      "disease": {
+        "name": "แคนดิดิเอซิส คือการติดเชื้อรา Candida ที่เกิดเมื่อยีสต์ที่ปกติอยู่บนผิวหนังและเยื่อบุเจริญมากเกินไป [2]",
+        "symptoms": "ขึ้นกับตำแหน่ง ในช่องปากหรือคอ (เชื้อราในปาก) มีคราบขาว แดง หรือเจ็บ ในช่องคลอดคัน เจ็บ และมีตกขาว หลอดอาหารเจ็บและกลืนลำบาก ผิวหนังเป็นผื่นคันหรือแสบ ส่วนชนิดลุกลามมักมีไข้และหนาวสั่น [2]",
+        "transmission": "แหล่งอ้างอิงไม่ได้อธิบายการแพร่ [2]",
+        "prevention": "แหล่งอ้างอิงกล่าวถึงการป้องกันแต่ไม่ได้ระบุวิธี [2]",
+        "drugs": "ยาต้านเชื้อรา มีทั้งครีม ยาอม น้ำยาบ้วนปาก ยากิน และยาทางหลอดเลือด เลือกตามชนิดและความรุนแรงของการติดเชื้อ [2]"
+      }
     }
   },
   {
@@ -1357,7 +2078,8 @@
     "summary_th": "ราที่เป็นปรสิตในดักแด้แมลง สร้างดอกสีส้ม นำมาเพาะเลี้ยงเป็นอาหารเสริม",
     "summary_en": "A fungus that is a parasite in insect pupae and makes orange fruiting bodies. It is cultured as a food supplement.",
     "traits": {
-      "form": "mushroom"
+      "form": "mushroom",
+      "fmode": "parasite"
     },
     "traits_text_th": {
       "food": "ปรสิตในตัวอ่อนและดักแด้ของแมลง",
@@ -1417,6 +2139,54 @@
     "taxon_ids": {
       "gbif": 7567077,
       "ncbi": 73501
+    },
+    "authority": "(L.) Fr.",
+    "synonyms": [
+      "Clavaria militaris",
+      "Clavaria granulosa"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Cordyceps militaris (L.) Fr.",
+        "url": "https://www.gbif.org/species/7567077",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Zheng P et al. Genome sequence of the insect pathogenic fungus Cordyceps militaris, a valued traditional Chinese medicine. Genome Biol 2011;12:R116",
+        "url": "https://doi.org/10.1186/gb-2011-12-11-r116",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราที่ก่อโรคในแมลง และเป็นสมุนไพรจีนที่มีราคาสูง [2] เป็นชนิดต้นแบบของสกุล Cordyceps [2]",
+      "traitsExtra": [
+        [
+          "สถานะของชนิด",
+          "ชนิดต้นแบบของสกุล Cordyceps [2]"
+        ]
+      ],
+      "life": [
+        [
+          "ความสัมพันธ์",
+          "เป็นเชื้อก่อโรคในแมลง [2]"
+        ],
+        [
+          "วิวัฒนาการ",
+          "การศึกษาจีโนมเสนอว่าราในสกุล Cordyceps และ Metarhizium วิวัฒนาการเป็นเชื้อก่อโรคแมลงแยกกันเอง [2]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "ใช้ในตำรับยาแผนจีนและมีราคาสูง แต่ยีนที่สร้างสารออกฤทธิ์ทางชีวภาพยังไม่เคยรู้ก่อนงานจีโนมนี้ [2] เนื้อหานี้ไม่ได้ยืนยันว่ารักษาโรคได้"
+        ]
+      ],
+      "asideTitle": "ราก่อโรคแมลงที่ใช้ในตำรับยาจีน",
+      "aside": [
+        "Cordyceps เคยถูกเสนอว่าเป็นระยะอาศัยเพศของ Metarhizium ซึ่งใช้ควบคุมแมลงศัตรู [2]",
+        "GBIF ระบุชื่อพ้องที่ลินเนียสตั้งไว้ในสกุล Clavaria [1]",
+        "มีกลุ่มโปรตีนที่ถูกหลั่งออกมาขนาดใหญ่และกลุ่มยีนขยายตัว ซึ่งเกิดจากวิวัฒนาการแบบเกิดซ้ำ [2]"
+      ]
     }
   },
   {
@@ -1463,7 +2233,9 @@
     "summary_th": "ราสนิมที่ทำให้ข้าวสาลีเสียหาย วงชีวิตต้องอาศัยพืชสองชนิดและสร้างสปอร์ได้ถึงห้าแบบ",
     "summary_en": "A rust fungus that damages wheat. Its life cycle needs two plant hosts and produces up to five kinds of spores.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "fmode": "parasite",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ปรสิตในพืช",
@@ -1523,6 +2295,59 @@
     "taxon_ids": {
       "gbif": 2514501,
       "ncbi": 5297
+    },
+    "authority": "Pers.",
+    "synonyms": [
+      "Aecidium berberidis",
+      "Aecidium berberidatum"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Puccinia graminis Pers.",
+        "url": "https://www.gbif.org/species/2514501",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Duplessis S et al. Obligate biotrophy features unraveled by the genomic analysis of rust fungi. PNAS 2011;108:9166-9171",
+        "url": "https://doi.org/10.1073/pnas.1019315108",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Singh RP et al. The emergence of Ug99 races of the stem rust fungus is a threat to world wheat production. Annu Rev Phytopathol 2011;49:465-481",
+        "url": "https://doi.org/10.1146/annurev-phyto-072910-095423",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราสนิมที่ก่อโรคลำต้นของข้าวสาลีและข้าวบาร์เลย์ [2] ราสนิมเป็นเชื้อก่อโรคที่ทำลายผลผลิตพืชรุนแรงที่สุดกลุ่มหนึ่ง [2] ต้องอาศัยเนื้อเยื่อพืชที่มีชีวิตเท่านั้น ไม่เติบโตแยกจากโฮสต์ [2]",
+      "traitsExtra": [
+        [
+          "จีโนม (P. graminis f. sp. tritici)",
+          "89 ล้านคู่เบส [2]"
+        ]
+      ],
+      "life": [
+        [
+          "การได้อาหาร",
+          "เป็นไบโอโทรฟบังคับ ดึงสารอาหารเฉพาะจากเนื้อเยื่อพืชที่มีชีวิต [2]"
+        ],
+        [
+          "จีโนม",
+          "จีโนมของ P. graminis f. sp. tritici ยาว 89 ล้านคู่เบส มีโปรตีนที่ทำนายได้ 17,773 ชนิด [2]"
+        ]
+      ],
+      "why": [
+        [
+          "เกษตร",
+          "สายพันธุ์ Ug99 ตรวจพบครั้งแรกที่ยูกันดาปี 1998 และเป็นภัยคุกคามผลผลิตข้าวสาลีโลก เพราะข้าวสาลี 90% ของพันธุ์ที่ปลูกทั่วโลกอ่อนแอต่อโรค [3] ปัจจุบันรู้จักสายพันธุ์ในกลุ่ม Ug99 เจ็ดสายพันธุ์ ที่แพร่ไปที่ราบสูงทางตะวันออกของแอฟริกา ซิมบับเว แอฟริกาใต้ ซูดาน เยเมน และอิหร่าน [3]"
+        ]
+      ],
+      "asideTitle": "สนิมลำต้นที่คุกคามข้าวสาลีโลก",
+      "aside": [
+        "GBIF ระบุชื่อพ้องที่เคยอยู่ในสกุล Aecidium [1]",
+        "การแพร่ของสายพันธุ์ Ug99 เกิดได้ทั้งตามลมและจากการขนส่งของคน [3]",
+        "การคัดกรองในเคนยาและเอธิโอเปียพบพันธุ์ข้าวสาลีต้านทานน้อยมาก [3]"
+      ]
     }
   },
   {
@@ -1569,7 +2394,9 @@
     "summary_th": "ฟังไจที่ก่อปอดอักเสบรุนแรงในผู้ติดเชื้อเอชไอวี เดิมเคยถูกจัดเป็นโปรโตซัว",
     "summary_en": "A fungus that causes severe pneumonia in people with HIV. It was once classified as a protozoan.",
     "traits": {
-      "form": "yeast"
+      "form": "yeast",
+      "fmode": "parasite",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ปรสิตในถุงลมปอด",
@@ -1601,6 +2428,66 @@
     "taxon_ids": {
       "gbif": 2610978,
       "ncbi": 42068
+    },
+    "authority": "Frenkel",
+    "refs": [
+      {
+        "title": "GBIF: Pneumocystis jirovecii Frenkel",
+        "url": "https://www.gbif.org/species/2610978",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "CDC: About Pneumocystis Pneumonia",
+        "url": "https://www.cdc.gov/pneumocystis-pneumonia/about/index.html",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Ma L et al. Genome analysis of three Pneumocystis species reveals adaptation mechanisms to life exclusively in mammalian hosts. Nat Commun 2016;7:10740",
+        "url": "https://doi.org/10.1038/ncomms10740",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราที่ก่อโรคปอดอักเสบรุนแรงในผู้ที่ภูมิคุ้มกันอ่อนแอ [2][3] ติดผ่านอากาศจากคนสู่คน [2] ปรับตัวให้อยู่เฉพาะในโฮสต์ที่เป็นสัตว์เลี้ยงลูกด้วยนม [3]",
+      "traitsExtra": [
+        [
+          "โฮสต์ของสกุล Pneumocystis",
+          "สัตว์เลี้ยงลูกด้วยนมเท่านั้น [3]"
+        ]
+      ],
+      "life": [
+        [
+          "ความสัมพันธ์",
+          "ปรสิตที่อยู่เฉพาะในสัตว์เลี้ยงลูกด้วยนม [3]"
+        ],
+        [
+          "จีโนม",
+          "จีโนมกะทัดรัดกว่าราอื่น ตัดยีนไรโบโซมอลอาร์เอ็นเอ ตัวขนส่ง ตัวควบคุมการถอดรหัส และวิถีเมแทบอลิซึมหลายอย่าง แต่ขยายโปรตีนผิวเซลล์ [3]"
+        ],
+        [
+          "การพาเชื้อ",
+          "ผู้ใหญ่ที่แข็งแรงบางคนพาเชื้อได้โดยไม่ป่วย [2]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "เป็นสาเหตุหลักของปอดอักเสบที่อาจถึงชีวิตในผู้ที่ภูมิคุ้มกันอ่อนแอ รวมถึงผู้ป่วยหลังปลูกถ่ายอวัยวะและผู้ติดเชื้อเอชไอวี/เอดส์ [3]"
+        ]
+      ],
+      "asideTitle": "ราที่ติดเฉพาะในสัตว์เลี้ยงลูกด้วยนม",
+      "aside": [
+        "งานปี 2016 เปรียบเทียบจีโนมของ Pneumocystis สามชนิดที่ติดเชื้อในคน หนู และหนูถีบจักร [3]",
+        "จีโนมมีกลุ่มโปรตีนผิวเซลล์ไกลโคโปรตีนขนาดใหญ่ที่ไม่เหมือนใคร [3]",
+        "ชื่อโรคปอดอักเสบจากเชื้อนี้ที่ CDC ใช้คือ PCP [2]"
+      ],
+      "disease": {
+        "name": "ปอดอักเสบจาก Pneumocystis (PCP) เป็นการติดเชื้อปอดที่พบไม่บ่อยแต่รุนแรง และอาจถึงตายถ้าไม่รักษา [2]",
+        "symptoms": "มักเกิดขึ้นในเวลาหลายวันถึงหลายสัปดาห์ ได้แก่ ไข้ ไอ หายใจลำบาก เจ็บหน้าอก หนาวสั่น และอ่อนเพลีย [2]",
+        "transmission": "ผ่านอากาศจากคนสู่คน ผู้ใหญ่ที่แข็งแรงบางคนพาเชื้อโดยไม่ป่วยและแพร่ให้ผู้ที่ภูมิคุ้มกันอ่อนแอได้ [2]",
+        "prevention": "ไม่มีวัคซีน แนะนำให้ผู้ที่เสี่ยงสูง เช่น ผู้ติดเชื้อเอชไอวี ผู้ปลูกถ่ายสเต็มเซลล์ ผู้ปลูกถ่ายอวัยวะบางราย และผู้ที่ใช้สเตียรอยด์ขนาดสูงต่อเนื่อง ใช้ยาป้องกัน [2]",
+        "drugs": "ยาปฏิชีวนะ (ไม่ใช่ยาต้านเชื้อรา) ใช้ทางปากหรือทางหลอดเลือดเป็นเวลาหลายสัปดาห์ มีทางเลือกอื่นสำหรับผู้ที่ใช้ยาหลักไม่ได้ [2]"
+      }
     }
   },
   {
@@ -1647,7 +2534,8 @@
     "summary_th": "ราดำที่ใช้ผลิตกรดซิตริกและเอนไซม์ในอุตสาหกรรม พบเป็นราสีดำบนหัวหอมและผลไม้",
     "summary_en": "A black mold used to produce citric acid and enzymes in industry. Seen as black mold on onions and fruit.",
     "traits": {
-      "form": "mold"
+      "form": "mold",
+      "safety": "na"
     },
     "traits_text_th": {
       "food": "ย่อยสลายสารอินทรีย์",
@@ -1707,6 +2595,53 @@
     "taxon_ids": {
       "gbif": 3465658,
       "ncbi": 5061
+    },
+    "authority": "Tiegh.",
+    "synonyms": [
+      "Aspergillopsis nigra"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Aspergillus niger Tiegh.",
+        "url": "https://www.gbif.org/species/3465658",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Pel HJ et al. Genome sequencing and analysis of the versatile cell factory Aspergillus niger CBS 513.88. Nat Biotechnol 2007;25:221-231",
+        "url": "https://doi.org/10.1038/nbt1282",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ราเส้นสายที่อุตสาหกรรมหมักใช้ผลิตเอนไซม์และกรดอินทรีย์ โดยเฉพาะกรดซิตริก [2] จีโนมสายพันธุ์ CBS 513.88 ซึ่งเป็นต้นตระกูลของสายพันธุ์ผลิตเอนไซม์ในปัจจุบัน ยาว 33.9 ล้านคู่เบส [2]",
+      "traitsExtra": [
+        [
+          "จีโนม (สายพันธุ์ CBS 513.88)",
+          "33.9 ล้านคู่เบส [2]"
+        ]
+      ],
+      "life": [
+        [
+          "เมแทบอลิซึม",
+          "มีเครือข่ายเมแทบอลิซึมที่หลากหลาย โดยเครือข่ายที่สร้างขึ้นใหม่มีปฏิกิริยาที่ไม่ซ้ำกัน 1,069 ปฏิกิริยา [2]"
+        ],
+        [
+          "การหลั่งโปรตีน",
+          "มีระบบหลั่งโปรตีนที่อธิบายส่วนประกอบได้ละเอียด และมีเอนไซม์ย่อยสลายที่ต่างจากแอสเปอร์จิลลัสชนิดอื่นชัดเจน [2]"
+        ]
+      ],
+      "why": [
+        [
+          "อุตสาหกรรม",
+          "ใช้ผลิตเอนไซม์และกรดอินทรีย์ โดยเฉพาะกรดซิตริก [2]"
+        ]
+      ],
+      "asideTitle": "โรงงานเซลล์อเนกประสงค์",
+      "aside": [
+        "จีโนมมีกรอบอ่านรหัส 14,165 กรอบ และทำนายหน้าที่ได้อย่างมั่นใจ 6,506 กรอบ [2]",
+        "จีโนมมีการเรียงยีนคล้ายแอสเปอร์จิลลัสชนิดอื่นที่ถอดรหัสแล้วมาก [2]",
+        "GBIF ระบุชื่อพ้องที่เคยอยู่ในสกุล Aspergillopsis [1]"
+      ]
     }
   },
   {
@@ -1754,7 +2689,8 @@
     "summary_th": "เห็ดหิ้งเนื้อแข็งผิวมันวาว ใต้หมวกไม่มีครีบแต่มีรูเล็กที่สร้างสปอร์ และย่อยสลายเนื้อไม้",
     "summary_en": "A hard, glossy bracket fungus. It has no gills under the cap but small pores that make spores, and it breaks down wood.",
     "traits": {
-      "form": "mushroom"
+      "form": "mushroom",
+      "fmode": "saprotroph"
     },
     "traits_text_th": {
       "food": "ย่อยสลายลิกนินในเนื้อไม้",
@@ -1814,6 +2750,54 @@
     "taxon_ids": {
       "gbif": 2549730,
       "ncbi": 5315
+    },
+    "authority": "(Curtis) P.Karst.",
+    "synonyms": [
+      "Agaricus lignosus",
+      "Agaricus pseudoboletus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Ganoderma lucidum (Curtis) P.Karst.",
+        "url": "https://www.gbif.org/species/2549730",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Chen S et al. Genome sequence of the model medicinal mushroom Ganoderma lucidum. Nat Commun 2012;3:913",
+        "url": "https://doi.org/10.1038/ncomms1923",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "เห็ดขนาดใหญ่ที่ใช้กันอย่างกว้างขวางในตำรับยาแผนจีน และสร้างสารออกฤทธิ์ทางชีวภาพหลากหลาย [2] จีโนมยาว 43.3 ล้านคู่เบส มี 16,113 ยีนที่ทำนายได้ [2]",
+      "traitsExtra": [
+        [
+          "จีโนม",
+          "43.3 ล้านคู่เบส มี 16,113 ยีนที่ทำนายได้ [2]"
+        ]
+      ],
+      "life": [
+        [
+          "การย่อยไม้",
+          "จีโนมมีชุดยีนเอนไซม์ย่อยไม้ที่ร่ำรวยที่สุดชุดหนึ่งในเบสิดิโอไมซีตที่ถอดรหัสแล้ว [2]"
+        ],
+        [
+          "การสร้างสาร",
+          "มียีนไซโทโครมพี 450 ตัวขนส่ง และตัวควบคุม ซึ่งทำงานร่วมกันในเมแทบอลิซึมทุติยภูมิ [2]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "ใช้ในตำรับยาแผนจีน และเป็นตัวอย่างศึกษาเห็ดสมุนไพร [2] เนื้อหานี้ไม่ได้ยืนยันว่ารักษาโรคได้"
+        ]
+      ],
+      "asideTitle": "เห็ดสมุนไพรต้นแบบ",
+      "aside": [
+        "มียีนไซโทโครมพี 450 รวมกลุ่มทางกายภาพ 24 กลุ่ม [2]",
+        "มี 78 ยีนไซโทโครมพี 450 ที่ทำงานร่วมกับยีนลาโนสเตอรอลซินเทส [2]",
+        "GBIF ระบุชื่อพ้องเช่น Agaricus lignosus และ Agaricus pseudoboletus [1]"
+      ]
     }
   },
   {
@@ -1860,7 +2844,8 @@
     "summary_th": "เห็ดพิษสีขาวที่มีวงแหวนที่ก้านและถ้วยหุ้มโคน มีสารอะมาท็อกซินทำลายตับ และหน้าตาคล้ายเห็ดระโงกขาวที่กินได้",
     "summary_en": "A white poisonous mushroom with a ring on the stalk and a cup around the base. It contains amatoxin, which destroys the liver, and looks like the edible white Amanita.",
     "traits": {
-      "form": "mushroom"
+      "form": "mushroom",
+      "safety": "toxic"
     },
     "traits_text_th": {
       "food": "อยู่ร่วมกับรากต้นไม้แบบเอกโทไมคอร์ไรซา",
@@ -1878,6 +2863,66 @@
     "taxon_ids": {
       "gbif": 5452714,
       "ncbi": 262245
+    },
+    "authority": "Zhu L.Yang & T.H.Li",
+    "refs": [
+      {
+        "title": "GBIF: Amanita exitialis Zhu L.Yang & T.H.Li",
+        "url": "https://www.gbif.org/species/5452714",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Hu J et al. Determination of amatoxins in different tissues and development stages of Amanita exitialis. J Sci Food Agric 2012;92:1416-1420",
+        "url": "https://doi.org/10.1002/jsfa.5685",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Graeme KA. Mycetism: a review of the recent literature. J Med Toxicol 2014;10:173-189",
+        "url": "https://doi.org/10.1007/s13181-013-0355-2",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Zhang S et al. A simple and high-throughput analysis of amatoxins and phallotoxins in human plasma, serum and urine using UPLC-MS/MS combined with PRiME HLB μElution platform. Toxins 2016;8:128",
+        "url": "https://doi.org/10.3390/toxins8050128",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "เห็ดสีขาวที่เป็นพิษร้ายแรงถึงชีวิต พบทั่วไปในมณฑลกวางตุ้งของจีน [2] พิษที่ทำให้คนเสียชีวิตคือกลุ่มอะมาท็อกซิน [2] พิษจากเห็ดเป็นสาเหตุหลักของการตายจากอาหารเป็นพิษในจีน [2]",
+      "traitsExtra": [
+        [
+          "สารพิษหลัก",
+          "อะมาท็อกซิน [2]"
+        ]
+      ],
+      "life": [
+        [
+          "แหล่งที่อยู่",
+          "พบทั่วไปในมณฑลกวางตุ้ง ประเทศจีน [2]"
+        ],
+        [
+          "พิษ",
+          "มีอะมาท็อกซินกระจายอยู่ในส่วนต่างๆ ของดอกเห็ดและต่างกันตามระยะการพัฒนา [2]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "เห็ดมีพิษร้ายแรงส่วนใหญ่อยู่ในสกุล Amanita และสารพิษที่ทำให้คนเสียชีวิตคืออะมาท็อกซิน [2] อะมาท็อกซินกับฟาโลทอกซินเป็นเพปไทด์วงแหวนที่พบในสกุล Amanita และเป็นสาเหตุหลักของการตายจากอาหารเป็นพิษในจีน [4]"
+        ]
+      ],
+      "asideTitle": "เห็ดสีขาวที่ร้ายแรงถึงชีวิต",
+      "aside": [
+        "มีเห็ดประมาณ 100 ชนิดที่เป็นพิษต่อคน [3]",
+        "เห็ดบางชนิดที่เคยจัดว่ากินได้ภายหลังถูกจัดใหม่ว่าเป็นพิษ [3]",
+        "การวินิจฉัยตั้งแต่ต้นสำคัญต่อผลการรักษาพิษจากเห็ดสกุล Amanita [4]"
+      ],
+      "warning": {
+        "text": "เห็ดชนิดนี้มีสารพิษอะมาท็อกซินที่ร้ายแรงถึงชีวิต ห้ามกิน [2]",
+        "myths": [
+          "เห็ดบางชนิดที่เคยเชื่อว่ากินได้ ภายหลังพบว่ามีพิษ [3]"
+        ]
+      }
     }
   }
 ]
