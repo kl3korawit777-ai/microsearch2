@@ -1,0 +1,774 @@
+{
+ "batrachochytrium-dendrobatidis": {
+  "authority": "Longcore, Pessier & D.K.Nichols",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "fmode": "parasite",
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม",
+    "Chytridiomycota"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ราที่ทำให้สัตว์สะเทินน้ำสะเทินบกลดลงทั่วโลก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Batrachochytrium dendrobatidis Longcore, Pessier & D.K.Nichols",
+    "url": "https://www.gbif.org/species/2627503",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Berger L et al. Chytridiomycosis causes amphibian mortality associated with population declines in the rain forests of Australia and Central America. PNAS 1998;95:9031-9036",
+    "url": "https://doi.org/10.1073/pnas.95.15.9031",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Scheele BC et al. Amphibian fungal panzootic causes catastrophic and ongoing loss of biodiversity. Science 2019;363:1459-1463",
+    "url": "https://doi.org/10.1126/science.aav0379",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "rhizopus-stolonifer": {
+  "authority": "(Ehrenb.) Vuill.",
+  "synonyms": [
+   "Ascophora mucedo",
+   "Mucor agaricinus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "จำนวนชนิดผลไม้ที่ราชนิดนี้ก่อโรคหลังเก็บเกี่ยว",
+    "มากกว่า 100 ชนิด"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "เชื้อหลักของผลไม้เก็บรักษา",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Rhizopus stolonifer (Ehrenb.) Vuill.",
+    "url": "https://www.gbif.org/species/2558944",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Liu Q et al. Rhizopus stolonifer and related control strategies in postharvest fruit: a review. Heliyon 2024;10:e29522",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e29522",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "rhizophagus-irregularis": {
+  "authority": "(Błaszk., Wubet, Renker & Buscot) C.Walker & A.Schüßler",
+  "synonyms": [
+   "Glomus irregulare",
+   "Rhizoglomus irregulare"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "hyphae": "coenocytic",
+   "fmode": "symbiont",
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "ขนาดจีโนม",
+    "ราว 153 ล้านคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "การอยู่ร่วมกันของพืชกับราที่เก่าแก่",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Rhizophagus irregularis (Błaszk., Wubet, Renker & Buscot) C.Walker & A.Schüßler",
+    "url": "https://www.gbif.org/species/7764042",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Tisserant E et al. Genome of an arbuscular mycorrhizal fungus provides insight into the oldest plant symbiosis. PNAS 2013;110:20117-20122",
+    "url": "https://doi.org/10.1073/pnas.1313452110",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Keymer A et al. Lipid transfer from plants to arbuscular mycorrhiza fungi. eLife 2017;6:e29107",
+    "url": "https://doi.org/10.7554/elife.29107",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Berruti A et al. Arbuscular mycorrhizal fungi as natural biofertilizers: let's benefit from past successes. Front Microbiol 2015;6:1559",
+    "url": "https://doi.org/10.3389/fmicb.2015.01559",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "penicillium-chrysogenum": {
+  "authority": "Thom",
+  "synonyms": [
+   "Penicillium baculatum",
+   "Penicillium brunneorubrum"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ Wisconsin54-1255)",
+    "32.19 ล้านคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ราที่ถูกปรับปรุงสายพันธุ์มานาน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Penicillium chrysogenum Thom",
+    "url": "https://www.gbif.org/species/3466349",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "van den Berg MA et al. Genome sequencing and analysis of the filamentous fungus Penicillium chrysogenum. Nat Biotechnol 2008;26:1161-1168",
+    "url": "https://doi.org/10.1038/nbt.1498",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "aspergillus-oryzae": {
+  "authority": "(Ahlb.) Cohn",
+  "synonyms": [],
+  "accepted_name": "Aspergillus flavus",
+  "traits": {
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "37 ล้านคู่เบส มี 12,074 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ญาติใกล้ชิดที่ไม่สร้างอะฟลาทอกซิน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Aspergillus oryzae (Ahlb.) Cohn",
+    "url": "https://www.gbif.org/species/5259820",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Machida M et al. Genome sequencing and analysis of Aspergillus oryzae. Nature 2005;438:1157-1161",
+    "url": "https://doi.org/10.1038/nature04300",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "volvariella-volvacea": {
+  "authority": "(Bull.) Singer",
+  "synonyms": [
+   "Agaricus volvaceus",
+   "Agaricus virgatus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "safety": "edible",
+   "fmode": "saprotroph"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "35.7 ล้านคู่เบส ประกอบเป็น 62 สกาฟโฟลด์"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "เห็ดที่เพาะบนวัสดุเหลือใช้",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Volvariella volvacea (Bull.) Singer",
+    "url": "https://www.gbif.org/species/5241445",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Bao D et al. Sequencing and comparative analysis of the straw mushroom (Volvariella volvacea) genome. PLoS One 2013;8:e58294",
+    "url": "https://doi.org/10.1371/journal.pone.0058294",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Kumla J et al. Cultivation of mushrooms and their lignocellulolytic enzyme production through the utilization of agro-industrial waste. Molecules 2020;25:2811",
+    "url": "https://doi.org/10.3390/molecules25122811",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "cryptococcus-neoformans": {
+  "authority": "(San Felice) Vuill.",
+  "synonyms": [
+   "Blastomyces neoformans",
+   "Cryptococcus breweri"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "hyphae": "nohyphae",
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "ราว 20 ล้านคู่เบส มียีนราว 6,500 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ]
+  ],
+  "asideTitle": "ยีสต์ที่เป็นต้นแบบของการก่อโรค",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Cryptococcus neoformans (San Felice) Vuill.",
+    "url": "https://www.gbif.org/species/5237368",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC: About Cryptococcosis",
+    "url": "https://www.cdc.gov/cryptococcosis/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Loftus BJ et al. The genome of the basidiomycetous yeast and human pathogen Cryptococcus neoformans. Science 2005;307:1321-1324",
+    "url": "https://doi.org/10.1126/science.1103773",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Rajasingham R et al. Global burden of disease of HIV-associated cryptococcal meningitis: an updated analysis. Lancet Infect Dis 2017;17:873-881",
+    "url": "https://doi.org/10.1016/s1473-3099(17)30243-8",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "neurospora-crassa": {
+  "authority": "Shear & B.O.Dodge",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "ราว 40 ล้านคู่เบส มียีนราว 10,000 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ราที่พาชีวเคมีและพันธุศาสตร์ก้าวหน้า",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Neurospora crassa Shear & B.O.Dodge",
+    "url": "https://www.gbif.org/species/5253986",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Galagan JE et al. The genome sequence of the filamentous fungus Neurospora crassa. Nature 2003;422:859-868",
+    "url": "https://doi.org/10.1038/nature01554",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Beadle GW, Tatum EL. Genetic control of biochemical reactions in Neurospora. PNAS 1941;27:499-506",
+    "url": "https://doi.org/10.1073/pnas.27.11.499",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "aspergillus-flavus": {
+  "authority": "Link",
+  "synonyms": [
+   "Aspergillus effusus",
+   "Aspergillus fasciculatus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "fmode": "saprotroph",
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "กลุ่มยีนสร้างสารทุติยภูมิ",
+    "55 กลุ่ม"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ]
+  ],
+  "asideTitle": "ราที่ปนเปื้อนอาหารด้วยสารก่อมะเร็ง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Aspergillus flavus Link",
+    "url": "https://www.gbif.org/species/5259820",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC: About Aspergillosis",
+    "url": "https://www.cdc.gov/aspergillosis/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Amaike S, Keller NP. Aspergillus flavus. Annu Rev Phytopathol 2011;49:107-133",
+    "url": "https://doi.org/10.1146/annurev-phyto-072910-095221",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Bennett JW, Klich M. Mycotoxins. Clin Microbiol Rev 2003;16:497-516",
+    "url": "https://doi.org/10.1128/cmr.16.3.497-516.2003",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "pleurotus-ostreatus": {
+  "authority": "(Jacq.) P.Kumm.",
+  "synonyms": [
+   "Agaricus glandulosus",
+   "Agaricus convivarum"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "safety": "edible",
+   "fmode": "saprotroph"
+  },
+  "traitsExtra": [
+   [
+    "อันดับของเห็ดกินได้ที่เพาะมากที่สุดในโลก",
+    "อันดับสอง รองจาก Agaricus bisporus"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "เห็ดที่เลี้ยงบนของเหลือทิ้ง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Pleurotus ostreatus (Jacq.) P.Kumm.",
+    "url": "https://www.gbif.org/species/2526530",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Sánchez C. Cultivation of Pleurotus ostreatus and other edible mushrooms. Appl Microbiol Biotechnol 2010;85:1321-1337",
+    "url": "https://doi.org/10.1007/s00253-009-2343-7",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Riley R et al. Extensive sampling of basidiomycete genomes demonstrates inadequacy of the white-rot/brown-rot paradigm for wood decay fungi. PNAS 2014;111:9923-9928",
+    "url": "https://doi.org/10.1073/pnas.1400592111",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "termitomyces-fuliginosus": {
+  "authority": "R.Heim",
+  "synonyms": [
+   "Termitomyces robustus var. fuliginosus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "fmode": "symbiont"
+  },
+  "traitsExtra": [
+   [
+    "ที่มาของการอยู่ร่วมกันระหว่างปลวกกับรา (ระดับสกุล)",
+    "จุดกำเนิดเดียวในแอฟริกา"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ราที่ปลวกเลี้ยง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Termitomyces fuliginosus R.Heim",
+    "url": "https://www.gbif.org/species/3347384",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Aanen DK et al. The evolution of fungus-growing termites and their mutualistic fungal symbionts. PNAS 2002;99:14887-14892",
+    "url": "https://doi.org/10.1073/pnas.222313099",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "candida-albicans": {
+  "authority": "(C.P.Robin) Berkhout",
+  "synonyms": [
+   "Atelosaccharomyces harteri",
+   "Actonia tropicalis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "ตำแหน่งที่พบตามปกติ",
+    "ผิวหนัง ปาก คอ และช่องคลอด"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ราที่ชอบเป็นผู้อยู่ร่วมก่อนกลายเป็นเชื้อก่อโรค",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Candida albicans (C.P.Robin) Berkhout",
+    "url": "https://www.gbif.org/species/2599597",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC: About Candidiasis",
+    "url": "https://www.cdc.gov/candidiasis/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Butler G et al. Evolution of pathogenicity and sexual reproduction in eight Candida genomes. Nature 2009;459:657-662",
+    "url": "https://doi.org/10.1038/nature08064",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Brown GD et al. Hidden killers: human fungal infections. Sci Transl Med 2012;4:165rv13",
+    "url": "https://doi.org/10.1126/scitranslmed.3004404",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "cordyceps-militaris": {
+  "authority": "(L.) Fr.",
+  "synonyms": [
+   "Clavaria militaris",
+   "Clavaria granulosa"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "fmode": "parasite"
+  },
+  "traitsExtra": [
+   [
+    "สถานะของชนิด",
+    "ชนิดต้นแบบของสกุล Cordyceps"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ราก่อโรคแมลงที่ใช้ในตำรับยาจีน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Cordyceps militaris (L.) Fr.",
+    "url": "https://www.gbif.org/species/7567077",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Zheng P et al. Genome sequence of the insect pathogenic fungus Cordyceps militaris, a valued traditional Chinese medicine. Genome Biol 2011;12:R116",
+    "url": "https://doi.org/10.1186/gb-2011-12-11-r116",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "puccinia-graminis": {
+  "authority": "Pers.",
+  "synonyms": [
+   "Aecidium berberidis",
+   "Aecidium berberidatum"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "fmode": "parasite",
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (P. graminis f. sp. tritici)",
+    "89 ล้านคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "สนิมลำต้นที่คุกคามข้าวสาลีโลก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Puccinia graminis Pers.",
+    "url": "https://www.gbif.org/species/2514501",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Duplessis S et al. Obligate biotrophy features unraveled by the genomic analysis of rust fungi. PNAS 2011;108:9166-9171",
+    "url": "https://doi.org/10.1073/pnas.1019315108",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Singh RP et al. The emergence of Ug99 races of the stem rust fungus is a threat to world wheat production. Annu Rev Phytopathol 2011;49:465-481",
+    "url": "https://doi.org/10.1146/annurev-phyto-072910-095423",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "pneumocystis-jirovecii": {
+  "authority": "Frenkel",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "fmode": "parasite",
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "โฮสต์ของสกุล Pneumocystis",
+    "สัตว์เลี้ยงลูกด้วยนมเท่านั้น"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ]
+  ],
+  "asideTitle": "ราที่ติดเฉพาะในสัตว์เลี้ยงลูกด้วยนม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Pneumocystis jirovecii Frenkel",
+    "url": "https://www.gbif.org/species/2610978",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC: About Pneumocystis Pneumonia",
+    "url": "https://www.cdc.gov/pneumocystis-pneumonia/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Ma L et al. Genome analysis of three Pneumocystis species reveals adaptation mechanisms to life exclusively in mammalian hosts. Nat Commun 2016;7:10740",
+    "url": "https://doi.org/10.1038/ncomms10740",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "aspergillus-niger": {
+  "authority": "Tiegh.",
+  "synonyms": [
+   "Aspergillopsis nigra"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "safety": "na"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ CBS 513.88)",
+    "33.9 ล้านคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "โรงงานเซลล์อเนกประสงค์",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Aspergillus niger Tiegh.",
+    "url": "https://www.gbif.org/species/3465658",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Pel HJ et al. Genome sequencing and analysis of the versatile cell factory Aspergillus niger CBS 513.88. Nat Biotechnol 2007;25:221-231",
+    "url": "https://doi.org/10.1038/nbt1282",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "ganoderma-lucidum": {
+  "authority": "(Curtis) P.Karst.",
+  "synonyms": [
+   "Agaricus lignosus",
+   "Agaricus pseudoboletus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "fmode": "saprotroph"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "43.3 ล้านคู่เบส มี 16,113 ยีนที่ทำนายได้"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "เห็ดสมุนไพรต้นแบบ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Ganoderma lucidum (Curtis) P.Karst.",
+    "url": "https://www.gbif.org/species/2549730",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Chen S et al. Genome sequence of the model medicinal mushroom Ganoderma lucidum. Nat Commun 2012;3:913",
+    "url": "https://doi.org/10.1038/ncomms1923",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "amanita-exitialis": {
+  "authority": "Zhu L.Yang & T.H.Li",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "safety": "toxic"
+  },
+  "traitsExtra": [
+   [
+    "สารพิษหลัก",
+    "อะมาท็อกซิน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "เห็ดสีขาวที่ร้ายแรงถึงชีวิต",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Amanita exitialis Zhu L.Yang & T.H.Li",
+    "url": "https://www.gbif.org/species/5452714",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Hu J et al. Determination of amatoxins in different tissues and development stages of Amanita exitialis. J Sci Food Agric 2012;92:1416-1420",
+    "url": "https://doi.org/10.1002/jsfa.5685",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Graeme KA. Mycetism: a review of the recent literature. J Med Toxicol 2014;10:173-189",
+    "url": "https://doi.org/10.1007/s13181-013-0355-2",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Zhang S et al. A simple and high-throughput analysis of amatoxins and phallotoxins in human plasma, serum and urine using UPLC-MS/MS combined with PRiME HLB μElution platform. Toxins 2016;8:128",
+    "url": "https://doi.org/10.3390/toxins8050128",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ }
+}
