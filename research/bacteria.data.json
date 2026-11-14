@@ -1,0 +1,1259 @@
+{
+ "rhizobium-leguminosarum": {
+  "authority": "(Frank 1879) Frank 1889",
+  "synonyms": [
+   "Rhizobium trifolii",
+   "Rhizobium indigoferae"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "ขนาดจีโนม (สายพันธุ์ 3841)",
+    "ราว 7.75 ล้านคู่เบส เป็นโครโมโซมวงกลม 1 อัน กับพลาสมิดวงกลม 6 อัน มี 7,263 ยีนที่เข้ารหัสโปรตีน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ชนิดต้นแบบของไรโซเบียม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Rhizobium leguminosarum",
+    "url": "https://lpsn.dsmz.de/species/rhizobium-leguminosarum",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Jones KM et al. How rhizobial symbionts invade plants: the Sinorhizobium-Medicago model. Nat Rev Microbiol 2007;5:619-633",
+    "url": "https://doi.org/10.1038/nrmicro1705",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Young JP et al. The genome of Rhizobium leguminosarum has recognizable core and accessory components. Genome Biol 2006;7:R34",
+    "url": "https://doi.org/10.1186/gb-2006-7-4-r34",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Zahran HH. Rhizobium-legume symbiosis and nitrogen fixation under severe conditions and in an arid climate. Microbiol Mol Biol Rev 1999;63:968-989",
+    "url": "https://doi.org/10.1128/mmbr.63.4.968-989.1999",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "vibrio-cholerae": {
+  "authority": "Pacini 1854",
+  "synonyms": [
+   "Vibrio albensis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "shape": "rod"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ El Tor N16961)",
+    "4,033,460 คู่เบส แบ่งเป็น 2 โครโมโซม ยาว 2,961,146 และ 1,072,314 คู่เบส มี 3,885 กรอบอ่านรหัส"
+   ],
+   [
+    "กลุ่มที่ก่อการระบาด",
+    "O1 และ O139 โดย O1 เป็นสาเหตุของการระบาดครั้งหลังทั้งหมด"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "2"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    5
+   ],
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "สองกลุ่มที่ก่อการระบาด",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Vibrio cholerae",
+    "url": "https://lpsn.dsmz.de/species/vibrio-cholerae",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Vibrio",
+    "url": "https://lpsn.dsmz.de/genus/vibrio",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "CDC: About Cholera",
+    "url": "https://www.cdc.gov/cholera/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "WHO: Cholera fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "Heidelberg JF et al. DNA sequence of both chromosomes of the cholera pathogen Vibrio cholerae. Nature 2000;406:477-483",
+    "url": "https://doi.org/10.1038/35020000",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "bacillus-subtilis": {
+  "authority": "(Ehrenberg 1835) Cohn 1872",
+  "synonyms": [
+   "Vibrio subtilis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "oxy": "fac",
+   "endospore": "yes",
+   "topt": "meso"
+  },
+  "traitsExtra": [
+   [
+    "ขนาดจีโนม",
+    "4,214,810 คู่เบส มี 4,100 ยีนที่เข้ารหัสโปรตีน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ชื่อที่เคยเป็น Vibrio",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Bacillus subtilis",
+    "url": "https://lpsn.dsmz.de/species/bacillus-subtilis",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Bacillus",
+    "url": "https://lpsn.dsmz.de/genus/bacillus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Kunst F et al. The complete genome sequence of the gram-positive bacterium Bacillus subtilis. Nature 1997;390:249-256",
+    "url": "https://doi.org/10.1038/36786",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Errington J, van der Aart LT. Microbe Profile: Bacillus subtilis: model organism for cellular development, and industrial workhorse. Microbiology 2020;166:425-427",
+    "url": "https://doi.org/10.1099/mic.0.000922",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "BacDive: Bacillus subtilis (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/1172",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "lactobacillus-acidophilus": {
+  "authority": "(Moro 1900) Hansen & Mocquot 1970",
+  "synonyms": [
+   "Bacillus acidophilus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "oxy": "ana",
+   "motility": "none"
+  },
+  "traitsExtra": [
+   [
+    "ขนาดจีโนม (สายพันธุ์ NCFM)",
+    "1,993,564 นิวคลีโอไทด์ มี 1,864 กรอบอ่านรหัส สัดส่วน GC 34.71%"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ชื่อสกุลที่ถูกเสนอให้แยกออก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Lactobacillus acidophilus",
+    "url": "https://lpsn.dsmz.de/species/lactobacillus-acidophilus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Altermann E et al. Complete genome sequence of the probiotic lactic acid bacterium Lactobacillus acidophilus NCFM. PNAS 2005;102:3906-3912",
+    "url": "https://doi.org/10.1073/pnas.0409188102",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "LPSN: genus Lactobacillus",
+    "url": "https://lpsn.dsmz.de/genus/lactobacillus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Zheng J et al. A taxonomic note on the genus Lactobacillus: description of 23 novel genera, emended description of the genus Lactobacillus Beijerinck 1901, and union of Lactobacillaceae and Leuconostocaceae. Int J Syst Evol Microbiol 2020;70:2782-2858",
+    "url": "https://doi.org/10.1099/ijsem.0.004107",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "BacDive: Lactobacillus acidophilus (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/6404",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "staphylococcus-aureus": {
+  "authority": "Rosenbach 1884",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "motility": "none",
+   "topt": "meso"
+  },
+  "traitsExtra": [
+   [
+    "ผู้ที่มีเชื้ออยู่บนผิวหนังหรือในจมูกโดยไม่แสดงอาการ",
+    "ราว 30% ของคน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "2"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ชื่อที่เกือบถูกเปลี่ยน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Staphylococcus aureus",
+    "url": "https://lpsn.dsmz.de/species/staphylococcus-aureus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC: About Staphylococcus aureus",
+    "url": "https://www.cdc.gov/staphylococcus-aureus/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Tong SY et al. Staphylococcus aureus infections: epidemiology, pathophysiology, clinical manifestations, and management. Clin Microbiol Rev 2015;28:603-661",
+    "url": "https://doi.org/10.1128/cmr.00134-14",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "BacDive: Staphylococcus aureus (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/14487",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "arthrospira-platensis": {
+  "authority": "Gomont",
+  "synonyms": [
+   "Spirulina platensis",
+   "Oscillatoria platensis"
+  ],
+  "accepted_name": "Limnospira platensis",
+  "traits": {},
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ NIES-39)",
+    "โครโมโซมวงกลมอันเดียว ราว 6.8 ล้านคู่เบส มี 6,630 ยีนที่เข้ารหัสโปรตีน"
+   ],
+   [
+    "การตรึงไนโตรเจน",
+    "ไม่ตรึง"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ชื่อ Spirulina กับชื่อ Limnospira",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Arthrospira platensis Gomont",
+    "url": "https://www.gbif.org/species/3218108",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Fujisawa T et al. Genomic structure of an economically important cyanobacterium, Arthrospira (Spirulina) platensis NIES-39. DNA Res 2010;17:85-103",
+    "url": "https://doi.org/10.1093/dnares/dsq004",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Nowicka-Krawczyk P et al. Detailed characterization of the Arthrospira type species separating commercially grown taxa into the new genus Limnospira (Cyanobacteria). Sci Rep 2019;9:694",
+    "url": "https://doi.org/10.1038/s41598-018-36831-0",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "AlFadhly NKZ et al. Tendencies affecting the growth and cultivation of genus Spirulina: an investigative review on current trends. Plants 2022;11:3063",
+    "url": "https://doi.org/10.3390/plants11223063",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "nostoc-commune": {
+  "authority": "Vaucher ex Bornet & Flahault",
+  "synonyms": [
+   "Nostoc carneum",
+   "Nostoc kurzianum",
+   "Tremella nostoc"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "น้ำในโคโลนีที่ตากแห้งในอากาศ",
+    "ราว 10% ของน้ำหนัก"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ทนแห้งได้นานแค่ไหน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Nostoc commune Vaucher ex Bornet & Flahault",
+    "url": "https://www.gbif.org/species/8225325",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Tamaru Y et al. Crucial role of extracellular polysaccharides in desiccation and freezing tolerance in the terrestrial cyanobacterium Nostoc commune. Appl Environ Microbiol 2005;71:7327-7333",
+    "url": "https://doi.org/10.1128/aem.71.11.7327-7333.2005",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Potts M. Desiccation tolerance of prokaryotes. Microbiol Rev 1994;58:755-805",
+    "url": "https://doi.org/10.1128/mr.58.4.755-805.1994",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "streptomyces-griseus": {
+  "authority": "(Krainsky 1914) Waksman & Henrici 1948",
+  "synonyms": [
+   "Actinomyces griseus",
+   "Streptomyces setonii",
+   "Streptomyces fimicarius"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "shape": "rod",
+   "motility": "none"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ IFO 13350)",
+    "โครโมโซมเส้นตรง ยาว 8,545,929 คู่เบส สัดส่วน GC 72.2% มี 7,138 กรอบอ่านรหัส"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    2
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ยาปฏิชีวนะตัวแรกของกลุ่มอะมิโนไกลโคไซด์",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Streptomyces griseus",
+    "url": "https://lpsn.dsmz.de/species/streptomyces-griseus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Ohnishi Y et al. Genome sequence of the streptomycin-producing microorganism Streptomyces griseus IFO 13350. J Bacteriol 2008;190:4050-4060",
+    "url": "https://doi.org/10.1128/jb.00204-08",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "BacDive: Streptomyces griseus (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/16229",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "mycobacterium-tuberculosis": {
+  "authority": "(Zopf 1883) Lehmann & Neumann 1896",
+  "synonyms": [
+   "Bacterium tuberculosis"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ H37Rv)",
+    "4,411,529 คู่เบส มียีนราว 4,000 ยีน และมีสัดส่วน GC สูงมาก"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "3"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "เชื้อที่อยู่ในคนราวหนึ่งในสี่ของโลก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Mycobacterium tuberculosis",
+    "url": "https://lpsn.dsmz.de/species/mycobacterium-tuberculosis",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Mycobacterium",
+    "url": "https://lpsn.dsmz.de/genus/mycobacterium",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "WHO: Tuberculosis fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Cole ST et al. Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence. Nature 1998;393:537-544",
+    "url": "https://doi.org/10.1038/31159",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "treponema-pallidum": {
+  "authority": "(Schaudinn & Hoffmann 1905) Schaudinn 1905",
+  "synonyms": [
+   "Spirochaeta pallida"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "จีโนม",
+    "1,138,006 คู่เบส มี 1,041 กรอบอ่านรหัส"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "2"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "หนึ่งชนิด สามชนิดย่อย",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Treponema pallidum",
+    "url": "https://lpsn.dsmz.de/species/treponema-pallidum",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Treponema",
+    "url": "https://lpsn.dsmz.de/genus/treponema",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "CDC: About Syphilis",
+    "url": "https://www.cdc.gov/syphilis/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Fraser CM et al. Complete genome sequence of Treponema pallidum, the syphilis spirochete. Science 1998;281:375-388",
+    "url": "https://doi.org/10.1126/science.281.5375.375",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "oscillatoria-princeps": {
+  "authority": "Vaucher ex Gomont",
+  "synonyms": [
+   "Lyngbya princeps",
+   "Oscillatoriella princeps"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "ทิศที่เส้นสายหมุนขณะเลื้อยไถล",
+    "ทวนเข็มนาฬิกา"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ]
+  ],
+  "asideTitle": "ชนิดต้นแบบของสกุล Oscillatoria",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Oscillatoria princeps Vaucher ex Gomont",
+    "url": "https://www.gbif.org/species/3218836",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Suda S et al. Taxonomic revision of water-bloom-forming species of oscillatorioid cyanobacteria. Int J Syst Evol Microbiol 2002;52:1577-1595",
+    "url": "https://doi.org/10.1099/00207713-52-5-1577",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Hoiczyk E, Baumeister W. Envelope structure of four gliding filamentous cyanobacteria. J Bacteriol 1995;177:2387-2395",
+    "url": "https://doi.org/10.1128/jb.177.9.2387-2395.1995",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Miranda J, Krishnakumar G. Microalgal diversity in relation to the physicochemical parameters of some industrial sites in Mangalore, South India. Environ Monit Assess 2015;187:1-12",
+    "url": "https://doi.org/10.1007/s10661-015-4871-1",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "streptococcus-pneumoniae": {
+  "authority": "(Klein 1884) Chester 1901",
+  "synonyms": [
+   "Micrococcus pneumoniae"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "motility": "none",
+   "oxy": "low"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ก่อโรครุนแรง)",
+    "2,160,837 คู่เบส มี 2,236 บริเวณที่เข้ารหัส"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "2"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "เชื้อที่เปิดทางให้พบว่าดีเอ็นเอเป็นสารพันธุกรรม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Streptococcus pneumoniae",
+    "url": "https://lpsn.dsmz.de/species/streptococcus-pneumoniae",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Streptococcus",
+    "url": "https://lpsn.dsmz.de/genus/streptococcus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "CDC: About Pneumococcal Disease",
+    "url": "https://www.cdc.gov/pneumococcal/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Tettelin H et al. Complete genome sequence of a virulent isolate of Streptococcus pneumoniae. Science 2001;293:498-506",
+    "url": "https://doi.org/10.1126/science.1061217",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "Avery OT, MacLeod CM, McCarty M. Studies on the chemical nature of the substance inducing transformation of pneumococcal types. J Exp Med 1944;79:137-158",
+    "url": "https://doi.org/10.1084/jem.79.2.137",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "agrobacterium-tumefaciens": {
+  "authority": "(Smith & Townsend 1907) Conn 1942",
+  "synonyms": [
+   "Bacterium tumefaciens"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ C58)",
+    "โครโมโซมวงกลม 1 อันและโครโมโซมเส้นตรง 1 อัน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ]
+  ],
+  "asideTitle": "นักวิศวกรรมพันธุกรรมตามธรรมชาติ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Agrobacterium tumefaciens",
+    "url": "https://lpsn.dsmz.de/species/agrobacterium-tumefaciens",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Agrobacterium",
+    "url": "https://lpsn.dsmz.de/genus/agrobacterium",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Gelvin SB. Agrobacterium-mediated plant transformation: the biology behind the \"gene-jockeying\" tool. Microbiol Mol Biol Rev 2003;67:16-37",
+    "url": "https://doi.org/10.1128/mmbr.67.1.16-37.2003",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Goodner B et al. Genome sequence of the plant pathogen and biotechnology agent Agrobacterium tumefaciens C58. Science 2001;294:2323-2328",
+    "url": "https://doi.org/10.1126/science.1066803",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "clostridium-botulinum": {
+  "authority": "(van Ermengem 1896) Bergey et al. 1923",
+  "synonyms": [
+   "Bacillus botulinus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "endospore": "yes"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ Hall A)",
+    "โครโมโซม 3,886,916 คู่เบส และพลาสมิด 16,344 คู่เบส มี 3,650 และ 19 ยีนตามลำดับ"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "2"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ความหลากหลายสี่กลุ่มในชนิดเดียว",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Clostridium botulinum",
+    "url": "https://lpsn.dsmz.de/species/clostridium-botulinum",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Clostridium",
+    "url": "https://lpsn.dsmz.de/genus/clostridium",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "CDC: About Botulism",
+    "url": "https://www.cdc.gov/botulism/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Sebaihia M et al. Genome sequence of a proteolytic (Group I) Clostridium botulinum strain Hall A and comparative analysis of the clostridial genomes. Genome Res 2007;17:1082-1092",
+    "url": "https://doi.org/10.1101/gr.6282807",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "salmonella-enterica": {
+  "authority": "(ex Kauffmann & Edwards 1952) Le Minor & Popoff 1987",
+  "synonyms": [
+   "Salmonella choleraesuis",
+   "Salmonella typhi",
+   "Salmonella typhimurium"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "oxy": "aer"
+  },
+  "traitsExtra": [
+   [
+    "ชนิดย่อยที่มีชื่อถูกต้อง",
+    "6 ชนิดย่อย"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "3"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ระบบตั้งชื่อสองระบบ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Salmonella enterica",
+    "url": "https://lpsn.dsmz.de/species/salmonella-enterica",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Salmonella",
+    "url": "https://lpsn.dsmz.de/genus/salmonella",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "CDC: About Salmonella",
+    "url": "https://www.cdc.gov/salmonella/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Tindall BJ et al. Nomenclature and taxonomy of the genus Salmonella. Int J Syst Evol Microbiol 2005;55:521-524",
+    "url": "https://doi.org/10.1099/ijs.0.63580-0",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "helicobacter-pylori": {
+  "authority": "(Marshall et al. 1985) Goodwin et al. 1989",
+  "synonyms": [
+   "Campylobacter pylori",
+   "Campylobacter pyloridis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "shape": "rod"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ 26695)",
+    "โครโมโซมวงกลม 1,667,867 คู่เบส มี 1,590 บริเวณที่เข้ารหัสโปรตีน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "2"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    5
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "จากแคมไพโลแบคเตอร์สู่เฮลิโคแบคเตอร์",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Helicobacter pylori",
+    "url": "https://lpsn.dsmz.de/species/helicobacter-pylori",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Helicobacter",
+    "url": "https://lpsn.dsmz.de/genus/helicobacter",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "MedlinePlus: H pylori infection",
+    "url": "https://medlineplus.gov/ency/article/007715.htm",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Marshall BJ, Warren JR. Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration. Lancet 1984;1:1311-1315",
+    "url": "https://doi.org/10.1016/s0140-6736(84)91816-6",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "Tomb JF et al. The complete genome sequence of the gastric pathogen Helicobacter pylori. Nature 1997;388:539-547",
+    "url": "https://doi.org/10.1038/41483",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "burkholderia-pseudomallei": {
+  "authority": "(Whitmore 1913) Yabuuchi et al. 1993",
+  "synonyms": [
+   "Bacillus pseudomallei",
+   "Pseudomonas pseudomallei"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "3"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ย้ายสกุลมาแล้วสองครั้ง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Burkholderia pseudomallei",
+    "url": "https://lpsn.dsmz.de/species/burkholderia-pseudomallei",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Burkholderia",
+    "url": "https://lpsn.dsmz.de/genus/burkholderia",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "CDC: About Melioidosis",
+    "url": "https://www.cdc.gov/melioidosis/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Wiersinga WJ et al. Melioidosis. Nat Rev Dis Primers 2018;4:17107",
+    "url": "https://doi.org/10.1038/nrdp.2017.107",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "leptospira-interrogans": {
+  "authority": "(Stimson 1907) Wenyon 1926",
+  "synonyms": [
+   "Spirochaeta interrogans"
+  ],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ Lai)",
+    "โครโมโซมใหญ่ 4.33 ล้านคู่เบส และโครโมโซมเล็ก 359,000 คู่เบส รวม 4,768 ยีน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "2"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    4
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ชื่อที่มาจากเครื่องหมายคำถาม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Leptospira interrogans",
+    "url": "https://lpsn.dsmz.de/species/leptospira-interrogans",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Leptospira",
+    "url": "https://lpsn.dsmz.de/genus/leptospira",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "CDC: About Leptospirosis",
+    "url": "https://www.cdc.gov/leptospirosis/about/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Ren SX et al. Unique physiological and pathogenic features of Leptospira interrogans revealed by whole-genome sequencing. Nature 2003;422:888-893",
+    "url": "https://doi.org/10.1038/nature01597",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "thermus-aquaticus": {
+  "authority": "Brock & Freeze 1969",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "อุณหภูมิที่ใช้แยกเชื้อ",
+    "70 ถึง 75 °C"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "แบคทีเรียในน้ำร้อนจากก๊อก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Thermus aquaticus",
+    "url": "https://lpsn.dsmz.de/species/thermus-aquaticus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Thermus",
+    "url": "https://lpsn.dsmz.de/genus/thermus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Brock TD, Freeze H. Thermus aquaticus gen. n. and sp. n., a nonsporulating extreme thermophile. J Bacteriol 1969;98:289-297",
+    "url": "https://doi.org/10.1128/jb.98.1.289-297.1969",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Chien A, Edgar DB, Trela JM. Deoxyribonucleic acid polymerase from the extreme thermophile Thermus aquaticus. J Bacteriol 1976;127:1550-1557",
+    "url": "https://doi.org/10.1128/jb.127.3.1550-1557.1976",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 5,
+    "title": "Saiki RK et al. Primer-directed enzymatic amplification of DNA with a thermostable DNA polymerase. Science 1988;239:487-491",
+    "url": "https://doi.org/10.1126/science.2448875",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "bacillus-thuringiensis": {
+  "authority": "Berliner 1915",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "motility": "none",
+   "endospore": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ผู้ตั้งชื่อและปี",
+    "เบอร์ไลเนอร์ 1915"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ผลึกโปรตีนที่ฆ่าแมลง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Bacillus thuringiensis",
+    "url": "https://lpsn.dsmz.de/species/bacillus-thuringiensis",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Bacillus",
+    "url": "https://lpsn.dsmz.de/genus/bacillus",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Palma L et al. Bacillus thuringiensis toxins: an overview of their biocidal activity. Toxins 2014;6:3296-3325",
+    "url": "https://doi.org/10.3390/toxins6123296",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "BacDive: Bacillus thuringiensis (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/1006",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "nitrosomonas-europaea": {
+  "authority": "Winogradsky 1892",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "energy": "chemoauto"
+  },
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ ATCC 19718)",
+    "โครโมโซมวงกลมอันเดียว 2,812,094 คู่เบส มี 2,460 ยีนที่เข้ารหัสโปรตีน"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "แบคทีเรียที่ใช้แค่แอมโมเนียกับคาร์บอนไดออกไซด์",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Nitrosomonas europaea",
+    "url": "https://lpsn.dsmz.de/species/nitrosomonas-europaea",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Nitrosomonas",
+    "url": "https://lpsn.dsmz.de/genus/nitrosomonas",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Chain P et al. Complete genome sequence of the ammonia-oxidizing bacterium and obligate chemolithoautotroph Nitrosomonas europaea. J Bacteriol 2003;185:2759-2773",
+    "url": "https://doi.org/10.1128/jb.185.9.2759-2773.2003",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Arp DJ, Sayavedra-Soto LA, Hommes NG. Molecular biology and biochemistry of ammonia oxidation by Nitrosomonas europaea. Arch Microbiol 2002;178:250-255",
+    "url": "https://doi.org/10.1007/s00203-002-0452-0",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "nitrobacter-winogradskyi": {
+  "authority": "Winslow et al. 1917",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {},
+  "traitsExtra": [
+   [
+    "จีโนม (สายพันธุ์ Nb-255)",
+    "โครโมโซมวงกลมอันเดียว 3,402,093 คู่เบส มีโปรตีนที่ทำนายได้ 3,143 ชนิด"
+   ],
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    3
+   ],
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ไม่ใช้น้ำตาลหกคาร์บอน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Nitrobacter winogradskyi",
+    "url": "https://lpsn.dsmz.de/species/nitrobacter-winogradskyi",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Nitrobacter",
+    "url": "https://lpsn.dsmz.de/genus/nitrobacter",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Starkenburg SR et al. Genome sequence of the chemolithoautotrophic nitrite-oxidizing bacterium Nitrobacter winogradskyi Nb-255. Appl Environ Microbiol 2006;72:2050-2063",
+    "url": "https://doi.org/10.1128/aem.72.3.2050-2063.2006",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "acetobacter-aceti": {
+  "authority": "(Pasteur 1864) Beijerinck 1898",
+  "synonyms": [
+   "Mycoderma aceti"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "motility": "none"
+  },
+  "traitsExtra": [
+   [
+    "กลุ่มความเสี่ยงทางชีวภาพ (LPSN)",
+    "1"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ผู้ผลิตน้ำส้มสายชู",
+  "refs": [
+   {
+    "n": 1,
+    "title": "LPSN: Acetobacter aceti",
+    "url": "https://lpsn.dsmz.de/species/acetobacter-aceti",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "LPSN: genus Acetobacter",
+    "url": "https://lpsn.dsmz.de/genus/acetobacter",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Raspor P, Goranovic D. Biotechnological applications of acetic acid bacteria. Crit Rev Biotechnol 2008;28:101-124",
+    "url": "https://doi.org/10.1080/07388550802046749",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "BacDive: Acetobacter aceti (type strain)",
+    "url": "https://bacdive.dsmz.de/strain/2",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ }
+}
