@@ -63,7 +63,7 @@
         "url_small": "images/euglena-gracilis/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 7465722,
       "ncbi": 3039
@@ -210,7 +210,7 @@
         "url_small": "images/trypanosoma-brucei/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 7822322,
       "ncbi": 5691
@@ -427,7 +427,7 @@
         "url_small": "images/giardia-intestinalis/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 8635830,
       "ncbi": 5741
@@ -684,7 +684,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 8122199,
       "ncbi": 5885
@@ -859,7 +859,7 @@
         "url_small": "images/plasmodium-falciparum/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 10540993,
       "ncbi": 5833
@@ -1132,7 +1132,7 @@
         "url_small": "images/thalassiosira-pseudonana/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3193414,
       "ncbi": 35128
@@ -1304,7 +1304,7 @@
         "url_small": "images/chlamydomonas-reinhardtii/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5271221,
       "ncbi": 3055
@@ -1470,7 +1470,7 @@
         "url_small": "images/pyropia-yezoensis/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 7713874,
       "ncbi": 2788
@@ -1687,7 +1687,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5425264,
       "ncbi": 5775
@@ -1821,7 +1821,7 @@
         "url_small": "images/physarum-polycephalum/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3214606,
       "ncbi": 5791
@@ -2037,7 +2037,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 8063862,
       "ncbi": 2966
@@ -2235,7 +2235,7 @@
         "url_small": "images/sargassum-polycystum/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3196717,
       "ncbi": 127578
@@ -2344,7 +2344,7 @@
     },
     "illustration": "spiro",
     "images": [],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2646966,
       "ncbi": 332125
@@ -2496,7 +2496,7 @@
         "url_small": "images/volvox-carteri/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2639377,
       "ncbi": 3067
@@ -2641,7 +2641,7 @@
         "url_small": "images/entamoeba-histolytica/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3210505,
       "ncbi": 5759
@@ -2873,7 +2873,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": null,
       "ncbi": 5722
@@ -3058,7 +3058,7 @@
         "url_small": "images/leishmania-donovani/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": null,
       "ncbi": 5661
@@ -3263,7 +3263,7 @@
         "url_small": "images/toxoplasma-gondii/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 8014281,
       "ncbi": 5811
@@ -3498,7 +3498,7 @@
         "url_small": "images/dictyostelium-discoideum/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3212434,
       "ncbi": 44689
@@ -3705,7 +3705,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3203716,
       "ncbi": 4787
@@ -3868,7 +3868,7 @@
         "url_small": "images/chlorella-vulgaris/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5270961,
       "ncbi": 3077
@@ -4044,7 +4044,7 @@
         "url_small": "images/caulerpa-lentillifera/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2642878,
       "ncbi": 148947
@@ -4154,7 +4154,7 @@
     },
     "illustration": "seaweed",
     "images": [],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": null,
       "ncbi": 1232878
@@ -4302,7 +4302,7 @@
         "url_small": "images/plasmodium-vivax/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": null,
       "ncbi": 5855
@@ -4555,7 +4555,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": null,
       "ncbi": 155140

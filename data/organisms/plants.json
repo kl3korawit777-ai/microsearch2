@@ -101,7 +101,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2669006,
       "ncbi": 13805
@@ -313,7 +313,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2688570,
       "ncbi": 3197
@@ -471,7 +471,7 @@
         "url_small": "images/lycopodiella-cernua/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2688348,
       "ncbi": 73621
@@ -658,7 +658,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2688176,
       "ncbi": 3240
@@ -866,7 +866,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2650106,
       "ncbi": 99433
@@ -1078,7 +1078,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2683286,
       "ncbi": 171014
@@ -1266,7 +1266,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2687885,
       "ncbi": 3311
@@ -1466,7 +1466,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5285824,
       "ncbi": 71636
@@ -1665,7 +1665,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2653133,
       "ncbi": 3382
@@ -1853,7 +1853,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2703459,
       "ncbi": 4530
@@ -2070,7 +2070,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2882449,
       "ncbi": 4432
@@ -2274,7 +2274,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3152230,
       "ncbi": 66656
@@ -2470,7 +2470,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3071171,
       "ncbi": 3981
@@ -2677,7 +2677,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2689594,
       "ncbi": 3234
@@ -2880,7 +2880,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 4940372,
       "ncbi": 872858
@@ -3043,7 +3043,7 @@
         "url_small": "images/equisetum-debile/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 10769463,
       "ncbi": null
@@ -3239,7 +3239,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2650858,
       "ncbi": 29615
@@ -3430,7 +3430,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5290052,
       "ncbi": 4577
@@ -3632,7 +3632,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2969284,
       "ncbi": 76306
@@ -3817,7 +3817,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3052436,
       "ncbi": 3702
@@ -4008,7 +4008,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3941194,
       "ncbi": 577520
@@ -4199,7 +4199,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5275521,
       "ncbi": 3377
@@ -4394,7 +4394,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2857697,
       "ncbi": 4679
@@ -4585,7 +4585,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5347845,
       "ncbi": 3888
@@ -4769,7 +4769,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5329570,
       "ncbi": 51024
@@ -4965,7 +4965,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5288819,
       "ncbi": 4615
@@ -5168,7 +5168,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2703912,
       "ncbi": 4547
@@ -5364,7 +5364,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5330098,
       "ncbi": 161118
@@ -5559,7 +5559,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3190712,
       "ncbi": 150983
@@ -5763,7 +5763,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3086526,
       "ncbi": 106626

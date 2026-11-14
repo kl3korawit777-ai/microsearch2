@@ -101,7 +101,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2627503,
       "ncbi": 109871
@@ -288,7 +288,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2558944,
       "ncbi": 4846
@@ -449,7 +449,7 @@
         "url_small": "images/rhizophagus-irregularis/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 7764042,
       "ncbi": 588596
@@ -673,7 +673,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 7440012,
       "ncbi": 4932
@@ -882,7 +882,7 @@
         "url_small": "images/penicillium-chrysogenum/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3466349,
       "ncbi": 5076
@@ -1049,7 +1049,7 @@
         "url_small": "images/aspergillus-oryzae/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5259827,
       "ncbi": 5062
@@ -1242,7 +1242,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5241445,
       "ncbi": 36659
@@ -1422,7 +1422,7 @@
         "url_small": "images/cryptococcus-neoformans/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5237368,
       "ncbi": 5207
@@ -1612,7 +1612,7 @@
         "url_small": "images/neurospora-crassa/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5253986,
       "ncbi": 5141
@@ -1809,7 +1809,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5259820,
       "ncbi": 5059
@@ -2037,7 +2037,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2526530,
       "ncbi": 5322
@@ -2231,7 +2231,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3347384,
       "ncbi": 858890
@@ -2416,7 +2416,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2599597,
       "ncbi": 5476
@@ -2635,7 +2635,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 7567077,
       "ncbi": 73501
@@ -2822,7 +2822,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2514501,
       "ncbi": 5297
@@ -2986,7 +2986,7 @@
         "url_small": "images/pneumocystis-jirovecii/1-600.webp"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2610978,
       "ncbi": 42068
@@ -3195,7 +3195,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 3465658,
       "ncbi": 5061
@@ -3381,7 +3381,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2549730,
       "ncbi": 5315
@@ -3525,7 +3525,7 @@
     },
     "illustration": "mushroom",
     "images": [],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5452714,
       "ncbi": 262245

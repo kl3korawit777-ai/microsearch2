@@ -121,7 +121,8 @@ async function checkAllPages(lang, index, meta, credits) {
       const g = meta.groups.find((x) => x.id === s.g);
       ok(r.h1 === s.sci, `${tag}: h1 "${r.h1}" != ${s.sci}`);
       ok((await count(page, '.ladder .step')) === g.ranks.length, `${tag}: ladder steps != ${g.ranks.length}`);
-      ok((await count(page, '.badge.draft')) === 1, `${tag}: draft badge missing (review=ai_draft)`);
+      const review = (readJson(`data/${s.g}.json`).organisms.find((x) => x.id === s.id) || {}).review;
+      ok((await count(page, '.badge.draft')) === (review === 'ai_draft' ? 1 : 0), `${tag}: draft badge does not match review=${review}`);
       ok((await count(page, '.sp-title .lv')) === 1, `${tag}: level badge missing`);
       if (s.np) {
         await page.waitForFunction(() => { const i = document.querySelector('.art-box.photo img'); return !i || (i.complete && i.naturalWidth > 0); }, { timeout: 8000 }).catch(() => {});

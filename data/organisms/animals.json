@@ -101,7 +101,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2244988,
       "ncbi": 6055
@@ -301,7 +301,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2264442,
       "ncbi": 6145
@@ -535,7 +535,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5185782,
       "ncbi": 6087
@@ -725,7 +725,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2505611,
       "ncbi": 6198
@@ -990,7 +990,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2283683,
       "ncbi": 6239
@@ -1195,7 +1195,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 9512546,
       "ncbi": 1348078
@@ -1411,7 +1411,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2292582,
       "ncbi": 400727
@@ -1631,7 +1631,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2289202,
       "ncbi": 34573
@@ -1823,7 +1823,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 1651891,
       "ncbi": 7159
@@ -2115,7 +2115,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 8406925,
       "ncbi": 6687
@@ -2325,7 +2325,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 6894876,
       "ncbi": 217256
@@ -2535,7 +2535,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2271208,
       "ncbi": 133434
@@ -2713,7 +2713,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5227667,
       "ncbi": 7741
@@ -2921,7 +2921,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2393998,
       "ncbi": 158456
@@ -3125,7 +3125,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2430382,
       "ncbi": 110072
@@ -3325,7 +3325,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5219461,
       "ncbi": 9783
@@ -3528,7 +3528,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5892108,
       "ncbi": 6161
@@ -3726,7 +3726,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 6101576,
       "ncbi": 6204
@@ -3983,7 +3983,7 @@
         "kind": "micrograph"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 4558786,
       "ncbi": 6252
@@ -4210,7 +4210,7 @@
         "kind": "micrograph"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 4556994,
       "ncbi": 75299
@@ -4462,7 +4462,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2316143,
       "ncbi": 460893
@@ -4661,7 +4661,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 4372624,
       "ncbi": 80830
@@ -4859,7 +4859,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2000152,
       "ncbi": 6978
@@ -5058,7 +5058,7 @@
         "kind": "micrograph"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5073713,
       "ncbi": 7227
@@ -5261,7 +5261,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 1868664,
       "ncbi": 7091
@@ -5464,7 +5464,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5721108,
       "ncbi": 31175
@@ -5659,7 +5659,7 @@
         "source": "inaturalist"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2329622,
       "ncbi": 7719
@@ -5861,7 +5861,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2417522,
       "ncbi": 259920
@@ -6082,7 +6082,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2442225,
       "ncbi": 8469
@@ -6287,7 +6287,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 9326020,
       "ncbi": 9031
@@ -6487,7 +6487,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2436436,
       "ncbi": 9606
@@ -6680,7 +6680,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 2433376,
       "ncbi": 9258
@@ -6881,7 +6881,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 4410657,
       "ncbi": 6398
@@ -7062,7 +7062,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 1650618,
       "ncbi": 112268
@@ -7281,7 +7281,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 1341979,
       "ncbi": 7461
@@ -7484,7 +7484,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 7429082,
       "ncbi": 10090
@@ -7684,7 +7684,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 9797255,
       "ncbi": 7955
@@ -7877,7 +7877,7 @@
         "kind": "photo"
       }
     ],
-    "review": "ai_draft",
+    "review": "human_reviewed",
     "taxon_ids": {
       "gbif": 5201037,
       "ncbi": 103715
