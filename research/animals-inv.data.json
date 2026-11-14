@@ -1,0 +1,1181 @@
+{
+ "spongilla-lacustris": {
+  "authority": "(Linnaeus, 1759)",
+  "synonyms": [
+   "Euspongilla lacustris",
+   "Spongia lacustris"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "na",
+   "segment": "no",
+   "realm": "fresh"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Porifera"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ฟองน้ำที่มีไคติน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Spongilla lacustris (Linnaeus, 1759)",
+    "url": "https://www.gbif.org/species/2244988",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Gernert C et al. Microbial diversity of the freshwater sponge Spongilla lacustris. Microb Ecol 2005;50:206-212",
+    "url": "https://doi.org/10.1007/s00248-004-0172-x",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Ehrlich H et al. Identification and first insights into the structure and biosynthesis of chitin from the freshwater sponge Spongilla lacustris. J Struct Biol 2013;183:474-483",
+    "url": "https://doi.org/10.1016/j.jsb.2013.06.015",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "aurelia-aurita": {
+  "authority": "(Linnaeus, 1758)",
+  "synonyms": [
+   "Medusa aurita",
+   "Aurelia flavidula"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "na",
+   "segment": "no",
+   "realm": "marine"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Cnidaria"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "แมงกะพรุนที่เปลี่ยนรูปตามอุณหภูมิ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Aurelia aurita (Linnaeus, 1758)",
+    "url": "https://www.gbif.org/species/2264442",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Khalturin K et al. Medusozoan genomes inform the evolution of the jellyfish body plan. Nat Ecol Evol 2019;3:811-822",
+    "url": "https://doi.org/10.1038/s41559-019-0853-y",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Fuchs B et al. Regulation of polyp-to-jellyfish transition in Aurelia aurita. Curr Biol 2014;24:263-273",
+    "url": "https://doi.org/10.1016/j.cub.2013.12.003",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Dong Z, Liu D, Keesing JK. Jellyfish blooms in China: dominant species, causes and consequences. Mar Pollut Bull 2010;60:954-963",
+    "url": "https://doi.org/10.1016/j.marpolbul.2010.04.022",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "hydra-vulgaris": {
+  "authority": "Pallas, 1766",
+  "synonyms": [
+   "Hydra magnipapillata",
+   "Hydra carnea"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "na",
+   "segment": "no",
+   "realm": "fresh"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Cnidaria"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "สัตว์ที่งอกใหม่และแตกหน่อ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Hydra vulgaris Pallas, 1766",
+    "url": "https://www.gbif.org/species/5185782",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Chapman JA et al. The dynamic genome of Hydra. Nature 2010;464:592-596",
+    "url": "https://doi.org/10.1038/nature08830",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Dupre C, Yuste R. Non-overlapping neural networks in Hydra vulgaris. Curr Biol 2017;27:1085-1097",
+    "url": "https://doi.org/10.1016/j.cub.2017.02.049",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Fraune S, Bosch TCG. Long-term maintenance of species-specific bacterial microbiota in the basal metazoan Hydra. PNAS 2007;104:13146-13151",
+    "url": "https://doi.org/10.1073/pnas.0703375104",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "opisthorchis-viverrini": {
+  "authority": "(Poirier, 1886) Stiles & Hassall, 1896",
+  "synonyms": [
+   "Distoma viverrini",
+   "Distomum viverrini"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Platyhelminthes"
+   ],
+   [
+    "ขนาดตัวเต็มวัย",
+    "ยาว 5 ถึง 10 มิลลิเมตร กว้าง 1 ถึง 2 มิลลิเมตร"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "พยาธิที่ติดจากปลาดิบ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Opisthorchis viverrini (Poirier, 1886) Stiles & Hassall, 1896",
+    "url": "https://www.gbif.org/species/2505611",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC DPDx: Opisthorchiasis",
+    "url": "https://www.cdc.gov/dpdx/opisthorchiasis/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "WHO: Foodborne trematode infections fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/foodborne-trematode-infections",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "caenorhabditis-elegans": {
+  "authority": "(Maupas, 1899) Dougherty, 1953",
+  "synonyms": [
+   "Rhabditis elegans",
+   "Caenorhabditis kowalewskyi"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Nematoda"
+   ],
+   [
+    "ขนาดจีโนม",
+    "97 เมกะคู่เบส มีมากกว่า 19,000 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "หนอนตัวกลมต้นแบบ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Caenorhabditis elegans (Maupas, 1899) Dougherty, 1953",
+    "url": "https://www.gbif.org/species/2283683",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "The C. elegans Sequencing Consortium. Genome sequence of the nematode C. elegans: a platform for investigating biology. Science 1998;282:2012-2018",
+    "url": "https://doi.org/10.1126/science.282.5396.2012",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "hirudinaria-manillensis": {
+  "authority": "(Lesson, 1842)",
+  "synonyms": [
+   "Hirudo manillensis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Annelida"
+   ],
+   [
+    "ตระกูลยีนต้านลิ่มเลือดในจีโนม",
+    "21 ตระกูล มี 72 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    3
+   ]
+  ],
+  "asideTitle": "สารจากน้ำลายปลิง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Hirudinaria manillensis (Lesson, 1842)",
+    "url": "https://www.gbif.org/species/9512546",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Müller C et al. Hirudins and hirudin-like factors in Hirudinidae: implications for function and phylogenetic relationships. Parasitol Res 2017;116:313-325",
+    "url": "https://doi.org/10.1007/s00436-016-5294-9",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Liu Z et al. Revisiting the Asian buffalo leech (Hirudinaria manillensis) genome: focus on antithrombotic genes and their corresponding proteins. Genes 2023;14:2068",
+    "url": "https://doi.org/10.3390/genes14112068",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "pomacea-canaliculata": {
+  "authority": "(Lamarck, 1822)",
+  "synonyms": [
+   "Ampullaria canaliculata",
+   "Ampullaria australis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no",
+   "realm": "fresh"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Mollusca"
+   ],
+   [
+    "ขนาดจีโนม",
+    "440 เมกะคู่เบส มี 21,533 แบบจำลองยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "หอยต่างถิ่นที่รุกรานพื้นที่ชุ่มน้ำ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Pomacea canaliculata (Lamarck, 1822)",
+    "url": "https://www.gbif.org/species/2292582",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Liu C et al. The genome of the golden apple snail Pomacea canaliculata provides insight into stress tolerance and invasive adaptation. GigaScience 2018;7:giy101",
+    "url": "https://doi.org/10.1093/gigascience/giy101",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Carlsson NOL, Brönmark C, Hansson LA. Invading herbivory: the golden apple snail alters ecosystem functioning in Asian wetlands. Ecology 2004;85:1575-1580",
+    "url": "https://doi.org/10.1890/03-3146",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Lv S et al. Invasive snails and an emerging infectious disease: results from the first national survey on Angiostrongylus cantonensis in China. PLoS Negl Trop Dis 2009;3:e368",
+    "url": "https://doi.org/10.1371/journal.pntd.0000368",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "nautilus-pompilius": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [
+   "Nautilus pompilius pompilius"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Mollusca"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "เซฟาโลพอดที่ยังมีเปลือก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Nautilus pompilius Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/2289202",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Zhang Y et al. The genome of Nautilus pompilius illuminates eye evolution and biomineralization. Nat Ecol Evol 2021;5:927-938",
+    "url": "https://doi.org/10.1038/s41559-021-01448-6",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "penaeus-monodon": {
+  "authority": "Fabricius, 1798",
+  "synonyms": [
+   "Penaeus carinatus",
+   "Penaeus durbani"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Arthropoda"
+   ],
+   [
+    "สัดส่วนความเสียหายจากโรคในการเพาะเลี้ยงกุ้งที่มาจากไวรัส",
+    "ราว 60%"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "กุ้งที่ถูกแทนที่ในฟาร์ม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Penaeus monodon Fabricius, 1798",
+    "url": "https://www.gbif.org/species/8406925",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Flegel TW. Historic emergence, impact and current status of shrimp pathogens in Asia. J Invertebr Pathol 2012;110:166-173",
+    "url": "https://doi.org/10.1016/j.jip.2012.03.004",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "heterometrus-laoticus": {
+  "authority": "Couzijn, 1981",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Arthropoda"
+   ],
+   [
+    "น้ำหนักโมเลกุลของโปรตีนพิษ Heteroscorpine-1",
+    "8,293 ดาลตัน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "แมงป่องกับพิษที่ถูกศึกษา",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Heterometrus laoticus Couzijn, 1981",
+    "url": "https://www.gbif.org/species/6894876",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Uawonggul N et al. Purification and characterization of Heteroscorpine-1 (HS-1) toxin from Heterometrus laoticus scorpion venom. Toxicon 2007;49:19-29",
+    "url": "https://doi.org/10.1016/j.toxicon.2006.09.003",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Hoang AN et al. Vietnamese Heterometrus laoticus scorpion venom: evidence for analgesic and anti-inflammatory activity and isolation of new polypeptide toxin acting on Kv1.3 potassium channel. Toxicon 2014;77:40-48",
+    "url": "https://doi.org/10.1016/j.toxicon.2013.10.027",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "acanthaster-planci": {
+  "authority": "(Linnaeus, 1758)",
+  "synonyms": [
+   "Acanthaster echinites",
+   "Acanthaster ellisi"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no",
+   "realm": "marine"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Echinodermata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ดาวทะเลที่ล่าปะการัง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Acanthaster planci (Linnaeus, 1758)",
+    "url": "https://www.gbif.org/species/2271208",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Hall MR et al. The crown-of-thorns starfish genome as a guide for biocontrol of this coral reef pest. Nature 2017;544:231-234",
+    "url": "https://doi.org/10.1038/nature22033",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Kayal M et al. Predator crown-of-thorns starfish (Acanthaster planci) outbreak, mass mortality of corals, and cascading effects on reef fish and benthic communities. PLoS One 2012;7:e47363",
+    "url": "https://doi.org/10.1371/journal.pone.0047363",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Brodie J et al. Are increased nutrient inputs responsible for more outbreaks of crown-of-thorns starfish? An appraisal of the evidence. Mar Pollut Bull 2005;51:266-278",
+    "url": "https://doi.org/10.1016/j.marpolbul.2004.10.035",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "branchiostoma-belcheri": {
+  "authority": "(Gray, 1847)",
+  "synonyms": [
+   "Amphioxus belcheri",
+   "Branchiostoma lanceolatum belcheri"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Chordata"
+   ],
+   [
+    "ขนาดจีโนมของ Branchiostoma floridae",
+    "ประมาณ 520 เมกะคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    3
+   ]
+  ],
+  "asideTitle": "แลนเซเลตกับกำเนิดสัตว์มีกระดูกสันหลัง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Branchiostoma belcheri (Gray, 1847)",
+    "url": "https://www.gbif.org/species/5227667",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Huang S et al. Decelerated genome evolution in modern vertebrates revealed by analysis of multiple lancelet genomes. Nat Commun 2014;5:5896",
+    "url": "https://doi.org/10.1038/ncomms6896",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Putnam NH et al. The amphioxus genome and the evolution of the chordate karyotype. Nature 2008;453:1064-1071",
+    "url": "https://doi.org/10.1038/nature06967",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "dugesia-japonica": {
+  "authority": "Ichikawa & Kawakatsu, 1964",
+  "synonyms": [
+   "Dugesia japonica japonica"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Platyhelminthes"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "หนอนที่งอกเป็นตัวใหม่",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Dugesia japonica Ichikawa & Kawakatsu, 1964",
+    "url": "https://www.gbif.org/species/5892108",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Cebrià F et al. FGFR-related gene nou-darake restricts brain tissues to the head region of planarians. Nature 2002;419:620-624",
+    "url": "https://doi.org/10.1038/nature01042",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Umesono Y et al. The molecular logic for planarian regeneration along the anterior-posterior axis. Nature 2013;500:73-76",
+    "url": "https://doi.org/10.1038/nature12359",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "taenia-solium": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [
+   "Taenia cucurbitina",
+   "Cysticercus cellulosae"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Platyhelminthes"
+   ],
+   [
+    "ระยะเวลาที่ซิสติเซอร์คัสโตเป็นตัวเต็มวัยในลำไส้เล็ก",
+    "ประมาณ 2 เดือน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "พยาธิที่ผ่านหมู",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Taenia solium Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/6101576",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC DPDx: Taeniasis",
+    "url": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "WHO: Taeniasis/cysticercosis fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "ascaris-lumbricoides": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Nematoda"
+   ],
+   [
+    "อายุตัวเต็มวัย",
+    "1 ถึง 2 ปี"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "พยาธิที่ผ่านปอด",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Ascaris lumbricoides Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/4558786",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC DPDx: Ascariasis",
+    "url": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "WHO: Soil-transmitted helminth infections fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "gnathostoma-spinigerum": {
+  "authority": "Owen, 1836",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Nematoda"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "คนเป็นโฮสต์โดยบังเอิญ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Gnathostoma spinigerum Owen, 1836",
+    "url": "https://www.gbif.org/species/4556994",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "CDC DPDx: Gnathostomiasis",
+    "url": "https://www.cdc.gov/dpdx/gnathostomiasis/index.html",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "perinereis-nuntia": {
+  "authority": "(Lamarck, 1818)",
+  "synonyms": [
+   "Nereis nuntia",
+   "Lycoris nuntia"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes",
+   "realm": "marine"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Annelida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "สัตว์บ่งชี้มลพิษ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Perinereis nuntia (Lamarck, 1818)",
+    "url": "https://www.gbif.org/species/2316143",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Won EJ, Raisuddin S, Shin KH. Evaluation of induction of metallothionein-like proteins (MTLPs) in the polychaetes for biomonitoring of heavy metal pollution in marine sediments. Mar Pollut Bull 2008;57:444-448",
+    "url": "https://doi.org/10.1016/j.marpolbul.2008.02.025",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Won EJ et al. Expression of three novel cytochrome P450 (CYP) and antioxidative genes from the polychaete, Perinereis nuntia exposed to water accommodated fraction (WAF) of Iranian crude oil and benzo[a]pyrene. Mar Environ Res 2013;90:54-62",
+    "url": "https://doi.org/10.1016/j.marenvres.2013.05.014",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "tridacna-squamosa": {
+  "authority": "Lamarck, 1819",
+  "synonyms": [
+   "Tridacna lamarcki"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "no"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Mollusca"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "หอยที่เลี้ยงสาหร่ายไว้ในตัว",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Tridacna squamosa Lamarck, 1819",
+    "url": "https://www.gbif.org/species/4372624",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Ikeda S et al. Zooxanthellal genetic varieties in giant clams are partially determined by species-intrinsic and growth-related characteristics. PLoS One 2017;12:e0172285",
+    "url": "https://doi.org/10.1371/journal.pone.0172285",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Ip YK et al. Light induces changes in activities of Na+/K+-ATPase, H+/K+-ATPase and glutamine synthetase in tissues involved directly or indirectly in light-enhanced calcification in the giant clam, Tridacna squamosa. Front Physiol 2015;6:68",
+    "url": "https://doi.org/10.3389/fphys.2015.00068",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "periplaneta-americana": {
+  "authority": "(Linnaeus, 1758)",
+  "synonyms": [
+   "Blatta americana",
+   "Blatta aurelianensis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Arthropoda"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "แมลงสาบกับแบคทีเรียในเซลล์ไขมัน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Periplaneta americana (Linnaeus, 1758)",
+    "url": "https://www.gbif.org/species/2000152",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Sabree ZL, Kambhampati S, Moran NA. Nitrogen recycling and nutritional provisioning by Blattabacterium, the cockroach endosymbiont. PNAS 2009;106:19521-19526",
+    "url": "https://doi.org/10.1073/pnas.0907504106",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Rosenstreich DL et al. The role of cockroach allergy and exposure to cockroach allergen in causing morbidity among inner-city children with asthma. N Engl J Med 1997;336:1356-1363",
+    "url": "https://doi.org/10.1056/nejm199705083361904",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "drosophila-melanogaster": {
+  "authority": "Meigen, 1830",
+  "synonyms": [
+   "Drosophila ampelophila",
+   "Drosophila aceti"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Arthropoda"
+   ],
+   [
+    "ขนาดส่วนยูโครมาตินของจีโนม",
+    "ราว 120 เมกะคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "แมลงหวี่ต้นแบบ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Drosophila melanogaster Meigen, 1830",
+    "url": "https://www.gbif.org/species/5073713",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Adams MD et al. The genome sequence of Drosophila melanogaster. Science 2000;287:2185-2195",
+    "url": "https://doi.org/10.1126/science.287.5461.2185",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "bombyx-mori": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [
+   "Bombyx arracanensis",
+   "Bombyx croesi"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Arthropoda"
+   ],
+   [
+    "จำนวนยีนที่ประเมิน",
+    "18,510 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ไหมกับแมลงหวี่",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Bombyx mori Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/1868664",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Xia Q et al. A draft sequence for the genome of the domesticated silkworm (Bombyx mori). Science 2004;306:1937-1940",
+    "url": "https://doi.org/10.1126/science.1102210",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "diadema-setosum": {
+  "authority": "(Leske, 1778)",
+  "synonyms": [
+   "Centrostephanus setosus",
+   "Cidaris tenuispina"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "deutero",
+   "segment": "no",
+   "realm": "marine"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Echinodermata"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "เม่นทะเลที่กินปะการัง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Diadema setosum (Leske, 1778)",
+    "url": "https://www.gbif.org/species/5721108",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Qiu JW et al. Community-level destruction of hard corals by the sea urchin Diadema setosum. Mar Pollut Bull 2014;85:783-788",
+    "url": "https://doi.org/10.1016/j.marpolbul.2013.12.012",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "lumbricus-terrestris": {
+  "authority": "Linnaeus, 1758",
+  "synonyms": [
+   "Aporrectodea terrestris",
+   "Enterion terrestre"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes",
+   "realm": "land"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Annelida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ไส้เดือนที่พาไมโครพลาสติกลงดิน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Lumbricus terrestris Linnaeus, 1758",
+    "url": "https://www.gbif.org/species/4410657",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Huerta Lwanga E et al. Incorporation of microplastics from litter into burrows of Lumbricus terrestris. Environ Pollut 2017;220:523-531",
+    "url": "https://doi.org/10.1016/j.envpol.2016.09.096",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Rillig MC, Ziersch L, Hempel S. Microplastic transport in soil by earthworms. Sci Rep 2017;7:1362",
+    "url": "https://doi.org/10.1038/s41598-017-01594-7",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "anopheles-minimus": {
+  "authority": "Theobald, 1901",
+  "synonyms": [
+   "Anopheles christophersi",
+   "Anopheles cohaesa"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Arthropoda"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ชนิดพี่น้องของพาหะมาลาเรีย",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Anopheles minimus Theobald, 1901",
+    "url": "https://www.gbif.org/species/1650618",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Garros C et al. Review of the Minimus Complex of Anopheles, main malaria vector in Southeast Asia: from taxonomic issues to vector control strategies. Trop Med Int Health 2006;11:102-114",
+    "url": "https://doi.org/10.1111/j.1365-3156.2005.01536.x",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Trung HD et al. Malaria transmission and major malaria vectors in different geographical areas of Southeast Asia. Trop Med Int Health 2004;9:230-237",
+    "url": "https://doi.org/10.1046/j.1365-3156.2003.01179.x",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "WHO: Malaria fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "apis-cerana": {
+  "authority": "Fabricius, 1793",
+  "synonyms": [
+   "Apis cerana cathayca",
+   "Apis cerana abaensis"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "devline": "proto",
+   "segment": "yes"
+  },
+  "traitsExtra": [
+   [
+    "ไฟลัม (GBIF)",
+    "Arthropoda"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ผึ้งเอเชียกับจีโนม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Apis cerana Fabricius, 1793",
+    "url": "https://www.gbif.org/species/1341979",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Park D et al. Uncovering the novel characteristics of Asian honey bee, Apis cerana, by whole genome sequencing. BMC Genomics 2015;16:1",
+    "url": "https://doi.org/10.1186/1471-2164-16-1",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ }
+}
