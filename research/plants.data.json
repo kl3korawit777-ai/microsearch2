@@ -1,0 +1,1231 @@
+{
+ "sphagnum-palustre": {
+  "authority": "L.",
+  "synonyms": [
+   "Gymnostomum obtusifolium",
+   "Sphagnum cymbifolioides"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Sphagnopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "มอสที่เลี้ยงได้ในห้องปฏิบัติการ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Sphagnum palustre L.",
+    "url": "https://www.gbif.org/species/2669006",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Beike AK et al. Clonal in vitro propagation of peat mosses (Sphagnum L.) as novel green resources for basic and applied research. Plant Cell Tissue Organ Cult 2015;120:1037-1049",
+    "url": "https://doi.org/10.1007/s11240-014-0658-2",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Cornelissen JHC et al. Comparative cryptogam ecology: a review of bryophyte and lichen traits that drive biogeochemistry. Ann Bot 2007;99:987-1001",
+    "url": "https://doi.org/10.1093/aob/mcm030",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 4,
+    "title": "Gonzalez AG et al. Metal and proton adsorption capacities of natural and cloned Sphagnum mosses. J Colloid Interface Sci 2016;461:326-334",
+    "url": "https://doi.org/10.1016/j.jcis.2015.09.012",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "marchantia-polymorpha": {
+  "authority": "L.",
+  "synonyms": [
+   "Jungermannia polymorpha",
+   "Marchantia aquatica"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Marchantiopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ลิเวอร์เวิร์ตที่สะท้อนบรรพบุรุษพืชบก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Marchantia polymorpha L.",
+    "url": "https://www.gbif.org/species/2688570",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Bowman JL et al. Insights into land plant evolution garnered from the Marchantia polymorpha genome. Cell 2017;171:287-304",
+    "url": "https://doi.org/10.1016/j.cell.2017.09.030",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "lycopodiella-cernua": {
+  "authority": "(L.) Pic.Serm.",
+  "synonyms": [
+   "Lepidotis cernua"
+  ],
+  "accepted_name": "Palhinhaea cernua",
+  "traits": {
+   "cotyledon": "na"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Lycopodiopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ราและแบคทีเรียที่อยู่กับไลโคพอด",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Lycopodiella cernua (L.) Pic.Serm.",
+    "url": "https://www.gbif.org/species/6385660",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Benucci GMN et al. Evidence for co-evolutionary history of early diverging Lycopodiaceae plants with fungi. Front Microbiol 2019;10:2944",
+    "url": "https://doi.org/10.3389/fmicb.2019.02944",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "psilotum-nudum": {
+  "authority": "(L.) P.Beauv.",
+  "synonyms": [
+   "Bernhardia antillarum"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "worldwide"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Polypodiopsida"
+   ],
+   [
+    "จีโนมไมโทคอนเดรีย",
+    "628 กิโลคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "เฟิร์นที่จีโนมซ้ำซ้อนแต่แทบไม่รวมตัวใหม่",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Psilotum nudum (L.) P.Beauv.",
+    "url": "https://www.gbif.org/species/2688176",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Guo W et al. Complete mitochondrial genomes from the ferns Ophioglossum californicum and Psilotum nudum are highly repetitive with the largest organellar introns. New Phytol 2017;213:391-403",
+    "url": "https://doi.org/10.1111/nph.14135",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Grewe F et al. Complete plastid genomes from Ophioglossum californicum, Psilotum nudum, and Equisetum hyemale reveal an ancestral land plant genome structure and resolve the position of Equisetales among monilophytes. BMC Evol Biol 2013;13:8",
+    "url": "https://doi.org/10.1186/1471-2148-13-8",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "azolla-pinnata": {
+  "authority": "R.Br.",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "habit": "aquatic"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Polypodiopsida"
+   ],
+   [
+    "ความเข้มข้นโลหะในเนื้อเยื่อหลังเลี้ยงในน้ำเสียทดลอง",
+    "310 ถึง 740 มิลลิกรัมต่อกิโลกรัมน้ำหนักแห้ง"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    3
+   ]
+  ],
+  "asideTitle": "เฟิร์นน้ำที่ดูดโลหะหนัก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Azolla pinnata R.Br.",
+    "url": "https://www.gbif.org/species/2650106",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Li FW et al. Fern genomes elucidate land plant evolution and cyanobacterial symbioses. Nat Plants 2018;4:460-472",
+    "url": "https://doi.org/10.1038/s41477-018-0188-8",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Rai PK. Phytoremediation of Hg and Cd from industrial effluents using an aquatic free floating macrophyte Azolla pinnata. Int J Phytoremediation 2008;10:430-439",
+    "url": "https://doi.org/10.1080/15226510802100606",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "cycas-siamensis": {
+  "authority": "Miq.",
+  "synonyms": [
+   "Cycas aurea",
+   "Cycas immersa"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Cycadopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "สารยับยั้งเอนไซม์ในเมล็ดปรง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Cycas siamensis Miq.",
+    "url": "https://www.gbif.org/species/2683286",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Konarev AV, Lovegrove A, Shewry PR. Serine proteinase inhibitors in seeds of Cycas siamensis and other gymnosperms. Phytochemistry 2008;69:2482-2489",
+    "url": "https://doi.org/10.1016/j.phytochem.2008.07.001",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "ginkgo-biloba": {
+  "authority": "L.",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Ginkgoopsida"
+   ],
+   [
+    "ขนาดจีโนม",
+    "10.61 กิกะคู่เบส มี 41,840 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ฟอสซิลที่ยังมีชีวิต",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Ginkgo biloba L.",
+    "url": "https://www.gbif.org/species/2687885",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Guan R et al. Draft genome of the living fossil Ginkgo biloba. GigaScience 2016;5:49",
+    "url": "https://doi.org/10.1186/s13742-016-0154-1",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "pinus-kesiya": {
+  "authority": "Royle ex Gordon",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Pinopsida"
+   ],
+   [
+    "สารหลักในน้ำมันหอมระเหยจากใบ",
+    "แอลฟา-ไพนีน เบตา-ไพนีน ไมร์ซีน และเจอร์มาครีน ดี"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "น้ำมันจากใบกับลูกน้ำยุง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Pinus kesiya Royle ex Gordon",
+    "url": "https://www.gbif.org/species/5285824",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Govindarajan M, Rajeswary M, Benelli G. Chemical composition, toxicity and non-target effects of Pinus kesiya essential oil: an eco-friendly and novel larvicide against malaria, dengue and lymphatic filariasis mosquito vectors. Ecotoxicol Environ Saf 2016;129:85-90",
+    "url": "https://doi.org/10.1016/j.ecoenv.2016.03.007",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "gnetum-gnemon": {
+  "authority": "L.",
+  "synonyms": [
+   "Gnetum domesticum"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Gnetopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "พืชที่ใกล้สนมากกว่าพืชดอก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Gnetum gnemon L.",
+    "url": "https://www.gbif.org/species/2653133",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Winter KU et al. MADS-box genes reveal that gnetophytes are more closely related to conifers than to flowering plants. PNAS 1999;96:7342-7347",
+    "url": "https://doi.org/10.1073/pnas.96.13.7342",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "nelumbo-nucifera": {
+  "authority": "Gaertn.",
+  "synonyms": [
+   "Nelumbium asiaticum",
+   "Nelumbium album"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ],
+   [
+    "ขนาดจีโนมโดยประมาณ",
+    "929 เมกะคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "บัวที่ใบกันน้ำได้",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Nelumbo nucifera Gaertn.",
+    "url": "https://www.gbif.org/species/2882449",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Ming R et al. Genome of the long-living sacred lotus (Nelumbo nucifera Gaertn.). Genome Biol 2013;14:R41",
+    "url": "https://doi.org/10.1186/gb-2013-14-5-r41",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "durio-zibethinus": {
+  "authority": "Murray",
+  "synonyms": [
+   "Durio stercoraceus"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "จีโนมของกลิ่นทุเรียน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Durio zibethinus Murray",
+    "url": "https://www.gbif.org/species/3152230",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Teh BT et al. The draft genome of tropical fruit durian (Durio zibethinus). Nat Genet 2017;49:1633-1641",
+    "url": "https://doi.org/10.1038/ng.3972",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "hevea-brasiliensis": {
+  "authority": "(Willd. ex A.Juss.) Müll.Arg.",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot",
+   "origin": "samerica",
+   "habit": "tree"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ],
+   [
+    "ขนาดจีโนมที่ประกอบได้",
+    "1.37 กิกะคู่เบส จากจีโนมประมาณ 1.47 กิกะคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "โปรตีนที่ทำให้ได้ยาง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg.",
+    "url": "https://www.gbif.org/species/3071171",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Tang C et al. The rubber tree genome reveals new insights into rubber production and species adaptation. Nat Plants 2016;2:16073",
+    "url": "https://doi.org/10.1038/nplants.2016.73",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "anthoceros-punctatus": {
+  "authority": "L.",
+  "synonyms": [
+   "Anthoceros caespiticius"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Anthocerotopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "พืชบกที่กักเก็บคาร์บอนแบบสาหร่าย",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Anthoceros punctatus L.",
+    "url": "https://www.gbif.org/species/2689594",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Li FW et al. Anthoceros genomes illuminate the origin of land plants and the unique biology of hornworts. Nat Plants 2020;6:259-272",
+    "url": "https://doi.org/10.1038/s41477-020-0618-2",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Villarreal JC, Renner SS. Correlates of monoicy and dioicy in hornworts, the apparent sister group to vascular plants. BMC Evol Biol 2013;13:239",
+    "url": "https://doi.org/10.1186/1471-2148-13-239",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "selaginella-involvens": {
+  "authority": "(Sw.) Spring",
+  "synonyms": [
+   "Lycopodioides involvens",
+   "Lycopodium caulescens"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Lycopodiopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ไลโคไฟต์ที่พลาสติดจีโนมแปลก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Selaginella involvens (Sw.) Spring",
+    "url": "https://www.gbif.org/species/4940372",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Shim H et al. Plastid genomes of the early vascular plant genus Selaginella have unusual direct repeat structures and drastically reduced gene numbers. Int J Mol Sci 2021;22:641",
+    "url": "https://doi.org/10.3390/ijms22020641",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Banks JA et al. The Selaginella genome identifies genetic changes associated with the evolution of vascular plants. Science 2011;332:960-963",
+    "url": "https://doi.org/10.1126/science.1203810",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "equisetum-debile": {
+  "authority": "Roxb. ex Wall.",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Polypodiopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "พืชที่สะสมซิลิกา",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Equisetum debile Roxb. ex Wall.",
+    "url": "https://www.gbif.org/species/10769463",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Law C, Exley C. New insight into silica deposition in horsetail (Equisetum arvense). BMC Plant Biol 2011;11:112",
+    "url": "https://doi.org/10.1186/1471-2229-11-112",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Vanneste K et al. Horsetails are ancient polyploids: evidence from Equisetum giganteum. Plant Cell 2015;27:1567-1578",
+    "url": "https://doi.org/10.1105/tpc.15.00157",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "diplazium-esculentum": {
+  "authority": "(Retz.) Sw.",
+  "synonyms": [
+   "Anisogonium esculentum"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Polypodiopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "เฟิร์นที่กินยอดอ่อน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Diplazium esculentum (Retz.) Sw.",
+    "url": "https://www.gbif.org/species/2650858",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Dvorakova M et al. The traditional utilization, biological activity and chemical composition of edible fern species. J Ethnopharmacol 2024;330:117818",
+    "url": "https://doi.org/10.1016/j.jep.2024.117818",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Sirichai P et al. Impact of drying processes on phenolics and in vitro health-related activities of indigenous plants in Thailand. Plants 2022;11:294",
+    "url": "https://doi.org/10.3390/plants11030294",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "zea-mays": {
+  "authority": "L.",
+  "synonyms": [
+   "Mays zea",
+   "Thalysia mays"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "mono"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Liliopsida"
+   ],
+   [
+    "ขนาดจีโนม (สายพันธุ์ B73)",
+    "2.3 กิกะคู่เบส มีมากกว่า 32,000 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ข้าวโพดกับทรานสโพซอน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Zea mays L.",
+    "url": "https://www.gbif.org/species/5290052",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Schnable PS et al. The B73 maize genome: complexity, diversity, and dynamics. Science 2009;326:1112-1115",
+    "url": "https://doi.org/10.1126/science.1178534",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "mimosa-pudica": {
+  "authority": "L.",
+  "synonyms": [
+   "Eburnax pudica"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "พืชไวต่อสิ่งเร้า",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Mimosa pudica L.",
+    "url": "https://www.gbif.org/species/2969284",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Fromm J, Lautner S. Electrical signals and their physiological significance in plants. Plant Cell Environ 2007;30:249-257",
+    "url": "https://doi.org/10.1111/j.1365-3040.2006.01614.x",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "arabidopsis-thaliana": {
+  "authority": "(L.) Heynh.",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ],
+   [
+    "ขนาดจีโนม",
+    "ราว 125 เมกะคู่เบส มี 25,498 ยีน"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "พืชต้นแบบที่ถอดรหัสจีโนมเป็นชนิดแรก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Arabidopsis thaliana (L.) Heynh.",
+    "url": "https://www.gbif.org/species/3052436",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Arabidopsis Genome Initiative. Analysis of the genome sequence of the flowering plant Arabidopsis thaliana. Nature 2000;408:796-815",
+    "url": "https://doi.org/10.1038/35048692",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "rafflesia-kerrii": {
+  "authority": "Meijer",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "พืชเบียนที่ไม่สังเคราะห์ด้วยแสง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Rafflesia kerrii Meijer",
+    "url": "https://www.gbif.org/species/3941194",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Molina J et al. Possible loss of the chloroplast genome in the parasitic flowering plant Rafflesia lagascae (Rafflesiaceae). Mol Biol Evol 2014;31:793-803",
+    "url": "https://doi.org/10.1093/molbev/msu051",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "welwitschia-mirabilis": {
+  "authority": "Hook.f.",
+  "synonyms": [
+   "Tumboa bainesii"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "na",
+   "origin": "africa"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Gnetopsida"
+   ],
+   [
+    "ขนาดจีโนมต่อชุดเดี่ยว (1C)",
+    "6.8 กิกะคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "พืชทะเลทรายที่อายุยืน",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Welwitschia mirabilis Hook.f.",
+    "url": "https://www.gbif.org/species/5275521",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Wan T et al. The Welwitschia genome reveals a unique biology underpinning extreme longevity in deserts. Nat Commun 2021;12:4247",
+    "url": "https://doi.org/10.1038/s41467-021-24528-4",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "allium-cepa": {
+  "authority": "L.",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "mono",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Liliopsida"
+   ],
+   [
+    "ความหนาแน่นยีนโดยประมาณ",
+    "1 ยีนต่อ 168 กิโลคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "จีโนมที่ยีนเบาบางมาก",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Allium cepa L.",
+    "url": "https://www.gbif.org/species/2857697",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Jakse J et al. Pilot sequencing of onion genomic DNA reveals fragments of transposable elements, low gene densities, and significant gene enrichment after methyl filtration. Mol Genet Genomics 2008;280:287-292",
+    "url": "https://doi.org/10.1007/s00438-008-0364-z",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "pisum-sativum": {
+  "authority": "L.",
+  "synonyms": [],
+  "accepted_name": "Lathyrus oleraceus",
+  "traits": {
+   "cotyledon": "dicot"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "ถั่วของเมนเดล",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Pisum sativum L. (Lathyrus oleraceus Lam.)",
+    "url": "https://www.gbif.org/species/5347846",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Kreplak J et al. A reference genome for pea provides insight into legume genome evolution. Nat Genet 2019;51:1411-1422",
+    "url": "https://doi.org/10.1038/s41588-019-0480-1",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "hydrilla-verticillata": {
+  "authority": "(L.f.) Royle",
+  "synonyms": [
+   "Elodea verticillata"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "mono",
+   "habit": "aquatic"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Liliopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "พืชน้ำกับทองแดง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Hydrilla verticillata (L.f.) Royle",
+    "url": "https://www.gbif.org/species/5329570",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Srivastava S et al. Copper-induced oxidative stress and responses of antioxidants and phytochelatins in Hydrilla verticillata (L.f.) Royle. Aquat Toxicol 2007;80:405-415",
+    "url": "https://doi.org/10.1016/j.aquatox.2006.10.006",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "ananas-comosus": {
+  "authority": "(L.) Merr.",
+  "synonyms": [
+   "Ananas acostae"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "mono",
+   "origin": "samerica",
+   "carbon": "cam"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Liliopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "สับปะรดกับการสังเคราะห์แสงแบบ CAM",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Ananas comosus (L.) Merr.",
+    "url": "https://www.gbif.org/species/5288819",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Ming R et al. The pineapple genome and the evolution of CAM photosynthesis. Nat Genet 2015;47:1435-1442",
+    "url": "https://doi.org/10.1038/ng.3435",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "saccharum-officinarum": {
+  "authority": "L.",
+  "synonyms": [
+   "Saccharifera officinalis",
+   "Arundo saccharifera"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "mono",
+   "origin": "oceania"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Liliopsida"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ]
+  ],
+  "asideTitle": "อ้อยลูกผสม",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Saccharum officinarum L.",
+    "url": "https://www.gbif.org/species/2703912",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Zhang J et al. Allele-defined genome of the autopolyploid sugarcane Saccharum spontaneum L. Nat Genet 2018;50:1565-1573",
+    "url": "https://doi.org/10.1038/s41588-018-0237-2",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "wolffia-globosa": {
+  "authority": "(Roxb.) Hartog & Plas",
+  "synonyms": [
+   "Lemna globosa",
+   "Grantia globosa"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "mono",
+   "origin": "asia",
+   "habit": "aquatic"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Liliopsida"
+   ],
+   [
+    "โปรตีนในสกุล Wolffia ต่อน้ำหนักแห้งแบบแช่แข็ง",
+    "20 ถึง 30%"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "พืชน้ำที่กินได้",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Wolffia globosa (Roxb.) Hartog & Plas",
+    "url": "https://www.gbif.org/species/5330098",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Appenroth KJ et al. Nutritional value of the duckweed species of the genus Wolffia (Lemnaceae) as human food. Front Chem 2018;6:483",
+    "url": "https://doi.org/10.3389/fchem.2018.00483",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "nepenthes-mirabilis": {
+  "authority": "(Lour.) Druce",
+  "synonyms": [],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ],
+   [
+    "สัดส่วนไนโตรเจนทั้งต้นที่มาจากแมลง",
+    "61.5 ± 7.6%"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "พืชที่ได้ไนโตรเจนจากแมลง",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Nepenthes mirabilis (Lour.) Druce",
+    "url": "https://www.gbif.org/species/3190712",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Schulze W et al. The nitrogen supply from soils and insects during growth of the pitcher plants Nepenthes mirabilis, Cephalotus follicularis and Darlingtonia californica. Oecologia 1997;112:464-471",
+    "url": "https://doi.org/10.1007/s004420050333",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 3,
+    "title": "Buch F et al. Nepenthesin protease activity indicates digestive fluid dynamics in carnivorous nepenthes plants. PLoS One 2015;10:e0118853",
+    "url": "https://doi.org/10.1371/journal.pone.0118853",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ },
+ "rhizophora-apiculata": {
+  "authority": "Blume",
+  "synonyms": [
+   "Rhizophora conjugata"
+  ],
+  "accepted_name": null,
+  "traits": {
+   "cotyledon": "dicot",
+   "origin": "asia"
+  },
+  "traitsExtra": [
+   [
+    "ชั้นตามอนุกรมวิธาน (GBIF)",
+    "Magnoliopsida"
+   ],
+   [
+    "ความยาวสกาฟโฟลด์ที่ยาวที่สุดของจีโนม",
+    "13.3 เมกะคู่เบส"
+   ]
+  ],
+  "traitsExtraRefs": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "asideTitle": "ไม้ป่าชายเลนที่หลากหลายทางพันธุกรรมต่ำ",
+  "refs": [
+   {
+    "n": 1,
+    "title": "GBIF: Rhizophora apiculata Blume",
+    "url": "https://www.gbif.org/species/3086526",
+    "accessed": "2026-11-14"
+   },
+   {
+    "n": 2,
+    "title": "Xu S et al. The origin, diversification and adaptation of a major mangrove clade (Rhizophoreae) revealed by whole-genome sequencing. Natl Sci Rev 2017;4:721-734",
+    "url": "https://doi.org/10.1093/nsr/nwx065",
+    "accessed": "2026-11-14"
+   }
+  ],
+  "iucn": null
+ }
+}
