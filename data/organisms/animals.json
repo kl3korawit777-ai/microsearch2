@@ -2279,7 +2279,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กินแมลงและตัวอ่อนแมลงในน้ำ",
@@ -2335,6 +2337,67 @@
     "taxon_ids": {
       "gbif": 2393998,
       "ncbi": 158456
+    },
+    "authority": "Regan, 1910",
+    "synonyms": [
+      "Micracanthus marchei"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Betta splendens Regan, 1910",
+        "url": "https://www.gbif.org/species/2393998",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Clotfelter ED et al. Serotonin decreases aggression via 5-HT1A receptors in the fighting fish Betta splendens. Pharmacol Biochem Behav 2007;87:222-231",
+        "url": "https://doi.org/10.1016/j.pbb.2007.04.018",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Mabee PM, Trendler TA. Development of the cranium and paired fins in Betta splendens (Teleostei: Percomorpha): intraspecific variation and interspecific comparisons. J Morphol 1996;227:249-287",
+        "url": "https://doi.org/10.1002/(sici)1097-4687(199603)227:3<249::aid-jmor1>3.0.co;2-1",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Dzieweczynski TL, Hebert OL. Fluoxetine alters behavioral consistency of aggression and courtship in male Siamese fighting fish, Betta splendens. Physiol Behav 2012;107:92-97",
+        "url": "https://doi.org/10.1016/j.physbeh.2012.06.007",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ปลากัด ปลากระดูกแข็งที่ใช้ศึกษาพฤติกรรมก้าวร้าว โดยวัดจากปฏิกิริยาต่อเงาตัวเองในกระจก [2] สารเซโรโทนินลดความก้าวร้าวของมันได้ [2] ในการทดลองที่ตัวผู้พบคู่จำลองทั้งตัวผู้และตัวเมียพร้อมกัน ยากลุ่มที่เพิ่มเซโรโทนินลดความก้าวร้าวแต่การเกี้ยวไม่เปลี่ยน [4]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "พฤติกรรมก้าวร้าว",
+          "ตัวผู้ตอบสนองต่อภาพสะท้อนของตัวเองด้วยความก้าวร้าว ซึ่งใช้เป็นดัชนีวัดพฤติกรรมนี้ [2]"
+        ],
+        [
+          "เซโรโทนิน",
+          "การให้เซโรโทนินหรือสารกระตุ้นตัวรับ 5-HT1A ครั้งเดียวทำให้ความก้าวร้าวลดลง [2]"
+        ],
+        [
+          "การเกี้ยวพาราสี",
+          "เมื่อตัวผู้ได้ยากลุ่มที่เพิ่มเซโรโทนิน ความก้าวร้าวโดยรวมลดลง แต่การเกี้ยวไม่เปลี่ยน [4]"
+        ]
+      ],
+      "why": [
+        [
+          "วิทยาศาสตร์",
+          "เป็นสัตว์ทดลองสำหรับศึกษาพฤติกรรมก้าวร้าวและบทบาทของสารสื่อประสาท [2] และใช้เทียบการเจริญของกะโหลกและครีบกับปลาชนิดอื่น [3]"
+        ]
+      ],
+      "asideTitle": "ปลากัดกับความก้าวร้าว",
+      "aside": [
+        "ในการสร้างกะโหลก กระดูกชั้นผิวเกิดก่อนกระดูกจากกระดูกอ่อน เหมือนในสัตว์มีกระดูกสันหลังอื่นหลายกลุ่ม [3]",
+        "ตัวผู้บางตัวไวต่อยากลุ่มที่เพิ่มเซโรโทนินต่างกัน ไม่ใช่ทุกตัวที่ลดความก้าวร้าว [4]",
+        "GBIF ระบุชื่อพ้องว่า Micracanthus marchei [1]"
+      ]
     }
   },
   {
@@ -2385,7 +2448,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กินแมลงและสัตว์เล็ก",
@@ -2441,6 +2506,63 @@
     "taxon_ids": {
       "gbif": 2430382,
       "ncbi": 110072
+    },
+    "authority": "(Wiegmann, 1834)",
+    "synonyms": [
+      "Limnonectes rugulosus",
+      "Hoplobatrachus chinensis"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Hoplobatrachus rugulosus (Wiegmann, 1834)",
+        "url": "https://www.gbif.org/species/2430382",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Ojo OO et al. Tigerinin-1R: a potent, non-toxic insulin-releasing peptide isolated from the skin of the Asian frog, Hoplobatrachus rugulosus. Diabetes Obes Metab 2011;13:1114-1122",
+        "url": "https://doi.org/10.1111/j.1463-1326.2011.01470.x",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Pili AN et al. Niche shifts and environmental non-equilibrium undermine the usefulness of ecological niche models for invasion risk assessments. Sci Rep 2020;10:7972",
+        "url": "https://doi.org/10.1038/s41598-020-64568-2",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "กบนาในเอเชีย ซึ่งในเวียดนามเป็นกบพื้นที่ราบต่ำชนิดทั่วไป [2] ผิวหนังมีเปปไทด์ที่กระตุ้นการหลั่งอินซูลินในการทดลอง [2] เป็นสัตว์ต่างถิ่นที่เข้าไปอยู่ในฟิลิปปินส์ [3]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "ผิวหนัง",
+          "ผิวหนังมีเปปไทด์วงแหวน 12 หน่วยกรดอะมิโนชื่อ tigerinin-1R ที่ไม่ทำลายเซลล์และเม็ดเลือดแดงในระยะสั้น [2]"
+        ],
+        [
+          "ถิ่นเดิมและถิ่นที่รุกราน",
+          "ศึกษาช่องภูมิอากาศของกบชนิดนี้ในถิ่นเดิมเทียบกับที่ที่เข้าไปรุกรานในฟิลิปปินส์ [3]"
+        ],
+        [
+          "การเปลี่ยนช่องภูมิอากาศ",
+          "ในฟิลิปปินส์ ช่องภูมิอากาศที่ใช้จริงของสัตว์สะเทินน้ำสะเทินบกต่างถิ่นสี่ชนิดรวมถึงกบนาเปลี่ยนไปจากถิ่นเดิมในระดับต่างกัน [3]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "เป็นสัตว์สะเทินน้ำสะเทินบกต่างถิ่นในฟิลิปปินส์ ซึ่งการเปลี่ยนช่องภูมิอากาศทำให้การทำนายพื้นที่เสี่ยงจากแบบจำลองนิเวศคลาดเคลื่อน [3]"
+        ]
+      ],
+      "asideTitle": "กบกับเปปไทด์จากผิวหนัง",
+      "aside": [
+        "ผู้วิจัยทดสอบเปปไทด์ tigerinin-1R ในหนูที่กินอาหารไขมันสูงจนอ้วนและดื้ออินซูลิน เพื่อดูผลต่อการทนกลูโคส [2]",
+        "GBIF ระบุชื่อพ้องว่า Limnonectes rugulosus และ Hoplobatrachus chinensis [1]",
+        "ในงานฟิลิปปินส์ กบสี่ชนิดที่ศึกษาคือ Hylarana erythraea, Rhinella marina, Hoplobatrachus rugulosus และ Kaloula pulchra [3]"
+      ]
     }
   },
   {
@@ -2490,7 +2612,10 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no",
+      "realm": "land"
     },
     "traits_text_th": {
       "food": "กินพืช",
@@ -2546,6 +2671,67 @@
     "taxon_ids": {
       "gbif": 5219461,
       "ncbi": 9783
+    },
+    "authority": "Linnaeus, 1758",
+    "synonyms": [
+      "Elephas asiaticus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Elephas maximus Linnaeus, 1758",
+        "url": "https://www.gbif.org/species/5219461",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Plotnik JM, de Waal FBM, Reiss D. Self-recognition in an Asian elephant. PNAS 2006;103:17053-17057",
+        "url": "https://doi.org/10.1073/pnas.0608062103",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Plotnik JM et al. Elephants know when they need a helping trunk in a cooperative task. PNAS 2011;108:5116-5121",
+        "url": "https://doi.org/10.1073/pnas.1101765108",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Stanton JJ et al. Detection of pathogenic elephant endotheliotropic herpesvirus in routine trunk washes from healthy adult Asian elephants (Elephas maximus) by use of a real-time quantitative polymerase chain reaction assay. Am J Vet Res 2010;71:925-933",
+        "url": "https://doi.org/10.2460/ajvr.71.8.925",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ช้างเอเชียซึ่งเป็นสัตว์บกที่ใหญ่ที่สุด [3] มีการทดลองให้ช้างเอเชียสามเชือกดูกระจกเพื่อทดสอบว่ารู้จักตัวเองหรือไม่ [2] ช้างเลี้ยงที่ดูเหมือนแข็งแรงอาจพาไวรัสเฮอร์ปีส์ EEHV1 ในสารจากงวง [4]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "ปัญญา",
+          "ในงานทดลองกระจก ผู้วิจัยสังเกตพฤติกรรมสี่ขั้นที่พบในสัตว์ที่รู้จักตัวเอง คือ ตอบสนองทางสังคม สำรวจ ทดสอบซ้ำ และตระหนักว่าเห็นตัวเอง [2]"
+        ],
+        [
+          "การร่วมมือ",
+          "ช้างเอเชียรู้ว่าเมื่อไรต้องมีคู่ช่วยในงานร่วมมือแบบคลาสสิกที่ใช้ทดสอบลิงและลิงไม่มีหาง [3]"
+        ],
+        [
+          "ไวรัส",
+          "ตรวจพบไวรัสเฮอร์ปีส์ EEHV1 ในสารล้างงวงของช้างเลี้ยงที่แข็งแรง 5 เชือกในฝูงเดียวกัน [4]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "ช้างเอเชียซึ่งเป็นสัตว์บกที่ใหญ่ที่สุดถูกใช้ศึกษาปัญญาของสัตว์ เพราะการทดลองกับสัตว์ขนาดนี้ทั้งอันตรายและยาก [3]"
+        ]
+      ],
+      "asideTitle": "ช้างกับกระจก",
+      "aside": [
+        "การศึกษาปี 2006 ใช้กระจกบานใหญ่ และติดเครื่องหมายจริงและเครื่องหมายปลอมไว้ที่หัวช้างเพื่อทดสอบ [2]",
+        "การทดลองร่วมมือปี 2011 ดัดแปลงจากวิธีที่เคยใช้กับลิงชิมแปนซี [3]",
+        "GBIF ระบุชื่อพ้องว่า Elephas asiaticus [1]"
+      ]
     }
   },
   {
@@ -4280,7 +4466,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "no"
+      "spine": "no",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กรองอาหารจากน้ำ",
@@ -4337,6 +4525,61 @@
     "taxon_ids": {
       "gbif": 2329622,
       "ncbi": 7719
+    },
+    "authority": "(Linnaeus, 1767)",
+    "synonyms": [
+      "Ascidia intestinalis"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Ciona intestinalis (Linnaeus, 1767)",
+        "url": "https://www.gbif.org/species/2329622",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Dehal P et al. The draft genome of Ciona intestinalis: insights into chordate and vertebrate origins. Science 2002;298:2157-2167",
+        "url": "https://doi.org/10.1126/science.1080049",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "เพรียงหัวหอม (แอสซิเดียน) ชนิดที่ถูกศึกษามากที่สุด [2] ลูกอ๊อดของแอสซิเดียนสมัยใหม่น่าจะเป็นตัวแทนที่ใกล้เคียงของคอร์เดตยุคแรก [2] จีโนมมียีนราว 16,000 ยีน เป็นครึ่งหนึ่งของสัตว์มีกระดูกสันหลัง [2]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ],
+        [
+          "จำนวนยีนเข้ารหัสโปรตีนโดยประมาณ",
+          "ราว 16,000 ยีน [2]"
+        ]
+      ],
+      "life": [
+        [
+          "จีโนม",
+          "มียีนเข้ารหัสโปรตีนราว 16,000 ยีน ซึ่งใกล้เคียงกับสัตว์ไม่มีกระดูกสันหลังอื่น [2]"
+        ],
+        [
+          "ตระกูลยีน",
+          "ตระกูลยีนของสัตว์มีกระดูกสันหลังมักมีอยู่ในรูปแบบง่ายขึ้นใน Ciona [2]"
+        ],
+        [
+          "ลูกอ๊อด",
+          "ผู้วิจัยมองว่าลูกอ๊อดของแอสซิเดียนสมัยใหม่เป็นตัวแทนที่น่าจะใกล้เคียงของคอร์เดตยุคแรก [2]"
+        ]
+      ],
+      "why": [
+        [
+          "วิทยาศาสตร์",
+          "ใช้ศึกษากำเนิดของคอร์เดตและสัตว์มีกระดูกสันหลัง เพราะมียีนพื้นฐานของบรรพบุรุษอยู่ [2]"
+        ]
+      ],
+      "asideTitle": "คอร์เดตที่ไม่มีกระดูกสันหลัง",
+      "aside": [
+        "คอร์เดตกลุ่มแรกปรากฏในซากดึกดำบรรพ์ช่วงการระเบิดแคมเบรียนเมื่อเกือบ 550 ล้านปีก่อน [2]",
+        "GBIF ระบุชื่อพ้องว่า Ascidia intestinalis ซึ่งลินเนียสตั้งไว้ในปี 1767 [1]",
+        "ผู้วิจัยถอดรหัสเฉพาะส่วนที่เข้ารหัสโปรตีนของจีโนมในฉบับร่าง [2]"
+      ]
     }
   },
   {
@@ -4386,7 +4629,10 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no",
+      "realm": "marine"
     },
     "traits_text_th": {
       "food": "กรองแพลงก์ตอนและปลาตัวเล็ก",
@@ -4442,6 +4688,76 @@
     "taxon_ids": {
       "gbif": 2417522,
       "ncbi": 259920
+    },
+    "authority": "Smith, 1828",
+    "synonyms": [
+      "Rhiniodon typus",
+      "Rhineodon typus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Rhincodon typus Smith, 1828",
+        "url": "https://www.gbif.org/species/2417522",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Rowat D, Brooks KS. A review of the biology, fisheries and conservation of the whale shark Rhincodon typus. J Fish Biol 2012;80:1019-1056",
+        "url": "https://doi.org/10.1111/j.1095-8649.2012.03252.x",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Read TD et al. Draft sequencing and assembly of the genome of the world's largest fish, the whale shark: Rhincodon typus Smith 1828. BMC Genomics 2017;18:532",
+        "url": "https://doi.org/10.1186/s12864-017-3926-9",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Motta PJ et al. Feeding anatomy, filter-feeding rate, and diet of whale sharks Rhincodon typus during surface ram filter feeding off the Yucatan Peninsula, Mexico. Zoology 2010;113:199-212",
+        "url": "https://doi.org/10.1016/j.zool.2009.12.001",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ฉลามวาฬซึ่งเป็นปลาที่ใหญ่ที่สุดที่ยังมีชีวิตอยู่ [2][3] ถูกบรรยายครั้งแรกในปี 1828 [2] กินแพลงก์ตอนโดยกรองน้ำผ่านแผ่นกรอง 20 แผ่นในคอหอย [4]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ],
+        [
+          "ช่วงแผ่นกรองในคอหอย",
+          "20 แผ่น ช่องตาข่ายกว้างเฉลี่ย 1.2 มิลลิเมตร [4]"
+        ]
+      ],
+      "life": [
+        [
+          "การกินอาหาร",
+          "กรองแพลงก์ตอนที่ผิวน้ำขณะว่ายด้วยความเร็วเฉลี่ย 1.1 เมตรต่อวินาที โดยปากที่เปิดอยู่ 85% อยู่ใต้ผิวน้ำ [4]"
+        ],
+        [
+          "เวลากิน",
+          "ใช้เวลากินที่ผิวน้ำเฉลี่ยราว 7.5 ชั่วโมงต่อวัน [4]"
+        ],
+        [
+          "อาหาร",
+          "แพลงก์ตอนหนาแน่นที่มีเซอร์เจสทิด โคพีพอดแคลานอยด์ หนอนลูกดอกทะเล และลูกปลา [4]"
+        ],
+        [
+          "การรวมกลุ่ม",
+          "รวมกลุ่มกินอาหารตามฤดูโดยแยกตามขนาดและเพศ [2]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "ปลาที่ใหญ่ที่สุดในโลกและเป็นทูตด้านการอนุรักษ์ของระบบนิเวศทะเลเปิด [3] ถูกจับเป็นเป้าหมายเพื่อส่งร้านอาหารในเอเชีย และติดเป็นสัตว์น้ำพลอยได้ในการประมงอวนล้อมปลาทูน่า [2]"
+        ]
+      ],
+      "asideTitle": "ปลาที่ใหญ่ที่สุดในโลก",
+      "aside": [
+        "ก่อนปี 1986 มีบันทึกพบชนิดนี้เพียง 320 ครั้ง การท่องเที่ยวและกิจกรรมทางทะเลที่เพิ่มขึ้นทำให้พบมากขึ้นและนักวิจัยสนใจ [2]",
+        "เป็นฉลามและกระเบนชนิดที่มีตัวใหญ่ที่สุดในกลุ่ม Chondrichthyes ซึ่งเป็นกลุ่มพี่น้องกับสัตว์ที่มีขากรรไกรที่เหลือทั้งหมด [3]",
+        "ตาข่ายของแผ่นกรองมีช่องเฉลี่ยกว้าง 1.2 มิลลิเมตร [4]"
+      ]
     }
   },
   {
@@ -4491,7 +4807,10 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no",
+      "realm": "marine"
     },
     "traits_text_th": {
       "food": "ตัวเต็มวัยกินหญ้าทะเลและสาหร่าย",
@@ -4547,6 +4866,68 @@
     "taxon_ids": {
       "gbif": 2442225,
       "ncbi": 8469
+    },
+    "authority": "(Linnaeus, 1758)",
+    "synonyms": [
+      "Chelone mydas",
+      "Caretta esculenta"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Chelonia mydas (Linnaeus, 1758)",
+        "url": "https://www.gbif.org/species/2442225",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Wang Z et al. The draft genomes of soft-shell turtle and green sea turtle yield insights into the development and evolution of the turtle-specific body plan. Nat Genet 2013;45:701-706",
+        "url": "https://doi.org/10.1038/ng.2615",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Bowen BW, Karl SA. Population genetics and phylogeography of sea turtles. Mol Ecol 2007;16:4886-4907",
+        "url": "https://doi.org/10.1111/j.1365-294x.2007.03542.x",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Schuyler Q et al. Global analysis of anthropogenic debris ingestion by sea turtles. Conserv Biol 2014;28:129-139",
+        "url": "https://doi.org/10.1111/cobi.12126",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "เต่าตนุ เต่าทะเลที่กลับมาทำรังที่ถิ่นเกิด [3] จีโนมแบบร่างบ่งชี้ว่าเต่าใกล้ชิดกับกลุ่มนกและจระเข้ [2] และกลืนขยะทะเลได้ [4]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "การเดินทาง",
+          "เต่าทะเลมีทักษะนำทางที่ดีและอพยพเป็นช่วงระหว่างแหล่งหากินกับแหล่งผสมพันธุ์ [3]"
+        ],
+        [
+          "การกลับถิ่นเกิด",
+          "กลับไปผสมพันธุ์และวางไข่ในภูมิภาคที่เกิด ดีเอ็นเอไมโทคอนเดรียที่สืบทางแม่แสดงโครงสร้างประชากรชัดเจนระหว่างกลุ่มวางไข่ ส่วนยีนในนิวเคลียสชี้ว่ามีการไหลของยีนผ่านตัวผู้ [3]"
+        ],
+        [
+          "ขยะ",
+          "ความเป็นไปได้ที่เต่าตนุกลืนขยะที่เกิดจากมนุษย์เพิ่มขึ้นอย่างมีนัยสำคัญตามเวลา [4]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "การกลืนขยะทะเลทำให้เต่าตายหรือบาดเจ็บ [4] และการจับเต่าในแหล่งหากินอาจกระทบประชากรจากหลายกลุ่มวางไข่ [3]"
+        ]
+      ],
+      "asideTitle": "เต่าที่กลับมาวางไข่ที่ถิ่นเกิด",
+      "aside": [
+        "เต่าแยกจากสายนกและจระเข้เมื่อราว 267.9 ถึง 248.3 ล้านปีก่อน [2]",
+        "เต่าทะเลมีวิวัฒนาการย้อนหลังไปกว่า 100 ล้านปี และมีเจ็ดชนิด [3]",
+        "จีโนมเต่ามียีนตัวรับกลิ่นขยายตัวมาก [2]"
+      ]
     }
   },
   {
@@ -4597,7 +4978,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กินเมล็ดพืชและแมลง",
@@ -4653,6 +5036,60 @@
     "taxon_ids": {
       "gbif": 9326020,
       "ncbi": 9031
+    },
+    "authority": "(Linnaeus, 1758)",
+    "synonyms": [
+      "Gallus domesticus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Gallus gallus (Linnaeus, 1758)",
+        "url": "https://www.gbif.org/species/9326020",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "International Chicken Genome Sequencing Consortium. Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution. Nature 2004;432:695-716",
+        "url": "https://doi.org/10.1038/nature03154",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ไก่ ที่จีโนมถอดรหัสจากไก่ป่าแดง (red jungle fowl) [2] เป็นสัตว์มีกระดูกสันหลังที่ไม่ใช่สัตว์เลี้ยงลูกด้วยนมชนิดแรกในกลุ่มน้ำคร่ำที่ถอดรหัสจีโนม [2] จีโนมยาวราว 1,000 ล้านคู่เบส และมียีนราว 20,000 ถึง 23,000 ยีน [2]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ],
+        [
+          "ขนาดจีโนมโดยประมาณ",
+          "ราว 1,000 ล้านคู่เบส มี 20,000 ถึง 23,000 ยีน [2]"
+        ]
+      ],
+      "life": [
+        [
+          "จีโนม",
+          "ราว 1,000 ล้านคู่เบส มียีนประมาณ 20,000 ถึง 23,000 ยีน [2]"
+        ],
+        [
+          "ที่มา",
+          "ไก่เป็นลูกหลานสมัยใหม่ของไดโนเสาร์ [2]"
+        ],
+        [
+          "ลำดับอนุรักษ์",
+          "ระยะวิวัฒนาการระหว่างไก่กับคนทำให้ตรวจจับส่วนที่ทำหน้าที่ได้ดีขึ้น ทั้งส่วนที่ไม่เข้ารหัสและเข้ารหัส [2]"
+        ]
+      ],
+      "why": [
+        [
+          "วิทยาศาสตร์",
+          "จีโนมไก่ช่วยให้เข้าใจวิวัฒนาการจีโนมของสัตว์มีกระดูกสันหลัง และช่วยปรับปรุงการอ่านคำอธิบายจีโนมสัตว์เลี้ยงลูกด้วยนม [2]"
+        ]
+      ],
+      "asideTitle": "ไก่กับจีโนมสัตว์น้ำคร่ำ",
+      "aside": [
+        "ลำดับอนุรักษ์ที่ไม่เข้ารหัสจำนวนมากอยู่ไกลจากยีน และกำหนดไม่ได้ว่าควบคุมยีนใด [2]",
+        "GBIF ระบุชื่อพ้องว่า Gallus domesticus [1]"
+      ]
     }
   },
   {
@@ -4703,7 +5140,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กินทั้งพืชและสัตว์",
@@ -4759,6 +5198,57 @@
     "taxon_ids": {
       "gbif": 2436436,
       "ncbi": 9606
+    },
+    "authority": "Linnaeus, 1758",
+    "synonyms": [
+      "Homo americanus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Homo sapiens Linnaeus, 1758",
+        "url": "https://www.gbif.org/species/2436436",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "International Human Genome Sequencing Consortium. Finishing the euchromatic sequence of the human genome. Nature 2004;431:931-945",
+        "url": "https://doi.org/10.1038/nature03001",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "มนุษย์ จีโนมของเราเก็บคำสั่งทางพันธุกรรมของสรีรวิทยามนุษย์ไว้ และมีข้อมูลวิวัฒนาการของเราอยู่ด้วย [2] จีโนมฉบับสมบูรณ์ยาว 2.85 พันล้านนิวคลีโอไทด์ และมีช่องว่างเพียง 341 ช่อง [2]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ],
+        [
+          "จีโนมฉบับสมบูรณ์ (Build 35)",
+          "2.85 พันล้านนิวคลีโอไทด์ มีช่องว่าง 341 ช่อง [2]"
+        ]
+      ],
+      "life": [
+        [
+          "จีโนม",
+          "ลำดับ Build 35 ยาว 2.85 พันล้านนิวคลีโอไทด์ มีช่องว่างเพียง 341 ช่อง [2]"
+        ],
+        [
+          "ความครอบคลุม",
+          "ครอบคลุมราว 99% ของส่วนยูโครมาติน [2]"
+        ]
+      ],
+      "why": [
+        [
+          "วิทยาศาสตร์",
+          "ลำดับจีโนมมนุษย์เป็นฐานของการศึกษาสรีรวิทยามนุษย์และวิวัฒนาการของมนุษย์ [2]"
+        ]
+      ],
+      "asideTitle": "จีโนมมนุษย์ที่เสร็จสมบูรณ์",
+      "aside": [
+        "ในปี 2001 สหกิจการจัดลำดับจีโนมมนุษย์นานาชาติรายงานฉบับร่างของส่วนยูโครมาติน [2]",
+        "การทำให้เสร็จสมบูรณ์เปลี่ยนฉบับร่างให้เป็นลำดับที่แม่นยำและครอบคลุมเกือบทั้งหมด [2]",
+        "GBIF ระบุชื่อพ้องหลายชื่อ เช่น Homo americanus [1]"
+      ]
     }
   },
   {
@@ -4808,7 +5298,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กินสัตว์ไม่มีกระดูกสันหลังในน้ำ",
@@ -4864,6 +5356,60 @@
     "taxon_ids": {
       "gbif": 2433376,
       "ncbi": 9258
+    },
+    "authority": "(Shaw, 1799)",
+    "synonyms": [
+      "Platypus anatinus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Ornithorhynchus anatinus (Shaw, 1799)",
+        "url": "https://www.gbif.org/species/2433376",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Warren WC et al. Genome analysis of the platypus reveals unique signatures of evolution. Nature 2008;453:175-183",
+        "url": "https://doi.org/10.1038/nature06936",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ตุ่นปากเป็ด สัตว์กลุ่มโมโนทรีมที่มีทั้งลักษณะของสัตว์เลื้อยคลานและสัตว์เลี้ยงลูกด้วยนม [2] ตัวเมียให้นมแต่วางไข่ [2] ตัวผู้มีพิษคล้ายพิษของสัตว์เลื้อยคลาน [2]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "ขน",
+          "มีขนที่ปรับตัวให้เข้ากับการใช้ชีวิตในน้ำ [2]"
+        ],
+        [
+          "การให้นม",
+          "ตัวเมียให้นมแต่วางไข่ และยีนโปรตีนน้ำนมยังคงอนุรักษ์ไว้แม้วางไข่ [2]"
+        ],
+        [
+          "พิษ",
+          "โปรตีนพิษของตุ่นปากเป็ดและสัตว์เลื้อยคลานถูกดัดแปลงมาใช้อย่างเป็นอิสระจากตระกูลยีนเดียวกัน [2]"
+        ]
+      ],
+      "why": [
+        [
+          "วิทยาศาสตร์",
+          "จีโนมของโมโนทรีมตัวแรกที่ถอดรหัสแล้วช่วยเชื่อมลักษณะที่น่าสนใจของมันเข้ากับนวัตกรรมทางพันธุกรรม [2]"
+        ]
+      ],
+      "asideTitle": "สัตว์ที่ผสมลักษณะสองกลุ่ม",
+      "aside": [
+        "ยีนตระกูลภูมิคุ้มกันขยายตัวสอดคล้องกับชีววิทยาของตุ่นปากเป็ด [2]",
+        "จีโนมแสดงให้เห็นลักษณะแบบสัตว์เลื้อยคลานและสัตว์เลี้ยงลูกด้วยนมปนกัน [2]",
+        "GBIF ระบุชื่อพ้องว่า Platypus anatinus [1]"
+      ],
+      "warning": {
+        "text": "ตัวผู้ของตุ่นปากเป็ดมีพิษ [2]"
+      }
     }
   },
   {
@@ -5398,7 +5944,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กินเมล็ดพืชและแมลง",
@@ -5454,6 +6002,61 @@
     "taxon_ids": {
       "gbif": 7429082,
       "ncbi": 10090
+    },
+    "authority": "Linnaeus, 1758",
+    "synonyms": [
+      "Mus domesticus",
+      "Mus molossinus"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Mus musculus Linnaeus, 1758",
+        "url": "https://www.gbif.org/species/7429082",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Mouse Genome Sequencing Consortium. Initial sequencing and comparative analysis of the mouse genome. Nature 2002;420:520-562",
+        "url": "https://doi.org/10.1038/nature01262",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "หนูเมาส์ สัตว์ทดลองที่ลำดับจีโนมเป็นเครื่องมือสำคัญของงานวิจัยทางชีวเวชศาสตร์ [2] จีโนมถูกใช้เทียบกับจีโนมมนุษย์เพื่อเข้าใจจีโนมมนุษย์ [2]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "จีโนม",
+          "ฉบับร่างคุณภาพสูง และเทียบกับจีโนมมนุษย์ได้ [2]"
+        ],
+        [
+          "การอนุรักษ์",
+          "ลำดับยีนเรียงตัวคล้ายจีโนมมนุษย์ในส่วนใหญ่ของจีโนม [2]"
+        ],
+        [
+          "แรงวิวัฒนาการ",
+          "การวิเคราะห์แรงที่กำหนดขนาด โครงสร้าง และลำดับของจีโนม [2]"
+        ]
+      ],
+      "why": [
+        [
+          "การแพทย์",
+          "ลำดับจีโนมหนูเป็นเครื่องมือเชิงข้อมูลที่ช่วยเข้าใจเนื้อหาของจีโนมมนุษย์ และเป็นเครื่องมือทดลองสำคัญของงานวิจัยทางชีวเวชศาสตร์ [2]"
+        ],
+        [
+          "วิทยาศาสตร์",
+          "เปรียบเทียบจีโนมหนูกับมนุษย์เพื่อศึกษาวิวัฒนาการ [2]"
+        ]
+      ],
+      "asideTitle": "หนูกับจีโนมมนุษย์",
+      "aside": [
+        "การเปรียบเทียบเบื้องต้นระหว่างจีโนมหนูกับมนุษย์เป็นผลของความร่วมมือนานาชาติ [2]",
+        "GBIF ระบุชื่อพ้องว่า Mus domesticus และ Mus molossinus [1]"
+      ]
     }
   },
   {
@@ -5503,7 +6106,9 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no"
     },
     "traits_text_th": {
       "food": "กินแพลงก์ตอนสัตว์และแมลง",
@@ -5559,6 +6164,57 @@
     "taxon_ids": {
       "gbif": 9797255,
       "ncbi": 7955
+    },
+    "authority": "(Hamilton, 1822)",
+    "synonyms": [
+      "Brachydanio rerio",
+      "Barilius rerio"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Danio rerio (Hamilton, 1822)",
+        "url": "https://www.gbif.org/species/9797255",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Howe K et al. The zebrafish reference genome sequence and its relationship to the human genome. Nature 2013;496:498-503",
+        "url": "https://doi.org/10.1038/nature12111",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ปลาม้าลาย สิ่งมีชีวิตที่นิยมใช้ศึกษาหน้าที่ของยีนในสัตว์มีกระดูกสันหลัง [2] ตัวอ่อนเกือบใสและปิดหรือเพิ่มการแสดงออกของยีนได้ [2] ใช้ศึกษาโรคทางพันธุกรรมของมนุษย์ [2]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "ตัวอ่อน",
+          "ตัวอ่อนเกือบโปร่งใส ทำให้สังเกตการพัฒนาได้ [2]"
+        ],
+        [
+          "พันธุศาสตร์",
+          "เร่งการศึกษาทางพันธุศาสตร์ได้ด้วยการลดหรือเพิ่มการทำงานของยีน [2]"
+        ],
+        [
+          "จีโนม",
+          "ลำดับจีโนมอ้างอิงประกอบจากโคลนที่ถอดรหัสครบและซ้อนทับกัน [2]"
+        ]
+      ],
+      "why": [
+        [
+          "วิทยาศาสตร์",
+          "ใช้ศึกษาหน้าที่ของยีนสัตว์มีกระดูกสันหลังและโรคทางพันธุกรรมของมนุษย์ โดยต้องเข้าใจว่ายีนของปลาเหมือนยีนมนุษย์แค่ไหน [2]"
+        ]
+      ],
+      "asideTitle": "ปลาที่ตัวอ่อนใส",
+      "aside": [
+        "จีโนมอ้างอิงที่ถอดรหัสในปี 2013 ถูกเทียบกับจีโนมมนุษย์ [2]",
+        "GBIF ระบุชื่อพ้องว่า Brachydanio rerio [1]"
+      ]
     }
   },
   {
@@ -5608,7 +6264,10 @@
       "sym": "bilateral",
       "layers": "three",
       "coel": "true",
-      "spine": "yes"
+      "spine": "yes",
+      "devline": "deutero",
+      "segment": "no",
+      "realm": "marine"
     },
     "traits_text_th": {
       "food": "ดูดกินสัตว์เล็กในน้ำ",
@@ -5664,6 +6323,63 @@
     "taxon_ids": {
       "gbif": 5201037,
       "ncbi": 103715
+    },
+    "authority": "Bleeker, 1852",
+    "synonyms": [
+      "Hippocampus chinensis",
+      "Hippocamphus kuda"
+    ],
+    "refs": [
+      {
+        "title": "GBIF: Hippocampus kuda Bleeker, 1852",
+        "url": "https://www.gbif.org/species/5201037",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Lourie SA, Green DM, Vincent ACJ. Dispersal, habitat differences, and comparative phylogeography of Southeast Asian seahorses (Syngnathidae: Hippocampus). Mol Ecol 2005;14:1073-1094",
+        "url": "https://doi.org/10.1111/j.1365-294x.2005.02464.x",
+        "accessed": "2026-11-14"
+      },
+      {
+        "title": "Jinhui S et al. Effects of microplastics and attached heavy metals on growth, immunity, and heavy metal accumulation in the yellow seahorse, Hippocampus kuda Bleeker. Mar Pollut Bull 2019;149:110510",
+        "url": "https://doi.org/10.1016/j.marpolbul.2019.110510",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "extra_th": {
+      "lede": "ม้าน้ำสีเหลือง ม้าน้ำชนิดน้ำตื้นในเอเชียตะวันออกเฉียงใต้ [2] ไมโครพลาสติกที่มีโลหะหนักติดมาลดการโตและการรอดของมัน [3]",
+      "traitsExtra": [
+        [
+          "ไฟลัม (GBIF)",
+          "Chordata [1]"
+        ]
+      ],
+      "life": [
+        [
+          "แหล่งที่อยู่",
+          "เป็นม้าน้ำน้ำตื้น และบุกเบิกไหล่ทวีปซุนดาน้อยกว่าม้าน้ำน้ำลึก [2]"
+        ],
+        [
+          "การแพร่กระจาย",
+          "ความต่างทางพันธุกรรมสัมพันธ์กับสถานที่เก็บตัวอย่างและระยะทางภูมิศาสตร์ [2]"
+        ],
+        [
+          "ผลของมลพิษ",
+          "ในการทดลอง ม้าน้ำที่กินไมโครพลาสติกพร้อมโลหะหนักมีความยาว น้ำหนัก และอัตรารอดต่ำกว่ากลุ่มอื่น แต่กลุ่มที่กินไมโครพลาสติกอย่างเดียวไม่ต่างจากกลุ่มควบคุม [3]"
+        ]
+      ],
+      "why": [
+        [
+          "นิเวศ",
+          "ม้าน้ำสี่ชนิดที่ศึกษามีรูปแบบการกระจายพันธุ์ทางพันธุกรรมต่างกันสี่แบบตามนิเวศของแต่ละชนิด [2]"
+        ]
+      ],
+      "asideTitle": "ม้าน้ำกับไมโครพลาสติก",
+      "aside": [
+        "งานปี 2005 ศึกษาม้าน้ำสี่ชนิด ได้แก่ H. barbouri, H. kuda, H. spinosissimus และ H. trimaculatus [2]",
+        "ม้าน้ำในการทดลองถูกแบ่งเป็นสามกลุ่ม กินอาหารคือไมซิด ไมซิดกับไมโครพลาสติก และไมซิดกับไมโครพลาสติกและโลหะหนัก [3]",
+        "GBIF ระบุชื่อพ้องว่า Hippocampus chinensis [1]"
+      ]
     }
   }
 ]

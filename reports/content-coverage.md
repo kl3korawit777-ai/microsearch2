@@ -13,8 +13,8 @@
 | fungi | 19 | 19 | 19 | 18 | 19 | 2 | 19 | 0 | 19 |
 | protists | 25 | 21 | 25 | 13 | 25 | 12 | 23 | 1 | 25 |
 | plants | 30 | 30 | 30 | 30 | 30 | 1 | 30 | 0 | 30 |
-| animals | 38 | 26 | 26 | 38 | 26 | 7 | 26 | 0 | 26 |
-| **รวม** | 145 | 129 | 133 | 132 | 133 | 27 | 131 | 31 | 133 |
+| animals | 38 | 38 | 38 | 38 | 38 | 7 | 38 | 0 | 38 |
+| **รวม** | 145 | 141 | 145 | 132 | 145 | 27 | 143 | 31 | 145 |
 
 ## ต่อกลุ่ม: ภาษาอังกฤษ
 
@@ -25,8 +25,8 @@
 | fungi | 19 | 19 | 0 | 8 | 0 | 0 | 0 | 0 | 19 |
 | protists | 25 | 21 | 0 | 4 | 0 | 0 | 0 | 0 | 25 |
 | plants | 30 | 30 | 0 | 30 | 0 | 0 | 0 | 0 | 30 |
-| animals | 38 | 26 | 0 | 38 | 0 | 0 | 0 | 0 | 26 |
-| **รวม** | 145 | 129 | 1 | 96 | 0 | 0 | 1 | 1 | 133 |
+| animals | 38 | 38 | 0 | 38 | 0 | 0 | 0 | 0 | 38 |
+| **รวม** | 145 | 141 | 1 | 96 | 0 | 0 | 1 | 1 | 145 |
 
 ## ต่อชนิด: ภาษาไทย
 
@@ -47,9 +47,9 @@
 | `heterometrus-laoticus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `acanthaster-planci` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `branchiostoma-belcheri` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
-| `betta-splendens` | – | – | ✓ | – | – | – | – | – |
-| `hoplobatrachus-rugulosus` | – | – | ✓ | – | – | – | – | – |
-| `elephas-maximus` | – | – | ✓ | – | – | – | – | – |
+| `betta-splendens` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `hoplobatrachus-rugulosus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `elephas-maximus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `dugesia-japonica` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `taenia-solium` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
 | `ascaris-lumbricoides` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | – | ✓ |
@@ -60,18 +60,18 @@
 | `drosophila-melanogaster` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `bombyx-mori` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `diadema-setosum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
-| `ciona-intestinalis` | – | – | ✓ | – | – | – | – | – |
-| `rhincodon-typus` | – | – | ✓ | – | – | – | – | – |
-| `chelonia-mydas` | – | – | ✓ | – | – | – | – | – |
-| `gallus-gallus` | – | – | ✓ | – | – | – | – | – |
-| `homo-sapiens` | – | – | ✓ | – | – | – | – | – |
-| `ornithorhynchus-anatinus` | – | – | ✓ | – | – | – | – | – |
+| `ciona-intestinalis` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `rhincodon-typus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `chelonia-mydas` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `gallus-gallus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `homo-sapiens` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `ornithorhynchus-anatinus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `lumbricus-terrestris` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `anopheles-minimus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `apis-cerana` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
-| `mus-musculus` | – | – | ✓ | – | – | – | – | – |
-| `danio-rerio` | – | – | ✓ | – | – | – | – | – |
-| `hippocampus-kuda` | – | – | ✓ | – | – | – | – | – |
+| `mus-musculus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `danio-rerio` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
+| `hippocampus-kuda` | ✓ | ✓ | ✓ | ✓ | – | ✓ | – | ✓ |
 | `halobacterium-salinarum` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
 | `methanobrevibacter-smithii` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
 | `pyrococcus-furiosus` | ✓ | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ |
@@ -199,9 +199,9 @@
 | `heterometrus-laoticus` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `acanthaster-planci` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `branchiostoma-belcheri` | ✓ | – | ✓ | – | – | – | – | ✓ |
-| `betta-splendens` | – | – | ✓ | – | – | – | – | – |
-| `hoplobatrachus-rugulosus` | – | – | ✓ | – | – | – | – | – |
-| `elephas-maximus` | – | – | ✓ | – | – | – | – | – |
+| `betta-splendens` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `hoplobatrachus-rugulosus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `elephas-maximus` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `dugesia-japonica` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `taenia-solium` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `ascaris-lumbricoides` | ✓ | – | ✓ | – | – | – | – | ✓ |
@@ -212,18 +212,18 @@
 | `drosophila-melanogaster` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `bombyx-mori` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `diadema-setosum` | ✓ | – | ✓ | – | – | – | – | ✓ |
-| `ciona-intestinalis` | – | – | ✓ | – | – | – | – | – |
-| `rhincodon-typus` | – | – | ✓ | – | – | – | – | – |
-| `chelonia-mydas` | – | – | ✓ | – | – | – | – | – |
-| `gallus-gallus` | – | – | ✓ | – | – | – | – | – |
-| `homo-sapiens` | – | – | ✓ | – | – | – | – | – |
-| `ornithorhynchus-anatinus` | – | – | ✓ | – | – | – | – | – |
+| `ciona-intestinalis` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `rhincodon-typus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `chelonia-mydas` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `gallus-gallus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `homo-sapiens` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `ornithorhynchus-anatinus` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `lumbricus-terrestris` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `anopheles-minimus` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `apis-cerana` | ✓ | – | ✓ | – | – | – | – | ✓ |
-| `mus-musculus` | – | – | ✓ | – | – | – | – | – |
-| `danio-rerio` | – | – | ✓ | – | – | – | – | – |
-| `hippocampus-kuda` | – | – | ✓ | – | – | – | – | – |
+| `mus-musculus` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `danio-rerio` | ✓ | – | ✓ | – | – | – | – | ✓ |
+| `hippocampus-kuda` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `halobacterium-salinarum` | ✓ | ✓ | ✓ | – | – | ✓ | ✓ | ✓ |
 | `methanobrevibacter-smithii` | ✓ | – | ✓ | – | – | – | – | ✓ |
 | `pyrococcus-furiosus` | ✓ | – | – | – | – | – | – | ✓ |
