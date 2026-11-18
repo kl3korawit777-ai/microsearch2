@@ -2,7 +2,7 @@
 // scientific, Thai, reading, English names, group, phylum and lineage names, tags) and row._sy, its
 // lowercase synonyms / currently accepted names (from the GBIF + NCBI fetch).
 import { S } from './state.js';
-import { T } from './i18n.js';
+import { T, TA } from './i18n.js';
 import { esc, store } from './util.js';
 import { all, byId, G } from './data.js';
 import { lvBadge, gName, spRd, spCommon, isEn } from './ui.js';
@@ -65,6 +65,7 @@ export function wireSearch(root, onGo) {
     const clr = inp.parentElement.querySelector('.s-clear');
     let active = -1;
     let items = [];
+    let count = 0; // options in the open list: species rows plus suggestion chips
     let composing = false;
 
     const close = () => { box.hidden = true; inp.setAttribute('aria-expanded', 'false'); inp.removeAttribute('aria-activedescendant'); };
@@ -76,7 +77,7 @@ export function wireSearch(root, onGo) {
       onGo(s);
     };
     const mark = () => {
-      box.querySelectorAll('a').forEach((a, i) => a.classList.toggle('active', i === active));
+      box.querySelectorAll('[role="option"]').forEach((a, i) => a.classList.toggle('active', i === active));
       if (active >= 0) inp.setAttribute('aria-activedescendant', `${inp.id}-o${active}`); else inp.removeAttribute('aria-activedescendant');
     };
     const row = (s, i, q, via) =>
@@ -86,19 +87,24 @@ export function wireSearch(root, onGo) {
     const open = () => { box.hidden = false; inp.setAttribute('aria-expanded', 'true'); mark(); };
     const draw = () => {
       const q = inp.value;
-      if (!q) { // empty field: the recently opened species, when there are any
+      if (!q) { // empty field: recently opened species, then suggested words
         items = readRecent().map(byId).filter(Boolean);
         active = -1;
-        if (!items.length) { close(); return; }
-        box.innerHTML = `<div class="r-head" role="presentation"><span>${esc(T('searchRecent'))}</span><button type="button" data-act="clear-recent">${esc(T('searchRecentClear'))}</button></div>` +
-          items.map((s, i) => row(s, i, '')).join('');
+        const sug = TA('searchSuggest');
+        count = items.length + sug.length;
+        box.innerHTML = (items.length ? `<div class="r-head" role="presentation"><span>${esc(T('searchRecent'))}</span><button type="button" data-act="clear-recent">${esc(T('searchRecentClear'))}</button></div>` +
+          items.map((s, i) => row(s, i, '')).join('') : '') +
+          (sug.length ? `<div class="r-head" role="presentation"><span>${esc(T('searchTry'))}</span></div><div class="r-chips" role="presentation">` +
+            sug.map((w, i) => `<button type="button" role="option" class="chip" id="${inp.id}-o${items.length + i}" data-q="${esc(w)}">${esc(w)}</button>`).join('') + '</div>' : '');
+        if (!count) { close(); return; }
         open();
         return;
       }
-      if (!q.trim()) { items = []; active = -1; close(); return; }
+      if (!q.trim()) { items = []; count = 0; active = -1; close(); return; }
       const found = matchAll(q);
       const rows = found.slice(0, LIMIT);
       items = rows.map((x) => x.s);
+      count = items.length;
       active = items.length ? 0 : -1;
       box.innerHTML = rows.length
         ? `<div class="r-head" role="presentation"><span>${esc(T(found.length > rows.length ? 'searchCountTop' : 'searchCount', { n: found.length, m: rows.length }))}</span></div>` +
@@ -106,7 +112,7 @@ export function wireSearch(root, onGo) {
         : `<p>${esc(T('noResult', { q }))}</p>`;
       open();
     };
-    const clear = () => { inp.value = ''; sync(); close(); items = []; active = -1; inp.focus(); };
+    const clear = () => { inp.value = ''; sync(); close(); items = []; count = 0; active = -1; inp.focus(); };
 
     // Thai typed through an IME: wait until the composition ends before searching.
     inp.addEventListener('compositionstart', () => { composing = true; });
@@ -114,14 +120,16 @@ export function wireSearch(root, onGo) {
     inp.addEventListener('input', (e) => { sync(); if (!composing && !e.isComposing) draw(); });
     inp.addEventListener('focus', draw);
     inp.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowDown' && items.length) { active = (active + 1) % items.length; mark(); e.preventDefault(); }
-      else if (e.key === 'ArrowUp' && items.length) { active = (active - 1 + items.length) % items.length; mark(); e.preventDefault(); }
-      else if (e.key === 'Enter' && active >= 0) { go(items[active]); e.preventDefault(); }
+      if (e.key === 'ArrowDown' && count) { active = (active + 1) % count; mark(); e.preventDefault(); }
+      else if (e.key === 'ArrowUp' && count) { active = (active - 1 + count) % count; mark(); e.preventDefault(); }
+      else if (e.key === 'Enter' && active >= 0) { box.querySelectorAll('[role="option"]')[active]?.click(); e.preventDefault(); }
       else if (e.key === 'Escape') { e.preventDefault(); if (inp.value) clear(); else close(); }
     });
     box.addEventListener('mousedown', (e) => e.preventDefault());
     box.addEventListener('click', (e) => {
-      if (e.target.closest('[data-act="clear-recent"]')) { writeRecent([]); close(); inp.focus(); return; }
+      if (e.target.closest('[data-act="clear-recent"]')) { writeRecent([]); draw(); inp.focus(); return; }
+      const chip = e.target.closest('[data-q]');
+      if (chip) { inp.value = chip.getAttribute('data-q'); sync(); draw(); inp.focus(); return; }
       const a = e.target.closest('a');
       if (!a) return;
       e.preventDefault();

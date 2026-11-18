@@ -155,6 +155,8 @@
   "searchCountTop": "{n} species found, showing the top {m}",
   "searchRecent": "Recently opened",
   "searchRecentClear": "Clear history",
+  "searchTry": "Try searching",
+  "searchSuggest": ["yeast", "mushroom", "mosquito", "whale shark", "sea turtle", "elephant", "rice", "durian", "pineapple", "sugarcane", "mangrove", "pitcher plant", "honey bee", "silkworm", "zebrafish", "mouse", "chicken", "human", "fern", "moss", "snail", "tapeworm", "liver fluke", "slime mold", "bread mold", "spirulina", "ginkgo", "lotus", "pea", "onion", "maize", "platypus", "seahorse", "nautilus", "cockroach", "fruit fly", "earthworm", "Escherichia", "Bacillus", "Aspergillus", "Plasmodium", "sea grapes", "moon jelly"],
   "imgBy": "Photo:",
   "imgOn": "View the original on Wikimedia Commons",
   "imgCreditsH": "Image credits",

@@ -105,7 +105,34 @@ async function searchBoxChecks(page, tag, words) {
   await settle(page);
   await page.click('#heroQ');
   let st = await state(page);
-  ok(st.value === '' && !st.open && !st.clearShown, label('empty field with no history shows no list and no × button'));
+  ok(st.value === '' && !st.clearShown, label('empty field shows no × button'));
+  const chips = await page.$$eval('#heroQ-res .chip', (c) => c.map((x) => x.dataset.q));
+  ok(st.open && (await ids(page)).length === 0 && chips.length >= 40, label(`empty field, no history: list open with ${chips.length} suggestions and no recent items`));
+  ok((await page.$$('#heroQ-res [data-act="clear-recent"]')).length === 0, label('no clear-history link without history'));
+  // every suggested word finds something, and clicking one fills the field and shows its results
+  for (const w of chips) {
+    const n = await page.evaluate((q) => {
+      const inp = document.getElementById('heroQ');
+      inp.value = q; inp.dispatchEvent(new Event('input', { bubbles: true }));
+      const c = document.querySelectorAll('#heroQ-res a').length;
+      inp.value = ''; inp.dispatchEvent(new Event('input', { bubbles: true }));
+      return c;
+    }, w);
+    ok(n > 0, label(`suggestion "${w}" has no results`));
+  }
+  await page.click('#heroQ-res .chip');
+  st = await state(page);
+  ok(st.value === chips[0] && st.focused && st.open && (await ids(page)).length > 0 && st.clearShown, label(`clicking a suggestion searches it ${JSON.stringify(st)}`));
+  await page.click('.s-clear');
+  await page.evaluate(() => document.activeElement.blur());
+  await settle(page);
+  await page.focus('#heroQ');
+  await page.keyboard.press('ArrowDown');
+  await page.keyboard.press('Enter');
+  ok((await state(page)).value === chips[0], label('arrow + Enter picks the first suggestion'));
+  await page.click('.s-clear');
+  await page.evaluate(() => document.activeElement.blur());
+  await settle(page);
 
   // type, find, clear with ×
   await page.type('#heroQ', words.first);
@@ -174,11 +201,11 @@ async function searchBoxChecks(page, tag, words) {
   await page.focus('#heroQ');
   await page.click('#heroQ-res [data-act="clear-recent"]');
   st = await state(page);
-  ok(!st.open, label('clearing the history closes the list'));
+  ok((await ids(page)).length === 0, label('clearing the history empties the recent items'));
   await page.evaluate(() => document.activeElement.blur());
   await settle(page);
   await page.focus('#heroQ');
-  ok(!(await state(page)).open, label('no history after clearing it'));
+  ok((await ids(page)).length === 0, label('no history after clearing it'));
 
   await page.evaluate(() => { document.activeElement.blur(); });
 }
@@ -205,7 +232,7 @@ async function noStorageChecks(page) {
   await p2.evaluate(() => document.activeElement.blur());
   await settle(p2);
   await p2.focus('#heroQ');
-  ok(!(await state(p2)).open, 'no storage: no history list, no error');
+  ok((await ids(p2)).length === 0, 'no storage: no history items, no error');
   ok(errs2.length === 0, `no storage: page errors ${errs2.slice(0, 2)}`);
   await p2.close();
 }
