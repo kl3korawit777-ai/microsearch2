@@ -53,7 +53,7 @@ export function startTypingHint(root) {
   if (!list.length) return;
 
   let timer = 0;
-  let idle = !inp.value && document.activeElement !== inp; // empty and not focused
+  let idle = !inp.value; // the hint plays while the field is empty, focused or not
   let visible = !document.hidden;
   let inView = true;
   let i = 0;
@@ -74,9 +74,9 @@ export function startTypingHint(root) {
     n = chars.length; render();
     wrap.classList.add('hint-static');
     show(idle);
-    const onStill = () => show(!inp.value && document.activeElement !== inp);
-    inp.addEventListener('focus', onStill); inp.addEventListener('blur', onStill); inp.addEventListener('input', onStill);
-    stopCurrent = () => { inp.removeEventListener('focus', onStill); inp.removeEventListener('blur', onStill); inp.removeEventListener('input', onStill); wrap.classList.remove('hint-on', 'hint-static'); stopCurrent = null; };
+    const onStill = () => show(!inp.value);
+    inp.addEventListener('input', onStill); inp.addEventListener('ms-clear', onStill);
+    stopCurrent = () => { inp.removeEventListener('input', onStill); inp.removeEventListener('ms-clear', onStill); wrap.classList.remove('hint-on', 'hint-static'); stopCurrent = null; };
     return;
   }
 
@@ -96,13 +96,10 @@ export function startTypingHint(root) {
   const run = () => { clearTimer(); if (idle && visible && inView) { show(true); later(tick, phase === 'type' && n === 0 ? TIMING.type : TIMING.type); } };
   const restart = () => { clearTimer(); i = 0; chars = graphemes(list[0].text); n = 0; phase = 'type'; render(); };
 
-  const onFocus = () => { idle = false; clearTimer(); show(false); };
-  const onBlur = () => {
-    if (inp.value) return;
-    later(() => { idle = true; restart(); run(); }, TIMING.resume);
-  };
+  // Typing hides the hint; when the field is empty again (deleted, or cleared with x) it starts over.
   const onInput = () => {
     if (inp.value) { idle = false; clearTimer(); show(false); }
+    else if (!idle) { idle = true; restart(); later(run, TIMING.resume); }
   };
   const onVis = () => {
     visible = !document.hidden;
@@ -113,16 +110,14 @@ export function startTypingHint(root) {
     if (!inView) clearTimer(); else run();
   }) : null;
 
-  inp.addEventListener('focus', onFocus);
-  inp.addEventListener('blur', onBlur);
   inp.addEventListener('input', onInput);
+  inp.addEventListener('ms-clear', onInput);
   document.addEventListener('visibilitychange', onVis);
   if (io) io.observe(wrap);
   stopCurrent = () => {
     clearTimer();
-    inp.removeEventListener('focus', onFocus);
-    inp.removeEventListener('blur', onBlur);
     inp.removeEventListener('input', onInput);
+    inp.removeEventListener('ms-clear', onInput);
     document.removeEventListener('visibilitychange', onVis);
     if (io) io.disconnect();
     wrap.classList.remove('hint-on');

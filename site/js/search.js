@@ -112,7 +112,7 @@ export function wireSearch(root, onGo) {
         : `<p>${esc(T('noResult', { q }))}</p>`;
       open();
     };
-    const clear = () => { inp.value = ''; sync(); close(); items = []; count = 0; active = -1; inp.focus(); };
+    const clear = () => { inp.value = ''; inp.dispatchEvent(new Event('ms-clear')); sync(); close(); items = []; count = 0; active = -1; inp.focus(); };
 
     // Thai typed through an IME: wait until the composition ends before searching.
     inp.addEventListener('compositionstart', () => { composing = true; });

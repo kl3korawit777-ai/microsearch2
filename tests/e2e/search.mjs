@@ -278,24 +278,24 @@ async function hintChecks(browserRef) {
   const distinct = new Set(seen);
   ok(distinct.size >= 3 && seen.some((t) => t.length > 0), `hint: text changes within 3 s (${distinct.size} different values)`);
   ok(seen.every((t) => !COMBINING.test(t)), 'hint: Thai text never starts on a vowel or tone mark');
-  await pg.click('.s-hint-pre').catch(() => {});
   await pg.click('#heroQ'); // clicking over the animated text lands in the field
   ok(await pg.evaluate(() => document.activeElement.id === 'heroQ'), 'hint: click focuses the field');
-  ok(!(await hintOn(pg)), 'hint: hidden once the field is focused');
-  const frozen = await hintText(pg);
-  await new Promise((r) => setTimeout(r, 400));
-  ok((await hintText(pg)) === frozen, 'hint: animation stopped while focused');
+  ok(await hintOn(pg), 'hint: keeps playing while the focused field is empty');
+  ok(new Set(await sample(pg, 2600)).size >= 2, 'hint: still animating after the field is focused');
   await pg.keyboard.type('bacil');
   ok((await ids(pg)).includes('bacillus-subtilis'), 'hint: normal search still works after the hint');
-  ok(!(await hintOn(pg)), 'hint: stays hidden while there is text');
+  ok(!(await hintOn(pg)), 'hint: hidden while there is text');
   await pg.click('.s-clear');
-  await pg.evaluate(() => document.activeElement.blur());
   await new Promise((r) => setTimeout(r, 900));
-  ok(!(await hintOn(pg)), 'hint: waits before coming back after blur');
+  ok(!(await hintOn(pg)), 'hint: waits before coming back after the field is cleared');
   await new Promise((r) => setTimeout(r, 1500));
-  ok(await hintOn(pg), 'hint: back after blur with an empty field');
-  const again = new Set(await sample(pg, 3500)); // long enough to cross a 1.6 s hold even for a short name
-  ok(again.size >= 2, 'hint: animating again after blur');
+  ok(await hintOn(pg), 'hint: back once the field is empty again');
+  ok(new Set(await sample(pg, 3500)).size >= 2, 'hint: animating again after clearing'); // long enough to cross a 1.6 s hold
+  await pg.keyboard.type('x');
+  ok(!(await hintOn(pg)), 'hint: hidden again by typing');
+  await pg.keyboard.press('Backspace');
+  await new Promise((r) => setTimeout(r, 1900));
+  ok(await hintOn(pg), 'hint: back after deleting the text by hand');
 
   // leaving the home page stops every timer
   await pg.evaluate(() => { location.hash = 'aedes-aegypti'; });
