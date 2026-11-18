@@ -150,6 +150,7 @@
     ]
   ],
   "synonymOf": "Synonym",
+  "searchHintPre": "Try",
   "searchClear": "Clear search",
   "searchCount": "{n} species found",
   "searchCountTop": "{n} species found, showing the top {m}",

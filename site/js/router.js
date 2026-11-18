@@ -14,6 +14,7 @@ import { viewSpecies } from './views/species.js';
 import { viewSources } from './views/sources.js';
 import { viewNotFound } from './views/notfound.js';
 import { wireSearch } from './search.js';
+import { startTypingHint } from './typing-hint.js';
 import { closeMenu } from './chrome.js';
 
 const view = document.getElementById('view');
@@ -85,6 +86,7 @@ export async function render(keepFocus) {
     if (v) v.style.animation = 'none';
   }
   wireSearch(view, goTo);
+  startTypingHint(view, T('searchHintPre')); // also stops the animation when the page has no home search box
   document.documentElement.setAttribute('data-ready', r.path);
 }
 

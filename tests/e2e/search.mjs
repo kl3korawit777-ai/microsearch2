@@ -242,6 +242,100 @@ async function noStorageChecks(page) {
   await p2.close();
 }
 
+// ---------------------------------------------------------------- typing hint animation
+const THAI = /[\u0E00-\u0E7F]/;
+const hintText = (page) => page.$eval('.s-hint-txt', (e) => e.textContent);
+const hintOn = (page) => page.$eval('#heroQ', (i) => i.closest('.search').classList.contains('hint-on'));
+async function sample(page, ms, every = 60) {
+  const seen = [];
+  const end = Date.now() + ms;
+  while (Date.now() < end) { seen.push(await hintText(page)); await new Promise((r) => setTimeout(r, every)); }
+  return seen;
+}
+// A Thai text that is cut off must end on a whole character: no sample may start with a vowel or tone mark.
+const COMBINING = /^[\u0E31\u0E34-\u0E3A\u0E47-\u0E4E]/;
+
+async function hintChecks(browserRef) {
+  const open = async (opts = {}) => {
+    const pg = await browserRef.newPage();
+    await pg.setViewport({ width: opts.width || 1280, height: 900 });
+    if (opts.reduced) await pg.emulateMediaFeatures([{ name: 'prefers-reduced-motion', value: 'reduce' }]);
+    const e = [];
+    pg.on('pageerror', (x) => e.push(x.message));
+    pg.on('console', (m) => { if (m.type() === 'error' && (m.location()?.url || '').startsWith(base)) e.push(m.text()); });
+    await pg.goto(`${base}/#home`, { waitUntil: 'load' });
+    await pg.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home');
+    return { pg, e };
+  };
+
+  // Thai: text really changes, hint disappears on focus, search still works, comes back after blur
+  let { pg, e } = await open();
+  ok(await hintOn(pg), 'hint: shown on a fresh empty home page');
+  ok(await pg.$eval('.s-hint', (h) => h.getAttribute('aria-hidden') === 'true' && getComputedStyle(h).pointerEvents === 'none'), 'hint: aria-hidden and pointer-events none');
+  ok((await pg.$eval('#heroQ', (i) => i.getAttribute('aria-label'))) !== null, 'hint: input has a fixed aria-label');
+  ok((await pg.$eval('.s-hint-pre', (h) => h.textContent)).startsWith('ลองค้นหา'), 'hint: Thai lead-in text');
+  const seen = await sample(pg, 3000);
+  const distinct = new Set(seen);
+  ok(distinct.size >= 4 && seen.some((t) => t.length > 0), `hint: text changes within 3 s (${distinct.size} different values)`);
+  ok(seen.every((t) => !COMBINING.test(t)), 'hint: Thai text never starts on a vowel or tone mark');
+  await pg.click('.s-hint-pre').catch(() => {});
+  await pg.click('#heroQ'); // clicking over the animated text lands in the field
+  ok(await pg.evaluate(() => document.activeElement.id === 'heroQ'), 'hint: click focuses the field');
+  ok(!(await hintOn(pg)), 'hint: hidden once the field is focused');
+  const frozen = await hintText(pg);
+  await new Promise((r) => setTimeout(r, 400));
+  ok((await hintText(pg)) === frozen, 'hint: animation stopped while focused');
+  await pg.keyboard.type('bacil');
+  ok((await ids(pg)).includes('bacillus-subtilis'), 'hint: normal search still works after the hint');
+  ok(!(await hintOn(pg)), 'hint: stays hidden while there is text');
+  await pg.click('.s-clear');
+  await pg.evaluate(() => document.activeElement.blur());
+  await new Promise((r) => setTimeout(r, 900));
+  ok(!(await hintOn(pg)), 'hint: waits before coming back after blur');
+  await new Promise((r) => setTimeout(r, 1500));
+  ok(await hintOn(pg), 'hint: back after blur with an empty field');
+  const again = new Set(await sample(pg, 1500));
+  ok(again.size >= 2, 'hint: animating again after blur');
+
+  // leaving the home page stops every timer
+  await pg.evaluate(() => { location.hash = 'aedes-aegypti'; });
+  await pg.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'aedes-aegypti');
+  ok(!(await pg.evaluate(async () => (await import('./js/typing-hint.js')).hintActive())), 'hint: no animation left after leaving home');
+  await new Promise((r) => setTimeout(r, 1200));
+  ok(e.length === 0, `hint: no console errors after leaving home ${e.slice(0, 2)}`);
+
+  // English: no Thai anywhere in the hint
+  await pg.evaluate(() => { location.hash = 'home'; });
+  await pg.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home');
+  await pg.click('[data-lang="en"]');
+  await pg.waitForFunction(() => document.documentElement.lang === 'en');
+  await pg.waitForSelector('.search.hint-on');
+  const enSeen = await sample(pg, 6000, 80);
+  const enPre = await pg.$eval('.s-hint-pre', (h) => h.textContent);
+  ok(enPre === 'Try ' && new Set(enSeen).size >= 4, `hint [en]: lead-in "${enPre}", ${new Set(enSeen).size} values`);
+  ok(![enPre, ...enSeen].some((t) => THAI.test(t)), 'hint [en]: no Thai text');
+  await pg.close();
+
+  // reduced motion: still text, never changes
+  ({ pg, e } = await open({ reduced: true }));
+  const still = await hintText(pg);
+  await new Promise((r) => setTimeout(r, 2500));
+  ok(still.length > 0 && (await hintText(pg)) === still, `hint: reduced motion shows fixed text "${still}"`);
+  ok(await hintOn(pg), 'hint: reduced motion text is visible');
+  await pg.close();
+
+  // phone width: the text stays inside the field
+  ({ pg } = await open({ width: 390 }));
+  await pg.waitForFunction(() => document.querySelector('.s-hint-txt').textContent.length > 8, { timeout: 8000 }).catch(() => {});
+  const fit = await pg.evaluate(() => {
+    const box = document.querySelector('#heroQ').getBoundingClientRect();
+    const h = document.querySelector('.s-hint').getBoundingClientRect();
+    return { inside: h.left >= box.left && h.right <= box.right, over: document.documentElement.scrollWidth > innerWidth };
+  });
+  ok(fit.inside && !fit.over, `hint: fits at 390 px ${JSON.stringify(fit)}`);
+  await pg.close();
+}
+
 // ---------------------------------------------------------------- group filters (reference implementation)
 const TRAIT = { shapeF: 'shape', envF: 'env' };
 const MERGE = { shapeF: { curvedspiral: ['curved', 'spiral'] }, envF: { hot: ['hot', 'hotacid'] } };
@@ -360,6 +454,7 @@ await page.evaluate(() => { document.getElementById('heroQ').value = ''; });
 await searchBoxChecks(page, '[th]', { first: 'เห็ด', second: 'ยุง', keep: 1 });
 
 await noStorageChecks(page);
+await hintChecks(browser);
 await filterChecks(page);
 
 // English mode: same queries work, and the UI shows no Thai

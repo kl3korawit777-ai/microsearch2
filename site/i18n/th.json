@@ -150,6 +150,7 @@
     ]
   ],
   "synonymOf": "ชื่อพ้อง",
+  "searchHintPre": "ลองค้นหา",
   "searchClear": "ล้างคำค้น",
   "searchCount": "พบ {n} ชนิด",
   "searchCountTop": "พบ {n} ชนิด แสดง {m} อันดับแรก",
