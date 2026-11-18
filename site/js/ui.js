@@ -97,5 +97,5 @@ export const footer = () => `<footer class="foot" id="foot"><p>${T('taxSource')}
 
 export function searchBox(id, cls, placeholder) {
   return `<div class="search ${cls}" data-search><label for="${id}" class="sr">${T('searchLabel')}</label>${searchIcon(20)}` +
-    `<input id="${id}" type="search" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="${id}-res" placeholder="${esc(placeholder)}"><div class="results" id="${id}-res" role="listbox" hidden></div></div>`;
+    `<input id="${id}" type="search" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="${id}-res" placeholder="${esc(placeholder)}"><button type="button" class="s-clear" hidden aria-label="${esc(T('searchClear'))}"><span aria-hidden="true">×</span></button><div class="results" id="${id}-res" role="listbox" hidden></div></div>`;
 }

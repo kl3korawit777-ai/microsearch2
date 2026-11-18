@@ -14,4 +14,6 @@ export const S = {
   tab: 'traits',
   slide: {}, // current picture per species id
   focusSearch: false,
+  query: '',            // home search text, kept until reload so going back finds it again
+  restoreSearch: false, // a species was opened from the search: refocus the field when home returns
 };

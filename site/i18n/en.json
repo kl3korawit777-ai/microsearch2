@@ -150,6 +150,11 @@
     ]
   ],
   "synonymOf": "Synonym",
+  "searchClear": "Clear search",
+  "searchCount": "{n} species found",
+  "searchCountTop": "{n} species found, showing the top {m}",
+  "searchRecent": "Recently opened",
+  "searchRecentClear": "Clear history",
   "imgBy": "Photo:",
   "imgOn": "View the original on Wikimedia Commons",
   "imgCreditsH": "Image credits",

@@ -83,6 +83,133 @@ async function timing(page, tag) {
   ok(max < LIMIT_MS, `${tag}: slowest search ${max.toFixed(1)} ms >= ${LIMIT_MS} ms`);
 }
 
+// ---------------------------------------------------------------- hero search box: clear, retype, recent
+const ids = (page) => page.$$eval('#heroQ-res a', (a) => a.map((x) => x.getAttribute('href').slice(1)));
+const state = (page) => page.evaluate(() => ({
+  value: document.getElementById('heroQ').value,
+  focused: document.activeElement?.id === 'heroQ',
+  open: !document.getElementById('heroQ-res').hidden,
+  clearShown: !document.querySelector('.s-clear').hidden,
+}));
+const settle = (page) => new Promise((r) => setTimeout(r, 250)); // the list closes 120 ms after a blur
+
+async function searchBoxChecks(page, tag, words) {
+  const label = (m) => `${tag} box: ${m}`;
+  await page.evaluate(() => { try { localStorage.removeItem('ms2.recent'); } catch { /* none */ } });
+  await page.evaluate(() => {
+    const inp = document.getElementById('heroQ');
+    inp.value = ''; // earlier checks left text behind
+    inp.dispatchEvent(new Event('input', { bubbles: true }));
+    inp.blur();
+  });
+  await settle(page);
+  await page.click('#heroQ');
+  let st = await state(page);
+  ok(st.value === '' && !st.open && !st.clearShown, label('empty field with no history shows no list and no × button'));
+
+  // type, find, clear with ×
+  await page.type('#heroQ', words.first);
+  st = await state(page);
+  ok(st.open && (await ids(page)).length > 0 && st.clearShown, label(`"${words.first}" gives results and the × button`));
+  const box = await page.$eval('.s-clear', (b) => { const r = b.getBoundingClientRect(); return [r.width, r.height, b.getAttribute('aria-label')]; });
+  ok(box[0] >= 44 && box[1] >= 44 && box[2], label(`× button is ${box[0]}x${box[1]} with label "${box[2]}"`));
+  ok(await page.$eval('#heroQ-res .r-head', (e) => /\d/.test(e.textContent)), label('result list starts with a count line'));
+  await page.click('.s-clear');
+  st = await state(page);
+  ok(st.value === '' && st.focused && !st.open && !st.clearShown, label(`× clears, keeps focus, closes the list ${JSON.stringify(st)}`));
+
+  // retype right away
+  await page.keyboard.type(words.second);
+  const secondIds = await ids(page);
+  ok(secondIds.includes('aedes-aegypti'), label(`"${words.second}" lists aedes-aegypti: ${secondIds}`));
+  ok(await page.$eval('#heroQ-res mark', (m) => m.textContent.length > 0).catch(() => false), label('matching text is wrapped in <mark>'));
+
+  // delete one character at a time down to two characters, results follow
+  const firstIds = secondIds;
+  let changed = false;
+  while ((await state(page)).value.length > words.keep) {
+    await page.keyboard.press('Backspace');
+    const now = await ids(page);
+    if (JSON.stringify(now) !== JSON.stringify(firstIds)) changed = true;
+    ok(now.length > 0 || (await state(page)).value.length === 0, label('results stay in step while deleting'));
+  }
+  ok(changed, label('deleting characters changed the results'));
+  const shortQ = (await state(page)).value;
+  ok(shortQ.length === words.keep && (await ids(page)).length > 0, label(`left with "${shortQ}": ${(await ids(page)).length} results`));
+
+  // Esc clears and keeps focus; Esc again closes nothing more
+  await page.keyboard.press('Escape');
+  st = await state(page);
+  ok(st.value === '' && st.focused && !st.open, label('Esc clears the text, keeps focus'));
+
+  // choose a species, go back, the query is still there and the list reopens
+  await page.keyboard.type(words.second);
+  await page.click('#heroQ-res a[href="#aedes-aegypti"]');
+  await page.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'aedes-aegypti');
+  await page.goBack();
+  await page.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home');
+  st = await state(page);
+  ok(st.value === words.second && st.focused && st.open, label(`back to home keeps "${words.second}", focus and list ${JSON.stringify(st)}`));
+  ok((await ids(page)).includes('aedes-aegypti'), label('the earlier list is back'));
+
+  // empty field + focus: recently opened
+  await page.click('.s-clear');
+  await page.evaluate(() => document.activeElement.blur());
+  await settle(page);
+  await page.focus('#heroQ');
+  st = await state(page);
+  ok(st.open && (await ids(page))[0] === 'aedes-aegypti', label(`empty + focus lists recent: ${await ids(page)}`));
+  ok((await page.$eval('#heroQ-res .r-head', (e) => e.textContent)).length > 0, label('recent list has a heading'));
+  await page.keyboard.press('ArrowDown');
+  ok(await page.$eval('#heroQ-res a.active', (a) => a.getAttribute('href') === '#aedes-aegypti'), label('arrow key selects a recent item'));
+  await page.keyboard.press('Enter');
+  await page.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'aedes-aegypti');
+  await page.goBack();
+  await page.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home');
+
+  // clear history (the field is already empty after the Enter on a recent item)
+  ok((await state(page)).value === '', label('field stays empty after opening a recent item'));
+  await page.evaluate(() => document.activeElement.blur());
+  await settle(page);
+  await page.focus('#heroQ');
+  await page.click('#heroQ-res [data-act="clear-recent"]');
+  st = await state(page);
+  ok(!st.open, label('clearing the history closes the list'));
+  await page.evaluate(() => document.activeElement.blur());
+  await settle(page);
+  await page.focus('#heroQ');
+  ok(!(await state(page)).open, label('no history after clearing it'));
+
+  await page.evaluate(() => { document.activeElement.blur(); });
+}
+
+// localStorage that throws on every call: the box still searches, opens species, and shows no history
+async function noStorageChecks(page) {
+  const p2 = await page.browser().newPage();
+  const errs2 = [];
+  p2.on('pageerror', (e) => errs2.push(e.message));
+  await p2.evaluateOnNewDocument(() => {
+    const boom = () => { throw new Error('storage blocked'); };
+    Storage.prototype.getItem = boom; Storage.prototype.setItem = boom; Storage.prototype.removeItem = boom;
+  });
+  await p2.setViewport({ width: 1280, height: 900 });
+  await p2.goto(`${base}/#home`, { waitUntil: 'load' });
+  await p2.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home');
+  await p2.type('#heroQ', 'ยุง');
+  ok((await ids(p2)).includes('aedes-aegypti'), 'no storage: search still lists results');
+  await p2.click('#heroQ-res a[href="#aedes-aegypti"]');
+  await p2.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'aedes-aegypti');
+  await p2.goBack();
+  await p2.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home');
+  await p2.click('.s-clear');
+  await p2.evaluate(() => document.activeElement.blur());
+  await settle(p2);
+  await p2.focus('#heroQ');
+  ok(!(await state(p2)).open, 'no storage: no history list, no error');
+  ok(errs2.length === 0, `no storage: page errors ${errs2.slice(0, 2)}`);
+  await p2.close();
+}
+
 // ---------------------------------------------------------------- group filters (reference implementation)
 const TRAIT = { shapeF: 'shape', envF: 'env' };
 const MERGE = { shapeF: { curvedspiral: ['curved', 'spiral'] }, envF: { hot: ['hot', 'hotacid'] } };
@@ -198,7 +325,9 @@ await cdp.send('Emulation.setCPUThrottlingRate', { rate: 6 }); // a slow phone
 await timing(page, 'search timing, CPU 6x slower');
 await cdp.send('Emulation.setCPUThrottlingRate', { rate: 1 });
 await page.evaluate(() => { document.getElementById('heroQ').value = ''; });
+await searchBoxChecks(page, '[th]', { first: 'เห็ด', second: 'ยุง', keep: 1 });
 
+await noStorageChecks(page);
 await filterChecks(page);
 
 // English mode: same queries work, and the UI shows no Thai
@@ -207,6 +336,8 @@ await page.waitForFunction(() => document.documentElement.lang === 'en');
 await page.evaluate(() => { document.documentElement.removeAttribute('data-ready'); location.hash = 'home'; });
 await page.waitForFunction(() => document.documentElement.getAttribute('data-ready') === 'home');
 await runQueries(page, '[en]');
+await searchBoxChecks(page, '[en]', { first: 'mushroom', second: 'mosquito', keep: 2 });
+await timing(page, 'search timing [en]');
 ok(errs.length === 0, `errors: ${errs.slice(0, 3).join(' | ')}`);
 await browser.close();
 server.close();

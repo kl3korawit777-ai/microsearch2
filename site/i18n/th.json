@@ -150,6 +150,11 @@
     ]
   ],
   "synonymOf": "ชื่อพ้อง",
+  "searchClear": "ล้างคำค้น",
+  "searchCount": "พบ {n} ชนิด",
+  "searchCountTop": "พบ {n} ชนิด แสดง {m} อันดับแรก",
+  "searchRecent": "เปิดดูล่าสุด",
+  "searchRecentClear": "ล้างประวัติ",
   "imgBy": "ภาพ:",
   "imgOn": "ดูต้นฉบับที่ Wikimedia Commons",
   "imgCreditsH": "เครดิตรูปภาพ",

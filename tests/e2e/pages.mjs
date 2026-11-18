@@ -263,6 +263,8 @@ async function interactions(index, meta) {
   await page.waitForFunction(() => /^#bacillus-/.test(location.hash) && document.documentElement.getAttribute('data-ready') === location.hash.slice(1));
   ok((await text('h1')).startsWith('Bacillus'), 'Enter opens the first result');
   await visit(page, 'home');
+  ok((await page.$eval('#heroQ', (e) => e.value)) === 'bacillus', 'home search box keeps the last query');
+  await page.click('.s-clear');
   await page.type('#heroQ', 'ยีสต์');
   await page.waitForSelector('#heroQ-res a');
   ok((await page.$$eval('#heroQ-res a', (a) => a.map((x) => x.textContent))).some((t) => /Saccharomyces/.test(t)), 'Thai search finds Saccharomyces');
