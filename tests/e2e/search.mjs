@@ -124,9 +124,14 @@ async function searchBoxChecks(page, tag, words) {
   st = await state(page);
   ok(st.value === chips[0] && st.focused && st.open && (await ids(page)).length > 0 && st.clearShown, label(`clicking a suggestion searches it ${JSON.stringify(st)}`));
   await page.click('.s-clear');
-  await page.evaluate(() => document.activeElement.blur());
-  await settle(page);
-  await page.focus('#heroQ');
+  ok(!(await state(page)).open, label('list closed after ×'));
+  await page.click('#heroQ'); // field still focused: a click reopens the suggestions
+  ok((await state(page)).open && (await page.$$('#heroQ-res .chip')).length > 0, label('clicking the focused empty field reopens the list'));
+  await page.keyboard.press('Escape');
+  await page.keyboard.press('Escape');
+  ok(!(await state(page)).open, label('Esc closes the list'));
+  await page.keyboard.press('ArrowDown');
+  ok((await state(page)).open, label('arrow down reopens a closed list'));
   await page.keyboard.press('ArrowDown');
   await page.keyboard.press('Enter');
   ok((await state(page)).value === chips[0], label('arrow + Enter picks the first suggestion'));

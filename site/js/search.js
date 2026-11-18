@@ -119,8 +119,10 @@ export function wireSearch(root, onGo) {
     inp.addEventListener('compositionend', () => { composing = false; sync(); draw(); });
     inp.addEventListener('input', (e) => { sync(); if (!composing && !e.isComposing) draw(); });
     inp.addEventListener('focus', draw);
+    inp.addEventListener('click', () => { if (box.hidden) draw(); }); // already focused (e.g. after ×): clicking reopens the list
     inp.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowDown' && count) { active = (active + 1) % count; mark(); e.preventDefault(); }
+      if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && box.hidden) { draw(); e.preventDefault(); }
+      else if (e.key === 'ArrowDown' && count) { active = (active + 1) % count; mark(); e.preventDefault(); }
       else if (e.key === 'ArrowUp' && count) { active = (active - 1 + count) % count; mark(); e.preventDefault(); }
       else if (e.key === 'Enter' && active >= 0) { box.querySelectorAll('[role="option"]')[active]?.click(); e.preventDefault(); }
       else if (e.key === 'Escape') { e.preventDefault(); if (inp.value) clear(); else close(); }
