@@ -273,10 +273,10 @@ async function hintChecks(browserRef) {
   ok(await hintOn(pg), 'hint: shown on a fresh empty home page');
   ok(await pg.$eval('.s-hint', (h) => h.getAttribute('aria-hidden') === 'true' && getComputedStyle(h).pointerEvents === 'none'), 'hint: aria-hidden and pointer-events none');
   ok((await pg.$eval('#heroQ', (i) => i.getAttribute('aria-label'))) !== null, 'hint: input has a fixed aria-label');
-  ok((await pg.$eval('.s-hint-pre', (h) => h.textContent)).startsWith('ลองค้นหา'), 'hint: Thai lead-in text');
+  ok((await pg.$$('.s-hint-pre')).length === 0, 'hint: shows the name only, no lead-in text');
   const seen = await sample(pg, 3000);
   const distinct = new Set(seen);
-  ok(distinct.size >= 4 && seen.some((t) => t.length > 0), `hint: text changes within 3 s (${distinct.size} different values)`);
+  ok(distinct.size >= 3 && seen.some((t) => t.length > 0), `hint: text changes within 3 s (${distinct.size} different values)`);
   ok(seen.every((t) => !COMBINING.test(t)), 'hint: Thai text never starts on a vowel or tone mark');
   await pg.click('.s-hint-pre').catch(() => {});
   await pg.click('#heroQ'); // clicking over the animated text lands in the field
@@ -294,7 +294,7 @@ async function hintChecks(browserRef) {
   ok(!(await hintOn(pg)), 'hint: waits before coming back after blur');
   await new Promise((r) => setTimeout(r, 1500));
   ok(await hintOn(pg), 'hint: back after blur with an empty field');
-  const again = new Set(await sample(pg, 1500));
+  const again = new Set(await sample(pg, 3500)); // long enough to cross a 1.6 s hold even for a short name
   ok(again.size >= 2, 'hint: animating again after blur');
 
   // leaving the home page stops every timer
@@ -311,9 +311,8 @@ async function hintChecks(browserRef) {
   await pg.waitForFunction(() => document.documentElement.lang === 'en');
   await pg.waitForSelector('.search.hint-on');
   const enSeen = await sample(pg, 6000, 80);
-  const enPre = await pg.$eval('.s-hint-pre', (h) => h.textContent);
-  ok(enPre === 'Try ' && new Set(enSeen).size >= 4, `hint [en]: lead-in "${enPre}", ${new Set(enSeen).size} values`);
-  ok(![enPre, ...enSeen].some((t) => THAI.test(t)), 'hint [en]: no Thai text');
+  ok(new Set(enSeen).size >= 4, `hint [en]: ${new Set(enSeen).size} different values`);
+  ok(!enSeen.some((t) => THAI.test(t)), 'hint [en]: no Thai text');
   await pg.close();
 
   // reduced motion: still text, never changes

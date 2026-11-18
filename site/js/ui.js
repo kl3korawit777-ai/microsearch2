@@ -98,5 +98,5 @@ export const footer = () => `<footer class="foot" id="foot"><p>${T('taxSource')}
 export function searchBox(id, cls, placeholder) {
   return `<div class="search ${cls}" data-search><label for="${id}" class="sr">${T('searchLabel')}</label>${searchIcon(20)}` +
     `<input id="${id}" type="search" autocomplete="off" role="combobox" aria-label="${esc(T('searchLabel'))}" aria-expanded="false" aria-controls="${id}-res" placeholder="${esc(placeholder)}">` +
-    (cls.includes('big') ? '<span class="s-hint" aria-hidden="true"><span class="s-hint-pre"></span><span class="s-hint-txt"></span></span>' : '') + `<button type="button" class="s-clear" hidden aria-label="${esc(T('searchClear'))}"><span aria-hidden="true">×</span></button><div class="results" id="${id}-res" role="listbox" hidden></div></div>`;
+    (cls.includes('big') ? '<span class="s-hint" aria-hidden="true"><span class="s-hint-txt"></span></span>' : '') + `<button type="button" class="s-clear" hidden aria-label="${esc(T('searchClear'))}"><span aria-hidden="true">×</span></button><div class="results" id="${id}-res" role="listbox" hidden></div></div>`;
 }

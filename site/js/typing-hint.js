@@ -1,4 +1,4 @@
-// Typing animation shown over the empty home search box: "Try <name>|" typed, held, erased, next name.
+// Typing animation shown over the empty home search box: the species name typed, held, erased, next name.
 // It is an aria-hidden overlay (see searchBox in ui.js), never a placeholder, so the real field is untouched.
 import { all, groups } from './data.js';
 import { isEn } from './ui.js';
@@ -42,17 +42,15 @@ const graphemes = (text) => {
 export const hintActive = () => !!stopCurrent;
 
 // Call after every render. Stops any earlier animation, then starts one if the home search box is on the page.
-export function startTypingHint(root, label) {
+export function startTypingHint(root) {
   if (stopCurrent) stopCurrent();
   const inp = root.querySelector('#heroQ');
   const wrap = inp?.closest('.search');
   const hint = wrap?.querySelector('.s-hint');
   if (!inp || !hint) return;
-  const preEl = hint.querySelector('.s-hint-pre');
   const txtEl = hint.querySelector('.s-hint-txt');
   const list = entries();
   if (!list.length) return;
-  preEl.textContent = `${label} `;
 
   let timer = 0;
   let idle = !inp.value && document.activeElement !== inp; // empty and not focused

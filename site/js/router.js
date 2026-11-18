@@ -86,7 +86,7 @@ export async function render(keepFocus) {
     if (v) v.style.animation = 'none';
   }
   wireSearch(view, goTo);
-  startTypingHint(view, T('searchHintPre')); // also stops the animation when the page has no home search box
+  startTypingHint(view); // also stops the animation when the page has no home search box
   document.documentElement.setAttribute('data-ready', r.path);
 }
 
