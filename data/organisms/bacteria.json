@@ -809,15 +809,15 @@
       {
         "url": "images/bacillus-subtilis/1.webp",
         "url_small": "images/bacillus-subtilis/1-600.webp",
-        "author": "Allonweiner at English Wikipedia",
-        "license": "Public domain",
-        "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Bacillus_subtilis.jpg",
-        "title": "File:Bacillus subtilis.jpg",
-        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bacillus_subtilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "author": "Riraq25",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacillus_subtilis_Gram_stain.jpg",
+        "title": "File:Bacillus subtilis Gram stain.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Bacillus_subtilis_Gram_stain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "width": 1200,
-        "height": 900,
-        "kind": "photo"
+        "height": 886,
+        "kind": "micrograph"
       },
       {
         "url": "images/bacillus-subtilis/2.webp",
